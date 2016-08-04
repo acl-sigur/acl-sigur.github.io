@@ -43,10 +43,12 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 <table>
 <thead>
 <tr>
-<th><b>Name</th><th><b>Affiliation</b></th>
-<th><b>Country</b></th>
-<th><b>Research interests</b></th><th><b>Languages</b></th>
-<th><b>More...</b></th>
+<th>Name</th>
+<th>Affiliation</th>
+<th>Country</th>
+<th>Research interests</th>
+<th>Languages</th>
+<th>More...</th>
 </tr>
 </thead>
 <tbody>
@@ -403,6 +405,7 @@ evaluation, infrastructure, MT, general linguistics
 </tbody>
 </table>
 </center>
+
 
 ## Board
 
