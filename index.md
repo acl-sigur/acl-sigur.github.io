@@ -73,6 +73,8 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 | Mus Nikolett | Research Institute for Linguistics,Hungarian Academy of Sciences,Department of Finno-Ugric and Historical Linguistics |  | the syntax of interrogatives, nonverbal predicates,copula constructions | (Tundra) Nenets, Northern Samoyedic languages, Ob-Ugric languages, Saami |  |
 | Toldova Svetlana | National Research University "Higher School of Economics" | associate professor | Corpora on Under-resoursed Finno-Ugric languages, pos-tagging | Mordvin, Komi, Udmurt (Besermyan), Mari, Khanty |  |
 | Moshagen, Sjur Nørstebø | UiT Norgga árktalaš universitehta | Project manager, head of the Divvun group | Morphological analysis, NLP, proofing tools esp. spellers, evaluation, infrastructure, MT, general linguistics  | Sámi languages, Finnic languages, all | [Divvun group homepage](http://divvun.no) |
+
+
 <!--
 |  |  |  |  |  | [homepage title](http://url) |
 -->
@@ -80,13 +82,11 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 
 ## Board
 
----
-President: "Tommi A. Pirinen, Hamburg Universität, Germany"
-"Vice president": "Veronika Vincze, Szegedi Tudományegyetem, Hungary"
-Secretary: "Francis M. Tyers, UiT Norgga árktalaš universitehta, Norway"
-Events: "Michael Rießler, Albert-Ludwigs-Universität Freiburg, Germany"
-"Community liaison": "Trond Trosterud, UiT Norgga árktalaš universitehta, Norway"
----
+* **President**:  *Tommi A. Pirinen*, Hamburg Universität, Germany
+* **Vice president**: *Veronika Vincze*, Szegedi Tudományegyetem, Hungary
+* **Secretary**: *Francis M. Tyers*, UiT Norgga árktalaš universitehta, Norway
+* **Events**: *Michael Rießler*, Albert-Ludwigs-Universität Freiburg, Germany
+* **Community liaison**: *Trond Trosterud*, UiT Norgga árktalaš universitehta, Norway
 
 ## Contact
 
