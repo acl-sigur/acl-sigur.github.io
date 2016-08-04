@@ -1,3 +1,7 @@
+---
+layout: default
+title: "ACL SIGUR Constitution"
+---
 # Constitution of ACL Special Interest Group in Uralistics
 
 ## I. STATEMENT OF PURPOSE
