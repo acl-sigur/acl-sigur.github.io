@@ -1,0 +1,10 @@
+title: 'ACL SIGUR'
+subtitle: 'Special Interest Group for Uralic Languages'
+navigation: 1
+codeurl: 'https://github.com/acl-sigur/acl-sigur.github.io'
+baseurl: ''
+highlighter: rouge
+markdown: kramdown
+show_drafts: true
+kramdown:
+    input: GFM
