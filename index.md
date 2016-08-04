@@ -410,15 +410,11 @@ evaluation, infrastructure, MT, general linguistics
 ## Board
 
 ---
-President: Tommi A. Pirinen, <span lang="de">Hamburg Universität</span>, Germany
-Vice president: Veronika Vincze, <span lang="hu">Szegedi Tudományegyetem</span>,
-                Hungary
-Secretary: Francis M. Tyers, <span lang="sme">UiT Norgga árktalaš 
-           universitehta</span>, Norway
-Events: Michael Rießler, <span lang="de">Albert-Ludwigs-Universität 
-        Freiburg</span>, Germany
-Community liaison: Trond Trosterud, <span lang="sme">UiT Norgga árktalaš 
-                   universitehta</span>, Norway
+President: "Tommi A. Pirinen, Hamburg Universität, Germany"
+"Vice president": "Veronika Vincze, Szegedi Tudományegyetem, Hungary"
+Secretary: "Francis M. Tyers, UiT Norgga árktalaš universitehta, Norway"
+Events: "Michael Rießler, Albert-Ludwigs-Universität Freiburg, Germany"
+"Community liaison": "Trond Trosterud, UiT Norgga árktalaš universitehta, Norway"
 ---
 
 ## Contact
