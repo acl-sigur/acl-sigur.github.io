@@ -38,8 +38,8 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 (no google account required).
 
 
-| Name | Affiliation | Country | Research interests | Languages |  More... | 
-|------|-------------|---------|--------------------|-----------|----------|
+| Name | Affiliation | Country | Research interests | Languages |  More... |
+| ---- | ----------- | ------- | ------------------ | --------- | -------- |
 | Tyers, Francis&nbsp;M. | UiT Norgga árktalaš universitehta | Norway | machine translation, morphological analysis, dependency grammar, treebanks, constraint grammar | Finnish, Sámi languages, Udmurt, Estonian, Nenets   
 [Francis' homepage](http://xixona.dlsi.ua.es/~fran/) |
 | Pirinen, Tommi A | Universität Hamburg | Germany | Morphology, MT, software engineering, complexity, finite states, universals | Finnish, Karelian, ...  | [Tommi’s hompage](http://www.computing.dcu.ie/~tpirinen/) |
