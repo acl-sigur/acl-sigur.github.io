@@ -416,6 +416,7 @@ Events: Michael Rießler, <span lang="de">Albert-Ludwigs-Universität
         Freiburg</span>, Germany
 Community liaison: Trond Trosterud, <span lang="sme">UiT Norgga árktalaš 
                    universitehta</span>, Norway
+---
 
 ## Contact
 
