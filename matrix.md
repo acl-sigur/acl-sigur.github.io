@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Resource matrix"
 category: Resources
 date: 2016-08-05 17:31:24
@@ -13,7 +13,7 @@ resources using linkable, downloadable and usable resources as references
 
 | Language | (group) | Orth | Keyboard | Corpora | Speech | Morph | Treebank | MT |
 | --- | :-- | --- | --- | --- | --- | --- | --- | --- |
-| Finnish |     | ??? | ??? | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3] | [+][fin-trebank-1][+][fin-treebank-2] | ???  |
+| Finnish |     | ??? | ??? | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3] | [+][fin-treebank-1][+][fin-treebank-2] | ???  |
 | Sámi} | North | ??? | ??? | ??? | ? | ?? | - | ? |
 |       | Lule  | ? | ?| ? | ?| ?| ?| ? |
 |       | South | ? | ?| ? | ?| ?| ?| ? |
