@@ -73,9 +73,12 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 | Toldova Svetlana | National Research University "Higher School of Economics" | associate professor | Corpora on Under-resoursed Finno-Ugric languages, pos-tagging | Mordvin, Komi, Udmurt (Besermyan), Mari, Khanty |  |
 | Moshagen, Sjur Nørstebø | UiT Norgga árktalaš universitehta | Project manager, head of the Divvun group | Morphological analysis, NLP, proofing tools esp. spellers, evaluation, infrastructure, MT, general linguistics  | Sámi languages, Finnic languages, all | [Divvun group homepage](http://divvun.no) |
 | Fedina, Marina | Komi Republican Academy of State Service and Administration | Corpora, dictionaries, morphology, proofing tools | Komi, all | [FU-Lab homepage](http://fu-lab.ru) |
-| Hulden, Mans | University of Colorado at Boulder | Assistant professor Morphological analysis | Finnish | |
+| Hulden, Mans | University of Colorado at Boulder | Assistant professor | Morphological analysis | Finnish | |
+| Partanen, Niko | Universität Hamburg | Germany | language documentation, sociolinguistics, dialectology | Komi, Udmurt, Karelian, Nenets, Finnish dialects | |
+| Robertson, Frankie | University of Jyväskylä Master's student | Finland | CALL | Finnish| [homepage](http://frankie.robertson.name) | 
 
 <!--
+| Name | Affiliation | Country | Research interests | Languages |  More... |
 |  |  |  |  |  | [homepage title](http://url) |
 -->
 
