@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Resource matrix"
-category: Resources
+category: resources
 date: 2016-08-05 17:31:24
 ---
 

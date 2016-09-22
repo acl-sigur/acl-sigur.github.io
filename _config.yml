@@ -2,6 +2,9 @@ title: 'ACL SIGUR'
 subtitle: 'Special Interest Group for Uralic Languages'
 navigation: 1
 codeurl: 'https://github.com/acl-sigur/acl-sigur.github.io'
+sections: [
+    ['resources', 'Resources'],
+]
 baseurl: ''
 highlighter: rouge
 markdown: kramdown
