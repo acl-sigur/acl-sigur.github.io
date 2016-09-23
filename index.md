@@ -17,15 +17,15 @@ title: "ACL SIGUR"
 ### Forthcoming events
 
 * [Third international workshop on computational linguistics for the Uralic
-   languages](#), St. Petersburg, Russia
+   languages](iwclul2017.html), St. Petersburg, Russia
 
 
 ### Past events
 
 * [Second international workshop on computational linguistics
-   for the Uralic languages 
+   for the Uralic languages
    (IWCLUL2016)](http://rgai.inf.u-szeged.hu/iwclul2016), Szeged Hungary
-* [First international workshop on computational linguistics for the Uralic 
+* [First international workshop on computational linguistics for the Uralic
    languages (IWCLUL2015)](http://gtweb.uit.no/iwclul2015/), Romssa, Norway
 
 ## Constitution
@@ -49,14 +49,14 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 | Rueter, Jack | University of Helsinki | Finland | Morphology, syntax, machine translation | Erzya, Moksha, Komi Zyrian, Võro, Livonian, Nenets, Olonets Karelian, Skolt Sami, Hill Mari, Udmurt, Ingrian, Finnish, Hungarian, Northern Sami, Inari Sami, Estonian | [Jack's homepage](http://www.ling.helsinki.fi/~rueter)
 | Kylmälä, Joonas | University of Eastern Finland | Finland | Machine Translation | Finnish, Karelian, Estonian |
 | Jantunen, Jarmo | University of Jyväskylä | | Corpus compiling, annotation, error annotation, phraseology, learner language, Finnish as a second and foreign language | Finnish, Estonian | [homepage](https://www.jyu.fi/hum/laitokset/kielet/meidan-laitoksemme/kielten-laitoksen-henkilosto/jantunen-jarmo) |
-| Gerstenberger, Ciprian-Virgil | University of Tromsø, Norway | | general linguistics, NLG, Saami languages, computational linguistics, Romanian, clitics, weak pronouns, corpus, lexicon | Saami, Komi, etc. | [homepage](http://ansatte.uit.no/ciprian.gerstenberger/) 
+| Gerstenberger, Ciprian-Virgil | University of Tromsø, Norway | | general linguistics, NLG, Saami languages, computational linguistics, Romanian, clitics, weak pronouns, corpus, lexicon | Saami, Komi, etc. | [homepage](http://ansatte.uit.no/ciprian.gerstenberger/)
 | Grönroos, Stig-Arne | Aalto University, Finland |  | statistical machine translation, morphology, machine learning, natural language processing | Finnish, North Sámi | [homepage](http://www.waino.org/) |
 | Kankainen, Kristian | MTÜ Keeleleek |  | votic morphology automata, free software, design patterns | all finnic languages, especially votic, estonian and finnish, | |
-| Hammarström, Harald | MPI Nijmegen |  |  |  |  
+| Hammarström, Harald | MPI Nijmegen |  |  |  |
 | Grimes, Stephen |  |  | NLP, computational phonology | Hungarian | [homepage](https://sgrimes.github.io/) |
 | Ivaska, Ilmari | University of Washington |  | second language acquisition, learner corpora, construction grammar, data-drivenness, usage-based model | Finnish |  |
 | Rießler, Michael | Albert-Ludwigs-Universität Freiburg |  | language documentation, language technology, spoken language corpora | Permic languages, Saamic languages, Samoyedic languages | [homepage](http://saami.uni-freiburg.de/)  |
-| Kaalep Heiki-Jaan | University of Tartu |  | morphology, corpus linguistics | Estonian, Finnish | [homepage](https://www.etis.ee/Portal/Persons/Display/938d86ca-ed2b-4538-925f-86645f725189?tabId=CV_ENG) | 
+| Kaalep Heiki-Jaan | University of Tartu |  | morphology, corpus linguistics | Estonian, Finnish | [homepage](https://www.etis.ee/Portal/Persons/Display/938d86ca-ed2b-4538-925f-86645f725189?tabId=CV_ENG) |
 | Jeremy Bradley | Ludwig-Maximilians-Universität München |  |  | Mari, Estonian, Finnish, Udmurt | [homepage](http://www.mari-language.com/)  |
 | Koczka, Péter | Research Institute for Linguistics of theHungarian Academy of Sciences |  |  | Hungarian, Udmurt, Finnish |  |
 | Muischnek, Kadri | University of Tartu |  | syntax, parsing, corpora | estonian, finnish |  |
@@ -75,7 +75,7 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 | Fedina, Marina | Komi Republican Academy of State Service and Administration | Corpora, dictionaries, morphology, proofing tools | Komi, all | [FU-Lab homepage](http://fu-lab.ru) |
 | Hulden, Mans | University of Colorado at Boulder | Assistant professor | Morphological analysis | Finnish | |
 | Partanen, Niko | Universität Hamburg | Germany | language documentation, sociolinguistics, dialectology | Komi, Udmurt, Karelian, Nenets, Finnish dialects | |
-| Robertson, Frankie | University of Jyväskylä Master's student | Finland | CALL | Finnish| [homepage](http://frankie.robertson.name) | 
+| Robertson, Frankie | University of Jyväskylä Master's student | Finland | CALL | Finnish| [homepage](http://frankie.robertson.name) |
 
 <!--
 | Name | Affiliation | Country | Research interests | Languages |  More... |
@@ -110,17 +110,17 @@ for Uralic languages. Please help us keep the list updated.
    dependency syntax conventions for Finnish, Estonian and Hungarian plus other
    world languages (includes [Uralic
    guidelines](http://universaldependencies.org/uralic))
-* [OPUS open source parallel corpora](http://opus.lingfil.uu.se/) corpora for 
+* [OPUS open source parallel corpora](http://opus.lingfil.uu.se/) corpora for
    most of the world’s languages
-* [Giellatekno](http://giellatekno.uit.no/) repository of uralic analysers and 
+* [Giellatekno](http://giellatekno.uit.no/) repository of uralic analysers and
    tools, most Uralic languages
-* [Apertium](http://sf.net/p/apertium), machine translation dictionaries 
+* [Apertium](http://sf.net/p/apertium), machine translation dictionaries
    including some uralic languages
 * [Grammatical Framework](http://grammaticalframework.com/)
    Haskell descriptions of linguistic data, including a few uralic languages
-* [Korp at CSC](http://korp.csc.fi/)Korp at CSC</a>, a corpus search interface 
+* [Korp at CSC](http://korp.csc.fi/)Korp at CSC</a>, a corpus search interface
    for CSC.fi-managed corpora
-* [Wanca corpora](http://suki.ling.helsinki.fi/wanca/) from SUKI project on 
+* [Wanca corpora](http://suki.ling.helsinki.fi/wanca/) from SUKI project on
    harvesting internet for Uralic texts
 
 ### Finnish
@@ -128,7 +128,7 @@ for Uralic languages. Please help us keep the list updated.
 * [Language bank of Finland](http://kielipankki.fi) a Finland’s central
    repository of language resources
 * [Omorfi](http://github.com/flammie/omorfi) open morphology of Finnish
-* [Voikko](http://voikko.puimula.org/)spell-checking for Finnish 
+* [Voikko](http://voikko.puimula.org/)spell-checking for Finnish
   (supports other uralic dictionaries now)
 
 ### Estonian
