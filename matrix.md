@@ -11,35 +11,36 @@ This matrix tries to capture state of the Uralic languages computational
 resources using linkable, downloadable and usable resources as references
 (rather than, expert judgment, as some other similar matrices do)
 
-| Language | (group) | Orth | Keyboard | Corpora | Speech | Morph | Treebank | MT |
-| --- | :-- | --- | --- | --- | --- | --- | --- | --- |
-| Finnish |     | ??? | ??? | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | ???  |
-| Sámi | North | ??? | ??? | ??? | ? | ?? | - | ? |
-|       | Lule  | ? | ?| ? | ?| ?| ?| ? |
-|       | South | ? | ?| ? | ?| ?| ?| ? |
-|     | Inari   | ? | ?| ? | ?| ?| ?| ? |
-|     | Skolt   | ? | ?| ? | ?| ?| ?| ? |
-|     | Kildin  | ?| ? | ? | ?| ?| ?| ? |
-| Hungarian |   | ?| ? | ?| ? | ?| ?| ?  |
-| Estonian |    | ?| ? | ?| ? | ?| ?| ? |
-| Võro |        | ?| ? | ?| ?| ? | ?| ? |
-| Komi | Zyrian | ?| ? | ?| ?| ?| ? |
-|      | Permyak | ?| ? | ?| ?| ?| ? |
-| Udmurt |      | ?| ?| ? | ?| ? | ?| ? |
-| Mari   | Hill | ?| ? | ?| ?| ?| ? |
-|        | Meadow | ?| ? | ?| ?| ?| ? |
-| Mordvin | Erzya | ?| ?| ? | ?| ?| ? |
-|         | Moksha | ?| ? | ?| ?|??| ? |
-| Mansi   |       | ?| ? | ?| ? | ?| ?| ? |
-| Khanty  |       | ?| ? | ?| ? | ?| ?| ? |
-| Nganasan |      | ?| ? | ?| ?| ? | ?| ? |
-| Enets | Tundra  | ?| ? | ?| ?| ?| ? |
-|       | Forest  | ?| ? | ?| ?| ?| ? |
-| Nenets | Tundra | ?| ? | ?| ?| ?| ? |
-|        | Forest | ?| ? | ?| ?| ?| ? |
-| Karelian | Ingrian | ? | ?| ? | | ?| 0| ? |
-|          | Olonets | ? | ?| ? | ? | ? | ?| ? |
-| Selkup |        | ? | ? | ?| ? | ? | ?| ? |
+| ISO 639 | Language | (group) | Orth | Keyboard | Corpora | Speech | Morph | Treebank | MT |
+| --- | --- | :-- | --- | --- | --- | --- | --- | --- | --- |
+| fin | Finnish |     | ??? | ??? | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | [+][fin-any-1][-][fin-eng-1]  |
+| hun | Hungarian |   | ?| ? | ?| ? | ?| ?| ?  |
+| est | Estonian |    | ?| ? | ?| ? | ?| ?| ? |
+| sme | Sámi | North | ??? | ??? | ??? | ? | ?? | ? | ? |
+|  |       | Lule  | ? | ?| ? | ?| ?| ?| ? |
+| sma |       | South | ? | ?| ? | ?| ?| ?| ? |
+|  |     | Inari   | ? | ?| ? | ?| ?| ?| ? |
+| sms |     | Skolt   | ? | ?| ? | ?| ?| ?| ? |
+|  |     | Kildin  | ?| ? | ? | ?| ?| ?| ? |
+| vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
+| kpv | Komi | Zyrian | ?| ? | ?| ?| ?| ? |
+|     |      | Permyak | ?| ? | ?| ?| ?| ? |
+| udm | Udmurt |      | ?| ?| ? | ?| ? | ?| ? |
+| | Mari   | Hill | ?| ? | ?| ?| ?| ? |
+| |        | Meadow | ?| ? | ?| ?| ?| ? |
+| | Mordvin | Erzya | ?| ?| ? | ?| ?| ? |
+| |         | Moksha | ?| ? | ?| ?|??| ? |
+| | Mansi   |       | ?| ? | ?| ? | ?| ?| ? |
+| kca | Khanty  |       | ?| ? | ?| ? | ?| ?| ? |
+| nio | Nganasan |      | ?| ? | ?| ?| ? | ?| ? |
+| | Enets | Tundra  | ?| ? | ?| ?| ?| ? |
+| |       | Forest  | ?| ? | ?| ?| ?| ? |
+| | Nenets | Tundra | ?| ? | ?| ?| ?| ? |
+| |        | Forest | ?| ? | ?| ?| ?| ? |
+| krl | Karelian |  | ? | ?| ? | | ?| ?| ? |
+| izh |          | Ingrian | ? | ?| ? | | ?| ?| ? |
+| olo |          | Olonets | ? | ?| ? | ? | ? | ?| ? |
+| | Selkup |        | ? | ? | ?| ? | ? | ?| ? |
 
 # References
 
@@ -60,9 +61,19 @@ derivations and forks of the same resource.
 1. [Universal Depedencies Finnish][fin-treebank-1] (see also: Turku dependency treebank)
 2. [Universal Dependencies Finnish FTB][fin-treebank-2] (see also: FinnTreeBanks)
 
+### Finnish Machine Translation
+
+1. [Apertium Finnish-English][fin-eng-1] (high coverage, low quality)
+    * [Apertium Finnish-German][fin-deu-1]
+    * [Apertium Finnish-Karelian Olonets][fin-olo-1]
+2. [GF Finnish to any][fin-any-1]
+
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
 [fin-morph-3]: http://www.grammaticalframework.org/lib/src/finnish/
 [fin-morph-4]: https://github.com/aalto-speech/morfessor
 [fin-treebank-1]: http://universaldependencies.org/fi/overview/introduction.html
 [fin-treebank-2]: http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/
+[fin-eng-1]: https://github.com/flammie/apertium-fin-eng
+[fin-deu-1]: https://github.com/flammie/apertium-fin-deu
+[fin-olo-1]: https://github.com/flammie/apertium-fin-olo
