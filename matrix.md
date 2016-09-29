@@ -63,5 +63,6 @@ derivations and forks of the same resource.
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
 [fin-morph-3]: http://www.grammaticalframework.org/lib/src/finnish/
+[fin-morph-4]: https://github.com/aalto-speech/morfessor
 [fin-treebank-1]: http://universaldependencies.org/fi/overview/introduction.html
 [fin-treebank-2]: http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/
