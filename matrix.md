@@ -77,3 +77,4 @@ derivations and forks of the same resource.
 [fin-eng-1]: https://github.com/flammie/apertium-fin-eng
 [fin-deu-1]: https://github.com/flammie/apertium-fin-deu
 [fin-olo-1]: https://github.com/flammie/apertium-fin-olo
+[fin-any-1]: http://www.grammaticalframework.org/
