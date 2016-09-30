@@ -1,2 +1,2 @@
 # acl-sigur.github.io
-Github pages of Association of Computational Linguistics
+Github pages of ACL SIG for Uralistics
