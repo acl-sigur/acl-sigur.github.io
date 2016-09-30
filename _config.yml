@@ -4,6 +4,7 @@ navigation: 1
 codeurl: 'https://github.com/acl-sigur/acl-sigur.github.io'
 sections: [
     ['resources', 'Resources'],
+    ['conferences', 'Conferences'],
 ]
 baseurl: ''
 highlighter: rouge
