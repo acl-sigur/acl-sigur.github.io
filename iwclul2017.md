@@ -29,9 +29,8 @@ Russia in St. Petersburg.
 
 ## Registration
 
-To register for the workshop please fill out
-<a href="http://goo.gl/forms/yUNpfceo6AAxzxfL2">this form</a>. <b>NB:</b>
-the registration fees will be announced later.
+To register for the workshop please fill out [registration form][regform].
+**NB:** the registration fees will be announced later.
 
 
 ## Invited speaker
@@ -67,11 +66,11 @@ schemes. Demos and tutorials will present systems and standards towards the goal
 of interoperability and unification of different projects, applications and
 research groups   Appropriate topics include (but are not limited to):
 
-* Parsers, analysers and processing pipelines of Uralic languages</li>
-* Lexical databases, electronic dictionaries</li>
+* Parsers, analysers and processing pipelines of Uralic languages
+* Lexical databases, electronic dictionaries
 * Finished end-user applications aimed at Uralic languages, such as
   spelling or grammar checkers, machine translation or speech processing
-* Evaluation methods and gold standards, tagged corpora, treebanks</li>
+* Evaluation methods and gold standards, tagged corpora, treebanks
 * Reports on language-independent or unsupervised methods as applied to
   Uralic languages
 * Surveys and review articles on subjects related to computational
@@ -97,19 +96,18 @@ encourage researchers of minority Uralic languages in Russia to participate.
 
 ### Important Dates
 
-* 3rd July 2016: Call for papers announced</li>
-* 1st October 2016 2nd call for papers</li>
-* 1st November 2016: Paper submission deadline</li>
-* 1st December 2016: Paper notification</li>
-* 14th December 2016: Camera-ready deadline</li>
-* 23th–24rd January 2017: Workshop held in St. Petersburg</li>
+* 3rd July 2016: Call for papers announced
+* 1st October 2016 2nd call for papers
+* 1st November 2016: Paper submission deadline
+* 1st December 2016: Paper notification
+* 14th December 2016: Camera-ready deadline
+* 23th–24rd January 2017: Workshop held in St. Petersburg
 
 
 ### Submission of papers
 
-**Language of submission:**
-Submissions should be made in English or Russian with optional abstract(s) in
-Uralic Language(s).
+**Language of submission:** Submissions should be made in English or Russian
+with optional abstract(s) in Uralic Language(s).
 
 
 **Submission format:** There are multiple submission types: long and short
@@ -121,15 +119,15 @@ e.g., unsrt bibliography style. Linguistic glosses should follow Leipzig
 glossing rules and use expex LaTeX package (make sure to update expex regularly
 as it is developed actively). Preferred LaTeX version is XeLaTeX and therefore
 you should use UTF-8 encoded Unicode in your sources rather than TeX encoded
-characters where possible. You will find <a
-href="2017-iwclul-template.tar.xz">the workshop template here</a> (also in <a
-href="2017-iwclul-template.zip">zip format</a>).
+characters where possible. You will find [the workshop template
+here](http://gtweb.uit.no/iwclul2017/2017-iwclul-template.tar.xz) (also in [zip
+format templates](http://gtweb.uit.no/iwclul2017/2017-iwclul-template.zip)).
 
 If you do not have access to  LaTeX text processign system, please contact us
 for alternative templates and instructions.
 
-<a href="https://www.easychair.org/conferences/?conf=iwclul2017">Submissions
-can be made here</a> using the EasyChair conference management system.
+[Submissions can be made here][easychair-subs] using the EasyChair conference
+management system.
 
 **Publication venue:** Proceedings of the workshop will be published
   open-access in ACL anthology, SIG proceedings for SIGUR (new)
@@ -154,9 +152,8 @@ acceptance the authors should choose in which venue to publish.
 The workshop will be held at The Norwegian University Centre in St. Petersburg
 
 
-To register for the workshop please fill out
-<a href="http://goo.gl/forms/yUNpfceo6AAxzxfL2">this form</a>. <b>NB:</b>
-the registration fees will be announced later.
+To register for the workshop please fill out [registration form][regform].
+**NB:** the registration fees will be announced later.
 
 ### Travel
 
@@ -172,8 +169,8 @@ request consideration.
 ### Accommodation
 
 Hotels maybe found through your preferred online hotel price comparison site.
-If you have any questions about accommodation, please feel free to <a
-  href="mailto:iwclul@googlegroups.com">contact the organisers</a>.
+If you have any questions about accommodation, please feel free to [contact the
+organisers][orgmail].
 
 ### Organisers
 
@@ -200,8 +197,8 @@ If you have any questions about accommodation, please feel free to <a
 ### Contact
 
 
-Any questions should be directed to the organising committee on <a
-href="mailto:iwclul@googlegroups.com">iwclul@googlegroups.com</a>.
+Any questions should be directed to the organising committee on
+[iwclul@googlegroups.com][orgmail].
 
 <hr/>
 <!--<p style="font-size: 80%">Photograph credits: <a
@@ -211,3 +208,7 @@ href="mailto:iwclul@googlegroups.com">iwclul@googlegroups.com</a>.
   Araujo Granda</a>, <a href="http://flickr.com/claudiaregina_cc">Claudia
   Regina</a></p>
 -->
+
+[regform]: http://goo.gl/forms/yUNpfceo6AAxzxfL2
+[orgmail]: mailto:iwclul@googlegroups.com
+[easychair-subs]: https://www.easychair.org/conferences/?conf=iwclul2017
