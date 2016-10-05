@@ -192,6 +192,7 @@ organisers][orgmail].
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
 * Veronika Vincze, Szegedi tudományegyetem
+* Mans Hulden, University of Colodaro in Boulder
 * >... to be announced
 
 
