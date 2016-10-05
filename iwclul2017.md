@@ -191,6 +191,7 @@ organisers][orgmail].
 * Tommi A. Pirinen, Universität Hamburg
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
+* Veronika Vincze, Szegedi tudományegyetem
 * >... to be announced
 
 
