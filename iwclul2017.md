@@ -193,7 +193,7 @@ organisers][orgmail].
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
 * Veronika Vincze, Szegedi tudományegyetem
 * Mans Hulden, University of Colodaro in Boulder
-* >... to be announced
+* Eszter Simon, Magyar tudományos akadémia
 
 
 ### Contact
