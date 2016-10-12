@@ -4,6 +4,9 @@ title: "Third International Workshop on Computational Linguistics for the"
 category: conference
 date: 2016-09-23 09:15:24
 ---
+
+[[In English](iwclul2017.eng.html)|**по-русски**]
+
 # Третий международный семинар по компьютерной лингвистике уральских языков
 
 ## 23 января, 2017, Санкт-Петербург, Россия
