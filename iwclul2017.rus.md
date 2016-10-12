@@ -4,189 +4,163 @@ title: "Third International Workshop on Computational Linguistics for the"
 category: conference
 date: 2016-09-23 09:15:24
 ---
-# Third International Workshop on Computational Linguistics for Uralic Languages
+# Третий международный семинар по компьютерной лингвистике уральских языков
 
-## 23th January, 2017, St. Petersburg, Russia
+## 23 января, 2017, Санкт-Петербург, Россия
 
-## Programme
+## Программа
 
+Программа вскоре будет выложена.
 
-The programme will be available <!--<a href="programme.en.html">here</a>.-->
+## Место проведения
+Семинар пройдёт в Санкт-Петербурге, Россия.
+ Точное место проведения будет объявлено позже.
 
+## Регистрация
 
-## Venue
+Для регистрации на семинар, пожалуйста, заполните [форму
+ регистрации](http://goo.gl/forms/yUNpfceo6AAxzxfL2). NB: стоимость регистрации будет
+объявлена позже.
 
-The workshop will be held in TBA room
-<!--TEO-H1 1.417 of the HSL-fakultetet at UiT The Arctic University--> in
-Russia in St. Petersburg.
+## Приглашенные докладчики
 
+## Принятые доклады
 
-<!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N
-<script type="text/javascript">
-  at.quelltextlich.osm.embedMapMarkedLocation( 69.68082, 18.97138, 14, 600, 300 );
-</script>
--->
+## Семинары
 
-## Registration
+## Подача докладов
 
-To register for the workshop please fill out [registration form][regform].
-**NB:** the registration fees will be announced later.
+Цель семинара — организация форума для исследователей, занимающихся
+вычислительными методами описания и обработки уральских языков. Мы принимаем
+доклады и предложения для мастер-классов, затрагивающие следующие языки и
+диалекты: финский, венгерский, эстонский, вырусский, саамские языки, коми
+(коми-зырянский, коми-пермяцкий), мордовские языки (эрзянский, мокшанский),
+марийский (лугово-восточный марийский, горномарийский), удмуртский, ненецкий
+(тундровый, лесной), энецкий, нганасанский, селькупский, мансийский, хантыйский,
+вепсский, карельский (ливвиковский), ижорский, водский, ливонский, людиковский и
+родственные им языки.
 
+Доклады должны быть оригинальными и новыми, нигде ранее не опубликованными. Они
+могут представлять ещё не завершённые системы, фреймворки, стандарты и
+методологии оценки. Демонстрации и мастер-классы будут посвящены системам и
+стандартам, стремящимся унифицировать разные проекты, приложения и
+способствовать взаимодействию исследовательских групп. Тематика включает в себя
+(но не ограничивается этим) следующее:
 
-## Invited speaker
+* морфологические, синтаксические и другие анализаторы уральских языков
+* лексические базы данных, электронные словари
+* приложения для конечных пользователей — носителей уральских языков — такие как
+  орфографические и грамматические корректоры, машинные переводчики, анализаторы
+  и синтезаторы речи
+* методы оценки качества и “золотые стандарты”, аннотированные корпуса
+* отчёты о применении языконезависимых методов или метода обучения без учителя
+  для уральских языков
+* обзорные статьи по темам, связанным с компьютерной лингвистикой одного или
+  нескольких уральских языков
+* труды, направленные на объединение усилий и сокращение дублирования работы
+* взаимодействие с языковыми сообществами, агитационные кампании, краудсорсинг,
+  т.н. целевые игры
 
+Чтобы максимально увеличить возможность воспроизведения, повторения и повторного
+использования, мы особенно поощряем работы, представляющие свободные/открытые
+языковые ресурсы и использующие свободное программное обеспечение.
 
-## Accepted papers
+Одна из целей семинара — путём установления связей между исследователями и
+выработки стандартов для совместной работы исследовательских групп, работающих в
+разных центрах, избежать ненужного дублирования работ в области уралистики.
+Также мы заметили серьезную нехватку золотых стандартов и метрик оценки качества
+для всех уральских языков, включая те, которые имеют государственную поддержку.
+Приветствуются любые любые труды по улучшению ситуации в этой области. Чтобы
+начать движение к этим целям, мы предлагаем обсудить на семинаре вопрос о
+создании специальной группы ACL (или подобной организации) по уралистике.
 
-## Tutorials
+### Важные даты
+3 июля 2016: начало подачи докладов
+1 октября 2016: подача докладов (вторая волна)
+1 ноября 2014: конечный срок подачи докладов
+1 декабря 2016: уведомление о приёме докладов
+14 декабря 2016: срок предоставления окончательного текста доклада
+23-24 января 2017: семинар в Санкт-Петербурге
 
+### Подача докладов
 
+**Язык докладов**: доклады должны быть на английском или русском языке с
+факультативной аннотацией на финском.
 
-## Call for papers
+**Формат докладов**: возможны доклады нескольких типов: научные статьи,
+демонстрации и мастер-классы. Научно-исследовательские статьи не должны
+превышать 18 страниц в объёме (не считая списка литературы), объём описаний
+демонстраций и мастер-классов — до 5 страниц. Доклады должны быть оформлены в
+стандартном стиле LaTeX c включённой опцией ‘b5paper’. Для цитат необходимо
+использовать bibtex, и, например, стиль библиографии ‘unsrt’. Лингвистические
+глоссы должны следовать Лейпцигским правилам глоссирования и быть написаны с
+использованием пакета ‘expex’ LaTeX (удостоверьтесь, что используете последнюю
+версию пакета, так как он часто обновляется). Предпочтительной версией LaTeX
+является XeLaTeX, следовательно по возможности Вы должны использовать UTF-8
+кодировку для своих текстов, а не кодировку TeX. Шаблоны вы можете найти здесь
+(также в формате zip). Тексты докладов должны быть загружены через систему
+управления конференцией EasyChair по данной ссылке.
 
+Если у вас нет возможности использовать систему LaTeX, пожалуйста, обратитесь к
+нам для получения альтернативных инструкций и шаблонов.
 
-The *purpose* of the conference series International Workshop on Computational
-Linguistics for Uralic Languages is to bring together researchers working on
-computational approaches to working with these languages.  We accept long and
-short papers as well as tutorial proposals working on the following languages:
-Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak),
-Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest),
-Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian,
-Ingrian (Izhorian), Votic, Livonian, Ludic, and other related languages.
+**Публикации**: Результаты семинара будут опубликованы с открытым доступом в ACL
+anthology, SIG proceedings for SIGUR (new).
 
+**Порядок рецензирования и конфликт интересов**: процесс рецензирования не будет
+анонимным, при подаче докладов авторы должны указать все конфликты интересов с
+программным комитетом. Члены программного комитета должны сообщить о своих
+конфликтах интересов во время распределения статей. Если программный комитет не
+может рецензировать статью, могут быть привлечены сторонние рецензенты.
 
-All Uralic languages exhibit rich morphological structure, which makes
-processing them challenging for state-of-the-art computational linguistic
-approaches, the majority also suffer from a lack of resources and many are
-endangered.
-
-  Research papers should be original, substantial and unpublished research, that
-can describe work-in-progress systems, frameworks, standards and evaluation
-schemes. Demos and tutorials will present systems and standards towards the goal
-of interoperability and unification of different projects, applications and
-research groups   Appropriate topics include (but are not limited to):
-
-* Parsers, analysers and processing pipelines of Uralic languages
-* Lexical databases, electronic dictionaries
-* Finished end-user applications aimed at Uralic languages, such as
-  spelling or grammar checkers, machine translation or speech processing
-* Evaluation methods and gold standards, tagged corpora, treebanks
-* Reports on language-independent or unsupervised methods as applied to
-  Uralic languages
-* Surveys and review articles on subjects related to computational
-  linguistics for one or more Uralic languages
-* Any work that aims at combining efforts and reducing duplication of
-  work
-* How to elicit activity from the language community, agitation campaigns,
-  games with a purpose
-
-To maximise the possibility of reproducibility, replication and reuse, we
-particularly encourage submissions which present free/open-source language
-resources and make use of free/open-source software.
-
-One of the aims of this gathering is to avoid unnecessary duplicated work in
-field of Uralistics by establishing connections and interoperability standards
-between researchers and research groups working at different sites.  We have
-also identified a serious lack of gold standards and evaluation metrics for all
-Uralic languages including those with national support, any work towards better
-resources in these fields will be greatly appreciated. To further these goals we
-propose to start discussions on forming an ACL special interest group (or
-similar) on Uralistics at the event.  In this year's edition we particularly
-encourage researchers of minority Uralic languages in Russia to participate.
-
-### Important Dates
-
-* 3rd July 2016: Call for papers announced
-* 1st October 2016 2nd call for papers
-* 1st November 2016: Paper submission deadline
-* 1st December 2016: Paper notification
-* 14th December 2016: Camera-ready deadline
-* 23th–24rd January 2017: Workshop held in St. Petersburg
-
-
-### Submission of papers
-
-**Language of submission:** Submissions should be made in English or Russian
-with optional abstract(s) in Uralic Language(s).
-
-
-**Submission format:** There are multiple submission types: long and short
-research papers, and demonstrations and tutorials. Research papers should be up
-to 18 pages in length excluding references, the descriptions for demonstrations
-and tutorials up to 5 pages. Submissions should be formatted using LaTeX default
-article style with b5paper option. Citations should be managed with bibtex and
-e.g., unsrt bibliography style. Linguistic glosses should follow Leipzig
-glossing rules and use expex LaTeX package (make sure to update expex regularly
-as it is developed actively). Preferred LaTeX version is XeLaTeX and therefore
-you should use UTF-8 encoded Unicode in your sources rather than TeX encoded
-characters where possible. You will find [the workshop template
-here](http://gtweb.uit.no/iwclul2017/2017-iwclul-template.tar.xz) (also in [zip
-format templates](http://gtweb.uit.no/iwclul2017/2017-iwclul-template.zip)).
-
-If you do not have access to  LaTeX text processign system, please contact us
-for alternative templates and instructions.
-
-[Submissions can be made here][easychair-subs] using the EasyChair conference
-management system.
-
-**Publication venue:** Proceedings of the workshop will be published
-  open-access in ACL anthology, SIG proceedings for SIGUR (new)
-
-**Conflicts of interest:** The reviewing process will be anonymous
-(double-blind peer review) and  authors should state in their submission all
-conflicts of interest with members of the programme committee. Members of the
-programme committee are also expected to state their conflicts of interest
-during review bidding.  If the programme committee finds themselves unable to
-review some of the submissions, external reviewers may be called.
+**Одновременная подача статьи в разные журналы и вторичная публикация**: чтобы
+способствовать распространению информации об исследованиях в области
+компьютерной лингвистики уральских языков, мы готовы принять рукописи,
+одновременно отправленные на другие конференции и статьи, частично
+опубликованные ранее. При одновременной подаче рукописи на другую конференцию
+или журнал, во время подачи рукописи автор обязан уведомить программный комитет
+об этом. В случае принятия статьи для публикации несколькими оргкомитетами или
+редакциями, авторы должны выбрать место публикации.
 
 
-**Double submission:** To maximise the impact of work in the field of
-computational linguistics for the Uralic languages we are open to the
-possibility of double submission, or submission of work which has been partially
-published elsewhere. Any double submission should however be reported to the
-programme committee at the time of submission. In the advent of double
-acceptance the authors should choose in which venue to publish.
+### Место проведения
 
-### Venue
+Семинар будет проводиться в Норвежском университетском центре в
+Санкт-Петербурге. Для регистрации заполните, пожалуйста, эту форму. NB: сумма
+регистрационного взноса будет объявлена позднее.
 
-The workshop will be held at The Norwegian University Centre in St. Petersburg
+### Проезд
+
+Участникам не из России может понадобиться виза на въезд в Россию. Если вам
+необходимо пригласительное письмо, пожалуйста, обратитесь к местным
+организаторам.
+
+Небольшое количество грантов для оплаты проезда будут доступны для авторов, чьи
+доклады будут приняты. Для рассмотрения заявки на грант, пожалуйста, обратитесь
+к местным организаторам после подчаи доклада.
 
 
-To register for the workshop please fill out [registration form][regform].
-**NB:** the registration fees will be announced later.
+### Проживание
 
-### Travel
+Вы можете найти подходящий отель через любом предпочтительном сайте
+онлайн-бронирования отелей. Вопросы по поводу проживания вы можете направлять
+организаторам.
 
 
-Participants from outside Russia area may require a visa to visit Russia. If
-you require an invitation letter confirming your participation, please get in
-contact with the local organising committee.
-
-A small number of travel stipends will be available for authors of accepted
-papers. After submitting your paper please contact the organising committee to
-request consideration.
-
-### Accommodation
-
-Hotels maybe found through your preferred online hotel price comparison site.
-If you have any questions about accommodation, please feel free to [contact the
-organisers][orgmail].
-
-### Organisers
+### Организаторы конференции
 
 * Tommi A. Pirinen, Universität Hamburg
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Trond Trosterud, UiT Norgga árktalaš universitehta
 
-
-### Local organisers
+### Локальные организаторы
 
 * Илья Сергеевич Николаев, Санкт-Петербургский государственный университет
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
-* Марина Федина, Centre of Innovative Language Technology,
-  Komi Republican Academy of State Service and Administration
+* Марина Федина, Centre of Innovative Language Technology, Komi Republican
+  Academy of State Service and Administration
 
-### Programme committee
+### Оргкомитет
 
 * Tommi A. Pirinen, Universität Hamburg
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
@@ -194,23 +168,12 @@ organisers][orgmail].
 * Veronika Vincze, Szegedi tudományegyetem
 * Mans Hulden, University of Colodaro in Boulder
 * Eszter Simon, Magyar tudományos akadémia
-* >... to be announced
 
+### Контакты
 
-### Contact
+Со всеми интересующими вопросами Вы можете обращаться по адресу
+[iwclul@googlegroups.com](iwclul@googlegroups.com).
 
-
-Any questions should be directed to the organising committee on
-[iwclul@googlegroups.com][orgmail].
-
-<hr/>
-<!--<p style="font-size: 80%">Photograph credits: <a
-  href="https://www.flickr.com/photos/tromsokommune/7649669236">St. Petersburg
-  kommune</a>, <a
-  href="https://www.flickr.com/photos/9593856@N04/11367672815">Pablo Alejandro
-  Araujo Granda</a>, <a href="http://flickr.com/claudiaregina_cc">Claudia
-  Regina</a></p>
--->
 
 [regform]: http://goo.gl/forms/yUNpfceo6AAxzxfL2
 [orgmail]: mailto:iwclul@googlegroups.com
