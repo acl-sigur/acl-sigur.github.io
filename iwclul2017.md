@@ -194,6 +194,7 @@ organisers][orgmail].
 * Veronika Vincze, Szegedi tudományegyetem
 * Mans Hulden, University of Colodaro in Boulder
 * Eszter Simon, Magyar tudományos akadémia
+* >... to be announced
 
 
 ### Contact
