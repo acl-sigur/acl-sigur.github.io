@@ -1,7 +1,7 @@
 ---
 layout: default
 title: IWCLUL-2017
-category: conference
+category: conferences
 date: 2016-09-23 09:15:24
 ---
 
