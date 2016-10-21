@@ -1,8 +1,6 @@
 ---
 layout: default
-title: "Third International Workshop on Computational Linguistics for the"
-category: conference
-date: 2016-09-23 09:15:24
+title: IWCLUL 2017 rus
 ---
 
 [[In English](iwclul2017.eng.html)|**по-русски**]

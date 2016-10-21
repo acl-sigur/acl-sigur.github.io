@@ -1,8 +1,6 @@
 ---
 layout: default
 title: IWCLUL-2017
-category: conferences
-date: 2016-09-23 09:15:24
 ---
 
 [**In English**|[по-русски](iwclul2017.rus.html)]
