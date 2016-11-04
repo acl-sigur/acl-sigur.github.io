@@ -198,7 +198,7 @@ organisers][orgmail].
 * Mans Hulden, University of Colodaro in Boulder
 * Eszter Simon, Magyar tudományos akadémia
 * Miikka Silfverberg, University of Helsinki
-* Timofei Arhangelskiy,
+* Timofei Arhangelskiy, hse.ru
 
 
 ### Contact
