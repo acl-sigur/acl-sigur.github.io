@@ -31,7 +31,8 @@ Russia in St. Petersburg.
 ## Registration
 
 To register for the workshop please fill out [registration form][regform].
-**NB:** the registration fees will be announced later.
+**NB:** there is an optional 50 euro fee for participation that will be used to
+cover running costs.
 
 
 ## Invited speaker
@@ -154,7 +155,8 @@ The workshop will be held at The Norwegian University Centre in St. Petersburg
 
 
 To register for the workshop please fill out [registration form][regform].
-**NB:** the registration fees will be announced later.
+**NB:** there is an optional 50 euro fee for participation that will be used to
+cover running costs.
 
 ### Travel
 
@@ -195,7 +197,8 @@ organisers][orgmail].
 * Veronika Vincze, Szegedi tudományegyetem
 * Mans Hulden, University of Colodaro in Boulder
 * Eszter Simon, Magyar tudományos akadémia
-* >... to be announced
+* Miikka Silfverberg, University of Helsinki
+* Timofei Arhangelskiy,
 
 
 ### Contact
