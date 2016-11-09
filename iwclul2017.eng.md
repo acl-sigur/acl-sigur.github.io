@@ -194,11 +194,14 @@ organisers][orgmail].
 * Tommi A. Pirinen, Universität Hamburg
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
+* Марина Федина, Centre of Innovative Language Technology,
+  Komi Republican Academy of State Service and Administration
+* Trond Trosterud, UiT Norgga árktalaš universitehta
 * Veronika Vincze, Szegedi tudományegyetem
 * Mans Hulden, University of Colodaro in Boulder
 * Eszter Simon, Magyar tudományos akadémia
 * Miikka Silfverberg, University of Helsinki
-* Timofei Arhangelskiy, hse.ru
+* Тимофей Архангельский, Higher School of Economics
 
 
 ### Contact
