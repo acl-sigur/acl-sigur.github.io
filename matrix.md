@@ -34,7 +34,7 @@ know.
 | fin | Finnish |     | ??? | [+][fin-keyboard-1]+++ | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | [+][fin-any-1][-][fin-eng-1]  |
 | fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
 | fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
-| hun | Hungarian |   | ?| ? | ?| ? | ?| ?| ?  |
+| hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
 | est | Estonian |    | ?| ? | ?| ? | ?| ?| [+][fin-est-1] |
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
@@ -107,6 +107,55 @@ Android-based.
 
 1. [Divvun’s North Saami keyboard][sme-keyboard-1]
 
+## Hungarian
+
+### Hungarian morphologies
+
+1. [hunmorph][hun-morph-1]
+
+# Uncategorised references
+
+We maintain a list of mainly freely available and open source resources
+for Uralic languages. Please help us keep the list updated. Some of these
+resources are already used directly or indirectly in the matrix.
+
+### Multi-language / general
+
+* [Universal dependencies](http://universaldependencies.org), treebanks,
+   dependency syntax conventions for Finnish, Estonian and Hungarian plus other
+   world languages (includes [Uralic
+   guidelines](http://universaldependencies.org/uralic)
+* [OPUS open source parallel corpora](http://opus.lingfil.uu.se/) corpora for
+   most of the world’s languages
+* [Giellatekno](http://giellatekno.uit.no/) repository of uralic analysers and
+   tools, most Uralic languages
+* [Apertium](http://sf.net/p/apertium), machine translation dictionaries
+   including some uralic languages
+* [Grammatical Framework](http://grammaticalframework.com/)
+   Haskell descriptions of linguistic data, including a few uralic languages
+* [Korp at CSC](http://korp.csc.fi/), a corpus search interface
+   for CSC.fi-managed corpora
+* [Wanca corpora](http://suki.ling.helsinki.fi/wanca/) from SUKI project on
+   harvesting internet for Uralic texts
+* [Voikko](http://voikko.puimula.org/) spell-checking for many Uralic languages
+
+### Finnish
+
+* [Language bank of Finland](http://kielipankki.fi) a Finland’s central
+   repository of language resources
+
+### Estonian
+
+* [Centre for Estonian Language Resources](http://keeleressursid.ee/)
+
+### Saami languages
+
+* [Divvun](http://divvun.no) Writers' tools for Saami languages, and lots
+  of others
+
+
+
+<!-- links: -->
 
 [fin-keyboard-1]: http://kotoistus.fi/nappaimisto/
 [fin-morph-1]: https://github.com/flammie/omorfi
@@ -119,3 +168,6 @@ Android-based.
 [fin-deu-1]: https://github.com/flammie/apertium-fin-deu
 [fin-olo-1]: https://github.com/flammie/apertium-fin-olo
 [fin-any-1]: http://www.grammaticalframework.org/
+[hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
+
+
