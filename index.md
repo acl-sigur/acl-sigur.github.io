@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ACL SIGUR"
+title: "ACL Special Interest Group for Uralic Languages"
 ---
 
 # The ACL Special Interest Group on Uralic Languages
@@ -9,8 +9,13 @@ title: "ACL SIGUR"
 
 ### Uralic languages
 
-![Map of Uralic languages](https://upload.wikimedia.org/wikipedia/commons/2/24/Fenno-Ugrian_languages.png)
+[Uralic languages on Wikipedia](https://en.wikipedia.org/wiki/Uralic_languages)
 
+![Map of Uralic languages](https://upload.wikimedia.org/wikipedia/commons/5/51/Linguistic_map_of_the_Uralic_languages_%28en%29.png)
+
+By **User:Nug**.  *derived from a german version created by ***User:Chumwa**
+[CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)], 
+via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map_of_the_Uralic_languages_%28en%29.png)
 
 ## Events
 
@@ -24,7 +29,7 @@ title: "ACL SIGUR"
 
 * [Second international workshop on computational linguistics
    for the Uralic languages
-   (IWCLUL2016)](http://rgai.inf.u-szeged.hu/iwclul2016), Szeged Hungary
+   (IWCLUL2016)](http://rgai.inf.u-szeged.hu/iwclul2016), Szeged, Hungary
 * [First international workshop on computational linguistics for the Uralic
    languages (IWCLUL2015)](http://gtweb.uit.no/iwclul2015/), Romssa, Norway
 
