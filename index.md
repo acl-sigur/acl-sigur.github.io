@@ -75,7 +75,8 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 | Fedina, Marina | Komi Republican Academy of State Service and Administration | Corpora, dictionaries, morphology, proofing tools | Komi, all | [FU-Lab homepage](http://fu-lab.ru) |
 | Hulden, Mans | University of Colorado at Boulder | Assistant professor | Morphological analysis | Finnish | |
 | Partanen, Niko | Universität Hamburg | Germany | language documentation, sociolinguistics, dialectology | Komi, Udmurt, Karelian, Nenets, Finnish dialects | |
-| Robertson, Frankie | University of Jyväskylä Master's student | Finland | CALL | Finnish| [homepage](http://frankie.robertson.name) |
+| Robertson, Frankie | University of Jyväskylä | Finland | CALL | Finnish| [homepage](http://frankie.robertson.name) |
+| Lehtinen, Jyri | University of Helsinki | Finland | historical linguistics, historical phonology, computational phylogeny, computational network methods, language typology, Uralic languages, etymology | All |  [http://www.ling.helsinki.fi/~jdlehtin](homepage) |
 
 <!--
 | Name | Affiliation | Country | Research interests | Languages |  More... |
