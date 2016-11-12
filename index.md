@@ -11,7 +11,7 @@ title: "ACL Special Interest Group for Uralic Languages"
 
 [Uralic languages on Wikipedia](https://en.wikipedia.org/wiki/Uralic_languages)
 
-![Map of Uralic languages](https://upload.wikimedia.org/wikipedia/commons/5/51/Linguistic_map_of_the_Uralic_languages_%28en%29.png/512px-Linguistic_map_of_the_Uralic_languages_%28en%29.png)
+![Map of Uralic languages](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Linguistic_map_of_the_Uralic_languages_%28en%29.png/640px-Linguistic_map_of_the_Uralic_languages_%28en%29.png)
 
 By **User:Nug**.  *derived from a german version created by ***User:Chumwa**
 [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)], 
