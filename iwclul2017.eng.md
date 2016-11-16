@@ -100,8 +100,8 @@ encourage researchers of minority Uralic languages in Russia to participate.
 
 * 3rd July 2016: Call for papers announced
 * 1st October 2016 2nd call for papers
-* <del datetime="20161021Z1324">1st November</del><ins>14th November</ins> 2016: Paper submission deadline
-* 1st December 2016: Paper notification
+* <del datetime="20161021Z1324">1st November</del> <ins>14th November</ins> 2016: Paper submission deadline
+* <del datetime="20161116Z1100">1st December</del> <ins>6th December</ins> 2016: Paper notification
 * 14th December 2016: Camera-ready deadline
 * 23th January 2017: Workshop held in St. Petersburg
 
@@ -155,7 +155,7 @@ The workshop will be held at The Norwegian University Centre in St. Petersburg
 
 
 To register for the workshop please fill out [registration form][regform].
-**NB:** there is an optional 50 euro fee for participation that will be used to
+**NB:** there is an *optional* 50 euro fee for participation that will be used to
 cover running costs.
 
 ### Travel
