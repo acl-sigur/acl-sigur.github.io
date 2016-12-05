@@ -175,6 +175,19 @@ Hotels maybe found through your preferred online hotel price comparison site.
 If you have any questions about accommodation, please feel free to [contact the
 organisers][orgmail].
 
+### Visa / Invitation
+
+If you need an invitation for Russian Visa, please contact the Norwegian
+University Centre in St. Petersburg, they are hosting the event:
+[Svetlana Fedorova](s.fedorova@norunivspb.ru). Please mention the name and
+date of the conference as:
+
+"Third International Workshop on Computational Linguistics for Uralic Languages”
+
+Date: 23th January, 2017
+
+
+
 ### Organisers
 
 * Tommi A. Pirinen, Universität Hamburg
