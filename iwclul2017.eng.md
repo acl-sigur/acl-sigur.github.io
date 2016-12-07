@@ -37,6 +37,7 @@ cover running costs.
 
 ## Invited speaker
 
+[Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/), Tartu ülikool
 
 ## Accepted papers
 
