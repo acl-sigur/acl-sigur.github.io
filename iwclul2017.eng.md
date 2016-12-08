@@ -42,7 +42,28 @@ cover running costs.
 
 ## Accepted papers
 
-Will be announced later today...
+In no specific order:
+
+1. **Guersande Chaminade** and **Thierry Poibeau**: *Preliminary Experiments
+concerning Verbal Predicative Structure Extraction from a Large Finnish Corpus*
+1. **Csilla Horváth**, **Norbert Szilágyi**, **Veronika Vincze** and
+   **Ágoston Nagy**: *Language technology resources and tools for Mansi: an
+   overview*
+1. **Francis M. Tyers** and **Mariya Sheyanova**: *Annotation schemes in North
+   Sámi dependency parsing*
+1. **Jack Rueter** and **Mika Hämäläinen** *Synchronized Mediawiki based analyzer
+   dictionary development*
+1. **Jack Rueter** DEMO: *Giellatekno Open-source click-in-text dictionaries for
+   bringing closely related languages into contact*
+1. **Ciprian Gerstenberger**, **Niko Partanen**, **Michael Rießler** and
+   **Joshua Wilbur**: *Instant Annotations – Applying NLP Methods to the
+   Annotation of Spoken Language Documentation Corpora*
+1. **Sindre Reino Trosterud**, **Trond Trosterud**, **Anna-Kaisa Räisänen**,
+   **Leena Niiranen**, **Mervi Haavisto** and **Kaisa Maliniemi**:
+   *A morphological analyser for Kven*
+1. **Eszter Simon** and **Nikolett Mus** *Languages under the influence: Building
+   a database of Uralic languages*
+1. ... (list is not finished yet)
 
 ## Tutorials
 
