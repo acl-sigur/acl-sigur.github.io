@@ -37,9 +37,12 @@ cover running costs.
 
 ## Invited speaker
 
-[Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/), Tartu ülikool
+[Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/), Tartu ülikool:
+*Language technology in Tartu: dreams and realities*
 
 ## Accepted papers
+
+Will be announced later today...
 
 ## Tutorials
 
