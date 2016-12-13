@@ -11,9 +11,30 @@ title: IWCLUL-2017
 
 ## Programme
 
+Preliminary schedule, subject to change
 
-The programme will be available <!--<a href="programme.en.html">here</a>.-->
-
+| Day/Time | Event |
+| :--- | ---: |
+| 23rd January | Main conference |
+| 10:00–10:15 | Opening ceremony |
+| 10:15–11:30 | Invited Talk |
+| 11:30–11:45 | Poster Boasters: |
+| *11:30–11:33* | Synchronised Mediawiki... |
+| *11:33–11:36* | Giellatekno Open-source click-in-text... |
+| *11:36–11:39* | ... |
+| *11:39–11:42* | Instant Annotations... |
+| *11:42–11:45* | Languages under the influence... |
+| 11:45–12:30 | Posters and Demos with Coffee break |
+| 12:30–14:00 | Lunch |
+| 14:00–16:00 | Oral Sessions: |
+| 14:00–14:30 | Preliminary Experiments concerning Verbal |
+| 14:30–15:00 | Language technology resources and tools for Mansi |
+| 15:00–15:30 | Annotation schemens in North Sámi Dependency |
+| 15:30–16:00 A morphological analyser for Kven |
+| 16:00–16:45 Posters and Demos with Coffee break |
+| 16:45–17:30 ACL SIGUR business meeting |
+| 19:00– | Conference Dinner |
+| 24th January | *Possible tutorial/discussions day* |
 
 ## Venue
 
