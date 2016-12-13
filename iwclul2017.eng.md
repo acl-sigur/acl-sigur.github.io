@@ -27,12 +27,12 @@ Preliminary schedule, subject to change
 | 11:45–12:30 | Posters and Demos with Coffee break |
 | 12:30–14:00 | Lunch |
 | 14:00–16:00 | Oral Sessions: |
-| 14:00–14:30 | Preliminary Experiments concerning Verbal |
-| 14:30–15:00 | Language technology resources and tools for Mansi |
-| 15:00–15:30 | Annotation schemens in North Sámi Dependency |
-| 15:30–16:00 A morphological analyser for Kven |
-| 16:00–16:45 Posters and Demos with Coffee break |
-| 16:45–17:30 ACL SIGUR business meeting |
+| *14:00–14:30* | Preliminary Experiments concerning Verbal... |
+| *14:30–15:00* | Language technology resources and tools for Mansi... |
+| *15:00–15:30* | Annotation schemens in North Sámi Dependency... |
+| *15:30–16:00* | A morphological analyser for Kven... |
+| 16:00–16:45 | Posters and Demos with Coffee break |
+| 16:45–17:30 | ACL SIGUR business meeting |
 | 19:00– | Conference Dinner |
 | 24th January | *Possible tutorial/discussions day* |
 
