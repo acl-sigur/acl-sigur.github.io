@@ -36,6 +36,16 @@ Preliminary schedule, subject to change
 | 19:00– | Conference Dinner |
 | 24th January | *Possible tutorial/discussions day* |
 
+**Informations for authors:** a *Poster boaster* is an *elevator pitch* of your
+poster / demo topic to invite people to come talk, you may use up to three
+slides, typically a title slide, a content slide and picture of poster. In
+*Oral sessions* the speaker slot of 30 minutes is not strictly allocated between
+the presentations and questions, but it is usually good to aim to talk 20–25
+minutes. If you have a presentation, make sure it's either on the presentation
+computer or that you can connect to the projector without technical difficulties
+in a during a coffee or lunch break before your turn.
+
+
 ## Venue
 
 The workshop will be held in TBA room
