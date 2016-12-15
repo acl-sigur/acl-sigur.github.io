@@ -223,15 +223,8 @@ organisers][orgmail].
 
 ### Visa / Invitation
 
-If you need an invitation for Russian Visa, please contact the Norwegian
-University Centre in St. Petersburg, they are hosting the event:
-[Svetlana Fedorova](s.fedorova@norunivspb.ru). Please mention the name and
-date of the conference as:
-
-"Third International Workshop on Computational Linguistics for Uralic Languages”
-
-Date: 23th January, 2017
-
+If you need an invitation for Russian Visa, please contact
+[Michael Rießler](m.riessler@gmail.com) from local organisation team.
 
 
 ### Organisers
