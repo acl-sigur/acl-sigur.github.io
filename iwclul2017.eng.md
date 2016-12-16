@@ -7,6 +7,9 @@ title: IWCLUL-2017
 
 # Third International Workshop on Computational Linguistics for Uralic Languages
 
+Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
+*The University of Oslo St. Petersburg Representative Office*.
+
 ## 23th January, 2017, St. Petersburg, Russia
 
 ## Programme
@@ -50,7 +53,9 @@ in a during a coffee or lunch break before your turn.
 
 The workshop will be held in TBA room
 <!--TEO-H1 1.417 of the HSL-fakultetet at UiT The Arctic University--> in
-Russia in St. Petersburg.
+Russia in St. Petersburg. We are in an auditorium that fits at least 30 people.
+There is a data projector and coffee will be served in the auditorium. There's
+a possibility to print at the venue at a cost.
 
 
 <!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N
@@ -205,15 +210,6 @@ published elsewhere. Any double submission should however be reported to the
 programme committee at the time of submission. In the advent of double
 acceptance the authors should choose in which venue to publish.
 
-### Venue
-
-The workshop will be held at The Norwegian University Centre in St. Petersburg
-
-
-To register for the workshop please fill out [registration form][regform].
-**NB:** there is an *optional* 50 euro fee for participation that will be used to
-cover running costs.
-
 ### Travel
 
 
@@ -231,10 +227,47 @@ Hotels maybe found through your preferred online hotel price comparison site.
 If you have any questions about accommodation, please feel free to [contact the
 organisers][orgmail].
 
+Suggested hotels by Norwegian University Centre in St. Petersburg:
+
+* [Park Inn by Radisson Nevsky St. Petersburg
+  Hotel](https://www.parkinn.com/hotel-stpetersburg), *4 lit. A, Goncharnaya
+  Street 89, Nevsky Prospect– 191036
+  +7 (812) 406 73 10*
+* [Grand Hotel «Emerald»](http://www.grandhotelemerald.com/en/)
+  *18 Suvorovsky Prospect, 191036*
+* [Nordic](http://www.hotel-nordic.ru) *4, Gospitalnaya Ul*
+* **Corinthia Hotel St Petersburg** *57, Nevsky prospect*
+  251 m from metrostation “Mayakovskaya”,1.5 km from the city center
+  *Phone:+7 499 215-65-25*
+* [Demetra Art Hotel](http://demetra-art-hotel.ru/) *Vosstaniya Street 44,
+  Tsentralny, 191123 Saint Petersburg, Russia, Phone:++7 812 640 04 08*
+* [Hotel Dostoevsky](www.dostoevsky-hotel.ru/) *19, Vladimirsky prospect 191002
+  Phone:+7 (812) 331-32-00*
+* **Smolninskaya hotel**, *191124, 6 ul. Proletarskoi Diktatury,
+  Ph.: +7 (812) 576-7262, +7 (812) 576-7174; Fax: +7 (812) 576-7875;
+  E-mail: tverskaya22@mail.ru*
+* [Mercury Hotel Saint
+  Petersburg](http://mercury-hotel-saint-petersburg.nochi.com/) *39
+  Tavricheskaya Street*
+* [Tavrida Apartments Saint
+  Petersburg](http://tavrida-apartments-saint-petersburg.nochi.com)
+* [Tavricheskaya Hotel Saint
+  Petersburg](http://tavricheskaya-hotel-saint-petersburg.nochi.com)
+* [Tavrida Hostel Saint Petersburg](http://tavrida-saint-petersburg.nochi.com)
+* [4 Storony Sveta Hotel Saint
+  Petersburg](http://4-storony-sveta-hotel-saint-petersburg.nochi.com)
+* [Na Shpalernoy Hotel Saint
+  Petersburg](http://na-shpalernoy-saint-petersburg.nochi.com)
+
+
+
 ### Visa / Invitation
 
+**Please note that Norwegian University Centre requires all foreign participants
+to have a proper visa, no tourist visas allowed.**
+
 If you need an invitation for Russian Visa, please contact
-[Michael Rießler](m.riessler@gmail.com) from local organisation team.
+[Michael Rießler](m.riessler@gmail.com) of local organisation team.
 
 
 ### Organisers
@@ -243,6 +276,7 @@ If you need an invitation for Russian Visa, please contact
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Trond Trosterud, UiT Norgga árktalaš universitehta
 
+and *The University of Oslo St. Petersburg Representative Office*
 
 ### Local organisers
 
