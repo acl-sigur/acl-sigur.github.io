@@ -51,11 +51,10 @@ in a during a coffee or lunch break before your turn.
 
 ## Venue
 
-The workshop will be held in TBA room
-<!--TEO-H1 1.417 of the HSL-fakultetet at UiT The Arctic University--> in
-Russia in St. Petersburg. We are in an auditorium that fits at least 30 people.
-There is a data projector and coffee will be served in the auditorium. There's
-a possibility to print at the venue at a cost.
+The workshop will be held in the room at the second floor in the Norwegian
+University Centre, in Russia in St. Petersburg. We are in an auditorium that
+fits at least 30 people.  There is a data projector and coffee will be served in
+the auditorium. There's a possibility to print at the venue at a cost.
 
 
 <!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N
