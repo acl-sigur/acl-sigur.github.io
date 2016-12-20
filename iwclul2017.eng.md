@@ -24,9 +24,8 @@ Preliminary schedule, subject to change
 | 11:30–11:45 | Poster Boasters: |
 | *11:30–11:33* | Synchronised Mediawiki... |
 | *11:33–11:36* | Giellatekno Open-source click-in-text... |
-| *11:36–11:39* | ... |
-| *11:39–11:42* | Languages under the influence... |
-| *11:42–11:45* | Instant Annotations... |
+| *11:36–11:39* | Languages under the influence... |
+| *11:39–11:42* | Instant Annotations... |
 | 11:45–12:30 | Posters and Demos with Coffee break |
 | 12:30–14:00 | Lunch |
 | 14:00–16:00 | Oral Sessions: |
