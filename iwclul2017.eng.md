@@ -33,8 +33,9 @@ Preliminary schedule, subject to change
 | *14:30–15:00* | Language technology resources and tools for Mansi... |
 | *15:00–15:30* | Annotation schemens in North Sámi Dependency... |
 | *15:30–16:00* | A morphological analyser for Kven... |
-| 16:00–16:45 | Posters and Demos with Coffee break |
-| 16:45–17:30 | ACL SIGUR business meeting |
+| *16:00–16:30* | The LRE Map, LR Matrices and LR Impact factor... |
+| 16:30–17:15 | Posters and Demos with Coffee break |
+| 17:15–18:00 | ACL SIGUR business meeting |
 | 19:00– | Conference Dinner |
 | 24th January | *Possible tutorial/discussions day* |
 
