@@ -98,7 +98,6 @@ concerning Verbal Predicative Structure Extraction from a Large Finnish Corpus*
    *A morphological analyser for Kven*
 1. **Eszter Simon** and **Nikolett Mus** *Languages under the influence: Building
    a database of Uralic languages*
-1. ... (list is not finished yet)
 
 ## Tutorials
 
