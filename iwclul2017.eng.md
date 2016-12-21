@@ -162,7 +162,7 @@ encourage researchers of minority Uralic languages in Russia to participate.
 * <del datetime="20161021Z1324">1st November</del> <ins>14th November</ins> 2016: Paper submission deadline
 * <del datetime="20161116Z1100">1st December</del> <ins>6th December</ins> 2016: Paper notification
 * <del>14th December</del> <ins>23rd December</ins> 2016: Camera-ready deadline
-* 11th January 2017: **Fill in** the [registration form](regform), **only
+* 11th January 2017: **Fill in** the [registration form][regform], **only
   registered participants have access to the venue** and we need to have a
   participant list ready.
 * 23th January 2017: Workshop held in St. Petersburg
