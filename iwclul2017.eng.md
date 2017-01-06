@@ -57,6 +57,7 @@ are in an auditorium that fits at least 30 people.  There is a data projector
 and coffee will be served in the auditorium. There's a possibility to print at
 the venue at a cost.
 
+![OpenStreetMap to venue](openstreetmap.svg)
 [Kalužskiy pereulok 3, 191015 St.
  Petersburg](https://www.openstreetmap.org/way/112044986#map=18/59.94580/30.37990)
 
