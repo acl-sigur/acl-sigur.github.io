@@ -57,14 +57,18 @@ are in an auditorium that fits at least 30 people.  There is a data projector
 and coffee will be served in the auditorium. There's a possibility to print at
 the venue at a cost.
 
-![Kalužskiy pereulok 3, 191015 St.
+[Kalužskiy pereulok 3, 191015 St.
  Petersburg](https://www.openstreetmap.org/way/112044986#map=18/59.94580/30.37990)
 
-<!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N
+
+<!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N-->
+
+<script type="text/javascript" src="http://osm.quelltextlich.at/OSMTools.js"/>
+
 <script type="text/javascript">
-  at.quelltextlich.osm.embedMapMarkedLocation( 69.68082, 18.97138, 14, 600, 300 );
+  at.quelltextlich.osm.embedMapMarkedLocation(59.94580, 30.37990, 18,
+                                              600, 300);
 </script>
--->
 
 ## Registration
 
