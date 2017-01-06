@@ -123,7 +123,8 @@ written formal request to Secretary. Membership can be ended
 by a formal request to the SIG board. The SIG board may end a membership of a member
 acting against the interest of the SIG in a board meeting via a vote.
 
---Organisers of SIGUR / de facto board,
-March 9th 2015
-
+--
+In SIGUR business meeting, Szeged
+SIGUR elected board and members
+January 2016
 
