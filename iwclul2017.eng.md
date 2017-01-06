@@ -52,10 +52,13 @@ in a during a coffee or lunch break before your turn.
 ## Venue
 
 The workshop will be held in the room at the second floor in the Norwegian
-University Centre, in Russia in St. Petersburg. We are in an auditorium that
-fits at least 30 people.  There is a data projector and coffee will be served in
-the auditorium. There's a possibility to print at the venue at a cost.
+University Centre, in Kalužskiy pereulok 3, 191015 St. Petersburg, Russia.  We
+are in an auditorium that fits at least 30 people.  There is a data projector
+and coffee will be served in the auditorium. There's a possibility to print at
+the venue at a cost.
 
+![Kalužskiy pereulok 3, 191015 St.
+ Petersburg](https://www.openstreetmap.org/way/112044986#map=18/59.94580/30.37990)
 
 <!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N
 <script type="text/javascript">
