@@ -176,7 +176,7 @@ encourage researchers of minority Uralic languages in Russia to participate.
 * 11th January 2017: **Fill in** the [registration form][regform], **only
   registered participants have access to the venue** and we need to have a
   participant list ready.
-* 23th January 2017: Workshop held in St. Petersburg
+* 23th and 24th January 2017: Workshop held in St. Petersburg
 
 
 ### Submission of papers
@@ -285,9 +285,9 @@ If you need an invitation for Russian Visa, please contact
 ### Organisers
 
 * Tommi A. Pirinen, Universität Hamburg
-* Francis M. Tyers, UiT Norgga árktalaš universitehta
-* Trond Trosterud, UiT Norgga árktalaš universitehta
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
+* Trond Trosterud, UiT Norgga árktalaš universitehta
+* Francis M. Tyers, UiT Norgga árktalaš universitehta
 
 and *The University of Oslo St. Petersburg Representative Office*
 
