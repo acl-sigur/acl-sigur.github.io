@@ -37,7 +37,11 @@ Preliminary schedule, subject to change
 | 16:30–17:15 | Posters and Demos with Coffee break |
 | 17:15–18:00 | ACL SIGUR business meeting |
 | 19:00– | Conference Dinner |
-| 24th January | *Possible tutorial/discussions day* |
+| 24th January | Workshopping / open discussions |
+| | Uralic dependencies |
+| | Morphology |
+| | QA |
+| | (suggest your own topics) |
 
 **Informations for authors:** a *Poster boaster* is an *elevator pitch* of your
 poster / demo topic to invite people to come talk, you may use up to three
@@ -106,10 +110,8 @@ concerning Verbal Predicative Structure Extraction from a Large Finnish Corpus*
    *A morphological analyser for Kven*
 1. **Eszter Simon** and **Nikolett Mus** *Languages under the influence: Building
    a database of Uralic languages*
-
-## Tutorials
-
-
+1. **Joseph Mariani** and **Gil Francopoulo**: *The LRE Map, LR Matrices and LR
+   Impact factor*
 
 ## Call for papers
 
@@ -284,15 +286,9 @@ If you need an invitation for Russian Visa, please contact
 * Tommi A. Pirinen, Universität Hamburg
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Trond Trosterud, UiT Norgga árktalaš universitehta
+* Michael Rießler, Albert-Ludwigs-Universität Freiburg
 
 and *The University of Oslo St. Petersburg Representative Office*
-
-### Local organisers
-
-* Илья Сергеевич Николаев, Санкт-Петербургский государственный университет
-* Michael Rießler, Albert-Ludwigs-Universität Freiburg
-* Марина Федина, Centre of Innovative Language Technology,
-  Komi Republican Academy of State Service and Administration
 
 ### Programme committee
 
