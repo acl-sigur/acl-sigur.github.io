@@ -41,6 +41,7 @@ Preliminary schedule, subject to change
 | | Uralic dependencies |
 | | Morphology |
 | | QA |
+| | Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки" |
 | | (suggest your own topics) |
 
 **Informations for authors:** a *Poster boaster* is an *elevator pitch* of your
