@@ -84,9 +84,8 @@ Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
 
 ## Приглашенные докладчики
 
-[Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/),
-Тартуский университет: Язык технологии в Тарту: мечты и
-реальность
+[Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/), Тартуский университет:
+*Language technology in Tartu: dreams and realities* (Языковая технология в Тарту: мечты и реальность)
  
 
 ## Принятые доклады
