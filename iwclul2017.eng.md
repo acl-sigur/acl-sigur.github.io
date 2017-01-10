@@ -39,9 +39,9 @@ Preliminary schedule, subject to change
 | 19:00– | Conference Dinner |
 | 24th January | Workshopping / open discussions |
 | | Uralic dependencies |
+| | *Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки"* (Perspectives for the development of the language corpus and online library for Komi) |
 | | Morphology |
 | | QA |
-| | Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки" |
 | | (suggest your own topics) |
 
 **Informations for authors:** a *Poster boaster* is an *elevator pitch* of your
