@@ -36,7 +36,7 @@ Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
 | 16:45 - 17:30 | Деловая встреча ACL SIGUR  |
 | 19:00 - | Фуршет  |
 | 24th January | Workshopping / open discussions |
-| | Uralic dependencies |
+| | [Uralic dependencies](http://universaldependencies.org/uralic.html) |
 | | Morphology |
 | | QA |
 | | Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки" |
@@ -86,7 +86,7 @@ Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
 
 [Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/), Тартуский университет:
 *Language technology in Tartu: dreams and realities* (Языковая технология в Тарту: мечты и реальность)
- 
+
 
 ## Принятые доклады
 (Порядок произвольный)

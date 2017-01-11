@@ -38,7 +38,7 @@ Preliminary schedule, subject to change
 | 17:15–18:00 | ACL SIGUR business meeting |
 | 19:00– | Conference Dinner |
 | 24th January | Workshopping / open discussions |
-| | Uralic dependencies |
+| | [Uralic dependencies](http://universaldependencies.org/uralic.html) |
 | | *Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки"* (Perspectives for the development of the language corpus and online library for Komi) |
 | | Morphology |
 | | QA |
