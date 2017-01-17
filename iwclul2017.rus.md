@@ -7,6 +7,9 @@ title: IWCLUL 2017 rus
 
 # Третий международный семинар по компьютерной лингвистике уральских языков
 
+Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
+*The University of Oslo St. Petersburg Representative Office*.
+
 ## 23 января, 2017, Санкт-Петербург, Россия
 
 ## Программа
@@ -14,29 +17,33 @@ title: IWCLUL 2017 rus
 | Дата/время | Мероприятие |
 | :--- | ---: |
 | 23 января | Основная конференция |
-| 10:00 - 10:15 <U+200B> | Открытие семинара |
-| 10:15 - 11:30 | Представление участников  |
-| 11:30 - 11:45 | Плакат Boasters |
-| 11:30 - 11:33 | Синхронизация Медиавики...  |
-| 11:33 - 11:36 | Giellatekno Open-source click-in-text...  |
-| 11:36 - 11:39 | ...  |
-| 11:39 - 11:42 | Языки под влиянием... |
-| 11:42 - 11:45 | Instant Annotations... |
+| 10:00 - 10:15 | Открытие семинара |
+| 10:15–11:30 | Invited Talk |
+| 11:30 - 11:45 | Poster Boasters: |
+| *11:30–11:33* | Synchronised Mediawiki... |
+| *11:33–11:36* | Giellatekno Open-source click-in-text... |
+| *11:36–11:39* | Languages under the influence... |
+| *11:39–11:42* | Instant Annotations... |
 | 11:45 - 12:30 | Плакаты и презентации с перерывом на кофе  |
 | 12:30 - 14:00 | Обед  |
-| | |
 | 14:00 - 16:00 | Доклады: |
-| 14:00 - 14:30 | Предварительные эксперименты относительно словесной... |
-| 14:30 - 15:00 | Языковые технологические ресурсы и инструменты для манси: Oбзор |
-| 15:00 - 15:30. | Аннотация шемов в Северной саамской зависимости |
-| 15:30 - 16:00 | Морфологический анализ квенов ... |
+| *14:00–14:30* | Preliminary Experiments concerning Verbal... |
+| *14:30–15:00* | Language technology resources and tools for Mansi... |
+| *15:00–15:30* | Annotation schemens in North Sámi Dependency... |
+| *15:30–16:00* | A morphological analyser for Kven... |
+| *16:00–16:30* | The LRE Map, LR Matrices and LR Impact factor... |
 | 16:00 - 16:45 | Плакаты и презентации с перерывом на кофе |
 | 16:45 - 17:30 | Деловая встреча ACL SIGUR  |
 | 19:00 - | Фуршет  |
-| 24 января | Руководство по презентации / день дискуссий  |
+| 24th January | Workshopping / open discussions |
+| | [Uralic dependencies](http://universaldependencies.org/uralic.html) |
+| | Morphology |
+| | QA |
+| | Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки" |
+| | (suggest your own topics) |
 
-Информация для авторов: Плакат boaster- это убедительная
-краткая презентация вашего плаката / демонстрация темы с
+Информация для авторов: Poster boaster - это убедительная
+краткая презентация вашего стендового доклада, т.е. демонстрация темы с
 целью вызвать участников к дискуссии. Вы можете использовать
 до трех слайдов, как правило, это титульный слайд, слайд с
 содержанием и изображение плаката. В распоряжении докладчика
@@ -60,49 +67,54 @@ title: IWCLUL 2017 rus
 распечатать на месте.
 
 
+![OpenStreetMap to venue](openstreetmap.svg)
+[Калужский переулок 3, 191015 Санкт-Петербург](https://www.openstreetmap.org/way/112044986#map=18/59.94580/30.37990)
+
+<script type="text/javascript" src="http://osm.quelltextlich.at/OSMTools.js"/>
+
+<script type="text/javascript">
+  at.quelltextlich.osm.embedMapMarkedLocation(59.94580, 30.37990, 18,
+                                              600, 300);
+</script>
+
 ## Регистрация
 
-Для регистрации на семинар, пожалуйста, заполните [форму
-регистрации](http://goo.gl/forms/yUNpfceo6AAxzxfL2).  в плату за участие по
+Для регистрации на семинар, пожалуйста, заполните [форму регистрации][regform].  в плату за участие по
 желанию могут быть включены дополнительные 50 евро на покрытие текущих расходов.
 
 ## Приглашенные докладчики
 
-Heiki-Jaan Kaalep (http://www.cl.ut.ee/inimesed/hkaalep/),
-Тартуский университет: Язык технологии в Тарту: мечты и
-реальность
- 
+[Heiki-Jaan Kaalep](http://www.cl.ut.ee/inimesed/hkaalep/), Тартуский университет:
+*Language technology in Tartu: dreams and realities* (Языковая технология в Тарту: мечты и реальность)
 
 
 ## Принятые доклады
 (Порядок произвольный)
 
-1. Guersande Chaminade and Thierry Poibeau: Preliminary
-   Experiments concerning Verbal Predicative Structure
-   Extraction from a Large Finnish Corpus 
-2. Csilla Horváth, Norbert Szilágyi, Veronika Vincze and
-   Ágoston Nagy: Языковые технологические ре сурсы и
-   инструменты для манси: Oбзор
-3. Francis M. Tyers and Mariya Sheyanova: Annotat ion
-   schemes in North Sámi <U+2028>dependency parsing 
-4. Jack Rueter and Mika Hämäläinen: Синхронизация Медиавики
-   на основе анализатора развития словаря
-5. Jack Rueter DEMO: Giellatekno с открытым доступом: щелчок
-   в тексте словаря для привлечения родственных языков 
-6. Ciprian Gerstenberger, Niko Partanen, Michael Rießler and
-   Joshua Wilbur: Instant <U+2028>Annotations  -  Applying
-   NLP Methods to the Annotation of Spoken Language
-   <U+2028>Documentation Corpora <U+2028>
-7. Sindre Reino Trosterud, Trond Trosterud, Anna-Kaisa
-   Räisänen, Leena Niiranen, Mervi Haavisto and Kaisa
-   Maliniemi: Морфологический анализатор квенов
-8. Eszter Simon and Nikolett Mus Языки под влиянием:
-   Создание базы данных уральских языков
+1. **Guersande Chaminade** and **Thierry Poibeau**: *Preliminary Experiments
+concerning Verbal Predicative Structure Extraction from a Large Finnish Corpus*
+1. **Csilla Horváth**, **Norbert Szilágyi**, **Veronika Vincze** and
+   **Ágoston Nagy**: *Language technology resources and tools for Mansi: an
+   overview*
+1. **Francis M. Tyers** and **Mariya Sheyanova**: *Annotation schemes in North
+   Sámi dependency parsing*
+1. **Jack Rueter** and **Mika Hämäläinen** *Synchronized Mediawiki based analyzer
+   dictionary development*
+1. **Jack Rueter** DEMO: *Giellatekno Open-source click-in-text dictionaries for
+   bringing closely related languages into contact*
+1. **Ciprian Gerstenberger**, **Niko Partanen**, **Michael Rießler** and
+   **Joshua Wilbur**: *Instant Annotations – Applying NLP Methods to the
+   Annotation of Spoken Language Documentation Corpora*
+1. **Sindre Reino Trosterud**, **Trond Trosterud**, **Anna-Kaisa Räisänen**,
+   **Leena Niiranen**, **Mervi Haavisto** and **Kaisa Maliniemi**:
+   *A morphological analyser for Kven*
+1. **Eszter Simon** and **Nikolett Mus** *Languages under the influence: Building
+   a database of Uralic languages*
+1. **Joseph Mariani** and **Gil Francopoulo**: *The LRE Map, LR Matrices and LR
+   Impact factor*
 
 
-## Семинары
-
-## Подача докладов
+## Информационное письмо (call for papers)
 
 Цель семинара — организация форума для исследователей, занимающихся
 вычислительными методами описания и обработки уральских языков. Мы принимаем
@@ -155,7 +167,10 @@ Heiki-Jaan Kaalep (http://www.cl.ut.ee/inimesed/hkaalep/),
 * <del>1 ноября</del> <ins>14 ноября</ins> 2014: конечный срок подачи докладов
 * <del>1 декабря</del> <ins>6 декабря</ins> 2016: уведомление о приёме докладов
 * <del>14 декабря</del> <ins>23 декабря</ins> 2016: срок предоставления окончательного текста доклада
-* 23 января 2017: семинар в Санкт-Петербурге
+* 11 января 2017: **Заполните** [форму регистрации][regform], **only
+  registered participants have access to the venue** and we need to have a
+  participant list ready.
+* 23 и 24 января 2017: семинар в Санкт-Петербурге
 
 ### Подача докладов
 
@@ -174,7 +189,7 @@ Heiki-Jaan Kaalep (http://www.cl.ut.ee/inimesed/hkaalep/),
 является XeLaTeX, следовательно по возможности Вы должны использовать UTF-8
 кодировку для своих текстов, а не кодировку TeX. Шаблоны вы можете найти здесь
 (также в формате zip). Тексты докладов должны быть загружены через систему
-управления конференцией EasyChair по данной ссылке.
+управления конференцией [EasyChair][easychair-subs] по данной ссылке.
 
 Если у вас нет возможности использовать систему LaTeX, пожалуйста, обратитесь к
 нам для получения альтернативных инструкций и шаблонов.
@@ -215,6 +230,38 @@ anthology, SIG proceedings for SIGUR (new).
 онлайн-бронирования отелей. Вопросы по поводу проживания вы можете направлять
 организаторам.
 
+Suggested hotels by Norwegian University Centre in St. Petersburg:
+
+* [Park Inn by Radisson Nevsky St. Petersburg
+  Hotel](https://www.parkinn.com/hotel-stpetersburg), *4 lit. A, Goncharnaya
+  Street 89, Nevsky Prospect– 191036
+  +7 (812) 406 73 10*
+* [Grand Hotel «Emerald»](http://www.grandhotelemerald.com/en/)
+  *18 Suvorovsky Prospect, 191036*
+* [Nordic](http://www.hotel-nordic.ru) *4, Gospitalnaya Ul*
+* **Corinthia Hotel St Petersburg** *57, Nevsky prospect*
+  251 m from metrostation “Mayakovskaya”,1.5 km from the city center
+  *Phone:+7 499 215-65-25*
+* [Demetra Art Hotel](http://demetra-art-hotel.ru/) *Vosstaniya Street 44,
+  Tsentralny, 191123 Saint Petersburg, Russia, Phone:++7 812 640 04 08*
+* [Hotel Dostoevsky](www.dostoevsky-hotel.ru/) *19, Vladimirsky prospect 191002
+  Phone:+7 (812) 331-32-00*
+* **Smolninskaya hotel**, *191124, 6 ul. Proletarskoi Diktatury,
+  Ph.: +7 (812) 576-7262, +7 (812) 576-7174; Fax: +7 (812) 576-7875;
+  E-mail: tverskaya22@mail.ru*
+* [Mercury Hotel Saint
+  Petersburg](http://mercury-hotel-saint-petersburg.nochi.com/) *39
+  Tavricheskaya Street*
+* [Tavrida Apartments Saint
+  Petersburg](http://tavrida-apartments-saint-petersburg.nochi.com)
+* [Tavricheskaya Hotel Saint
+  Petersburg](http://tavricheskaya-hotel-saint-petersburg.nochi.com)
+* [Tavrida Hostel Saint Petersburg](http://tavrida-saint-petersburg.nochi.com)
+* [4 Storony Sveta Hotel Saint
+  Petersburg](http://4-storony-sveta-hotel-saint-petersburg.nochi.com)
+* [Na Shpalernoy Hotel Saint
+  Petersburg](http://na-shpalernoy-saint-petersburg.nochi.com)
+
 ### Виза / Приглашение
 
 Обратите внимание, что Норвежский университетский центр
@@ -228,24 +275,25 @@ anthology, SIG proceedings for SIGUR (new).
 ### Организаторы конференции
 
 * Tommi A. Pirinen, Universität Hamburg
-* Francis M. Tyers, UiT Norgga árktalaš universitehta
-* Trond Trosterud, UiT Norgga árktalaš universitehta
-
-### Локальные организаторы
-
-* Илья Сергеевич Николаев, Санкт-Петербургский государственный университет
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
-* Марина Федина, Centre of Innovative Language Technology, Komi Republican
-  Academy of State Service and Administration
+* Trond Trosterud, UiT Norgga árktalaš universitehta
+* Francis M. Tyers, UiT Norgga árktalaš universitehta
+
+and *The University of Oslo St. Petersburg Representative Office*
 
 ### Оргкомитет
 
 * Tommi A. Pirinen, Universität Hamburg
 * Francis M. Tyers, UiT Norgga árktalaš universitehta
 * Michael Rießler, Albert-Ludwigs-Universität Freiburg
+* Марина Федина, Centre of Innovative Language Technology,
+  Komi Republican Academy of State Service and Administration
+* Trond Trosterud, UiT Norgga árktalaš universitehta
 * Veronika Vincze, Szegedi tudományegyetem
 * Mans Hulden, University of Colodaro in Boulder
 * Eszter Simon, Magyar tudományos akadémia
+* Miikka Silfverberg, University of Helsinki
+* Тимофей Архангельский, Higher School of Economics
 
 ### Контакты
 

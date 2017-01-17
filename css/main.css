@@ -28,6 +28,12 @@ p, li {
 
 table {
     width: 60%;
+    border: 1px black solid;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+    color: black;
 }
 
 /* uneven headings should be bold */

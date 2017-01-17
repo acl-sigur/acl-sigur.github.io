@@ -37,7 +37,12 @@ Preliminary schedule, subject to change
 | 16:30–17:15 | Posters and Demos with Coffee break |
 | 17:15–18:00 | ACL SIGUR business meeting |
 | 19:00– | Conference Dinner |
-| 24th January | *Possible tutorial/discussions day* |
+| 24th January | Workshopping / open discussions |
+| | [Uralic dependencies](http://universaldependencies.org/uralic.html) |
+| | *Перспективы развития "Корпуса коми языка" и "Коми онлайн библиотеки"* (Perspectives for the development of the language corpus and online library for Komi) |
+| | Morphology |
+| | QA |
+| | (suggest your own topics) |
 
 **Informations for authors:** a *Poster boaster* is an *elevator pitch* of your
 poster / demo topic to invite people to come talk, you may use up to three
@@ -52,16 +57,24 @@ in a during a coffee or lunch break before your turn.
 ## Venue
 
 The workshop will be held in the room at the second floor in the Norwegian
-University Centre, in Russia in St. Petersburg. We are in an auditorium that
-fits at least 30 people.  There is a data projector and coffee will be served in
-the auditorium. There's a possibility to print at the venue at a cost.
+University Centre, in Kalužskiy pereulok 3, 191015 St. Petersburg, Russia.  We
+are in an auditorium that fits at least 30 people.  There is a data projector
+and coffee will be served in the auditorium. There's a possibility to print at
+the venue at a cost.
+
+![OpenStreetMap to venue](openstreetmap.svg)
+[Kalužskiy pereulok 3, 191015 St.
+ Petersburg](https://www.openstreetmap.org/way/112044986#map=18/59.94580/30.37990)
 
 
-<!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N
+<!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N-->
+
+<script type="text/javascript" src="http://osm.quelltextlich.at/OSMTools.js"/>
+
 <script type="text/javascript">
-  at.quelltextlich.osm.embedMapMarkedLocation( 69.68082, 18.97138, 14, 600, 300 );
+  at.quelltextlich.osm.embedMapMarkedLocation(59.94580, 30.37990, 18,
+                                              600, 300);
 </script>
--->
 
 ## Registration
 
@@ -98,10 +111,8 @@ concerning Verbal Predicative Structure Extraction from a Large Finnish Corpus*
    *A morphological analyser for Kven*
 1. **Eszter Simon** and **Nikolett Mus** *Languages under the influence: Building
    a database of Uralic languages*
-
-## Tutorials
-
-
+1. **Joseph Mariani** and **Gil Francopoulo**: *The LRE Map, LR Matrices and LR
+   Impact factor*
 
 ## Call for papers
 
@@ -165,7 +176,7 @@ encourage researchers of minority Uralic languages in Russia to participate.
 * 11th January 2017: **Fill in** the [registration form][regform], **only
   registered participants have access to the venue** and we need to have a
   participant list ready.
-* 23th January 2017: Workshop held in St. Petersburg
+* 23th and 24th January 2017: Workshop held in St. Petersburg
 
 
 ### Submission of papers
@@ -274,17 +285,11 @@ If you need an invitation for Russian Visa, please contact
 ### Organisers
 
 * Tommi A. Pirinen, Universität Hamburg
-* Francis M. Tyers, UiT Norgga árktalaš universitehta
+* Michael Rießler, Albert-Ludwigs-Universität Freiburg
 * Trond Trosterud, UiT Norgga árktalaš universitehta
+* Francis M. Tyers, UiT Norgga árktalaš universitehta
 
 and *The University of Oslo St. Petersburg Representative Office*
-
-### Local organisers
-
-* Илья Сергеевич Николаев, Санкт-Петербургский государственный университет
-* Michael Rießler, Albert-Ludwigs-Universität Freiburg
-* Марина Федина, Centre of Innovative Language Technology,
-  Komi Republican Academy of State Service and Administration
 
 ### Programme committee
 
