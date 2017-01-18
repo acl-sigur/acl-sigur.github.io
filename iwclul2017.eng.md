@@ -12,6 +12,12 @@ Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
 
 ## 23th January, 2017, St. Petersburg, Russia
 
+## Proceedings
+
+A [preview of the
+Pre-proceedings](https://github.com/acl-sigur/iwclul-latex/releases/download/iwclul-2017-pre1/2017-iwclul-preproceedings.pdf)
+is available in our github, the final proceedings will be published soon.
+
 ## Programme
 
 Preliminary schedule, subject to change
