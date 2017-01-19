@@ -20,7 +20,10 @@ is available in our github, the final proceedings will be published soon.
 
 ## Programme
 
-Preliminary schedule, subject to change
+
+Preliminary schedule, subject to change. [Printable
+version](https://www.overleaf.com/7798674xvcxgvfmdcjt#/27396039/) is available
+(editable) on overleaf.
 
 | Day/Time | Event |
 | :--- | ---: |
