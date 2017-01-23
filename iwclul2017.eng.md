@@ -75,6 +75,7 @@ the venue at a cost.
 [Kalužskiy pereulok 3, 191015 St.
  Petersburg](https://www.openstreetmap.org/way/112044986#map=18/59.94580/30.37990)
 
+Number 3 is before the "Диски" (no. 7) on the left if you are walking down the street. On the door is "Бизнес центр НРК".
 
 <!--http://www.openstreetmap.org/#map=18/69.68082/18.97138&layers=N-->
 
