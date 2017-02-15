@@ -13,6 +13,10 @@ resources using linkable, downloadable and usable resources as references
 full list of resources available, users are advised to turn to services,
 such as [meta-share](http://meta-share.eu).
 
+**Please help us keep the list up-to-date**, send information of new resources
+and fixes to current ones to [our ticket tracking system on
+github](https://github.com/acl-sigur/acl-sigur.github.io/issues).
+
 The columns are following: *ISO 639* is closest applicable standard language
 code, *Language* is the name of the language, in case of related / similarly
 named languages with separate language codes, *(group)* is used to add the
