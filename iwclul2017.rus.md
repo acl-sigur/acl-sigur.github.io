@@ -10,6 +10,10 @@ title: IWCLUL 2017 rus
 Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
 *The University of Oslo St. Petersburg Representative Office*.
 
+The final proceedings version are available in the [ACL SIGUR section of ACL
+anthology](http://aclanthology.info/sigs/sigur#W17-06).
+
+
 ## 23 января, 2017, Санкт-Петербург, Россия
 
 ## Программа

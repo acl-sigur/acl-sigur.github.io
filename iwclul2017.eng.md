@@ -16,7 +16,10 @@ Organised by [ACL](http://aclweb.org) [SIGUR](http://acl-sigur.github.io) and
 
 A [preview of the
 Pre-proceedings](https://github.com/acl-sigur/iwclul-latex/releases/download/iwclul-2017-pre1/2017-iwclul-preproceedings.pdf)
-is available in our github, the final proceedings will be published soon.
+is available in our github.
+
+The final proceedings version are available in the [ACL SIGUR section of ACL
+anthology](http://aclanthology.info/sigs/sigur#W17-06).
 
 ## Programme
 
