@@ -3,7 +3,7 @@ layout: default
 title: "Resource matrix"
 ---
 
-# Resource matrix
+# Introduction
 
 The special interest group for Uralic languages hosts an up-to-date list of
 resource for Uralic languages.
@@ -16,6 +16,8 @@ such as [meta-share](http://meta-share.eu).
 **Please help us keep the list up-to-date**, send information of new resources
 and fixes to current ones to [our ticket tracking system on
 github](https://github.com/acl-sigur/acl-sigur.github.io/issues).
+
+# The matrix
 
 The columns are following: *ISO 639* is closest applicable standard language
 code, *Language* is the name of the language, in case of related / similarly
@@ -70,10 +72,14 @@ know.
 I have used a plus sign **+** for most resources, an occasional hyphen-minus
 **-** is used to denote rather work-in-progress versions of data or software.
 
-# References by language
+# References
 
 We have tried to link all resources while avoiding spamming the list with
 derivations and forks of the same resource.
+
+## by Language
+
+This is language-index:
 
 ## Finnish
 
@@ -117,13 +123,33 @@ Android-based.
 
 1. [hunmorph][hun-morph-1]
 
-# Uncategorised references
+## by Resource
 
-We maintain a list of mainly freely available and open source resources
-for Uralic languages. Please help us keep the list updated. Some of these
-resources are already used directly or indirectly in the matrix.
+This is resource-type index:
 
-### Multi-language / general
+## Orthography
+
+## Keyboards
+
+## Corpora
+
+## Speech technology
+
+## Morphology
+
+* [Omorfi][fin-morph-1] (see also: apertium-fin, giella-fin)
+* [Voikko][fin-morph-2] (also: suomi-malaga, vfst morphology)
+* [hunmorph][hun-morph-1]
+* [GF][gf] (Available: Finnish, Hungarian...)
+* [Morfessor][morfessor] (Available models/data: Finnish, North Saami...)
+
+## Treebanks
+
+## Machine Translation
+
+# Other references
+
+Larger collections:
 
 * [Universal dependencies](http://universaldependencies.org), treebanks,
    dependency syntax conventions for Finnish, Estonian and Hungarian plus other
@@ -142,18 +168,9 @@ resources are already used directly or indirectly in the matrix.
 * [Wanca corpora](http://suki.ling.helsinki.fi/wanca/) from SUKI project on
    harvesting internet for Uralic texts
 * [Voikko](http://voikko.puimula.org/) spell-checking for many Uralic languages
-
-### Finnish
-
 * [Language bank of Finland](http://kielipankki.fi) a Finland’s central
    repository of language resources
-
-### Estonian
-
 * [Centre for Estonian Language Resources](http://keeleressursid.ee/)
-
-### Saami languages
-
 * [Divvun](http://divvun.no) Writers' tools for Saami languages, and lots
   of others
 
@@ -173,5 +190,6 @@ resources are already used directly or indirectly in the matrix.
 [fin-olo-1]: https://github.com/flammie/apertium-fin-olo
 [fin-any-1]: http://www.grammaticalframework.org/
 [hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
-
+[gf]: http://grammaticalframework.org
+[morfessor]: https://github.com/aalto-speech/morfessor
 
