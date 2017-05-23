@@ -6,8 +6,9 @@ title: ACL SIGUR membership registry
 # ACL SIGUR members
 
 List of ACL SIGUR members that have approved publication of their membership
-details. To join, fill in [ACL SIGUR membership form]() in google forms (no
-Google account required).
+details. To join, fill in [ACL SIGUR membership
+form](https://docs.google.com/forms/d/19jasNykCI5449BFNtm5jJ94CFlfQYXNEt4uaFuOkADw/viewform)
+in google forms (no Google account required).
 
 
 ## Members (in order of registration)
