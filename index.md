@@ -21,8 +21,9 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 ### Forthcoming events
 
-* Fourth international workshop on computational linguistics for the Uralic
-  languages
+* [Fourth international workshop on computational linguistics for the Uralic
+  languages](http://blogs.helsinki.fi/language-technology/iwclul-2018/),
+  Helsinki, Finland. On 8th–9th January 2018
 * Fifth international workshop on computational linguistics for the Uralic
   languages
 * ...
