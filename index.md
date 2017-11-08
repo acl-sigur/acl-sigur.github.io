@@ -24,6 +24,7 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 * [Fourth international workshop on computational linguistics for the Uralic
   languages](http://blogs.helsinki.fi/language-technology/iwclul-2018/),
   Helsinki, Finland. On 8th–9th January 2018
+  * [SIG board election for 2018–2020](https://docs.google.com/spreadsheets/d/1B-FvSIeQSLqg51r-xuy4yiY5vgs_6HnGwHOlxJZPEuc/edit?usp=sharing)
 * Fifth international workshop on computational linguistics for the Uralic
   languages
 * ...
