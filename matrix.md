@@ -40,8 +40,8 @@ know.
 | fin | Finnish |     | ??? | [+][fin-keyboard-1]+++ | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | [+][fin-any-1][-][fin-eng-1]  |
 | fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
 | fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
-| hun | Hungarian |   | ?| [+][est-keyboard-1] | ?| ? | [+][hun-morph-1] | ? |? |
-| est | Estonian |    | ?| ? | ?| ? | ?| ?| [+][fin-est-1] |
+| hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
+| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | ?| ?| [+][fin-est-1] |
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
 | sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? |
