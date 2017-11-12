@@ -41,7 +41,7 @@ know.
 | fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
 | fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
 | hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
-| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | ?| ?| [+][fin-est-1] |
+| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3] | ?| [+][fin-est-1] |
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
 | sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? |
@@ -179,6 +179,9 @@ Larger collections:
 <!-- links: -->
 
 [est-keyboard-1]: http://www.eki.ee/itstandard/2000/keyboard.shtml
+[est-morph-1]: http://portaal.eki.ee/tarkvara/
+[est-morph-2]: https://github.com/Filosoft/vabamorf
+[est-morph-3]: http://www.grammaticalframework.org/lib/src/estonian/
 [fin-keyboard-1]: http://kotoistus.fi/nappaimisto/
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
