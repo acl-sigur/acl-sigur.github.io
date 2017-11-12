@@ -40,7 +40,7 @@ know.
 | fin | Finnish |     | ??? | [+][fin-keyboard-1]+++ | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | [+][fin-any-1][-][fin-eng-1]  |
 | fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
 | fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
-| hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
+| hun | Hungarian |   | ?| [+][est-keyboard-1] | ?| ? | [+][hun-morph-1] | ? |? |
 | est | Estonian |    | ?| ? | ?| ? | ?| ?| [+][fin-est-1] |
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
@@ -178,6 +178,7 @@ Larger collections:
 
 <!-- links: -->
 
+[est-keyboard-1]: http://www.eki.ee/itstandard/2000/keyboard.shtml
 [fin-keyboard-1]: http://kotoistus.fi/nappaimisto/
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
