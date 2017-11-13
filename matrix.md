@@ -68,6 +68,7 @@ know.
 | izh |          | Ingrian | ? | ?| ? | | ?| ?| ? |
 | olo |          | Olonets | ? | ?| ? | ? | ? | ?| [-][fin-olo-1] |
 | | Selkup |        | ? | ? | ?| ? | ? | ?| ? |
+| vot | Votic |        | ? | ? | ?| ? | [+][vot-morph-1] | ?| ? |
 
 I have used a plus sign **+** for most resources, an occasional hyphen-minus
 **-** is used to denote rather work-in-progress versions of data or software.
@@ -197,4 +198,5 @@ Larger collections:
 [hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
 [gf]: http://grammaticalframework.org
 [morfessor]: https://github.com/aalto-speech/morfessor
+[vot-morph-1]: https://github.com/keeleleek/GF-Votic
 
