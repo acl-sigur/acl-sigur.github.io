@@ -41,7 +41,7 @@ know.
 | fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
 | fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
 | hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
-| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | ?| [+][fin-est-1] |
+| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | [+][est-treebank-1]| [+][fin-est-1] |
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
 | sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? |
@@ -68,7 +68,7 @@ know.
 | izh |          | Ingrian | ? | ?| ? | | ?| ?| ? |
 | olo |          | Olonets | ? | ?| ? | ? | ? | ?| [-][fin-olo-1] |
 | | Selkup |        | ? | ? | ?| ? | ? | ?| ? |
-| vot | Votic |        | ? | ? | ?| ? | [+][vot-morph-1] | ?| ? |
+| vot | Votic |        | ? | ? | ?| ? | [-][vot-morph-1] | ?| ? |
 
 I have used a plus sign **+** for most resources, an occasional hyphen-minus
 **-** is used to denote rather work-in-progress versions of data or software.
@@ -184,6 +184,7 @@ Larger collections:
 [est-morph-2]: https://github.com/Filosoft/vabamorf
 [est-morph-3]: https://github.com/jjpp/plamk
 [est-morph-4]: http://www.grammaticalframework.org/lib/src/estonian/
+[est-treebank-1]: https://metashare.ut.ee/repository/browse/eesti-keele-puudepank/1ac6f18a15b511e5a6e4005056b40024941ed544fc2843589d19d6db77c1461b/
 [fin-keyboard-1]: http://kotoistus.fi/nappaimisto/
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
