@@ -21,15 +21,15 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 ### Forthcoming events
 
-* [Fourth international workshop on computational linguistics for the Uralic
-  languages](http://blogs.helsinki.fi/language-technology/iwclul-2018/),
-  Helsinki, Finland. On 8th–9th January 2018
 * Fifth international workshop on computational linguistics for the Uralic
-  languages
+  languages, Tarto, Estonia
 * ...
 
 ### Past events
 
+* [Fourth international workshop on computational linguistics for the Uralic
+  languages](http://blogs.helsinki.fi/language-technology/iwclul-2018/),
+  Helsinki, Finland. On 8th–9th January 2018
 * [Third international workshop on computational linguistics for the Uralic
    languages](iwclul2017.html), St. Petersburg, Russia
     * [IWCLUL 2017 proceedings in ACL anthology](http://aclanthology.info/sigs/sigur#W17-06)
@@ -63,6 +63,12 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 * **Community liaison**: *Trond Trosterud*, UiT Norgga árktalaš universitehta, Norway
 
 ## Contact
+
+### Mailing list
+
+[Mailing list](mailing-list.html) is ran via google groups, everyone who has
+filled the registration form will receive an invitation, if you are missing one,
+contact us.
 
 ### IRC
 
