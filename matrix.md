@@ -41,7 +41,7 @@ know.
 | fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
 | fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
 | hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
-| est | Estonian |    | ?| ? | ?| ? | ?| ?| [+][fin-est-1] |
+| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | ?| [+][fin-est-1] |
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
 | sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? |
@@ -68,6 +68,7 @@ know.
 | izh |          | Ingrian | ? | ?| ? | | ?| ?| ? |
 | olo |          | Olonets | ? | ?| ? | ? | ? | ?| [-][fin-olo-1] |
 | | Selkup |        | ? | ? | ?| ? | ? | ?| ? |
+| vot | Votic |        | ? | ? | ?| ? | [+][vot-morph-1] | ?| ? |
 
 I have used a plus sign **+** for most resources, an occasional hyphen-minus
 **-** is used to denote rather work-in-progress versions of data or software.
@@ -178,6 +179,11 @@ Larger collections:
 
 <!-- links: -->
 
+[est-keyboard-1]: http://www.eki.ee/itstandard/2000/keyboard.shtml
+[est-morph-1]: http://portaal.eki.ee/tarkvara/
+[est-morph-2]: https://github.com/Filosoft/vabamorf
+[est-morph-3]: https://github.com/jjpp/plamk
+[est-morph-4]: http://www.grammaticalframework.org/lib/src/estonian/
 [fin-keyboard-1]: http://kotoistus.fi/nappaimisto/
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
@@ -192,4 +198,5 @@ Larger collections:
 [hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
 [gf]: http://grammaticalframework.org
 [morfessor]: https://github.com/aalto-speech/morfessor
+[vot-morph-1]: https://github.com/keeleleek/GF-Votic
 
