@@ -35,40 +35,40 @@ free as in no costs and free as in no restrictions for purposes of use, can
 be copyleft. Also, systems must be usable, ideally used by us or researchers we
 know.
 
-| ISO 639 | Language | (group) | Orth | Keyboard | Corpora | Speech | Morph | Treebank | MT |
-| --- | --- | :-- | --- | --- | --- | --- | --- | --- | --- |
-| fin | Finnish |     | ??? | [+][fin-keyboard-1]+++ | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | [+][fin-any-1][-][fin-eng-1]  |
-| fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? |
-| fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? |
-| hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? |
-| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | ?| [+][fin-est-1] |
-| ekk | (Estonian) |  |  |   |  |   |  |  |   |
-| vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |
-| sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? |
-|  |       | Lule  | ? | ?| ? | ?| ?| ?| ? |
-| sma |       | South | ? | ?| ? | ?| ?| ?| ? |
-|  |     | Inari   | ? | ?| ? | ?| ?| ?| ? |
-| sms |     | Skolt   | ? | ?| ? | ?| ?| ?| ? |
-|  |     | Kildin  | ?| ? | ? | ?| ?| ?| ? |
-| kpv | Komi | Zyrian | ?| ? | ?| ?| ?| ? |
-|     |      | Permyak | ?| ? | ?| ?| ?| ? |
-| udm | Udmurt |      | ?| ?| ? | ?| ? | ?| ? |
-| | Mari   | Hill | ?| ? | ?| ?| ?| ? |
-| |        | Meadow | ?| ? | ?| ?| ?| ? |
-| | Mordvin | Erzya | ?| ?| ? | ?| ?| ? |
-| |         | Moksha | ?| ? | ?| ?|??| ? |
-| | Mansi   |       | ?| ? | ?| ? | ?| ?| ? |
-| kca | Khanty  |       | ?| ? | ?| ? | ?| ?| ? |
-| nio | Nganasan |      | ?| ? | ?| ?| ? | ?| ? |
-| | Enets | Tundra  | ?| ? | ?| ?| ?| ? |
-| |       | Forest  | ?| ? | ?| ?| ?| ? |
-| | Nenets | Tundra | ?| ? | ?| ?| ?| ? |
-| |        | Forest | ?| ? | ?| ?| ?| ? |
-| krl | Karelian | Varsinais- | ? | ?| ? | | ?| ?| ? |
-| izh |          | Ingrian | ? | ?| ? | | ?| ?| ? |
-| olo |          | Olonets | ? | ?| ? | ? | ? | ?| [-][fin-olo-1] |
-| | Selkup |        | ? | ? | ?| ? | ? | ?| ? |
-| vot | Votic |        | ? | ? | ?| ? | [+][vot-morph-1] | ?| ? |
+| ISO 639 | Language | (group) | Orth | Keyboard | Corpora | Speech | Morph | Treebank | MT | CLDR
+| --- | --- | :-- | --- | --- | --- | --- | --- | --- | --- | ? | 
+| fin | Finnish |     | ??? | [+][fin-keyboard-1]+++ | ??? | ??? | [+][fin-morph-1][+][fin-morph-2][+][fin-morph-3][+][fin-morph-4] | [+][fin-treebank-1][+][fin-treebank-2] | [+][fin-any-1][-][fin-eng-1]  | ? | 
+| fkv |  | Kven | ? | ? | ? | ? | ? | ? | ? | ? | 
+| fit |  | Meänkieli | ? | ? | ? | ? | ? | ? | ? | ? | 
+| hun | Hungarian |   | ?| ? | ?| ? | [+][hun-morph-1] | ? |? | ? | 
+| est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | ?| [+][fin-est-1] | ? | 
+| ekk | (Estonian) |  |  |   |  |   |  |  |   | ? | 
+| vro | Võro |        | ?| ? | ?| ?| ? | ?| ? | ? | 
+| sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? | ? | 
+|  |       | Lule  | ? | ?| ? | ?| ?| ?| ? | ? | 
+| sma |       | South | ? | ?| ? | ?| ?| ?| ? | ? | 
+|  |     | Inari   | ? | ?| ? | ?| ?| ?| ? | ? | 
+| sms |     | Skolt   | ? | ?| ? | ?| ?| ?| ? | ? | 
+|  |     | Kildin  | ?| ? | ? | ?| ?| ?| ? | ? | 
+| kpv | Komi | Zyrian | ?| ? | ?| ?| ?| ? | ? | 
+|     |      | Permyak | ?| ? | ?| ?| ?| ? | ? | 
+| udm | Udmurt |      | ?| ?| ? | ?| ? | ?| ? | ? | 
+| | Mari   | Hill | ?| ? | ?| ?| ?| ? | ? | 
+| |        | Meadow | ?| ? | ?| ?| ?| ? | ? | 
+| myv | Mordvin | Erzya | ?| ?| ? | ?| ?| ? | ? | 
+| |         | Moksha | ?| ? | ?| ?|??| ? | ? | 
+| | Mansi   |       | ?| ? | ?| ? | ?| ?| ? | ? | 
+| kca | Khanty  |       | ?| ? | ?| ? | ?| ?| ? | ? | 
+| nio | Nganasan |      | ?| ? | ?| ?| ? | ?| ? | ? | 
+| | Enets | Tundra  | ?| ? | ?| ?| ?| ? | ? | 
+| |       | Forest  | ?| ? | ?| ?| ?| ? | ? | 
+| | Nenets | Tundra | ?| ? | ?| ?| ?| ? | ? | 
+| |        | Forest | ?| ? | ?| ?| ?| ? | ? | 
+| krl | Karelian | Varsinais- | ? | ?| ? | | ?| ?| ? | ? | 
+| izh |          | Ingrian | ? | ?| ? | | ?| ?| ? | ? | 
+| olo |          | Olonets | ? | ?| ? | ? | ? | ?| [-][fin-olo-1] | ? | 
+| | Selkup |        | ? | ? | ?| ? | ? | ?| ? | ? | 
+| vot | Votic |        | ? | ? | ?| ? | [+][vot-morph-1] | ?| ? | ? | 
 
 I have used a plus sign **+** for most resources, an occasional hyphen-minus
 **-** is used to denote rather work-in-progress versions of data or software.
