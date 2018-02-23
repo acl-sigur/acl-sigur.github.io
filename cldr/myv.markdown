@@ -11,7 +11,7 @@ title: "CLDR Erzya"
 | --- | --- |
 | Exemplar sets | ... |
 | main characters | `[а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я]` |
-| auxiliary characters | `[ä ə]` |
+| auxiliary characters | `[є ѕ і ў џ ѣ ѡ ѳ ѵ ѷ җ ҥ ä ə]` |
 | index characters | `[А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я]` |
 | numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
@@ -54,9 +54,7 @@ title: "CLDR Erzya"
 ### Collation
 
 Alphabetical order,
-I think we roughly need to know things like: sort V alongside W, etc., åäö
-at end before numbers
-
+Just like Russian, with "е" followed by "ё"
 
 ## CLDR minimal data for Finnish
 
@@ -70,18 +68,18 @@ at end before numbers
 
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 |  |
-| month 2 | |
-| month 3 | |
-| month 4 | |
-| month 5 | |
-| month 6 | |
-| month 7 | |
-| month 8 | |
-| month 9 | |
-| month 10 |  |
-| month 11 |  |
-| month 12 |  |
+| month 1 | якшамков |
+| month 2 | даволков |
+| month 3 | эйзюрков|
+| month 4 | чадыков |
+| month 5 | панжиков |
+| month 6 | аштемков |
+| month 7 | медьков |
+| month 8 | умарьков |
+| month 9 | таштамков |
+| month 10 | ожоков |
+| month 11 | сундерьков |
+| month 12 | ацамков |
 | (week)day sun | |
 | (week)day mon | |
 | (week)day tue | |
@@ -118,11 +116,14 @@ at end before numbers
 
 Language:
 
-| `myv` |  |
+| `myv` | эрзя |
+| `mdf` | мокшо |
+| `cv` | ветказ |
+| `ru` | руз |
 
 Country or territory:
 
-| `RU` |  |
+| `RU` | Рузонь мастор |
 
 Currency:
 
@@ -188,7 +189,7 @@ The place names to translate must be in the lists here: XXX
 
 | key | Name |
 | -------- | ---- |
-| `calendar` |  |
+| `calendar` | ковкерькс |
 | `cf` | |
 | `colAlternate` | |
 | `colBackwards` | |

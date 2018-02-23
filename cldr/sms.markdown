@@ -13,9 +13,9 @@ Fill-in:
 | Stuff | Values |
 | --- | --- |
 | Exemplar sets | ... |
-| main characters | `[a b c č d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]` |
-| auxiliary characters | `[á à ă â ã ą ā ć ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]` |
-| index characters | `[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]` |
+| main characters | `[а â b c č ʒ ǯ d đ e f g ǧ ǥ h i j k ǩ l m n ŋ o õ p q r s š t u v w x y z ž å ä ö ʹ ʼ]` |
+| auxiliary characters | `[ẹ ˈ á à ă ã ą ā ć ċ ç ď ð đ é è ê ě ë ė ę ē ģ ȟ ħ í î ï İ į ī ı ķ ĺ ľ ļ ł ń ň ñ ņ ó ò ô ő œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż þ æ ø]` |
+| index characters | `[А Â B C Č Ʒ Ǯ D Đ E Ẹ F G Ǧ Ǥ H I J K Ǩ L M N Ŋ O Õ P Q R S Š T U V W X Y Z Ž Å Ä Ö]` |
 | numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
 | Orientation | left-to-right |
@@ -26,6 +26,7 @@ Fill-in:
 | other example | {0} XXX |
 | Country Data and Default Content | sms_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
+Skolt Sami sms Finland {OR} FI 610
 | Romanization | Skolt Saami is already written in latin script |
 
 ### Casing
@@ -57,9 +58,8 @@ Fill-in:
 
 ### Collation
 
-Alphabetical order, (describe nearest language / diversions, e.g. Finnish, but
-...)
-
+Alphabetical order, (describe nearest language / Finnish, but 16 more glyphs: 
+а â b c č ʒ ǯ d đ e ẹ f g ǧ ǥ h i j k ǩ l m n ŋ o õ p q r s š t u v w x y z ž å ä ö ʹ ʼ ˈ )
 
 ## CLDR minimal data for Uralic
 
