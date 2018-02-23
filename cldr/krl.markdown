@@ -118,11 +118,12 @@ Like Finnish, with č along c.
 
 Language:
 
-| `fi` | karjala |
+| `krl` | karjala |
 
 Country or territory:
 
 | `FI` | Šuomi |
+| `RU` | Vena |
 
 Currency:
 
