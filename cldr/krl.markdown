@@ -26,7 +26,7 @@ title: "CLDR Karelian"
 ### Casing
 
 | Item | Case |
-| ---  | ---  |
+| ---- | ---- |
 | calendar_field | lowercase |
 | currencyName | titlecase |
 | currencyName_count | titlecase |
@@ -49,6 +49,7 @@ title: "CLDR Karelian"
 | variant | lowercase |
 | zone_exemplarCity | titlecase |
 | zone_long | titlecase |
+
 ### Collation
 
 Like Finnish, with č along c.
