@@ -21,9 +21,8 @@ Fill-in:
 | Orientation | left-to-right |
 | ... |  top-to-bottom |
 | Plural rules | ... |
-| one example | {0} XXX  (inflect the word for day sg.)|
-| two examples | {0} XXX (delete if no dual) |
-| other example | {0} XXX |
+| one example | {0} peiʹvv  (inflect the word for day sg.)|
+| other example | {0} peeiʹv |
 | Country Data and Default Content | sms_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 Skolt Sami sms Finland {OR} FI 610
@@ -76,25 +75,25 @@ i.e. 1–2 letters if one exists).
 
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 |  |
-| month 2 |  |
-| month 3 |  |
-| month 4 |  |
-| month 5 |  |
-| month 6 |  |
-| month 7 |  |
-| month 8 | |
-| month 9 |  |
-| month 10 |  |
-| month 11 |  |
-| month 12 |  |
-| (week)day sun |  |
-| (week)day mon |  |
-| (week)day tue |  |
-| (week)day wed |  |
-| (week)day thu |  |
-| (week)day fri |  |
-| (week)day sat |  |
+| month 1 | ođđeeʹjjmään |
+| month 2 | täʹlvvmään |
+| month 3 | pâʹzzlâšttammään |
+| month 4 | njuhččmään |
+| month 5 | vueʹssmään |
+| month 6 | ǩieʹssmään |
+| month 7 | sueiʹnnmään |
+| month 8 | påʹrǧǧmään|
+| month 9 | čõhččmään |
+| month 10 | rõõǥǥâdmään |
+| month 11 | skamm-mään |
+| month 12 | rosttovmään |
+| (week)day sun | pâʹsspeiʹvv |
+| (week)day mon | vuõssargg |
+| (week)day tue | mââibargg |
+| (week)day wed | seärad |
+| (week)day thu | nelljdpeiʹvv |
+| (week)day fri | piâtnâc |
+| (week)day sat | sueʹvet |
 | quarter 1 |  |
 | quarter 2 |  |
 | quarter 3 |  |
