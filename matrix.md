@@ -19,21 +19,26 @@ github](https://github.com/acl-sigur/acl-sigur.github.io/issues).
 
 # The matrix
 
-The columns are following: *ISO 639* is closest applicable standard language
-code, *Language* is the name of the language, in case of related / similarly
-named languages with separate language codes, *(group)* is used to add the
-differentiating part of language name, *Orth* column describes the status of
-standard orthography, *Keyboard* is freely available keyboard layouts for
-commonly used operation systems, *Corpora* is freely available language data,
-both spoken and written, annotated or not, carefully selected or not, *Speech*
-is speech technology resources such as synthesised speakers, *Morph* is for
-various text analysers; morpho-syntactic or otherwise, *Treebank* is for
-different treebanks and parsebanks with over word-level annotations and
-*MT* is for machine translators. The resources listed are ones that we have
+The columns are the following:
+
+* **ISO 639:** closest applicable standard language code
+* **Language:** the name of the language, in case of related / similarly named languages with separate language codes
+* **(group):** is used to add the differentiating part of language name
+* **Orth:** describes the status of standard orthography
+* **Keyboard:** freely available keyboard layouts for commonly used operation systems available
+* **Corpora:** freely available language data, both spoken and written, annotated or not, carefully selected or not
+* **Speech:** speech technology resources such as synthesised speakers
+* **Morph:** various text analysers; morpho-syntactic or otherwise
+* **Treebank:** is for different treebanks and parsebanks with over word-level annotations
+* **MT:** machine translators
+* **CLDR:** resources available in the Common Language Data Repository
+
+The resources listed are ones that we have
 verified free to use, at least for research purposes but usually free for all,
 free as in no costs and free as in no restrictions for purposes of use, can
 be copyleft. Also, systems must be usable, ideally used by us or researchers we
 know.
+
 
 | ISO 639 | Language | (group) | Orth | Kbd | Corpora | Speech | Morph | Treebank | MT  | CLDR |
 | ---     | ---      | :--     | ---  | ---      | ---     | ---    | ---   | ---      | --- | ---  | 
