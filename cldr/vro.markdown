@@ -1,32 +1,28 @@
 ---
 layout: default
-title: "CLDR Skolt Saami"
+title: "CLDR Võro"
 ---
 
-## CLDR core data for Skolt Saami
-
-Fill-in:
+## CLDR core data for Uralic
 
 **Needed for requesting new locale**:
-
 
 | Stuff | Values |
 | --- | --- |
 | Exemplar sets | ... |
-| main characters | `[а â b c č ʒ ǯ d đ e f g ǧ ǥ h i j k ǩ l m n ŋ o õ p q r s š t u v w x y z ž å ä ö ʹ ʼ]` |
-| auxiliary characters | `[ẹ ˈ á à ă ã ą ā ć ċ ç ď ð đ é è ê ě ë ė ę ē ģ ȟ ħ í î ï İ į ī ı ķ ĺ ľ ļ ł ń ň ñ ņ ó ò ô ő œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż þ æ ø]` |
-| index characters | `[А Â B C Č Ʒ Ǯ D Đ E Ẹ F G Ǧ Ǥ H I J K Ǩ L M N Ŋ O Õ P Q R S Š T U V W X Y Z Ž Å Ä Ö]` |
-| numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
-| punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
+| main characters | `[a b b́ c ć d d́ e f f́ g ǵ h h́ i j k ḱ l ĺ m ḿ n ń o p ṕ q r ŕ s ś š z ź ž t t́ u v v́ w õ ä ö ü x y]` |
+| auxiliary characters | `[ʼ á à â å ā æ ç é è ê ë ē í ì î ï ī ñ ó ò ŏ ô ø ō œ ú ù û ū]` |
+| index characters | `[A B B́ C Ć D D́ E F F́ G Ǵ H H́ I J K Ḱ L Ĺ M Ḿ N Ń O P Ṕ Q R Ŕ S Ś Š Z Ź Ž T T́ U V V́ Õ Ä Ö Ü X Y]` |
+| numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
+| punctuation characters | `[\- , ; \: ! ? . “ „ ( ) \[ \] \{ \} @]` |
 | Orientation | left-to-right |
 | ... |  top-to-bottom |
 | Plural rules | ... |
-| one example | {0} peiʹvv  (inflect the word for day sg.)|
-| other example | {0} peeiʹv |
-| Country Data and Default Content | sms_FI |
+| one example | {0} üüpäiv |
+| other example | {0} üüpääväd |XXX
+| Country Data and Default Content | vro_EE |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
-Skolt Sami sms Finland {OR} FI 610
-| Romanization | Skolt Saami is already written in latin script |
+| Romanization | Võro is already written in Latin script |
 
 ### Casing
 
@@ -35,9 +31,7 @@ Skolt Sami sms Finland {OR} FI 610
 | calendar_field | lowercase |
 | currencyName | titlecase |
 | currencyName_count | titlecase |
-| day_format_except_narrow | lowercase |
 | day_narrow | titlecase |
-| day_standalone_except_narrow | lowercase |
 | era_abbr | lowercase |
 | era_name | lowercase |
 | era_narrow | lowercase |
@@ -48,17 +42,20 @@ Skolt Sami sms Finland {OR} FI 610
 | month_format_except_narrow | lowercase |
 | month_narrow | titlecase |
 | month_standalone_except_narrow | lowercase |
+| quarter_abbreviated | titlecase |
 | relative | lowercase |
 | script | lowercase |
 | territory | titlecase |
-| variant | lowercase |
 | zone_exemplarCity | titlecase |
 | zone_long | titlecase |
 
 ### Collation
 
-Alphabetical order, (describe nearest language / Finnish, but 16 more glyphs: 
-а â b c č ʒ ǯ d đ e ẹ f g ǧ ǥ h i j k ǩ l m n ŋ o õ p q r s š t u v w x y z ž å ä ö ʹ ʼ ˈ )
+Alphabetical order,
+I think we roughly need to know things like: sort V alongside W, etc., åäö
+at end before numbers
+Like Estonian, except for nearly every consonant there is also a palatalized consonant immediately following it, i.e.,
+.. b b́ c ć d d́ ... f f́ g ǵ h h́ ... k ḱ l ĺ m ḿ n ń ... p ṕ ... r ŕ s ś ... z ź ... t t́ ... v v́ ...
 
 ## CLDR minimal data for Uralic
 
@@ -66,34 +63,31 @@ Alphabetical order, (describe nearest language / Finnish, but 16 more glyphs:
 
 ### Required date-time formats
 
-If the calendar used is not gregorian...
 
 #### gregorian calendar
 
-For most things, fill in full names and abbreviations (short and very short
-i.e. 1–2 letters if one exists).
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | ođđeeʹjjmään |
-| month 2 | täʹlvvmään |
-| month 3 | pâʹzzlâšttammään |
-| month 4 | njuhččmään |
-| month 5 | vueʹssmään |
-| month 6 | ǩieʹssmään |
-| month 7 | sueiʹnnmään |
-| month 8 | påʹrǧǧmään|
-| month 9 | čõhččmään |
-| month 10 | rõõǥǥâdmään |
-| month 11 | skamm-mään |
-| month 12 | rosttovmään |
-| (week)day sun | pâʹsspeiʹvv |
-| (week)day mon | vuõssargg |
-| (week)day tue | mââibargg |
-| (week)day wed | seärad |
-| (week)day thu | nelljdpeiʹvv |
-| (week)day fri | piâtnâc |
-| (week)day sat | sueʹvet |
+| month 1 | vahtsõaastakuu |
+| month 2 | radokuu |
+| month 3 | urbõkuu |
+| month 4 | mahlakuu |
+| month 5 | lehekuu |
+| month 6 | piimäkuu |
+| month 7 | hainakuu |
+| month 8 | põimukuu |
+| month 9 | süküskuu |
+| month 10 | rehekuu |
+| month 11 | märtekuu |
+| month 12 | joulukuu |
+| (week)day sun | pühäpäiv |
+| (week)day mon | iispäiv |
+| (week)day tue | tõõsõpäiv |
+| (week)day wed | kolmapäiv |
+| (week)day thu | neĺäpäiv |
+| (week)day fri | riidi |
+| (week)day sat | puulpäiv |
+| (week)day sun | pühäpäiv |
 | quarter 1 |  |
 | quarter 2 |  |
 | quarter 3 |  |
@@ -111,54 +105,40 @@ i.e. 1–2 letters if one exists).
 | period of day am |  |
 | period of day noon |  |
 | period of day pm |  |
-| period of day morning1 |  |
+| period of day morning1 | |
 | period of day morning2 |  |
 | period of day afternoon1 |  |
 | period of day evening1 |  |
 | period of day night1 | |
-| era BC |  |
-| era BCE | |
-| era AD |  |
-| era ACE |  |
-
-For formats examples are good: e.g. "on monday the 21. of June 1984",
-"21.6.1984". "12:34"
-
-| date format |  |
-| time format |  |
-| datetime format |  |
-| Timezone | {0} {1} |
-| interval format fallback | `{0}–{1}` |
+| era | |
+| era |  |
+| era |  |
+| era |  |
 
 ### Important names in language
 
 Language:
 
-| `sms` | sääʹmǩiõll |
+| `vro` | võro |
 
 Country or territory:
 
-| `FI` |  |
-| `NO` |  |
-| `RU` |  |
+| `EE` | Eesti |
 
 Currency:
 
-| EUR | euro |
+|  | euro |
 | one | euro |
-| two | eurok |
-| other | euroa |
+| other | eurot |
 |  symbol | € |
 | narrow symbol | € |
 
 ### Datetime patterns
 
-...
 
 ### Number formats
 
 | Character name | Translated version |
-| -------------- | ------------------ |
 | Decimal separator | , |
 | "Thousands" separator |   |
 | Numbers separator | ; |
@@ -169,30 +149,26 @@ Currency:
 | Superscripting Exponent | × |
 | Permilles | ‰ |
 | Infinity | ∞ |
-| Not a number |  |
+| Not a number | epäluku |
 | Time separator (Hours:Minutes) | : |
 
 ### Territories and cities in language area
 
-E.g. timezones. Find correct examples from:
+TODO
 
-| Place code | Translation |
-| ---------- | ----------- |
-| 150 | Europe |
-| FI | |
-| RU | |
-| Europe/Helsinki |  |
-| Europe/Moscow |  |
-| Europe_Eastern | |
+| EE | Eesti |
+| | Võro |
+| | Obinitsa |
+| | Tarto |
 
 ### Timezone patterns
 
-| Message | formatting |
-| ------- | ---------- |
 | Hours from UTC | +H:mm;-H:mm |
-| GMT | UTC{0} |
-| Time at Greenwich | UTC |
-| regional |  |
+| GMT | GMT {0} |
+| Time at Greenwich | GMT |
+| regional | ({0}) |
+| regional | {0} (+1) |
+| regional | {0} (+0) |
 | fallback | {1} ({0}) |
 
 ### Locale pattern
@@ -208,13 +184,12 @@ E.g. timezones. Find correct examples from:
 | label: locale | `{0}: {1}` |
 
 ### some important words to translate
-
 #### Keys (system names)
 
 | key | Name |
 | -------- | ---- |
-| `calendar` |  |
-| `cf` |  |
+| `calendar` | |
+| `cf` | |
 | `colAlternate` | |
 | `colBackwards` | |
 | `colCaseFirst` | |
@@ -234,8 +209,6 @@ E.g. timezones. Find correct examples from:
 
 ### Some time intervals
 
-???
+TODO
 
 ## More (all) CLDR data for $language
-
-TODO
