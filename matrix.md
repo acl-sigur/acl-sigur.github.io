@@ -49,14 +49,14 @@ know.
 | est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | ?| [+][fin-est-1] | + | 
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |  | 
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |  | 
-| sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? | + | 
-|  |       | Lule  | ? | ?| ? | ?| ?| ?| ? |  | 
-| sma |       | South | ? | ?| ? | ?| ?| ?| ? |  | 
-|  |     | Inari   | ? | ?| ? | ?| ?| ?| ? | + | 
-| sms |     | Skolt   | ? | ?| ? | ?| ?| ?| ? |  | 
-|  |     | Kildin  | ?| ? | ? | ?| ?| ?| ? |  | 
+| sme | Sámi | North | + | [+][sme-keyboard-1][+][sme-keyboard-2] | + | ? | + | ? | + | + | 
+| smj |      | Lule  | ? | ?| ? | ?| ?| ?| ? |  | 
+| sma |      | South | ? | ?| ? | ?| ?| ?| ? |  | 
+| smn |      | Inari   | ? | ?| ? | ?| ?| ?| ? | + | 
+| sms |      | Skolt   | ? | ?| ? | ?| ?| ?| ? |  | 
+| sjd |      | Kildin  | ?| ? | ? | ?| ?| ?| ? |  | 
 | kpv | Komi | Zyrian | ?| ? | ?| ?| ?| ? |  | 
-|     |      | Permyak | ?| ? | ?| ?| ?| ? |  | 
+| koi |      | Permyak | ?| ? | ?| ?| ?| ? |  | 
 | udm | Udmurt |      | ?| ?| ? | ?| ? | ?| ? |  | 
 | | Mari   | Hill | ?| ? | ?| ?| ?| ? |  | 
 | |        | Meadow | ?| ? | ?| ?| ?| ? |  | 
@@ -121,7 +121,11 @@ Android-based.
 
 ### North Saami keyboards
 
-1. [Divvun’s North Saami keyboard][sme-keyboard-1]
+1. [Official layout][sme-keyboard-1] keyboard layout, for national and international standards
+
+Comes with all common OSes and systems: Microsoft’s, Linux, Apple’s and Android-based.
+
+2. [Divvun’s North Saami keyboard][sme-keyboard-2]
 
 ## Hungarian
 
@@ -200,8 +204,11 @@ Larger collections:
 [fin-deu-1]: https://github.com/flammie/apertium-fin-deu
 [fin-olo-1]: https://github.com/flammie/apertium-fin-olo
 [fin-any-1]: http://www.grammaticalframework.org/
+[fin-est-1]: http://divvun.no/doc/lang/est/EstonianDocumentation.html
 [hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
 [gf]: http://grammaticalframework.org
 [morfessor]: https://github.com/aalto-speech/morfessor
+[sme-keyboard-1]: http://divvun.no/doc/keyboards/kbdlangdocs/sme/doc/index.html
+[sme-keyboard-2]: http://divvun.no/doc/keyboards/kbdlangdocs/sme/doc/index.html
 [vot-morph-1]: https://github.com/keeleleek/GF-Votic
 
