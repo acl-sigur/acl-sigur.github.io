@@ -1,12 +1,10 @@
+
 ---
 layout: default
 title: "CLDR Finnish (via LDML2markdown)"
 ---
-
 ## CLDR core data for Finnish
-
 **Needed for requesting new locale**:
-
 | Stuff | Values |
 | --- | --- |
 | Exemplar sets | ... |
@@ -23,9 +21,7 @@ title: "CLDR Finnish (via LDML2markdown)"
 | Country Data and Default Content | fi_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | Finnish is already written in latin script |
-
 ### Casing
-
 | Item | Case |
 | ---  | ---  |
 | calendar_field | lowercase |
@@ -50,20 +46,17 @@ title: "CLDR Finnish (via LDML2markdown)"
 | variant | lowercase |
 | zone_exemplarCity | titlecase |
 | zone_long | titlecase |
-
 ### Collation
-
 Alphabetical order,
 I think we roughly need to know things like: sort V alongside W, etc., åäö
 at end before numbers
-
 #### search
 ```
 					[import und-u-co-search]
 					# Below are the rules specific to fi.
 					# Per Apple language group, V and W should match for search.
 					[import fi-u-co-trad]
-
+				
 ```
 #### traditional
 ```
@@ -73,7 +66,7 @@ at end before numbers
 					&V<<w<<<W
 					&Y<<ü<<<Ü<<ű<<<Ű
 					&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<ö<<<Ö<<ø<<<Ø<<ő<<<Ő<<õ<<<Õ<<œ<<<Œ
-
+				
 ```
 #### standard
 ```
@@ -89,227 +82,222 @@ at end before numbers
 					# Z and U+0335
 					&Z\u0335<<ʒ<<<Ʒ
 					&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<ö<<<Ö<<ø<<<Ø
-
+				
 ```
-
 ## CLDR minimal data for Finnish
-
 **Needed soon after submitting new locale**.
-
 ### Required date-time formats
-
 (44+ needed?)
-
+(Gregorian calendar)
 #### gregorian calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | tammik. |
-| month 2 | helmik. |
-| month 3 | maalisk. |
-| month 4 | huhtik. |
-| month 5 | toukok. |
-| month 6 | kesäk. |
-| month 7 | heinäk. |
-| month 8 | elok. |
-| month 9 | syysk. |
-| month 10 | lokak. |
-| month 11 | marrask. |
-| month 12 | jouluk. |
-| month 1 | T |
-| month 2 | H |
-| month 3 | M |
-| month 4 | H |
-| month 5 | T |
-| month 6 | K |
-| month 7 | H |
-| month 8 | E |
-| month 9 | S |
-| month 10 | L |
-| month 11 | M |
-| month 12 | J |
-| month 1 | tammikuuta |
-| month 2 | helmikuuta |
-| month 3 | maaliskuuta |
-| month 4 | huhtikuuta |
-| month 5 | toukokuuta |
-| month 6 | kesäkuuta |
-| month 7 | heinäkuuta |
-| month 8 | elokuuta |
-| month 9 | syyskuuta |
-| month 10 | lokakuuta |
-| month 11 | marraskuuta |
-| month 12 | joulukuuta |
-| month 1 | tammi |
-| month 2 | helmi |
-| month 3 | maalis |
-| month 4 | huhti |
-| month 5 | touko |
-| month 6 | kesä |
-| month 7 | heinä |
-| month 8 | elo |
-| month 9 | syys |
-| month 10 | loka |
-| month 11 | marras |
-| month 12 | joulu |
-| month 1 | T |
-| month 2 | H |
-| month 3 | M |
-| month 4 | H |
-| month 5 | T |
-| month 6 | K |
-| month 7 | H |
-| month 8 | E |
-| month 9 | S |
-| month 10 | L |
-| month 11 | M |
-| month 12 | J |
-| month 1 | tammikuu |
-| month 2 | helmikuu |
-| month 3 | maaliskuu |
-| month 4 | huhtikuu |
-| month 5 | toukokuu |
-| month 6 | kesäkuu |
-| month 7 | heinäkuu |
-| month 8 | elokuu |
-| month 9 | syyskuu |
-| month 10 | lokakuu |
-| month 11 | marraskuu |
-| month 12 | joulukuu |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | S |
-| (week)day mon | M |
-| (week)day tue | T |
-| (week)day wed | K |
-| (week)day thu | T |
-| (week)day fri | P |
-| (week)day sat | L |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | sunnuntaina |
-| (week)day mon | maanantaina |
-| (week)day tue | tiistaina |
-| (week)day wed | keskiviikkona |
-| (week)day thu | torstaina |
-| (week)day fri | perjantaina |
-| (week)day sat | lauantaina |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | S |
-| (week)day mon | M |
-| (week)day tue | T |
-| (week)day wed | K |
-| (week)day thu | T |
-| (week)day fri | P |
-| (week)day sat | L |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | sunnuntai |
-| (week)day mon | maanantai |
-| (week)day tue | tiistai |
-| (week)day wed | keskiviikko |
-| (week)day thu | torstai |
-| (week)day fri | perjantai |
-| (week)day sat | lauantai |
-| quarter 1 | 1. nelj. |
-| quarter 2 | 2. nelj. |
-| quarter 3 | 3. nelj. |
-| quarter 4 | 4. nelj. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1. neljännes |
-| quarter 2 | 2. neljännes |
-| quarter 3 | 3. neljännes |
-| quarter 4 | 4. neljännes |
-| quarter 1 | 1. nelj. |
-| quarter 2 | 2. nelj. |
-| quarter 3 | 3. nelj. |
-| quarter 4 | 4. nelj. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1. neljännes |
-| quarter 2 | 2. neljännes |
-| quarter 3 | 3. neljännes |
-| quarter 4 | 4. neljännes |
-| period of day midnight | keskiyöllä |
-| period of day am | ap. |
-| period of day noon | keskip. |
-| period of day pm | ip. |
-| period of day morning1 | aamulla |
-| period of day morning2 | aamup. |
-| period of day afternoon1 | iltap. |
-| period of day evening1 | illalla |
-| period of day night1 | yöllä |
-| period of day midnight | ky. |
-| period of day am | ap. |
-| period of day noon | kp. |
-| period of day pm | ip. |
-| period of day morning1 | aamulla |
-| period of day morning2 | ap. |
-| period of day afternoon1 | ip. |
-| period of day evening1 | illalla |
-| period of day night1 | yöllä |
-| period of day midnight | keskiyöllä |
-| period of day am | ap. |
-| period of day noon | keskipäivällä |
-| period of day pm | ip. |
-| period of day morning1 | aamulla |
-| period of day morning2 | aamupäivällä |
-| period of day afternoon1 | iltapäivällä |
-| period of day evening1 | illalla |
-| period of day night1 | yöllä |
-| period of day midnight | keskiyö |
-| period of day am | ap. |
-| period of day noon | keskip. |
-| period of day pm | ip. |
-| period of day morning1 | aamu |
-| period of day morning2 | aamup. |
-| period of day afternoon1 | iltap. |
-| period of day evening1 | ilta |
-| period of day night1 | yö |
-| period of day midnight | ky. |
-| period of day am | ap. |
-| period of day noon | kp. |
-| period of day pm | ip. |
-| period of day morning1 | aamu |
-| period of day morning2 | ap. |
-| period of day afternoon1 | ip. |
-| period of day evening1 | ilta |
-| period of day night1 | yö |
-| period of day midnight | keskiyö |
-| period of day am | ap. |
-| period of day noon | keskipäivä |
-| period of day pm | ip. |
-| period of day morning1 | aamu |
-| period of day morning2 | aamupäivä |
-| period of day afternoon1 | iltapäivä |
-| period of day evening1 | ilta |
-| period of day night1 | yö |
+| month, 1, abbreviated, format | tammik. |
+| month, 2, abbreviated, format | helmik. |
+| month, 3, abbreviated, format | maalisk. |
+| month, 4, abbreviated, format | huhtik. |
+| month, 5, abbreviated, format | toukok. |
+| month, 6, abbreviated, format | kesäk. |
+| month, 7, abbreviated, format | heinäk. |
+| month, 8, abbreviated, format | elok. |
+| month, 9, abbreviated, format | syysk. |
+| month, 10, abbreviated, format | lokak. |
+| month, 11, abbreviated, format | marrask. |
+| month, 12, abbreviated, format | jouluk. |
+| month, 1, narrow, format | T |
+| month, 2, narrow, format | H |
+| month, 3, narrow, format | M |
+| month, 4, narrow, format | H |
+| month, 5, narrow, format | T |
+| month, 6, narrow, format | K |
+| month, 7, narrow, format | H |
+| month, 8, narrow, format | E |
+| month, 9, narrow, format | S |
+| month, 10, narrow, format | L |
+| month, 11, narrow, format | M |
+| month, 12, narrow, format | J |
+| month, 1, wide, format | tammikuuta |
+| month, 2, wide, format | helmikuuta |
+| month, 3, wide, format | maaliskuuta |
+| month, 4, wide, format | huhtikuuta |
+| month, 5, wide, format | toukokuuta |
+| month, 6, wide, format | kesäkuuta |
+| month, 7, wide, format | heinäkuuta |
+| month, 8, wide, format | elokuuta |
+| month, 9, wide, format | syyskuuta |
+| month, 10, wide, format | lokakuuta |
+| month, 11, wide, format | marraskuuta |
+| month, 12, wide, format | joulukuuta |
+| month, 1, abbreviated, stand-alone | tammi |
+| month, 2, abbreviated, stand-alone | helmi |
+| month, 3, abbreviated, stand-alone | maalis |
+| month, 4, abbreviated, stand-alone | huhti |
+| month, 5, abbreviated, stand-alone | touko |
+| month, 6, abbreviated, stand-alone | kesä |
+| month, 7, abbreviated, stand-alone | heinä |
+| month, 8, abbreviated, stand-alone | elo |
+| month, 9, abbreviated, stand-alone | syys |
+| month, 10, abbreviated, stand-alone | loka |
+| month, 11, abbreviated, stand-alone | marras |
+| month, 12, abbreviated, stand-alone | joulu |
+| month, 1, narrow, stand-alone | T |
+| month, 2, narrow, stand-alone | H |
+| month, 3, narrow, stand-alone | M |
+| month, 4, narrow, stand-alone | H |
+| month, 5, narrow, stand-alone | T |
+| month, 6, narrow, stand-alone | K |
+| month, 7, narrow, stand-alone | H |
+| month, 8, narrow, stand-alone | E |
+| month, 9, narrow, stand-alone | S |
+| month, 10, narrow, stand-alone | L |
+| month, 11, narrow, stand-alone | M |
+| month, 12, narrow, stand-alone | J |
+| month, 1, wide, stand-alone | tammikuu |
+| month, 2, wide, stand-alone | helmikuu |
+| month, 3, wide, stand-alone | maaliskuu |
+| month, 4, wide, stand-alone | huhtikuu |
+| month, 5, wide, stand-alone | toukokuu |
+| month, 6, wide, stand-alone | kesäkuu |
+| month, 7, wide, stand-alone | heinäkuu |
+| month, 8, wide, stand-alone | elokuu |
+| month, 9, wide, stand-alone | syyskuu |
+| month, 10, wide, stand-alone | lokakuu |
+| month, 11, wide, stand-alone | marraskuu |
+| month, 12, wide, stand-alone | joulukuu |
+| (week)day, sun, abbreviated, format | su |
+| (week)day, mon, abbreviated, format | ma |
+| (week)day, tue, abbreviated, format | ti |
+| (week)day, wed, abbreviated, format | ke |
+| (week)day, thu, abbreviated, format | to |
+| (week)day, fri, abbreviated, format | pe |
+| (week)day, sat, abbreviated, format | la |
+| (week)day, sun, narrow, format | S |
+| (week)day, mon, narrow, format | M |
+| (week)day, tue, narrow, format | T |
+| (week)day, wed, narrow, format | K |
+| (week)day, thu, narrow, format | T |
+| (week)day, fri, narrow, format | P |
+| (week)day, sat, narrow, format | L |
+| (week)day, sun, short, format | su |
+| (week)day, mon, short, format | ma |
+| (week)day, tue, short, format | ti |
+| (week)day, wed, short, format | ke |
+| (week)day, thu, short, format | to |
+| (week)day, fri, short, format | pe |
+| (week)day, sat, short, format | la |
+| (week)day, sun, wide, format | sunnuntaina |
+| (week)day, mon, wide, format | maanantaina |
+| (week)day, tue, wide, format | tiistaina |
+| (week)day, wed, wide, format | keskiviikkona |
+| (week)day, thu, wide, format | torstaina |
+| (week)day, fri, wide, format | perjantaina |
+| (week)day, sat, wide, format | lauantaina |
+| (week)day, sun, abbreviated, stand-alone | su |
+| (week)day, mon, abbreviated, stand-alone | ma |
+| (week)day, tue, abbreviated, stand-alone | ti |
+| (week)day, wed, abbreviated, stand-alone | ke |
+| (week)day, thu, abbreviated, stand-alone | to |
+| (week)day, fri, abbreviated, stand-alone | pe |
+| (week)day, sat, abbreviated, stand-alone | la |
+| (week)day, sun, narrow, stand-alone | S |
+| (week)day, mon, narrow, stand-alone | M |
+| (week)day, tue, narrow, stand-alone | T |
+| (week)day, wed, narrow, stand-alone | K |
+| (week)day, thu, narrow, stand-alone | T |
+| (week)day, fri, narrow, stand-alone | P |
+| (week)day, sat, narrow, stand-alone | L |
+| (week)day, sun, short, stand-alone | su |
+| (week)day, mon, short, stand-alone | ma |
+| (week)day, tue, short, stand-alone | ti |
+| (week)day, wed, short, stand-alone | ke |
+| (week)day, thu, short, stand-alone | to |
+| (week)day, fri, short, stand-alone | pe |
+| (week)day, sat, short, stand-alone | la |
+| (week)day, sun, wide, stand-alone | sunnuntai |
+| (week)day, mon, wide, stand-alone | maanantai |
+| (week)day, tue, wide, stand-alone | tiistai |
+| (week)day, wed, wide, stand-alone | keskiviikko |
+| (week)day, thu, wide, stand-alone | torstai |
+| (week)day, fri, wide, stand-alone | perjantai |
+| (week)day, sat, wide, stand-alone | lauantai |
+| quarter, 1, abbreviated, format | 1. nelj. |
+| quarter, 2, abbreviated, format | 2. nelj. |
+| quarter, 3, abbreviated, format | 3. nelj. |
+| quarter, 4, abbreviated, format | 4. nelj. |
+| quarter, 1, narrow, format | 1 |
+| quarter, 2, narrow, format | 2 |
+| quarter, 3, narrow, format | 3 |
+| quarter, 4, narrow, format | 4 |
+| quarter, 1, wide, format | 1. neljännes |
+| quarter, 2, wide, format | 2. neljännes |
+| quarter, 3, wide, format | 3. neljännes |
+| quarter, 4, wide, format | 4. neljännes |
+| quarter, 1, abbreviated, stand-alone | 1. nelj. |
+| quarter, 2, abbreviated, stand-alone | 2. nelj. |
+| quarter, 3, abbreviated, stand-alone | 3. nelj. |
+| quarter, 4, abbreviated, stand-alone | 4. nelj. |
+| quarter, 1, narrow, stand-alone | 1 |
+| quarter, 2, narrow, stand-alone | 2 |
+| quarter, 3, narrow, stand-alone | 3 |
+| quarter, 4, narrow, stand-alone | 4 |
+| quarter, 1, wide, stand-alone | 1. neljännes |
+| quarter, 2, wide, stand-alone | 2. neljännes |
+| quarter, 3, wide, stand-alone | 3. neljännes |
+| quarter, 4, wide, stand-alone | 4. neljännes |
+| period of day, midnight, abbreviated, format | keskiyöllä |
+| period of day, am, abbreviated, format | ap. |
+| period of day, noon, abbreviated, format | keskip. |
+| period of day, pm, abbreviated, format | ip. |
+| period of day, morning1, abbreviated, format | aamulla |
+| period of day, morning2, abbreviated, format | aamup. |
+| period of day, afternoon1, abbreviated, format | iltap. |
+| period of day, evening1, abbreviated, format | illalla |
+| period of day, night1, abbreviated, format | yöllä |
+| period of day, midnight, narrow, format | ky. |
+| period of day, am, narrow, format | ap. |
+| period of day, noon, narrow, format | kp. |
+| period of day, pm, narrow, format | ip. |
+| period of day, morning1, narrow, format | aamulla |
+| period of day, morning2, narrow, format | ap. |
+| period of day, afternoon1, narrow, format | ip. |
+| period of day, evening1, narrow, format | illalla |
+| period of day, night1, narrow, format | yöllä |
+| period of day, midnight, wide, format | keskiyöllä |
+| period of day, am, wide, format | ap. |
+| period of day, noon, wide, format | keskipäivällä |
+| period of day, pm, wide, format | ip. |
+| period of day, morning1, wide, format | aamulla |
+| period of day, morning2, wide, format | aamupäivällä |
+| period of day, afternoon1, wide, format | iltapäivällä |
+| period of day, evening1, wide, format | illalla |
+| period of day, night1, wide, format | yöllä |
+| period of day, midnight, abbreviated, stand-alone | keskiyö |
+| period of day, am, abbreviated, stand-alone | ap. |
+| period of day, noon, abbreviated, stand-alone | keskip. |
+| period of day, pm, abbreviated, stand-alone | ip. |
+| period of day, morning1, abbreviated, stand-alone | aamu |
+| period of day, morning2, abbreviated, stand-alone | aamup. |
+| period of day, afternoon1, abbreviated, stand-alone | iltap. |
+| period of day, evening1, abbreviated, stand-alone | ilta |
+| period of day, night1, abbreviated, stand-alone | yö |
+| period of day, midnight, narrow, stand-alone | ky. |
+| period of day, am, narrow, stand-alone | ap. |
+| period of day, noon, narrow, stand-alone | kp. |
+| period of day, pm, narrow, stand-alone | ip. |
+| period of day, morning1, narrow, stand-alone | aamu |
+| period of day, morning2, narrow, stand-alone | ap. |
+| period of day, afternoon1, narrow, stand-alone | ip. |
+| period of day, evening1, narrow, stand-alone | ilta |
+| period of day, night1, narrow, stand-alone | yö |
+| period of day, midnight, wide, stand-alone | keskiyö |
+| period of day, am, wide, stand-alone | ap. |
+| period of day, noon, wide, stand-alone | keskipäivä |
+| period of day, pm, wide, stand-alone | ip. |
+| period of day, morning1, wide, stand-alone | aamu |
+| period of day, morning2, wide, stand-alone | aamupäivä |
+| period of day, afternoon1, wide, stand-alone | iltapäivä |
+| period of day, evening1, wide, stand-alone | ilta |
+| period of day, night1, wide, stand-alone | yö |
 | era | ennen Kristuksen syntymää |
 | era | ennen ajanlaskun alkua |
 | era | jälkeen Kristuksen syntymän |
@@ -410,9 +398,8 @@ at end before numbers
 | interval format `yMMMd` | `d.–d. MMMM yd. MMMM – d. MMMM yd. MMMM y – d. MMMM y` |
 | interval format `yMMMEd` | `E d. – E d. MMMM yE d. MMMM – E d. MMMM yE d. MMMM y – E d. MMMM y` |
 | interval format `yMMMM` | `LLL–LLLL yLLLL y – LLLL y` |
-
+(Generic)
 #### generic calendar
-
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d. MMMM y G` |
@@ -491,29 +478,19 @@ at end before numbers
 | interval format `yMMMd` | `d.–d. MMMM y Gd. MMMM – d. MMMM y Gd. MMMM y – d. MMMM y G` |
 | interval format `yMMMEd` | `E d. – E d. MMMM y GE d. MMMM – E d. MMMM y GE d. MMMM y – E d. MMMM y G` |
 | interval format `yMMMM` | `LLL–LLLL y GLLLL y – LLLL y G` |
-
 ### Important names in language
-
 Language:
-
 | `fi` | suomi |
-
 Country or territory:
-
 | `FI` | Suomi |
-
 Currency:
-
 |  | euro |
 | one | euro |
 | other | euroa |
 |  symbol | € |
 | narrow symbol | € |
-
 ### Datetime patterns
-
 (1 needed)
-
 | datetime format | `{1} 'klo' {0}` |
 | datetime format | `{1} 'klo' {0}` |
 | datetime format | `{1} 'klo' {0}` |
@@ -586,9 +563,8 @@ Currency:
 | interval format `yMMMd` | `d.–d. MMMM y Gd. MMMM – d. MMMM y Gd. MMMM y – d. MMMM y G` |
 | interval format `yMMMEd` | `E d. – E d. MMMM y GE d. MMMM – E d. MMMM y GE d. MMMM y – E d. MMMM y G` |
 | interval format `yMMMM` | `LLL–LLLL y GLLLL y – LLLL y G` |
-
+Interval format: 
 ### Number formats
-
 | Character name | Translated version |
 | Decimal separator | , |
 | "Thousands" separator |   |
@@ -602,16 +578,9 @@ Currency:
 | Infinity | ∞ |
 | Not a number | epäluku |
 | Time separator (Hours:Minutes) | . |
-
 ### Territories and cities in language area
-
-The place names to translate must be in the lists here: XXX
-
-| Europe/Helsinki | Helsinki |
-| `FI` | Suomi |
-
+The place names to translate must be in the lists here:
 ### Timezone patterns
-
 | Hours from UTC | +H.mm;-H.mm |
 | GMT | UTC{0} |
 | Time at Greenwich | UTC |
@@ -619,23 +588,16 @@ The place names to translate must be in the lists here: XXX
 | regional | {0} (kesäaika) |
 | regional | {0} (normaaliaika) |
 | fallback | {1} ({0}) |
-
 ### Locale pattern
-
 (how software should display languages)
-
 #### Locale display patterns
-
 | Things | Patterns |
 | ------ | -------- |
 | language, country | `{0} ({1})` |
 | locale, another locale | `{0}, {1}` |
 | label: locale | `{0}: {1}` |
-
 ### some important words to translate
-
 #### Keys (system names)
-
 | key | Name |
 | -------- | ---- |
 | `calendar` | kalenteri |
@@ -656,31 +618,22 @@ The place names to translate must be in the lists here: XXX
 | `timezone` | aikavyöhyke |
 | `va` | maavalinnan muunnelma |
 | `x` | yksityiskäyttö |
-
 ### Some time intervals
-
 ???
-
 ## More (all) CLDR data for $language
-
 While not strictly needed is all used by software and stuff:
 identity:
 ```
 $Revision: 13904 $fi
 ```
-
 #### Locale display patterns
-
 | Things | Patterns |
 | ------ | -------- |
 | language, country | `{0} ({1})` |
 | locale, another locale | `{0}, {1}` |
 | label: locale | `{0}: {1}` |
-
 ### Language names
-
 (Written in middle of sentence, selection list etc.)
-
 | ISO code | Name |
 | -------- | ---- |
 | `aa` | afar |
@@ -1306,11 +1259,8 @@ $Revision: 13904 $fi
 | `zun` | zuni |
 | `zxx` | ei kielellistä sisältöä |
 | `zza` | zaza |
-
 ### Script names
-
 (Written in middle of sentence, selection list etc.)
-
 | ISO code | Name |
 | -------- | ---- |
 | `Adlm` | fulanin adlam-aakkosto |
@@ -1499,11 +1449,8 @@ $Revision: 13904 $fi
 | `Zxxx` | kirjoittamaton |
 | `Zyyy` | määrittämätön |
 | `Zzzz` | tuntematon kirjoitusjärjestelmä |
-
 ### Territory names
-
 (Written in middle of sentence, selection list etc.)
-
 | ISO code | Name |
 | -------- | ---- |
 | `001` | maailma |
@@ -1811,11 +1758,8 @@ $Revision: 13904 $fi
 | `ZM` | Sambia |
 | `ZW` | Zimbabwe |
 | `ZZ` | tuntematon alue |
-
 ### Locale variant names
-
 (Written in middle of sentence, selection list etc.)
-
 | ISO code | Name |
 | -------- | ---- |
 | `1901` | saksan perinteinen oikeinkirjoitus |
@@ -1904,9 +1848,7 @@ $Revision: 13904 $fi
 | `VALLADER` | reoromaanin vallader-muoto |
 | `WADEGILE` | kiinan Wade-Giles-latinaistus |
 | `XSISTEMO` | esperanton x-kirjoitus |
-
 #### Keys (system names)
-
 | key | Name |
 | -------- | ---- |
 | `calendar` | kalenteri |
@@ -1927,9 +1869,7 @@ $Revision: 13904 $fi
 | `timezone` | aikavyöhyke |
 | `va` | maavalinnan muunnelma |
 | `x` | yksityiskäyttö |
-
 ### Types (of systems)
-
 | key, System   | Name |
 | -------- | ---- |
 | `buddhistcalendar` | buddhalainen kalenteri |
@@ -2082,19 +2022,13 @@ $Revision: 13904 $fi
 | `metric` | metrinen |
 | `UK` | brittiläinen |
 | `US` | amerikkalainen |
-
 ### Code patterns
-
 kieli: {0}kirjoitusjärjestelmä: {0}alue: {0}
-
 ### Context transforms
-
 ```
 titlecase-firstwordtitlecase-firstword
 ```
-
 ### Character processing for computer systems
-
 | main characters | `[a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]` |
 | auxiliary characters | `[á à ă â ã ą ā ć č ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]` |
 | index characters | `[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]` |
@@ -2118,16 +2052,13 @@ Lenient parsing stuff: - is treated same as `[\-‒⁻₋−➖﹣－]`
 + is treated same as `[+⁺₊➕﬩﹢＋]`
 Lenient parsing stuff: , is treated same as `[,٫︐﹐，]`
 . is treated same as `[.․﹒．｡]`
-Delimiters:
+Delimiters: 
 Quotation start character: ”
 Quotation end character: ”
 Secondary yquotation start character: ’
 Secondary quotation end character: ’
-
 ## Calendar data
-
 #### buddhist calendar
-
 | ID-stuff | values |
 | -------- | ------ |
 | era | buddhalainen aika |
@@ -2163,9 +2094,7 @@ Secondary quotation end character: ’
 | date format `yyyyMMMMccccd` | `cccc d. MMMM y G` |
 | date format `yyyyQQQ` | `QQQ y G` |
 | date format `yyyyQQQQ` | `QQQQ y G` |
-
 #### chinese calendar
-
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d.M.y` |
@@ -2188,135 +2117,129 @@ Secondary quotation end character: ’
 | date format `yyyyMEd` | `E d.M.y` |
 | date format `yyyyMMMd` | `d.M.y` |
 | date format `yyyyMMMEd` | `E d.M.y` |
-
 #### coptic calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | thoutkuuta |
-| month 2 | paopikuuta |
-| month 3 | hathorkuuta |
-| month 4 | koiakkuuta |
-| month 5 | tobikuuta |
-| month 6 | meshirkuuta |
-| month 7 | paremhatkuuta |
-| month 8 | paremoudekuuta |
-| month 9 | pashonskuuta |
-| month 10 | paonikuuta |
-| month 11 | epipkuuta |
-| month 12 | mesorikuuta |
-| month 13 | pi-kogi-enavotkuuta |
-| month 1 | thoutkuuta |
-| month 2 | paopikuuta |
-| month 3 | hathorkuuta |
-| month 4 | koiakkuuta |
-| month 5 | tobikuuta |
-| month 6 | meshirkuuta |
-| month 7 | paremhatkuuta |
-| month 8 | paremoudekuuta |
-| month 9 | pashonskuuta |
-| month 10 | paonikuuta |
-| month 11 | epipkuuta |
-| month 12 | mesorikuuta |
-| month 13 | pi-kogi-enavotkuuta |
-| month 1 | thout |
-| month 2 | paopi |
-| month 3 | hathor |
-| month 4 | koiak |
-| month 5 | toba |
-| month 6 | meshir |
-| month 7 | paremhat |
-| month 8 | paremoude |
-| month 9 | pashons |
-| month 10 | paoni |
-| month 11 | epip |
-| month 12 | mesori |
-| month 13 | pi kogi enavot |
-| month 1 | thoutkuu |
-| month 2 | paopikuu |
-| month 3 | hathorkuu |
-| month 4 | koiakkuu |
-| month 5 | tobikuu |
-| month 6 | meshirkuu |
-| month 7 | paremhatkuu |
-| month 8 | paremoudekuu |
-| month 9 | pashonskuu |
-| month 10 | paonikuu |
-| month 11 | epipkuu |
-| month 12 | mesorikuu |
-| month 13 | pi-kogi-enavotkuu |
+| month, 1, abbreviated, format | thoutkuuta |
+| month, 2, abbreviated, format | paopikuuta |
+| month, 3, abbreviated, format | hathorkuuta |
+| month, 4, abbreviated, format | koiakkuuta |
+| month, 5, abbreviated, format | tobikuuta |
+| month, 6, abbreviated, format | meshirkuuta |
+| month, 7, abbreviated, format | paremhatkuuta |
+| month, 8, abbreviated, format | paremoudekuuta |
+| month, 9, abbreviated, format | pashonskuuta |
+| month, 10, abbreviated, format | paonikuuta |
+| month, 11, abbreviated, format | epipkuuta |
+| month, 12, abbreviated, format | mesorikuuta |
+| month, 13, abbreviated, format | pi-kogi-enavotkuuta |
+| month, 1, wide, format | thoutkuuta |
+| month, 2, wide, format | paopikuuta |
+| month, 3, wide, format | hathorkuuta |
+| month, 4, wide, format | koiakkuuta |
+| month, 5, wide, format | tobikuuta |
+| month, 6, wide, format | meshirkuuta |
+| month, 7, wide, format | paremhatkuuta |
+| month, 8, wide, format | paremoudekuuta |
+| month, 9, wide, format | pashonskuuta |
+| month, 10, wide, format | paonikuuta |
+| month, 11, wide, format | epipkuuta |
+| month, 12, wide, format | mesorikuuta |
+| month, 13, wide, format | pi-kogi-enavotkuuta |
+| month, 1, abbreviated, stand-alone | thout |
+| month, 2, abbreviated, stand-alone | paopi |
+| month, 3, abbreviated, stand-alone | hathor |
+| month, 4, abbreviated, stand-alone | koiak |
+| month, 5, abbreviated, stand-alone | toba |
+| month, 6, abbreviated, stand-alone | meshir |
+| month, 7, abbreviated, stand-alone | paremhat |
+| month, 8, abbreviated, stand-alone | paremoude |
+| month, 9, abbreviated, stand-alone | pashons |
+| month, 10, abbreviated, stand-alone | paoni |
+| month, 11, abbreviated, stand-alone | epip |
+| month, 12, abbreviated, stand-alone | mesori |
+| month, 13, abbreviated, stand-alone | pi kogi enavot |
+| month, 1, wide, stand-alone | thoutkuu |
+| month, 2, wide, stand-alone | paopikuu |
+| month, 3, wide, stand-alone | hathorkuu |
+| month, 4, wide, stand-alone | koiakkuu |
+| month, 5, wide, stand-alone | tobikuu |
+| month, 6, wide, stand-alone | meshirkuu |
+| month, 7, wide, stand-alone | paremhatkuu |
+| month, 8, wide, stand-alone | paremoudekuu |
+| month, 9, wide, stand-alone | pashonskuu |
+| month, 10, wide, stand-alone | paonikuu |
+| month, 11, wide, stand-alone | epipkuu |
+| month, 12, wide, stand-alone | mesorikuu |
+| month, 13, wide, stand-alone | pi-kogi-enavotkuu |
 | era | ERA0 |
 | era | ERA1 |
 | era | ERA0 |
 | era | ERA1 |
 | era | ERA0 |
 | era | ERA1 |
-
 #### ethiopic calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | mäskärämkuuta |
-| month 2 | ṭəqəmtkuuta |
-| month 3 | ḫədarkuuta |
-| month 4 | taḫśaśkuuta |
-| month 5 | ṭərrkuuta |
-| month 6 | yäkatitkuuta |
-| month 7 | mägabitkuuta |
-| month 8 | miyazyakuuta |
-| month 9 | gənbotkuuta |
-| month 10 | sänekuuta |
-| month 11 | ḥamlekuuta |
-| month 12 | nähasekuuta |
-| month 13 | ṗagumenkuuta |
-| month 1 | mäskärämkuuta |
-| month 2 | ṭəqəmtkuuta |
-| month 3 | ḫədarkuuta |
-| month 4 | taḫśaśkuuta |
-| month 5 | ṭərrkuuta |
-| month 6 | yäkatitkuuta |
-| month 7 | mägabitkuuta |
-| month 8 | miyazyakuuta |
-| month 9 | gənbotkuuta |
-| month 10 | sänekuuta |
-| month 11 | ḥamlekuuta |
-| month 12 | nähasekuuta |
-| month 13 | ṗagumenkuuta |
-| month 1 | mäskärämkuu |
-| month 2 | ṭəqəmtkuu |
-| month 3 | ḫədarkuu |
-| month 4 | taḫśaśkuu |
-| month 5 | ṭərrkuu |
-| month 6 | yäkatitkuu |
-| month 7 | mägabitkuu |
-| month 8 | miyazyakuu |
-| month 9 | gənbotkuu |
-| month 10 | sänekuu |
-| month 11 | ḥamlekuu |
-| month 12 | nähasekuu |
-| month 13 | ṗagumenkuu |
-| month 1 | mäskärämkuu |
-| month 2 | ṭəqəmtkuu |
-| month 3 | ḫədarkuu |
-| month 4 | taḫśaśkuu |
-| month 5 | ṭərrkuu |
-| month 6 | yäkatitkuu |
-| month 7 | mägabitkuu |
-| month 8 | miyazyakuu |
-| month 9 | gənbotkuu |
-| month 10 | sänekuu |
-| month 11 | ḥamlekuu |
-| month 12 | nähasekuu |
-| month 13 | ṗagumenkuu |
+| month, 1, abbreviated, format | mäskärämkuuta |
+| month, 2, abbreviated, format | ṭəqəmtkuuta |
+| month, 3, abbreviated, format | ḫədarkuuta |
+| month, 4, abbreviated, format | taḫśaśkuuta |
+| month, 5, abbreviated, format | ṭərrkuuta |
+| month, 6, abbreviated, format | yäkatitkuuta |
+| month, 7, abbreviated, format | mägabitkuuta |
+| month, 8, abbreviated, format | miyazyakuuta |
+| month, 9, abbreviated, format | gənbotkuuta |
+| month, 10, abbreviated, format | sänekuuta |
+| month, 11, abbreviated, format | ḥamlekuuta |
+| month, 12, abbreviated, format | nähasekuuta |
+| month, 13, abbreviated, format | ṗagumenkuuta |
+| month, 1, wide, format | mäskärämkuuta |
+| month, 2, wide, format | ṭəqəmtkuuta |
+| month, 3, wide, format | ḫədarkuuta |
+| month, 4, wide, format | taḫśaśkuuta |
+| month, 5, wide, format | ṭərrkuuta |
+| month, 6, wide, format | yäkatitkuuta |
+| month, 7, wide, format | mägabitkuuta |
+| month, 8, wide, format | miyazyakuuta |
+| month, 9, wide, format | gənbotkuuta |
+| month, 10, wide, format | sänekuuta |
+| month, 11, wide, format | ḥamlekuuta |
+| month, 12, wide, format | nähasekuuta |
+| month, 13, wide, format | ṗagumenkuuta |
+| month, 1, abbreviated, stand-alone | mäskärämkuu |
+| month, 2, abbreviated, stand-alone | ṭəqəmtkuu |
+| month, 3, abbreviated, stand-alone | ḫədarkuu |
+| month, 4, abbreviated, stand-alone | taḫśaśkuu |
+| month, 5, abbreviated, stand-alone | ṭərrkuu |
+| month, 6, abbreviated, stand-alone | yäkatitkuu |
+| month, 7, abbreviated, stand-alone | mägabitkuu |
+| month, 8, abbreviated, stand-alone | miyazyakuu |
+| month, 9, abbreviated, stand-alone | gənbotkuu |
+| month, 10, abbreviated, stand-alone | sänekuu |
+| month, 11, abbreviated, stand-alone | ḥamlekuu |
+| month, 12, abbreviated, stand-alone | nähasekuu |
+| month, 13, abbreviated, stand-alone | ṗagumenkuu |
+| month, 1, wide, stand-alone | mäskärämkuu |
+| month, 2, wide, stand-alone | ṭəqəmtkuu |
+| month, 3, wide, stand-alone | ḫədarkuu |
+| month, 4, wide, stand-alone | taḫśaśkuu |
+| month, 5, wide, stand-alone | ṭərrkuu |
+| month, 6, wide, stand-alone | yäkatitkuu |
+| month, 7, wide, stand-alone | mägabitkuu |
+| month, 8, wide, stand-alone | miyazyakuu |
+| month, 9, wide, stand-alone | gənbotkuu |
+| month, 10, wide, stand-alone | sänekuu |
+| month, 11, wide, stand-alone | ḥamlekuu |
+| month, 12, wide, stand-alone | nähasekuu |
+| month, 13, wide, stand-alone | ṗagumenkuu |
 | era | ERA0 |
 | era | ERA1 |
 | era | ERA0 |
 | era | ERA1 |
 | era | ERA0 |
 | era | ERA1 |
-
 #### generic calendar
-
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d. MMMM y G` |
@@ -2395,217 +2318,215 @@ Secondary quotation end character: ’
 | interval format `yMMMd` | `d.–d. MMMM y Gd. MMMM – d. MMMM y Gd. MMMM y – d. MMMM y G` |
 | interval format `yMMMEd` | `E d. – E d. MMMM y GE d. MMMM – E d. MMMM y GE d. MMMM y – E d. MMMM y G` |
 | interval format `yMMMM` | `LLL–LLLL y GLLLL y – LLLL y G` |
-
 #### gregorian calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | tammik. |
-| month 2 | helmik. |
-| month 3 | maalisk. |
-| month 4 | huhtik. |
-| month 5 | toukok. |
-| month 6 | kesäk. |
-| month 7 | heinäk. |
-| month 8 | elok. |
-| month 9 | syysk. |
-| month 10 | lokak. |
-| month 11 | marrask. |
-| month 12 | jouluk. |
-| month 1 | T |
-| month 2 | H |
-| month 3 | M |
-| month 4 | H |
-| month 5 | T |
-| month 6 | K |
-| month 7 | H |
-| month 8 | E |
-| month 9 | S |
-| month 10 | L |
-| month 11 | M |
-| month 12 | J |
-| month 1 | tammikuuta |
-| month 2 | helmikuuta |
-| month 3 | maaliskuuta |
-| month 4 | huhtikuuta |
-| month 5 | toukokuuta |
-| month 6 | kesäkuuta |
-| month 7 | heinäkuuta |
-| month 8 | elokuuta |
-| month 9 | syyskuuta |
-| month 10 | lokakuuta |
-| month 11 | marraskuuta |
-| month 12 | joulukuuta |
-| month 1 | tammi |
-| month 2 | helmi |
-| month 3 | maalis |
-| month 4 | huhti |
-| month 5 | touko |
-| month 6 | kesä |
-| month 7 | heinä |
-| month 8 | elo |
-| month 9 | syys |
-| month 10 | loka |
-| month 11 | marras |
-| month 12 | joulu |
-| month 1 | T |
-| month 2 | H |
-| month 3 | M |
-| month 4 | H |
-| month 5 | T |
-| month 6 | K |
-| month 7 | H |
-| month 8 | E |
-| month 9 | S |
-| month 10 | L |
-| month 11 | M |
-| month 12 | J |
-| month 1 | tammikuu |
-| month 2 | helmikuu |
-| month 3 | maaliskuu |
-| month 4 | huhtikuu |
-| month 5 | toukokuu |
-| month 6 | kesäkuu |
-| month 7 | heinäkuu |
-| month 8 | elokuu |
-| month 9 | syyskuu |
-| month 10 | lokakuu |
-| month 11 | marraskuu |
-| month 12 | joulukuu |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | S |
-| (week)day mon | M |
-| (week)day tue | T |
-| (week)day wed | K |
-| (week)day thu | T |
-| (week)day fri | P |
-| (week)day sat | L |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | sunnuntaina |
-| (week)day mon | maanantaina |
-| (week)day tue | tiistaina |
-| (week)day wed | keskiviikkona |
-| (week)day thu | torstaina |
-| (week)day fri | perjantaina |
-| (week)day sat | lauantaina |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | S |
-| (week)day mon | M |
-| (week)day tue | T |
-| (week)day wed | K |
-| (week)day thu | T |
-| (week)day fri | P |
-| (week)day sat | L |
-| (week)day sun | su |
-| (week)day mon | ma |
-| (week)day tue | ti |
-| (week)day wed | ke |
-| (week)day thu | to |
-| (week)day fri | pe |
-| (week)day sat | la |
-| (week)day sun | sunnuntai |
-| (week)day mon | maanantai |
-| (week)day tue | tiistai |
-| (week)day wed | keskiviikko |
-| (week)day thu | torstai |
-| (week)day fri | perjantai |
-| (week)day sat | lauantai |
-| quarter 1 | 1. nelj. |
-| quarter 2 | 2. nelj. |
-| quarter 3 | 3. nelj. |
-| quarter 4 | 4. nelj. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1. neljännes |
-| quarter 2 | 2. neljännes |
-| quarter 3 | 3. neljännes |
-| quarter 4 | 4. neljännes |
-| quarter 1 | 1. nelj. |
-| quarter 2 | 2. nelj. |
-| quarter 3 | 3. nelj. |
-| quarter 4 | 4. nelj. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1. neljännes |
-| quarter 2 | 2. neljännes |
-| quarter 3 | 3. neljännes |
-| quarter 4 | 4. neljännes |
-| period of day midnight | keskiyöllä |
-| period of day am | ap. |
-| period of day noon | keskip. |
-| period of day pm | ip. |
-| period of day morning1 | aamulla |
-| period of day morning2 | aamup. |
-| period of day afternoon1 | iltap. |
-| period of day evening1 | illalla |
-| period of day night1 | yöllä |
-| period of day midnight | ky. |
-| period of day am | ap. |
-| period of day noon | kp. |
-| period of day pm | ip. |
-| period of day morning1 | aamulla |
-| period of day morning2 | ap. |
-| period of day afternoon1 | ip. |
-| period of day evening1 | illalla |
-| period of day night1 | yöllä |
-| period of day midnight | keskiyöllä |
-| period of day am | ap. |
-| period of day noon | keskipäivällä |
-| period of day pm | ip. |
-| period of day morning1 | aamulla |
-| period of day morning2 | aamupäivällä |
-| period of day afternoon1 | iltapäivällä |
-| period of day evening1 | illalla |
-| period of day night1 | yöllä |
-| period of day midnight | keskiyö |
-| period of day am | ap. |
-| period of day noon | keskip. |
-| period of day pm | ip. |
-| period of day morning1 | aamu |
-| period of day morning2 | aamup. |
-| period of day afternoon1 | iltap. |
-| period of day evening1 | ilta |
-| period of day night1 | yö |
-| period of day midnight | ky. |
-| period of day am | ap. |
-| period of day noon | kp. |
-| period of day pm | ip. |
-| period of day morning1 | aamu |
-| period of day morning2 | ap. |
-| period of day afternoon1 | ip. |
-| period of day evening1 | ilta |
-| period of day night1 | yö |
-| period of day midnight | keskiyö |
-| period of day am | ap. |
-| period of day noon | keskipäivä |
-| period of day pm | ip. |
-| period of day morning1 | aamu |
-| period of day morning2 | aamupäivä |
-| period of day afternoon1 | iltapäivä |
-| period of day evening1 | ilta |
-| period of day night1 | yö |
+| month, 1, abbreviated, format | tammik. |
+| month, 2, abbreviated, format | helmik. |
+| month, 3, abbreviated, format | maalisk. |
+| month, 4, abbreviated, format | huhtik. |
+| month, 5, abbreviated, format | toukok. |
+| month, 6, abbreviated, format | kesäk. |
+| month, 7, abbreviated, format | heinäk. |
+| month, 8, abbreviated, format | elok. |
+| month, 9, abbreviated, format | syysk. |
+| month, 10, abbreviated, format | lokak. |
+| month, 11, abbreviated, format | marrask. |
+| month, 12, abbreviated, format | jouluk. |
+| month, 1, narrow, format | T |
+| month, 2, narrow, format | H |
+| month, 3, narrow, format | M |
+| month, 4, narrow, format | H |
+| month, 5, narrow, format | T |
+| month, 6, narrow, format | K |
+| month, 7, narrow, format | H |
+| month, 8, narrow, format | E |
+| month, 9, narrow, format | S |
+| month, 10, narrow, format | L |
+| month, 11, narrow, format | M |
+| month, 12, narrow, format | J |
+| month, 1, wide, format | tammikuuta |
+| month, 2, wide, format | helmikuuta |
+| month, 3, wide, format | maaliskuuta |
+| month, 4, wide, format | huhtikuuta |
+| month, 5, wide, format | toukokuuta |
+| month, 6, wide, format | kesäkuuta |
+| month, 7, wide, format | heinäkuuta |
+| month, 8, wide, format | elokuuta |
+| month, 9, wide, format | syyskuuta |
+| month, 10, wide, format | lokakuuta |
+| month, 11, wide, format | marraskuuta |
+| month, 12, wide, format | joulukuuta |
+| month, 1, abbreviated, stand-alone | tammi |
+| month, 2, abbreviated, stand-alone | helmi |
+| month, 3, abbreviated, stand-alone | maalis |
+| month, 4, abbreviated, stand-alone | huhti |
+| month, 5, abbreviated, stand-alone | touko |
+| month, 6, abbreviated, stand-alone | kesä |
+| month, 7, abbreviated, stand-alone | heinä |
+| month, 8, abbreviated, stand-alone | elo |
+| month, 9, abbreviated, stand-alone | syys |
+| month, 10, abbreviated, stand-alone | loka |
+| month, 11, abbreviated, stand-alone | marras |
+| month, 12, abbreviated, stand-alone | joulu |
+| month, 1, narrow, stand-alone | T |
+| month, 2, narrow, stand-alone | H |
+| month, 3, narrow, stand-alone | M |
+| month, 4, narrow, stand-alone | H |
+| month, 5, narrow, stand-alone | T |
+| month, 6, narrow, stand-alone | K |
+| month, 7, narrow, stand-alone | H |
+| month, 8, narrow, stand-alone | E |
+| month, 9, narrow, stand-alone | S |
+| month, 10, narrow, stand-alone | L |
+| month, 11, narrow, stand-alone | M |
+| month, 12, narrow, stand-alone | J |
+| month, 1, wide, stand-alone | tammikuu |
+| month, 2, wide, stand-alone | helmikuu |
+| month, 3, wide, stand-alone | maaliskuu |
+| month, 4, wide, stand-alone | huhtikuu |
+| month, 5, wide, stand-alone | toukokuu |
+| month, 6, wide, stand-alone | kesäkuu |
+| month, 7, wide, stand-alone | heinäkuu |
+| month, 8, wide, stand-alone | elokuu |
+| month, 9, wide, stand-alone | syyskuu |
+| month, 10, wide, stand-alone | lokakuu |
+| month, 11, wide, stand-alone | marraskuu |
+| month, 12, wide, stand-alone | joulukuu |
+| (week)day, sun, abbreviated, format | su |
+| (week)day, mon, abbreviated, format | ma |
+| (week)day, tue, abbreviated, format | ti |
+| (week)day, wed, abbreviated, format | ke |
+| (week)day, thu, abbreviated, format | to |
+| (week)day, fri, abbreviated, format | pe |
+| (week)day, sat, abbreviated, format | la |
+| (week)day, sun, narrow, format | S |
+| (week)day, mon, narrow, format | M |
+| (week)day, tue, narrow, format | T |
+| (week)day, wed, narrow, format | K |
+| (week)day, thu, narrow, format | T |
+| (week)day, fri, narrow, format | P |
+| (week)day, sat, narrow, format | L |
+| (week)day, sun, short, format | su |
+| (week)day, mon, short, format | ma |
+| (week)day, tue, short, format | ti |
+| (week)day, wed, short, format | ke |
+| (week)day, thu, short, format | to |
+| (week)day, fri, short, format | pe |
+| (week)day, sat, short, format | la |
+| (week)day, sun, wide, format | sunnuntaina |
+| (week)day, mon, wide, format | maanantaina |
+| (week)day, tue, wide, format | tiistaina |
+| (week)day, wed, wide, format | keskiviikkona |
+| (week)day, thu, wide, format | torstaina |
+| (week)day, fri, wide, format | perjantaina |
+| (week)day, sat, wide, format | lauantaina |
+| (week)day, sun, abbreviated, stand-alone | su |
+| (week)day, mon, abbreviated, stand-alone | ma |
+| (week)day, tue, abbreviated, stand-alone | ti |
+| (week)day, wed, abbreviated, stand-alone | ke |
+| (week)day, thu, abbreviated, stand-alone | to |
+| (week)day, fri, abbreviated, stand-alone | pe |
+| (week)day, sat, abbreviated, stand-alone | la |
+| (week)day, sun, narrow, stand-alone | S |
+| (week)day, mon, narrow, stand-alone | M |
+| (week)day, tue, narrow, stand-alone | T |
+| (week)day, wed, narrow, stand-alone | K |
+| (week)day, thu, narrow, stand-alone | T |
+| (week)day, fri, narrow, stand-alone | P |
+| (week)day, sat, narrow, stand-alone | L |
+| (week)day, sun, short, stand-alone | su |
+| (week)day, mon, short, stand-alone | ma |
+| (week)day, tue, short, stand-alone | ti |
+| (week)day, wed, short, stand-alone | ke |
+| (week)day, thu, short, stand-alone | to |
+| (week)day, fri, short, stand-alone | pe |
+| (week)day, sat, short, stand-alone | la |
+| (week)day, sun, wide, stand-alone | sunnuntai |
+| (week)day, mon, wide, stand-alone | maanantai |
+| (week)day, tue, wide, stand-alone | tiistai |
+| (week)day, wed, wide, stand-alone | keskiviikko |
+| (week)day, thu, wide, stand-alone | torstai |
+| (week)day, fri, wide, stand-alone | perjantai |
+| (week)day, sat, wide, stand-alone | lauantai |
+| quarter, 1, abbreviated, format | 1. nelj. |
+| quarter, 2, abbreviated, format | 2. nelj. |
+| quarter, 3, abbreviated, format | 3. nelj. |
+| quarter, 4, abbreviated, format | 4. nelj. |
+| quarter, 1, narrow, format | 1 |
+| quarter, 2, narrow, format | 2 |
+| quarter, 3, narrow, format | 3 |
+| quarter, 4, narrow, format | 4 |
+| quarter, 1, wide, format | 1. neljännes |
+| quarter, 2, wide, format | 2. neljännes |
+| quarter, 3, wide, format | 3. neljännes |
+| quarter, 4, wide, format | 4. neljännes |
+| quarter, 1, abbreviated, stand-alone | 1. nelj. |
+| quarter, 2, abbreviated, stand-alone | 2. nelj. |
+| quarter, 3, abbreviated, stand-alone | 3. nelj. |
+| quarter, 4, abbreviated, stand-alone | 4. nelj. |
+| quarter, 1, narrow, stand-alone | 1 |
+| quarter, 2, narrow, stand-alone | 2 |
+| quarter, 3, narrow, stand-alone | 3 |
+| quarter, 4, narrow, stand-alone | 4 |
+| quarter, 1, wide, stand-alone | 1. neljännes |
+| quarter, 2, wide, stand-alone | 2. neljännes |
+| quarter, 3, wide, stand-alone | 3. neljännes |
+| quarter, 4, wide, stand-alone | 4. neljännes |
+| period of day, midnight, abbreviated, format | keskiyöllä |
+| period of day, am, abbreviated, format | ap. |
+| period of day, noon, abbreviated, format | keskip. |
+| period of day, pm, abbreviated, format | ip. |
+| period of day, morning1, abbreviated, format | aamulla |
+| period of day, morning2, abbreviated, format | aamup. |
+| period of day, afternoon1, abbreviated, format | iltap. |
+| period of day, evening1, abbreviated, format | illalla |
+| period of day, night1, abbreviated, format | yöllä |
+| period of day, midnight, narrow, format | ky. |
+| period of day, am, narrow, format | ap. |
+| period of day, noon, narrow, format | kp. |
+| period of day, pm, narrow, format | ip. |
+| period of day, morning1, narrow, format | aamulla |
+| period of day, morning2, narrow, format | ap. |
+| period of day, afternoon1, narrow, format | ip. |
+| period of day, evening1, narrow, format | illalla |
+| period of day, night1, narrow, format | yöllä |
+| period of day, midnight, wide, format | keskiyöllä |
+| period of day, am, wide, format | ap. |
+| period of day, noon, wide, format | keskipäivällä |
+| period of day, pm, wide, format | ip. |
+| period of day, morning1, wide, format | aamulla |
+| period of day, morning2, wide, format | aamupäivällä |
+| period of day, afternoon1, wide, format | iltapäivällä |
+| period of day, evening1, wide, format | illalla |
+| period of day, night1, wide, format | yöllä |
+| period of day, midnight, abbreviated, stand-alone | keskiyö |
+| period of day, am, abbreviated, stand-alone | ap. |
+| period of day, noon, abbreviated, stand-alone | keskip. |
+| period of day, pm, abbreviated, stand-alone | ip. |
+| period of day, morning1, abbreviated, stand-alone | aamu |
+| period of day, morning2, abbreviated, stand-alone | aamup. |
+| period of day, afternoon1, abbreviated, stand-alone | iltap. |
+| period of day, evening1, abbreviated, stand-alone | ilta |
+| period of day, night1, abbreviated, stand-alone | yö |
+| period of day, midnight, narrow, stand-alone | ky. |
+| period of day, am, narrow, stand-alone | ap. |
+| period of day, noon, narrow, stand-alone | kp. |
+| period of day, pm, narrow, stand-alone | ip. |
+| period of day, morning1, narrow, stand-alone | aamu |
+| period of day, morning2, narrow, stand-alone | ap. |
+| period of day, afternoon1, narrow, stand-alone | ip. |
+| period of day, evening1, narrow, stand-alone | ilta |
+| period of day, night1, narrow, stand-alone | yö |
+| period of day, midnight, wide, stand-alone | keskiyö |
+| period of day, am, wide, stand-alone | ap. |
+| period of day, noon, wide, stand-alone | keskipäivä |
+| period of day, pm, wide, stand-alone | ip. |
+| period of day, morning1, wide, stand-alone | aamu |
+| period of day, morning2, wide, stand-alone | aamupäivä |
+| period of day, afternoon1, wide, stand-alone | iltapäivä |
+| period of day, evening1, wide, stand-alone | ilta |
+| period of day, night1, wide, stand-alone | yö |
 | era | ennen Kristuksen syntymää |
 | era | ennen ajanlaskun alkua |
 | era | jälkeen Kristuksen syntymän |
@@ -2706,240 +2627,228 @@ Secondary quotation end character: ’
 | interval format `yMMMd` | `d.–d. MMMM yd. MMMM – d. MMMM yd. MMMM y – d. MMMM y` |
 | interval format `yMMMEd` | `E d. – E d. MMMM yE d. MMMM – E d. MMMM yE d. MMMM y – E d. MMMM y` |
 | interval format `yMMMM` | `LLL–LLLL yLLLL y – LLLL y` |
-
 #### hebrew calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | tišrí |
-| month 2 | hešván |
-| month 3 | kislév |
-| month 4 | tevét |
-| month 5 | ševát |
-| month 6 | adár I |
-| month 7 | adár |
-| month 7 | adár II |
-| month 8 | nisán |
-| month 9 | ijjár |
-| month 10 | siván |
-| month 11 | tammúz |
-| month 12 | ab |
-| month 13 | elúl |
-| month 1 | tišríkuuta |
-| month 2 | hešvánkuuta |
-| month 3 | kislévkuuta |
-| month 4 | tevétkuuta |
-| month 5 | ševátkuuta |
-| month 6 | adárkuuta I |
-| month 7 | adárkuuta |
-| month 7 | adárkuuta II |
-| month 8 | nisánkuuta |
-| month 9 | ijjárkuuta |
-| month 10 | sivánkuuta |
-| month 11 | tammúzkuuta |
-| month 12 | abkuuta |
-| month 13 | elúlkuuta |
-| month 1 | tišrí |
-| month 2 | hešván |
-| month 3 | kislév |
-| month 4 | tevét |
-| month 5 | ševát |
-| month 6 | adár I |
-| month 7 | adár |
-| month 7 | adár II |
-| month 8 | nisán |
-| month 9 | ijjár |
-| month 10 | siván |
-| month 11 | tammúz |
-| month 12 | ab |
-| month 13 | elúl |
-| month 1 | T |
-| month 2 | H |
-| month 3 | K |
-| month 4 | T |
-| month 5 | S |
-| month 6 | A |
-| month 7 | A |
-| month 7 | A |
-| month 8 | N |
-| month 9 | I |
-| month 10 | S |
-| month 11 | T |
-| month 12 | A |
-| month 13 | E |
-| month 1 | tišríkuu |
-| month 2 | hešvánkuu |
-| month 3 | kislévkuu |
-| month 4 | tevétkuu |
-| month 5 | ševátkuu |
-| month 6 | adárkuu I |
-| month 7 | adárkuu |
-| month 7 | adárkuu II |
-| month 8 | nisánkuu |
-| month 9 | ijjárkuu |
-| month 10 | sivánkuu |
-| month 11 | tammúzkuu |
-| month 12 | abkuu |
-| month 13 | elúlkuu |
+| month, 1, abbreviated, format | tišrí |
+| month, 2, abbreviated, format | hešván |
+| month, 3, abbreviated, format | kislév |
+| month, 4, abbreviated, format | tevét |
+| month, 5, abbreviated, format | ševát |
+| month, 6, abbreviated, format | adár I |
+| month, 7, abbreviated, format | adár |
+| month, 7, abbreviated, format | adár II |
+| month, 8, abbreviated, format | nisán |
+| month, 9, abbreviated, format | ijjár |
+| month, 10, abbreviated, format | siván |
+| month, 11, abbreviated, format | tammúz |
+| month, 12, abbreviated, format | ab |
+| month, 13, abbreviated, format | elúl |
+| month, 1, wide, format | tišríkuuta |
+| month, 2, wide, format | hešvánkuuta |
+| month, 3, wide, format | kislévkuuta |
+| month, 4, wide, format | tevétkuuta |
+| month, 5, wide, format | ševátkuuta |
+| month, 6, wide, format | adárkuuta I |
+| month, 7, wide, format | adárkuuta |
+| month, 7, wide, format | adárkuuta II |
+| month, 8, wide, format | nisánkuuta |
+| month, 9, wide, format | ijjárkuuta |
+| month, 10, wide, format | sivánkuuta |
+| month, 11, wide, format | tammúzkuuta |
+| month, 12, wide, format | abkuuta |
+| month, 13, wide, format | elúlkuuta |
+| month, 1, abbreviated, stand-alone | tišrí |
+| month, 2, abbreviated, stand-alone | hešván |
+| month, 3, abbreviated, stand-alone | kislév |
+| month, 4, abbreviated, stand-alone | tevét |
+| month, 5, abbreviated, stand-alone | ševát |
+| month, 6, abbreviated, stand-alone | adár I |
+| month, 7, abbreviated, stand-alone | adár |
+| month, 7, abbreviated, stand-alone | adár II |
+| month, 8, abbreviated, stand-alone | nisán |
+| month, 9, abbreviated, stand-alone | ijjár |
+| month, 10, abbreviated, stand-alone | siván |
+| month, 11, abbreviated, stand-alone | tammúz |
+| month, 12, abbreviated, stand-alone | ab |
+| month, 13, abbreviated, stand-alone | elúl |
+| month, 1, narrow, stand-alone | T |
+| month, 2, narrow, stand-alone | H |
+| month, 3, narrow, stand-alone | K |
+| month, 4, narrow, stand-alone | T |
+| month, 5, narrow, stand-alone | S |
+| month, 6, narrow, stand-alone | A |
+| month, 7, narrow, stand-alone | A |
+| month, 7, narrow, stand-alone | A |
+| month, 8, narrow, stand-alone | N |
+| month, 9, narrow, stand-alone | I |
+| month, 10, narrow, stand-alone | S |
+| month, 11, narrow, stand-alone | T |
+| month, 12, narrow, stand-alone | A |
+| month, 13, narrow, stand-alone | E |
+| month, 1, wide, stand-alone | tišríkuu |
+| month, 2, wide, stand-alone | hešvánkuu |
+| month, 3, wide, stand-alone | kislévkuu |
+| month, 4, wide, stand-alone | tevétkuu |
+| month, 5, wide, stand-alone | ševátkuu |
+| month, 6, wide, stand-alone | adárkuu I |
+| month, 7, wide, stand-alone | adárkuu |
+| month, 7, wide, stand-alone | adárkuu II |
+| month, 8, wide, stand-alone | nisánkuu |
+| month, 9, wide, stand-alone | ijjárkuu |
+| month, 10, wide, stand-alone | sivánkuu |
+| month, 11, wide, stand-alone | tammúzkuu |
+| month, 12, wide, stand-alone | abkuu |
+| month, 13, wide, stand-alone | elúlkuu |
 | era | Anno Mundi |
 | era | AM |
 | era | AM |
-
 #### indian calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | chaitrakuuta |
-| month 2 | vaisakhakuuta |
-| month 3 | jyaisthakuuta |
-| month 4 | asadhakuuta |
-| month 5 | sravanakuuta |
-| month 6 | bhadrakuuta |
-| month 7 | asvinakuuta |
-| month 8 | kartikakuuta |
-| month 9 | agrahayanakuuta |
-| month 10 | pausakuuta |
-| month 11 | maghakuuta |
-| month 12 | phalgunakuuta |
-| month 1 | chaitrakuuta |
-| month 2 | vaisakhakuuta |
-| month 3 | jyaisthakuuta |
-| month 4 | asadhakuuta |
-| month 5 | sravanakuuta |
-| month 6 | bhadrakuuta |
-| month 7 | asvinakuuta |
-| month 8 | kartikakuuta |
-| month 9 | agrahayanakuuta |
-| month 10 | pausakuuta |
-| month 11 | maghakuuta |
-| month 12 | phalgunakuuta |
-| month 1 | chaitra |
-| month 2 | vaisakha |
-| month 3 | jyaistha |
-| month 4 | asadha |
-| month 5 | sravana |
-| month 6 | bhadra |
-| month 7 | asvina |
-| month 8 | kartika |
-| month 9 | agrahayana |
-| month 10 | pausa |
-| month 11 | magha |
-| month 12 | phalguna |
-| month 1 | chaitrakuu |
-| month 2 | vaisakhakuu |
-| month 3 | jyaisthakuu |
-| month 4 | asadhakuu |
-| month 5 | sravanakuu |
-| month 6 | bhadrakuu |
-| month 7 | asvinakuu |
-| month 8 | kartikakuu |
-| month 9 | agrahayanakuu |
-| month 10 | pausakuu |
-| month 11 | maghakuu |
-| month 12 | phalgunakuu |
+| month, 1, abbreviated, format | chaitrakuuta |
+| month, 2, abbreviated, format | vaisakhakuuta |
+| month, 3, abbreviated, format | jyaisthakuuta |
+| month, 4, abbreviated, format | asadhakuuta |
+| month, 5, abbreviated, format | sravanakuuta |
+| month, 6, abbreviated, format | bhadrakuuta |
+| month, 7, abbreviated, format | asvinakuuta |
+| month, 8, abbreviated, format | kartikakuuta |
+| month, 9, abbreviated, format | agrahayanakuuta |
+| month, 10, abbreviated, format | pausakuuta |
+| month, 11, abbreviated, format | maghakuuta |
+| month, 12, abbreviated, format | phalgunakuuta |
+| month, 1, wide, format | chaitrakuuta |
+| month, 2, wide, format | vaisakhakuuta |
+| month, 3, wide, format | jyaisthakuuta |
+| month, 4, wide, format | asadhakuuta |
+| month, 5, wide, format | sravanakuuta |
+| month, 6, wide, format | bhadrakuuta |
+| month, 7, wide, format | asvinakuuta |
+| month, 8, wide, format | kartikakuuta |
+| month, 9, wide, format | agrahayanakuuta |
+| month, 10, wide, format | pausakuuta |
+| month, 11, wide, format | maghakuuta |
+| month, 12, wide, format | phalgunakuuta |
+| month, 1, abbreviated, stand-alone | chaitra |
+| month, 2, abbreviated, stand-alone | vaisakha |
+| month, 3, abbreviated, stand-alone | jyaistha |
+| month, 4, abbreviated, stand-alone | asadha |
+| month, 5, abbreviated, stand-alone | sravana |
+| month, 6, abbreviated, stand-alone | bhadra |
+| month, 7, abbreviated, stand-alone | asvina |
+| month, 8, abbreviated, stand-alone | kartika |
+| month, 9, abbreviated, stand-alone | agrahayana |
+| month, 10, abbreviated, stand-alone | pausa |
+| month, 11, abbreviated, stand-alone | magha |
+| month, 12, abbreviated, stand-alone | phalguna |
+| month, 1, wide, stand-alone | chaitrakuu |
+| month, 2, wide, stand-alone | vaisakhakuu |
+| month, 3, wide, stand-alone | jyaisthakuu |
+| month, 4, wide, stand-alone | asadhakuu |
+| month, 5, wide, stand-alone | sravanakuu |
+| month, 6, wide, stand-alone | bhadrakuu |
+| month, 7, wide, stand-alone | asvinakuu |
+| month, 8, wide, stand-alone | kartikakuu |
+| month, 9, wide, stand-alone | agrahayanakuu |
+| month, 10, wide, stand-alone | pausakuu |
+| month, 11, wide, stand-alone | maghakuu |
+| month, 12, wide, stand-alone | phalgunakuu |
 | era | Saka-ajanlaskua |
 | era | Saka |
 | era | Saka |
-
 #### islamic calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | muharram |
-| month 2 | safar |
-| month 3 | rabi’ al-awwal |
-| month 4 | rabi’ al-akhir |
-| month 5 | džumada-l-ula |
-| month 6 | džumada-l-akhira |
-| month 7 | radžab |
-| month 8 | ša’ban |
-| month 9 | ramadan |
-| month 10 | šawwal |
-| month 11 | dhu-l-qa’da |
-| month 12 | dhu-l-hiddža |
-| month 1 | muharram |
-| month 2 | safar |
-| month 3 | rabi’ al-awwal |
-| month 4 | rabi’ al-akhir |
-| month 5 | džumada-l-ula |
-| month 6 | džumada-l-akhira |
-| month 7 | radžab |
-| month 8 | ša’ban |
-| month 9 | ramadan |
-| month 10 | šawwal |
-| month 11 | dhu-l-qa’da |
-| month 12 | dhu-l-hiddža |
+| month, 1, wide, format | muharram |
+| month, 2, wide, format | safar |
+| month, 3, wide, format | rabi’ al-awwal |
+| month, 4, wide, format | rabi’ al-akhir |
+| month, 5, wide, format | džumada-l-ula |
+| month, 6, wide, format | džumada-l-akhira |
+| month, 7, wide, format | radžab |
+| month, 8, wide, format | ša’ban |
+| month, 9, wide, format | ramadan |
+| month, 10, wide, format | šawwal |
+| month, 11, wide, format | dhu-l-qa’da |
+| month, 12, wide, format | dhu-l-hiddža |
+| month, 1, wide, stand-alone | muharram |
+| month, 2, wide, stand-alone | safar |
+| month, 3, wide, stand-alone | rabi’ al-awwal |
+| month, 4, wide, stand-alone | rabi’ al-akhir |
+| month, 5, wide, stand-alone | džumada-l-ula |
+| month, 6, wide, stand-alone | džumada-l-akhira |
+| month, 7, wide, stand-alone | radžab |
+| month, 8, wide, stand-alone | ša’ban |
+| month, 9, wide, stand-alone | ramadan |
+| month, 10, wide, stand-alone | šawwal |
+| month, 11, wide, stand-alone | dhu-l-qa’da |
+| month, 12, wide, stand-alone | dhu-l-hiddža |
 | era | hidžran jälkeen |
 | era | AH |
 | era | AH |
-
 #### japanese calendar
-
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d. MMMM y G` |
 | date format | `d. MMMM y G` |
 | date format | `d.M.y G` |
 | date format | `d.M.y GGGGG` |
-
 #### persian calendar
-
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | farvardinkuuta |
-| month 2 | ordibeheštkuuta |
-| month 3 | khordadkuuta |
-| month 4 | tirkuuta |
-| month 5 | mordadkuuta |
-| month 6 | šahrivarkuuta |
-| month 7 | mehrkuuta |
-| month 8 | abankuuta |
-| month 9 | azarkuuta |
-| month 10 | deykuuta |
-| month 11 | bahmankuuta |
-| month 12 | esfandkuuta |
-| month 1 | farvardinkuuta |
-| month 2 | ordibeheštkuuta |
-| month 3 | khordadkuuta |
-| month 4 | tirkuuta |
-| month 5 | mordadkuuta |
-| month 6 | šahrivarkuuta |
-| month 7 | mehrkuuta |
-| month 8 | abankuuta |
-| month 9 | azarkuuta |
-| month 10 | deykuuta |
-| month 11 | bahmankuuta |
-| month 12 | esfandkuuta |
-| month 1 | farvardin |
-| month 2 | ordibehešt |
-| month 3 | khordad |
-| month 4 | tir |
-| month 5 | mordad |
-| month 6 | šahrivar |
-| month 7 | mehr |
-| month 8 | aban |
-| month 9 | azar |
-| month 10 | dey |
-| month 11 | bahman |
-| month 12 | esfand |
-| month 1 | farvardinkuu |
-| month 2 | ordibeheštkuu |
-| month 3 | khordadkuu |
-| month 4 | tirkuu |
-| month 5 | mordadkuu |
-| month 6 | šahrivarkuu |
-| month 7 | mehrkuu |
-| month 8 | abankuu |
-| month 9 | azarkuu |
-| month 10 | deykuu |
-| month 11 | bahmankuu |
-| month 12 | esfandkuu |
+| month, 1, abbreviated, format | farvardinkuuta |
+| month, 2, abbreviated, format | ordibeheštkuuta |
+| month, 3, abbreviated, format | khordadkuuta |
+| month, 4, abbreviated, format | tirkuuta |
+| month, 5, abbreviated, format | mordadkuuta |
+| month, 6, abbreviated, format | šahrivarkuuta |
+| month, 7, abbreviated, format | mehrkuuta |
+| month, 8, abbreviated, format | abankuuta |
+| month, 9, abbreviated, format | azarkuuta |
+| month, 10, abbreviated, format | deykuuta |
+| month, 11, abbreviated, format | bahmankuuta |
+| month, 12, abbreviated, format | esfandkuuta |
+| month, 1, wide, format | farvardinkuuta |
+| month, 2, wide, format | ordibeheštkuuta |
+| month, 3, wide, format | khordadkuuta |
+| month, 4, wide, format | tirkuuta |
+| month, 5, wide, format | mordadkuuta |
+| month, 6, wide, format | šahrivarkuuta |
+| month, 7, wide, format | mehrkuuta |
+| month, 8, wide, format | abankuuta |
+| month, 9, wide, format | azarkuuta |
+| month, 10, wide, format | deykuuta |
+| month, 11, wide, format | bahmankuuta |
+| month, 12, wide, format | esfandkuuta |
+| month, 1, abbreviated, stand-alone | farvardin |
+| month, 2, abbreviated, stand-alone | ordibehešt |
+| month, 3, abbreviated, stand-alone | khordad |
+| month, 4, abbreviated, stand-alone | tir |
+| month, 5, abbreviated, stand-alone | mordad |
+| month, 6, abbreviated, stand-alone | šahrivar |
+| month, 7, abbreviated, stand-alone | mehr |
+| month, 8, abbreviated, stand-alone | aban |
+| month, 9, abbreviated, stand-alone | azar |
+| month, 10, abbreviated, stand-alone | dey |
+| month, 11, abbreviated, stand-alone | bahman |
+| month, 12, abbreviated, stand-alone | esfand |
+| month, 1, wide, stand-alone | farvardinkuu |
+| month, 2, wide, stand-alone | ordibeheštkuu |
+| month, 3, wide, stand-alone | khordadkuu |
+| month, 4, wide, stand-alone | tirkuu |
+| month, 5, wide, stand-alone | mordadkuu |
+| month, 6, wide, stand-alone | šahrivarkuu |
+| month, 7, wide, stand-alone | mehrkuu |
+| month, 8, wide, stand-alone | abankuu |
+| month, 9, wide, stand-alone | azarkuu |
+| month, 10, wide, stand-alone | deykuu |
+| month, 11, wide, stand-alone | bahmankuu |
+| month, 12, wide, stand-alone | esfandkuu |
 | era | Anno Persico |
 | era | AP |
 | era | AP |
-
 #### roc calendar
-
 | ID-stuff | values |
 | -------- | ------ |
 | era | ennen Kiinan tasavaltaa |
@@ -2948,9 +2857,7 @@ Secondary quotation end character: ’
 | era | Minguo |
 | era | e. Kiinan tasav. |
 | era | Minguo |
-
 ### some more time stuff
-
 |  | aikakausi |
 |  | aikakausi |
 |  | aikakausi |
@@ -3021,11 +2928,8 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 |  | aikavyöhyke |
 |  | aikavyöhyke |
 |  | aikavyöhyke |
-
 #### time zones
-
 | Format name | Format |
-| ----------- | ------ |
 | Hours from UTC | +H.mm;-H.mm |
 | GMT | UTC{0} |
 | Time at Greenwich | UTC |
@@ -3033,7 +2937,6 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | regional | {0} (kesäaika) |
 | regional | {0} (normaaliaika) |
 | fallback | {1} ({0}) |
-
 | Zone | Name |
 | ---- | ---- |
 | America/Santa_Isabel | Santa Isabel |
@@ -3622,11 +3525,8 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | Wallis | Wallisin ja Futunan aika |
 | Yakutsk | Jakutskin aikaJakutskin normaaliaikaJakutskin kesäaika |
 | Yekaterinburg | Jekaterinburgin aikaJekaterinburgin normaaliaikaJekaterinburgin kesäaika |
-
 ## Numbers stuff
-
 latnlatn1
-
 | Character name | Translated version |
 | Decimal separator | , |
 | "Thousands" separator |   |
@@ -3643,9 +3543,7 @@ latnlatn1
 #,##0.###0 tuhat0 tuhatta00 tuhatta00 tuhatta000 tuhatta000 tuhatta0 miljoona0 miljoonaa00 miljoonaa00 miljoonaa000 miljoonaa000 miljoonaa0 miljardi0 miljardia00 miljardia00 miljardia000 miljardia000 miljardia0 biljoona0 biljoonaa00 biljoonaa00 biljoonaa000 biljoonaa000 biljoonaa0 t'.'0 t'.'00 t'.'00 t'.'000 t'.'000 t'.'0 milj'.'0 milj'.'00 milj'.'00 milj'.'000 milj'.'000 milj'.'0 mrd'.'0 mrd'.'00 mrd'.'00 mrd'.'000 mrd'.'000 mrd'.'0 bilj'.'0 bilj'.'00 bilj'.'00 bilj'.'000 bilj'.'000 bilj'.'#E0#,##0 %#,##0.00 ¤#,##0.00 ¤0 t'.' ¤0 t'.' ¤00 t'.' ¤00 t'.' ¤000 t'.' ¤000 t'.' ¤0 milj'.' ¤0 milj'.' ¤00 milj'.' ¤00 milj'.' ¤000 milj'.' ¤000 milj'.' ¤0 mrd'.' ¤0 mrd'.' ¤00 mrd'.' ¤00 mrd'.' ¤000 mrd'.' ¤000 mrd'.' ¤0 bilj'.' ¤0 bilj'.' ¤00 bilj'.' ¤00 bilj'.' ¤000 bilj'.' ¤000 bilj'.' ¤
 | one | {0} {1} |
 | other | {0} {1} |
-
 ## Currency names
-
 | Code | Name |
 | ---- | ---- |
 |  | Andorran peseta |
@@ -4947,16 +4845,13 @@ latnlatn1
 | one | Zimbabwen dollari (2008) |
 | other | Zimbabwen dollaria (2008) |
 |  symbol | ZWR |
-
 Other stuff:
 vähintään {0}{0}–{1}
 Examples:
 | one example | {0} päivä |
 | other example | {0} päivää |
 Käänny {0}. risteyksestä oikealle.
-
 ## Units
-
 | Code | Name |
 | ---- | ---- |
 | Compound pattern  | {0}/{1} |
@@ -6659,9 +6554,7 @@ Käänny {0}. risteyksestä oikealle.
 | one | {0}tl |
 | other | {0}tl |
 {0}I{0}P{0}E{0}Lh.mmh.mm.ssm.ss
-
 ## Lists
-
 | List type | Patterns |
 |  | ... |
 | start | {0}, {1} |
@@ -6693,14 +6586,9 @@ Käänny {0}. risteyksestä oikealle.
 | middle | {0}, {1} |
 | end | {0}, {1} |
 | 2 | {0}, {1} |
-
 ## POSIX
-
-kyllä:k
-ei:e
-
+kyllä:kei:e
 ## Character sets
-
 | Set | Name |
 | --- | ---- |
 | all | {0} – kaikki |
@@ -6800,11 +6688,8 @@ ei:e
 | weather | sää |
 | western_asian_scripts | länsiaasialaiset kirjoitusjärjestelmät |
 | whitespace | tyhjämerkki |
-
 ## Font stuff
-
 | Font feature | Name |
-| ------------ | ---- |
 | "axis" ital | kursivoitu |
 | "axis" opsz | optinen koko |
 | "axis" slnt | kallistus |
