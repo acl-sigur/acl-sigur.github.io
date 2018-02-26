@@ -1,10 +1,12 @@
-
 ---
 layout: default
 title: "CLDR Finnish (via LDML2markdown)"
 ---
+
 ## CLDR core data for Finnish
+
 **Needed for requesting new locale**:
+
 | Stuff | Values |
 | --- | --- |
 | Exemplar sets | ... |
@@ -21,7 +23,9 @@ title: "CLDR Finnish (via LDML2markdown)"
 | Country Data and Default Content | fi_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | Finnish is already written in latin script |
+
 ### Casing
+
 | Item | Case |
 | ---  | ---  |
 | calendar_field | lowercase |
@@ -46,17 +50,20 @@ title: "CLDR Finnish (via LDML2markdown)"
 | variant | lowercase |
 | zone_exemplarCity | titlecase |
 | zone_long | titlecase |
+
 ### Collation
+
 Alphabetical order,
 I think we roughly need to know things like: sort V alongside W, etc., åäö
 at end before numbers
+
 #### search
 ```
 					[import und-u-co-search]
 					# Below are the rules specific to fi.
 					# Per Apple language group, V and W should match for search.
 					[import fi-u-co-trad]
-				
+
 ```
 #### traditional
 ```
@@ -66,7 +73,7 @@ at end before numbers
 					&V<<w<<<W
 					&Y<<ü<<<Ü<<ű<<<Ű
 					&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<ö<<<Ö<<ø<<<Ø<<ő<<<Ő<<õ<<<Õ<<œ<<<Œ
-				
+
 ```
 #### standard
 ```
@@ -82,14 +89,20 @@ at end before numbers
 					# Z and U+0335
 					&Z\u0335<<ʒ<<<Ʒ
 					&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<ö<<<Ö<<ø<<<Ø
-				
+
 ```
+
 ## CLDR minimal data for Finnish
+
 **Needed soon after submitting new locale**.
+
 ### Required date-time formats
+
 (44+ needed?)
 (Gregorian calendar)
+
 #### gregorian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | tammik. |
@@ -398,8 +411,11 @@ at end before numbers
 | interval format `yMMMd` | `d.–d. MMMM yd. MMMM – d. MMMM yd. MMMM y – d. MMMM y` |
 | interval format `yMMMEd` | `E d. – E d. MMMM yE d. MMMM – E d. MMMM yE d. MMMM y – E d. MMMM y` |
 | interval format `yMMMM` | `LLL–LLLL yLLLL y – LLLL y` |
+
 (Generic)
+
 #### generic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d. MMMM y G` |
@@ -478,19 +494,29 @@ at end before numbers
 | interval format `yMMMd` | `d.–d. MMMM y Gd. MMMM – d. MMMM y Gd. MMMM y – d. MMMM y G` |
 | interval format `yMMMEd` | `E d. – E d. MMMM y GE d. MMMM – E d. MMMM y GE d. MMMM y – E d. MMMM y G` |
 | interval format `yMMMM` | `LLL–LLLL y GLLLL y – LLLL y G` |
+
 ### Important names in language
+
 Language:
+
 | `fi` | suomi |
+
 Country or territory:
+
 | `FI` | Suomi |
+
 Currency:
-|  | euro |
+
+| EUR | euro |
 | one | euro |
 | other | euroa |
 |  symbol | € |
 | narrow symbol | € |
+
 ### Datetime patterns
+
 (1 needed)
+
 | datetime format | `{1} 'klo' {0}` |
 | datetime format | `{1} 'klo' {0}` |
 | datetime format | `{1} 'klo' {0}` |
@@ -563,8 +589,9 @@ Currency:
 | interval format `yMMMd` | `d.–d. MMMM y Gd. MMMM – d. MMMM y Gd. MMMM y – d. MMMM y G` |
 | interval format `yMMMEd` | `E d. – E d. MMMM y GE d. MMMM – E d. MMMM y GE d. MMMM y – E d. MMMM y G` |
 | interval format `yMMMM` | `LLL–LLLL y GLLLL y – LLLL y G` |
-Interval format: 
+
 ### Number formats
+
 | Character name | Translated version |
 | Decimal separator | , |
 | "Thousands" separator |   |
@@ -578,9 +605,13 @@ Interval format:
 | Infinity | ∞ |
 | Not a number | epäluku |
 | Time separator (Hours:Minutes) | . |
+
 ### Territories and cities in language area
+
 The place names to translate must be in the lists here:
+
 ### Timezone patterns
+
 | Hours from UTC | +H.mm;-H.mm |
 | GMT | UTC{0} |
 | Time at Greenwich | UTC |
@@ -588,16 +619,23 @@ The place names to translate must be in the lists here:
 | regional | {0} (kesäaika) |
 | regional | {0} (normaaliaika) |
 | fallback | {1} ({0}) |
+
 ### Locale pattern
+
 (how software should display languages)
+
 #### Locale display patterns
+
 | Things | Patterns |
 | ------ | -------- |
 | language, country | `{0} ({1})` |
 | locale, another locale | `{0}, {1}` |
 | label: locale | `{0}: {1}` |
+
 ### some important words to translate
+
 #### Keys (system names)
+
 | key | Name |
 | -------- | ---- |
 | `calendar` | kalenteri |
@@ -618,22 +656,31 @@ The place names to translate must be in the lists here:
 | `timezone` | aikavyöhyke |
 | `va` | maavalinnan muunnelma |
 | `x` | yksityiskäyttö |
+
 ### Some time intervals
+
 ???
+
 ## More (all) CLDR data for $language
+
 While not strictly needed is all used by software and stuff:
 identity:
+
 ```
 $Revision: 13904 $fi
 ```
+
 #### Locale display patterns
+
 | Things | Patterns |
 | ------ | -------- |
 | language, country | `{0} ({1})` |
 | locale, another locale | `{0}, {1}` |
 | label: locale | `{0}: {1}` |
 ### Language names
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `aa` | afar |
@@ -1259,8 +1306,11 @@ $Revision: 13904 $fi
 | `zun` | zuni |
 | `zxx` | ei kielellistä sisältöä |
 | `zza` | zaza |
+
 ### Script names
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `Adlm` | fulanin adlam-aakkosto |
@@ -1449,8 +1499,11 @@ $Revision: 13904 $fi
 | `Zxxx` | kirjoittamaton |
 | `Zyyy` | määrittämätön |
 | `Zzzz` | tuntematon kirjoitusjärjestelmä |
+
 ### Territory names
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `001` | maailma |
@@ -1758,8 +1811,11 @@ $Revision: 13904 $fi
 | `ZM` | Sambia |
 | `ZW` | Zimbabwe |
 | `ZZ` | tuntematon alue |
+
 ### Locale variant names
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `1901` | saksan perinteinen oikeinkirjoitus |
@@ -1848,7 +1904,9 @@ $Revision: 13904 $fi
 | `VALLADER` | reoromaanin vallader-muoto |
 | `WADEGILE` | kiinan Wade-Giles-latinaistus |
 | `XSISTEMO` | esperanton x-kirjoitus |
+
 #### Keys (system names)
+
 | key | Name |
 | -------- | ---- |
 | `calendar` | kalenteri |
@@ -1869,7 +1927,9 @@ $Revision: 13904 $fi
 | `timezone` | aikavyöhyke |
 | `va` | maavalinnan muunnelma |
 | `x` | yksityiskäyttö |
+
 ### Types (of systems)
+
 | key, System   | Name |
 | -------- | ---- |
 | `buddhistcalendar` | buddhalainen kalenteri |
@@ -2022,13 +2082,19 @@ $Revision: 13904 $fi
 | `metric` | metrinen |
 | `UK` | brittiläinen |
 | `US` | amerikkalainen |
+
 ### Code patterns
+
 kieli: {0}kirjoitusjärjestelmä: {0}alue: {0}
+
 ### Context transforms
+
 ```
 titlecase-firstwordtitlecase-firstword
 ```
+
 ### Character processing for computer systems
+
 | main characters | `[a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]` |
 | auxiliary characters | `[á à ă â ã ą ā ć č ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]` |
 | index characters | `[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]` |
@@ -2052,13 +2118,15 @@ Lenient parsing stuff: - is treated same as `[\-‒⁻₋−➖﹣－]`
 + is treated same as `[+⁺₊➕﬩﹢＋]`
 Lenient parsing stuff: , is treated same as `[,٫︐﹐，]`
 . is treated same as `[.․﹒．｡]`
-Delimiters: 
+Delimiters:
 Quotation start character: ”
 Quotation end character: ”
 Secondary yquotation start character: ’
 Secondary quotation end character: ’
+
 ## Calendar data
 #### buddhist calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | era | buddhalainen aika |
@@ -2094,7 +2162,9 @@ Secondary quotation end character: ’
 | date format `yyyyMMMMccccd` | `cccc d. MMMM y G` |
 | date format `yyyyQQQ` | `QQQ y G` |
 | date format `yyyyQQQQ` | `QQQQ y G` |
+
 #### chinese calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d.M.y` |
@@ -2117,7 +2187,9 @@ Secondary quotation end character: ’
 | date format `yyyyMEd` | `E d.M.y` |
 | date format `yyyyMMMd` | `d.M.y` |
 | date format `yyyyMMMEd` | `E d.M.y` |
+
 #### coptic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | thoutkuuta |
@@ -2178,7 +2250,9 @@ Secondary quotation end character: ’
 | era | ERA1 |
 | era | ERA0 |
 | era | ERA1 |
+
 #### ethiopic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | mäskärämkuuta |
@@ -2239,7 +2313,9 @@ Secondary quotation end character: ’
 | era | ERA1 |
 | era | ERA0 |
 | era | ERA1 |
+
 #### generic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d. MMMM y G` |
@@ -2318,7 +2394,9 @@ Secondary quotation end character: ’
 | interval format `yMMMd` | `d.–d. MMMM y Gd. MMMM – d. MMMM y Gd. MMMM y – d. MMMM y G` |
 | interval format `yMMMEd` | `E d. – E d. MMMM y GE d. MMMM – E d. MMMM y GE d. MMMM y – E d. MMMM y G` |
 | interval format `yMMMM` | `LLL–LLLL y GLLLL y – LLLL y G` |
+
 #### gregorian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | tammik. |
@@ -2627,7 +2705,9 @@ Secondary quotation end character: ’
 | interval format `yMMMd` | `d.–d. MMMM yd. MMMM – d. MMMM yd. MMMM y – d. MMMM y` |
 | interval format `yMMMEd` | `E d. – E d. MMMM yE d. MMMM – E d. MMMM yE d. MMMM y – E d. MMMM y` |
 | interval format `yMMMM` | `LLL–LLLL yLLLL y – LLLL y` |
+
 #### hebrew calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | tišrí |
@@ -2703,7 +2783,9 @@ Secondary quotation end character: ’
 | era | Anno Mundi |
 | era | AM |
 | era | AM |
+
 #### indian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | chaitrakuuta |
@@ -2757,7 +2839,9 @@ Secondary quotation end character: ’
 | era | Saka-ajanlaskua |
 | era | Saka |
 | era | Saka |
+
 #### islamic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, wide, format | muharram |
@@ -2787,14 +2871,18 @@ Secondary quotation end character: ’
 | era | hidžran jälkeen |
 | era | AH |
 | era | AH |
+
 #### japanese calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | date format | `cccc d. MMMM y G` |
 | date format | `d. MMMM y G` |
 | date format | `d.M.y G` |
 | date format | `d.M.y GGGGG` |
+
 #### persian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | month, 1, abbreviated, format | farvardinkuuta |
@@ -2848,7 +2936,9 @@ Secondary quotation end character: ’
 | era | Anno Persico |
 | era | AP |
 | era | AP |
+
 #### roc calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | era | ennen Kiinan tasavaltaa |
@@ -2857,7 +2947,9 @@ Secondary quotation end character: ’
 | era | Minguo |
 | era | e. Kiinan tasav. |
 | era | Minguo |
+
 ### some more time stuff
+
 |  | aikakausi |
 |  | aikakausi |
 |  | aikakausi |
@@ -2928,7 +3020,9 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 |  | aikavyöhyke |
 |  | aikavyöhyke |
 |  | aikavyöhyke |
+
 #### time zones
+
 | Format name | Format |
 | Hours from UTC | +H.mm;-H.mm |
 | GMT | UTC{0} |
@@ -2937,6 +3031,7 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | regional | {0} (kesäaika) |
 | regional | {0} (normaaliaika) |
 | fallback | {1} ({0}) |
+
 | Zone | Name |
 | ---- | ---- |
 | America/Santa_Isabel | Santa Isabel |
@@ -3525,8 +3620,11 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | Wallis | Wallisin ja Futunan aika |
 | Yakutsk | Jakutskin aikaJakutskin normaaliaikaJakutskin kesäaika |
 | Yekaterinburg | Jekaterinburgin aikaJekaterinburgin normaaliaikaJekaterinburgin kesäaika |
+
 ## Numbers stuff
+
 latnlatn1
+
 | Character name | Translated version |
 | Decimal separator | , |
 | "Thousands" separator |   |
@@ -3543,7 +3641,9 @@ latnlatn1
 #,##0.###0 tuhat0 tuhatta00 tuhatta00 tuhatta000 tuhatta000 tuhatta0 miljoona0 miljoonaa00 miljoonaa00 miljoonaa000 miljoonaa000 miljoonaa0 miljardi0 miljardia00 miljardia00 miljardia000 miljardia000 miljardia0 biljoona0 biljoonaa00 biljoonaa00 biljoonaa000 biljoonaa000 biljoonaa0 t'.'0 t'.'00 t'.'00 t'.'000 t'.'000 t'.'0 milj'.'0 milj'.'00 milj'.'00 milj'.'000 milj'.'000 milj'.'0 mrd'.'0 mrd'.'00 mrd'.'00 mrd'.'000 mrd'.'000 mrd'.'0 bilj'.'0 bilj'.'00 bilj'.'00 bilj'.'000 bilj'.'000 bilj'.'#E0#,##0 %#,##0.00 ¤#,##0.00 ¤0 t'.' ¤0 t'.' ¤00 t'.' ¤00 t'.' ¤000 t'.' ¤000 t'.' ¤0 milj'.' ¤0 milj'.' ¤00 milj'.' ¤00 milj'.' ¤000 milj'.' ¤000 milj'.' ¤0 mrd'.' ¤0 mrd'.' ¤00 mrd'.' ¤00 mrd'.' ¤000 mrd'.' ¤000 mrd'.' ¤0 bilj'.' ¤0 bilj'.' ¤00 bilj'.' ¤00 bilj'.' ¤000 bilj'.' ¤000 bilj'.' ¤
 | one | {0} {1} |
 | other | {0} {1} |
+
 ## Currency names
+
 | Code | Name |
 | ---- | ---- |
 |  | Andorran peseta |
@@ -4845,13 +4945,19 @@ latnlatn1
 | one | Zimbabwen dollari (2008) |
 | other | Zimbabwen dollaria (2008) |
 |  symbol | ZWR |
+
 Other stuff:
+
 vähintään {0}{0}–{1}
 Examples:
+
 | one example | {0} päivä |
 | other example | {0} päivää |
+
 Käänny {0}. risteyksestä oikealle.
+
 ## Units
+
 | Code | Name |
 | ---- | ---- |
 | Compound pattern  | {0}/{1} |
@@ -6554,7 +6660,9 @@ Käänny {0}. risteyksestä oikealle.
 | one | {0}tl |
 | other | {0}tl |
 {0}I{0}P{0}E{0}Lh.mmh.mm.ssm.ss
+
 ## Lists
+
 | List type | Patterns |
 |  | ... |
 | start | {0}, {1} |
@@ -6586,9 +6694,13 @@ Käänny {0}. risteyksestä oikealle.
 | middle | {0}, {1} |
 | end | {0}, {1} |
 | 2 | {0}, {1} |
+
 ## POSIX
+
 kyllä:kei:e
+
 ## Character sets
+
 | Set | Name |
 | --- | ---- |
 | all | {0} – kaikki |
@@ -6688,7 +6800,9 @@ kyllä:kei:e
 | weather | sää |
 | western_asian_scripts | länsiaasialaiset kirjoitusjärjestelmät |
 | whitespace | tyhjämerkki |
+
 ## Font stuff
+
 | Font feature | Name |
 | "axis" ital | kursivoitu |
 | "axis" opsz | optinen koko |
