@@ -19,21 +19,26 @@ github](https://github.com/acl-sigur/acl-sigur.github.io/issues).
 
 # The matrix
 
-The columns are following: *ISO 639* is closest applicable standard language
-code, *Language* is the name of the language, in case of related / similarly
-named languages with separate language codes, *(group)* is used to add the
-differentiating part of language name, *Orth* column describes the status of
-standard orthography, *Keyboard* is freely available keyboard layouts for
-commonly used operation systems, *Corpora* is freely available language data,
-both spoken and written, annotated or not, carefully selected or not, *Speech*
-is speech technology resources such as synthesised speakers, *Morph* is for
-various text analysers; morpho-syntactic or otherwise, *Treebank* is for
-different treebanks and parsebanks with over word-level annotations and
-*MT* is for machine translators. The resources listed are ones that we have
+The columns are the following:
+
+* **ISO 639:** closest applicable standard language code
+* **Language:** the name of the language, in case of related / similarly named languages with separate language codes
+* **(group):** is used to add the differentiating part of language name
+* **Orth:** describes the status of standard orthography
+* **Keyboard:** freely available keyboard layouts for commonly used operation systems available
+* **Corpora:** freely available language data, both spoken and written, annotated or not, carefully selected or not
+* **Speech:** speech technology resources such as synthesised speakers
+* **Morph:** various text analysers; morpho-syntactic or otherwise
+* **Treebank:** is for different treebanks and parsebanks with over word-level annotations
+* **MT:** machine translators
+* **CLDR:** resources available in the Common Language Data Repository
+
+The resources listed are ones that we have
 verified free to use, at least for research purposes but usually free for all,
 free as in no costs and free as in no restrictions for purposes of use, can
 be copyleft. Also, systems must be usable, ideally used by us or researchers we
 know.
+
 
 | ISO 639 | Language | (group) | Orth | Kbd | Corpora | Speech | Morph | Treebank | MT  | CLDR |
 | ---     | ---      | :--     | ---  | ---      | ---     | ---    | ---   | ---      | --- | ---  | 
@@ -44,30 +49,30 @@ know.
 | est | Estonian |    | ?| [+][est-keyboard-1] | ?| ? | [+][est-morph-1][+][est-morph-2][+][est-morph-3][+][est-morph-4] | ?| [+][fin-est-1] | + | 
 | ekk | (Estonian) |  |  |   |  |   |  |  |   |  | 
 | vro | Võro |        | ?| ? | ?| ?| ? | ?| ? |  | 
-| sme | Sámi | North | ??? | [+][sme-keyboard-1] | ??? | ? | ?? | ? | ? | + | 
-|  |       | Lule  | ? | ?| ? | ?| ?| ?| ? |  | 
-| sma |       | South | ? | ?| ? | ?| ?| ?| ? |  | 
-|  |     | Inari   | ? | ?| ? | ?| ?| ?| ? | + | 
-| sms |     | Skolt   | ? | ?| ? | ?| ?| ?| ? |  | 
-|  |     | Kildin  | ?| ? | ? | ?| ?| ?| ? |  | 
+| sme | Sámi | North | + | [+][sme-keyboard-1][+][sme-keyboard-2] | + | ? | + | ? | + | + | 
+| smj |      | Lule  | ? | ?| ? | ?| ?| ?| ? |  | 
+| sma |      | South | ? | ?| ? | ?| ?| ?| ? |  | 
+| smn |      | Inari   | ? | ?| ? | ?| ?| ?| ? | + | 
+| sms |      | Skolt   | ? | ?| ? | ?| ?| ?| ? |  | 
+| sjd |      | Kildin  | ?| ? | ? | ?| ?| ?| ? |  | 
 | kpv | Komi | Zyrian | ?| ? | ?| ?| ?| ? |  | 
-|     |      | Permyak | ?| ? | ?| ?| ?| ? |  | 
+| koi |      | Permyak | ?| ? | ?| ?| ?| ? |  | 
 | udm | Udmurt |      | ?| ?| ? | ?| ? | ?| ? |  | 
-| | Mari   | Hill | ?| ? | ?| ?| ?| ? |  | 
-| |        | Meadow | ?| ? | ?| ?| ?| ? |  | 
+| mrj | Mari   | Hill | ?| ? | ?| ?| ?| ? |  | 
+| mhr |        | Meadow | ?| ? | ?| ?| ?| ? |  | 
 | myv | Mordvin | Erzya | ?| ?| ? | ?| ?| ? |  | 
-| |         | Moksha | ?| ? | ?| ?|??| ? |  | 
-| | Mansi   |       | ?| ? | ?| ? | ?| ?| ? |  | 
+| mdf |         | Moksha | ?| ? | ?| ?|??| ? |  | 
+| mns | Mansi   |       | ?| ? | ?| ? | ?| ?| ? |  | 
 | kca | Khanty  |       | ?| ? | ?| ? | ?| ?| ? |  | 
 | nio | Nganasan |      | ?| ? | ?| ?| ? | ?| ? |  | 
-| | Enets | Tundra  | ?| ? | ?| ?| ?| ? |  | 
-| |       | Forest  | ?| ? | ?| ?| ?| ? |  | 
-| | Nenets | Tundra | ?| ? | ?| ?| ?| ? |  | 
-| |        | Forest | ?| ? | ?| ?| ?| ? |  | 
+| enh | Enets | Tundra  | ?| ? | ?| ?| ?| ? |  | 
+| enf |       | Forest  | ?| ? | ?| ?| ?| ? |  | 
+| yrk | Nenets   | Tundra | ?| ? | ?| ?| ?| ? |  | 
+| yrk |          | Forest | ?| ? | ?| ?| ?| ? |  | 
 | krl | Karelian | Varsinais- | ? | ?| ? | | ?| ?| ? |  | 
 | izh |          | Ingrian | ? | ?| ? | | ?| ?| ? |  | 
 | olo |          | Olonets | ? | ?| ? | ? | ? | ?| [-][fin-olo-1] |  | 
-| | Selkup |        | ? | ? | ?| ? | ? | ?| ? |  | 
+| sel | Selkup |        | ? | ? | ?| ? | ? | ?| ? |  | 
 | vot | Votic |        | ? | ? | ?| ? | [+][vot-morph-1] | ?| ? |  | 
 
 I have used a plus sign **+** for most resources, an occasional hyphen-minus
@@ -116,7 +121,11 @@ Android-based.
 
 ### North Saami keyboards
 
-1. [Divvun’s North Saami keyboard][sme-keyboard-1]
+1. [Official layout][sme-keyboard-1] keyboard layout, for national and international standards
+
+Comes with all common OSes and systems: Microsoft’s, Linux, Apple’s and Android-based.
+
+2. [Divvun’s North Saami keyboard][sme-keyboard-2]
 
 ## Hungarian
 
@@ -195,8 +204,11 @@ Larger collections:
 [fin-deu-1]: https://github.com/flammie/apertium-fin-deu
 [fin-olo-1]: https://github.com/flammie/apertium-fin-olo
 [fin-any-1]: http://www.grammaticalframework.org/
+[fin-est-1]: http://divvun.no/doc/lang/est/EstonianDocumentation.html
 [hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
 [gf]: http://grammaticalframework.org
 [morfessor]: https://github.com/aalto-speech/morfessor
+[sme-keyboard-1]: http://divvun.no/doc/keyboards/kbdlangdocs/sme/doc/index.html
+[sme-keyboard-2]: http://divvun.no/doc/keyboards/kbdlangdocs/sme/doc/index.html
 [vot-morph-1]: https://github.com/keeleleek/GF-Votic
 
