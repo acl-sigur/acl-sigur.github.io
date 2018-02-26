@@ -834,6 +834,8 @@ $Revision: 13904 $fi
 | `en_GB` | englanti (Britannia) |
 | `en_US` | amerikanenglanti |
 | `en_US` | englanti (USA) |
+| `enf` | metsäenetsi |
+| `enh` | tundraenetsi |
 | `enm` | keskienglanti |
 | `eo` | esperanto |
 | `es` | espanja |
@@ -947,6 +949,7 @@ $Revision: 13904 $fi
 | `kaw` | kavi |
 | `kbd` | kabardi |
 | `kbl` | kanembu |
+| `kca` | hantti |
 | `kcg` | tyap |
 | `kde` | makonde |
 | `kea` | kapverdenkreoli |
@@ -1049,6 +1052,7 @@ $Revision: 13904 $fi
 | `mn` | mongoli |
 | `mnc` | mantšu |
 | `mni` | manipuri |
+| `mns` | mansi |
 | `moh` | mohawk |
 | `mos` | mossi |
 | `mr` | marathi |
@@ -1291,6 +1295,7 @@ $Revision: 13904 $fi
 | `ybb` | yemba |
 | `yi` | jiddiš |
 | `yo` | joruba |
+| `yrk` | nenetsi |
 | `yrl` | ñeengatú |
 | `yue` | kantoninkiina |
 | `za` | zhuang |
