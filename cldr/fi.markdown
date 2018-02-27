@@ -19,8 +19,8 @@ title: "CLDR Finnish (via LDML2markdown)"
 | Orientation | left-to-right |
 | ... |  top-to-bottom |
 | Plural rules | ... |
-| one example | {0} päivä |
-| other example | {0} päivää |
+| plural one example | {0} päivä |
+| plural other example | {0} päivää |
 | Country Data and Default Content | fi_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | Finnish is already written in latin script |
@@ -5766,9 +5766,9 @@ Other stuff:
 
 Examples:
 
-| one example | {0} päivä |
-| other example | {0} päivää |
-Käänny {0}. risteyksestä oikealle.
+| plural one example | {0} päivä |
+| plural other example | {0} päivää |
+| ordinal  example | Käänny {0}. risteyksestä oikealle. |
 
 ## Units
 
@@ -6341,7 +6341,10 @@ Käänny {0}. risteyksestä oikealle.
 | , volume-teaspoon | teelusikat |
 | one, volume-teaspoon | {0} teelusikka |
 | other, volume-teaspoon | {0} teelusikkaa |
-{0}I{0}P{0}E{0}L
+| coordinates, east | {0}I |
+| coordinates, north | {0}P |
+| coordinates, south | {0}E |
+| coordinates, west | {0}L |
 | Compound pattern  | {0}/{1} |
 | acceleration-g-force | ... |
 | , acceleration-g-force | G |
@@ -6909,7 +6912,10 @@ Käänny {0}. risteyksestä oikealle.
 | , volume-teaspoon | tl |
 | one, volume-teaspoon | {0} tl |
 | other, volume-teaspoon | {0} tl |
-{0}I{0}P{0}E{0}L
+| coordinates, east | {0}I |
+| coordinates, north | {0}P |
+| coordinates, south | {0}E |
+| coordinates, west | {0}L |
 | Compound pattern  | {0}/{1} |
 | acceleration-g-force | ... |
 | , acceleration-g-force | G |
@@ -7473,7 +7479,13 @@ Käänny {0}. risteyksestä oikealle.
 | , volume-teaspoon | tl |
 | one, volume-teaspoon | {0}tl |
 | other, volume-teaspoon | {0}tl |
-{0}I{0}P{0}E{0}Lh.mmh.mm.ssm.ss
+| coordinates, east | {0}I |
+| coordinates, north | {0}P |
+| coordinates, south | {0}E |
+| coordinates, west | {0}L |
+| , hm | h.mm |
+| , hms | h.mm.ss |
+| , ms | m.ss |
 
 ## Lists
 
