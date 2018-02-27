@@ -1,32 +1,30 @@
 ---
 layout: default
-title: "CLDR Uralic"
+title: "CLDR Uralic Latin template"
 ---
 
-## CLDR core data for Uralic Latin (template)
+## CLDR core data for $UralicLanguageX$
 
-Fill-in:
 
 **Needed for requesting new locale**:
-
 
 | Stuff | Values |
 | --- | --- |
 | Exemplar sets | ... |
-| main characters | `[a b c č d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]` |
-| auxiliary characters | `[á à ă â ã ą ā ć ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]` |
+| main characters | `[a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]` |
+| auxiliary characters | `[á à ă â ã ą ā ć č ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]` |
 | index characters | `[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]` |
 | numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
 | Orientation | left-to-right |
 | ... |  top-to-bottom |
 | Plural rules | ... |
-| one example | {0} XXX  (inflect the word for day sg.)|
-| two examples | {0} XXX (delete if no dual) |
-| other example | {0} XXX |
-| Country Data and Default Content | XXX_FI |
+| plural one example | **{0} $DAY$** |
+| plural two example | **{0} $DAYS$** |
+| plural other example | **{0} $DAYS$** |
+| Country Data and Default Content | **Urj_RU** |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
-| Romanization | Uralic is already written in latin script |
+| Romanization | **UralicLanguageX** is already written in latin script |
 
 ### Casing
 
@@ -57,104 +55,103 @@ Fill-in:
 
 ### Collation
 
-Alphabetical order, (describe nearest language / diversions, e.g. Finnish, but
-...)
+Like [Finnish](fi.html#Collation), add **X**, sort **Y** after **Z**
 
 
-## CLDR minimal data for Uralic
+## CLDR minimal data for $UralicLanguageX$
 
 **Needed soon after submitting new locale**.
 
 ### Required date-time formats
 
-If the calendar used is not gregorian...
+
+(44+ needed?)
+**Check out details of formats from other languages, fill as many as you know
+are commonly used.**
 
 #### gregorian calendar
 
-For most things, fill in full names and abbreviations (short and very short
-i.e. 1–2 letters if one exists).
-
-| ID-stuff | values |
-| -------- | ------ |
-| month 1 |  |
-| month 2 |  |
-| month 3 |  |
-| month 4 |  |
-| month 5 |  |
-| month 6 |  |
-| month 7 |  |
-| month 8 | |
-| month 9 |  |
-| month 10 |  |
-| month 11 |  |
-| month 12 |  |
-| (week)day sun |  |
-| (week)day mon |  |
-| (week)day tue |  |
-| (week)day wed |  |
-| (week)day thu |  |
-| (week)day fri |  |
-| (week)day sat |  |
-| quarter 1 |  |
-| quarter 2 |  |
-| quarter 3 |  |
-| quarter 4 |  |
-| period of day midnight |  |
-| period of day am |  |
-| period of day noon |  |
-| period of day pm |  |
-| period of day morning1 | |
-| period of day morning2 |  |
-| period of day afternoon1 |  |
-| period of day evening1 |  |
-| period of day night1 |  |
-| period of day midnight |  |
-| period of day am |  |
-| period of day noon |  |
-| period of day pm |  |
-| period of day morning1 |  |
-| period of day morning2 |  |
-| period of day afternoon1 |  |
-| period of day evening1 |  |
-| period of day night1 | |
-| era BC |  |
-| era BCE | |
-| era AD |  |
-| era ACE |  |
-
-For formats examples are good: e.g. "on monday the 21. of June 1984",
-"21.6.1984". "12:34"
-
-| date format |  |
-| time format |  |
-| datetime format |  |
-| Timezone | {0} {1} |
+| ID-stuff | |
+| -------- | |
+| month, 1, wide, format | |
+| month, 2, wide, format | |
+| month, 3, wide, format | |
+| month, 4, wide, format | |
+| month, 5, wide, format | |
+| month, 6, wide, format | |
+| month, 7, wide, format | |
+| month, 8, wide, format | |
+| month, 9, wide, format | |
+| month, 10, wide, format | |
+| month, 11, wide, format | |
+| month, 12, wide, format | |
+| (week)day, sun, wide, format | |
+| (week)day, mon, wide, format | |
+| (week)day, tue, wide, format | |
+| (week)day, wed, wide, format | |
+| (week)day, thu, wide, format | |
+| (week)day, fri, wide, format | |
+| (week)day, sat, wide, format | |
+| quarter, 1, wide, format | |
+| quarter, 2, wide, format | |
+| quarter, 3, wide, format | |
+| quarter, 4, wide, format | |
+| period of day, midnight, wide, format | |
+| period of day, am, wide, format | |
+| period of day, noon, wide, format | |
+| period of day, pm, wide, format | |
+| period of day, morning1, wide, format | |
+| period of day, morning2, wide, format | |
+| period of day, afternoon1, wide, format | |
+| period of day, evening1, wide, format | |
+| period of day, night1, wide, format | |
+| era | |
+| date format | |
+| time format | |
+| datetime format | |
+| Timezone | |
 | interval format fallback | `{0}–{1}` |
+
 
 ### Important names in language
 
+
 Language:
 
-| `xxx` |  |
+| **Urj** | |
 
 Country or territory:
 
-| `XXX` |  |
+| FI |  |
+| ET |  |
+| HU |  |
+| RU |  |
 
 Currency:
 
-| XXX | euro |
-| one | euro |
-| two | eurok |
-| other | euroa |
-|  symbol | € |
-| narrow symbol | € |
+| , EUR |  |
+| one, EUR |  |
+| two, EUR |  |
+| other, EUR |  |
+| , EUR symbol | € |
+| narrow, EUR symbol | € |
+| , RUB |  |
+| one, RUB |  |
+| two, RUB |  |
+| other, RUB |  |
+| , RUB symbol | ₽  |
+| narrow, RUB symbol | ₽  |
 
 ### Datetime patterns
 
-...
+(1 needed)
+
+| datetime format | ... |
 
 ### Number formats
+
+
+#### Symbols
 
 | Character name | Translated version |
 | -------------- | ------------------ |
@@ -168,35 +165,52 @@ Currency:
 | Superscripting Exponent | × |
 | Permilles | ‰ |
 | Infinity | ∞ |
-| Not a number |  |
-| Time separator (Hours:Minutes) | : |
+| Not a number | **FIXME** |
+| Time separator (Hours:Minutes) | . |
 
-### Territories and cities in language area
+### Territories, cities  and timezone ID's in language area
 
-E.g. timezones. Find correct examples from:
 
-| Place code | Translation |
-| ---------- | ----------- |
-| 150 | Europe |
-| FI | |
-| RU | |
-| Europe/Helsinki |  |
-| Europe/Moscow |  |
+Country or territory:
+
+| `FI` |  |
+| `RU` |  |
+| `HU` |  |
+| `EE` |  |
+
+Timezone ID:
+
+| Europe/Helsinki | |
+| Europe/Moscow | |
+| Asia/Tomsk | |
 | Europe_Eastern | |
+|  generic | |
+|  standard | |
+|  daylight savings | |
+| Moscow | |
+|  generic | |
+|  standard | |
+|  daylight savings | |
+| Yekaterinburg | |
+|  generic | |
+|  standard | |
+|  daylight savings | |
 
 ### Timezone patterns
 
-| Message | formatting |
-| ------- | ---------- |
 | Hours from UTC | +H:mm;-H:mm |
 | GMT | UTC{0} |
 | Time at Greenwich | UTC |
-| regional |  |
+| regional | |
+| regional | |
+| regional | |
 | fallback | {1} ({0}) |
 
 ### Locale pattern
 
+
 (how software should display languages)
+
 
 #### Locale display patterns
 
@@ -208,12 +222,13 @@ E.g. timezones. Find correct examples from:
 
 ### some important words to translate
 
+
 #### Keys (system names)
 
 | key | Name |
 | -------- | ---- |
-| `calendar` |  |
-| `cf` |  |
+| `calendar` | |
+| `cf` | |
 | `colAlternate` | |
 | `colBackwards` | |
 | `colCaseFirst` | |
@@ -237,4 +252,5 @@ E.g. timezones. Find correct examples from:
 
 ## More (all) CLDR data for $language
 
-TODO
+
+...

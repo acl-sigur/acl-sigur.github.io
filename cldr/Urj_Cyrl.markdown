@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CLDR Uralic"
+title: "CLDR Uralic Cyrillic template"
 ---
 
 ## CLDR core data for Uralic (Cyrillic) template
@@ -21,9 +21,10 @@ Check / fill-in.
 | Orientation | left-to-right |
 | ... |  top-to-bottom |
 | Plural rules | ... |
-| one example | {0} XXX  (inflect the word for day sg.)|
-| two examples | {0} XXX (delete if no dual) |
-| other example | {0} XXX |
+| plural one example | из {0} книги за {0} день |
+| plural few example | из {0} книг за {0} дня |
+| plural many example | из {0} книг за {0} дней |
+| plural other example | из {0} книги за {0} дня |
 | Country Data and Default Content | XXX_RU |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | а:a б:b в:v г:g д:d е:je ё:jo ж:ž з:z и:i й:j к:k л:l м:m н:n о:o п:p р:r с:s т:t у:u ф:f х:h ц:c ч:č ш:š щ:šč ъ:ъ ы:y ь:ь э:e ю:ju я:ja |
@@ -57,8 +58,7 @@ Check / fill-in.
 
 ### Collation
 
-Alphabetical order, (describe nearest language / diversions, e.g. Russian, but
-...)
+Like [Russian](ru.html#Collation), add **X**, sort **Y** after **Z**.
 
 
 ## CLDR minimal data for Uralic
@@ -67,69 +67,54 @@ Alphabetical order, (describe nearest language / diversions, e.g. Russian, but
 
 ### Required date-time formats
 
-If the calendar used is not gregorian...
+**If the calendar used is not gregorian, check other languages for referneces.**
 
 #### gregorian calendar
 
-For most things, fill in full names and abbreviations (short and very short
-i.e. 1–2 letters if one exists).
+**Check out detials of these formats from other languages and fill as many as
+you know are in common use.**
 
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 |  |
-| month 2 |  |
-| month 3 |  |
-| month 4 |  |
-| month 5 |  |
-| month 6 |  |
-| month 7 |  |
-| month 8 | |
-| month 9 |  |
-| month 10 |  |
-| month 11 |  |
-| month 12 |  |
-| (week)day sun |  |
-| (week)day mon |  |
-| (week)day tue |  |
-| (week)day wed |  |
-| (week)day thu |  |
-| (week)day fri |  |
-| (week)day sat |  |
-| quarter 1 |  |
-| quarter 2 |  |
-| quarter 3 |  |
-| quarter 4 |  |
-| period of day midnight |  |
-| period of day am |  |
-| period of day noon |  |
-| period of day pm |  |
-| period of day morning1 | |
-| period of day morning2 |  |
-| period of day afternoon1 |  |
-| period of day evening1 |  |
-| period of day night1 |  |
-| period of day midnight |  |
-| period of day am |  |
-| period of day noon |  |
-| period of day pm |  |
-| period of day morning1 |  |
-| period of day morning2 |  |
-| period of day afternoon1 |  |
-| period of day evening1 |  |
-| period of day night1 | |
-| era BC |  |
-| era BCE | |
-| era AD |  |
-| era ACE |  |
-
-For formats examples are good: e.g. "on monday the 21. of June 1984",
-"21.6.1984". "12:34"
-
-| date format |  |
-| time format |  |
-| datetime format |  |
-| Timezone | {0} {1} |
+| month, 1, wide, format | |
+| month, 2, wide, format | |
+| month, 3, wide, format | |
+| month, 4, wide, format | |
+| month, 5, wide, format | |
+| month, 6, wide, format | |
+| month, 7, wide, format | |
+| month, 8, wide, format | |
+| month, 9, wide, format | |
+| month, 10, wide, format | |
+| month, 11, wide, format | |
+| month, 12, wide, format | |
+| (week)day, sun, wide, format | |
+| (week)day, mon, wide, format | |
+| (week)day, tue, wide, format | |
+| (week)day, wed, wide, format | |
+| (week)day, thu, wide, format | |
+| (week)day, fri, wide, format | |
+| (week)day, sat, wide, format | |
+| quarter, 1, wide, format | |
+| quarter, 2, wide, format | |
+| quarter, 3, wide, format | |
+| quarter, 4, wide, format | |
+| period of day, midnight, wide, format | |
+| period of day, am, wide, format | |
+| period of day, noon, wide, format | |
+| period of day, pm, wide, format | |
+| period of day, morning1, wide, format | |
+| period of day, morning2, wide, format | |
+| period of day, afternoon1, wide, format | |
+| period of day, evening1, wide, format | |
+| period of day, night1, wide, format | |
+| era | |
+| date format | |
+| time format | |
+| datetime format | |
+| Timezone | |
 | interval format fallback | `{0}–{1}` |
+
 
 ### Important names in language
 
@@ -142,19 +127,29 @@ Country or territory (include translations of all main countries language
 is spoken):
 
 | `XXX` |  |
+| FI |  |
+| ET |  |
+| HU |  |
+| RU |  |
 
 Currency:
 
-| XXX |  |
-| one |  |
-| two |  |
-| other |  |
-|  symbol |  |
-| narrow symbol |  |
+| , EUR |  |
+| one, EUR |  |
+| two, EUR |  |
+| other, EUR |  |
+| , EUR symbol | € |
+| narrow, EUR symbol | € |
+| , RUB |  |
+| one, RUB |  |
+| two, RUB |  |
+| other, RUB |  |
+| , RUB symbol | ₽  |
+| narrow, RUB symbol | ₽  |
 
 ### Datetime patterns
 
-...
+| datetime format | ... |
 
 ### Number formats
 
@@ -170,21 +165,36 @@ Currency:
 | Superscripting Exponent | × |
 | Permilles | ‰ |
 | Infinity | ∞ |
-| Not a number |  |
+| Not a number | **FIXME** |
 | Time separator (Hours:Minutes) | : |
 
 ### Territories and cities in language area
 
-E.g. timezones. Find correct examples from:
+Country or territory:
 
-| Place code | Translation |
-| ---------- | ----------- |
-| 150 | Europe |
-| FI | |
-| RU | |
-| Europe/Helsinki |  |
-| Europe/Moscow |  |
+| `FI` |  |
+| `RU` |  |
+| `HU` |  |
+| `EE` |  |
+
+Timezone ID:
+
+| Europe/Helsinki | |
+| Europe/Moscow | |
+| Asia/Tomsk | |
+| Europe_Eastern | |
+|  generic | |
+|  standard | |
+|  daylight savings | |
 | Moscow | |
+|  generic | |
+|  standard | |
+|  daylight savings | |
+| Yekaterinburg | |
+|  generic | |
+|  standard | |
+|  daylight savings | |
+
 
 ### Timezone patterns
 
