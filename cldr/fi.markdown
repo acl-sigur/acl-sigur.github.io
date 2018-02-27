@@ -5,6 +5,7 @@ title: "CLDR Finnish (via LDML2markdown)"
 
 ## CLDR core data for Finnish
 
+
 **Needed for requesting new locale**:
 
 | Stuff | Values |
@@ -58,6 +59,7 @@ I think we roughly need to know things like: sort V alongside W, etc., åäö
 at end before numbers
 
 #### search
+
 ```
 					[import und-u-co-search]
 					# Below are the rules specific to fi.
@@ -65,7 +67,9 @@ at end before numbers
 					[import fi-u-co-trad]
 
 ```
+
 #### traditional
+
 ```
 					&D<<ð<<<Ð<<đ<<<Đ
 					&N<<ŋ<<<Ŋ
@@ -75,7 +79,9 @@ at end before numbers
 					&[before 1]ǀ<å<<<Å<ä<<<Ä<<æ<<<Æ<ö<<<Ö<<ø<<<Ø<<ő<<<Ő<<õ<<<Õ<<œ<<<Œ
 
 ```
+
 #### standard
+
 ```
 					# D and U+0335 COMBINING SHORT STROKE OVERLAY
 					&D\u0335<<đ<<<Đ  # root order: d\u0335=đ
@@ -98,8 +104,9 @@ at end before numbers
 
 ### Required date-time formats
 
+
 (44+ needed?)
-(Gregorian calendar)
+
 
 #### gregorian calendar
 
@@ -323,18 +330,30 @@ at end before numbers
 | era | eaa |
 | era | jKr |
 | era | jaa |
-| date format | `cccc d. MMMM y` |
-| date format | `d. MMMM y` |
-| date format | `d.M.y` |
-| date format | `d.M.y` |
-| time format | `H.mm.ss zzzz` |
-| time format | `H.mm.ss z` |
-| time format | `H.mm.ss` |
-| time format | `H.mm` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} {0}` |
+| date format | ... |
+| standard, full | `cccc d. MMMM y` |
+| date format | ... |
+| standard, long | `d. MMMM y` |
+| date format | ... |
+| standard, medium | `d.M.y` |
+| date format | ... |
+| standard, short | `d.M.y` |
+| time format | ... |
+| standard, full | `H.mm.ss zzzz` |
+| time format | ... |
+| standard, long | `H.mm.ss z` |
+| time format | ... |
+| standard, medium | `H.mm.ss` |
+| time format | ... |
+| standard, short | `H.mm` |
+| datetime format | ... |
+| standard, full | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, long | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, medium | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, short | `{1} {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h.mm B` |
 | date format `Bhms` | `h.mm.ss B` |
@@ -412,20 +431,26 @@ at end before numbers
 | interval format `yMMMEd` | `E d. – E d. MMMM yE d. MMMM – E d. MMMM yE d. MMMM y – E d. MMMM y` |
 | interval format `yMMMM` | `LLL–LLLL yLLLL y – LLLL y` |
 
-(Generic)
-
 #### generic calendar
 
 | ID-stuff | values |
 | -------- | ------ |
-| date format | `cccc d. MMMM y G` |
-| date format | `d. MMMM y G` |
-| date format | `d.M.y G` |
-| date format | `d.M.y GGGGG` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} {0}` |
+| date format | ... |
+| standard, full | `cccc d. MMMM y G` |
+| date format | ... |
+| standard, long | `d. MMMM y G` |
+| date format | ... |
+| standard, medium | `d.M.y G` |
+| date format | ... |
+| standard, short | `d.M.y GGGGG` |
+| datetime format | ... |
+| standard, full | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, long | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, medium | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, short | `{1} {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h.mm B` |
 | date format `Bhms` | `h.mm.ss B` |
@@ -497,6 +522,7 @@ at end before numbers
 
 ### Important names in language
 
+
 Language:
 
 | `fi` | suomi |
@@ -507,20 +533,25 @@ Country or territory:
 
 Currency:
 
-| EUR | euro |
-| one | euro |
-| other | euroa |
-|  symbol | € |
-| narrow symbol | € |
+| , EUR | euro |
+| one, EUR | euro |
+| other, EUR | euroa |
+| , EUR symbol | € |
+| narrow, EUR symbol | € |
 
 ### Datetime patterns
 
+
 (1 needed)
 
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} {0}` |
+| datetime format | ... |
+| standard, full | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, long | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, medium | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, short | `{1} {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h.mm B` |
 | date format `Bhms` | `h.mm.ss B` |
@@ -592,7 +623,11 @@ Currency:
 
 ### Number formats
 
+
+#### Symbols
+
 | Character name | Translated version |
+| -------------- | ------------------ |
 | Decimal separator | , |
 | "Thousands" separator |   |
 | Numbers separator | ; |
@@ -606,9 +641,34 @@ Currency:
 | Not a number | epäluku |
 | Time separator (Hours:Minutes) | . |
 
-### Territories and cities in language area
+### Territories, cities  and timezone ID's in language area
 
-The place names to translate must be in the lists here:
+
+Country or territory:
+
+| `FI` | Suomi |
+| `FI` | Suomi |
+| `RU` | Venäjä |
+| `HU` | Unkari |
+| `EE` | Viro |
+
+Timezone ID:
+
+| Europe/Helsinki | Helsinki |
+| Europe/Moscow | Moskova |
+| Asia/Tomsk | Tomsk |
+| Europe_Eastern | ... |
+|  generic | Itä-Euroopan aika |
+|  standard | Itä-Euroopan normaaliaika |
+|  daylight savings | Itä-Euroopan kesäaika |
+| Moscow | ... |
+|  generic | Moskovan aika |
+|  standard | Moskovan normaaliaika |
+|  daylight savings | Moskovan kesäaika |
+| Yekaterinburg | ... |
+|  generic | Jekaterinburgin aika |
+|  standard | Jekaterinburgin normaaliaika |
+|  daylight savings | Jekaterinburgin kesäaika |
 
 ### Timezone patterns
 
@@ -622,7 +682,9 @@ The place names to translate must be in the lists here:
 
 ### Locale pattern
 
+
 (how software should display languages)
+
 
 #### Locale display patterns
 
@@ -633,6 +695,7 @@ The place names to translate must be in the lists here:
 | label: locale | `{0}: {1}` |
 
 ### some important words to translate
+
 
 #### Keys (system names)
 
@@ -663,7 +726,10 @@ The place names to translate must be in the lists here:
 
 ## More (all) CLDR data for $language
 
+
 While not strictly needed is all used by software and stuff:
+
+
 identity:
 
 ```
@@ -677,7 +743,9 @@ $Revision: 13904 $fi
 | language, country | `{0} ({1})` |
 | locale, another locale | `{0}, {1}` |
 | label: locale | `{0}: {1}` |
+
 ### Language names
+
 
 (Written in middle of sentence, selection list etc.)
 
@@ -834,8 +902,6 @@ $Revision: 13904 $fi
 | `en_GB` | englanti (Britannia) |
 | `en_US` | amerikanenglanti |
 | `en_US` | englanti (USA) |
-| `enf` | metsäenetsi |
-| `enh` | tundraenetsi |
 | `enm` | keskienglanti |
 | `eo` | esperanto |
 | `es` | espanja |
@@ -949,7 +1015,6 @@ $Revision: 13904 $fi
 | `kaw` | kavi |
 | `kbd` | kabardi |
 | `kbl` | kanembu |
-| `kca` | hantti |
 | `kcg` | tyap |
 | `kde` | makonde |
 | `kea` | kapverdenkreoli |
@@ -1052,7 +1117,6 @@ $Revision: 13904 $fi
 | `mn` | mongoli |
 | `mnc` | mantšu |
 | `mni` | manipuri |
-| `mns` | mansi |
 | `moh` | mohawk |
 | `mos` | mossi |
 | `mr` | marathi |
@@ -1295,7 +1359,6 @@ $Revision: 13904 $fi
 | `ybb` | yemba |
 | `yi` | jiddiš |
 | `yo` | joruba |
-| `yrk` | nenetsi |
 | `yrl` | ñeengatú |
 | `yue` | kantoninkiina |
 | `za` | zhuang |
@@ -1313,6 +1376,7 @@ $Revision: 13904 $fi
 | `zza` | zaza |
 
 ### Script names
+
 
 (Written in middle of sentence, selection list etc.)
 
@@ -1506,6 +1570,7 @@ $Revision: 13904 $fi
 | `Zzzz` | tuntematon kirjoitusjärjestelmä |
 
 ### Territory names
+
 
 (Written in middle of sentence, selection list etc.)
 
@@ -1819,6 +1884,7 @@ $Revision: 13904 $fi
 
 ### Locale variant names
 
+
 (Written in middle of sentence, selection list etc.)
 
 | ISO code | Name |
@@ -2090,46 +2156,54 @@ $Revision: 13904 $fi
 
 ### Code patterns
 
-kieli: {0}kirjoitusjärjestelmä: {0}alue: {0}
+| Label | Formatting |
+| ----- | ---------- |
+| `language` | kieli: {0} |
+| `script` | kirjoitusjärjestelmä: {0} |
+| `territory` | alue: {0} |
 
 ### Context transforms
 
-```
-titlecase-firstwordtitlecase-firstword
-```
+| Context | Transformation |
+| ------- | -------------- |
+| `uiListOrMenu::languages` | `titlecase-firstword` |
+| `stand-alone::relative` | `titlecase-firstword` |
 
 ### Character processing for computer systems
 
+| Character set | Pattern |
+| ------------- | ------- |
 | main characters | `[a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö]` |
 | auxiliary characters | `[á à ă â ã ą ā ć č ċ ç ď ð đ é è ê ě ë ė ę ē ğ ǧ ģ ǥ ȟ ħ í î ï İ į ī ı ǩ ķ ĺ ľ ļ ł ń ň ñ ņ ŋ ó ò ô ő õ œ ŕ ř ś ŝ ş ș ß ť ţ ț ŧ ú ù û ů ű ų ū ý ÿ ü ź ż ʒ ǯ þ æ ø]` |
 | index characters | `[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö]` |
 | numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
-final ellipsis: `{0}…`
-initial ellipsis: `…{0}`
-medial ellipsis: `{0}…{1}`
-word-final ellipsis: `{0}…`
-word-initial ellipsis: `…{0}`
-word-medial ellipsis: `{0}…{1}`
-More information characters: `?`
-Lenient parsing stuff: - is treated same as `[\--/]`
-: is treated same as `[\:∶]`
-Lenient parsing stuff: . is treated same as `[.․。︒﹒．｡]`
-$ is treated same as `[\$﹩＄$]`
-£ is treated same as `[£₤]`
-₹ is treated same as `[₨₹{Rp}{Rs}]`
-Lenient parsing stuff: - is treated same as `[\-‒⁻₋−➖﹣－]`
-, is treated same as `[,،٫、︐︑﹐﹑，､]`
-+ is treated same as `[+⁺₊➕﬩﹢＋]`
-Lenient parsing stuff: , is treated same as `[,٫︐﹐，]`
-. is treated same as `[.․﹒．｡]`
-Delimiters:
-Quotation start character: ”
-Quotation end character: ”
-Secondary yquotation start character: ’
-Secondary quotation end character: ’
+| final ellipsis | `{0}…` |
+| initial ellipsis | `…{0}` |
+| medial ellipsis | `{0}…{1}` |
+| word-final ellipsis | `{0}…` |
+| word-initial ellipsis | `…{0}` |
+| word-medial ellipsis | `{0}…{1}` |
+| More information | `?` |
+| Lenient parse, date, `-` equivalents | `[\--/]` |
+| Lenient parse, date, `:` equivalents | `[\:∶]` |
+| Lenient parse, general, `.` equivalents | `[.․。︒﹒．｡]` |
+| Lenient parse, general, `$` equivalents | `[\$﹩＄$]` |
+| Lenient parse, general, `£` equivalents | `[£₤]` |
+| Lenient parse, general, `₹` equivalents | `[₨₹{Rp}{Rs}]` |
+| Lenient parse, number, `-` equivalents | `[\-‒⁻₋−➖﹣－]` |
+| Lenient parse, number, `,` equivalents | `[,،٫、︐︑﹐﹑，､]` |
+| Lenient parse, number, `+` equivalents | `[+⁺₊➕﬩﹢＋]` |
+| Lenient parse, number, `,` equivalents | `[,٫︐﹐，]` |
+| Lenient parse, number, `.` equivalents | `[.․﹒．｡]` |
+| Quotation start character | ” |
+| Quotation end character | ” |
+| Secondary yquotation start character | ’ |
+| Secondary quotation end character | ’ |
 
 ## Calendar data
+
+
 #### buddhist calendar
 
 | ID-stuff | values |
@@ -2137,10 +2211,14 @@ Secondary quotation end character: ’
 | era | buddhalainen aika |
 | era | BE |
 | era | BE |
-| date format | `cccc d. MMMM y G` |
-| date format | `d. MMMM y G` |
-| date format | `d.M.y G` |
-| date format | `d.M.y GGGGG` |
+| date format | ... |
+| standard, full | `cccc d. MMMM y G` |
+| date format | ... |
+| standard, long | `d. MMMM y G` |
+| date format | ... |
+| standard, medium | `d.M.y G` |
+| date format | ... |
+| standard, short | `d.M.y GGGGG` |
 | date format `d` | `d` |
 | date format `Ed` | `E d.` |
 | date format `Gy` | `y G` |
@@ -2172,10 +2250,14 @@ Secondary quotation end character: ’
 
 | ID-stuff | values |
 | -------- | ------ |
-| date format | `cccc d.M.y` |
-| date format | `d.M.y` |
-| date format | `d.M.y` |
-| date format | `d.M.y` |
+| date format | ... |
+| standard, full | `cccc d.M.y` |
+| date format | ... |
+| standard, long | `d.M.y` |
+| date format | ... |
+| standard, medium | `d.M.y` |
+| date format | ... |
+| standard, short | `d.M.y` |
 | date format `H` | `H` |
 | date format `hm` | `h.mm a` |
 | date format `Hm` | `H.mm` |
@@ -2323,14 +2405,22 @@ Secondary quotation end character: ’
 
 | ID-stuff | values |
 | -------- | ------ |
-| date format | `cccc d. MMMM y G` |
-| date format | `d. MMMM y G` |
-| date format | `d.M.y G` |
-| date format | `d.M.y GGGGG` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} {0}` |
+| date format | ... |
+| standard, full | `cccc d. MMMM y G` |
+| date format | ... |
+| standard, long | `d. MMMM y G` |
+| date format | ... |
+| standard, medium | `d.M.y G` |
+| date format | ... |
+| standard, short | `d.M.y GGGGG` |
+| datetime format | ... |
+| standard, full | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, long | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, medium | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, short | `{1} {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h.mm B` |
 | date format `Bhms` | `h.mm.ss B` |
@@ -2622,18 +2712,30 @@ Secondary quotation end character: ’
 | era | eaa |
 | era | jKr |
 | era | jaa |
-| date format | `cccc d. MMMM y` |
-| date format | `d. MMMM y` |
-| date format | `d.M.y` |
-| date format | `d.M.y` |
-| time format | `H.mm.ss zzzz` |
-| time format | `H.mm.ss z` |
-| time format | `H.mm.ss` |
-| time format | `H.mm` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} 'klo' {0}` |
-| datetime format | `{1} {0}` |
+| date format | ... |
+| standard, full | `cccc d. MMMM y` |
+| date format | ... |
+| standard, long | `d. MMMM y` |
+| date format | ... |
+| standard, medium | `d.M.y` |
+| date format | ... |
+| standard, short | `d.M.y` |
+| time format | ... |
+| standard, full | `H.mm.ss zzzz` |
+| time format | ... |
+| standard, long | `H.mm.ss z` |
+| time format | ... |
+| standard, medium | `H.mm.ss` |
+| time format | ... |
+| standard, short | `H.mm` |
+| datetime format | ... |
+| standard, full | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, long | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, medium | `{1} 'klo' {0}` |
+| datetime format | ... |
+| standard, short | `{1} {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h.mm B` |
 | date format `Bhms` | `h.mm.ss B` |
@@ -2881,10 +2983,14 @@ Secondary quotation end character: ’
 
 | ID-stuff | values |
 | -------- | ------ |
-| date format | `cccc d. MMMM y G` |
-| date format | `d. MMMM y G` |
-| date format | `d.M.y G` |
-| date format | `d.M.y GGGGG` |
+| date format | ... |
+| standard, full | `cccc d. MMMM y G` |
+| date format | ... |
+| standard, long | `d. MMMM y G` |
+| date format | ... |
+| standard, medium | `d.M.y G` |
+| date format | ... |
+| standard, short | `d.M.y GGGGG` |
 
 #### persian calendar
 
@@ -2955,80 +3061,364 @@ Secondary quotation end character: ’
 
 ### some more time stuff
 
-|  | aikakausi |
-|  | aikakausi |
-|  | aikakausi |
-|  | vuosi |
-viime vuonnatänä vuonnaensi vuonna{0} vuoden päästä{0} vuoden päästä{0} vuosi sitten{0} vuotta sitten
-|  | v |
-viime vtänä vensi v{0} v päästä{0} v päästä{0} v sitten{0} v sitten
-|  | v |
-viime vtänä vensi v{0} v päästä{0} v päästä{0} v sitten{0} v sitten
-|  | neljännesvuosi |
-viime neljännesvuonnatänä neljännesvuonnaensi neljännesvuonna{0} neljännesvuoden päästä{0} neljännesvuoden päästä{0} neljännesvuosi sitten{0} neljännesvuotta sitten
-|  | neljännes |
-viime neljänneksenätänä neljänneksenäensi neljänneksenä{0} neljänneksen päästä{0} neljänneksen päästä{0} neljännes sitten{0} neljännestä sitten
-|  | nelj. |
-viime nelj.tänä nelj.ensi nelj.{0} nelj. päästä{0} nelj. päästä{0} nelj. sitten{0} nelj. sitten
-|  | kuukausi |
-viime kuussatässä kuussaensi kuussa{0} kuukauden päästä{0} kuukauden päästä{0} kuukausi sitten{0} kuukautta sitten
-|  | kk |
-viime kktässä kkensi kk{0} kk päästä{0} kk päästä{0} kk sitten{0} kk sitten
-|  | kk |
-viime kktässä kkensi kk{0} kk päästä{0} kk päästä{0} kk sitten{0} kk sitten
-|  | viikko |
-viime viikollatällä viikollaensi viikolla{0} viikon päästä{0} viikon päästä{0} viikko sitten{0} viikkoa sittenpäivän {0} viikolla
-|  | vk |
-viime vktällä vkensi vk{0} vk päästä{0} vk päästä{0} vk sitten{0} vk sittenpäivän {0} viikolla
-|  | vk |
-viime vktällä vkensi vk{0} vk päästä{0} vk päästä{0} vk sitten{0} vk sittenpäivän {0} viikolla
-|  | kuukauden viikko |
-|  | kuukauden vk |
-|  | kuukauden vk |
-|  | päivä |
-toissa päivänäeilentänäänhuomennaylihuomenna{0} päivän päästä{0} päivän päästä{0} päivä sitten{0} päivää sitten
-|  | pv |
-toissap.eilentänäänhuom.ylihuom.{0} pv päästä{0} pv päästä{0} pv sitten{0} pv sitten
-|  | pv |
-toissap.eilentänäänhuom.ylihuom.{0} pv päästä{0} pv päästä{0} pv sitten{0} pv sitten
-|  | vuodenpäivä |
-|  | vuodenpv |
-|  | vuodenpv |
-|  | viikonpäivä |
-|  | viikonpäivä |
-|  | viikonpäivä |
-|  | kuukauden viikonpäivä |
-|  | kuukauden vk päivä |
-|  | kuukauden vk päivä |
-viime sunnuntainatänä sunnuntainaensi sunnuntaina{0} sunnuntain päästä{0} sunnuntain päästä{0} sunnuntai sitten{0} sunnuntaita sittenviime sutänä suensi su{0} su päästä{0} su päästä{0} su sitten{0} su sittenviime sutänä suensi su{0} su päästä{0} su päästä{0} su sitten{0} su sittenviime maanantainatänä maanantainaensi maanantaina{0} maanantain päästä{0} maanantain päästä{0} maanantai sitten{0} maanantaita sittenviime matänä maensi ma{0} ma päästä{0} ma päästä{0} ma sitten{0} ma sittenviime matänä maensi ma{0} ma päästä{0} ma päästä{0} ma sitten{0} ma sittenviime tiistainatänä tiistainaensi tiistaina{0} tiistain päästä{0} tiistain päästä{0} tiistai sitten{0} tiistaita sittenviime titänä tiensi ti{0} ti päästä{0} ti päästä{0} ti sitten{0} ti sittenviime titänä tiensi ti{0} ti päästä{0} ti päästä{0} ti sitten{0} ti sittenviime keskiviikkonatänä keskiviikkonaensi keskiviikkona{0} keskiviikon päästä{0} keskiviikon päästä{0} keskiviikko sitten{0} keskiviikkoa sittenviime ketänä keensi ke{0} ke päästä{0} ke päästä{0} ke sitten{0} ke sittenviime ketänä keensi ke{0} ke päästä{0} ke päästä{0} ke sitten{0} ke sittenviime torstainatänä torstainaensi torstaina{0} torstain päästä{0} torstain päästä{0} torstai sitten{0} torstaita sittenviime totänä toensi to{0} to päästä{0} to päästä{0} to sitten{0} to sittenviime totänä toensi to{0} to päästä{0} to päästä{0} to sitten{0} to sittenviime perjantainatänä perjantainaensi perjantaina{0} perjantain päästä{0} perjantain päästä{0} perjantai sitten{0} perjantaita sittenviime petänä peensi pe{0} pe päästä{0} pe päästä{0} pe sitten{0} pe sittenviime petänä peensi pe{0} pe päästä{0} pe päästä{0} pe sitten{0} pe sittenviime lauantainatänä lauantainaensi lauantaina{0} lauantain päästä{0} lauantain päästä{0} lauantai sitten{0} lauantaita sittenviime latänä laensi la{0} la päästä{0} la päästä{0} la sitten{0} la sittenviime latänä laensi la{0} la päästä{0} la päästä{0} la sitten{0} la sitten
-|  | vuorokaudenaika |
-|  | vuorokaudenaika |
-|  | vuorokaudenaika |
-|  | tunti |
-tämän tunnin aikana{0} tunnin päästä{0} tunnin päästä{0} tunti sitten{0} tuntia sitten
-|  | t |
-tunnin sisällä{0} t päästä{0} t päästä{0} t sitten{0} t sitten
-|  | t |
-tunnin sisällä{0} t päästä{0} t päästä{0} t sitten{0} t sitten
-|  | minuutti |
-tämän minuutin aikana{0} minuutin päästä{0} minuutin päästä{0} minuutti sitten{0} minuuttia sitten
-|  | min |
-minuutin sisällä{0} min päästä{0} min päästä{0} min sitten{0} min sitten
-|  | min |
-minuutin sisällä{0} min päästä{0} min päästä{0} min sitten{0} min sitten
-|  | sekunti |
-nyt{0} sekunnin päästä{0} sekunnin päästä{0} sekunti sitten{0} sekuntia sitten
-|  | s |
-nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
-|  | s |
-nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
-|  | aikavyöhyke |
-|  | aikavyöhyke |
-|  | aikavyöhyke |
+| Stuff | Translation |
+| ----- | ----------- |
+| , era | aikakausi |
+| , era-short | aikakausi |
+| , era-narrow | aikakausi |
+| , year | vuosi |
+| -1year | viime vuonna |
+| 0year | tänä vuonna |
+| 1year | ensi vuonna |
+| oneyearfuture | {0} vuoden päästä |
+| otheryearfuture | {0} vuoden päästä |
+| oneyearpast | {0} vuosi sitten |
+| otheryearpast | {0} vuotta sitten |
+| , year-short | v |
+| -1year-short | viime v |
+| 0year-short | tänä v |
+| 1year-short | ensi v |
+| oneyear-shortfuture | {0} v päästä |
+| otheryear-shortfuture | {0} v päästä |
+| oneyear-shortpast | {0} v sitten |
+| otheryear-shortpast | {0} v sitten |
+| , year-narrow | v |
+| -1year-narrow | viime v |
+| 0year-narrow | tänä v |
+| 1year-narrow | ensi v |
+| oneyear-narrowfuture | {0} v päästä |
+| otheryear-narrowfuture | {0} v päästä |
+| oneyear-narrowpast | {0} v sitten |
+| otheryear-narrowpast | {0} v sitten |
+| , quarter | neljännesvuosi |
+| -1quarter | viime neljännesvuonna |
+| 0quarter | tänä neljännesvuonna |
+| 1quarter | ensi neljännesvuonna |
+| onequarterfuture | {0} neljännesvuoden päästä |
+| otherquarterfuture | {0} neljännesvuoden päästä |
+| onequarterpast | {0} neljännesvuosi sitten |
+| otherquarterpast | {0} neljännesvuotta sitten |
+| , quarter-short | neljännes |
+| -1quarter-short | viime neljänneksenä |
+| 0quarter-short | tänä neljänneksenä |
+| 1quarter-short | ensi neljänneksenä |
+| onequarter-shortfuture | {0} neljänneksen päästä |
+| otherquarter-shortfuture | {0} neljänneksen päästä |
+| onequarter-shortpast | {0} neljännes sitten |
+| otherquarter-shortpast | {0} neljännestä sitten |
+| , quarter-narrow | nelj. |
+| -1quarter-narrow | viime nelj. |
+| 0quarter-narrow | tänä nelj. |
+| 1quarter-narrow | ensi nelj. |
+| onequarter-narrowfuture | {0} nelj. päästä |
+| otherquarter-narrowfuture | {0} nelj. päästä |
+| onequarter-narrowpast | {0} nelj. sitten |
+| otherquarter-narrowpast | {0} nelj. sitten |
+| , month | kuukausi |
+| -1month | viime kuussa |
+| 0month | tässä kuussa |
+| 1month | ensi kuussa |
+| onemonthfuture | {0} kuukauden päästä |
+| othermonthfuture | {0} kuukauden päästä |
+| onemonthpast | {0} kuukausi sitten |
+| othermonthpast | {0} kuukautta sitten |
+| , month-short | kk |
+| -1month-short | viime kk |
+| 0month-short | tässä kk |
+| 1month-short | ensi kk |
+| onemonth-shortfuture | {0} kk päästä |
+| othermonth-shortfuture | {0} kk päästä |
+| onemonth-shortpast | {0} kk sitten |
+| othermonth-shortpast | {0} kk sitten |
+| , month-narrow | kk |
+| -1month-narrow | viime kk |
+| 0month-narrow | tässä kk |
+| 1month-narrow | ensi kk |
+| onemonth-narrowfuture | {0} kk päästä |
+| othermonth-narrowfuture | {0} kk päästä |
+| onemonth-narrowpast | {0} kk sitten |
+| othermonth-narrowpast | {0} kk sitten |
+| , week | viikko |
+| -1week | viime viikolla |
+| 0week | tällä viikolla |
+| 1week | ensi viikolla |
+| oneweekfuture | {0} viikon päästä |
+| otherweekfuture | {0} viikon päästä |
+| oneweekpast | {0} viikko sitten |
+| otherweekpast | {0} viikkoa sitten |
+| week, relative period | päivän {0} viikolla |
+| , week-short | vk |
+| -1week-short | viime vk |
+| 0week-short | tällä vk |
+| 1week-short | ensi vk |
+| oneweek-shortfuture | {0} vk päästä |
+| otherweek-shortfuture | {0} vk päästä |
+| oneweek-shortpast | {0} vk sitten |
+| otherweek-shortpast | {0} vk sitten |
+| week-short, relative period | päivän {0} viikolla |
+| , week-narrow | vk |
+| -1week-narrow | viime vk |
+| 0week-narrow | tällä vk |
+| 1week-narrow | ensi vk |
+| oneweek-narrowfuture | {0} vk päästä |
+| otherweek-narrowfuture | {0} vk päästä |
+| oneweek-narrowpast | {0} vk sitten |
+| otherweek-narrowpast | {0} vk sitten |
+| week-narrow, relative period | päivän {0} viikolla |
+| , weekOfMonth | kuukauden viikko |
+| , weekOfMonth-short | kuukauden vk |
+| , weekOfMonth-narrow | kuukauden vk |
+| , day | päivä |
+| -2day | toissa päivänä |
+| -1day | eilen |
+| 0day | tänään |
+| 1day | huomenna |
+| 2day | ylihuomenna |
+| onedayfuture | {0} päivän päästä |
+| otherdayfuture | {0} päivän päästä |
+| onedaypast | {0} päivä sitten |
+| otherdaypast | {0} päivää sitten |
+| , day-short | pv |
+| -2day-short | toissap. |
+| -1day-short | eilen |
+| 0day-short | tänään |
+| 1day-short | huom. |
+| 2day-short | ylihuom. |
+| oneday-shortfuture | {0} pv päästä |
+| otherday-shortfuture | {0} pv päästä |
+| oneday-shortpast | {0} pv sitten |
+| otherday-shortpast | {0} pv sitten |
+| , day-narrow | pv |
+| -2day-narrow | toissap. |
+| -1day-narrow | eilen |
+| 0day-narrow | tänään |
+| 1day-narrow | huom. |
+| 2day-narrow | ylihuom. |
+| oneday-narrowfuture | {0} pv päästä |
+| otherday-narrowfuture | {0} pv päästä |
+| oneday-narrowpast | {0} pv sitten |
+| otherday-narrowpast | {0} pv sitten |
+| , dayOfYear | vuodenpäivä |
+| , dayOfYear-short | vuodenpv |
+| , dayOfYear-narrow | vuodenpv |
+| , weekday | viikonpäivä |
+| , weekday-short | viikonpäivä |
+| , weekday-narrow | viikonpäivä |
+| , weekdayOfMonth | kuukauden viikonpäivä |
+| , weekdayOfMonth-short | kuukauden vk päivä |
+| , weekdayOfMonth-narrow | kuukauden vk päivä |
+| -1sun | viime sunnuntaina |
+| 0sun | tänä sunnuntaina |
+| 1sun | ensi sunnuntaina |
+| onesunfuture | {0} sunnuntain päästä |
+| othersunfuture | {0} sunnuntain päästä |
+| onesunpast | {0} sunnuntai sitten |
+| othersunpast | {0} sunnuntaita sitten |
+| -1sun-short | viime su |
+| 0sun-short | tänä su |
+| 1sun-short | ensi su |
+| onesun-shortfuture | {0} su päästä |
+| othersun-shortfuture | {0} su päästä |
+| onesun-shortpast | {0} su sitten |
+| othersun-shortpast | {0} su sitten |
+| -1sun-narrow | viime su |
+| 0sun-narrow | tänä su |
+| 1sun-narrow | ensi su |
+| onesun-narrowfuture | {0} su päästä |
+| othersun-narrowfuture | {0} su päästä |
+| onesun-narrowpast | {0} su sitten |
+| othersun-narrowpast | {0} su sitten |
+| -1mon | viime maanantaina |
+| 0mon | tänä maanantaina |
+| 1mon | ensi maanantaina |
+| onemonfuture | {0} maanantain päästä |
+| othermonfuture | {0} maanantain päästä |
+| onemonpast | {0} maanantai sitten |
+| othermonpast | {0} maanantaita sitten |
+| -1mon-short | viime ma |
+| 0mon-short | tänä ma |
+| 1mon-short | ensi ma |
+| onemon-shortfuture | {0} ma päästä |
+| othermon-shortfuture | {0} ma päästä |
+| onemon-shortpast | {0} ma sitten |
+| othermon-shortpast | {0} ma sitten |
+| -1mon-narrow | viime ma |
+| 0mon-narrow | tänä ma |
+| 1mon-narrow | ensi ma |
+| onemon-narrowfuture | {0} ma päästä |
+| othermon-narrowfuture | {0} ma päästä |
+| onemon-narrowpast | {0} ma sitten |
+| othermon-narrowpast | {0} ma sitten |
+| -1tue | viime tiistaina |
+| 0tue | tänä tiistaina |
+| 1tue | ensi tiistaina |
+| onetuefuture | {0} tiistain päästä |
+| othertuefuture | {0} tiistain päästä |
+| onetuepast | {0} tiistai sitten |
+| othertuepast | {0} tiistaita sitten |
+| -1tue-short | viime ti |
+| 0tue-short | tänä ti |
+| 1tue-short | ensi ti |
+| onetue-shortfuture | {0} ti päästä |
+| othertue-shortfuture | {0} ti päästä |
+| onetue-shortpast | {0} ti sitten |
+| othertue-shortpast | {0} ti sitten |
+| -1tue-narrow | viime ti |
+| 0tue-narrow | tänä ti |
+| 1tue-narrow | ensi ti |
+| onetue-narrowfuture | {0} ti päästä |
+| othertue-narrowfuture | {0} ti päästä |
+| onetue-narrowpast | {0} ti sitten |
+| othertue-narrowpast | {0} ti sitten |
+| -1wed | viime keskiviikkona |
+| 0wed | tänä keskiviikkona |
+| 1wed | ensi keskiviikkona |
+| onewedfuture | {0} keskiviikon päästä |
+| otherwedfuture | {0} keskiviikon päästä |
+| onewedpast | {0} keskiviikko sitten |
+| otherwedpast | {0} keskiviikkoa sitten |
+| -1wed-short | viime ke |
+| 0wed-short | tänä ke |
+| 1wed-short | ensi ke |
+| onewed-shortfuture | {0} ke päästä |
+| otherwed-shortfuture | {0} ke päästä |
+| onewed-shortpast | {0} ke sitten |
+| otherwed-shortpast | {0} ke sitten |
+| -1wed-narrow | viime ke |
+| 0wed-narrow | tänä ke |
+| 1wed-narrow | ensi ke |
+| onewed-narrowfuture | {0} ke päästä |
+| otherwed-narrowfuture | {0} ke päästä |
+| onewed-narrowpast | {0} ke sitten |
+| otherwed-narrowpast | {0} ke sitten |
+| -1thu | viime torstaina |
+| 0thu | tänä torstaina |
+| 1thu | ensi torstaina |
+| onethufuture | {0} torstain päästä |
+| otherthufuture | {0} torstain päästä |
+| onethupast | {0} torstai sitten |
+| otherthupast | {0} torstaita sitten |
+| -1thu-short | viime to |
+| 0thu-short | tänä to |
+| 1thu-short | ensi to |
+| onethu-shortfuture | {0} to päästä |
+| otherthu-shortfuture | {0} to päästä |
+| onethu-shortpast | {0} to sitten |
+| otherthu-shortpast | {0} to sitten |
+| -1thu-narrow | viime to |
+| 0thu-narrow | tänä to |
+| 1thu-narrow | ensi to |
+| onethu-narrowfuture | {0} to päästä |
+| otherthu-narrowfuture | {0} to päästä |
+| onethu-narrowpast | {0} to sitten |
+| otherthu-narrowpast | {0} to sitten |
+| -1fri | viime perjantaina |
+| 0fri | tänä perjantaina |
+| 1fri | ensi perjantaina |
+| onefrifuture | {0} perjantain päästä |
+| otherfrifuture | {0} perjantain päästä |
+| onefripast | {0} perjantai sitten |
+| otherfripast | {0} perjantaita sitten |
+| -1fri-short | viime pe |
+| 0fri-short | tänä pe |
+| 1fri-short | ensi pe |
+| onefri-shortfuture | {0} pe päästä |
+| otherfri-shortfuture | {0} pe päästä |
+| onefri-shortpast | {0} pe sitten |
+| otherfri-shortpast | {0} pe sitten |
+| -1fri-narrow | viime pe |
+| 0fri-narrow | tänä pe |
+| 1fri-narrow | ensi pe |
+| onefri-narrowfuture | {0} pe päästä |
+| otherfri-narrowfuture | {0} pe päästä |
+| onefri-narrowpast | {0} pe sitten |
+| otherfri-narrowpast | {0} pe sitten |
+| -1sat | viime lauantaina |
+| 0sat | tänä lauantaina |
+| 1sat | ensi lauantaina |
+| onesatfuture | {0} lauantain päästä |
+| othersatfuture | {0} lauantain päästä |
+| onesatpast | {0} lauantai sitten |
+| othersatpast | {0} lauantaita sitten |
+| -1sat-short | viime la |
+| 0sat-short | tänä la |
+| 1sat-short | ensi la |
+| onesat-shortfuture | {0} la päästä |
+| othersat-shortfuture | {0} la päästä |
+| onesat-shortpast | {0} la sitten |
+| othersat-shortpast | {0} la sitten |
+| -1sat-narrow | viime la |
+| 0sat-narrow | tänä la |
+| 1sat-narrow | ensi la |
+| onesat-narrowfuture | {0} la päästä |
+| othersat-narrowfuture | {0} la päästä |
+| onesat-narrowpast | {0} la sitten |
+| othersat-narrowpast | {0} la sitten |
+| , dayperiod-short | vuorokaudenaika |
+| , dayperiod | vuorokaudenaika |
+| , dayperiod-narrow | vuorokaudenaika |
+| , hour | tunti |
+| 0hour | tämän tunnin aikana |
+| onehourfuture | {0} tunnin päästä |
+| otherhourfuture | {0} tunnin päästä |
+| onehourpast | {0} tunti sitten |
+| otherhourpast | {0} tuntia sitten |
+| , hour-short | t |
+| 0hour-short | tunnin sisällä |
+| onehour-shortfuture | {0} t päästä |
+| otherhour-shortfuture | {0} t päästä |
+| onehour-shortpast | {0} t sitten |
+| otherhour-shortpast | {0} t sitten |
+| , hour-narrow | t |
+| 0hour-narrow | tunnin sisällä |
+| onehour-narrowfuture | {0} t päästä |
+| otherhour-narrowfuture | {0} t päästä |
+| onehour-narrowpast | {0} t sitten |
+| otherhour-narrowpast | {0} t sitten |
+| , minute | minuutti |
+| 0minute | tämän minuutin aikana |
+| oneminutefuture | {0} minuutin päästä |
+| otherminutefuture | {0} minuutin päästä |
+| oneminutepast | {0} minuutti sitten |
+| otherminutepast | {0} minuuttia sitten |
+| , minute-short | min |
+| 0minute-short | minuutin sisällä |
+| oneminute-shortfuture | {0} min päästä |
+| otherminute-shortfuture | {0} min päästä |
+| oneminute-shortpast | {0} min sitten |
+| otherminute-shortpast | {0} min sitten |
+| , minute-narrow | min |
+| 0minute-narrow | minuutin sisällä |
+| oneminute-narrowfuture | {0} min päästä |
+| otherminute-narrowfuture | {0} min päästä |
+| oneminute-narrowpast | {0} min sitten |
+| otherminute-narrowpast | {0} min sitten |
+| , second | sekunti |
+| 0second | nyt |
+| onesecondfuture | {0} sekunnin päästä |
+| othersecondfuture | {0} sekunnin päästä |
+| onesecondpast | {0} sekunti sitten |
+| othersecondpast | {0} sekuntia sitten |
+| , second-short | s |
+| 0second-short | nyt |
+| onesecond-shortfuture | {0} s päästä |
+| othersecond-shortfuture | {0} s päästä |
+| onesecond-shortpast | {0} s sitten |
+| othersecond-shortpast | {0} s sitten |
+| , second-narrow | s |
+| 0second-narrow | nyt |
+| onesecond-narrowfuture | {0} s päästä |
+| othersecond-narrowfuture | {0} s päästä |
+| onesecond-narrowpast | {0} s sitten |
+| othersecond-narrowpast | {0} s sitten |
+| , zone | aikavyöhyke |
+| , zone-short | aikavyöhyke |
+| , zone-narrow | aikavyöhyke |
 
 #### time zones
 
 | Format name | Format |
+| ----------- | ------ |
 | Hours from UTC | +H.mm;-H.mm |
 | GMT | UTC{0} |
 | Time at Greenwich | UTC |
@@ -3203,7 +3593,8 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | Atlantic/Faeroe | Färsaaret |
 | Europe/Paris | Pariisi |
 | Africa/Libreville | Libreville |
-| Europe/London | Britannian kesäaikaLontoo |
+| Europe/London | Lontoo |
+|  daylight savings | Britannian kesäaika |
 | America/Grenada | Grenada |
 | Asia/Tbilisi | Tbilisi |
 | America/Cayenne | Cayenne |
@@ -3233,7 +3624,8 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | Asia/Pontianak | Pontianak |
 | Asia/Makassar | Makassar |
 | Asia/Jayapura | Jayapura |
-| Europe/Dublin | Irlannin kesäaikaDublin |
+| Europe/Dublin | Dublin |
+|  daylight savings | Irlannin kesäaika |
 | Asia/Jerusalem | Jerusalem |
 | Europe/Isle_of_Man | Mansaari |
 | Asia/Calcutta | Kalkutta |
@@ -3467,170 +3859,505 @@ nyt{0} s päästä{0} s päästä{0} s sitten{0} s sitten
 | Africa/Johannesburg | Johannesburg |
 | Africa/Lusaka | Lusaka |
 | Africa/Harare | Harare |
-| Acre | Acren aikaAcren normaaliaikaAcren kesäaika |
-| Afghanistan | Afganistanin aika |
-| Africa_Central | Keski-Afrikan aika |
-| Africa_Eastern | Itä-Afrikan aika |
-| Africa_Southern | Etelä-Afrikan aika |
-| Africa_Western | Länsi-Afrikan aikaLänsi-Afrikan normaaliaikaLänsi-Afrikan kesäaika |
-| Alaska | Alaskan aikaAlaskan normaaliaikaAlaskan kesäaika |
-| Almaty | Almatyn aikaAlmatyn normaaliaikaAlmatyn kesäaika |
-| Amazon | Amazonin aikaAmazonin normaaliaikaAmazonin kesäaika |
-| America_Central | Yhdysvaltain keskinen aikaYhdysvaltain keskinen normaaliaikaYhdysvaltain keskinen kesäaika |
-| America_Eastern | Yhdysvaltain itäinen aikaYhdysvaltain itäinen normaaliaikaYhdysvaltain itäinen kesäaika |
-| America_Mountain | Kalliovuorten aikaKalliovuorten normaaliaikaKalliovuorten kesäaika |
-| America_Pacific | Yhdysvaltain Tyynenmeren aikaYhdysvaltain Tyynenmeren normaaliaikaYhdysvaltain Tyynenmeren kesäaika |
-| Anadyr | Anadyrin aikaAnadyrin normaaliaikaAnadyrin kesäaika |
-| Apia | Apian aikaApian normaaliaikaApian kesäaika |
-| Aqtau | Aqtaw’n aikaAqtaw’n normaaliaikaAqtaw’n kesäaika |
-| Aqtobe | Aqtöben aikaAqtöben normaaliaikaAqtöben kesäaika |
-| Arabian | Saudi-Arabian aikaSaudi-Arabian normaaliaikaSaudi-Arabian kesäaika |
-| Argentina | Argentiinan aikaArgentiinan normaaliaikaArgentiinan kesäaika |
-| Argentina_Western | Länsi-Argentiinan aikaLänsi-Argentiinan normaaliaikaLänsi-Argentiinan kesäaika |
-| Armenia | Armenian aikaArmenian normaaliaikaArmenian kesäaika |
-| Atlantic | Kanadan Atlantin aikaKanadan Atlantin normaaliaikaKanadan Atlantin kesäaika |
-| Australia_Central | Keski-Australian aikaKeski-Australian normaaliaikaKeski-Australian kesäaika |
-| Australia_CentralWestern | Läntisen Keski-Australian aikaLäntisen Keski-Australian normaaliaikaLäntisen Keski-Australian kesäaika |
-| Australia_Eastern | Itä-Australian aikaItä-Australian normaaliaikaItä-Australian kesäaika |
-| Australia_Western | Länsi-Australian aikaLänsi-Australian normaaliaikaLänsi-Australian kesäaika |
-| Azerbaijan | Azerbaidžanin aikaAzerbaidžanin normaaliaikaAzerbaidžanin kesäaika |
-| Azores | Azorien aikaAzorien normaaliaikaAzorien kesäaika |
-| Bangladesh | Bangladeshin aikaBangladeshin normaaliaikaBangladeshin kesäaika |
-| Bhutan | Bhutanin aika |
-| Bolivia | Bolivian aika |
-| Brasilia | Brasilian aikaBrasilian normaaliaikaBrasilian kesäaika |
-| Brunei | Brunein aika |
-| Cape_Verde | Kap Verden aikaKap Verden normaaliaikaKap Verden kesäaika |
-| Casey | Caseyn aika |
-| Chamorro | Tšamorron aika |
-| Chatham | Chathamin aikaChathamin normaaliaikaChathamin kesäaika |
-| Chile | Chilen aikaChilen normaaliaikaChilen kesäaika |
-| China | Kiinan aikaKiinan normaaliaikaKiinan kesäaika |
-| Choibalsan | Tšoibalsan aikaTšoibalsan normaaliaikaTšoibalsan kesäaika |
-| Christmas | Joulusaaren aika |
-| Cocos | Kookossaarten aika |
-| Colombia | Kolumbian aikaKolumbian normaaliaikaKolumbian kesäaika |
-| Cook | Cookinsaarten aikaCookinsaarten normaaliaikaCookinsaarten kesäaika |
-| Cuba | Kuuban aikaKuuban normaaliaikaKuuban kesäaika |
-| Davis | Davisin aika |
-| DumontDUrville | Dumont d’Urvillen aika |
-| East_Timor | Itä-Timorin aika |
-| Easter | Pääsiäissaaren aikaPääsiäissaaren normaaliaikaPääsiäissaaren kesäaika |
-| Ecuador | Ecuadorin aika |
-| Europe_Central | Keski-Euroopan aikaKeski-Euroopan normaaliaikaKeski-Euroopan kesäaika |
-| Europe_Eastern | Itä-Euroopan aikaItä-Euroopan normaaliaikaItä-Euroopan kesäaika |
-| Europe_Further_Eastern | Itäisemmän Euroopan aika |
-| Europe_Western | Länsi-Euroopan aikaLänsi-Euroopan normaaliaikaLänsi-Euroopan kesäaika |
-| Falkland | Falklandinsaarten aikaFalklandinsaarten normaaliaikaFalklandinsaarten kesäaika |
-| Fiji | Fidžin aikaFidžin normaaliaikaFidžin kesäaika |
-| French_Guiana | Ranskan Guayanan aika |
-| French_Southern | Ranskan eteläisten ja antarktisten alueiden aika |
-| Galapagos | Galápagossaarten aika |
-| Gambier | Gambiersaarten aika |
-| Georgia | Georgian aikaGeorgian normaaliaikaGeorgian kesäaika |
-| Gilbert_Islands | Gilbertsaarten aika |
-| GMT | Greenwichin normaaliaika |
-| Greenland_Eastern | Itä-Grönlannin aikaItä-Grönlannin normaaliaikaItä-Grönlannin kesäaika |
-| Greenland_Western | Länsi-Grönlannin aikaLänsi-Grönlannin normaaliaikaLänsi-Grönlannin kesäaika |
-| Guam | Guamin aika |
-| Gulf | Arabiemiirikuntien normaaliaika |
-| Guyana | Guyanan aika |
-| Hawaii_Aleutian | Havaijin-Aleuttien aikaHavaijin-Aleuttien normaaliaikaHavaijin-Aleuttien kesäaika |
-| Hong_Kong | Hongkongin aikaHongkongin normaaliaikaHongkongin kesäaika |
-| Hovd | Hovdin aikaHovdin normaaliaikaHovdin kesäaika |
-| India | Intian aika |
-| Indian_Ocean | Intian valtameren aika |
-| Indochina | Indokiinan aika |
-| Indonesia_Central | Keski-Indonesian aika |
-| Indonesia_Eastern | Itä-Indonesian aika |
-| Indonesia_Western | Länsi-Indonesian aika |
-| Iran | Iranin aikaIranin normaaliaikaIranin kesäaika |
-| Irkutsk | Irkutskin aikaIrkutskin normaaliaikaIrkutskin kesäaika |
-| Israel | Israelin aikaIsraelin normaaliaikaIsraelin kesäaika |
-| Japan | Japanin aikaJapanin normaaliaikaJapanin kesäaika |
-| Kamchatka | Kamtšatkan aikaKamtšatkan normaaliaikaKamtšatkan kesäaika |
-| Kazakhstan_Eastern | Itä-Kazakstanin aika |
-| Kazakhstan_Western | Länsi-Kazakstanin aika |
-| Korea | Korean aikaKorean normaaliaikaKorean kesäaika |
-| Kosrae | Kosraen aika |
-| Krasnoyarsk | Krasnojarskin aikaKrasnojarskin normaaliaikaKrasnojarskin kesäaika |
-| Kyrgystan | Kirgisian aika |
-| Lanka | Sri Lankan aika |
-| Line_Islands | Linesaarten aika |
-| Lord_Howe | Lord Howen aikaLord Howen normaaliaikaLord Howen kesäaika |
-| Macau | Macaon aikaMacaon normaaliaikaMacaon kesäaika |
-| Macquarie | Macquariensaaren aika |
-| Magadan | Magadanin aikaMagadanin normaaliaikaMagadanin kesäaika |
-| Malaysia | Malesian aika |
-| Maldives | Malediivien aika |
-| Marquesas | Marquesassaarten aika |
-| Marshall_Islands | Marshallinsaarten aika |
-| Mauritius | Mauritiuksen aikaMauritiuksen normaaliaikaMauritiuksen kesäaika |
-| Mawson | Mawsonin aika |
-| Mexico_Northwest | Luoteis-Meksikon aikaLuoteis-Meksikon normaaliaikaLuoteis-Meksikon kesäaika |
-| Mexico_Pacific | Meksikon Tyynenmeren aikaMeksikon Tyynenmeren normaaliaikaMeksikon Tyynenmeren kesäaika |
-| Mongolia | Ulan Batorin aikaUlan Batorin normaaliaikaUlan Batorin kesäaika |
-| Moscow | Moskovan aikaMoskovan normaaliaikaMoskovan kesäaika |
-| Myanmar | Myanmarin aika |
-| Nauru | Naurun aika |
-| Nepal | Nepalin aika |
-| New_Caledonia | Uuden-Kaledonian aikaUuden-Kaledonian normaaliaikaUuden-Kaledonian kesäaika |
-| New_Zealand | Uuden-Seelannin aikaUuden-Seelannin normaaliaikaUuden-Seelannin kesäaika |
-| Newfoundland | Newfoundlandin aikaNewfoundlandin normaaliaikaNewfoundlandin kesäaika |
-| Niue | Niuen aika |
-| Norfolk | Norfolkinsaaren aika |
-| Noronha | Fernando de Noronhan aikaFernando de Noronhan normaaliaikaFernando de Noronhan kesäaika |
-| North_Mariana | Pohjois-Mariaanien aika |
-| Novosibirsk | Novosibirskin aikaNovosibirskin normaaliaikaNovosibirskin kesäaika |
-| Omsk | Omskin aikaOmskin normaaliaikaOmskin kesäaika |
-| Pakistan | Pakistanin aikaPakistanin normaaliaikaPakistanin kesäaika |
-| Palau | Palaun aika |
-| Papua_New_Guinea | Papua-Uuden-Guinean aika |
-| Paraguay | Paraguayn aikaParaguayn normaaliaikaParaguayn kesäaika |
-| Peru | Perun aikaPerun normaaliaikaPerun kesäaika |
-| Philippines | Filippiinien aikaFilippiinien normaaliaikaFilippiinien kesäaika |
-| Phoenix_Islands | Phoenixsaarten aika |
-| Pierre_Miquelon | Saint-Pierren ja Miquelonin aikaSaint-Pierren ja Miquelonin normaaliaikaSaint-Pierren ja Miquelonin kesäaika |
-| Pitcairn | Pitcairnin aika |
-| Ponape | Pohnpein aika |
-| Pyongyang | Pjongjangin aika |
-| Qyzylorda | Qızılordan aikaQızılordan normaaliaikaQızılordan kesäaika |
-| Reunion | Réunionin aika |
-| Rothera | Rotheran aika |
-| Sakhalin | Sahalinin aikaSahalinin normaaliaikaSahalinin kesäaika |
-| Samara | Samaran aikaSamaran normaaliaikaSamaran kesäaika |
-| Samoa | Samoan aikaSamoan normaaliaikaSamoan kesäaika |
-| Seychelles | Seychellien aika |
-| Singapore | Singaporen aika |
-| Solomon | Salomonsaarten aika |
-| South_Georgia | Etelä-Georgian aika |
-| Suriname | Surinamen aika |
-| Syowa | Syowan aika |
-| Tahiti | Tahitin aika |
-| Taipei | Taipein aikaTaipein normaaliaikaTaipein kesäaika |
-| Tajikistan | Tadžikistanin aika |
-| Tokelau | Tokelaun aika |
-| Tonga | Tongan aikaTongan normaaliaikaTongan kesäaika |
-| Truk | Chuukin aika |
-| Turkmenistan | Turkmenistanin aikaTurkmenistanin normaaliaikaTurkmenistanin kesäaika |
-| Tuvalu | Tuvalun aika |
-| Uruguay | Uruguayn aikaUruguayn normaaliaikaUruguayn kesäaika |
-| Uzbekistan | Uzbekistanin aikaUzbekistanin normaaliaikaUzbekistanin kesäaika |
-| Vanuatu | Vanuatun aikaVanuatun normaaliaikaVanuatun kesäaika |
-| Venezuela | Venezuelan aika |
-| Vladivostok | Vladivostokin aikaVladivostokin normaaliaikaVladivostokin kesäaika |
-| Volgograd | Volgogradin aikaVolgogradin normaaliaikaVolgogradin kesäaika |
-| Vostok | Vostokin aika |
-| Wake | Waken aika |
-| Wallis | Wallisin ja Futunan aika |
-| Yakutsk | Jakutskin aikaJakutskin normaaliaikaJakutskin kesäaika |
-| Yekaterinburg | Jekaterinburgin aikaJekaterinburgin normaaliaikaJekaterinburgin kesäaika |
+| Acre | ... |
+|  generic | Acren aika |
+|  standard | Acren normaaliaika |
+|  daylight savings | Acren kesäaika |
+| Afghanistan | ... |
+|  standard | Afganistanin aika |
+| Africa_Central | ... |
+|  standard | Keski-Afrikan aika |
+| Africa_Eastern | ... |
+|  standard | Itä-Afrikan aika |
+| Africa_Southern | ... |
+|  standard | Etelä-Afrikan aika |
+| Africa_Western | ... |
+|  generic | Länsi-Afrikan aika |
+|  standard | Länsi-Afrikan normaaliaika |
+|  daylight savings | Länsi-Afrikan kesäaika |
+| Alaska | ... |
+|  generic | Alaskan aika |
+|  standard | Alaskan normaaliaika |
+|  daylight savings | Alaskan kesäaika |
+| Almaty | ... |
+|  generic | Almatyn aika |
+|  standard | Almatyn normaaliaika |
+|  daylight savings | Almatyn kesäaika |
+| Amazon | ... |
+|  generic | Amazonin aika |
+|  standard | Amazonin normaaliaika |
+|  daylight savings | Amazonin kesäaika |
+| America_Central | ... |
+|  generic | Yhdysvaltain keskinen aika |
+|  standard | Yhdysvaltain keskinen normaaliaika |
+|  daylight savings | Yhdysvaltain keskinen kesäaika |
+| America_Eastern | ... |
+|  generic | Yhdysvaltain itäinen aika |
+|  standard | Yhdysvaltain itäinen normaaliaika |
+|  daylight savings | Yhdysvaltain itäinen kesäaika |
+| America_Mountain | ... |
+|  generic | Kalliovuorten aika |
+|  standard | Kalliovuorten normaaliaika |
+|  daylight savings | Kalliovuorten kesäaika |
+| America_Pacific | ... |
+|  generic | Yhdysvaltain Tyynenmeren aika |
+|  standard | Yhdysvaltain Tyynenmeren normaaliaika |
+|  daylight savings | Yhdysvaltain Tyynenmeren kesäaika |
+| Anadyr | ... |
+|  generic | Anadyrin aika |
+|  standard | Anadyrin normaaliaika |
+|  daylight savings | Anadyrin kesäaika |
+| Apia | ... |
+|  generic | Apian aika |
+|  standard | Apian normaaliaika |
+|  daylight savings | Apian kesäaika |
+| Aqtau | ... |
+|  generic | Aqtaw’n aika |
+|  standard | Aqtaw’n normaaliaika |
+|  daylight savings | Aqtaw’n kesäaika |
+| Aqtobe | ... |
+|  generic | Aqtöben aika |
+|  standard | Aqtöben normaaliaika |
+|  daylight savings | Aqtöben kesäaika |
+| Arabian | ... |
+|  generic | Saudi-Arabian aika |
+|  standard | Saudi-Arabian normaaliaika |
+|  daylight savings | Saudi-Arabian kesäaika |
+| Argentina | ... |
+|  generic | Argentiinan aika |
+|  standard | Argentiinan normaaliaika |
+|  daylight savings | Argentiinan kesäaika |
+| Argentina_Western | ... |
+|  generic | Länsi-Argentiinan aika |
+|  standard | Länsi-Argentiinan normaaliaika |
+|  daylight savings | Länsi-Argentiinan kesäaika |
+| Armenia | ... |
+|  generic | Armenian aika |
+|  standard | Armenian normaaliaika |
+|  daylight savings | Armenian kesäaika |
+| Atlantic | ... |
+|  generic | Kanadan Atlantin aika |
+|  standard | Kanadan Atlantin normaaliaika |
+|  daylight savings | Kanadan Atlantin kesäaika |
+| Australia_Central | ... |
+|  generic | Keski-Australian aika |
+|  standard | Keski-Australian normaaliaika |
+|  daylight savings | Keski-Australian kesäaika |
+| Australia_CentralWestern | ... |
+|  generic | Läntisen Keski-Australian aika |
+|  standard | Läntisen Keski-Australian normaaliaika |
+|  daylight savings | Läntisen Keski-Australian kesäaika |
+| Australia_Eastern | ... |
+|  generic | Itä-Australian aika |
+|  standard | Itä-Australian normaaliaika |
+|  daylight savings | Itä-Australian kesäaika |
+| Australia_Western | ... |
+|  generic | Länsi-Australian aika |
+|  standard | Länsi-Australian normaaliaika |
+|  daylight savings | Länsi-Australian kesäaika |
+| Azerbaijan | ... |
+|  generic | Azerbaidžanin aika |
+|  standard | Azerbaidžanin normaaliaika |
+|  daylight savings | Azerbaidžanin kesäaika |
+| Azores | ... |
+|  generic | Azorien aika |
+|  standard | Azorien normaaliaika |
+|  daylight savings | Azorien kesäaika |
+| Bangladesh | ... |
+|  generic | Bangladeshin aika |
+|  standard | Bangladeshin normaaliaika |
+|  daylight savings | Bangladeshin kesäaika |
+| Bhutan | ... |
+|  standard | Bhutanin aika |
+| Bolivia | ... |
+|  standard | Bolivian aika |
+| Brasilia | ... |
+|  generic | Brasilian aika |
+|  standard | Brasilian normaaliaika |
+|  daylight savings | Brasilian kesäaika |
+| Brunei | ... |
+|  standard | Brunein aika |
+| Cape_Verde | ... |
+|  generic | Kap Verden aika |
+|  standard | Kap Verden normaaliaika |
+|  daylight savings | Kap Verden kesäaika |
+| Casey | ... |
+|  standard | Caseyn aika |
+| Chamorro | ... |
+|  standard | Tšamorron aika |
+| Chatham | ... |
+|  generic | Chathamin aika |
+|  standard | Chathamin normaaliaika |
+|  daylight savings | Chathamin kesäaika |
+| Chile | ... |
+|  generic | Chilen aika |
+|  standard | Chilen normaaliaika |
+|  daylight savings | Chilen kesäaika |
+| China | ... |
+|  generic | Kiinan aika |
+|  standard | Kiinan normaaliaika |
+|  daylight savings | Kiinan kesäaika |
+| Choibalsan | ... |
+|  generic | Tšoibalsan aika |
+|  standard | Tšoibalsan normaaliaika |
+|  daylight savings | Tšoibalsan kesäaika |
+| Christmas | ... |
+|  standard | Joulusaaren aika |
+| Cocos | ... |
+|  standard | Kookossaarten aika |
+| Colombia | ... |
+|  generic | Kolumbian aika |
+|  standard | Kolumbian normaaliaika |
+|  daylight savings | Kolumbian kesäaika |
+| Cook | ... |
+|  generic | Cookinsaarten aika |
+|  standard | Cookinsaarten normaaliaika |
+|  daylight savings | Cookinsaarten kesäaika |
+| Cuba | ... |
+|  generic | Kuuban aika |
+|  standard | Kuuban normaaliaika |
+|  daylight savings | Kuuban kesäaika |
+| Davis | ... |
+|  standard | Davisin aika |
+| DumontDUrville | ... |
+|  standard | Dumont d’Urvillen aika |
+| East_Timor | ... |
+|  standard | Itä-Timorin aika |
+| Easter | ... |
+|  generic | Pääsiäissaaren aika |
+|  standard | Pääsiäissaaren normaaliaika |
+|  daylight savings | Pääsiäissaaren kesäaika |
+| Ecuador | ... |
+|  standard | Ecuadorin aika |
+| Europe_Central | ... |
+|  generic | Keski-Euroopan aika |
+|  standard | Keski-Euroopan normaaliaika |
+|  daylight savings | Keski-Euroopan kesäaika |
+| Europe_Eastern | ... |
+|  generic | Itä-Euroopan aika |
+|  standard | Itä-Euroopan normaaliaika |
+|  daylight savings | Itä-Euroopan kesäaika |
+| Europe_Further_Eastern | ... |
+|  standard | Itäisemmän Euroopan aika |
+| Europe_Western | ... |
+|  generic | Länsi-Euroopan aika |
+|  standard | Länsi-Euroopan normaaliaika |
+|  daylight savings | Länsi-Euroopan kesäaika |
+| Falkland | ... |
+|  generic | Falklandinsaarten aika |
+|  standard | Falklandinsaarten normaaliaika |
+|  daylight savings | Falklandinsaarten kesäaika |
+| Fiji | ... |
+|  generic | Fidžin aika |
+|  standard | Fidžin normaaliaika |
+|  daylight savings | Fidžin kesäaika |
+| French_Guiana | ... |
+|  standard | Ranskan Guayanan aika |
+| French_Southern | ... |
+|  standard | Ranskan eteläisten ja antarktisten alueiden aika |
+| Galapagos | ... |
+|  standard | Galápagossaarten aika |
+| Gambier | ... |
+|  standard | Gambiersaarten aika |
+| Georgia | ... |
+|  generic | Georgian aika |
+|  standard | Georgian normaaliaika |
+|  daylight savings | Georgian kesäaika |
+| Gilbert_Islands | ... |
+|  standard | Gilbertsaarten aika |
+| GMT | ... |
+|  standard | Greenwichin normaaliaika |
+| Greenland_Eastern | ... |
+|  generic | Itä-Grönlannin aika |
+|  standard | Itä-Grönlannin normaaliaika |
+|  daylight savings | Itä-Grönlannin kesäaika |
+| Greenland_Western | ... |
+|  generic | Länsi-Grönlannin aika |
+|  standard | Länsi-Grönlannin normaaliaika |
+|  daylight savings | Länsi-Grönlannin kesäaika |
+| Guam | ... |
+|  standard | Guamin aika |
+| Gulf | ... |
+|  standard | Arabiemiirikuntien normaaliaika |
+| Guyana | ... |
+|  standard | Guyanan aika |
+| Hawaii_Aleutian | ... |
+|  generic | Havaijin-Aleuttien aika |
+|  standard | Havaijin-Aleuttien normaaliaika |
+|  daylight savings | Havaijin-Aleuttien kesäaika |
+| Hong_Kong | ... |
+|  generic | Hongkongin aika |
+|  standard | Hongkongin normaaliaika |
+|  daylight savings | Hongkongin kesäaika |
+| Hovd | ... |
+|  generic | Hovdin aika |
+|  standard | Hovdin normaaliaika |
+|  daylight savings | Hovdin kesäaika |
+| India | ... |
+|  standard | Intian aika |
+| Indian_Ocean | ... |
+|  standard | Intian valtameren aika |
+| Indochina | ... |
+|  standard | Indokiinan aika |
+| Indonesia_Central | ... |
+|  standard | Keski-Indonesian aika |
+| Indonesia_Eastern | ... |
+|  standard | Itä-Indonesian aika |
+| Indonesia_Western | ... |
+|  standard | Länsi-Indonesian aika |
+| Iran | ... |
+|  generic | Iranin aika |
+|  standard | Iranin normaaliaika |
+|  daylight savings | Iranin kesäaika |
+| Irkutsk | ... |
+|  generic | Irkutskin aika |
+|  standard | Irkutskin normaaliaika |
+|  daylight savings | Irkutskin kesäaika |
+| Israel | ... |
+|  generic | Israelin aika |
+|  standard | Israelin normaaliaika |
+|  daylight savings | Israelin kesäaika |
+| Japan | ... |
+|  generic | Japanin aika |
+|  standard | Japanin normaaliaika |
+|  daylight savings | Japanin kesäaika |
+| Kamchatka | ... |
+|  generic | Kamtšatkan aika |
+|  standard | Kamtšatkan normaaliaika |
+|  daylight savings | Kamtšatkan kesäaika |
+| Kazakhstan_Eastern | ... |
+|  standard | Itä-Kazakstanin aika |
+| Kazakhstan_Western | ... |
+|  standard | Länsi-Kazakstanin aika |
+| Korea | ... |
+|  generic | Korean aika |
+|  standard | Korean normaaliaika |
+|  daylight savings | Korean kesäaika |
+| Kosrae | ... |
+|  standard | Kosraen aika |
+| Krasnoyarsk | ... |
+|  generic | Krasnojarskin aika |
+|  standard | Krasnojarskin normaaliaika |
+|  daylight savings | Krasnojarskin kesäaika |
+| Kyrgystan | ... |
+|  standard | Kirgisian aika |
+| Lanka | ... |
+|  standard | Sri Lankan aika |
+| Line_Islands | ... |
+|  standard | Linesaarten aika |
+| Lord_Howe | ... |
+|  generic | Lord Howen aika |
+|  standard | Lord Howen normaaliaika |
+|  daylight savings | Lord Howen kesäaika |
+| Macau | ... |
+|  generic | Macaon aika |
+|  standard | Macaon normaaliaika |
+|  daylight savings | Macaon kesäaika |
+| Macquarie | ... |
+|  standard | Macquariensaaren aika |
+| Magadan | ... |
+|  generic | Magadanin aika |
+|  standard | Magadanin normaaliaika |
+|  daylight savings | Magadanin kesäaika |
+| Malaysia | ... |
+|  standard | Malesian aika |
+| Maldives | ... |
+|  standard | Malediivien aika |
+| Marquesas | ... |
+|  standard | Marquesassaarten aika |
+| Marshall_Islands | ... |
+|  standard | Marshallinsaarten aika |
+| Mauritius | ... |
+|  generic | Mauritiuksen aika |
+|  standard | Mauritiuksen normaaliaika |
+|  daylight savings | Mauritiuksen kesäaika |
+| Mawson | ... |
+|  standard | Mawsonin aika |
+| Mexico_Northwest | ... |
+|  generic | Luoteis-Meksikon aika |
+|  standard | Luoteis-Meksikon normaaliaika |
+|  daylight savings | Luoteis-Meksikon kesäaika |
+| Mexico_Pacific | ... |
+|  generic | Meksikon Tyynenmeren aika |
+|  standard | Meksikon Tyynenmeren normaaliaika |
+|  daylight savings | Meksikon Tyynenmeren kesäaika |
+| Mongolia | ... |
+|  generic | Ulan Batorin aika |
+|  standard | Ulan Batorin normaaliaika |
+|  daylight savings | Ulan Batorin kesäaika |
+| Moscow | ... |
+|  generic | Moskovan aika |
+|  standard | Moskovan normaaliaika |
+|  daylight savings | Moskovan kesäaika |
+| Myanmar | ... |
+|  standard | Myanmarin aika |
+| Nauru | ... |
+|  standard | Naurun aika |
+| Nepal | ... |
+|  standard | Nepalin aika |
+| New_Caledonia | ... |
+|  generic | Uuden-Kaledonian aika |
+|  standard | Uuden-Kaledonian normaaliaika |
+|  daylight savings | Uuden-Kaledonian kesäaika |
+| New_Zealand | ... |
+|  generic | Uuden-Seelannin aika |
+|  standard | Uuden-Seelannin normaaliaika |
+|  daylight savings | Uuden-Seelannin kesäaika |
+| Newfoundland | ... |
+|  generic | Newfoundlandin aika |
+|  standard | Newfoundlandin normaaliaika |
+|  daylight savings | Newfoundlandin kesäaika |
+| Niue | ... |
+|  standard | Niuen aika |
+| Norfolk | ... |
+|  standard | Norfolkinsaaren aika |
+| Noronha | ... |
+|  generic | Fernando de Noronhan aika |
+|  standard | Fernando de Noronhan normaaliaika |
+|  daylight savings | Fernando de Noronhan kesäaika |
+| North_Mariana | ... |
+|  standard | Pohjois-Mariaanien aika |
+| Novosibirsk | ... |
+|  generic | Novosibirskin aika |
+|  standard | Novosibirskin normaaliaika |
+|  daylight savings | Novosibirskin kesäaika |
+| Omsk | ... |
+|  generic | Omskin aika |
+|  standard | Omskin normaaliaika |
+|  daylight savings | Omskin kesäaika |
+| Pakistan | ... |
+|  generic | Pakistanin aika |
+|  standard | Pakistanin normaaliaika |
+|  daylight savings | Pakistanin kesäaika |
+| Palau | ... |
+|  standard | Palaun aika |
+| Papua_New_Guinea | ... |
+|  standard | Papua-Uuden-Guinean aika |
+| Paraguay | ... |
+|  generic | Paraguayn aika |
+|  standard | Paraguayn normaaliaika |
+|  daylight savings | Paraguayn kesäaika |
+| Peru | ... |
+|  generic | Perun aika |
+|  standard | Perun normaaliaika |
+|  daylight savings | Perun kesäaika |
+| Philippines | ... |
+|  generic | Filippiinien aika |
+|  standard | Filippiinien normaaliaika |
+|  daylight savings | Filippiinien kesäaika |
+| Phoenix_Islands | ... |
+|  standard | Phoenixsaarten aika |
+| Pierre_Miquelon | ... |
+|  generic | Saint-Pierren ja Miquelonin aika |
+|  standard | Saint-Pierren ja Miquelonin normaaliaika |
+|  daylight savings | Saint-Pierren ja Miquelonin kesäaika |
+| Pitcairn | ... |
+|  standard | Pitcairnin aika |
+| Ponape | ... |
+|  standard | Pohnpein aika |
+| Pyongyang | ... |
+|  standard | Pjongjangin aika |
+| Qyzylorda | ... |
+|  generic | Qızılordan aika |
+|  standard | Qızılordan normaaliaika |
+|  daylight savings | Qızılordan kesäaika |
+| Reunion | ... |
+|  standard | Réunionin aika |
+| Rothera | ... |
+|  standard | Rotheran aika |
+| Sakhalin | ... |
+|  generic | Sahalinin aika |
+|  standard | Sahalinin normaaliaika |
+|  daylight savings | Sahalinin kesäaika |
+| Samara | ... |
+|  generic | Samaran aika |
+|  standard | Samaran normaaliaika |
+|  daylight savings | Samaran kesäaika |
+| Samoa | ... |
+|  generic | Samoan aika |
+|  standard | Samoan normaaliaika |
+|  daylight savings | Samoan kesäaika |
+| Seychelles | ... |
+|  standard | Seychellien aika |
+| Singapore | ... |
+|  standard | Singaporen aika |
+| Solomon | ... |
+|  standard | Salomonsaarten aika |
+| South_Georgia | ... |
+|  standard | Etelä-Georgian aika |
+| Suriname | ... |
+|  standard | Surinamen aika |
+| Syowa | ... |
+|  standard | Syowan aika |
+| Tahiti | ... |
+|  standard | Tahitin aika |
+| Taipei | ... |
+|  generic | Taipein aika |
+|  standard | Taipein normaaliaika |
+|  daylight savings | Taipein kesäaika |
+| Tajikistan | ... |
+|  standard | Tadžikistanin aika |
+| Tokelau | ... |
+|  standard | Tokelaun aika |
+| Tonga | ... |
+|  generic | Tongan aika |
+|  standard | Tongan normaaliaika |
+|  daylight savings | Tongan kesäaika |
+| Truk | ... |
+|  standard | Chuukin aika |
+| Turkmenistan | ... |
+|  generic | Turkmenistanin aika |
+|  standard | Turkmenistanin normaaliaika |
+|  daylight savings | Turkmenistanin kesäaika |
+| Tuvalu | ... |
+|  standard | Tuvalun aika |
+| Uruguay | ... |
+|  generic | Uruguayn aika |
+|  standard | Uruguayn normaaliaika |
+|  daylight savings | Uruguayn kesäaika |
+| Uzbekistan | ... |
+|  generic | Uzbekistanin aika |
+|  standard | Uzbekistanin normaaliaika |
+|  daylight savings | Uzbekistanin kesäaika |
+| Vanuatu | ... |
+|  generic | Vanuatun aika |
+|  standard | Vanuatun normaaliaika |
+|  daylight savings | Vanuatun kesäaika |
+| Venezuela | ... |
+|  standard | Venezuelan aika |
+| Vladivostok | ... |
+|  generic | Vladivostokin aika |
+|  standard | Vladivostokin normaaliaika |
+|  daylight savings | Vladivostokin kesäaika |
+| Volgograd | ... |
+|  generic | Volgogradin aika |
+|  standard | Volgogradin normaaliaika |
+|  daylight savings | Volgogradin kesäaika |
+| Vostok | ... |
+|  standard | Vostokin aika |
+| Wake | ... |
+|  standard | Waken aika |
+| Wallis | ... |
+|  standard | Wallisin ja Futunan aika |
+| Yakutsk | ... |
+|  generic | Jakutskin aika |
+|  standard | Jakutskin normaaliaika |
+|  daylight savings | Jakutskin kesäaika |
+| Yekaterinburg | ... |
+|  generic | Jekaterinburgin aika |
+|  standard | Jekaterinburgin normaaliaika |
+|  daylight savings | Jekaterinburgin kesäaika |
 
 ## Numbers stuff
 
-latnlatn1
+Using `latn` numbering by default.
+Using `latn` numbering also.
+`1` minimum grouping digits.
+
+#### Symbols
 
 | Character name | Translated version |
+| -------------- | ------------------ |
 | Decimal separator | , |
 | "Thousands" separator |   |
 | Numbers separator | ; |
@@ -3643,1322 +4370,1404 @@ latnlatn1
 | Infinity | ∞ |
 | Not a number | epäluku |
 | Time separator (Hours:Minutes) | . |
-#,##0.###0 tuhat0 tuhatta00 tuhatta00 tuhatta000 tuhatta000 tuhatta0 miljoona0 miljoonaa00 miljoonaa00 miljoonaa000 miljoonaa000 miljoonaa0 miljardi0 miljardia00 miljardia00 miljardia000 miljardia000 miljardia0 biljoona0 biljoonaa00 biljoonaa00 biljoonaa000 biljoonaa000 biljoonaa0 t'.'0 t'.'00 t'.'00 t'.'000 t'.'000 t'.'0 milj'.'0 milj'.'00 milj'.'00 milj'.'000 milj'.'000 milj'.'0 mrd'.'0 mrd'.'00 mrd'.'00 mrd'.'000 mrd'.'000 mrd'.'0 bilj'.'0 bilj'.'00 bilj'.'00 bilj'.'000 bilj'.'000 bilj'.'#E0#,##0 %#,##0.00 ¤#,##0.00 ¤0 t'.' ¤0 t'.' ¤00 t'.' ¤00 t'.' ¤000 t'.' ¤000 t'.' ¤0 milj'.' ¤0 milj'.' ¤00 milj'.' ¤00 milj'.' ¤000 milj'.' ¤000 milj'.' ¤0 mrd'.' ¤0 mrd'.' ¤00 mrd'.' ¤00 mrd'.' ¤000 mrd'.' ¤000 mrd'.' ¤0 bilj'.' ¤0 bilj'.' ¤00 bilj'.' ¤00 bilj'.' ¤000 bilj'.' ¤000 bilj'.' ¤
-| one | {0} {1} |
-| other | {0} {1} |
+
+#### Decimal formatting
+
+| Format name | Pattern |
+| ----------- | ------- |
+| standard,  | `#,##0.###` |
+| one1000, long | `0 tuhat` |
+| other1000, long | `0 tuhatta` |
+| one10000, long | `00 tuhatta` |
+| other10000, long | `00 tuhatta` |
+| one100000, long | `000 tuhatta` |
+| other100000, long | `000 tuhatta` |
+| one1000000, long | `0 miljoona` |
+| other1000000, long | `0 miljoonaa` |
+| one10000000, long | `00 miljoonaa` |
+| other10000000, long | `00 miljoonaa` |
+| one100000000, long | `000 miljoonaa` |
+| other100000000, long | `000 miljoonaa` |
+| one1000000000, long | `0 miljardi` |
+| other1000000000, long | `0 miljardia` |
+| one10000000000, long | `00 miljardia` |
+| other10000000000, long | `00 miljardia` |
+| one100000000000, long | `000 miljardia` |
+| other100000000000, long | `000 miljardia` |
+| one1000000000000, long | `0 biljoona` |
+| other1000000000000, long | `0 biljoonaa` |
+| one10000000000000, long | `00 biljoonaa` |
+| other10000000000000, long | `00 biljoonaa` |
+| one100000000000000, long | `000 biljoonaa` |
+| other100000000000000, long | `000 biljoonaa` |
+| one1000, short | `0 t'.'` |
+| other1000, short | `0 t'.'` |
+| one10000, short | `00 t'.'` |
+| other10000, short | `00 t'.'` |
+| one100000, short | `000 t'.'` |
+| other100000, short | `000 t'.'` |
+| one1000000, short | `0 milj'.'` |
+| other1000000, short | `0 milj'.'` |
+| one10000000, short | `00 milj'.'` |
+| other10000000, short | `00 milj'.'` |
+| one100000000, short | `000 milj'.'` |
+| other100000000, short | `000 milj'.'` |
+| one1000000000, short | `0 mrd'.'` |
+| other1000000000, short | `0 mrd'.'` |
+| one10000000000, short | `00 mrd'.'` |
+| other10000000000, short | `00 mrd'.'` |
+| one100000000000, short | `000 mrd'.'` |
+| other100000000000, short | `000 mrd'.'` |
+| one1000000000000, short | `0 bilj'.'` |
+| other1000000000000, short | `0 bilj'.'` |
+| one10000000000000, short | `00 bilj'.'` |
+| other10000000000000, short | `00 bilj'.'` |
+| one100000000000000, short | `000 bilj'.'` |
+| other100000000000000, short | `000 bilj'.'` |
+| standard,  | `#E0` |
+| standard,  | `#,##0 %` |
+| standard,  | `#,##0.00 ¤` |
+| standard,  | `#,##0.00 ¤` |
+| one1000, short | `0 t'.' ¤` |
+| other1000, short | `0 t'.' ¤` |
+| one10000, short | `00 t'.' ¤` |
+| other10000, short | `00 t'.' ¤` |
+| one100000, short | `000 t'.' ¤` |
+| other100000, short | `000 t'.' ¤` |
+| one1000000, short | `0 milj'.' ¤` |
+| other1000000, short | `0 milj'.' ¤` |
+| one10000000, short | `00 milj'.' ¤` |
+| other10000000, short | `00 milj'.' ¤` |
+| one100000000, short | `000 milj'.' ¤` |
+| other100000000, short | `000 milj'.' ¤` |
+| one1000000000, short | `0 mrd'.' ¤` |
+| other1000000000, short | `0 mrd'.' ¤` |
+| one10000000000, short | `00 mrd'.' ¤` |
+| other10000000000, short | `00 mrd'.' ¤` |
+| one100000000000, short | `000 mrd'.' ¤` |
+| other100000000000, short | `000 mrd'.' ¤` |
+| one1000000000000, short | `0 bilj'.' ¤` |
+| other1000000000000, short | `0 bilj'.' ¤` |
+| one10000000000000, short | `00 bilj'.' ¤` |
+| other10000000000000, short | `00 bilj'.' ¤` |
+| one100000000000000, short | `000 bilj'.' ¤` |
+| other100000000000000, short | `000 bilj'.' ¤` |
+| one,  | {0} {1} |
+| other,  | {0} {1} |
 
 ## Currency names
 
 | Code | Name |
 | ---- | ---- |
-|  | Andorran peseta |
-| one | Andorran peseta |
-| other | Andorran pesetaa |
-|  symbol | ADP |
-|  | Arabiemiirikuntien dirhami |
-| one | Arabiemiirikuntien dirhami |
-| other | Arabiemiirikuntien dirhamia |
-|  symbol | AED |
-|  | Afganistanin afgaani (1927–2002) |
-| one | Afganistanin afgaani (1927–2002) |
-| other | Afganistanin afgaania (1927–2002) |
-|  symbol | AFA |
-|  | Afganistanin afgaani |
-| one | Afganistanin afgaani |
-| other | Afganistanin afgaania |
-|  symbol | AFN |
-|  | Albanian lek (1946–1965) |
-| one | Albanian lek (1946–1965) |
-| other | Albanian lekiä (1946–1965) |
-|  symbol | ALK |
-|  | Albanian lek |
-| one | Albanian lek |
-| other | Albanian lekiä |
-|  symbol | ALL |
-|  | Armenian dram |
-| one | Armenian dram |
-| other | Armenian dramia |
-|  symbol | AMD |
-|  | Alankomaiden Antillien guldeni |
-| one | Alankomaiden Antillien guldeni |
-| other | Alankomaiden Antillien guldenia |
-|  symbol | ANG |
-|  | Angolan kwanza |
-| one | Angolan kwanza |
-| other | Angolan kwanzaa |
-|  symbol | AOA |
-| narrow symbol | AOA |
-|  | Angolan kwanza (1977–1991) |
-| one | Angolan kwanza (1977–1990) |
-| other | Angolan kwanzaa (1977–1990) |
-|  symbol | AOK |
-|  | Angolan uusi kwanza (1990–2000) |
-| one | Angolan uusi kwanza (1990–2000) |
-| other | Angolan uutta kwanzaa (1990–2000) |
-|  symbol | AON |
-|  | Angolan kwanza reajustado (1995–1999) |
-| one | Angolan kwanza reajustado (1995–1999) |
-| other | Angolan kwanza reajustadoa (1995–1999) |
-|  symbol | AOR |
-|  | Argentiinan austral |
-| one | Argentiinan austral |
-| other | Argentiinan australia |
-|  symbol | ARA |
-|  | Argentiinan ley-peso (1970–1983) |
-| one | Argentiinan ley-peso (1970–1983) |
-| other | Argentiinan ley-pesoa (1970–1983) |
-|  symbol | ARL |
-|  | Argentiinan peso (1881–1970) |
-| one | Argentiinan peso (1881–1970) |
-| other | Argentiinan pesoa (1881–1970) |
-|  symbol | ARM |
-|  | Argentiinan peso (1983–1985) |
-| one | Argentiinan peso (1983–1985) |
-| other | Argentiinan pesoa (1983–1985) |
-|  symbol | ARP |
-|  | Argentiinan peso |
-| one | Argentiinan peso |
-| other | Argentiinan pesoa |
-|  symbol | ARS |
-| narrow symbol | ARS |
-|  | Itävallan šillinki |
-| one | Itävallan šillinki |
-| other | Itävallan šillinkiä |
-|  symbol | ATS |
-|  | Australian dollari |
-| one | Australian dollari |
-| other | Australian dollaria |
-|  symbol | AUD |
-| narrow symbol | AUD |
-|  | Aruban floriini |
-| one | Aruban floriini |
-| other | Aruban floriinia |
-|  symbol | AWG |
-|  | Azerbaidžanin manat (1993–2006) |
-| one | Azerbaidžanin manat (1993–2006) |
-| other | Azerbaidžanin manatia (1993–2006) |
-|  symbol | AZM |
-|  | Azerbaidžanin manat |
-| one | Azerbaidžanin manat |
-| other | Azerbaidžanin manatia |
-|  symbol | AZN |
-|  | Bosnia-Hertsegovinan dinaari (1992–1994) |
-| one | Bosnia-Hertsegovinan dinaari (1992–1994) |
-| other | Bosnia-Hertsegovinan dinaaria (1992–1994) |
-|  symbol | BAD |
-|  | Bosnia-Hertsegovinan vaihdettava markka |
-| one | Bosnia-Hertsegovinan vaihdettava markka |
-| other | Bosnia-Hertsegovinan vaihdettavaa markkaa |
-|  symbol | BAM |
-| narrow symbol | BAM |
-|  | Bosnia-Hertsegovinan uusi dinaari (1994–1997) |
-| one | Bosnia-Hertsegovinan uusi dinaari (1994–1997) |
-| other | Bosnia-Hertsegovinan uutta dinaaria (1994–1997) |
-|  symbol | BAN |
-|  | Barbadosin dollari |
-| one | Barbadosin dollari |
-| other | Barbadosin dollaria |
-|  symbol | BBD |
-| narrow symbol | BBD |
-|  | Bangladeshin taka |
-| one | Bangladeshin taka |
-| other | Bangladeshin takaa |
-|  symbol | BDT |
-| narrow symbol | BDT |
-|  | Belgian vaihdettava frangi |
-| one | Belgian vaihdettava frangi |
-| other | Belgian vaihdettavaa frangia |
-|  symbol | BEC |
-|  | Belgian frangi |
-| one | Belgian frangi |
-| other | Belgian frangia |
-|  symbol | BEF |
-|  | Belgian rahoitusfrangi |
-| one | Belgian rahoitusfrangi |
-| other | Belgian rahoitusfrangia |
-|  symbol | BEL |
-|  | Bulgarian kova lev |
-| one | Bulgarian kova lev |
-| other | Bulgarian kovaa leviä |
-|  symbol | BGL |
-|  | Bulgarian sosialistinen lev |
-| one | Bulgarian sosialistinen lev |
-| other | Bulgarian sosialistista leviä |
-|  symbol | BGM |
-|  | Bulgarian lev |
-| one | Bulgarian lev |
-| other | Bulgarian leviä |
-|  symbol | BGN |
-|  | Bulgarian lev (1879–1952) |
-| one | Bulgarian lev (1879–1952) |
-| other | Bulgarian leviä (1879–1952) |
-|  symbol | BGO |
-|  | Bahrainin dinaari |
-| one | Bahrainin dinaari |
-| other | Bahrainin dinaaria |
-|  symbol | BHD |
-|  | Burundin frangi |
-| one | Burundin frangi |
-| other | Burundin frangia |
-|  symbol | BIF |
-|  | Bermudan dollari |
-| one | Bermudan dollari |
-| other | Bermudan dollaria |
-|  symbol | BMD |
-| narrow symbol | BMD |
-|  | Brunein dollari |
-| one | Brunein dollari |
-| other | Brunein dollaria |
-|  symbol | BND |
-| narrow symbol | BND |
-|  | Bolivian boliviano |
-| one | Bolivian boliviano |
-| other | Bolivian bolivianoa |
-|  symbol | BOB |
-| narrow symbol | BOB |
-|  | Bolivian boliviano (1863–1963) |
-| one | Bolivian boliviano (1863–1963) |
-| other | Bolivian bolivianoa (1863–1963) |
-|  symbol | BOL |
-|  | Bolivian peso |
-| one | Bolivian peso |
-| other | Bolivian pesoa |
-|  symbol | BOP |
-|  | Bolivian mvdol |
-| one | Bolivian mvdol |
-| other | Bolivian mvdol’ia |
-|  symbol | BOV |
-|  | Brasilian uusi cruzeiro (1967–1986) |
-| one | Brasilian uusi cruzeiro (1967–1986) |
-| other | Brasilian uutta cruzeiroa (1967–1986) |
-|  symbol | BRB |
-|  | Brasilian cruzado (1986–1989) |
-| one | Brasilian cruzado (1986–1989) |
-| other | Brasilian cruzadoa (1986–1989) |
-|  symbol | BRC |
-|  | Brasilian cruzeiro (1990–1993) |
-| one | Brasilian cruzeiro (1990–1993) |
-| other | Brasilian cruzeiroa (1990–1993) |
-|  symbol | BRE |
-|  | Brasilian real |
-| one | Brasilian real |
-| other | Brasilian realia |
-|  symbol | BRL |
-| narrow symbol | BRL |
-|  | Brasilian uusi cruzado (1989–1990) |
-| one | Brasilian uusi cruzado (1989–1990) |
-| other | Brasilian uutta cruzadoa (1989–1990) |
-|  symbol | BRN |
-|  | Brasilian cruzeiro (1993–1994) |
-| one | Brasilian cruzeiro (1993–1994) |
-| other | Brasilian cruzeiroa (1993–1994) |
-|  symbol | BRR |
-|  | Brasilian cruzeiro (1942–1967) |
-| one | Brasilian cruzeiro (1942–1967) |
-| other | Brasilian cruzeiroa (1942–1967) |
-|  symbol | BRZ |
-|  | Bahaman dollari |
-| one | Bahaman dollari |
-| other | Bahaman dollaria |
-|  symbol | BSD |
-| narrow symbol | BSD |
-|  | Bhutanin ngultrum |
-| one | Bhutanin ngultrum |
-| other | Bhutanin ngultrumia |
-|  symbol | BTN |
-|  | Burman kyat |
-| one | Burman kyat |
-| other | Burman kyatia |
-|  symbol | BUK |
-|  | Botswanan pula |
-| one | Botswanan pula |
-| other | Botswanan pulaa |
-|  symbol | BWP |
-| narrow symbol | BWP |
-|  | Valko-Venäjän uusi rupla (1994–1999) |
-| one | Valko-Venäjän uusi rupla (1994–1999) |
-| other | Valko-Venäjän uutta ruplaa (1994–1999) |
-|  symbol | BYB |
-|  | Valko-Venäjän rupla |
-| one | Valko-Venäjän rupla |
-| other | Valko-Venäjän ruplaa |
-|  symbol | BYN |
-| narrow symbol | BYN |
-|  | Valko-Venäjän rupla (2000–2016) |
-| one | Valko-Venäjän rupla (2000–2016) |
-| other | Valko-Venäjän ruplaa (2000–2016) |
-|  symbol | BYR |
-|  | Belizen dollari |
-| one | Belizen dollari |
-| other | Belizen dollaria |
-|  symbol | BZD |
-| narrow symbol | BZD |
-|  | Kanadan dollari |
-| one | Kanadan dollari |
-| other | Kanadan dollaria |
-|  symbol | CAD |
-| narrow symbol | CAD |
-|  | Kongon frangi |
-| one | Kongon frangi |
-| other | Kongon frangia |
-|  symbol | CDF |
-|  | Sveitsin WIR-euro |
-| one | Sveitsin WIR-euro |
-| other | Sveitsin WIR-euroa |
-|  symbol | CHE |
-|  | Sveitsin frangi |
-| one | Sveitsin frangi |
-| other | Sveitsin frangia |
-|  symbol | CHF |
-|  | Sveitsin WIR-frangi |
-| one | Sveitsin WIR-frangi |
-| other | Sveitsin WIR-frangia |
-|  symbol | CHW |
-|  | Chilen escudo |
-| one | Chilen escudo |
-| other | Chilen escudoa |
-|  symbol | CLE |
-|  | Chilen unidades de fomento |
-| one | Chilen unidades de fomento |
-| other | Chilen unidades de fomentoa |
-|  symbol | CLF |
-|  | Chilen peso |
-| one | Chilen peso |
-| other | Chilen pesoa |
-|  symbol | CLP |
-| narrow symbol | CLP |
-|  | Kiinan juan (offshore) |
-| one | Kiinan juan (offshore) |
-| other | Kiinan juania (offshore) |
-|  symbol | CNH |
-|  | Kiinan kansanpankin dollari |
-| one | Kiinan kansanpankin dollari |
-| other | Kiinan kansanpankin dollaria |
-|  symbol | CNX |
-|  | Kiinan juan |
-| one | Kiinan juan |
-| other | Kiinan juania |
-|  symbol | CNY |
-| narrow symbol | CNY |
-|  | Kolumbian peso |
-| one | Kolumbian peso |
-| other | Kolumbian pesoa |
-|  symbol | COP |
-| narrow symbol | COP |
-|  | Kolumbian unidad de valor real |
-| one | Kolumbian unidad de valor real |
-| other | Kolumbian unidad de valor realia |
-|  symbol | COU |
-|  | Costa Rican colón |
-| one | Costa Rican colón |
-| other | Costa Rican colónia |
-|  symbol | CRC |
-| narrow symbol | CRC |
-|  | Serbian dinaari (2002–2006) |
-| one | Serbian dinaari (2002–2006) |
-| other | Serbian dinaaria (2002–2006) |
-|  symbol | CSD |
-|  | Tšekkoslovakian kova koruna |
-| one | Tšekkoslovakian kova koruna |
-| other | Tšekkoslovakian kovaa korunaa |
-|  symbol | CSK |
-|  | Kuuban vaihdettava peso |
-| one | Kuuban vaihdettava peso |
-| other | Kuuban vaihdettavaa pesoa |
-|  symbol | CUC |
-| narrow symbol | CUC |
-|  | Kuuban peso |
-| one | Kuuban peso |
-| other | Kuuban pesoa |
-|  symbol | CUP |
-| narrow symbol | CUP |
-|  | Kap Verden escudo |
-| one | Kap Verden escudo |
-| other | Kap Verden escudoa |
-|  symbol | CVE |
-|  | Kyproksen punta |
-| one | Kyproksen punta |
-| other | Kyproksen puntaa |
-|  symbol | CYP |
-|  | Tšekin koruna |
-| one | Tšekin koruna |
-| other | Tšekin korunaa |
-|  symbol | CZK |
-| narrow symbol | CZK |
-|  | Itä-Saksan markka |
-| one | Itä-Saksan markka |
-| other | Itä-Saksan markkaa |
-|  symbol | DDM |
-|  | Saksan markka |
-| one | Saksan markka |
-| other | Saksan markkaa |
-|  symbol | DEM |
-|  | Djiboutin frangi |
-| one | Djiboutin frangi |
-| other | Djiboutin frangia |
-|  symbol | DJF |
-|  | Tanskan kruunu |
-| one | Tanskan kruunu |
-| other | Tanskan kruunua |
-|  symbol | DKK |
-| narrow symbol | DKK |
-|  | Dominikaanisen tasavallan peso |
-| one | Dominikaanisen tasavallan peso |
-| other | Dominikaanisen tasavallan pesoa |
-|  symbol | DOP |
-| narrow symbol | DOP |
-|  | Algerian dinaari |
-| one | Algerian dinaari |
-| other | Algerian dinaaria |
-|  symbol | DZD |
-|  | Ecuadorin sucre |
-| one | Ecuadorin sucre |
-| other | Ecuadorin sucrea |
-|  symbol | ECS |
-|  | Ecuadorin UVC |
-| one | Ecuadorin UVC |
-| other | Ecuadorin UVC’ta |
-|  symbol | ECV |
-|  | Viron kruunu |
-| one | Viron kruunu |
-| other | Viron kruunua |
-|  symbol | EEK |
-|  | Egyptin punta |
-| one | Egyptin punta |
-| other | Egyptin puntaa |
-|  symbol | EGP |
-| narrow symbol | EGP |
-|  | Eritrean nakfa |
-| one | Eritrean nakfa |
-| other | Eritrean nakfaa |
-|  symbol | ERN |
-|  | Espanjan peseta (A-tili) |
-| one | Espanjan peseta (A-tili) |
-| other | Espanjan pesetaa (A-tili) |
-|  symbol | ESA |
-|  | Espanjan peseta (vaihdettava tili) |
-| one | Espanjan peseta (vaihdettava tili) |
-| other | Espanjan pesetaa (vaihdettava tili) |
-|  symbol | ESB |
-|  | Espanjan peseta |
-| one | Espanjan peseta |
-| other | Espanjan pesetaa |
-|  symbol | ESP |
-| narrow symbol | ESP |
-|  | Etiopian birr |
-| one | Etiopian birr |
-| other | Etiopian birriä |
-|  symbol | ETB |
-|  | euro |
-| one | euro |
-| other | euroa |
-|  symbol | € |
-| narrow symbol | € |
-|  | Suomen markka |
-| one | Suomen markka |
-| other | Suomen markkaa |
-|  symbol | mk |
-|  | Fidžin dollari |
-| one | Fidžin dollari |
-| other | Fidžin dollaria |
-|  symbol | FJD |
-| narrow symbol | FJD |
-|  | Falklandinsaarten punta |
-| one | Falklandinsaarten punta |
-| other | Falklandinsaarten puntaa |
-|  symbol | FKP |
-| narrow symbol | FKP |
-|  | Ranskan frangi |
-| one | Ranskan frangi |
-| other | Ranskan frangia |
-|  symbol | FRF |
-|  | Englannin punta |
-| one | Englannin punta |
-| other | Englannin puntaa |
-|  symbol | £ |
-| narrow symbol | £ |
-|  | Georgian kuponkilari |
-| one | Georgian kuponkilari |
-| other | Georgian kuponkilaria |
-|  symbol | GEK |
-|  | Georgian lari |
-| one | Georgian lari |
-| other | Georgian laria |
-|  symbol | GEL |
-| narrow symbol | GEL |
-|  | Ghanan cedi (1979–2007) |
-| one | Ghanan cedi (1979–2007) |
-| other | Ghanan cediä (1979–2007) |
-|  symbol | GHC |
-|  | Ghanan cedi |
-| one | Ghanan cedi |
-| other | Ghanan cediä |
-|  symbol | GHS |
-|  | Gibraltarin punta |
-| one | Gibraltarin punta |
-| other | Gibraltarin puntaa |
-|  symbol | GIP |
-| narrow symbol | GIP |
-|  | Gambian dalasi |
-| one | Gambian dalasi |
-| other | Gambian dalasia |
-|  symbol | GMD |
-|  | Guinean frangi |
-| one | Guinean frangi |
-| other | Guinean frangia |
-|  symbol | GNF |
-| narrow symbol | GNF |
-|  | Guinean syli |
-| one | Guinean syli |
-| other | Guinean syliä |
-|  symbol | GNS |
-|  | Päiväntasaajan Guinean ekwele |
-| one | Päiväntasaajan Guinean ekwele |
-| other | Päiväntasaajan Guinean ekweleä |
-|  symbol | GQE |
-|  | Kreikan drakma |
-| one | Kreikan drakma |
-| other | Kreikan drakmaa |
-|  symbol | GRD |
-|  | Guatemalan quetzal |
-| one | Guatemalan quetzal |
-| other | Guatemalan quetzalia |
-|  symbol | GTQ |
-| narrow symbol | GTQ |
-|  | Portugalin Guinean escudo |
-| one | Portugalin Guinean escudo |
-| other | Portugalin Guinean escudoa |
-|  symbol | GWE |
-|  | Guinea-Bissaun peso |
-| one | Guinea-Bissaun peso |
-| other | Guinea-Bissaun pesoa |
-|  symbol | GWP |
-|  | Guyanan dollari |
-| one | Guyanan dollari |
-| other | Guyanan dollaria |
-|  symbol | GYD |
-| narrow symbol | GYD |
-|  | Hongkongin dollari |
-| one | Hongkongin dollari |
-| other | Hongkongin dollaria |
-|  symbol | HKD |
-| narrow symbol | HKD |
-|  | Hondurasin lempira |
-| one | Hondurasin lempira |
-| other | Hondurasin lempiraa |
-|  symbol | HNL |
-| narrow symbol | HNL |
-|  | Kroatian dinaari |
-| one | Kroatian dinaari |
-| other | Kroatian dinaaria |
-|  symbol | HRD |
-|  | Kroatian kuna |
-| one | Kroatian kuna |
-| other | Kroatian kunaa |
-|  symbol | HRK |
-| narrow symbol | HRK |
-|  | Haitin gourde |
-| one | Haitin gourde |
-| other | Haitin gourdea |
-|  symbol | HTG |
-|  | Unkarin forintti |
-| one | Unkarin forintti |
-| other | Unkarin forinttia |
-|  symbol | HUF |
-| narrow symbol | HUF |
-|  | Indonesian rupia |
-| one | Indonesian rupia |
-| other | Indonesian rupiaa |
-|  symbol | IDR |
-| narrow symbol | IDR |
-|  | Irlannin punta |
-| one | Irlannin punta |
-| other | Irlannin puntaa |
-|  symbol | IEP |
-|  | Israelin punta |
-| one | Israelin punta |
-| other | Israelin puntaa |
-|  symbol | ILP |
-|  | Israelin sekeli (1980–1985) |
-| one | Israelin sekeli (1980–1985) |
-| other | Israelin sekeliä (1980–1985) |
-|  symbol | ILR |
-|  | Israelin uusi sekeli |
-| one | Israelin uusi sekeli |
-| other | Israelin uutta sekeliä |
-|  symbol | ILS |
-| narrow symbol | ILS |
-|  | Intian rupia |
-| one | Intian rupia |
-| other | Intian rupiaa |
-|  symbol | INR |
-| narrow symbol | INR |
-|  | Irakin dinaari |
-| one | Irakin dinaari |
-| other | Irakin dinaaria |
-|  symbol | IQD |
-|  | Iranin rial |
-| one | Iranin rial |
-| other | Iranin rialia |
-|  symbol | IRR |
-|  | Islannin kruunu (1918–1981) |
-| one | Islannin kruunu (1918–1981) |
-| other | Islannin kruunua (1918–1981) |
-|  symbol | ISJ |
-|  | Islannin kruunu |
-| one | Islannin kruunu |
-| other | Islannin kruunua |
-|  symbol | ISK |
-| narrow symbol | ISK |
-|  | Italian liira |
-| one | Italian liira |
-| other | Italian liiraa |
-|  symbol | ITL |
-|  | Jamaikan dollari |
-| one | Jamaikan dollari |
-| other | Jamaikan dollaria |
-|  symbol | JMD |
-| narrow symbol | JMD |
-|  | Jordanian dinaari |
-| one | Jordanian dinaari |
-| other | Jordanian dinaaria |
-|  symbol | JOD |
-|  | Japanin jeni |
-| one | Japanin jeni |
-| other | Japanin jeniä |
-|  symbol | ¥ |
-| narrow symbol | ¥ |
-|  | Kenian šillinki |
-| one | Kenian šillinki |
-| other | Kenian šillinkiä |
-|  symbol | KES |
-|  | Kirgisian som |
-| one | Kirgisian som |
-| other | Kirgisian somia |
-|  symbol | KGS |
-|  | Kambodžan riel |
-| one | Kambodžan riel |
-| other | Kambodžan rieliä |
-|  symbol | KHR |
-| narrow symbol | KHR |
-|  | Komorien frangi |
-| one | Komorien frangi |
-| other | Komorien frangia |
-|  symbol | KMF |
-| narrow symbol | KMF |
-|  | Pohjois-Korean won |
-| one | Pohjois-Korean won |
-| other | Pohjois-Korean wonia |
-|  symbol | KPW |
-| narrow symbol | KPW |
-|  | Etelä-Korean hwan (1953–1962) |
-| one | Etelä-Korean hwan (1953–1962) |
-| other | Etelä-Korean hwania (1953–1962) |
-|  symbol | KRH |
-|  | Etelä-Korean won (1945–1953) |
-| one | Etelä-Korean won (1945–1953) |
-| other | Etelä-Korean wonia (1945–1953) |
-|  symbol | KRO |
-|  | Etelä-Korean won |
-| one | Etelä-Korean won |
-| other | Etelä-Korean wonia |
-|  symbol | KRW |
-| narrow symbol | KRW |
-|  | Kuwaitin dinaari |
-| one | Kuwaitin dinaari |
-| other | Kuwaitin dinaaria |
-|  symbol | KWD |
-|  | Caymansaarten dollari |
-| one | Caymansaarten dollari |
-| other | Caymansaarten dollaria |
-|  symbol | KYD |
-| narrow symbol | KYD |
-|  | Kazakstanin tenge |
-| one | Kazakstanin tenge |
-| other | Kazakstanin tengeä |
-|  symbol | KZT |
-| narrow symbol | KZT |
-|  | Laosin kip |
-| one | Laosin kip |
-| other | Laosin kipiä |
-|  symbol | LAK |
-| narrow symbol | LAK |
-|  | Libanonin punta |
-| one | Libanonin punta |
-| other | Libanonin puntaa |
-|  symbol | LBP |
-| narrow symbol | LBP |
-|  | Sri Lankan rupia |
-| one | Sri Lankan rupia |
-| other | Sri Lankan rupiaa |
-|  symbol | LKR |
-| narrow symbol | LKR |
-|  | Liberian dollari |
-| one | Liberian dollari |
-| other | Liberian dollaria |
-|  symbol | LRD |
-| narrow symbol | LRD |
-|  | Lesothon loti |
-| one | Lesothon loti |
-| other | Lesothon lotia |
-|  symbol | LSL |
-|  | Liettuan liti |
-| one | Liettuan liti |
-| other | Liettuan litiä |
-|  symbol | LTL |
-| narrow symbol | LTL |
-|  | Liettuan talonas |
-| one | Liettuan talonas |
-| other | Liettuan talonasia |
-|  symbol | LTT |
-|  | Luxemburgin vaihdettava frangi |
-| one | Luxemburgin vaihdettava frangi |
-| other | Luxemburgin vaihdettavaa frangia |
-|  symbol | LUC |
-|  | Luxemburgin frangi |
-| one | Luxemburgin frangi |
-| other | Luxemburgin frangia |
-|  symbol | LUF |
-|  | Luxemburgin rahoitusfrangi |
-| one | Luxemburgin rahoitusfrangi |
-| other | Luxemburgin rahoitusfrangia |
-|  symbol | LUL |
-|  | Latvian lati |
-| one | Latvian lati |
-| other | Latvian latia |
-|  symbol | LVL |
-| narrow symbol | LVL |
-|  | Latvian rupla |
-| one | Latvian rupla |
-| other | Latvian ruplaa |
-|  symbol | LVR |
-|  | Libyan dinaari |
-| one | Libyan dinaari |
-| other | Libyan dinaaria |
-|  symbol | LYD |
-|  | Marokon dirhami |
-| one | Marokon dirhami |
-| other | Marokon dirhamia |
-|  symbol | MAD |
-|  | Marokon frangi |
-| one | Marokon frangi |
-| other | Marokon frangia |
-|  symbol | MAF |
-|  | Monacon frangi |
-| one | Monacon frangi |
-| other | Monacon frangia |
-|  symbol | MCF |
-|  | Moldovan kuponkileu |
-| one | Moldovan kuponkileu |
-| other | Moldovan kuponkileuta |
-|  symbol | MDC |
-|  | Moldovan leu |
-| one | Moldovan leu |
-| other | Moldovan leuta |
-|  symbol | MDL |
-|  | Madagaskarin ariary |
-| one | Madagaskarin ariary |
-| other | Madagaskarin ariarya |
-|  symbol | MGA |
-| narrow symbol | MGA |
-|  | Madagaskarin frangi |
-| one | Madagaskarin frangi |
-| other | Madagaskarin frangia |
-|  symbol | MGF |
-|  | Makedonian denaari |
-| one | Makedonian denaari |
-| other | Makedonian denaaria |
-|  symbol | MKD |
-|  | Makedonian dinaari (1992–1993) |
-| one | Makedonian dinaari (1992–1993) |
-| other | Makedonian dinaaria (1992–1993) |
-|  symbol | MKN |
-|  | Malin frangi |
-| one | Malin frangi |
-| other | Malin frangia |
-|  symbol | MLF |
-|  | Myanmarin kyat |
-| one | Myanmarin kyat |
-| other | Myanmarin kyatia |
-|  symbol | MMK |
-| narrow symbol | MMK |
-|  | Mongolian tugrik |
-| one | Mongolian tugrik |
-| other | Mongolian tugrikia |
-|  symbol | MNT |
-| narrow symbol | MNT |
-|  | Macaon pataca |
-| one | Macaon pataca |
-| other | Macaon patacaa |
-|  symbol | MOP |
-|  | Mauritanian ouguiya |
-| one | Mauritanian ouguiya |
-| other | Mauritanian ouguiyaa |
-|  symbol | MRO |
-|  | Maltan liira |
-| one | Maltan liira |
-| other | Maltan liiraa |
-|  symbol | MTL |
-|  | Maltan punta |
-| one | Maltan punta |
-| other | Maltan puntaa |
-|  symbol | MTP |
-|  | Mauritiuksen rupia |
-| one | Mauritiuksen rupia |
-| other | Mauritiuksen rupiaa |
-|  symbol | MUR |
-| narrow symbol | MUR |
-|  | Malediivien rupia (1947–1981) |
-| one | Malediivien rupia (1947–1981) |
-| other | Malediivien rupiaa (1947–1981) |
-|  symbol | MVP |
-|  | Malediivien rufiyaa |
-| one | Malediivien rufiyaa |
-| other | Malediivien rufiyaata |
-|  symbol | MVR |
-|  | Malawin kwacha |
-| one | Malawin kwacha |
-| other | Malawin kwachaa |
-|  symbol | MWK |
-|  | Meksikon peso |
-| one | Meksikon peso |
-| other | Meksikon pesoa |
-|  symbol | MXN |
-| narrow symbol | MXN |
-|  | Meksikon hopeapeso (1861–1992) |
-| one | Meksikon hopeapeso (1861–1992) |
-| other | Meksikon hopeapesoa (1861–1992) |
-|  symbol | MXP |
-|  | Meksikon UDI |
-| one | Meksikon UDI |
-| other | Meksikon UDI’ta |
-|  symbol | MXV |
-|  | Malesian ringgit |
-| one | Malesian ringgit |
-| other | Malesian ringgitiä |
-|  symbol | MYR |
-| narrow symbol | MYR |
-|  | Mosambikin escudo |
-| one | Mosambikin escudo |
-| other | Mosambikin escudoa |
-|  symbol | MZE |
-|  | Mosambikin metical (1980–2006) |
-| one | Mosambikin metical (1980–2006) |
-| other | Mosambikin meticalia (1980–2006) |
-|  symbol | MZM |
-|  | Mosambikin metical |
-| one | Mosambikin metical |
-| other | Mosambikin meticalia |
-|  symbol | MZN |
-|  | Namibian dollari |
-| one | Namibian dollari |
-| other | Namibian dollaria |
-|  symbol | NAD |
-| narrow symbol | NAD |
-|  | Nigerian naira |
-| one | Nigerian naira |
-| other | Nigerian nairaa |
-|  symbol | NGN |
-| narrow symbol | NGN |
-|  | Nicaraguan córdoba (1988–1991) |
-| one | Nicaraguan córdoba (1988–1991) |
-| other | Nicaraguan córdobaa (1988–1991) |
-|  symbol | NIC |
-|  | Nicaraguan córdoba |
-| one | Nicaraguan córdoba |
-| other | Nicaraguan córdobaa |
-|  symbol | NIO |
-| narrow symbol | NIO |
-|  | Alankomaiden guldeni |
-| one | Alankomaiden guldeni |
-| other | Alankomaiden guldenia |
-|  symbol | NLG |
-|  | Norjan kruunu |
-| one | Norjan kruunu |
-| other | Norjan kruunua |
-|  symbol | NOK |
-| narrow symbol | NOK |
-|  | Nepalin rupia |
-| one | Nepalin rupia |
-| other | Nepalin rupiaa |
-|  symbol | NPR |
-| narrow symbol | NPR |
-|  | Uuden-Seelannin dollari |
-| one | Uuden-Seelannin dollari |
-| other | Uuden-Seelannin dollaria |
-|  symbol | NZD |
-| narrow symbol | NZD |
-|  | Omanin rial |
-| one | Omanin rial |
-| other | Omanin rialia |
-|  symbol | OMR |
-|  | Panaman balboa |
-| one | Panaman balboa |
-| other | Panaman balboaa |
-|  symbol | PAB |
-|  | Perun inti |
-| one | Perun inti |
-| other | Perun intiä |
-|  symbol | PEI |
-|  | Perun sol |
-| one | Perun sol |
-| other | Perun solia |
-|  symbol | PEN |
-|  | Perun sol (1863–1965) |
-| one | Perun sol (1863–1965) |
-| other | Perun solia (1863–1965) |
-|  symbol | PES |
-|  | Papua-Uuden-Guinean kina |
-| one | Papua-Uuden-Guinean kina |
-| other | Papua-Uuden-Guinean kinaa |
-|  symbol | PGK |
-|  | Filippiinien peso |
-| one | Filippiinien peso |
-| other | Filippiinien pesoa |
-|  symbol | PHP |
-| narrow symbol | PHP |
-|  | Pakistanin rupia |
-| one | Pakistanin rupia |
-| other | Pakistanin rupiaa |
-|  symbol | PKR |
-| narrow symbol | PKR |
-|  | Puolan złoty |
-| one | Puolan złoty |
-| other | Puolan złotya |
-|  symbol | PLN |
-| narrow symbol | PLN |
-|  | Puolan złoty (1950–1995) |
-| one | Puolan złoty (1950–1995) |
-| other | Puolan złotya (1950–1995) |
-|  symbol | PLZ |
-|  | Portugalin escudo |
-| one | Portugalin escudo |
-| other | Portugalin escudoa |
-|  symbol | PTE |
-|  | Paraguayn guarani |
-| one | Paraguayn guarani |
-| other | Paraguayn guarania |
-|  symbol | PYG |
-| narrow symbol | PYG |
-|  | Qatarin rial |
-| one | Qatarin rial |
-| other | Qatarin rialia |
-|  symbol | QAR |
-|  | Rhodesian dollari |
-| one | Rhodesian dollari |
-| other | Rhodesian dollaria |
-|  symbol | RHD |
-|  | Romanian leu (1952–2006) |
-| one | Romanian leu (1952–2006) |
-| other | Romanian leuta (1952–2006) |
-|  symbol | ROL |
-|  | Romanian leu |
-| one | Romanian leu |
-| other | Romanian leuta |
-|  symbol | RON |
-| narrow symbol | RON |
-|  | Serbian dinaari |
-| one | Serbian dinaari |
-| other | Serbian dinaaria |
-|  symbol | RSD |
-|  | Venäjän rupla |
-| one | Venäjän rupla |
-| other | Venäjän ruplaa |
-|  symbol | RUB |
-| narrow symbol | ₽ |
-|  | Venäjän rupla (1991–1998) |
-| one | Venäjän rupla (1991–1998) |
-| other | Venäjän ruplaa (1991–1998) |
-|  symbol | RUR |
-| narrow symbol | RUR |
-|  | Ruandan frangi |
-| one | Ruandan frangi |
-| other | Ruandan frangia |
-|  symbol | RWF |
-| narrow symbol | RWF |
-|  | Saudi-Arabian rial |
-| one | Saudi-Arabian rial |
-| other | Saudi-Arabian rialia |
-|  symbol | SAR |
-|  | Salomonsaarten dollari |
-| one | Salomonsaarten dollari |
-| other | Salomonsaarten dollaria |
-|  symbol | SBD |
-| narrow symbol | SBD |
-|  | Seychellien rupia |
-| one | Seychellien rupia |
-| other | Seychellien rupiaa |
-|  symbol | SCR |
-|  | Sudanin dinaari (1992–2007) |
-| one | Sudanin dinaari (1992–2007) |
-| other | Sudanin dinaaria (1992–2007) |
-|  symbol | SDD |
-|  | Sudanin punta |
-| one | Sudanin punta |
-| other | Sudanin puntaa |
-|  symbol | SDG |
-|  | Sudanin punta (1957–1998) |
-| one | Sudanin punta (1957–1998) |
-| other | Sudanin puntaa (1957–1998) |
-|  symbol | SDP |
-|  | Ruotsin kruunu |
-| one | Ruotsin kruunu |
-| other | Ruotsin kruunua |
-|  symbol | SEK |
-| narrow symbol | SEK |
-|  | Singaporen dollari |
-| one | Singaporen dollari |
-| other | Singaporen dollaria |
-|  symbol | SGD |
-| narrow symbol | SGD |
-|  | Saint Helenan punta |
-| one | Saint Helenan punta |
-| other | Saint Helenan puntaa |
-|  symbol | SHP |
-| narrow symbol | SHP |
-|  | Slovenian tolar |
-| one | Slovenian tolar |
-| other | Slovenian tolaria |
-|  symbol | SIT |
-|  | Slovakian koruna |
-| one | Slovakian koruna |
-| other | Slovakian korunaa |
-|  symbol | SKK |
-|  | Sierra Leonen leone |
-| one | Sierra Leonen leone |
-| other | Sierra Leonen leonea |
-|  symbol | SLL |
-|  | Somalian šillinki |
-| one | Somalian šillinki |
-| other | Somalian šillinkiä |
-|  symbol | SOS |
-|  | Surinamen dollari |
-| one | Surinamen dollari |
-| other | Surinamen dollaria |
-|  symbol | SRD |
-| narrow symbol | SRD |
-|  | Surinamen guldeni |
-| one | Surinamen guldeni |
-| other | Surinamen guldeni |
-|  symbol | SRG |
-|  | Etelä-Sudanin punta |
-| one | Etelä-Sudanin punta |
-| other | Etelä-Sudanin puntaa |
-|  symbol | SSP |
-| narrow symbol | SSP |
-|  | São Tomén ja Príncipen dobra (1977–2017) |
-| one | São Tomén ja Príncipen dobra (1977–2017) |
-| other | São Tomén ja Príncipen dobraa (1977–2017) |
-|  symbol | STD |
-|  | São Tomén ja Príncipen dobra |
-| one | São Tomén ja Príncipen dobra |
-| other | São Tomén ja Príncipen dobraa |
-|  symbol | STN |
-| narrow symbol | STD |
-|  | Neuvostoliiton rupla |
-| one | Neuvostoliiton rupla |
-| other | Neuvostoliiton ruplaa |
-|  symbol | SUR |
-|  | El Salvadorin colón |
-| one | El Salvadorin colón |
-| other | El Salvadorin colónia |
-|  symbol | SVC |
-|  | Syyrian punta |
-| one | Syyrian punta |
-| other | Syyrian puntaa |
-|  symbol | SYP |
-| narrow symbol | SYP |
-|  | Swazimaan lilangeni |
-| one | Swazimaan lilangeni |
-| other | Swazimaan lilangenia |
-|  symbol | SZL |
-|  | Thaimaan baht |
-| one | Thaimaan baht |
-| other | Thaimaan bahtia |
-|  symbol | THB |
-| narrow symbol | THB |
-|  | Tadžikistanin rupla |
-| one | Tadžikistanin rupla |
-| other | Tadžikistanin ruplaa |
-|  symbol | TJR |
-|  | Tadžikistanin somoni |
-| one | Tadžikistanin somoni |
-| other | Tadžikistanin somonia |
-|  symbol | TJS |
-|  | Turkmenistanin manat (1993–2009) |
-| one | Turkmenistanin manat (1993–2009) |
-| other | Turkmenistanin manatia (1993–2009) |
-|  symbol | TMM |
-|  | Turkmenistanin manat |
-| one | Turkmenistanin manat |
-| other | Turkmenistanin manatia |
-|  symbol | TMT |
-|  | Tunisian dinaari |
-| one | Tunisian dinaari |
-| other | Tunisian dinaaria |
-|  symbol | TND |
-|  | Tongan pa’anga |
-| one | Tongan pa’anga |
-| other | Tongan pa’angaa |
-|  symbol | TOP |
-| narrow symbol | TOP |
-|  | Timorin escudo |
-| one | Timorin escudo |
-| other | Timorin escudoa |
-|  symbol | TPE |
-|  | Turkin liira (1922–2005) |
-| one | Turkin liira (1922–2005) |
-| other | Turkin liiraa (1922–2005) |
-|  symbol | TRL |
-|  | Turkin liira |
-| one | Turkin liira |
-| other | Turkin liiraa |
-|  symbol | TRY |
-| narrow symbol | TRY |
-| variant symbol | TL |
-|  | Trinidadin ja Tobagon dollari |
-| one | Trinidadin ja Tobagon dollari |
-| other | Trinidadin ja Tobagon dollaria |
-|  symbol | TTD |
-| narrow symbol | TTD |
-|  | Taiwanin uusi dollari |
-| one | Taiwanin uusi dollari |
-| other | Taiwanin uutta dollaria |
-|  symbol | TWD |
-| narrow symbol | TWD |
-|  | Tansanian šillinki |
-| one | Tansanian šillinki |
-| other | Tansanian šillinkiä |
-|  symbol | TZS |
-|  | Ukrainan hryvnia |
-| one | Ukrainan hryvnia |
-| other | Ukrainan hryvniaa |
-|  symbol | UAH |
-| narrow symbol | UAH |
-|  | Ukrainan karbovanetz |
-| one | Ukrainan karbovanetz |
-| other | Ukrainan karbovanetzia |
-|  symbol | UAK |
-|  | Ugandan šillinki (1966–1987) |
-| one | Ugandan šillinki (1966–1987) |
-| other | Ugandan šillinkiä (1966–1987) |
-|  symbol | UGS |
-|  | Ugandan šillinki |
-| one | Ugandan šillinki |
-| other | Ugandan šillinkiä |
-|  symbol | UGX |
-|  | Yhdysvaltain dollari |
-| one | Yhdysvaltain dollari |
-| other | Yhdysvaltain dollaria |
-|  symbol | $ |
-| narrow symbol | $ |
-|  | Yhdysvaltain dollari (seuraava päivä) |
-| one | Yhdysvaltain dollari (seuraava päivä) |
-| other | Yhdysvaltain dollaria (seuraava päivä) |
-|  symbol | USN |
-|  | Yhdysvaltain dollari (sama päivä) |
-| one | Yhdysvaltain dollari (sama päivä) |
-| other | Yhdysvaltain dollaria (sama päivä) |
-|  symbol | USS |
-|  | Uruguayn peso en unidades indexadas |
-| one | Uruguayn peso en unidades indexadas |
-| other | Uruguayn pesoa en unidades indexadas |
-|  symbol | UYI |
-|  | Uruguayn peso (1975–1993) |
-| one | Uruguayn peso (1975–1993) |
-| other | Uruguayn pesoa (1975–1993) |
-|  symbol | UYP |
-|  | Uruguayn peso |
-| one | Uruguayn peso |
-| other | Uruguayn pesoa |
-|  symbol | UYU |
-| narrow symbol | UYU |
-|  | Uzbekistanin som |
-| one | Uzbekistanin som |
-| other | Uzbekistanin somia |
-|  symbol | UZS |
-|  | Venezuelan bolivar (1871–2008) |
-| one | Venezuelan bolivar (1871–2008) |
-| other | Venezuelan bolivaria (1871–2008) |
-|  symbol | VEB |
-|  | Venezuelan bolivar |
-| one | Venezuelan bolivar |
-| other | Venezuelan bolivaria |
-|  symbol | VEF |
-| narrow symbol | VEF |
-|  | Vietnamin dong |
-| one | Vietnamin dong |
-| other | Vietnamin dongia |
-|  symbol | VND |
-| narrow symbol | VND |
-|  | Vietnamin dong (1978–1985) |
-| one | Vietnamin dong (1978–1985) |
-| other | Vietnamin dongia (1978–1985) |
-|  symbol | VNN |
-|  | Vanuatun vatu |
-| one | Vanuatun vatu |
-| other | Vanuatun vatua |
-|  symbol | VUV |
-|  | Samoan tala |
-| one | Samoan tala |
-| other | Samoan talaa |
-|  symbol | WST |
-|  | CFA-frangi BEAC |
-| one | CFA-frangi BEAC |
-| other | CFA-frangia BEAC |
-|  symbol | FCFA |
-|  | hopea |
-| one | troy-unssi hopeaa |
-| other | troy-unssia hopeaa |
-|  symbol | XAG |
-|  | kulta |
-| one | troy-unssi kultaa |
-| other | troy-unssia kultaa |
-|  symbol | XAU |
-|  | EURCO |
-| one | EURCO |
-| other | EURCO’a |
-|  symbol | XBA |
-|  | Euroopan rahayksikkö (EMU) |
-| one | Euroopan rahayksikkö (EMU) |
-| other | Euroopan rahayksikköä (EMU) |
-|  symbol | XBB |
-|  | EUA (XBC) |
-| one | EUA (XBC) |
-| other | EUA’ta (XBC) |
-|  symbol | XBC |
-|  | EUA (XBD) |
-| one | EUA (XBD) |
-| other | EUA’ta (XBD) |
-|  symbol | XBD |
-|  | Itä-Karibian dollari |
-| one | Itä-Karibian dollari |
-| other | Itä-Karibian dollaria |
-|  symbol | XCD |
-| narrow symbol | XCD |
-|  | erityisnosto-oikeus (SDR) |
-| one | erityisnosto-oikeus (SDR) |
-| other | erityisnosto-oikeutta (SDR) |
-|  symbol | XDR |
-|  | Euroopan valuuttayksikkö (ECU) |
-| one | Euroopan valuuttayksikkö (ECU) |
-| other | Euroopan valuuttayksikköä (ECU) |
-|  symbol | XEU |
-|  | Ranskan kultafrangi |
-| one | Ranskan kultafrangi |
-| other | Ranskan kultafrangia |
-|  symbol | XFO |
-|  | Ranskan UIC-frangi |
-| one | Ranskan UIC-frangi |
-| other | Ranskan UIC-frangia |
-|  symbol | XFU |
-|  | CFA-frangi BCEAO |
-| one | CFA-frangi BCEAO |
-| other | CFA-frangia BCEAO |
-|  symbol | CFA |
-|  | palladium |
-| one | troy-unssi palladiumia |
-| other | troy-unssia palladiumia |
-|  symbol | XPD |
-|  | CFP-frangi |
-| one | CFP-frangi |
-| other | CFP-frangia |
-|  symbol | XPF |
-|  | platina |
-| one | troy-unssi platinaa |
-| other | troy-unssia platinaa |
-|  symbol | XPT |
-|  | RINET-rahastot |
-| one | RINET-rahastoyksikkö |
-| other | RINET-rahastoyksikköä |
-|  symbol | XRE |
-|  | etelä-amerikkalaisen ALBA:n laskentayksikkö sucre |
-| one | sucre |
-| other | sucrea |
-|  symbol | XSU |
-|  | testaustarkoitukseen varattu valuuttakoodi |
-| one | testaustarkoitukseen varattu valuuttakoodi |
-| other | testaustarkoitukseen varattua valuuttakoodia |
-|  symbol | XTS |
-|  | afrikkalainen AfDB-laskentayksikkö |
-| one | AfDB-laskentayksikkö |
-| other | AfDB-laskentayksikköä |
-|  symbol | XUA |
-|  | tuntematon rahayksikkö |
-| one | tuntematon rahayksikkö |
-| other | tuntematonta rahayksikköä |
-|  symbol | XXX |
-|  | Jemenin dinaari |
-| one | Jemenin dinaari |
-| other | Jemenin dinaaria |
-|  symbol | YDD |
-|  | Jemenin rial |
-| one | Jemenin rial |
-| other | Jemenin rialia |
-|  symbol | YER |
-|  | Jugoslavian kova dinaari (1966–1990) |
-| one | Jugoslavian kova dinaari (1966–1990) |
-| other | Jugoslavian kovaa dinaaria (1966–1990) |
-|  symbol | YUD |
-|  | Jugoslavian uusi dinaari (1994–2002) |
-| one | Jugoslavian uusi dinaari (1994–2002) |
-| other | Jugoslavian uutta dinaaria (1994–2002) |
-|  symbol | YUM |
-|  | Jugoslavian vaihdettava dinaari (1990–1992) |
-| one | Jugoslavian vaihdettava dinaari (1990–1992) |
-| other | Jugoslavian vaihdettavaa dinaaria (1990–1992) |
-|  symbol | YUN |
-|  | Jugoslavian uudistettu dinaari (1992–1993) |
-| one | Jugoslavian uudistettu dinaari (1992–1993) |
-| other | Jugoslavian uudistettua dinaaria (1992–1993) |
-|  symbol | YUR |
-|  | Etelä-Afrikan rahoitusrandi |
-| one | Etelä-Afrikan rahoitusrandi |
-| other | Etelä-Afrikan rahoitusrandia |
-|  symbol | ZAL |
-|  | Etelä-Afrikan randi |
-| one | Etelä-Afrikan randi |
-| other | Etelä-Afrikan randia |
-|  symbol | ZAR |
-| narrow symbol | ZAR |
-|  | Sambian kwacha (1968–2012) |
-| one | Sambian kwacha (1968–2012) |
-| other | Sambian kwachaa (1968–2012) |
-|  symbol | ZMK |
-|  | Sambian kwacha |
-| one | Sambian kwacha |
-| other | Sambian kwachaa |
-|  symbol | ZMW |
-| narrow symbol | ZMW |
-|  | Zairen uusi zaire (1993–1998) |
-| one | Zairen uusi zaire (1993–1998) |
-| other | Zairen uutta zairea (1993–1998) |
-|  symbol | ZRN |
-|  | Zairen zaire (1971–1993) |
-| one | Zairen zaire (1971–1993) |
-| other | Zairen zairea (1971–1993) |
-|  symbol | ZRZ |
-|  | Zimbabwen dollari (1980–2008) |
-| one | Zimbabwen dollari (1980–2008) |
-| other | Zimbabwen dollaria (1980–2008) |
-|  symbol | ZWD |
-|  | Zimbabwen dollari (2009) |
-| one | Zimbabwen dollari (2009) |
-| other | Zimbabwen dollaria (2009) |
-|  symbol | ZWL |
-|  | Zimbabwen dollari (2008) |
-| one | Zimbabwen dollari (2008) |
-| other | Zimbabwen dollaria (2008) |
-|  symbol | ZWR |
+| , ADP | Andorran peseta |
+| one, ADP | Andorran peseta |
+| other, ADP | Andorran pesetaa |
+| , ADP symbol | ADP |
+| , AED | Arabiemiirikuntien dirhami |
+| one, AED | Arabiemiirikuntien dirhami |
+| other, AED | Arabiemiirikuntien dirhamia |
+| , AED symbol | AED |
+| , AFA | Afganistanin afgaani (1927–2002) |
+| one, AFA | Afganistanin afgaani (1927–2002) |
+| other, AFA | Afganistanin afgaania (1927–2002) |
+| , AFA symbol | AFA |
+| , AFN | Afganistanin afgaani |
+| one, AFN | Afganistanin afgaani |
+| other, AFN | Afganistanin afgaania |
+| , AFN symbol | AFN |
+| , ALK | Albanian lek (1946–1965) |
+| one, ALK | Albanian lek (1946–1965) |
+| other, ALK | Albanian lekiä (1946–1965) |
+| , ALK symbol | ALK |
+| , ALL | Albanian lek |
+| one, ALL | Albanian lek |
+| other, ALL | Albanian lekiä |
+| , ALL symbol | ALL |
+| , AMD | Armenian dram |
+| one, AMD | Armenian dram |
+| other, AMD | Armenian dramia |
+| , AMD symbol | AMD |
+| , ANG | Alankomaiden Antillien guldeni |
+| one, ANG | Alankomaiden Antillien guldeni |
+| other, ANG | Alankomaiden Antillien guldenia |
+| , ANG symbol | ANG |
+| , AOA | Angolan kwanza |
+| one, AOA | Angolan kwanza |
+| other, AOA | Angolan kwanzaa |
+| , AOA symbol | AOA |
+| narrow, AOA symbol | AOA |
+| , AOK | Angolan kwanza (1977–1991) |
+| one, AOK | Angolan kwanza (1977–1990) |
+| other, AOK | Angolan kwanzaa (1977–1990) |
+| , AOK symbol | AOK |
+| , AON | Angolan uusi kwanza (1990–2000) |
+| one, AON | Angolan uusi kwanza (1990–2000) |
+| other, AON | Angolan uutta kwanzaa (1990–2000) |
+| , AON symbol | AON |
+| , AOR | Angolan kwanza reajustado (1995–1999) |
+| one, AOR | Angolan kwanza reajustado (1995–1999) |
+| other, AOR | Angolan kwanza reajustadoa (1995–1999) |
+| , AOR symbol | AOR |
+| , ARA | Argentiinan austral |
+| one, ARA | Argentiinan austral |
+| other, ARA | Argentiinan australia |
+| , ARA symbol | ARA |
+| , ARL | Argentiinan ley-peso (1970–1983) |
+| one, ARL | Argentiinan ley-peso (1970–1983) |
+| other, ARL | Argentiinan ley-pesoa (1970–1983) |
+| , ARL symbol | ARL |
+| , ARM | Argentiinan peso (1881–1970) |
+| one, ARM | Argentiinan peso (1881–1970) |
+| other, ARM | Argentiinan pesoa (1881–1970) |
+| , ARM symbol | ARM |
+| , ARP | Argentiinan peso (1983–1985) |
+| one, ARP | Argentiinan peso (1983–1985) |
+| other, ARP | Argentiinan pesoa (1983–1985) |
+| , ARP symbol | ARP |
+| , ARS | Argentiinan peso |
+| one, ARS | Argentiinan peso |
+| other, ARS | Argentiinan pesoa |
+| , ARS symbol | ARS |
+| narrow, ARS symbol | ARS |
+| , ATS | Itävallan šillinki |
+| one, ATS | Itävallan šillinki |
+| other, ATS | Itävallan šillinkiä |
+| , ATS symbol | ATS |
+| , AUD | Australian dollari |
+| one, AUD | Australian dollari |
+| other, AUD | Australian dollaria |
+| , AUD symbol | AUD |
+| narrow, AUD symbol | AUD |
+| , AWG | Aruban floriini |
+| one, AWG | Aruban floriini |
+| other, AWG | Aruban floriinia |
+| , AWG symbol | AWG |
+| , AZM | Azerbaidžanin manat (1993–2006) |
+| one, AZM | Azerbaidžanin manat (1993–2006) |
+| other, AZM | Azerbaidžanin manatia (1993–2006) |
+| , AZM symbol | AZM |
+| , AZN | Azerbaidžanin manat |
+| one, AZN | Azerbaidžanin manat |
+| other, AZN | Azerbaidžanin manatia |
+| , AZN symbol | AZN |
+| , BAD | Bosnia-Hertsegovinan dinaari (1992–1994) |
+| one, BAD | Bosnia-Hertsegovinan dinaari (1992–1994) |
+| other, BAD | Bosnia-Hertsegovinan dinaaria (1992–1994) |
+| , BAD symbol | BAD |
+| , BAM | Bosnia-Hertsegovinan vaihdettava markka |
+| one, BAM | Bosnia-Hertsegovinan vaihdettava markka |
+| other, BAM | Bosnia-Hertsegovinan vaihdettavaa markkaa |
+| , BAM symbol | BAM |
+| narrow, BAM symbol | BAM |
+| , BAN | Bosnia-Hertsegovinan uusi dinaari (1994–1997) |
+| one, BAN | Bosnia-Hertsegovinan uusi dinaari (1994–1997) |
+| other, BAN | Bosnia-Hertsegovinan uutta dinaaria (1994–1997) |
+| , BAN symbol | BAN |
+| , BBD | Barbadosin dollari |
+| one, BBD | Barbadosin dollari |
+| other, BBD | Barbadosin dollaria |
+| , BBD symbol | BBD |
+| narrow, BBD symbol | BBD |
+| , BDT | Bangladeshin taka |
+| one, BDT | Bangladeshin taka |
+| other, BDT | Bangladeshin takaa |
+| , BDT symbol | BDT |
+| narrow, BDT symbol | BDT |
+| , BEC | Belgian vaihdettava frangi |
+| one, BEC | Belgian vaihdettava frangi |
+| other, BEC | Belgian vaihdettavaa frangia |
+| , BEC symbol | BEC |
+| , BEF | Belgian frangi |
+| one, BEF | Belgian frangi |
+| other, BEF | Belgian frangia |
+| , BEF symbol | BEF |
+| , BEL | Belgian rahoitusfrangi |
+| one, BEL | Belgian rahoitusfrangi |
+| other, BEL | Belgian rahoitusfrangia |
+| , BEL symbol | BEL |
+| , BGL | Bulgarian kova lev |
+| one, BGL | Bulgarian kova lev |
+| other, BGL | Bulgarian kovaa leviä |
+| , BGL symbol | BGL |
+| , BGM | Bulgarian sosialistinen lev |
+| one, BGM | Bulgarian sosialistinen lev |
+| other, BGM | Bulgarian sosialistista leviä |
+| , BGM symbol | BGM |
+| , BGN | Bulgarian lev |
+| one, BGN | Bulgarian lev |
+| other, BGN | Bulgarian leviä |
+| , BGN symbol | BGN |
+| , BGO | Bulgarian lev (1879–1952) |
+| one, BGO | Bulgarian lev (1879–1952) |
+| other, BGO | Bulgarian leviä (1879–1952) |
+| , BGO symbol | BGO |
+| , BHD | Bahrainin dinaari |
+| one, BHD | Bahrainin dinaari |
+| other, BHD | Bahrainin dinaaria |
+| , BHD symbol | BHD |
+| , BIF | Burundin frangi |
+| one, BIF | Burundin frangi |
+| other, BIF | Burundin frangia |
+| , BIF symbol | BIF |
+| , BMD | Bermudan dollari |
+| one, BMD | Bermudan dollari |
+| other, BMD | Bermudan dollaria |
+| , BMD symbol | BMD |
+| narrow, BMD symbol | BMD |
+| , BND | Brunein dollari |
+| one, BND | Brunein dollari |
+| other, BND | Brunein dollaria |
+| , BND symbol | BND |
+| narrow, BND symbol | BND |
+| , BOB | Bolivian boliviano |
+| one, BOB | Bolivian boliviano |
+| other, BOB | Bolivian bolivianoa |
+| , BOB symbol | BOB |
+| narrow, BOB symbol | BOB |
+| , BOL | Bolivian boliviano (1863–1963) |
+| one, BOL | Bolivian boliviano (1863–1963) |
+| other, BOL | Bolivian bolivianoa (1863–1963) |
+| , BOL symbol | BOL |
+| , BOP | Bolivian peso |
+| one, BOP | Bolivian peso |
+| other, BOP | Bolivian pesoa |
+| , BOP symbol | BOP |
+| , BOV | Bolivian mvdol |
+| one, BOV | Bolivian mvdol |
+| other, BOV | Bolivian mvdol’ia |
+| , BOV symbol | BOV |
+| , BRB | Brasilian uusi cruzeiro (1967–1986) |
+| one, BRB | Brasilian uusi cruzeiro (1967–1986) |
+| other, BRB | Brasilian uutta cruzeiroa (1967–1986) |
+| , BRB symbol | BRB |
+| , BRC | Brasilian cruzado (1986–1989) |
+| one, BRC | Brasilian cruzado (1986–1989) |
+| other, BRC | Brasilian cruzadoa (1986–1989) |
+| , BRC symbol | BRC |
+| , BRE | Brasilian cruzeiro (1990–1993) |
+| one, BRE | Brasilian cruzeiro (1990–1993) |
+| other, BRE | Brasilian cruzeiroa (1990–1993) |
+| , BRE symbol | BRE |
+| , BRL | Brasilian real |
+| one, BRL | Brasilian real |
+| other, BRL | Brasilian realia |
+| , BRL symbol | BRL |
+| narrow, BRL symbol | BRL |
+| , BRN | Brasilian uusi cruzado (1989–1990) |
+| one, BRN | Brasilian uusi cruzado (1989–1990) |
+| other, BRN | Brasilian uutta cruzadoa (1989–1990) |
+| , BRN symbol | BRN |
+| , BRR | Brasilian cruzeiro (1993–1994) |
+| one, BRR | Brasilian cruzeiro (1993–1994) |
+| other, BRR | Brasilian cruzeiroa (1993–1994) |
+| , BRR symbol | BRR |
+| , BRZ | Brasilian cruzeiro (1942–1967) |
+| one, BRZ | Brasilian cruzeiro (1942–1967) |
+| other, BRZ | Brasilian cruzeiroa (1942–1967) |
+| , BRZ symbol | BRZ |
+| , BSD | Bahaman dollari |
+| one, BSD | Bahaman dollari |
+| other, BSD | Bahaman dollaria |
+| , BSD symbol | BSD |
+| narrow, BSD symbol | BSD |
+| , BTN | Bhutanin ngultrum |
+| one, BTN | Bhutanin ngultrum |
+| other, BTN | Bhutanin ngultrumia |
+| , BTN symbol | BTN |
+| , BUK | Burman kyat |
+| one, BUK | Burman kyat |
+| other, BUK | Burman kyatia |
+| , BUK symbol | BUK |
+| , BWP | Botswanan pula |
+| one, BWP | Botswanan pula |
+| other, BWP | Botswanan pulaa |
+| , BWP symbol | BWP |
+| narrow, BWP symbol | BWP |
+| , BYB | Valko-Venäjän uusi rupla (1994–1999) |
+| one, BYB | Valko-Venäjän uusi rupla (1994–1999) |
+| other, BYB | Valko-Venäjän uutta ruplaa (1994–1999) |
+| , BYB symbol | BYB |
+| , BYN | Valko-Venäjän rupla |
+| one, BYN | Valko-Venäjän rupla |
+| other, BYN | Valko-Venäjän ruplaa |
+| , BYN symbol | BYN |
+| narrow, BYN symbol | BYN |
+| , BYR | Valko-Venäjän rupla (2000–2016) |
+| one, BYR | Valko-Venäjän rupla (2000–2016) |
+| other, BYR | Valko-Venäjän ruplaa (2000–2016) |
+| , BYR symbol | BYR |
+| , BZD | Belizen dollari |
+| one, BZD | Belizen dollari |
+| other, BZD | Belizen dollaria |
+| , BZD symbol | BZD |
+| narrow, BZD symbol | BZD |
+| , CAD | Kanadan dollari |
+| one, CAD | Kanadan dollari |
+| other, CAD | Kanadan dollaria |
+| , CAD symbol | CAD |
+| narrow, CAD symbol | CAD |
+| , CDF | Kongon frangi |
+| one, CDF | Kongon frangi |
+| other, CDF | Kongon frangia |
+| , CDF symbol | CDF |
+| , CHE | Sveitsin WIR-euro |
+| one, CHE | Sveitsin WIR-euro |
+| other, CHE | Sveitsin WIR-euroa |
+| , CHE symbol | CHE |
+| , CHF | Sveitsin frangi |
+| one, CHF | Sveitsin frangi |
+| other, CHF | Sveitsin frangia |
+| , CHF symbol | CHF |
+| , CHW | Sveitsin WIR-frangi |
+| one, CHW | Sveitsin WIR-frangi |
+| other, CHW | Sveitsin WIR-frangia |
+| , CHW symbol | CHW |
+| , CLE | Chilen escudo |
+| one, CLE | Chilen escudo |
+| other, CLE | Chilen escudoa |
+| , CLE symbol | CLE |
+| , CLF | Chilen unidades de fomento |
+| one, CLF | Chilen unidades de fomento |
+| other, CLF | Chilen unidades de fomentoa |
+| , CLF symbol | CLF |
+| , CLP | Chilen peso |
+| one, CLP | Chilen peso |
+| other, CLP | Chilen pesoa |
+| , CLP symbol | CLP |
+| narrow, CLP symbol | CLP |
+| , CNH | Kiinan juan (offshore) |
+| one, CNH | Kiinan juan (offshore) |
+| other, CNH | Kiinan juania (offshore) |
+| , CNH symbol | CNH |
+| , CNX | Kiinan kansanpankin dollari |
+| one, CNX | Kiinan kansanpankin dollari |
+| other, CNX | Kiinan kansanpankin dollaria |
+| , CNX symbol | CNX |
+| , CNY | Kiinan juan |
+| one, CNY | Kiinan juan |
+| other, CNY | Kiinan juania |
+| , CNY symbol | CNY |
+| narrow, CNY symbol | CNY |
+| , COP | Kolumbian peso |
+| one, COP | Kolumbian peso |
+| other, COP | Kolumbian pesoa |
+| , COP symbol | COP |
+| narrow, COP symbol | COP |
+| , COU | Kolumbian unidad de valor real |
+| one, COU | Kolumbian unidad de valor real |
+| other, COU | Kolumbian unidad de valor realia |
+| , COU symbol | COU |
+| , CRC | Costa Rican colón |
+| one, CRC | Costa Rican colón |
+| other, CRC | Costa Rican colónia |
+| , CRC symbol | CRC |
+| narrow, CRC symbol | CRC |
+| , CSD | Serbian dinaari (2002–2006) |
+| one, CSD | Serbian dinaari (2002–2006) |
+| other, CSD | Serbian dinaaria (2002–2006) |
+| , CSD symbol | CSD |
+| , CSK | Tšekkoslovakian kova koruna |
+| one, CSK | Tšekkoslovakian kova koruna |
+| other, CSK | Tšekkoslovakian kovaa korunaa |
+| , CSK symbol | CSK |
+| , CUC | Kuuban vaihdettava peso |
+| one, CUC | Kuuban vaihdettava peso |
+| other, CUC | Kuuban vaihdettavaa pesoa |
+| , CUC symbol | CUC |
+| narrow, CUC symbol | CUC |
+| , CUP | Kuuban peso |
+| one, CUP | Kuuban peso |
+| other, CUP | Kuuban pesoa |
+| , CUP symbol | CUP |
+| narrow, CUP symbol | CUP |
+| , CVE | Kap Verden escudo |
+| one, CVE | Kap Verden escudo |
+| other, CVE | Kap Verden escudoa |
+| , CVE symbol | CVE |
+| , CYP | Kyproksen punta |
+| one, CYP | Kyproksen punta |
+| other, CYP | Kyproksen puntaa |
+| , CYP symbol | CYP |
+| , CZK | Tšekin koruna |
+| one, CZK | Tšekin koruna |
+| other, CZK | Tšekin korunaa |
+| , CZK symbol | CZK |
+| narrow, CZK symbol | CZK |
+| , DDM | Itä-Saksan markka |
+| one, DDM | Itä-Saksan markka |
+| other, DDM | Itä-Saksan markkaa |
+| , DDM symbol | DDM |
+| , DEM | Saksan markka |
+| one, DEM | Saksan markka |
+| other, DEM | Saksan markkaa |
+| , DEM symbol | DEM |
+| , DJF | Djiboutin frangi |
+| one, DJF | Djiboutin frangi |
+| other, DJF | Djiboutin frangia |
+| , DJF symbol | DJF |
+| , DKK | Tanskan kruunu |
+| one, DKK | Tanskan kruunu |
+| other, DKK | Tanskan kruunua |
+| , DKK symbol | DKK |
+| narrow, DKK symbol | DKK |
+| , DOP | Dominikaanisen tasavallan peso |
+| one, DOP | Dominikaanisen tasavallan peso |
+| other, DOP | Dominikaanisen tasavallan pesoa |
+| , DOP symbol | DOP |
+| narrow, DOP symbol | DOP |
+| , DZD | Algerian dinaari |
+| one, DZD | Algerian dinaari |
+| other, DZD | Algerian dinaaria |
+| , DZD symbol | DZD |
+| , ECS | Ecuadorin sucre |
+| one, ECS | Ecuadorin sucre |
+| other, ECS | Ecuadorin sucrea |
+| , ECS symbol | ECS |
+| , ECV | Ecuadorin UVC |
+| one, ECV | Ecuadorin UVC |
+| other, ECV | Ecuadorin UVC’ta |
+| , ECV symbol | ECV |
+| , EEK | Viron kruunu |
+| one, EEK | Viron kruunu |
+| other, EEK | Viron kruunua |
+| , EEK symbol | EEK |
+| , EGP | Egyptin punta |
+| one, EGP | Egyptin punta |
+| other, EGP | Egyptin puntaa |
+| , EGP symbol | EGP |
+| narrow, EGP symbol | EGP |
+| , ERN | Eritrean nakfa |
+| one, ERN | Eritrean nakfa |
+| other, ERN | Eritrean nakfaa |
+| , ERN symbol | ERN |
+| , ESA | Espanjan peseta (A-tili) |
+| one, ESA | Espanjan peseta (A-tili) |
+| other, ESA | Espanjan pesetaa (A-tili) |
+| , ESA symbol | ESA |
+| , ESB | Espanjan peseta (vaihdettava tili) |
+| one, ESB | Espanjan peseta (vaihdettava tili) |
+| other, ESB | Espanjan pesetaa (vaihdettava tili) |
+| , ESB symbol | ESB |
+| , ESP | Espanjan peseta |
+| one, ESP | Espanjan peseta |
+| other, ESP | Espanjan pesetaa |
+| , ESP symbol | ESP |
+| narrow, ESP symbol | ESP |
+| , ETB | Etiopian birr |
+| one, ETB | Etiopian birr |
+| other, ETB | Etiopian birriä |
+| , ETB symbol | ETB |
+| , EUR | euro |
+| one, EUR | euro |
+| other, EUR | euroa |
+| , EUR symbol | € |
+| narrow, EUR symbol | € |
+| , FIM | Suomen markka |
+| one, FIM | Suomen markka |
+| other, FIM | Suomen markkaa |
+| , FIM symbol | mk |
+| , FJD | Fidžin dollari |
+| one, FJD | Fidžin dollari |
+| other, FJD | Fidžin dollaria |
+| , FJD symbol | FJD |
+| narrow, FJD symbol | FJD |
+| , FKP | Falklandinsaarten punta |
+| one, FKP | Falklandinsaarten punta |
+| other, FKP | Falklandinsaarten puntaa |
+| , FKP symbol | FKP |
+| narrow, FKP symbol | FKP |
+| , FRF | Ranskan frangi |
+| one, FRF | Ranskan frangi |
+| other, FRF | Ranskan frangia |
+| , FRF symbol | FRF |
+| , GBP | Englannin punta |
+| one, GBP | Englannin punta |
+| other, GBP | Englannin puntaa |
+| , GBP symbol | £ |
+| narrow, GBP symbol | £ |
+| , GEK | Georgian kuponkilari |
+| one, GEK | Georgian kuponkilari |
+| other, GEK | Georgian kuponkilaria |
+| , GEK symbol | GEK |
+| , GEL | Georgian lari |
+| one, GEL | Georgian lari |
+| other, GEL | Georgian laria |
+| , GEL symbol | GEL |
+| narrow, GEL symbol | GEL |
+| , GHC | Ghanan cedi (1979–2007) |
+| one, GHC | Ghanan cedi (1979–2007) |
+| other, GHC | Ghanan cediä (1979–2007) |
+| , GHC symbol | GHC |
+| , GHS | Ghanan cedi |
+| one, GHS | Ghanan cedi |
+| other, GHS | Ghanan cediä |
+| , GHS symbol | GHS |
+| , GIP | Gibraltarin punta |
+| one, GIP | Gibraltarin punta |
+| other, GIP | Gibraltarin puntaa |
+| , GIP symbol | GIP |
+| narrow, GIP symbol | GIP |
+| , GMD | Gambian dalasi |
+| one, GMD | Gambian dalasi |
+| other, GMD | Gambian dalasia |
+| , GMD symbol | GMD |
+| , GNF | Guinean frangi |
+| one, GNF | Guinean frangi |
+| other, GNF | Guinean frangia |
+| , GNF symbol | GNF |
+| narrow, GNF symbol | GNF |
+| , GNS | Guinean syli |
+| one, GNS | Guinean syli |
+| other, GNS | Guinean syliä |
+| , GNS symbol | GNS |
+| , GQE | Päiväntasaajan Guinean ekwele |
+| one, GQE | Päiväntasaajan Guinean ekwele |
+| other, GQE | Päiväntasaajan Guinean ekweleä |
+| , GQE symbol | GQE |
+| , GRD | Kreikan drakma |
+| one, GRD | Kreikan drakma |
+| other, GRD | Kreikan drakmaa |
+| , GRD symbol | GRD |
+| , GTQ | Guatemalan quetzal |
+| one, GTQ | Guatemalan quetzal |
+| other, GTQ | Guatemalan quetzalia |
+| , GTQ symbol | GTQ |
+| narrow, GTQ symbol | GTQ |
+| , GWE | Portugalin Guinean escudo |
+| one, GWE | Portugalin Guinean escudo |
+| other, GWE | Portugalin Guinean escudoa |
+| , GWE symbol | GWE |
+| , GWP | Guinea-Bissaun peso |
+| one, GWP | Guinea-Bissaun peso |
+| other, GWP | Guinea-Bissaun pesoa |
+| , GWP symbol | GWP |
+| , GYD | Guyanan dollari |
+| one, GYD | Guyanan dollari |
+| other, GYD | Guyanan dollaria |
+| , GYD symbol | GYD |
+| narrow, GYD symbol | GYD |
+| , HKD | Hongkongin dollari |
+| one, HKD | Hongkongin dollari |
+| other, HKD | Hongkongin dollaria |
+| , HKD symbol | HKD |
+| narrow, HKD symbol | HKD |
+| , HNL | Hondurasin lempira |
+| one, HNL | Hondurasin lempira |
+| other, HNL | Hondurasin lempiraa |
+| , HNL symbol | HNL |
+| narrow, HNL symbol | HNL |
+| , HRD | Kroatian dinaari |
+| one, HRD | Kroatian dinaari |
+| other, HRD | Kroatian dinaaria |
+| , HRD symbol | HRD |
+| , HRK | Kroatian kuna |
+| one, HRK | Kroatian kuna |
+| other, HRK | Kroatian kunaa |
+| , HRK symbol | HRK |
+| narrow, HRK symbol | HRK |
+| , HTG | Haitin gourde |
+| one, HTG | Haitin gourde |
+| other, HTG | Haitin gourdea |
+| , HTG symbol | HTG |
+| , HUF | Unkarin forintti |
+| one, HUF | Unkarin forintti |
+| other, HUF | Unkarin forinttia |
+| , HUF symbol | HUF |
+| narrow, HUF symbol | HUF |
+| , IDR | Indonesian rupia |
+| one, IDR | Indonesian rupia |
+| other, IDR | Indonesian rupiaa |
+| , IDR symbol | IDR |
+| narrow, IDR symbol | IDR |
+| , IEP | Irlannin punta |
+| one, IEP | Irlannin punta |
+| other, IEP | Irlannin puntaa |
+| , IEP symbol | IEP |
+| , ILP | Israelin punta |
+| one, ILP | Israelin punta |
+| other, ILP | Israelin puntaa |
+| , ILP symbol | ILP |
+| , ILR | Israelin sekeli (1980–1985) |
+| one, ILR | Israelin sekeli (1980–1985) |
+| other, ILR | Israelin sekeliä (1980–1985) |
+| , ILR symbol | ILR |
+| , ILS | Israelin uusi sekeli |
+| one, ILS | Israelin uusi sekeli |
+| other, ILS | Israelin uutta sekeliä |
+| , ILS symbol | ILS |
+| narrow, ILS symbol | ILS |
+| , INR | Intian rupia |
+| one, INR | Intian rupia |
+| other, INR | Intian rupiaa |
+| , INR symbol | INR |
+| narrow, INR symbol | INR |
+| , IQD | Irakin dinaari |
+| one, IQD | Irakin dinaari |
+| other, IQD | Irakin dinaaria |
+| , IQD symbol | IQD |
+| , IRR | Iranin rial |
+| one, IRR | Iranin rial |
+| other, IRR | Iranin rialia |
+| , IRR symbol | IRR |
+| , ISJ | Islannin kruunu (1918–1981) |
+| one, ISJ | Islannin kruunu (1918–1981) |
+| other, ISJ | Islannin kruunua (1918–1981) |
+| , ISJ symbol | ISJ |
+| , ISK | Islannin kruunu |
+| one, ISK | Islannin kruunu |
+| other, ISK | Islannin kruunua |
+| , ISK symbol | ISK |
+| narrow, ISK symbol | ISK |
+| , ITL | Italian liira |
+| one, ITL | Italian liira |
+| other, ITL | Italian liiraa |
+| , ITL symbol | ITL |
+| , JMD | Jamaikan dollari |
+| one, JMD | Jamaikan dollari |
+| other, JMD | Jamaikan dollaria |
+| , JMD symbol | JMD |
+| narrow, JMD symbol | JMD |
+| , JOD | Jordanian dinaari |
+| one, JOD | Jordanian dinaari |
+| other, JOD | Jordanian dinaaria |
+| , JOD symbol | JOD |
+| , JPY | Japanin jeni |
+| one, JPY | Japanin jeni |
+| other, JPY | Japanin jeniä |
+| , JPY symbol | ¥ |
+| narrow, JPY symbol | ¥ |
+| , KES | Kenian šillinki |
+| one, KES | Kenian šillinki |
+| other, KES | Kenian šillinkiä |
+| , KES symbol | KES |
+| , KGS | Kirgisian som |
+| one, KGS | Kirgisian som |
+| other, KGS | Kirgisian somia |
+| , KGS symbol | KGS |
+| , KHR | Kambodžan riel |
+| one, KHR | Kambodžan riel |
+| other, KHR | Kambodžan rieliä |
+| , KHR symbol | KHR |
+| narrow, KHR symbol | KHR |
+| , KMF | Komorien frangi |
+| one, KMF | Komorien frangi |
+| other, KMF | Komorien frangia |
+| , KMF symbol | KMF |
+| narrow, KMF symbol | KMF |
+| , KPW | Pohjois-Korean won |
+| one, KPW | Pohjois-Korean won |
+| other, KPW | Pohjois-Korean wonia |
+| , KPW symbol | KPW |
+| narrow, KPW symbol | KPW |
+| , KRH | Etelä-Korean hwan (1953–1962) |
+| one, KRH | Etelä-Korean hwan (1953–1962) |
+| other, KRH | Etelä-Korean hwania (1953–1962) |
+| , KRH symbol | KRH |
+| , KRO | Etelä-Korean won (1945–1953) |
+| one, KRO | Etelä-Korean won (1945–1953) |
+| other, KRO | Etelä-Korean wonia (1945–1953) |
+| , KRO symbol | KRO |
+| , KRW | Etelä-Korean won |
+| one, KRW | Etelä-Korean won |
+| other, KRW | Etelä-Korean wonia |
+| , KRW symbol | KRW |
+| narrow, KRW symbol | KRW |
+| , KWD | Kuwaitin dinaari |
+| one, KWD | Kuwaitin dinaari |
+| other, KWD | Kuwaitin dinaaria |
+| , KWD symbol | KWD |
+| , KYD | Caymansaarten dollari |
+| one, KYD | Caymansaarten dollari |
+| other, KYD | Caymansaarten dollaria |
+| , KYD symbol | KYD |
+| narrow, KYD symbol | KYD |
+| , KZT | Kazakstanin tenge |
+| one, KZT | Kazakstanin tenge |
+| other, KZT | Kazakstanin tengeä |
+| , KZT symbol | KZT |
+| narrow, KZT symbol | KZT |
+| , LAK | Laosin kip |
+| one, LAK | Laosin kip |
+| other, LAK | Laosin kipiä |
+| , LAK symbol | LAK |
+| narrow, LAK symbol | LAK |
+| , LBP | Libanonin punta |
+| one, LBP | Libanonin punta |
+| other, LBP | Libanonin puntaa |
+| , LBP symbol | LBP |
+| narrow, LBP symbol | LBP |
+| , LKR | Sri Lankan rupia |
+| one, LKR | Sri Lankan rupia |
+| other, LKR | Sri Lankan rupiaa |
+| , LKR symbol | LKR |
+| narrow, LKR symbol | LKR |
+| , LRD | Liberian dollari |
+| one, LRD | Liberian dollari |
+| other, LRD | Liberian dollaria |
+| , LRD symbol | LRD |
+| narrow, LRD symbol | LRD |
+| , LSL | Lesothon loti |
+| one, LSL | Lesothon loti |
+| other, LSL | Lesothon lotia |
+| , LSL symbol | LSL |
+| , LTL | Liettuan liti |
+| one, LTL | Liettuan liti |
+| other, LTL | Liettuan litiä |
+| , LTL symbol | LTL |
+| narrow, LTL symbol | LTL |
+| , LTT | Liettuan talonas |
+| one, LTT | Liettuan talonas |
+| other, LTT | Liettuan talonasia |
+| , LTT symbol | LTT |
+| , LUC | Luxemburgin vaihdettava frangi |
+| one, LUC | Luxemburgin vaihdettava frangi |
+| other, LUC | Luxemburgin vaihdettavaa frangia |
+| , LUC symbol | LUC |
+| , LUF | Luxemburgin frangi |
+| one, LUF | Luxemburgin frangi |
+| other, LUF | Luxemburgin frangia |
+| , LUF symbol | LUF |
+| , LUL | Luxemburgin rahoitusfrangi |
+| one, LUL | Luxemburgin rahoitusfrangi |
+| other, LUL | Luxemburgin rahoitusfrangia |
+| , LUL symbol | LUL |
+| , LVL | Latvian lati |
+| one, LVL | Latvian lati |
+| other, LVL | Latvian latia |
+| , LVL symbol | LVL |
+| narrow, LVL symbol | LVL |
+| , LVR | Latvian rupla |
+| one, LVR | Latvian rupla |
+| other, LVR | Latvian ruplaa |
+| , LVR symbol | LVR |
+| , LYD | Libyan dinaari |
+| one, LYD | Libyan dinaari |
+| other, LYD | Libyan dinaaria |
+| , LYD symbol | LYD |
+| , MAD | Marokon dirhami |
+| one, MAD | Marokon dirhami |
+| other, MAD | Marokon dirhamia |
+| , MAD symbol | MAD |
+| , MAF | Marokon frangi |
+| one, MAF | Marokon frangi |
+| other, MAF | Marokon frangia |
+| , MAF symbol | MAF |
+| , MCF | Monacon frangi |
+| one, MCF | Monacon frangi |
+| other, MCF | Monacon frangia |
+| , MCF symbol | MCF |
+| , MDC | Moldovan kuponkileu |
+| one, MDC | Moldovan kuponkileu |
+| other, MDC | Moldovan kuponkileuta |
+| , MDC symbol | MDC |
+| , MDL | Moldovan leu |
+| one, MDL | Moldovan leu |
+| other, MDL | Moldovan leuta |
+| , MDL symbol | MDL |
+| , MGA | Madagaskarin ariary |
+| one, MGA | Madagaskarin ariary |
+| other, MGA | Madagaskarin ariarya |
+| , MGA symbol | MGA |
+| narrow, MGA symbol | MGA |
+| , MGF | Madagaskarin frangi |
+| one, MGF | Madagaskarin frangi |
+| other, MGF | Madagaskarin frangia |
+| , MGF symbol | MGF |
+| , MKD | Makedonian denaari |
+| one, MKD | Makedonian denaari |
+| other, MKD | Makedonian denaaria |
+| , MKD symbol | MKD |
+| , MKN | Makedonian dinaari (1992–1993) |
+| one, MKN | Makedonian dinaari (1992–1993) |
+| other, MKN | Makedonian dinaaria (1992–1993) |
+| , MKN symbol | MKN |
+| , MLF | Malin frangi |
+| one, MLF | Malin frangi |
+| other, MLF | Malin frangia |
+| , MLF symbol | MLF |
+| , MMK | Myanmarin kyat |
+| one, MMK | Myanmarin kyat |
+| other, MMK | Myanmarin kyatia |
+| , MMK symbol | MMK |
+| narrow, MMK symbol | MMK |
+| , MNT | Mongolian tugrik |
+| one, MNT | Mongolian tugrik |
+| other, MNT | Mongolian tugrikia |
+| , MNT symbol | MNT |
+| narrow, MNT symbol | MNT |
+| , MOP | Macaon pataca |
+| one, MOP | Macaon pataca |
+| other, MOP | Macaon patacaa |
+| , MOP symbol | MOP |
+| , MRO | Mauritanian ouguiya |
+| one, MRO | Mauritanian ouguiya |
+| other, MRO | Mauritanian ouguiyaa |
+| , MRO symbol | MRO |
+| , MTL | Maltan liira |
+| one, MTL | Maltan liira |
+| other, MTL | Maltan liiraa |
+| , MTL symbol | MTL |
+| , MTP | Maltan punta |
+| one, MTP | Maltan punta |
+| other, MTP | Maltan puntaa |
+| , MTP symbol | MTP |
+| , MUR | Mauritiuksen rupia |
+| one, MUR | Mauritiuksen rupia |
+| other, MUR | Mauritiuksen rupiaa |
+| , MUR symbol | MUR |
+| narrow, MUR symbol | MUR |
+| , MVP | Malediivien rupia (1947–1981) |
+| one, MVP | Malediivien rupia (1947–1981) |
+| other, MVP | Malediivien rupiaa (1947–1981) |
+| , MVP symbol | MVP |
+| , MVR | Malediivien rufiyaa |
+| one, MVR | Malediivien rufiyaa |
+| other, MVR | Malediivien rufiyaata |
+| , MVR symbol | MVR |
+| , MWK | Malawin kwacha |
+| one, MWK | Malawin kwacha |
+| other, MWK | Malawin kwachaa |
+| , MWK symbol | MWK |
+| , MXN | Meksikon peso |
+| one, MXN | Meksikon peso |
+| other, MXN | Meksikon pesoa |
+| , MXN symbol | MXN |
+| narrow, MXN symbol | MXN |
+| , MXP | Meksikon hopeapeso (1861–1992) |
+| one, MXP | Meksikon hopeapeso (1861–1992) |
+| other, MXP | Meksikon hopeapesoa (1861–1992) |
+| , MXP symbol | MXP |
+| , MXV | Meksikon UDI |
+| one, MXV | Meksikon UDI |
+| other, MXV | Meksikon UDI’ta |
+| , MXV symbol | MXV |
+| , MYR | Malesian ringgit |
+| one, MYR | Malesian ringgit |
+| other, MYR | Malesian ringgitiä |
+| , MYR symbol | MYR |
+| narrow, MYR symbol | MYR |
+| , MZE | Mosambikin escudo |
+| one, MZE | Mosambikin escudo |
+| other, MZE | Mosambikin escudoa |
+| , MZE symbol | MZE |
+| , MZM | Mosambikin metical (1980–2006) |
+| one, MZM | Mosambikin metical (1980–2006) |
+| other, MZM | Mosambikin meticalia (1980–2006) |
+| , MZM symbol | MZM |
+| , MZN | Mosambikin metical |
+| one, MZN | Mosambikin metical |
+| other, MZN | Mosambikin meticalia |
+| , MZN symbol | MZN |
+| , NAD | Namibian dollari |
+| one, NAD | Namibian dollari |
+| other, NAD | Namibian dollaria |
+| , NAD symbol | NAD |
+| narrow, NAD symbol | NAD |
+| , NGN | Nigerian naira |
+| one, NGN | Nigerian naira |
+| other, NGN | Nigerian nairaa |
+| , NGN symbol | NGN |
+| narrow, NGN symbol | NGN |
+| , NIC | Nicaraguan córdoba (1988–1991) |
+| one, NIC | Nicaraguan córdoba (1988–1991) |
+| other, NIC | Nicaraguan córdobaa (1988–1991) |
+| , NIC symbol | NIC |
+| , NIO | Nicaraguan córdoba |
+| one, NIO | Nicaraguan córdoba |
+| other, NIO | Nicaraguan córdobaa |
+| , NIO symbol | NIO |
+| narrow, NIO symbol | NIO |
+| , NLG | Alankomaiden guldeni |
+| one, NLG | Alankomaiden guldeni |
+| other, NLG | Alankomaiden guldenia |
+| , NLG symbol | NLG |
+| , NOK | Norjan kruunu |
+| one, NOK | Norjan kruunu |
+| other, NOK | Norjan kruunua |
+| , NOK symbol | NOK |
+| narrow, NOK symbol | NOK |
+| , NPR | Nepalin rupia |
+| one, NPR | Nepalin rupia |
+| other, NPR | Nepalin rupiaa |
+| , NPR symbol | NPR |
+| narrow, NPR symbol | NPR |
+| , NZD | Uuden-Seelannin dollari |
+| one, NZD | Uuden-Seelannin dollari |
+| other, NZD | Uuden-Seelannin dollaria |
+| , NZD symbol | NZD |
+| narrow, NZD symbol | NZD |
+| , OMR | Omanin rial |
+| one, OMR | Omanin rial |
+| other, OMR | Omanin rialia |
+| , OMR symbol | OMR |
+| , PAB | Panaman balboa |
+| one, PAB | Panaman balboa |
+| other, PAB | Panaman balboaa |
+| , PAB symbol | PAB |
+| , PEI | Perun inti |
+| one, PEI | Perun inti |
+| other, PEI | Perun intiä |
+| , PEI symbol | PEI |
+| , PEN | Perun sol |
+| one, PEN | Perun sol |
+| other, PEN | Perun solia |
+| , PEN symbol | PEN |
+| , PES | Perun sol (1863–1965) |
+| one, PES | Perun sol (1863–1965) |
+| other, PES | Perun solia (1863–1965) |
+| , PES symbol | PES |
+| , PGK | Papua-Uuden-Guinean kina |
+| one, PGK | Papua-Uuden-Guinean kina |
+| other, PGK | Papua-Uuden-Guinean kinaa |
+| , PGK symbol | PGK |
+| , PHP | Filippiinien peso |
+| one, PHP | Filippiinien peso |
+| other, PHP | Filippiinien pesoa |
+| , PHP symbol | PHP |
+| narrow, PHP symbol | PHP |
+| , PKR | Pakistanin rupia |
+| one, PKR | Pakistanin rupia |
+| other, PKR | Pakistanin rupiaa |
+| , PKR symbol | PKR |
+| narrow, PKR symbol | PKR |
+| , PLN | Puolan złoty |
+| one, PLN | Puolan złoty |
+| other, PLN | Puolan złotya |
+| , PLN symbol | PLN |
+| narrow, PLN symbol | PLN |
+| , PLZ | Puolan złoty (1950–1995) |
+| one, PLZ | Puolan złoty (1950–1995) |
+| other, PLZ | Puolan złotya (1950–1995) |
+| , PLZ symbol | PLZ |
+| , PTE | Portugalin escudo |
+| one, PTE | Portugalin escudo |
+| other, PTE | Portugalin escudoa |
+| , PTE symbol | PTE |
+| , PYG | Paraguayn guarani |
+| one, PYG | Paraguayn guarani |
+| other, PYG | Paraguayn guarania |
+| , PYG symbol | PYG |
+| narrow, PYG symbol | PYG |
+| , QAR | Qatarin rial |
+| one, QAR | Qatarin rial |
+| other, QAR | Qatarin rialia |
+| , QAR symbol | QAR |
+| , RHD | Rhodesian dollari |
+| one, RHD | Rhodesian dollari |
+| other, RHD | Rhodesian dollaria |
+| , RHD symbol | RHD |
+| , ROL | Romanian leu (1952–2006) |
+| one, ROL | Romanian leu (1952–2006) |
+| other, ROL | Romanian leuta (1952–2006) |
+| , ROL symbol | ROL |
+| , RON | Romanian leu |
+| one, RON | Romanian leu |
+| other, RON | Romanian leuta |
+| , RON symbol | RON |
+| narrow, RON symbol | RON |
+| , RSD | Serbian dinaari |
+| one, RSD | Serbian dinaari |
+| other, RSD | Serbian dinaaria |
+| , RSD symbol | RSD |
+| , RUB | Venäjän rupla |
+| one, RUB | Venäjän rupla |
+| other, RUB | Venäjän ruplaa |
+| , RUB symbol | RUB |
+| narrow, RUB symbol | ₽ |
+| , RUR | Venäjän rupla (1991–1998) |
+| one, RUR | Venäjän rupla (1991–1998) |
+| other, RUR | Venäjän ruplaa (1991–1998) |
+| , RUR symbol | RUR |
+| narrow, RUR symbol | RUR |
+| , RWF | Ruandan frangi |
+| one, RWF | Ruandan frangi |
+| other, RWF | Ruandan frangia |
+| , RWF symbol | RWF |
+| narrow, RWF symbol | RWF |
+| , SAR | Saudi-Arabian rial |
+| one, SAR | Saudi-Arabian rial |
+| other, SAR | Saudi-Arabian rialia |
+| , SAR symbol | SAR |
+| , SBD | Salomonsaarten dollari |
+| one, SBD | Salomonsaarten dollari |
+| other, SBD | Salomonsaarten dollaria |
+| , SBD symbol | SBD |
+| narrow, SBD symbol | SBD |
+| , SCR | Seychellien rupia |
+| one, SCR | Seychellien rupia |
+| other, SCR | Seychellien rupiaa |
+| , SCR symbol | SCR |
+| , SDD | Sudanin dinaari (1992–2007) |
+| one, SDD | Sudanin dinaari (1992–2007) |
+| other, SDD | Sudanin dinaaria (1992–2007) |
+| , SDD symbol | SDD |
+| , SDG | Sudanin punta |
+| one, SDG | Sudanin punta |
+| other, SDG | Sudanin puntaa |
+| , SDG symbol | SDG |
+| , SDP | Sudanin punta (1957–1998) |
+| one, SDP | Sudanin punta (1957–1998) |
+| other, SDP | Sudanin puntaa (1957–1998) |
+| , SDP symbol | SDP |
+| , SEK | Ruotsin kruunu |
+| one, SEK | Ruotsin kruunu |
+| other, SEK | Ruotsin kruunua |
+| , SEK symbol | SEK |
+| narrow, SEK symbol | SEK |
+| , SGD | Singaporen dollari |
+| one, SGD | Singaporen dollari |
+| other, SGD | Singaporen dollaria |
+| , SGD symbol | SGD |
+| narrow, SGD symbol | SGD |
+| , SHP | Saint Helenan punta |
+| one, SHP | Saint Helenan punta |
+| other, SHP | Saint Helenan puntaa |
+| , SHP symbol | SHP |
+| narrow, SHP symbol | SHP |
+| , SIT | Slovenian tolar |
+| one, SIT | Slovenian tolar |
+| other, SIT | Slovenian tolaria |
+| , SIT symbol | SIT |
+| , SKK | Slovakian koruna |
+| one, SKK | Slovakian koruna |
+| other, SKK | Slovakian korunaa |
+| , SKK symbol | SKK |
+| , SLL | Sierra Leonen leone |
+| one, SLL | Sierra Leonen leone |
+| other, SLL | Sierra Leonen leonea |
+| , SLL symbol | SLL |
+| , SOS | Somalian šillinki |
+| one, SOS | Somalian šillinki |
+| other, SOS | Somalian šillinkiä |
+| , SOS symbol | SOS |
+| , SRD | Surinamen dollari |
+| one, SRD | Surinamen dollari |
+| other, SRD | Surinamen dollaria |
+| , SRD symbol | SRD |
+| narrow, SRD symbol | SRD |
+| , SRG | Surinamen guldeni |
+| one, SRG | Surinamen guldeni |
+| other, SRG | Surinamen guldeni |
+| , SRG symbol | SRG |
+| , SSP | Etelä-Sudanin punta |
+| one, SSP | Etelä-Sudanin punta |
+| other, SSP | Etelä-Sudanin puntaa |
+| , SSP symbol | SSP |
+| narrow, SSP symbol | SSP |
+| , STD | São Tomén ja Príncipen dobra (1977–2017) |
+| one, STD | São Tomén ja Príncipen dobra (1977–2017) |
+| other, STD | São Tomén ja Príncipen dobraa (1977–2017) |
+| , STD symbol | STD |
+| , STN | São Tomén ja Príncipen dobra |
+| one, STN | São Tomén ja Príncipen dobra |
+| other, STN | São Tomén ja Príncipen dobraa |
+| , STN symbol | STN |
+| narrow, STN symbol | STD |
+| , SUR | Neuvostoliiton rupla |
+| one, SUR | Neuvostoliiton rupla |
+| other, SUR | Neuvostoliiton ruplaa |
+| , SUR symbol | SUR |
+| , SVC | El Salvadorin colón |
+| one, SVC | El Salvadorin colón |
+| other, SVC | El Salvadorin colónia |
+| , SVC symbol | SVC |
+| , SYP | Syyrian punta |
+| one, SYP | Syyrian punta |
+| other, SYP | Syyrian puntaa |
+| , SYP symbol | SYP |
+| narrow, SYP symbol | SYP |
+| , SZL | Swazimaan lilangeni |
+| one, SZL | Swazimaan lilangeni |
+| other, SZL | Swazimaan lilangenia |
+| , SZL symbol | SZL |
+| , THB | Thaimaan baht |
+| one, THB | Thaimaan baht |
+| other, THB | Thaimaan bahtia |
+| , THB symbol | THB |
+| narrow, THB symbol | THB |
+| , TJR | Tadžikistanin rupla |
+| one, TJR | Tadžikistanin rupla |
+| other, TJR | Tadžikistanin ruplaa |
+| , TJR symbol | TJR |
+| , TJS | Tadžikistanin somoni |
+| one, TJS | Tadžikistanin somoni |
+| other, TJS | Tadžikistanin somonia |
+| , TJS symbol | TJS |
+| , TMM | Turkmenistanin manat (1993–2009) |
+| one, TMM | Turkmenistanin manat (1993–2009) |
+| other, TMM | Turkmenistanin manatia (1993–2009) |
+| , TMM symbol | TMM |
+| , TMT | Turkmenistanin manat |
+| one, TMT | Turkmenistanin manat |
+| other, TMT | Turkmenistanin manatia |
+| , TMT symbol | TMT |
+| , TND | Tunisian dinaari |
+| one, TND | Tunisian dinaari |
+| other, TND | Tunisian dinaaria |
+| , TND symbol | TND |
+| , TOP | Tongan pa’anga |
+| one, TOP | Tongan pa’anga |
+| other, TOP | Tongan pa’angaa |
+| , TOP symbol | TOP |
+| narrow, TOP symbol | TOP |
+| , TPE | Timorin escudo |
+| one, TPE | Timorin escudo |
+| other, TPE | Timorin escudoa |
+| , TPE symbol | TPE |
+| , TRL | Turkin liira (1922–2005) |
+| one, TRL | Turkin liira (1922–2005) |
+| other, TRL | Turkin liiraa (1922–2005) |
+| , TRL symbol | TRL |
+| , TRY | Turkin liira |
+| one, TRY | Turkin liira |
+| other, TRY | Turkin liiraa |
+| , TRY symbol | TRY |
+| narrow, TRY symbol | TRY |
+| variant, TRY symbol | TL |
+| , TTD | Trinidadin ja Tobagon dollari |
+| one, TTD | Trinidadin ja Tobagon dollari |
+| other, TTD | Trinidadin ja Tobagon dollaria |
+| , TTD symbol | TTD |
+| narrow, TTD symbol | TTD |
+| , TWD | Taiwanin uusi dollari |
+| one, TWD | Taiwanin uusi dollari |
+| other, TWD | Taiwanin uutta dollaria |
+| , TWD symbol | TWD |
+| narrow, TWD symbol | TWD |
+| , TZS | Tansanian šillinki |
+| one, TZS | Tansanian šillinki |
+| other, TZS | Tansanian šillinkiä |
+| , TZS symbol | TZS |
+| , UAH | Ukrainan hryvnia |
+| one, UAH | Ukrainan hryvnia |
+| other, UAH | Ukrainan hryvniaa |
+| , UAH symbol | UAH |
+| narrow, UAH symbol | UAH |
+| , UAK | Ukrainan karbovanetz |
+| one, UAK | Ukrainan karbovanetz |
+| other, UAK | Ukrainan karbovanetzia |
+| , UAK symbol | UAK |
+| , UGS | Ugandan šillinki (1966–1987) |
+| one, UGS | Ugandan šillinki (1966–1987) |
+| other, UGS | Ugandan šillinkiä (1966–1987) |
+| , UGS symbol | UGS |
+| , UGX | Ugandan šillinki |
+| one, UGX | Ugandan šillinki |
+| other, UGX | Ugandan šillinkiä |
+| , UGX symbol | UGX |
+| , USD | Yhdysvaltain dollari |
+| one, USD | Yhdysvaltain dollari |
+| other, USD | Yhdysvaltain dollaria |
+| , USD symbol | $ |
+| narrow, USD symbol | $ |
+| , USN | Yhdysvaltain dollari (seuraava päivä) |
+| one, USN | Yhdysvaltain dollari (seuraava päivä) |
+| other, USN | Yhdysvaltain dollaria (seuraava päivä) |
+| , USN symbol | USN |
+| , USS | Yhdysvaltain dollari (sama päivä) |
+| one, USS | Yhdysvaltain dollari (sama päivä) |
+| other, USS | Yhdysvaltain dollaria (sama päivä) |
+| , USS symbol | USS |
+| , UYI | Uruguayn peso en unidades indexadas |
+| one, UYI | Uruguayn peso en unidades indexadas |
+| other, UYI | Uruguayn pesoa en unidades indexadas |
+| , UYI symbol | UYI |
+| , UYP | Uruguayn peso (1975–1993) |
+| one, UYP | Uruguayn peso (1975–1993) |
+| other, UYP | Uruguayn pesoa (1975–1993) |
+| , UYP symbol | UYP |
+| , UYU | Uruguayn peso |
+| one, UYU | Uruguayn peso |
+| other, UYU | Uruguayn pesoa |
+| , UYU symbol | UYU |
+| narrow, UYU symbol | UYU |
+| , UZS | Uzbekistanin som |
+| one, UZS | Uzbekistanin som |
+| other, UZS | Uzbekistanin somia |
+| , UZS symbol | UZS |
+| , VEB | Venezuelan bolivar (1871–2008) |
+| one, VEB | Venezuelan bolivar (1871–2008) |
+| other, VEB | Venezuelan bolivaria (1871–2008) |
+| , VEB symbol | VEB |
+| , VEF | Venezuelan bolivar |
+| one, VEF | Venezuelan bolivar |
+| other, VEF | Venezuelan bolivaria |
+| , VEF symbol | VEF |
+| narrow, VEF symbol | VEF |
+| , VND | Vietnamin dong |
+| one, VND | Vietnamin dong |
+| other, VND | Vietnamin dongia |
+| , VND symbol | VND |
+| narrow, VND symbol | VND |
+| , VNN | Vietnamin dong (1978–1985) |
+| one, VNN | Vietnamin dong (1978–1985) |
+| other, VNN | Vietnamin dongia (1978–1985) |
+| , VNN symbol | VNN |
+| , VUV | Vanuatun vatu |
+| one, VUV | Vanuatun vatu |
+| other, VUV | Vanuatun vatua |
+| , VUV symbol | VUV |
+| , WST | Samoan tala |
+| one, WST | Samoan tala |
+| other, WST | Samoan talaa |
+| , WST symbol | WST |
+| , XAF | CFA-frangi BEAC |
+| one, XAF | CFA-frangi BEAC |
+| other, XAF | CFA-frangia BEAC |
+| , XAF symbol | FCFA |
+| , XAG | hopea |
+| one, XAG | troy-unssi hopeaa |
+| other, XAG | troy-unssia hopeaa |
+| , XAG symbol | XAG |
+| , XAU | kulta |
+| one, XAU | troy-unssi kultaa |
+| other, XAU | troy-unssia kultaa |
+| , XAU symbol | XAU |
+| , XBA | EURCO |
+| one, XBA | EURCO |
+| other, XBA | EURCO’a |
+| , XBA symbol | XBA |
+| , XBB | Euroopan rahayksikkö (EMU) |
+| one, XBB | Euroopan rahayksikkö (EMU) |
+| other, XBB | Euroopan rahayksikköä (EMU) |
+| , XBB symbol | XBB |
+| , XBC | EUA (XBC) |
+| one, XBC | EUA (XBC) |
+| other, XBC | EUA’ta (XBC) |
+| , XBC symbol | XBC |
+| , XBD | EUA (XBD) |
+| one, XBD | EUA (XBD) |
+| other, XBD | EUA’ta (XBD) |
+| , XBD symbol | XBD |
+| , XCD | Itä-Karibian dollari |
+| one, XCD | Itä-Karibian dollari |
+| other, XCD | Itä-Karibian dollaria |
+| , XCD symbol | XCD |
+| narrow, XCD symbol | XCD |
+| , XDR | erityisnosto-oikeus (SDR) |
+| one, XDR | erityisnosto-oikeus (SDR) |
+| other, XDR | erityisnosto-oikeutta (SDR) |
+| , XDR symbol | XDR |
+| , XEU | Euroopan valuuttayksikkö (ECU) |
+| one, XEU | Euroopan valuuttayksikkö (ECU) |
+| other, XEU | Euroopan valuuttayksikköä (ECU) |
+| , XEU symbol | XEU |
+| , XFO | Ranskan kultafrangi |
+| one, XFO | Ranskan kultafrangi |
+| other, XFO | Ranskan kultafrangia |
+| , XFO symbol | XFO |
+| , XFU | Ranskan UIC-frangi |
+| one, XFU | Ranskan UIC-frangi |
+| other, XFU | Ranskan UIC-frangia |
+| , XFU symbol | XFU |
+| , XOF | CFA-frangi BCEAO |
+| one, XOF | CFA-frangi BCEAO |
+| other, XOF | CFA-frangia BCEAO |
+| , XOF symbol | CFA |
+| , XPD | palladium |
+| one, XPD | troy-unssi palladiumia |
+| other, XPD | troy-unssia palladiumia |
+| , XPD symbol | XPD |
+| , XPF | CFP-frangi |
+| one, XPF | CFP-frangi |
+| other, XPF | CFP-frangia |
+| , XPF symbol | XPF |
+| , XPT | platina |
+| one, XPT | troy-unssi platinaa |
+| other, XPT | troy-unssia platinaa |
+| , XPT symbol | XPT |
+| , XRE | RINET-rahastot |
+| one, XRE | RINET-rahastoyksikkö |
+| other, XRE | RINET-rahastoyksikköä |
+| , XRE symbol | XRE |
+| , XSU | etelä-amerikkalaisen ALBA:n laskentayksikkö sucre |
+| one, XSU | sucre |
+| other, XSU | sucrea |
+| , XSU symbol | XSU |
+| , XTS | testaustarkoitukseen varattu valuuttakoodi |
+| one, XTS | testaustarkoitukseen varattu valuuttakoodi |
+| other, XTS | testaustarkoitukseen varattua valuuttakoodia |
+| , XTS symbol | XTS |
+| , XUA | afrikkalainen AfDB-laskentayksikkö |
+| one, XUA | AfDB-laskentayksikkö |
+| other, XUA | AfDB-laskentayksikköä |
+| , XUA symbol | XUA |
+| , XXX | tuntematon rahayksikkö |
+| one, XXX | tuntematon rahayksikkö |
+| other, XXX | tuntematonta rahayksikköä |
+| , XXX symbol | XXX |
+| , YDD | Jemenin dinaari |
+| one, YDD | Jemenin dinaari |
+| other, YDD | Jemenin dinaaria |
+| , YDD symbol | YDD |
+| , YER | Jemenin rial |
+| one, YER | Jemenin rial |
+| other, YER | Jemenin rialia |
+| , YER symbol | YER |
+| , YUD | Jugoslavian kova dinaari (1966–1990) |
+| one, YUD | Jugoslavian kova dinaari (1966–1990) |
+| other, YUD | Jugoslavian kovaa dinaaria (1966–1990) |
+| , YUD symbol | YUD |
+| , YUM | Jugoslavian uusi dinaari (1994–2002) |
+| one, YUM | Jugoslavian uusi dinaari (1994–2002) |
+| other, YUM | Jugoslavian uutta dinaaria (1994–2002) |
+| , YUM symbol | YUM |
+| , YUN | Jugoslavian vaihdettava dinaari (1990–1992) |
+| one, YUN | Jugoslavian vaihdettava dinaari (1990–1992) |
+| other, YUN | Jugoslavian vaihdettavaa dinaaria (1990–1992) |
+| , YUN symbol | YUN |
+| , YUR | Jugoslavian uudistettu dinaari (1992–1993) |
+| one, YUR | Jugoslavian uudistettu dinaari (1992–1993) |
+| other, YUR | Jugoslavian uudistettua dinaaria (1992–1993) |
+| , YUR symbol | YUR |
+| , ZAL | Etelä-Afrikan rahoitusrandi |
+| one, ZAL | Etelä-Afrikan rahoitusrandi |
+| other, ZAL | Etelä-Afrikan rahoitusrandia |
+| , ZAL symbol | ZAL |
+| , ZAR | Etelä-Afrikan randi |
+| one, ZAR | Etelä-Afrikan randi |
+| other, ZAR | Etelä-Afrikan randia |
+| , ZAR symbol | ZAR |
+| narrow, ZAR symbol | ZAR |
+| , ZMK | Sambian kwacha (1968–2012) |
+| one, ZMK | Sambian kwacha (1968–2012) |
+| other, ZMK | Sambian kwachaa (1968–2012) |
+| , ZMK symbol | ZMK |
+| , ZMW | Sambian kwacha |
+| one, ZMW | Sambian kwacha |
+| other, ZMW | Sambian kwachaa |
+| , ZMW symbol | ZMW |
+| narrow, ZMW symbol | ZMW |
+| , ZRN | Zairen uusi zaire (1993–1998) |
+| one, ZRN | Zairen uusi zaire (1993–1998) |
+| other, ZRN | Zairen uutta zairea (1993–1998) |
+| , ZRN symbol | ZRN |
+| , ZRZ | Zairen zaire (1971–1993) |
+| one, ZRZ | Zairen zaire (1971–1993) |
+| other, ZRZ | Zairen zairea (1971–1993) |
+| , ZRZ symbol | ZRZ |
+| , ZWD | Zimbabwen dollari (1980–2008) |
+| one, ZWD | Zimbabwen dollari (1980–2008) |
+| other, ZWD | Zimbabwen dollaria (1980–2008) |
+| , ZWD symbol | ZWD |
+| , ZWL | Zimbabwen dollari (2009) |
+| one, ZWL | Zimbabwen dollari (2009) |
+| other, ZWL | Zimbabwen dollaria (2009) |
+| , ZWL symbol | ZWL |
+| , ZWR | Zimbabwen dollari (2008) |
+| one, ZWR | Zimbabwen dollari (2008) |
+| other, ZWR | Zimbabwen dollaria (2008) |
+| , ZWR symbol | ZWR |
 
 Other stuff:
 
-vähintään {0}{0}–{1}
+| atLeast,  | `vähintään {0}` |
+| range,  | `{0}–{1}` |
+
 Examples:
 
 | one example | {0} päivä |
 | other example | {0} päivää |
-
 Käänny {0}. risteyksestä oikealle.
 
 ## Units
@@ -4967,1708 +5776,1709 @@ Käänny {0}. risteyksestä oikealle.
 | ---- | ---- |
 | Compound pattern  | {0}/{1} |
 | acceleration-g-force | ... |
-|  | G-voimat |
-| one | {0} G-voima |
-| other | {0} G-voimaa |
+| , acceleration-g-force | G-voimat |
+| one, acceleration-g-force | {0} G-voima |
+| other, acceleration-g-force | {0} G-voimaa |
 | acceleration-meter-per-second-squared | ... |
-|  | metrit per sekunti toiseen |
-| one | {0} metri per sekunti toiseen |
-| other | {0} metriä per sekunti toiseen |
+| , acceleration-meter-per-second-squared | metrit per sekunti toiseen |
+| one, acceleration-meter-per-second-squared | {0} metri per sekunti toiseen |
+| other, acceleration-meter-per-second-squared | {0} metriä per sekunti toiseen |
 | angle-revolution | ... |
-|  | kierros |
-| one | {0} kierros |
-| other | {0} kierrosta |
+| , angle-revolution | kierros |
+| one, angle-revolution | {0} kierros |
+| other, angle-revolution | {0} kierrosta |
 | angle-radian | ... |
-|  | radiaanit |
-| one | {0} radiaani |
-| other | {0} radiaania |
+| , angle-radian | radiaanit |
+| one, angle-radian | {0} radiaani |
+| other, angle-radian | {0} radiaania |
 | angle-degree | ... |
-|  | asteet |
-| one | {0} aste |
-| other | {0} astetta |
+| , angle-degree | asteet |
+| one, angle-degree | {0} aste |
+| other, angle-degree | {0} astetta |
 | angle-arc-minute | ... |
-|  | kulmaminuutit |
-| one | {0} kulmaminuutti |
-| other | {0} kulmaminuuttia |
+| , angle-arc-minute | kulmaminuutit |
+| one, angle-arc-minute | {0} kulmaminuutti |
+| other, angle-arc-minute | {0} kulmaminuuttia |
 | angle-arc-second | ... |
-|  | kulmasekunnit |
-| one | {0} kulmasekunti |
-| other | {0} kulmasekuntia |
+| , angle-arc-second | kulmasekunnit |
+| one, angle-arc-second | {0} kulmasekunti |
+| other, angle-arc-second | {0} kulmasekuntia |
 | area-square-kilometer | ... |
-|  | neliökilometrit |
-| one | {0} neliökilometri |
-| other | {0} neliökilometriä |
-{0} / neliökilometri
+| , area-square-kilometer | neliökilometrit |
+| one, area-square-kilometer | {0} neliökilometri |
+| other, area-square-kilometer | {0} neliökilometriä |
+| per units of area-square-kilometer | {0} / neliökilometri |
 | area-hectare | ... |
-|  | hehtaarit |
-| one | {0} hehtaari |
-| other | {0} hehtaaria |
+| , area-hectare | hehtaarit |
+| one, area-hectare | {0} hehtaari |
+| other, area-hectare | {0} hehtaaria |
 | area-square-meter | ... |
-|  | neliömetrit |
-| one | {0} neliömetri |
-| other | {0} neliömetriä |
-{0} / neliömetri
+| , area-square-meter | neliömetrit |
+| one, area-square-meter | {0} neliömetri |
+| other, area-square-meter | {0} neliömetriä |
+| per units of area-square-meter | {0} / neliömetri |
 | area-square-centimeter | ... |
-|  | neliösenttimetrit |
-| one | {0} neliösenttimetri |
-| other | {0} neliösenttimetriä |
-{0} / neliösenttimetri
+| , area-square-centimeter | neliösenttimetrit |
+| one, area-square-centimeter | {0} neliösenttimetri |
+| other, area-square-centimeter | {0} neliösenttimetriä |
+| per units of area-square-centimeter | {0} / neliösenttimetri |
 | area-square-mile | ... |
-|  | neliömailit |
-| one | {0} neliömaili |
-| other | {0} neliömailia |
-{0} / neliömaili
+| , area-square-mile | neliömailit |
+| one, area-square-mile | {0} neliömaili |
+| other, area-square-mile | {0} neliömailia |
+| per units of area-square-mile | {0} / neliömaili |
 | area-acre | ... |
-|  | eekkerit |
-| one | {0} eekkeri |
-| other | {0} eekkeriä |
+| , area-acre | eekkerit |
+| one, area-acre | {0} eekkeri |
+| other, area-acre | {0} eekkeriä |
 | area-square-yard | ... |
-|  | neliöjaardit |
-| one | {0} neliöjaardi |
-| other | {0} neliöjaardia |
+| , area-square-yard | neliöjaardit |
+| one, area-square-yard | {0} neliöjaardi |
+| other, area-square-yard | {0} neliöjaardia |
 | area-square-foot | ... |
-|  | neliöjalat |
-| one | {0} neliöjalka |
-| other | {0} neliöjalkaa |
+| , area-square-foot | neliöjalat |
+| one, area-square-foot | {0} neliöjalka |
+| other, area-square-foot | {0} neliöjalkaa |
 | area-square-inch | ... |
-|  | neliötuumat |
-| one | {0} neliötuuma |
-| other | {0} neliötuumaa |
-{0} / neliötuuma
+| , area-square-inch | neliötuumat |
+| one, area-square-inch | {0} neliötuuma |
+| other, area-square-inch | {0} neliötuumaa |
+| per units of area-square-inch | {0} / neliötuuma |
 | concentr-karat | ... |
-|  | karaatit |
-| one | {0} karaatti |
-| other | {0} karaattia |
+| , concentr-karat | karaatit |
+| one, concentr-karat | {0} karaatti |
+| other, concentr-karat | {0} karaattia |
 | concentr-milligram-per-deciliter | ... |
-|  | mg/dl |
-| one | {0} mg/dl |
-| other | {0} mg/dl |
+| , concentr-milligram-per-deciliter | mg/dl |
+| one, concentr-milligram-per-deciliter | {0} mg/dl |
+| other, concentr-milligram-per-deciliter | {0} mg/dl |
 | concentr-millimole-per-liter | ... |
-|  | mmol/l |
-| one | {0} mmol/l |
-| other | {0} mmol/l |
+| , concentr-millimole-per-liter | mmol/l |
+| one, concentr-millimole-per-liter | {0} mmol/l |
+| other, concentr-millimole-per-liter | {0} mmol/l |
 | concentr-part-per-million | ... |
-|  | ppm |
-| one | {0} ppm |
-| other | {0} ppm |
+| , concentr-part-per-million | ppm |
+| one, concentr-part-per-million | {0} ppm |
+| other, concentr-part-per-million | {0} ppm |
 | consumption-liter-per-kilometer | ... |
-|  | litrat / kilometri |
-| one | {0} litra / kilometri |
-| other | {0} litraa / kilometri |
+| , consumption-liter-per-kilometer | litrat / kilometri |
+| one, consumption-liter-per-kilometer | {0} litra / kilometri |
+| other, consumption-liter-per-kilometer | {0} litraa / kilometri |
 | consumption-liter-per-100kilometers | ... |
-|  | litrat / 100 kilometriä |
-| one | {0} litra / 100 km |
-| other | {0} litraa / 100 km |
+| , consumption-liter-per-100kilometers | litrat / 100 kilometriä |
+| one, consumption-liter-per-100kilometers | {0} litra / 100 km |
+| other, consumption-liter-per-100kilometers | {0} litraa / 100 km |
 | consumption-mile-per-gallon | ... |
-|  | mailit / am. gallona |
-| one | {0} maili / am. gallona |
-| other | {0} mailia / am. gallona |
+| , consumption-mile-per-gallon | mailit / am. gallona |
+| one, consumption-mile-per-gallon | {0} maili / am. gallona |
+| other, consumption-mile-per-gallon | {0} mailia / am. gallona |
 | consumption-mile-per-gallon-imperial | ... |
-|  | mailit / br. gallona |
-| one | {0} maili / br. gallona |
-| other | {0} mailia / br. gallona |
+| , consumption-mile-per-gallon-imperial | mailit / br. gallona |
+| one, consumption-mile-per-gallon-imperial | {0} maili / br. gallona |
+| other, consumption-mile-per-gallon-imperial | {0} mailia / br. gallona |
 | digital-terabyte | ... |
-|  | teratavut |
-| one | {0} teratavu |
-| other | {0} teratavua |
+| , digital-terabyte | teratavut |
+| one, digital-terabyte | {0} teratavu |
+| other, digital-terabyte | {0} teratavua |
 | digital-terabit | ... |
-|  | terabitit |
-| one | {0} terabitti |
-| other | {0} terabittiä |
+| , digital-terabit | terabitit |
+| one, digital-terabit | {0} terabitti |
+| other, digital-terabit | {0} terabittiä |
 | digital-gigabyte | ... |
-|  | gigatavut |
-| one | {0} gigatavu |
-| other | {0} gigatavua |
+| , digital-gigabyte | gigatavut |
+| one, digital-gigabyte | {0} gigatavu |
+| other, digital-gigabyte | {0} gigatavua |
 | digital-gigabit | ... |
-|  | gigabitit |
-| one | {0} gigabitti |
-| other | {0} gigabittiä |
+| , digital-gigabit | gigabitit |
+| one, digital-gigabit | {0} gigabitti |
+| other, digital-gigabit | {0} gigabittiä |
 | digital-megabyte | ... |
-|  | megatavut |
-| one | {0} megatavu |
-| other | {0} megatavua |
+| , digital-megabyte | megatavut |
+| one, digital-megabyte | {0} megatavu |
+| other, digital-megabyte | {0} megatavua |
 | digital-megabit | ... |
-|  | megabitit |
-| one | {0} megabitti |
-| other | {0} megabittiä |
+| , digital-megabit | megabitit |
+| one, digital-megabit | {0} megabitti |
+| other, digital-megabit | {0} megabittiä |
 | digital-kilobyte | ... |
-|  | kilotavut |
-| one | {0} kilotavu |
-| other | {0} kilotavua |
+| , digital-kilobyte | kilotavut |
+| one, digital-kilobyte | {0} kilotavu |
+| other, digital-kilobyte | {0} kilotavua |
 | digital-kilobit | ... |
-|  | kilobitit |
-| one | {0} kilobitti |
-| other | {0} kilobittiä |
+| , digital-kilobit | kilobitit |
+| one, digital-kilobit | {0} kilobitti |
+| other, digital-kilobit | {0} kilobittiä |
 | digital-byte | ... |
-|  | tavut |
-| one | {0} tavu |
-| other | {0} tavua |
+| , digital-byte | tavut |
+| one, digital-byte | {0} tavu |
+| other, digital-byte | {0} tavua |
 | digital-bit | ... |
-|  | bitit |
-| one | {0} bitti |
-| other | {0} bittiä |
+| , digital-bit | bitit |
+| one, digital-bit | {0} bitti |
+| other, digital-bit | {0} bittiä |
 | duration-century | ... |
-|  | vuosisadat |
-| one | {0} vuosisata |
-| other | {0} vuosisataa |
+| , duration-century | vuosisadat |
+| one, duration-century | {0} vuosisata |
+| other, duration-century | {0} vuosisataa |
 | duration-year | ... |
-|  | vuodet |
-| one | {0} vuosi |
-| other | {0} vuotta |
-{0} / vuosi
+| , duration-year | vuodet |
+| one, duration-year | {0} vuosi |
+| other, duration-year | {0} vuotta |
+| per units of duration-year | {0} / vuosi |
 | duration-month | ... |
-|  | kuukaudet |
-| one | {0} kuukausi |
-| other | {0} kuukautta |
-{0} / kuukausi
+| , duration-month | kuukaudet |
+| one, duration-month | {0} kuukausi |
+| other, duration-month | {0} kuukautta |
+| per units of duration-month | {0} / kuukausi |
 | duration-week | ... |
-|  | viikot |
-| one | {0} viikko |
-| other | {0} viikkoa |
-{0} / viikko
+| , duration-week | viikot |
+| one, duration-week | {0} viikko |
+| other, duration-week | {0} viikkoa |
+| per units of duration-week | {0} / viikko |
 | duration-day | ... |
-|  | päivät |
-| one | {0} päivä |
-| other | {0} päivää |
-{0} / päivä
+| , duration-day | päivät |
+| one, duration-day | {0} päivä |
+| other, duration-day | {0} päivää |
+| per units of duration-day | {0} / päivä |
 | duration-hour | ... |
-|  | tunnit |
-| one | {0} tunti |
-| other | {0} tuntia |
-{0} / tunti
+| , duration-hour | tunnit |
+| one, duration-hour | {0} tunti |
+| other, duration-hour | {0} tuntia |
+| per units of duration-hour | {0} / tunti |
 | duration-minute | ... |
-|  | minuutit |
-| one | {0} minuutti |
-| other | {0} minuuttia |
-{0} / minuutti
+| , duration-minute | minuutit |
+| one, duration-minute | {0} minuutti |
+| other, duration-minute | {0} minuuttia |
+| per units of duration-minute | {0} / minuutti |
 | duration-second | ... |
-|  | sekunnit |
-| one | {0} sekunti |
-| other | {0} sekuntia |
-{0} / sekunti
+| , duration-second | sekunnit |
+| one, duration-second | {0} sekunti |
+| other, duration-second | {0} sekuntia |
+| per units of duration-second | {0} / sekunti |
 | duration-millisecond | ... |
-|  | millisekunnit |
-| one | {0} millisekunti |
-| other | {0} millisekuntia |
+| , duration-millisecond | millisekunnit |
+| one, duration-millisecond | {0} millisekunti |
+| other, duration-millisecond | {0} millisekuntia |
 | duration-microsecond | ... |
-|  | mikrosekunnit |
-| one | {0} mikrosekunti |
-| other | {0} mikrosekuntia |
+| , duration-microsecond | mikrosekunnit |
+| one, duration-microsecond | {0} mikrosekunti |
+| other, duration-microsecond | {0} mikrosekuntia |
 | duration-nanosecond | ... |
-|  | nanosekunnit |
-| one | {0} nanosekunti |
-| other | {0} nanosekuntia |
+| , duration-nanosecond | nanosekunnit |
+| one, duration-nanosecond | {0} nanosekunti |
+| other, duration-nanosecond | {0} nanosekuntia |
 | electric-ampere | ... |
-|  | ampeerit |
-| one | {0} ampeeri |
-| other | {0} ampeeria |
+| , electric-ampere | ampeerit |
+| one, electric-ampere | {0} ampeeri |
+| other, electric-ampere | {0} ampeeria |
 | electric-milliampere | ... |
-|  | milliampeerit |
-| one | {0} milliampeeri |
-| other | {0} milliampeeria |
+| , electric-milliampere | milliampeerit |
+| one, electric-milliampere | {0} milliampeeri |
+| other, electric-milliampere | {0} milliampeeria |
 | electric-ohm | ... |
-|  | ohmit |
-| one | {0} ohmi |
-| other | {0} ohmia |
+| , electric-ohm | ohmit |
+| one, electric-ohm | {0} ohmi |
+| other, electric-ohm | {0} ohmia |
 | electric-volt | ... |
-|  | voltit |
-| one | {0} voltti |
-| other | {0} volttia |
+| , electric-volt | voltit |
+| one, electric-volt | {0} voltti |
+| other, electric-volt | {0} volttia |
 | energy-kilocalorie | ... |
-|  | kilokalorit |
-| one | {0} kilokalori |
-| other | {0} kilokaloria |
+| , energy-kilocalorie | kilokalorit |
+| one, energy-kilocalorie | {0} kilokalori |
+| other, energy-kilocalorie | {0} kilokaloria |
 | energy-calorie | ... |
-|  | kalorit |
-| one | {0} kalori |
-| other | {0} kaloria |
+| , energy-calorie | kalorit |
+| one, energy-calorie | {0} kalori |
+| other, energy-calorie | {0} kaloria |
 | energy-foodcalorie | ... |
-|  | kilokalorit |
-| one | {0} kilokalori |
-| other | {0} kilokaloria |
+| , energy-foodcalorie | kilokalorit |
+| one, energy-foodcalorie | {0} kilokalori |
+| other, energy-foodcalorie | {0} kilokaloria |
 | energy-kilojoule | ... |
-|  | kilojoulet |
-| one | {0} kilojoule |
-| other | {0} kilojoulea |
+| , energy-kilojoule | kilojoulet |
+| one, energy-kilojoule | {0} kilojoule |
+| other, energy-kilojoule | {0} kilojoulea |
 | energy-joule | ... |
-|  | joulet |
-| one | {0} joule |
-| other | {0} joulea |
+| , energy-joule | joulet |
+| one, energy-joule | {0} joule |
+| other, energy-joule | {0} joulea |
 | energy-kilowatt-hour | ... |
-|  | kilowattitunnit |
-| one | {0} kilowattitunti |
-| other | {0} kilowattituntia |
+| , energy-kilowatt-hour | kilowattitunnit |
+| one, energy-kilowatt-hour | {0} kilowattitunti |
+| other, energy-kilowatt-hour | {0} kilowattituntia |
 | frequency-gigahertz | ... |
-|  | gigahertsit |
-| one | {0} gigahertsi |
-| other | {0} gigahertsiä |
+| , frequency-gigahertz | gigahertsit |
+| one, frequency-gigahertz | {0} gigahertsi |
+| other, frequency-gigahertz | {0} gigahertsiä |
 | frequency-megahertz | ... |
-|  | megahertsit |
-| one | {0} megahertsi |
-| other | {0} megahertsiä |
+| , frequency-megahertz | megahertsit |
+| one, frequency-megahertz | {0} megahertsi |
+| other, frequency-megahertz | {0} megahertsiä |
 | frequency-kilohertz | ... |
-|  | kilohertsit |
-| one | {0} kilohertsi |
-| other | {0} kilohertsiä |
+| , frequency-kilohertz | kilohertsit |
+| one, frequency-kilohertz | {0} kilohertsi |
+| other, frequency-kilohertz | {0} kilohertsiä |
 | frequency-hertz | ... |
-|  | hertsit |
-| one | {0} hertsi |
-| other | {0} hertsiä |
+| , frequency-hertz | hertsit |
+| one, frequency-hertz | {0} hertsi |
+| other, frequency-hertz | {0} hertsiä |
 | length-kilometer | ... |
-|  | kilometrit |
-| one | {0} kilometri |
-| other | {0} kilometriä |
-{0} / kilometri
+| , length-kilometer | kilometrit |
+| one, length-kilometer | {0} kilometri |
+| other, length-kilometer | {0} kilometriä |
+| per units of length-kilometer | {0} / kilometri |
 | length-meter | ... |
-|  | metrit |
-| one | {0} metri |
-| other | {0} metriä |
-{0} / metri
+| , length-meter | metrit |
+| one, length-meter | {0} metri |
+| other, length-meter | {0} metriä |
+| per units of length-meter | {0} / metri |
 | length-decimeter | ... |
-|  | desimetrit |
-| one | {0} desimetri |
-| other | {0} desimetriä |
+| , length-decimeter | desimetrit |
+| one, length-decimeter | {0} desimetri |
+| other, length-decimeter | {0} desimetriä |
 | length-centimeter | ... |
-|  | senttimetrit |
-| one | {0} senttimetri |
-| other | {0} senttimetriä |
-{0} / senttimetri
+| , length-centimeter | senttimetrit |
+| one, length-centimeter | {0} senttimetri |
+| other, length-centimeter | {0} senttimetriä |
+| per units of length-centimeter | {0} / senttimetri |
 | length-millimeter | ... |
-|  | millimetrit |
-| one | {0} millimetri |
-| other | {0} millimetriä |
+| , length-millimeter | millimetrit |
+| one, length-millimeter | {0} millimetri |
+| other, length-millimeter | {0} millimetriä |
 | length-micrometer | ... |
-|  | mikrometrit |
-| one | {0} mikrometri |
-| other | {0} mikrometriä |
+| , length-micrometer | mikrometrit |
+| one, length-micrometer | {0} mikrometri |
+| other, length-micrometer | {0} mikrometriä |
 | length-nanometer | ... |
-|  | nanometrit |
-| one | {0} nanometri |
-| other | {0} nanometriä |
+| , length-nanometer | nanometrit |
+| one, length-nanometer | {0} nanometri |
+| other, length-nanometer | {0} nanometriä |
 | length-picometer | ... |
-|  | pikometrit |
-| one | {0} pikometri |
-| other | {0} pikometriä |
+| , length-picometer | pikometrit |
+| one, length-picometer | {0} pikometri |
+| other, length-picometer | {0} pikometriä |
 | length-mile | ... |
-|  | mailit |
-| one | {0} maili |
-| other | {0} mailia |
+| , length-mile | mailit |
+| one, length-mile | {0} maili |
+| other, length-mile | {0} mailia |
 | length-yard | ... |
-|  | jaardit |
-| one | {0} jaardi |
-| other | {0} jaardia |
+| , length-yard | jaardit |
+| one, length-yard | {0} jaardi |
+| other, length-yard | {0} jaardia |
 | length-foot | ... |
-|  | jalat |
-| one | {0} jalka |
-| other | {0} jalkaa |
-{0} / jalka
+| , length-foot | jalat |
+| one, length-foot | {0} jalka |
+| other, length-foot | {0} jalkaa |
+| per units of length-foot | {0} / jalka |
 | length-inch | ... |
-|  | tuumat |
-| one | {0} tuuma |
-| other | {0} tuumaa |
-{0} / tuuma
+| , length-inch | tuumat |
+| one, length-inch | {0} tuuma |
+| other, length-inch | {0} tuumaa |
+| per units of length-inch | {0} / tuuma |
 | length-parsec | ... |
-|  | parsekit |
-| one | {0} parsek |
-| other | {0} parsekia |
+| , length-parsec | parsekit |
+| one, length-parsec | {0} parsek |
+| other, length-parsec | {0} parsekia |
 | length-light-year | ... |
-|  | valovuodet |
-| one | {0} valovuosi |
-| other | {0} valovuotta |
+| , length-light-year | valovuodet |
+| one, length-light-year | {0} valovuosi |
+| other, length-light-year | {0} valovuotta |
 | length-astronomical-unit | ... |
-|  | astronomiset yksiköt |
-| one | {0} astronominen yksikkö |
-| other | {0} astronomista yksikköä |
+| , length-astronomical-unit | astronomiset yksiköt |
+| one, length-astronomical-unit | {0} astronominen yksikkö |
+| other, length-astronomical-unit | {0} astronomista yksikköä |
 | length-furlong | ... |
-|  | furlongit |
-| one | {0} furlong |
-| other | {0} furlongia |
+| , length-furlong | furlongit |
+| one, length-furlong | {0} furlong |
+| other, length-furlong | {0} furlongia |
 | length-fathom | ... |
-|  | sylet |
-| one | {0} syli |
-| other | {0} syltä |
+| , length-fathom | sylet |
+| one, length-fathom | {0} syli |
+| other, length-fathom | {0} syltä |
 | length-nautical-mile | ... |
-|  | meripeninkulmat |
-| one | {0} meripeninkulma |
-| other | {0} meripeninkulmaa |
+| , length-nautical-mile | meripeninkulmat |
+| one, length-nautical-mile | {0} meripeninkulma |
+| other, length-nautical-mile | {0} meripeninkulmaa |
 | length-mile-scandinavian | ... |
-|  | peninkulmat |
-| one | {0} peninkulma |
-| other | {0} peninkulmaa |
+| , length-mile-scandinavian | peninkulmat |
+| one, length-mile-scandinavian | {0} peninkulma |
+| other, length-mile-scandinavian | {0} peninkulmaa |
 | length-point | ... |
-|  | pt |
-| one | {0} pt |
-| other | {0} pt |
+| , length-point | pt |
+| one, length-point | {0} pt |
+| other, length-point | {0} pt |
 | light-lux | ... |
-|  | luksit |
-| one | {0} luksi |
-| other | {0} luksia |
+| , light-lux | luksit |
+| one, light-lux | {0} luksi |
+| other, light-lux | {0} luksia |
 | mass-metric-ton | ... |
-|  | tonnit |
-| one | {0} tonni |
-| other | {0} tonnia |
+| , mass-metric-ton | tonnit |
+| one, mass-metric-ton | {0} tonni |
+| other, mass-metric-ton | {0} tonnia |
 | mass-kilogram | ... |
-|  | kilogrammat |
-| one | {0} kilogramma |
-| other | {0} kilogrammaa |
-{0} / kilogramma
+| , mass-kilogram | kilogrammat |
+| one, mass-kilogram | {0} kilogramma |
+| other, mass-kilogram | {0} kilogrammaa |
+| per units of mass-kilogram | {0} / kilogramma |
 | mass-gram | ... |
-|  | grammat |
-| one | {0} gramma |
-| other | {0} grammaa |
-{0} / gramma
+| , mass-gram | grammat |
+| one, mass-gram | {0} gramma |
+| other, mass-gram | {0} grammaa |
+| per units of mass-gram | {0} / gramma |
 | mass-milligram | ... |
-|  | milligrammat |
-| one | {0} milligramma |
-| other | {0} milligrammaa |
+| , mass-milligram | milligrammat |
+| one, mass-milligram | {0} milligramma |
+| other, mass-milligram | {0} milligrammaa |
 | mass-microgram | ... |
-|  | mikrogrammat |
-| one | {0} mikrogramma |
-| other | {0} mikrogrammaa |
+| , mass-microgram | mikrogrammat |
+| one, mass-microgram | {0} mikrogramma |
+| other, mass-microgram | {0} mikrogrammaa |
 | mass-ton | ... |
-|  | am. tonnit |
-| one | {0} am. tonni |
-| other | {0} am. tonnia |
+| , mass-ton | am. tonnit |
+| one, mass-ton | {0} am. tonni |
+| other, mass-ton | {0} am. tonnia |
 | mass-stone | ... |
-|  | stonet |
-| one | {0} stone |
-| other | {0} stonea |
+| , mass-stone | stonet |
+| one, mass-stone | {0} stone |
+| other, mass-stone | {0} stonea |
 | mass-pound | ... |
-|  | paunat |
-| one | {0} pauna |
-| other | {0} paunaa |
-{0} / pauna
+| , mass-pound | paunat |
+| one, mass-pound | {0} pauna |
+| other, mass-pound | {0} paunaa |
+| per units of mass-pound | {0} / pauna |
 | mass-ounce | ... |
-|  | unssit |
-| one | {0} unssi |
-| other | {0} unssia |
-{0} / unssi
+| , mass-ounce | unssit |
+| one, mass-ounce | {0} unssi |
+| other, mass-ounce | {0} unssia |
+| per units of mass-ounce | {0} / unssi |
 | mass-ounce-troy | ... |
-|  | troy-unssit |
-| one | {0} troy-unssi |
-| other | {0} troy-unssia |
+| , mass-ounce-troy | troy-unssit |
+| one, mass-ounce-troy | {0} troy-unssi |
+| other, mass-ounce-troy | {0} troy-unssia |
 | mass-carat | ... |
-|  | karaatit |
-| one | {0} karaatti |
-| other | {0} karaattia |
+| , mass-carat | karaatit |
+| one, mass-carat | {0} karaatti |
+| other, mass-carat | {0} karaattia |
 | power-gigawatt | ... |
-|  | gigawatit |
-| one | {0} gigawatti |
-| other | {0} gigawattia |
+| , power-gigawatt | gigawatit |
+| one, power-gigawatt | {0} gigawatti |
+| other, power-gigawatt | {0} gigawattia |
 | power-megawatt | ... |
-|  | megawatit |
-| one | {0} megawatti |
-| other | {0} megawattia |
+| , power-megawatt | megawatit |
+| one, power-megawatt | {0} megawatti |
+| other, power-megawatt | {0} megawattia |
 | power-kilowatt | ... |
-|  | kilowatit |
-| one | {0} kilowatti |
-| other | {0} kilowattia |
+| , power-kilowatt | kilowatit |
+| one, power-kilowatt | {0} kilowatti |
+| other, power-kilowatt | {0} kilowattia |
 | power-watt | ... |
-|  | watit |
-| one | {0} watti |
-| other | {0} wattia |
+| , power-watt | watit |
+| one, power-watt | {0} watti |
+| other, power-watt | {0} wattia |
 | power-milliwatt | ... |
-|  | milliwatit |
-| one | {0} milliwatti |
-| other | {0} milliwattia |
+| , power-milliwatt | milliwatit |
+| one, power-milliwatt | {0} milliwatti |
+| other, power-milliwatt | {0} milliwattia |
 | power-horsepower | ... |
-|  | hevosvoimat |
-| one | {0} hevosvoima |
-| other | {0} hevosvoimaa |
+| , power-horsepower | hevosvoimat |
+| one, power-horsepower | {0} hevosvoima |
+| other, power-horsepower | {0} hevosvoimaa |
 | pressure-hectopascal | ... |
-|  | hehtopascalit |
-| one | {0} hehtopascal |
-| other | {0} hehtopascalia |
+| , pressure-hectopascal | hehtopascalit |
+| one, pressure-hectopascal | {0} hehtopascal |
+| other, pressure-hectopascal | {0} hehtopascalia |
 | pressure-millimeter-of-mercury | ... |
-|  | elohopeamillimetrit |
-| one | {0} millimetri elohopeaa |
-| other | {0} millimetriä elohopeaa |
+| , pressure-millimeter-of-mercury | elohopeamillimetrit |
+| one, pressure-millimeter-of-mercury | {0} millimetri elohopeaa |
+| other, pressure-millimeter-of-mercury | {0} millimetriä elohopeaa |
 | pressure-pound-per-square-inch | ... |
-|  | paunat / neliötuuma |
-| one | {0} pauna / neliötuuma |
-| other | {0} paunaa / neliötuuma |
+| , pressure-pound-per-square-inch | paunat / neliötuuma |
+| one, pressure-pound-per-square-inch | {0} pauna / neliötuuma |
+| other, pressure-pound-per-square-inch | {0} paunaa / neliötuuma |
 | pressure-inch-hg | ... |
-|  | elohopeatuumat |
-| one | {0} tuuma elohopeaa |
-| other | {0} tuumaa elohopeaa |
+| , pressure-inch-hg | elohopeatuumat |
+| one, pressure-inch-hg | {0} tuuma elohopeaa |
+| other, pressure-inch-hg | {0} tuumaa elohopeaa |
 | pressure-millibar | ... |
-|  | millibaarit |
-| one | {0} millibaari |
-| other | {0} millibaaria |
+| , pressure-millibar | millibaarit |
+| one, pressure-millibar | {0} millibaari |
+| other, pressure-millibar | {0} millibaaria |
 | speed-kilometer-per-hour | ... |
-|  | kilometrit tunnissa |
-| one | {0} kilometri tunnissa |
-| other | {0} kilometriä tunnissa |
+| , speed-kilometer-per-hour | kilometrit tunnissa |
+| one, speed-kilometer-per-hour | {0} kilometri tunnissa |
+| other, speed-kilometer-per-hour | {0} kilometriä tunnissa |
 | speed-meter-per-second | ... |
-|  | metrit sekunnissa |
-| one | {0} metri sekunnissa |
-| other | {0} metriä sekunnissa |
+| , speed-meter-per-second | metrit sekunnissa |
+| one, speed-meter-per-second | {0} metri sekunnissa |
+| other, speed-meter-per-second | {0} metriä sekunnissa |
 | speed-mile-per-hour | ... |
-|  | mailit tunnissa |
-| one | {0} maili tunnissa |
-| other | {0} mailia tunnissa |
+| , speed-mile-per-hour | mailit tunnissa |
+| one, speed-mile-per-hour | {0} maili tunnissa |
+| other, speed-mile-per-hour | {0} mailia tunnissa |
 | speed-knot | ... |
-|  | solmu |
-| one | {0} solmu |
-| other | {0} solmua |
+| , speed-knot | solmu |
+| one, speed-knot | {0} solmu |
+| other, speed-knot | {0} solmua |
 | temperature-generic | ... |
-|  | ° |
-| one | {0}° |
-| other | {0}° |
+| , temperature-generic | ° |
+| one, temperature-generic | {0}° |
+| other, temperature-generic | {0}° |
 | temperature-celsius | ... |
-|  | celsiusasteet |
-| one | {0} celsiusaste |
-| other | {0} celsiusastetta |
+| , temperature-celsius | celsiusasteet |
+| one, temperature-celsius | {0} celsiusaste |
+| other, temperature-celsius | {0} celsiusastetta |
 | temperature-fahrenheit | ... |
-|  | fahrenheitasteet |
-| one | {0} fahrenheitaste |
-| other | {0} fahrenheitastetta |
+| , temperature-fahrenheit | fahrenheitasteet |
+| one, temperature-fahrenheit | {0} fahrenheitaste |
+| other, temperature-fahrenheit | {0} fahrenheitastetta |
 | temperature-kelvin | ... |
-|  | kelvinit |
-| one | {0} kelvin |
-| other | {0} kelviniä |
+| , temperature-kelvin | kelvinit |
+| one, temperature-kelvin | {0} kelvin |
+| other, temperature-kelvin | {0} kelviniä |
 | volume-cubic-kilometer | ... |
-|  | kuutiokilometrit |
-| one | {0} kuutiokilometri |
-| other | {0} kuutiokilometriä |
+| , volume-cubic-kilometer | kuutiokilometrit |
+| one, volume-cubic-kilometer | {0} kuutiokilometri |
+| other, volume-cubic-kilometer | {0} kuutiokilometriä |
 | volume-cubic-meter | ... |
-|  | kuutiometrit |
-| one | {0} kuutiometri |
-| other | {0} kuutiometriä |
-{0} / kuutiometri
+| , volume-cubic-meter | kuutiometrit |
+| one, volume-cubic-meter | {0} kuutiometri |
+| other, volume-cubic-meter | {0} kuutiometriä |
+| per units of volume-cubic-meter | {0} / kuutiometri |
 | volume-cubic-centimeter | ... |
-|  | kuutiosenttimetrit |
-| one | {0} kuutiosenttimetri |
-| other | {0} kuutiosenttimetriä |
-{0} / kuutiosenttimetri
+| , volume-cubic-centimeter | kuutiosenttimetrit |
+| one, volume-cubic-centimeter | {0} kuutiosenttimetri |
+| other, volume-cubic-centimeter | {0} kuutiosenttimetriä |
+| per units of volume-cubic-centimeter | {0} / kuutiosenttimetri |
 | volume-cubic-mile | ... |
-|  | kuutiomailit |
-| one | {0} kuutiomaili |
-| other | {0} kuutiomailia |
+| , volume-cubic-mile | kuutiomailit |
+| one, volume-cubic-mile | {0} kuutiomaili |
+| other, volume-cubic-mile | {0} kuutiomailia |
 | volume-cubic-yard | ... |
-|  | kuutiojaardit |
-| one | {0} kuutiojaardi |
-| other | {0} kuutiojaardia |
+| , volume-cubic-yard | kuutiojaardit |
+| one, volume-cubic-yard | {0} kuutiojaardi |
+| other, volume-cubic-yard | {0} kuutiojaardia |
 | volume-cubic-foot | ... |
-|  | kuutiojalat |
-| one | {0} kuutiojalka |
-| other | {0} kuutiojalkaa |
+| , volume-cubic-foot | kuutiojalat |
+| one, volume-cubic-foot | {0} kuutiojalka |
+| other, volume-cubic-foot | {0} kuutiojalkaa |
 | volume-cubic-inch | ... |
-|  | kuutiotuumat |
-| one | {0} kuutiotuuma |
-| other | {0} kuutiotuumaa |
+| , volume-cubic-inch | kuutiotuumat |
+| one, volume-cubic-inch | {0} kuutiotuuma |
+| other, volume-cubic-inch | {0} kuutiotuumaa |
 | volume-megaliter | ... |
-|  | megalitrat |
-| one | {0} megalitra |
-| other | {0} megalitraa |
+| , volume-megaliter | megalitrat |
+| one, volume-megaliter | {0} megalitra |
+| other, volume-megaliter | {0} megalitraa |
 | volume-hectoliter | ... |
-|  | hehtolitrat |
-| one | {0} hehtolitra |
-| other | {0} hehtolitraa |
+| , volume-hectoliter | hehtolitrat |
+| one, volume-hectoliter | {0} hehtolitra |
+| other, volume-hectoliter | {0} hehtolitraa |
 | volume-liter | ... |
-|  | litrat |
-| one | {0} litra |
-| other | {0} litraa |
-{0} / litra
+| , volume-liter | litrat |
+| one, volume-liter | {0} litra |
+| other, volume-liter | {0} litraa |
+| per units of volume-liter | {0} / litra |
 | volume-deciliter | ... |
-|  | desilitrat |
-| one | {0} desilitra |
-| other | {0} desilitraa |
+| , volume-deciliter | desilitrat |
+| one, volume-deciliter | {0} desilitra |
+| other, volume-deciliter | {0} desilitraa |
 | volume-centiliter | ... |
-|  | senttilitrat |
-| one | {0} senttilitra |
-| other | {0} senttilitraa |
+| , volume-centiliter | senttilitrat |
+| one, volume-centiliter | {0} senttilitra |
+| other, volume-centiliter | {0} senttilitraa |
 | volume-milliliter | ... |
-|  | millilitrat |
-| one | {0} millilitra |
-| other | {0} millilitraa |
+| , volume-milliliter | millilitrat |
+| one, volume-milliliter | {0} millilitra |
+| other, volume-milliliter | {0} millilitraa |
 | volume-pint-metric | ... |
-|  | tuopit |
-| one | {0} tuoppi |
-| other | {0} tuoppia |
+| , volume-pint-metric | tuopit |
+| one, volume-pint-metric | {0} tuoppi |
+| other, volume-pint-metric | {0} tuoppia |
 | volume-cup-metric | ... |
-|  | teekupit |
-| one | {0} teekuppi |
-| other | {0} teekuppia |
+| , volume-cup-metric | teekupit |
+| one, volume-cup-metric | {0} teekuppi |
+| other, volume-cup-metric | {0} teekuppia |
 | volume-acre-foot | ... |
-|  | eekkerijalat |
-| one | {0} eekkerijalka |
-| other | {0} eekkerijalkaa |
+| , volume-acre-foot | eekkerijalat |
+| one, volume-acre-foot | {0} eekkerijalka |
+| other, volume-acre-foot | {0} eekkerijalkaa |
 | volume-bushel | ... |
-|  | bushelit |
-| one | {0} busheli |
-| other | {0} bushelia |
+| , volume-bushel | bushelit |
+| one, volume-bushel | {0} busheli |
+| other, volume-bushel | {0} bushelia |
 | volume-gallon | ... |
-|  | am. gallonat |
-| one | {0} am. gallona |
-| other | {0} am. gallonaa |
-{0} / am. gallona
+| , volume-gallon | am. gallonat |
+| one, volume-gallon | {0} am. gallona |
+| other, volume-gallon | {0} am. gallonaa |
+| per units of volume-gallon | {0} / am. gallona |
 | volume-gallon-imperial | ... |
-|  | br. gallonat |
-| one | {0} br. gallona |
-| other | {0} br. gallonaa |
-{0} / br. gallona
+| , volume-gallon-imperial | br. gallonat |
+| one, volume-gallon-imperial | {0} br. gallona |
+| other, volume-gallon-imperial | {0} br. gallonaa |
+| per units of volume-gallon-imperial | {0} / br. gallona |
 | volume-quart | ... |
-|  | neljännesgallonat |
-| one | {0} neljännesgallona |
-| other | {0} neljännesgallonaa |
+| , volume-quart | neljännesgallonat |
+| one, volume-quart | {0} neljännesgallona |
+| other, volume-quart | {0} neljännesgallonaa |
 | volume-pint | ... |
-|  | pintit |
-| one | {0} pint |
-| other | {0} pinttiä |
+| , volume-pint | pintit |
+| one, volume-pint | {0} pint |
+| other, volume-pint | {0} pinttiä |
 | volume-cup | ... |
-|  | kupit |
-| one | {0} kuppi |
-| other | {0} kuppia |
+| , volume-cup | kupit |
+| one, volume-cup | {0} kuppi |
+| other, volume-cup | {0} kuppia |
 | volume-fluid-ounce | ... |
-|  | nesteunssit |
-| one | {0} nesteunssi |
-| other | {0} nesteunssia |
+| , volume-fluid-ounce | nesteunssit |
+| one, volume-fluid-ounce | {0} nesteunssi |
+| other, volume-fluid-ounce | {0} nesteunssia |
 | volume-tablespoon | ... |
-|  | ruokalusikat |
-| one | {0} ruokalusikka |
-| other | {0} ruokalusikkaa |
+| , volume-tablespoon | ruokalusikat |
+| one, volume-tablespoon | {0} ruokalusikka |
+| other, volume-tablespoon | {0} ruokalusikkaa |
 | volume-teaspoon | ... |
-|  | teelusikat |
-| one | {0} teelusikka |
-| other | {0} teelusikkaa |
+| , volume-teaspoon | teelusikat |
+| one, volume-teaspoon | {0} teelusikka |
+| other, volume-teaspoon | {0} teelusikkaa |
 {0}I{0}P{0}E{0}L
 | Compound pattern  | {0}/{1} |
 | acceleration-g-force | ... |
-|  | G |
-| one | {0} G |
-| other | {0} G |
+| , acceleration-g-force | G |
+| one, acceleration-g-force | {0} G |
+| other, acceleration-g-force | {0} G |
 | acceleration-meter-per-second-squared | ... |
-|  | m/s² |
-| one | {0} m/s² |
-| other | {0} m/s² |
+| , acceleration-meter-per-second-squared | m/s² |
+| one, acceleration-meter-per-second-squared | {0} m/s² |
+| other, acceleration-meter-per-second-squared | {0} m/s² |
 | angle-revolution | ... |
-|  | rev |
-| one | {0} rev |
-| other | {0} rev |
+| , angle-revolution | rev |
+| one, angle-revolution | {0} rev |
+| other, angle-revolution | {0} rev |
 | angle-radian | ... |
-|  | rad |
-| one | {0} rad |
-| other | {0} rad |
+| , angle-radian | rad |
+| one, angle-radian | {0} rad |
+| other, angle-radian | {0} rad |
 | angle-degree | ... |
-|  | ° |
-| one | {0}° |
-| other | {0}° |
+| , angle-degree | ° |
+| one, angle-degree | {0}° |
+| other, angle-degree | {0}° |
 | angle-arc-minute | ... |
-|  | ′ |
-| one | {0}′ |
-| other | {0}′ |
+| , angle-arc-minute | ′ |
+| one, angle-arc-minute | {0}′ |
+| other, angle-arc-minute | {0}′ |
 | angle-arc-second | ... |
-|  | ″ |
-| one | {0}″ |
-| other | {0}″ |
+| , angle-arc-second | ″ |
+| one, angle-arc-second | {0}″ |
+| other, angle-arc-second | {0}″ |
 | area-square-kilometer | ... |
-|  | km² |
-| one | {0} km² |
-| other | {0} km² |
-{0}/km²
+| , area-square-kilometer | km² |
+| one, area-square-kilometer | {0} km² |
+| other, area-square-kilometer | {0} km² |
+| per units of area-square-kilometer | {0}/km² |
 | area-hectare | ... |
-|  | ha |
-| one | {0} ha |
-| other | {0} ha |
+| , area-hectare | ha |
+| one, area-hectare | {0} ha |
+| other, area-hectare | {0} ha |
 | area-square-meter | ... |
-|  | m² |
-| one | {0} m² |
-| other | {0} m² |
-{0}/m²
+| , area-square-meter | m² |
+| one, area-square-meter | {0} m² |
+| other, area-square-meter | {0} m² |
+| per units of area-square-meter | {0}/m² |
 | area-square-centimeter | ... |
-|  | cm² |
-| one | {0} cm² |
-| other | {0} cm² |
-{0}/cm²
+| , area-square-centimeter | cm² |
+| one, area-square-centimeter | {0} cm² |
+| other, area-square-centimeter | {0} cm² |
+| per units of area-square-centimeter | {0}/cm² |
 | area-square-mile | ... |
-|  | mi² |
-| one | {0} mi² |
-| other | {0} mi² |
-{0}/mi²
+| , area-square-mile | mi² |
+| one, area-square-mile | {0} mi² |
+| other, area-square-mile | {0} mi² |
+| per units of area-square-mile | {0}/mi² |
 | area-acre | ... |
-|  | ac |
-| one | {0} ac |
-| other | {0} ac |
+| , area-acre | ac |
+| one, area-acre | {0} ac |
+| other, area-acre | {0} ac |
 | area-square-yard | ... |
-|  | yd² |
-| one | {0} yd² |
-| other | {0} yd² |
+| , area-square-yard | yd² |
+| one, area-square-yard | {0} yd² |
+| other, area-square-yard | {0} yd² |
 | area-square-foot | ... |
-|  | ft² |
-| one | {0} ft² |
-| other | {0} ft² |
+| , area-square-foot | ft² |
+| one, area-square-foot | {0} ft² |
+| other, area-square-foot | {0} ft² |
 | area-square-inch | ... |
-|  | in² |
-| one | {0} in² |
-| other | {0} in² |
-{0}/in²
+| , area-square-inch | in² |
+| one, area-square-inch | {0} in² |
+| other, area-square-inch | {0} in² |
+| per units of area-square-inch | {0}/in² |
 | concentr-karat | ... |
-|  | ka |
-| one | {0} ka |
-| other | {0} ka |
+| , concentr-karat | ka |
+| one, concentr-karat | {0} ka |
+| other, concentr-karat | {0} ka |
 | concentr-milligram-per-deciliter | ... |
-|  | mg/dl |
-| one | {0} mg/dl |
-| other | {0} mg/dl |
+| , concentr-milligram-per-deciliter | mg/dl |
+| one, concentr-milligram-per-deciliter | {0} mg/dl |
+| other, concentr-milligram-per-deciliter | {0} mg/dl |
 | concentr-millimole-per-liter | ... |
-|  | mmol/l |
-| one | {0} mmol/l |
-| other | {0} mmol/l |
+| , concentr-millimole-per-liter | mmol/l |
+| one, concentr-millimole-per-liter | {0} mmol/l |
+| other, concentr-millimole-per-liter | {0} mmol/l |
 | concentr-part-per-million | ... |
-|  | ppm |
-| one | {0} ppm |
-| other | {0} ppm |
+| , concentr-part-per-million | ppm |
+| one, concentr-part-per-million | {0} ppm |
+| other, concentr-part-per-million | {0} ppm |
 | consumption-liter-per-kilometer | ... |
-|  | l/km |
-| one | {0} l/km |
-| other | {0} l/km |
+| , consumption-liter-per-kilometer | l/km |
+| one, consumption-liter-per-kilometer | {0} l/km |
+| other, consumption-liter-per-kilometer | {0} l/km |
 | consumption-liter-per-100kilometers | ... |
-|  | l/100 km |
-| one | {0} l/100 km |
-| other | {0} l/100 km |
+| , consumption-liter-per-100kilometers | l/100 km |
+| one, consumption-liter-per-100kilometers | {0} l/100 km |
+| other, consumption-liter-per-100kilometers | {0} l/100 km |
 | consumption-mile-per-gallon | ... |
-|  | mpg-am |
-| one | {0} mpg-am |
-| other | {0} mpg-am |
+| , consumption-mile-per-gallon | mpg-am |
+| one, consumption-mile-per-gallon | {0} mpg-am |
+| other, consumption-mile-per-gallon | {0} mpg-am |
 | consumption-mile-per-gallon-imperial | ... |
-|  | mpg-br |
-| one | {0} mpg-br |
-| other | {0} mpg-br |
+| , consumption-mile-per-gallon-imperial | mpg-br |
+| one, consumption-mile-per-gallon-imperial | {0} mpg-br |
+| other, consumption-mile-per-gallon-imperial | {0} mpg-br |
 | digital-terabyte | ... |
-|  | Tt |
-| one | {0} Tt |
-| other | {0} Tt |
+| , digital-terabyte | Tt |
+| one, digital-terabyte | {0} Tt |
+| other, digital-terabyte | {0} Tt |
 | digital-terabit | ... |
-|  | Tb |
-| one | {0} Tb |
-| other | {0} Tb |
+| , digital-terabit | Tb |
+| one, digital-terabit | {0} Tb |
+| other, digital-terabit | {0} Tb |
 | digital-gigabyte | ... |
-|  | Gt |
-| one | {0} Gt |
-| other | {0} Gt |
+| , digital-gigabyte | Gt |
+| one, digital-gigabyte | {0} Gt |
+| other, digital-gigabyte | {0} Gt |
 | digital-gigabit | ... |
-|  | Gb |
-| one | {0} Gb |
-| other | {0} Gb |
+| , digital-gigabit | Gb |
+| one, digital-gigabit | {0} Gb |
+| other, digital-gigabit | {0} Gb |
 | digital-megabyte | ... |
-|  | Mt |
-| one | {0} Mt |
-| other | {0} Mt |
+| , digital-megabyte | Mt |
+| one, digital-megabyte | {0} Mt |
+| other, digital-megabyte | {0} Mt |
 | digital-megabit | ... |
-|  | Mb |
-| one | {0} Mb |
-| other | {0} Mb |
+| , digital-megabit | Mb |
+| one, digital-megabit | {0} Mb |
+| other, digital-megabit | {0} Mb |
 | digital-kilobyte | ... |
-|  | kt |
-| one | {0} kt |
-| other | {0} kt |
+| , digital-kilobyte | kt |
+| one, digital-kilobyte | {0} kt |
+| other, digital-kilobyte | {0} kt |
 | digital-kilobit | ... |
-|  | kb |
-| one | {0} kb |
-| other | {0} kb |
+| , digital-kilobit | kb |
+| one, digital-kilobit | {0} kb |
+| other, digital-kilobit | {0} kb |
 | digital-byte | ... |
-|  | t |
-| one | {0} t |
-| other | {0} t |
+| , digital-byte | t |
+| one, digital-byte | {0} t |
+| other, digital-byte | {0} t |
 | digital-bit | ... |
-|  | b |
-| one | {0} b |
-| other | {0} b |
+| , digital-bit | b |
+| one, digital-bit | {0} b |
+| other, digital-bit | {0} b |
 | duration-century | ... |
-|  | vs |
-| one | {0} vs |
-| other | {0} vs |
+| , duration-century | vs |
+| one, duration-century | {0} vs |
+| other, duration-century | {0} vs |
 | duration-year | ... |
-|  | v |
-| one | {0} v |
-| other | {0} v |
-{0}/v
+| , duration-year | v |
+| one, duration-year | {0} v |
+| other, duration-year | {0} v |
+| per units of duration-year | {0}/v |
 | duration-month | ... |
-|  | kk |
-| one | {0} kk |
-| other | {0} kk |
-{0}/kk
+| , duration-month | kk |
+| one, duration-month | {0} kk |
+| other, duration-month | {0} kk |
+| per units of duration-month | {0}/kk |
 | duration-week | ... |
-|  | vk |
-| one | {0} vk |
-| other | {0} vk |
-{0}/vk
+| , duration-week | vk |
+| one, duration-week | {0} vk |
+| other, duration-week | {0} vk |
+| per units of duration-week | {0}/vk |
 | duration-day | ... |
-|  | pv |
-| one | {0} pv |
-| other | {0} pv |
-{0}/pv
+| , duration-day | pv |
+| one, duration-day | {0} pv |
+| other, duration-day | {0} pv |
+| per units of duration-day | {0}/pv |
 | duration-hour | ... |
-|  | t |
-| one | {0} t |
-| other | {0} t |
-{0}/t
+| , duration-hour | t |
+| one, duration-hour | {0} t |
+| other, duration-hour | {0} t |
+| per units of duration-hour | {0}/t |
 | duration-minute | ... |
-|  | min |
-| one | {0} min |
-| other | {0} min |
-{0}/min
+| , duration-minute | min |
+| one, duration-minute | {0} min |
+| other, duration-minute | {0} min |
+| per units of duration-minute | {0}/min |
 | duration-second | ... |
-|  | sek |
-| one | {0} s |
-| other | {0} s |
-{0}/s
+| , duration-second | sek |
+| one, duration-second | {0} s |
+| other, duration-second | {0} s |
+| per units of duration-second | {0}/s |
 | duration-millisecond | ... |
-|  | ms |
-| one | {0} ms |
-| other | {0} ms |
+| , duration-millisecond | ms |
+| one, duration-millisecond | {0} ms |
+| other, duration-millisecond | {0} ms |
 | duration-microsecond | ... |
-|  | μs |
-| one | {0} μs |
-| other | {0} μs |
+| , duration-microsecond | μs |
+| one, duration-microsecond | {0} μs |
+| other, duration-microsecond | {0} μs |
 | duration-nanosecond | ... |
-|  | ns |
-| one | {0} ns |
-| other | {0} ns |
+| , duration-nanosecond | ns |
+| one, duration-nanosecond | {0} ns |
+| other, duration-nanosecond | {0} ns |
 | electric-ampere | ... |
-|  | A |
-| one | {0} A |
-| other | {0} A |
+| , electric-ampere | A |
+| one, electric-ampere | {0} A |
+| other, electric-ampere | {0} A |
 | electric-milliampere | ... |
-|  | mA |
-| one | {0} mA |
-| other | {0} mA |
+| , electric-milliampere | mA |
+| one, electric-milliampere | {0} mA |
+| other, electric-milliampere | {0} mA |
 | electric-ohm | ... |
-|  | Ω |
-| one | {0} Ω |
-| other | {0} Ω |
+| , electric-ohm | Ω |
+| one, electric-ohm | {0} Ω |
+| other, electric-ohm | {0} Ω |
 | electric-volt | ... |
-|  | V |
-| one | {0} V |
-| other | {0} V |
+| , electric-volt | V |
+| one, electric-volt | {0} V |
+| other, electric-volt | {0} V |
 | energy-kilocalorie | ... |
-|  | kcal |
-| one | {0} kcal |
-| other | {0} kcal |
+| , energy-kilocalorie | kcal |
+| one, energy-kilocalorie | {0} kcal |
+| other, energy-kilocalorie | {0} kcal |
 | energy-calorie | ... |
-|  | cal |
-| one | {0} cal |
-| other | {0} cal |
+| , energy-calorie | cal |
+| one, energy-calorie | {0} cal |
+| other, energy-calorie | {0} cal |
 | energy-foodcalorie | ... |
-|  | kcal |
-| one | {0} kcal |
-| other | {0} kcal |
+| , energy-foodcalorie | kcal |
+| one, energy-foodcalorie | {0} kcal |
+| other, energy-foodcalorie | {0} kcal |
 | energy-kilojoule | ... |
-|  | kJ |
-| one | {0} kJ |
-| other | {0} kJ |
+| , energy-kilojoule | kJ |
+| one, energy-kilojoule | {0} kJ |
+| other, energy-kilojoule | {0} kJ |
 | energy-joule | ... |
-|  | J |
-| one | {0} J |
-| other | {0} J |
+| , energy-joule | J |
+| one, energy-joule | {0} J |
+| other, energy-joule | {0} J |
 | energy-kilowatt-hour | ... |
-|  | kWh |
-| one | {0} kWh |
-| other | {0} kWh |
+| , energy-kilowatt-hour | kWh |
+| one, energy-kilowatt-hour | {0} kWh |
+| other, energy-kilowatt-hour | {0} kWh |
 | frequency-gigahertz | ... |
-|  | GHz |
-| one | {0} GHz |
-| other | {0} GHz |
+| , frequency-gigahertz | GHz |
+| one, frequency-gigahertz | {0} GHz |
+| other, frequency-gigahertz | {0} GHz |
 | frequency-megahertz | ... |
-|  | MHz |
-| one | {0} MHz |
-| other | {0} MHz |
+| , frequency-megahertz | MHz |
+| one, frequency-megahertz | {0} MHz |
+| other, frequency-megahertz | {0} MHz |
 | frequency-kilohertz | ... |
-|  | kHz |
-| one | {0} kHz |
-| other | {0} kHz |
+| , frequency-kilohertz | kHz |
+| one, frequency-kilohertz | {0} kHz |
+| other, frequency-kilohertz | {0} kHz |
 | frequency-hertz | ... |
-|  | Hz |
-| one | {0} Hz |
-| other | {0} Hz |
+| , frequency-hertz | Hz |
+| one, frequency-hertz | {0} Hz |
+| other, frequency-hertz | {0} Hz |
 | length-kilometer | ... |
-|  | km |
-| one | {0} km |
-| other | {0} km |
-{0}/km
+| , length-kilometer | km |
+| one, length-kilometer | {0} km |
+| other, length-kilometer | {0} km |
+| per units of length-kilometer | {0}/km |
 | length-meter | ... |
-|  | m |
-| one | {0} m |
-| other | {0} m |
-{0}/m
+| , length-meter | m |
+| one, length-meter | {0} m |
+| other, length-meter | {0} m |
+| per units of length-meter | {0}/m |
 | length-decimeter | ... |
-|  | dm |
-| one | {0} dm |
-| other | {0} dm |
+| , length-decimeter | dm |
+| one, length-decimeter | {0} dm |
+| other, length-decimeter | {0} dm |
 | length-centimeter | ... |
-|  | cm |
-| one | {0} cm |
-| other | {0} cm |
-{0}/cm
+| , length-centimeter | cm |
+| one, length-centimeter | {0} cm |
+| other, length-centimeter | {0} cm |
+| per units of length-centimeter | {0}/cm |
 | length-millimeter | ... |
-|  | mm |
-| one | {0} mm |
-| other | {0} mm |
+| , length-millimeter | mm |
+| one, length-millimeter | {0} mm |
+| other, length-millimeter | {0} mm |
 | length-micrometer | ... |
-|  | µm |
-| one | {0} µm |
-| other | {0} µm |
+| , length-micrometer | µm |
+| one, length-micrometer | {0} µm |
+| other, length-micrometer | {0} µm |
 | length-nanometer | ... |
-|  | nm |
-| one | {0} nm |
-| other | {0} nm |
+| , length-nanometer | nm |
+| one, length-nanometer | {0} nm |
+| other, length-nanometer | {0} nm |
 | length-picometer | ... |
-|  | pm |
-| one | {0} pm |
-| other | {0} pm |
+| , length-picometer | pm |
+| one, length-picometer | {0} pm |
+| other, length-picometer | {0} pm |
 | length-mile | ... |
-|  | mi |
-| one | {0} mi |
-| other | {0} mi |
+| , length-mile | mi |
+| one, length-mile | {0} mi |
+| other, length-mile | {0} mi |
 | length-yard | ... |
-|  | yd |
-| one | {0} yd |
-| other | {0} yd |
+| , length-yard | yd |
+| one, length-yard | {0} yd |
+| other, length-yard | {0} yd |
 | length-foot | ... |
-|  | ft |
-| one | {0} ft |
-| other | {0} ft |
-{0}/ft
+| , length-foot | ft |
+| one, length-foot | {0} ft |
+| other, length-foot | {0} ft |
+| per units of length-foot | {0}/ft |
 | length-inch | ... |
-|  | in |
-| one | {0} in |
-| other | {0} in |
-{0}/in
+| , length-inch | in |
+| one, length-inch | {0} in |
+| other, length-inch | {0} in |
+| per units of length-inch | {0}/in |
 | length-parsec | ... |
-|  | pc |
-| one | {0} pc |
-| other | {0} pc |
+| , length-parsec | pc |
+| one, length-parsec | {0} pc |
+| other, length-parsec | {0} pc |
 | length-light-year | ... |
-|  | vv |
-| one | {0} vv |
-| other | {0} vv |
+| , length-light-year | vv |
+| one, length-light-year | {0} vv |
+| other, length-light-year | {0} vv |
 | length-astronomical-unit | ... |
-|  | au |
-| one | {0} au |
-| other | {0} au |
+| , length-astronomical-unit | au |
+| one, length-astronomical-unit | {0} au |
+| other, length-astronomical-unit | {0} au |
 | length-furlong | ... |
-|  | fur |
-| one | {0} fur |
-| other | {0} fur |
+| , length-furlong | fur |
+| one, length-furlong | {0} fur |
+| other, length-furlong | {0} fur |
 | length-fathom | ... |
-|  | fm |
-| one | {0} fm |
-| other | {0} fm |
+| , length-fathom | fm |
+| one, length-fathom | {0} fm |
+| other, length-fathom | {0} fm |
 | length-nautical-mile | ... |
-|  | mpk |
-| one | {0} mpk |
-| other | {0} mpk |
+| , length-nautical-mile | mpk |
+| one, length-nautical-mile | {0} mpk |
+| other, length-nautical-mile | {0} mpk |
 | length-mile-scandinavian | ... |
-|  | pnk |
-| one | {0} pnk |
-| other | {0} pnk |
+| , length-mile-scandinavian | pnk |
+| one, length-mile-scandinavian | {0} pnk |
+| other, length-mile-scandinavian | {0} pnk |
 | length-point | ... |
-|  | pt |
-| one | {0} pt |
-| other | {0} pt |
+| , length-point | pt |
+| one, length-point | {0} pt |
+| other, length-point | {0} pt |
 | light-lux | ... |
-|  | lx |
-| one | {0} lx |
-| other | {0} lx |
+| , light-lux | lx |
+| one, light-lux | {0} lx |
+| other, light-lux | {0} lx |
 | mass-metric-ton | ... |
-|  | t |
-| one | {0} t |
-| other | {0} t |
+| , mass-metric-ton | t |
+| one, mass-metric-ton | {0} t |
+| other, mass-metric-ton | {0} t |
 | mass-kilogram | ... |
-|  | kg |
-| one | {0} kg |
-| other | {0} kg |
-{0}/kg
+| , mass-kilogram | kg |
+| one, mass-kilogram | {0} kg |
+| other, mass-kilogram | {0} kg |
+| per units of mass-kilogram | {0}/kg |
 | mass-gram | ... |
-|  | g |
-| one | {0} g |
-| other | {0} g |
-{0}/g
+| , mass-gram | g |
+| one, mass-gram | {0} g |
+| other, mass-gram | {0} g |
+| per units of mass-gram | {0}/g |
 | mass-milligram | ... |
-|  | mg |
-| one | {0} mg |
-| other | {0} mg |
+| , mass-milligram | mg |
+| one, mass-milligram | {0} mg |
+| other, mass-milligram | {0} mg |
 | mass-microgram | ... |
-|  | µg |
-| one | {0} µg |
-| other | {0} µg |
+| , mass-microgram | µg |
+| one, mass-microgram | {0} µg |
+| other, mass-microgram | {0} µg |
 | mass-ton | ... |
-|  | am. tn |
-| one | {0} am. tn |
-| other | {0} am. tn |
+| , mass-ton | am. tn |
+| one, mass-ton | {0} am. tn |
+| other, mass-ton | {0} am. tn |
 | mass-stone | ... |
-|  | st |
-| one | {0} st |
-| other | {0} st |
+| , mass-stone | st |
+| one, mass-stone | {0} st |
+| other, mass-stone | {0} st |
 | mass-pound | ... |
-|  | lb |
-| one | {0} lb |
-| other | {0} lb |
-{0}/lb
+| , mass-pound | lb |
+| one, mass-pound | {0} lb |
+| other, mass-pound | {0} lb |
+| per units of mass-pound | {0}/lb |
 | mass-ounce | ... |
-|  | oz |
-| one | {0} oz |
-| other | {0} oz |
-{0}/oz
+| , mass-ounce | oz |
+| one, mass-ounce | {0} oz |
+| other, mass-ounce | {0} oz |
+| per units of mass-ounce | {0}/oz |
 | mass-ounce-troy | ... |
-|  | oz t |
-| one | {0} oz t |
-| other | {0} oz t |
+| , mass-ounce-troy | oz t |
+| one, mass-ounce-troy | {0} oz t |
+| other, mass-ounce-troy | {0} oz t |
 | mass-carat | ... |
-|  | ka |
-| one | {0} ka |
-| other | {0} ka |
+| , mass-carat | ka |
+| one, mass-carat | {0} ka |
+| other, mass-carat | {0} ka |
 | power-gigawatt | ... |
-|  | GW |
-| one | {0} GW |
-| other | {0} GW |
+| , power-gigawatt | GW |
+| one, power-gigawatt | {0} GW |
+| other, power-gigawatt | {0} GW |
 | power-megawatt | ... |
-|  | MW |
-| one | {0} MW |
-| other | {0} MW |
+| , power-megawatt | MW |
+| one, power-megawatt | {0} MW |
+| other, power-megawatt | {0} MW |
 | power-kilowatt | ... |
-|  | kW |
-| one | {0} kW |
-| other | {0} kW |
+| , power-kilowatt | kW |
+| one, power-kilowatt | {0} kW |
+| other, power-kilowatt | {0} kW |
 | power-watt | ... |
-|  | W |
-| one | {0} W |
-| other | {0} W |
+| , power-watt | W |
+| one, power-watt | {0} W |
+| other, power-watt | {0} W |
 | power-milliwatt | ... |
-|  | mW |
-| one | {0} mW |
-| other | {0} mW |
+| , power-milliwatt | mW |
+| one, power-milliwatt | {0} mW |
+| other, power-milliwatt | {0} mW |
 | power-horsepower | ... |
-|  | hv |
-| one | {0} hv |
-| other | {0} hv |
+| , power-horsepower | hv |
+| one, power-horsepower | {0} hv |
+| other, power-horsepower | {0} hv |
 | pressure-hectopascal | ... |
-|  | hPa |
-| one | {0} hPa |
-| other | {0} hPa |
+| , pressure-hectopascal | hPa |
+| one, pressure-hectopascal | {0} hPa |
+| other, pressure-hectopascal | {0} hPa |
 | pressure-millimeter-of-mercury | ... |
-|  | mm Hg |
-| one | {0} mm Hg |
-| other | {0} mm Hg |
+| , pressure-millimeter-of-mercury | mm Hg |
+| one, pressure-millimeter-of-mercury | {0} mm Hg |
+| other, pressure-millimeter-of-mercury | {0} mm Hg |
 | pressure-pound-per-square-inch | ... |
-|  | psi |
-| one | {0} psi |
-| other | {0} psi |
+| , pressure-pound-per-square-inch | psi |
+| one, pressure-pound-per-square-inch | {0} psi |
+| other, pressure-pound-per-square-inch | {0} psi |
 | pressure-inch-hg | ... |
-|  | inHg |
-| one | {0} inHg |
-| other | {0} inHg |
+| , pressure-inch-hg | inHg |
+| one, pressure-inch-hg | {0} inHg |
+| other, pressure-inch-hg | {0} inHg |
 | pressure-millibar | ... |
-|  | mbar |
-| one | {0} mbar |
-| other | {0} mbar |
+| , pressure-millibar | mbar |
+| one, pressure-millibar | {0} mbar |
+| other, pressure-millibar | {0} mbar |
 | speed-kilometer-per-hour | ... |
-|  | km/h |
-| one | {0} km/h |
-| other | {0} km/h |
+| , speed-kilometer-per-hour | km/h |
+| one, speed-kilometer-per-hour | {0} km/h |
+| other, speed-kilometer-per-hour | {0} km/h |
 | speed-meter-per-second | ... |
-|  | m/s |
-| one | {0} m/s |
-| other | {0} m/s |
+| , speed-meter-per-second | m/s |
+| one, speed-meter-per-second | {0} m/s |
+| other, speed-meter-per-second | {0} m/s |
 | speed-mile-per-hour | ... |
-|  | mi/h |
-| one | {0} mi/h |
-| other | {0} mi/h |
+| , speed-mile-per-hour | mi/h |
+| one, speed-mile-per-hour | {0} mi/h |
+| other, speed-mile-per-hour | {0} mi/h |
 | speed-knot | ... |
-|  | kn |
-| one | {0} kn |
-| other | {0} kn |
+| , speed-knot | kn |
+| one, speed-knot | {0} kn |
+| other, speed-knot | {0} kn |
 | temperature-generic | ... |
-|  | ° |
-| one | {0}° |
-| other | {0}° |
+| , temperature-generic | ° |
+| one, temperature-generic | {0}° |
+| other, temperature-generic | {0}° |
 | temperature-celsius | ... |
-|  | °C |
-| one | {0} °C |
-| other | {0} °C |
+| , temperature-celsius | °C |
+| one, temperature-celsius | {0} °C |
+| other, temperature-celsius | {0} °C |
 | temperature-fahrenheit | ... |
-|  | °F |
-| one | {0} °F |
-| other | {0} °F |
+| , temperature-fahrenheit | °F |
+| one, temperature-fahrenheit | {0} °F |
+| other, temperature-fahrenheit | {0} °F |
 | temperature-kelvin | ... |
-|  | K |
-| one | {0} K |
-| other | {0} K |
+| , temperature-kelvin | K |
+| one, temperature-kelvin | {0} K |
+| other, temperature-kelvin | {0} K |
 | volume-cubic-kilometer | ... |
-|  | km³ |
-| one | {0} km³ |
-| other | {0} km³ |
+| , volume-cubic-kilometer | km³ |
+| one, volume-cubic-kilometer | {0} km³ |
+| other, volume-cubic-kilometer | {0} km³ |
 | volume-cubic-meter | ... |
-|  | m³ |
-| one | {0} m³ |
-| other | {0} m³ |
-{0}/m³
+| , volume-cubic-meter | m³ |
+| one, volume-cubic-meter | {0} m³ |
+| other, volume-cubic-meter | {0} m³ |
+| per units of volume-cubic-meter | {0}/m³ |
 | volume-cubic-centimeter | ... |
-|  | cm³ |
-| one | {0} cm³ |
-| other | {0} cm³ |
-{0}/cm³
+| , volume-cubic-centimeter | cm³ |
+| one, volume-cubic-centimeter | {0} cm³ |
+| other, volume-cubic-centimeter | {0} cm³ |
+| per units of volume-cubic-centimeter | {0}/cm³ |
 | volume-cubic-mile | ... |
-|  | mi³ |
-| one | {0} mi³ |
-| other | {0} mi³ |
+| , volume-cubic-mile | mi³ |
+| one, volume-cubic-mile | {0} mi³ |
+| other, volume-cubic-mile | {0} mi³ |
 | volume-cubic-yard | ... |
-|  | yd³ |
-| one | {0} yd³ |
-| other | {0} yd³ |
+| , volume-cubic-yard | yd³ |
+| one, volume-cubic-yard | {0} yd³ |
+| other, volume-cubic-yard | {0} yd³ |
 | volume-cubic-foot | ... |
-|  | ft³ |
-| one | {0} ft³ |
-| other | {0} ft³ |
+| , volume-cubic-foot | ft³ |
+| one, volume-cubic-foot | {0} ft³ |
+| other, volume-cubic-foot | {0} ft³ |
 | volume-cubic-inch | ... |
-|  | in³ |
-| one | {0} in³ |
-| other | {0} in³ |
+| , volume-cubic-inch | in³ |
+| one, volume-cubic-inch | {0} in³ |
+| other, volume-cubic-inch | {0} in³ |
 | volume-megaliter | ... |
-|  | Ml |
-| one | {0} Ml |
-| other | {0} Ml |
+| , volume-megaliter | Ml |
+| one, volume-megaliter | {0} Ml |
+| other, volume-megaliter | {0} Ml |
 | volume-hectoliter | ... |
-|  | hl |
-| one | {0} hl |
-| other | {0} hl |
+| , volume-hectoliter | hl |
+| one, volume-hectoliter | {0} hl |
+| other, volume-hectoliter | {0} hl |
 | volume-liter | ... |
-|  | l |
-| one | {0} l |
-| other | {0} l |
-{0}/l
+| , volume-liter | l |
+| one, volume-liter | {0} l |
+| other, volume-liter | {0} l |
+| per units of volume-liter | {0}/l |
 | volume-deciliter | ... |
-|  | dl |
-| one | {0} dl |
-| other | {0} dl |
+| , volume-deciliter | dl |
+| one, volume-deciliter | {0} dl |
+| other, volume-deciliter | {0} dl |
 | volume-centiliter | ... |
-|  | cl |
-| one | {0} cl |
-| other | {0} cl |
+| , volume-centiliter | cl |
+| one, volume-centiliter | {0} cl |
+| other, volume-centiliter | {0} cl |
 | volume-milliliter | ... |
-|  | ml |
-| one | {0} ml |
-| other | {0} ml |
+| , volume-milliliter | ml |
+| one, volume-milliliter | {0} ml |
+| other, volume-milliliter | {0} ml |
 | volume-pint-metric | ... |
-|  | tp |
-| one | {0} tp |
-| other | {0} tp |
+| , volume-pint-metric | tp |
+| one, volume-pint-metric | {0} tp |
+| other, volume-pint-metric | {0} tp |
 | volume-cup-metric | ... |
-|  | tkp |
-| one | {0} tkp |
-| other | {0} tkp |
+| , volume-cup-metric | tkp |
+| one, volume-cup-metric | {0} tkp |
+| other, volume-cup-metric | {0} tkp |
 | volume-acre-foot | ... |
-|  | ac ft |
-| one | {0} ac ft |
-| other | {0} ac ft |
+| , volume-acre-foot | ac ft |
+| one, volume-acre-foot | {0} ac ft |
+| other, volume-acre-foot | {0} ac ft |
 | volume-bushel | ... |
-|  | bu |
-| one | {0} bu |
-| other | {0} bu |
+| , volume-bushel | bu |
+| one, volume-bushel | {0} bu |
+| other, volume-bushel | {0} bu |
 | volume-gallon | ... |
-|  | am. gal |
-| one | {0} am. gal |
-| other | {0} am. gal |
-{0}/am. gal
+| , volume-gallon | am. gal |
+| one, volume-gallon | {0} am. gal |
+| other, volume-gallon | {0} am. gal |
+| per units of volume-gallon | {0}/am. gal |
 | volume-gallon-imperial | ... |
-|  | br. gal |
-| one | {0} br. gal |
-| other | {0} br. gal |
-{0}/br. gal
+| , volume-gallon-imperial | br. gal |
+| one, volume-gallon-imperial | {0} br. gal |
+| other, volume-gallon-imperial | {0} br. gal |
+| per units of volume-gallon-imperial | {0}/br. gal |
 | volume-quart | ... |
-|  | qt |
-| one | {0} qt |
-| other | {0} qt |
+| , volume-quart | qt |
+| one, volume-quart | {0} qt |
+| other, volume-quart | {0} qt |
 | volume-pint | ... |
-|  | pt |
-| one | {0} pt |
-| other | {0} pt |
+| , volume-pint | pt |
+| one, volume-pint | {0} pt |
+| other, volume-pint | {0} pt |
 | volume-cup | ... |
-|  | kp |
-| one | {0} kp |
-| other | {0} kp |
+| , volume-cup | kp |
+| one, volume-cup | {0} kp |
+| other, volume-cup | {0} kp |
 | volume-fluid-ounce | ... |
-|  | fl oz |
-| one | {0} fl oz |
-| other | {0} fl oz |
+| , volume-fluid-ounce | fl oz |
+| one, volume-fluid-ounce | {0} fl oz |
+| other, volume-fluid-ounce | {0} fl oz |
 | volume-tablespoon | ... |
-|  | rkl |
-| one | {0} rkl |
-| other | {0} rkl |
+| , volume-tablespoon | rkl |
+| one, volume-tablespoon | {0} rkl |
+| other, volume-tablespoon | {0} rkl |
 | volume-teaspoon | ... |
-|  | tl |
-| one | {0} tl |
-| other | {0} tl |
+| , volume-teaspoon | tl |
+| one, volume-teaspoon | {0} tl |
+| other, volume-teaspoon | {0} tl |
 {0}I{0}P{0}E{0}L
 | Compound pattern  | {0}/{1} |
 | acceleration-g-force | ... |
-|  | G |
-| one | {0}G |
-| other | {0}G |
+| , acceleration-g-force | G |
+| one, acceleration-g-force | {0}G |
+| other, acceleration-g-force | {0}G |
 | acceleration-meter-per-second-squared | ... |
-|  | m/s² |
-| one | {0}m/s² |
-| other | {0}m/s² |
+| , acceleration-meter-per-second-squared | m/s² |
+| one, acceleration-meter-per-second-squared | {0}m/s² |
+| other, acceleration-meter-per-second-squared | {0}m/s² |
 | angle-revolution | ... |
-|  | rev |
-| one | {0}rev |
-| other | {0}rev |
+| , angle-revolution | rev |
+| one, angle-revolution | {0}rev |
+| other, angle-revolution | {0}rev |
 | angle-radian | ... |
-|  | rad |
-| one | {0}rad |
-| other | {0}rad |
+| , angle-radian | rad |
+| one, angle-radian | {0}rad |
+| other, angle-radian | {0}rad |
 | angle-degree | ... |
-|  | ° |
-| one | {0}° |
-| other | {0}° |
+| , angle-degree | ° |
+| one, angle-degree | {0}° |
+| other, angle-degree | {0}° |
 | angle-arc-minute | ... |
-|  | ′ |
-| one | {0}′ |
-| other | {0}′ |
+| , angle-arc-minute | ′ |
+| one, angle-arc-minute | {0}′ |
+| other, angle-arc-minute | {0}′ |
 | angle-arc-second | ... |
-|  | ″ |
-| one | {0}″ |
-| other | {0}″ |
+| , angle-arc-second | ″ |
+| one, angle-arc-second | {0}″ |
+| other, angle-arc-second | {0}″ |
 | area-square-kilometer | ... |
-|  | km² |
-| one | {0}km² |
-| other | {0}km² |
-{0}/km²
+| , area-square-kilometer | km² |
+| one, area-square-kilometer | {0}km² |
+| other, area-square-kilometer | {0}km² |
+| per units of area-square-kilometer | {0}/km² |
 | area-hectare | ... |
-|  | ha |
-| one | {0}ha |
-| other | {0}ha |
+| , area-hectare | ha |
+| one, area-hectare | {0}ha |
+| other, area-hectare | {0}ha |
 | area-square-meter | ... |
-|  | m² |
-| one | {0}m² |
-| other | {0}m² |
-{0}/m²
+| , area-square-meter | m² |
+| one, area-square-meter | {0}m² |
+| other, area-square-meter | {0}m² |
+| per units of area-square-meter | {0}/m² |
 | area-square-centimeter | ... |
-|  | cm² |
-| one | {0}cm² |
-| other | {0}cm² |
-{0}/cm²
+| , area-square-centimeter | cm² |
+| one, area-square-centimeter | {0}cm² |
+| other, area-square-centimeter | {0}cm² |
+| per units of area-square-centimeter | {0}/cm² |
 | area-square-mile | ... |
-|  | mi² |
-| one | {0}mi² |
-| other | {0}mi² |
-{0}/mi²
+| , area-square-mile | mi² |
+| one, area-square-mile | {0}mi² |
+| other, area-square-mile | {0}mi² |
+| per units of area-square-mile | {0}/mi² |
 | area-acre | ... |
-|  | ac |
-| one | {0}ac |
-| other | {0}ac |
+| , area-acre | ac |
+| one, area-acre | {0}ac |
+| other, area-acre | {0}ac |
 | area-square-yard | ... |
-|  | yd² |
-| one | {0}yd² |
-| other | {0}yd² |
+| , area-square-yard | yd² |
+| one, area-square-yard | {0}yd² |
+| other, area-square-yard | {0}yd² |
 | area-square-foot | ... |
-|  | ft² |
-| one | {0}ft² |
-| other | {0}ft² |
+| , area-square-foot | ft² |
+| one, area-square-foot | {0}ft² |
+| other, area-square-foot | {0}ft² |
 | area-square-inch | ... |
-|  | in² |
-| one | {0}in² |
-| other | {0}in² |
-{0}/in²
+| , area-square-inch | in² |
+| one, area-square-inch | {0}in² |
+| other, area-square-inch | {0}in² |
+| per units of area-square-inch | {0}/in² |
 | concentr-karat | ... |
-|  | ka |
-| one | {0}ka |
-| other | {0}ka |
+| , concentr-karat | ka |
+| one, concentr-karat | {0}ka |
+| other, concentr-karat | {0}ka |
 | concentr-milligram-per-deciliter | ... |
-|  | mg/dl |
-| one | {0}mg/dl |
-| other | {0}mg/dl |
+| , concentr-milligram-per-deciliter | mg/dl |
+| one, concentr-milligram-per-deciliter | {0}mg/dl |
+| other, concentr-milligram-per-deciliter | {0}mg/dl |
 | concentr-millimole-per-liter | ... |
-|  | mmol/l |
-| one | {0}mmol/l |
-| other | {0}mmol/l |
+| , concentr-millimole-per-liter | mmol/l |
+| one, concentr-millimole-per-liter | {0}mmol/l |
+| other, concentr-millimole-per-liter | {0}mmol/l |
 | concentr-part-per-million | ... |
-|  | ppm |
-| one | {0}ppm |
-| other | {0}ppm |
+| , concentr-part-per-million | ppm |
+| one, concentr-part-per-million | {0}ppm |
+| other, concentr-part-per-million | {0}ppm |
 | consumption-liter-per-kilometer | ... |
-|  | l/km |
-| one | {0}l/km |
-| other | {0}l/km |
+| , consumption-liter-per-kilometer | l/km |
+| one, consumption-liter-per-kilometer | {0}l/km |
+| other, consumption-liter-per-kilometer | {0}l/km |
 | consumption-liter-per-100kilometers | ... |
-|  | l/100km |
-| one | {0}l/100km |
-| other | {0}l/100km |
+| , consumption-liter-per-100kilometers | l/100km |
+| one, consumption-liter-per-100kilometers | {0}l/100km |
+| other, consumption-liter-per-100kilometers | {0}l/100km |
 | consumption-mile-per-gallon | ... |
-|  | mpg-am |
-| one | {0}mpg-am |
-| other | {0}mpg-am |
+| , consumption-mile-per-gallon | mpg-am |
+| one, consumption-mile-per-gallon | {0}mpg-am |
+| other, consumption-mile-per-gallon | {0}mpg-am |
 | consumption-mile-per-gallon-imperial | ... |
-|  | mpg-br |
-| one | {0}mpg-br |
-| other | {0}mpg-br |
+| , consumption-mile-per-gallon-imperial | mpg-br |
+| one, consumption-mile-per-gallon-imperial | {0}mpg-br |
+| other, consumption-mile-per-gallon-imperial | {0}mpg-br |
 | digital-terabyte | ... |
-|  | Tt |
-| one | {0}Tt |
-| other | {0}Tt |
+| , digital-terabyte | Tt |
+| one, digital-terabyte | {0}Tt |
+| other, digital-terabyte | {0}Tt |
 | digital-terabit | ... |
-|  | Tb |
-| one | {0}Tb |
-| other | {0}Tb |
+| , digital-terabit | Tb |
+| one, digital-terabit | {0}Tb |
+| other, digital-terabit | {0}Tb |
 | digital-gigabyte | ... |
-|  | Gt |
-| one | {0}Gt |
-| other | {0}Gt |
+| , digital-gigabyte | Gt |
+| one, digital-gigabyte | {0}Gt |
+| other, digital-gigabyte | {0}Gt |
 | digital-gigabit | ... |
-|  | Gb |
-| one | {0}Gb |
-| other | {0}Gb |
+| , digital-gigabit | Gb |
+| one, digital-gigabit | {0}Gb |
+| other, digital-gigabit | {0}Gb |
 | digital-megabyte | ... |
-|  | Mt |
-| one | {0}Mt |
-| other | {0}Mt |
+| , digital-megabyte | Mt |
+| one, digital-megabyte | {0}Mt |
+| other, digital-megabyte | {0}Mt |
 | digital-megabit | ... |
-|  | Mb |
-| one | {0}Mb |
-| other | {0}Mb |
+| , digital-megabit | Mb |
+| one, digital-megabit | {0}Mb |
+| other, digital-megabit | {0}Mb |
 | digital-kilobyte | ... |
-|  | kt |
-| one | {0}kt |
-| other | {0}kt |
+| , digital-kilobyte | kt |
+| one, digital-kilobyte | {0}kt |
+| other, digital-kilobyte | {0}kt |
 | digital-kilobit | ... |
-|  | kb |
-| one | {0}kb |
-| other | {0}kb |
+| , digital-kilobit | kb |
+| one, digital-kilobit | {0}kb |
+| other, digital-kilobit | {0}kb |
 | digital-byte | ... |
-|  | t |
-| one | {0}t |
-| other | {0}t |
+| , digital-byte | t |
+| one, digital-byte | {0}t |
+| other, digital-byte | {0}t |
 | digital-bit | ... |
-|  | b |
-| one | {0}b |
-| other | {0}b |
+| , digital-bit | b |
+| one, digital-bit | {0}b |
+| other, digital-bit | {0}b |
 | duration-century | ... |
-|  | vs |
-| one | {0} vs |
-| other | {0} vs |
+| , duration-century | vs |
+| one, duration-century | {0} vs |
+| other, duration-century | {0} vs |
 | duration-year | ... |
-|  | v |
-| one | {0}v |
-| other | {0}v |
-{0}/v
+| , duration-year | v |
+| one, duration-year | {0}v |
+| other, duration-year | {0}v |
+| per units of duration-year | {0}/v |
 | duration-month | ... |
-|  | kk |
-| one | {0}kk |
-| other | {0}kk |
-{0}/kk
+| , duration-month | kk |
+| one, duration-month | {0}kk |
+| other, duration-month | {0}kk |
+| per units of duration-month | {0}/kk |
 | duration-week | ... |
-|  | vk |
-| one | {0}vk |
-| other | {0}vk |
-{0}/vk
+| , duration-week | vk |
+| one, duration-week | {0}vk |
+| other, duration-week | {0}vk |
+| per units of duration-week | {0}/vk |
 | duration-day | ... |
-|  | pv |
-| one | {0}pv |
-| other | {0}pv |
-{0}/pv
+| , duration-day | pv |
+| one, duration-day | {0}pv |
+| other, duration-day | {0}pv |
+| per units of duration-day | {0}/pv |
 | duration-hour | ... |
-|  | t |
-| one | {0}t |
-| other | {0}t |
-{0}/t
+| , duration-hour | t |
+| one, duration-hour | {0}t |
+| other, duration-hour | {0}t |
+| per units of duration-hour | {0}/t |
 | duration-minute | ... |
-|  | min |
-| one | {0}min |
-| other | {0}min |
-{0}/min
+| , duration-minute | min |
+| one, duration-minute | {0}min |
+| other, duration-minute | {0}min |
+| per units of duration-minute | {0}/min |
 | duration-second | ... |
-|  | s |
-| one | {0}s |
-| other | {0}s |
-{0}/s
+| , duration-second | s |
+| one, duration-second | {0}s |
+| other, duration-second | {0}s |
+| per units of duration-second | {0}/s |
 | duration-millisecond | ... |
-|  | ms |
-| one | {0}ms |
-| other | {0}ms |
+| , duration-millisecond | ms |
+| one, duration-millisecond | {0}ms |
+| other, duration-millisecond | {0}ms |
 | duration-microsecond | ... |
-|  | μs |
-| one | {0}μs |
-| other | {0}μs |
+| , duration-microsecond | μs |
+| one, duration-microsecond | {0}μs |
+| other, duration-microsecond | {0}μs |
 | duration-nanosecond | ... |
-|  | ns |
-| one | {0}ns |
-| other | {0}ns |
+| , duration-nanosecond | ns |
+| one, duration-nanosecond | {0}ns |
+| other, duration-nanosecond | {0}ns |
 | electric-ampere | ... |
-|  | A |
-| one | {0}A |
-| other | {0}A |
+| , electric-ampere | A |
+| one, electric-ampere | {0}A |
+| other, electric-ampere | {0}A |
 | electric-milliampere | ... |
-|  | mA |
-| one | {0}mA |
-| other | {0}mA |
+| , electric-milliampere | mA |
+| one, electric-milliampere | {0}mA |
+| other, electric-milliampere | {0}mA |
 | electric-ohm | ... |
-|  | Ω |
-| one | {0}Ω |
-| other | {0}Ω |
+| , electric-ohm | Ω |
+| one, electric-ohm | {0}Ω |
+| other, electric-ohm | {0}Ω |
 | electric-volt | ... |
-|  | V |
-| one | {0}V |
-| other | {0}V |
+| , electric-volt | V |
+| one, electric-volt | {0}V |
+| other, electric-volt | {0}V |
 | energy-kilocalorie | ... |
-|  | kcal |
-| one | {0}kcal |
-| other | {0}kcal |
+| , energy-kilocalorie | kcal |
+| one, energy-kilocalorie | {0}kcal |
+| other, energy-kilocalorie | {0}kcal |
 | energy-calorie | ... |
-|  | cal |
-| one | {0}cal |
-| other | {0}cal |
+| , energy-calorie | cal |
+| one, energy-calorie | {0}cal |
+| other, energy-calorie | {0}cal |
 | energy-foodcalorie | ... |
-|  | kcal |
-| one | {0}kcal |
-| other | {0}kcal |
+| , energy-foodcalorie | kcal |
+| one, energy-foodcalorie | {0}kcal |
+| other, energy-foodcalorie | {0}kcal |
 | energy-kilojoule | ... |
-|  | kJ |
-| one | {0}kJ |
-| other | {0}kJ |
+| , energy-kilojoule | kJ |
+| one, energy-kilojoule | {0}kJ |
+| other, energy-kilojoule | {0}kJ |
 | energy-joule | ... |
-|  | J |
-| one | {0}J |
-| other | {0}J |
+| , energy-joule | J |
+| one, energy-joule | {0}J |
+| other, energy-joule | {0}J |
 | energy-kilowatt-hour | ... |
-|  | kWh |
-| one | {0}kWh |
-| other | {0}kWh |
+| , energy-kilowatt-hour | kWh |
+| one, energy-kilowatt-hour | {0}kWh |
+| other, energy-kilowatt-hour | {0}kWh |
 | frequency-gigahertz | ... |
-|  | GHz |
-| one | {0}GHz |
-| other | {0}GHz |
+| , frequency-gigahertz | GHz |
+| one, frequency-gigahertz | {0}GHz |
+| other, frequency-gigahertz | {0}GHz |
 | frequency-megahertz | ... |
-|  | MHz |
-| one | {0}MHz |
-| other | {0}MHz |
+| , frequency-megahertz | MHz |
+| one, frequency-megahertz | {0}MHz |
+| other, frequency-megahertz | {0}MHz |
 | frequency-kilohertz | ... |
-|  | kHz |
-| one | {0}kHz |
-| other | {0}kHz |
+| , frequency-kilohertz | kHz |
+| one, frequency-kilohertz | {0}kHz |
+| other, frequency-kilohertz | {0}kHz |
 | frequency-hertz | ... |
-|  | Hz |
-| one | {0}Hz |
-| other | {0}Hz |
+| , frequency-hertz | Hz |
+| one, frequency-hertz | {0}Hz |
+| other, frequency-hertz | {0}Hz |
 | length-kilometer | ... |
-|  | km |
-| one | {0}km |
-| other | {0}km |
-{0}/km
+| , length-kilometer | km |
+| one, length-kilometer | {0}km |
+| other, length-kilometer | {0}km |
+| per units of length-kilometer | {0}/km |
 | length-meter | ... |
-|  | m |
-| one | {0}m |
-| other | {0}m |
-{0}/m
+| , length-meter | m |
+| one, length-meter | {0}m |
+| other, length-meter | {0}m |
+| per units of length-meter | {0}/m |
 | length-decimeter | ... |
-|  | dm |
-| one | {0}dm |
-| other | {0}dm |
+| , length-decimeter | dm |
+| one, length-decimeter | {0}dm |
+| other, length-decimeter | {0}dm |
 | length-centimeter | ... |
-|  | cm |
-| one | {0}cm |
-| other | {0}cm |
-{0}/cm
+| , length-centimeter | cm |
+| one, length-centimeter | {0}cm |
+| other, length-centimeter | {0}cm |
+| per units of length-centimeter | {0}/cm |
 | length-millimeter | ... |
-|  | mm |
-| one | {0}mm |
-| other | {0}mm |
+| , length-millimeter | mm |
+| one, length-millimeter | {0}mm |
+| other, length-millimeter | {0}mm |
 | length-micrometer | ... |
-|  | µm |
-| one | {0}µm |
-| other | {0}µm |
+| , length-micrometer | µm |
+| one, length-micrometer | {0}µm |
+| other, length-micrometer | {0}µm |
 | length-nanometer | ... |
-|  | nm |
-| one | {0}nm |
-| other | {0}nm |
+| , length-nanometer | nm |
+| one, length-nanometer | {0}nm |
+| other, length-nanometer | {0}nm |
 | length-picometer | ... |
-|  | pm |
-| one | {0}pm |
-| other | {0}pm |
+| , length-picometer | pm |
+| one, length-picometer | {0}pm |
+| other, length-picometer | {0}pm |
 | length-mile | ... |
-|  | mi |
-| one | {0}mi |
-| other | {0}mi |
+| , length-mile | mi |
+| one, length-mile | {0}mi |
+| other, length-mile | {0}mi |
 | length-yard | ... |
-|  | yd |
-| one | {0}yd |
-| other | {0}yd |
+| , length-yard | yd |
+| one, length-yard | {0}yd |
+| other, length-yard | {0}yd |
 | length-foot | ... |
-|  | ft |
-| one | {0}′ |
-| other | {0}′ |
-{0}/′
+| , length-foot | ft |
+| one, length-foot | {0}′ |
+| other, length-foot | {0}′ |
+| per units of length-foot | {0}/′ |
 | length-inch | ... |
-|  | in |
-| one | {0}″ |
-| other | {0}″ |
-{0}/″
+| , length-inch | in |
+| one, length-inch | {0}″ |
+| other, length-inch | {0}″ |
+| per units of length-inch | {0}/″ |
 | length-parsec | ... |
-|  | pc |
-| one | {0}pc |
-| other | {0}pc |
+| , length-parsec | pc |
+| one, length-parsec | {0}pc |
+| other, length-parsec | {0}pc |
 | length-light-year | ... |
-|  | vv |
-| one | {0}vv |
-| other | {0}vv |
+| , length-light-year | vv |
+| one, length-light-year | {0}vv |
+| other, length-light-year | {0}vv |
 | length-astronomical-unit | ... |
-|  | au |
-| one | {0}au |
-| other | {0}au |
+| , length-astronomical-unit | au |
+| one, length-astronomical-unit | {0}au |
+| other, length-astronomical-unit | {0}au |
 | length-furlong | ... |
-|  | fur |
-| one | {0}fur |
-| other | {0}fur |
+| , length-furlong | fur |
+| one, length-furlong | {0}fur |
+| other, length-furlong | {0}fur |
 | length-fathom | ... |
-|  | fm |
-| one | {0}fm |
-| other | {0}fm |
+| , length-fathom | fm |
+| one, length-fathom | {0}fm |
+| other, length-fathom | {0}fm |
 | length-nautical-mile | ... |
-|  | mpk |
-| one | {0}mpk |
-| other | {0}mpk |
+| , length-nautical-mile | mpk |
+| one, length-nautical-mile | {0}mpk |
+| other, length-nautical-mile | {0}mpk |
 | length-mile-scandinavian | ... |
-|  | pnk |
-| one | {0}pnk |
-| other | {0}pnk |
+| , length-mile-scandinavian | pnk |
+| one, length-mile-scandinavian | {0}pnk |
+| other, length-mile-scandinavian | {0}pnk |
 | light-lux | ... |
-|  | lx |
-| one | {0}lx |
-| other | {0}lx |
+| , light-lux | lx |
+| one, light-lux | {0}lx |
+| other, light-lux | {0}lx |
 | mass-metric-ton | ... |
-|  | t |
-| one | {0}t |
-| other | {0}t |
+| , mass-metric-ton | t |
+| one, mass-metric-ton | {0}t |
+| other, mass-metric-ton | {0}t |
 | mass-kilogram | ... |
-|  | kg |
-| one | {0}kg |
-| other | {0}kg |
-{0}/kg
+| , mass-kilogram | kg |
+| one, mass-kilogram | {0}kg |
+| other, mass-kilogram | {0}kg |
+| per units of mass-kilogram | {0}/kg |
 | mass-gram | ... |
-|  | g |
-| one | {0}g |
-| other | {0}g |
-{0}/g
+| , mass-gram | g |
+| one, mass-gram | {0}g |
+| other, mass-gram | {0}g |
+| per units of mass-gram | {0}/g |
 | mass-milligram | ... |
-|  | mg |
-| one | {0}mg |
-| other | {0}mg |
+| , mass-milligram | mg |
+| one, mass-milligram | {0}mg |
+| other, mass-milligram | {0}mg |
 | mass-microgram | ... |
-|  | µg |
-| one | {0}μg |
-| other | {0}μg |
+| , mass-microgram | µg |
+| one, mass-microgram | {0}μg |
+| other, mass-microgram | {0}μg |
 | mass-ton | ... |
-|  | am.tn |
-| one | {0}am.tn |
-| other | {0}am.tn |
+| , mass-ton | am.tn |
+| one, mass-ton | {0}am.tn |
+| other, mass-ton | {0}am.tn |
 | mass-stone | ... |
-|  | st |
-| one | {0}st |
-| other | {0}st |
+| , mass-stone | st |
+| one, mass-stone | {0}st |
+| other, mass-stone | {0}st |
 | mass-pound | ... |
-|  | lb |
-| one | {0}lb |
-| other | {0}lb |
-{0}/lb
+| , mass-pound | lb |
+| one, mass-pound | {0}lb |
+| other, mass-pound | {0}lb |
+| per units of mass-pound | {0}/lb |
 | mass-ounce | ... |
-|  | oz |
-| one | {0}oz |
-| other | {0}oz |
-{0}/oz
+| , mass-ounce | oz |
+| one, mass-ounce | {0}oz |
+| other, mass-ounce | {0}oz |
+| per units of mass-ounce | {0}/oz |
 | mass-ounce-troy | ... |
-|  | oz t |
-| one | {0}oz t |
-| other | {0}oz t |
+| , mass-ounce-troy | oz t |
+| one, mass-ounce-troy | {0}oz t |
+| other, mass-ounce-troy | {0}oz t |
 | mass-carat | ... |
-|  | ka |
-| one | {0}ka |
-| other | {0}ka |
+| , mass-carat | ka |
+| one, mass-carat | {0}ka |
+| other, mass-carat | {0}ka |
 | power-gigawatt | ... |
-|  | GW |
-| one | {0}GW |
-| other | {0}GW |
+| , power-gigawatt | GW |
+| one, power-gigawatt | {0}GW |
+| other, power-gigawatt | {0}GW |
 | power-megawatt | ... |
-|  | MW |
-| one | {0}MW |
-| other | {0} MW |
+| , power-megawatt | MW |
+| one, power-megawatt | {0}MW |
+| other, power-megawatt | {0} MW |
 | power-kilowatt | ... |
-|  | kW |
-| one | {0}kW |
-| other | {0}kW |
+| , power-kilowatt | kW |
+| one, power-kilowatt | {0}kW |
+| other, power-kilowatt | {0}kW |
 | power-watt | ... |
-|  | W |
-| one | {0}W |
-| other | {0}W |
+| , power-watt | W |
+| one, power-watt | {0}W |
+| other, power-watt | {0}W |
 | power-milliwatt | ... |
-|  | mW |
-| one | {0}mW |
-| other | {0}mW |
+| , power-milliwatt | mW |
+| one, power-milliwatt | {0}mW |
+| other, power-milliwatt | {0}mW |
 | power-horsepower | ... |
-|  | hv |
-| one | {0}hv |
-| other | {0}hv |
+| , power-horsepower | hv |
+| one, power-horsepower | {0}hv |
+| other, power-horsepower | {0}hv |
 | pressure-hectopascal | ... |
-|  | hPa |
-| one | {0}hPa |
-| other | {0}hPa |
+| , pressure-hectopascal | hPa |
+| one, pressure-hectopascal | {0}hPa |
+| other, pressure-hectopascal | {0}hPa |
 | pressure-millimeter-of-mercury | ... |
-|  | mmHg |
-| one | {0}mmHg |
-| other | {0}mmHg |
+| , pressure-millimeter-of-mercury | mmHg |
+| one, pressure-millimeter-of-mercury | {0}mmHg |
+| other, pressure-millimeter-of-mercury | {0}mmHg |
 | pressure-pound-per-square-inch | ... |
-|  | psi |
-| one | {0}psi |
-| other | {0}psi |
+| , pressure-pound-per-square-inch | psi |
+| one, pressure-pound-per-square-inch | {0}psi |
+| other, pressure-pound-per-square-inch | {0}psi |
 | pressure-inch-hg | ... |
-|  | inHg |
-| one | {0}″ Hg |
-| other | {0}″ Hg |
+| , pressure-inch-hg | inHg |
+| one, pressure-inch-hg | {0}″ Hg |
+| other, pressure-inch-hg | {0}″ Hg |
 | pressure-millibar | ... |
-|  | mbar |
-| one | {0}mbar |
-| other | {0}mbar |
+| , pressure-millibar | mbar |
+| one, pressure-millibar | {0}mbar |
+| other, pressure-millibar | {0}mbar |
 | speed-kilometer-per-hour | ... |
-|  | km/h |
-| one | {0}km/h |
-| other | {0}km/h |
+| , speed-kilometer-per-hour | km/h |
+| one, speed-kilometer-per-hour | {0}km/h |
+| other, speed-kilometer-per-hour | {0}km/h |
 | speed-meter-per-second | ... |
-|  | m/s |
-| one | {0}m/s |
-| other | {0}m/s |
+| , speed-meter-per-second | m/s |
+| one, speed-meter-per-second | {0}m/s |
+| other, speed-meter-per-second | {0}m/s |
 | speed-mile-per-hour | ... |
-|  | mi/h |
-| one | {0}mi/h |
-| other | {0}mi/h |
+| , speed-mile-per-hour | mi/h |
+| one, speed-mile-per-hour | {0}mi/h |
+| other, speed-mile-per-hour | {0}mi/h |
 | speed-knot | ... |
-|  | kn |
-| one | {0}kn |
-| other | {0}kn |
+| , speed-knot | kn |
+| one, speed-knot | {0}kn |
+| other, speed-knot | {0}kn |
 | temperature-generic | ... |
-|  | ° |
-| one | {0}° |
-| other | {0}° |
+| , temperature-generic | ° |
+| one, temperature-generic | {0}° |
+| other, temperature-generic | {0}° |
 | temperature-celsius | ... |
-|  | °C |
-| one | {0}° |
-| other | {0}° |
+| , temperature-celsius | °C |
+| one, temperature-celsius | {0}° |
+| other, temperature-celsius | {0}° |
 | temperature-fahrenheit | ... |
-|  | °F |
-| one | {0}°F |
-| other | {0}°F |
+| , temperature-fahrenheit | °F |
+| one, temperature-fahrenheit | {0}°F |
+| other, temperature-fahrenheit | {0}°F |
 | temperature-kelvin | ... |
-|  | K |
-| one | {0}K |
-| other | {0}K |
+| , temperature-kelvin | K |
+| one, temperature-kelvin | {0}K |
+| other, temperature-kelvin | {0}K |
 | volume-cubic-kilometer | ... |
-|  | km³ |
-| one | {0}km³ |
-| other | {0}km³ |
+| , volume-cubic-kilometer | km³ |
+| one, volume-cubic-kilometer | {0}km³ |
+| other, volume-cubic-kilometer | {0}km³ |
 | volume-cubic-meter | ... |
-|  | m³ |
-| one | {0}m³ |
-| other | {0}m³ |
-{0}/m³
+| , volume-cubic-meter | m³ |
+| one, volume-cubic-meter | {0}m³ |
+| other, volume-cubic-meter | {0}m³ |
+| per units of volume-cubic-meter | {0}/m³ |
 | volume-cubic-centimeter | ... |
-|  | cm³ |
-| one | {0}cm³ |
-| other | {0}cm³ |
-{0}/cm³
+| , volume-cubic-centimeter | cm³ |
+| one, volume-cubic-centimeter | {0}cm³ |
+| other, volume-cubic-centimeter | {0}cm³ |
+| per units of volume-cubic-centimeter | {0}/cm³ |
 | volume-cubic-mile | ... |
-|  | mi³ |
-| one | {0}mi³ |
-| other | {0}mi³ |
+| , volume-cubic-mile | mi³ |
+| one, volume-cubic-mile | {0}mi³ |
+| other, volume-cubic-mile | {0}mi³ |
 | volume-cubic-yard | ... |
-|  | yd³ |
-| one | {0}yd³ |
-| other | {0}yd³ |
+| , volume-cubic-yard | yd³ |
+| one, volume-cubic-yard | {0}yd³ |
+| other, volume-cubic-yard | {0}yd³ |
 | volume-cubic-foot | ... |
-|  | ft³ |
-| one | {0}ft³ |
-| other | {0}ft³ |
+| , volume-cubic-foot | ft³ |
+| one, volume-cubic-foot | {0}ft³ |
+| other, volume-cubic-foot | {0}ft³ |
 | volume-cubic-inch | ... |
-|  | in³ |
-| one | {0}in³ |
-| other | {0}in³ |
+| , volume-cubic-inch | in³ |
+| one, volume-cubic-inch | {0}in³ |
+| other, volume-cubic-inch | {0}in³ |
 | volume-megaliter | ... |
-|  | Ml |
-| one | {0}Ml |
-| other | {0}Ml |
+| , volume-megaliter | Ml |
+| one, volume-megaliter | {0}Ml |
+| other, volume-megaliter | {0}Ml |
 | volume-hectoliter | ... |
-|  | hl |
-| one | {0}hl |
-| other | {0}hl |
+| , volume-hectoliter | hl |
+| one, volume-hectoliter | {0}hl |
+| other, volume-hectoliter | {0}hl |
 | volume-liter | ... |
-|  | l |
-| one | {0}l |
-| other | {0}l |
-{0}/l
+| , volume-liter | l |
+| one, volume-liter | {0}l |
+| other, volume-liter | {0}l |
+| per units of volume-liter | {0}/l |
 | volume-deciliter | ... |
-|  | dl |
-| one | {0}dl |
-| other | {0}dl |
+| , volume-deciliter | dl |
+| one, volume-deciliter | {0}dl |
+| other, volume-deciliter | {0}dl |
 | volume-centiliter | ... |
-|  | cl |
-| one | {0}cl |
-| other | {0}cl |
+| , volume-centiliter | cl |
+| one, volume-centiliter | {0}cl |
+| other, volume-centiliter | {0}cl |
 | volume-milliliter | ... |
-|  | ml |
-| one | {0}ml |
-| other | {0}ml |
+| , volume-milliliter | ml |
+| one, volume-milliliter | {0}ml |
+| other, volume-milliliter | {0}ml |
 | volume-pint-metric | ... |
-|  | tp |
-| one | {0}tp |
-| other | {0}tp |
+| , volume-pint-metric | tp |
+| one, volume-pint-metric | {0}tp |
+| other, volume-pint-metric | {0}tp |
 | volume-cup-metric | ... |
-|  | tkp |
-| one | {0}tkp |
-| other | {0}tkp |
+| , volume-cup-metric | tkp |
+| one, volume-cup-metric | {0}tkp |
+| other, volume-cup-metric | {0}tkp |
 | volume-acre-foot | ... |
-|  | ac ft |
-| one | {0}ac ft |
-| other | {0}ac ft |
+| , volume-acre-foot | ac ft |
+| one, volume-acre-foot | {0}ac ft |
+| other, volume-acre-foot | {0}ac ft |
 | volume-bushel | ... |
-|  | bu |
-| one | {0}bu |
-| other | {0}bu |
+| , volume-bushel | bu |
+| one, volume-bushel | {0}bu |
+| other, volume-bushel | {0}bu |
 | volume-gallon | ... |
-|  | am.gal |
-| one | {0}am.gal |
-| other | {0}am.gal |
-{0}/am.gal
+| , volume-gallon | am.gal |
+| one, volume-gallon | {0}am.gal |
+| other, volume-gallon | {0}am.gal |
+| per units of volume-gallon | {0}/am.gal |
 | volume-gallon-imperial | ... |
-|  | br.gal |
-| one | {0}br.gal |
-| other | {0}br.gal |
-{0}/br.gal
+| , volume-gallon-imperial | br.gal |
+| one, volume-gallon-imperial | {0}br.gal |
+| other, volume-gallon-imperial | {0}br.gal |
+| per units of volume-gallon-imperial | {0}/br.gal |
 | volume-quart | ... |
-|  | qt |
-| one | {0}qt |
-| other | {0}qt |
+| , volume-quart | qt |
+| one, volume-quart | {0}qt |
+| other, volume-quart | {0}qt |
 | volume-pint | ... |
-|  | pt |
-| one | {0}pt |
-| other | {0}pt |
+| , volume-pint | pt |
+| one, volume-pint | {0}pt |
+| other, volume-pint | {0}pt |
 | volume-cup | ... |
-|  | kp |
-| one | {0}kp |
-| other | {0}kp |
+| , volume-cup | kp |
+| one, volume-cup | {0}kp |
+| other, volume-cup | {0}kp |
 | volume-fluid-ounce | ... |
-|  | fl oz |
-| one | {0}fl oz |
-| other | {0}fl oz |
+| , volume-fluid-ounce | fl oz |
+| one, volume-fluid-ounce | {0}fl oz |
+| other, volume-fluid-ounce | {0}fl oz |
 | volume-tablespoon | ... |
-|  | rkl |
-| one | {0}rkl |
-| other | {0}rkl |
+| , volume-tablespoon | rkl |
+| one, volume-tablespoon | {0}rkl |
+| other, volume-tablespoon | {0}rkl |
 | volume-teaspoon | ... |
-|  | tl |
-| one | {0}tl |
-| other | {0}tl |
+| , volume-teaspoon | tl |
+| one, volume-teaspoon | {0}tl |
+| other, volume-teaspoon | {0}tl |
 {0}I{0}P{0}E{0}Lh.mmh.mm.ssm.ss
 
 ## Lists
 
 | List type | Patterns |
+| --------- | -------- |
 |  | ... |
 | start | {0}, {1} |
 | middle | {0}, {1} |
@@ -6702,7 +7512,10 @@ Käänny {0}. risteyksestä oikealle.
 
 ## POSIX
 
-kyllä:kei:e
+| Messages | Values |
+| -------- | ------ |
+| `yes` / affirmative | `kyllä:k` |
+| `no` / negative | `ei:e` |
 
 ## Character sets
 
@@ -6809,6 +7622,7 @@ kyllä:kei:e
 ## Font stuff
 
 | Font feature | Name |
+| ------------ | ---- |
 | "axis" ital | kursivoitu |
 | "axis" opsz | optinen koko |
 | "axis" slnt | kallistus |
