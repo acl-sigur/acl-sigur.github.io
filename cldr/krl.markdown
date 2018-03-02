@@ -18,7 +18,7 @@ title: "CLDR Karelian"
 | ... |  top-to-bottom |
 | Plural rules | ... |
 | one example | {0} päivä |
-| other example | {0} päivää |
+| other example | {0} päivyä |
 | Country Data and Default Content | krl_RU |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | Karelian is already written in latin script |
@@ -123,15 +123,17 @@ Language:
 Country or territory:
 
 | `FI` | Šuomi |
-| `RU` | Vena |
+| `RU` | Ven’a |
 
 Currency:
 
-| RUB | rupla |
-| one | rupla |
-| other | ruploa |
+| RUB | rupl’a |
+| one | rupl’a |
+| other | rupl’ua |
 |  symbol | ₽ |
 | narrow symbol | ₽ |
+| EUR | euro |
+
 
 ### Datetime patterns
 
@@ -165,9 +167,7 @@ TODO
 | Hours from UTC | +H:mm;-H:mm |
 | GMT | UTC{0} |
 | Time at Greenwich | UTC |
-| regional | aikavyöhyke: {0} |
-| regional | {0} (kesäaika) |
-| regional | {0} (normaaliaika) |
+| regional | |
 | fallback | {1} ({0}) |
 
 ### Locale pattern
