@@ -150,7 +150,7 @@ Currency:
 | Superscripting Exponent | × |
 | Permilles | ‰ |
 | Infinity | ∞ |
-| Not a number | epäluku |
+| Not a number |  |
 | Time separator (Hours:Minutes) | : |
 
 ### Territories and cities in language area
