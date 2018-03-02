@@ -3,7 +3,7 @@ layout: default
 title: "CLDR Uralic Cyrillic template"
 ---
 
-## CLDR core data for Komi-Zyrian
+## CLDR core data for Komi-Permyak
 
 Check / fill-in.
 
@@ -25,7 +25,7 @@ Check / fill-in.
 | plural few example | из {0} книг за {0} дня |
 | plural many example | из {0} книг за {0} дней |
 | plural other example | из {0} книги за {0} дня |
-| Country Data and Default Content | XXX_RU |
+| Country Data and Default Content | koi_RU |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | а:a б:b в:v г:g д:d е:je ё:jo ж:ž з:z и:i й:j к:k л:l м:m н:n о:o п:p р:r с:s т:t у:u ф:f х:h ц:c ч:č ш:š щ:šč ъ:ъ ы:y ь:ь э:e ю:ju я:ja |
 
@@ -61,7 +61,7 @@ Check / fill-in.
 Like [Russian](ru.html#Collation), add **X**, sort **Y** after **Z**.
 
 
-## CLDR minimal data for Komi-Zyrian
+## CLDR minimal data for Komi-Permyak
 
 **Needed soon after submitting new locale**.
 
@@ -121,14 +121,11 @@ you know are in common use.**
 
 Language:
 
-| `kpv` |  |
+| `koi` |  |
 
 Country or territory (include translations of all main countries language
 is spoken):
 
-| FI |  |
-| EE |  |
-| HU |  |
 | RU |  |
 
 Currency:
@@ -171,10 +168,7 @@ Currency:
 
 Country or territory:
 
-| `FI` |  |
 | `RU` |  |
-| `HU` |  |
-| `EE` |  |
 
 Timezone ID:
 
@@ -249,3 +243,4 @@ Timezone ID:
 ## More (all) CLDR data for $language
 
 TODO
+

@@ -3,7 +3,7 @@ layout: default
 title: "CLDR Uralic Cyrillic template"
 ---
 
-## CLDR core data for Komi-Zyrian
+## CLDR core data for Udmurt
 
 Check / fill-in.
 
@@ -13,9 +13,9 @@ Check / fill-in.
 | Stuff | Values |
 | --- | --- |
 | Exemplar sets | ... |
-| main characters | `[а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я]` |
-| auxiliary characters | `[ԁ ԃ ј ԉ ԋ ԅ ԇ ԍ ԏ ҵ ä ə]` |
-| index characters | `[А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я]` |
+| main characters | `[а б в г д е ё ж ӝ з ӟ и ӥ й к л м н о ӧ п р с т у ф х ц ч ӵ ш щ ъ ы ь э ю я]` |
+| auxiliary characters | `[ ä ə]` |
+| index characters | `[А Б В Г Д Е Ё Ж Ӝ З Ӟ И Ӥ Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ӵ Ш Щ Ъ Ы Ь Э Ю Я]` |
 | numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
 | Orientation | left-to-right |
@@ -61,7 +61,7 @@ Check / fill-in.
 Like [Russian](ru.html#Collation), add **X**, sort **Y** after **Z**.
 
 
-## CLDR minimal data for Komi-Zyrian
+## CLDR minimal data for Udmurt
 
 **Needed soon after submitting new locale**.
 
@@ -121,14 +121,11 @@ you know are in common use.**
 
 Language:
 
-| `kpv` |  |
+| `udm` |  |
 
 Country or territory (include translations of all main countries language
 is spoken):
 
-| FI |  |
-| EE |  |
-| HU |  |
 | RU |  |
 
 Currency:
@@ -171,10 +168,8 @@ Currency:
 
 Country or territory:
 
-| `FI` |  |
-| `RU` |  |
-| `HU` |  |
-| `EE` |  |
+| `RU` | Ижкар |
+
 
 Timezone ID:
 
@@ -249,3 +244,4 @@ Timezone ID:
 ## More (all) CLDR data for $language
 
 TODO
+
