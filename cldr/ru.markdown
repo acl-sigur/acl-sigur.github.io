@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: "CLDR Russian (via LDML2markdown)"
@@ -5,23 +6,24 @@ title: "CLDR Russian (via LDML2markdown)"
 
 ## CLDR core data for Russian
 
+
 **Needed for requesting new locale**:
 
 | Stuff | Values |
 | --- | --- |
-| Exemplar sets | ... |
+| Exemplar sets | ↴ |
 | main characters | `[а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я]` |
 | auxiliary characters | `[{а\u0301} {е\u0301} {и\u0301} {о\u0301} {у\u0301} {ы\u0301} {э\u0301} {ю\u0301} {я\u0301}]` |
 | index characters | `[А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ы Э Ю Я]` |
 | numbers characters | `[  \- , % ‰ + 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – — , ; \: ! ? . … ' ‘ ‚ " “ „ « » ( ) \[ \] \{ \} § @ * / \& #]` |
 | Orientation | left-to-right |
-| ... |  top-to-bottom |
-| Plural rules | ... |
-| one example | из {0} книги за {0} день |
-| few example | из {0} книг за {0} дня |
-| many example | из {0} книг за {0} дней |
-| other example | из {0} книги за {0} дня |
+| Orientation |  top-to-bottom |
+| Plural rules | ↴ |
+| plural one example | из {0} книги за {0} день |
+| plural few example | из {0} книг за {0} дня |
+| plural many example | из {0} книг за {0} дней |
+| plural other example | из {0} книги за {0} дня |
 | Country Data and Default Content | ru_RU |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
 | Romanization | Cyrl–Latn (make google table or so) |
@@ -60,7 +62,7 @@ at end before numbers
 ```
 				[reorder Cyrl]
 				# The root collation already sorts й/Й as a base letter.
-
+			
 ```
 
 ## CLDR minimal data for Russian
@@ -69,213 +71,214 @@ at end before numbers
 
 ### Required date-time formats
 
+
 (44+ needed?)
-(Gregorian calendar)
+
 
 #### gregorian calendar
 
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | янв. |
-| month 2 | февр. |
-| month 3 | мар. |
-| month 4 | апр. |
-| month 5 | мая |
-| month 6 | июн. |
-| month 7 | июл. |
-| month 8 | авг. |
-| month 9 | сент. |
-| month 10 | окт. |
-| month 11 | нояб. |
-| month 12 | дек. |
-| month 1 | Я |
-| month 2 | Ф |
-| month 3 | М |
-| month 4 | А |
-| month 5 | М |
-| month 6 | И |
-| month 7 | И |
-| month 8 | А |
-| month 9 | С |
-| month 10 | О |
-| month 11 | Н |
-| month 12 | Д |
-| month 1 | января |
-| month 2 | февраля |
-| month 3 | марта |
-| month 4 | апреля |
-| month 5 | мая |
-| month 6 | июня |
-| month 7 | июля |
-| month 8 | августа |
-| month 9 | сентября |
-| month 10 | октября |
-| month 11 | ноября |
-| month 12 | декабря |
-| month 1 | янв. |
-| month 2 | февр. |
-| month 3 | март |
-| month 4 | апр. |
-| month 5 | май |
-| month 6 | июнь |
-| month 7 | июль |
-| month 8 | авг. |
-| month 9 | сент. |
-| month 10 | окт. |
-| month 11 | нояб. |
-| month 12 | дек. |
-| month 1 | Я |
-| month 2 | Ф |
-| month 3 | М |
-| month 4 | А |
-| month 5 | М |
-| month 6 | И |
-| month 7 | И |
-| month 8 | А |
-| month 9 | С |
-| month 10 | О |
-| month 11 | Н |
-| month 12 | Д |
-| month 1 | январь |
-| month 2 | февраль |
-| month 3 | март |
-| month 4 | апрель |
-| month 5 | май |
-| month 6 | июнь |
-| month 7 | июль |
-| month 8 | август |
-| month 9 | сентябрь |
-| month 10 | октябрь |
-| month 11 | ноябрь |
-| month 12 | декабрь |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | воскресенье |
-| (week)day mon | понедельник |
-| (week)day tue | вторник |
-| (week)day wed | среда |
-| (week)day thu | четверг |
-| (week)day fri | пятница |
-| (week)day sat | суббота |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | В |
-| (week)day mon | П |
-| (week)day tue | В |
-| (week)day wed | С |
-| (week)day thu | Ч |
-| (week)day fri | П |
-| (week)day sat | С |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | воскресенье |
-| (week)day mon | понедельник |
-| (week)day tue | вторник |
-| (week)day wed | среда |
-| (week)day thu | четверг |
-| (week)day fri | пятница |
-| (week)day sat | суббота |
-| quarter 1 | 1-й кв. |
-| quarter 2 | 2-й кв. |
-| quarter 3 | 3-й кв. |
-| quarter 4 | 4-й кв. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1-й квартал |
-| quarter 2 | 2-й квартал |
-| quarter 3 | 3-й квартал |
-| quarter 4 | 4-й квартал |
-| quarter 1 | 1-й кв. |
-| quarter 2 | 2-й кв. |
-| quarter 3 | 3-й кв. |
-| quarter 4 | 4-й кв. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1-й квартал |
-| quarter 2 | 2-й квартал |
-| quarter 3 | 3-й квартал |
-| quarter 4 | 4-й квартал |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утра |
-| period of day afternoon1 | дня |
-| period of day evening1 | вечера |
-| period of day night1 | ночи |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утра |
-| period of day afternoon1 | дня |
-| period of day evening1 | веч. |
-| period of day night1 | ночи |
-| period of day midnight | полночь |
-| period of day am | AM |
-| period of day noon | полдень |
-| period of day pm | PM |
-| period of day morning1 | утра |
-| period of day afternoon1 | дня |
-| period of day evening1 | вечера |
-| period of day night1 | ночи |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утро |
-| period of day afternoon1 | день |
-| period of day evening1 | веч. |
-| period of day night1 | ночь |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утро |
-| period of day afternoon1 | день |
-| period of day evening1 | веч. |
-| period of day night1 | ночь |
-| period of day midnight | полночь |
-| period of day am | AM |
-| period of day noon | полдень |
-| period of day pm | PM |
-| period of day morning1 | утро |
-| period of day afternoon1 | день |
-| period of day evening1 | вечер |
-| period of day night1 | ночь |
+| month, 1, abbreviated, format | янв. |
+| month, 2, abbreviated, format | февр. |
+| month, 3, abbreviated, format | мар. |
+| month, 4, abbreviated, format | апр. |
+| month, 5, abbreviated, format | мая |
+| month, 6, abbreviated, format | июн. |
+| month, 7, abbreviated, format | июл. |
+| month, 8, abbreviated, format | авг. |
+| month, 9, abbreviated, format | сент. |
+| month, 10, abbreviated, format | окт. |
+| month, 11, abbreviated, format | нояб. |
+| month, 12, abbreviated, format | дек. |
+| month, 1, narrow, format | Я |
+| month, 2, narrow, format | Ф |
+| month, 3, narrow, format | М |
+| month, 4, narrow, format | А |
+| month, 5, narrow, format | М |
+| month, 6, narrow, format | И |
+| month, 7, narrow, format | И |
+| month, 8, narrow, format | А |
+| month, 9, narrow, format | С |
+| month, 10, narrow, format | О |
+| month, 11, narrow, format | Н |
+| month, 12, narrow, format | Д |
+| month, 1, wide, format | января |
+| month, 2, wide, format | февраля |
+| month, 3, wide, format | марта |
+| month, 4, wide, format | апреля |
+| month, 5, wide, format | мая |
+| month, 6, wide, format | июня |
+| month, 7, wide, format | июля |
+| month, 8, wide, format | августа |
+| month, 9, wide, format | сентября |
+| month, 10, wide, format | октября |
+| month, 11, wide, format | ноября |
+| month, 12, wide, format | декабря |
+| month, 1, abbreviated, stand-alone | янв. |
+| month, 2, abbreviated, stand-alone | февр. |
+| month, 3, abbreviated, stand-alone | март |
+| month, 4, abbreviated, stand-alone | апр. |
+| month, 5, abbreviated, stand-alone | май |
+| month, 6, abbreviated, stand-alone | июнь |
+| month, 7, abbreviated, stand-alone | июль |
+| month, 8, abbreviated, stand-alone | авг. |
+| month, 9, abbreviated, stand-alone | сент. |
+| month, 10, abbreviated, stand-alone | окт. |
+| month, 11, abbreviated, stand-alone | нояб. |
+| month, 12, abbreviated, stand-alone | дек. |
+| month, 1, narrow, stand-alone | Я |
+| month, 2, narrow, stand-alone | Ф |
+| month, 3, narrow, stand-alone | М |
+| month, 4, narrow, stand-alone | А |
+| month, 5, narrow, stand-alone | М |
+| month, 6, narrow, stand-alone | И |
+| month, 7, narrow, stand-alone | И |
+| month, 8, narrow, stand-alone | А |
+| month, 9, narrow, stand-alone | С |
+| month, 10, narrow, stand-alone | О |
+| month, 11, narrow, stand-alone | Н |
+| month, 12, narrow, stand-alone | Д |
+| month, 1, wide, stand-alone | январь |
+| month, 2, wide, stand-alone | февраль |
+| month, 3, wide, stand-alone | март |
+| month, 4, wide, stand-alone | апрель |
+| month, 5, wide, stand-alone | май |
+| month, 6, wide, stand-alone | июнь |
+| month, 7, wide, stand-alone | июль |
+| month, 8, wide, stand-alone | август |
+| month, 9, wide, stand-alone | сентябрь |
+| month, 10, wide, stand-alone | октябрь |
+| month, 11, wide, stand-alone | ноябрь |
+| month, 12, wide, stand-alone | декабрь |
+| (week)day, sun, abbreviated, format | вс |
+| (week)day, mon, abbreviated, format | пн |
+| (week)day, tue, abbreviated, format | вт |
+| (week)day, wed, abbreviated, format | ср |
+| (week)day, thu, abbreviated, format | чт |
+| (week)day, fri, abbreviated, format | пт |
+| (week)day, sat, abbreviated, format | сб |
+| (week)day, sun, narrow, format | вс |
+| (week)day, mon, narrow, format | пн |
+| (week)day, tue, narrow, format | вт |
+| (week)day, wed, narrow, format | ср |
+| (week)day, thu, narrow, format | чт |
+| (week)day, fri, narrow, format | пт |
+| (week)day, sat, narrow, format | сб |
+| (week)day, sun, short, format | вс |
+| (week)day, mon, short, format | пн |
+| (week)day, tue, short, format | вт |
+| (week)day, wed, short, format | ср |
+| (week)day, thu, short, format | чт |
+| (week)day, fri, short, format | пт |
+| (week)day, sat, short, format | сб |
+| (week)day, sun, wide, format | воскресенье |
+| (week)day, mon, wide, format | понедельник |
+| (week)day, tue, wide, format | вторник |
+| (week)day, wed, wide, format | среда |
+| (week)day, thu, wide, format | четверг |
+| (week)day, fri, wide, format | пятница |
+| (week)day, sat, wide, format | суббота |
+| (week)day, sun, abbreviated, stand-alone | вс |
+| (week)day, mon, abbreviated, stand-alone | пн |
+| (week)day, tue, abbreviated, stand-alone | вт |
+| (week)day, wed, abbreviated, stand-alone | ср |
+| (week)day, thu, abbreviated, stand-alone | чт |
+| (week)day, fri, abbreviated, stand-alone | пт |
+| (week)day, sat, abbreviated, stand-alone | сб |
+| (week)day, sun, narrow, stand-alone | В |
+| (week)day, mon, narrow, stand-alone | П |
+| (week)day, tue, narrow, stand-alone | В |
+| (week)day, wed, narrow, stand-alone | С |
+| (week)day, thu, narrow, stand-alone | Ч |
+| (week)day, fri, narrow, stand-alone | П |
+| (week)day, sat, narrow, stand-alone | С |
+| (week)day, sun, short, stand-alone | вс |
+| (week)day, mon, short, stand-alone | пн |
+| (week)day, tue, short, stand-alone | вт |
+| (week)day, wed, short, stand-alone | ср |
+| (week)day, thu, short, stand-alone | чт |
+| (week)day, fri, short, stand-alone | пт |
+| (week)day, sat, short, stand-alone | сб |
+| (week)day, sun, wide, stand-alone | воскресенье |
+| (week)day, mon, wide, stand-alone | понедельник |
+| (week)day, tue, wide, stand-alone | вторник |
+| (week)day, wed, wide, stand-alone | среда |
+| (week)day, thu, wide, stand-alone | четверг |
+| (week)day, fri, wide, stand-alone | пятница |
+| (week)day, sat, wide, stand-alone | суббота |
+| quarter, 1, abbreviated, format | 1-й кв. |
+| quarter, 2, abbreviated, format | 2-й кв. |
+| quarter, 3, abbreviated, format | 3-й кв. |
+| quarter, 4, abbreviated, format | 4-й кв. |
+| quarter, 1, narrow, format | 1 |
+| quarter, 2, narrow, format | 2 |
+| quarter, 3, narrow, format | 3 |
+| quarter, 4, narrow, format | 4 |
+| quarter, 1, wide, format | 1-й квартал |
+| quarter, 2, wide, format | 2-й квартал |
+| quarter, 3, wide, format | 3-й квартал |
+| quarter, 4, wide, format | 4-й квартал |
+| quarter, 1, abbreviated, stand-alone | 1-й кв. |
+| quarter, 2, abbreviated, stand-alone | 2-й кв. |
+| quarter, 3, abbreviated, stand-alone | 3-й кв. |
+| quarter, 4, abbreviated, stand-alone | 4-й кв. |
+| quarter, 1, narrow, stand-alone | 1 |
+| quarter, 2, narrow, stand-alone | 2 |
+| quarter, 3, narrow, stand-alone | 3 |
+| quarter, 4, narrow, stand-alone | 4 |
+| quarter, 1, wide, stand-alone | 1-й квартал |
+| quarter, 2, wide, stand-alone | 2-й квартал |
+| quarter, 3, wide, stand-alone | 3-й квартал |
+| quarter, 4, wide, stand-alone | 4-й квартал |
+| period of day, midnight, abbreviated, format | полн. |
+| period of day, am, abbreviated, format | AM |
+| period of day, noon, abbreviated, format | полд. |
+| period of day, pm, abbreviated, format | PM |
+| period of day, morning1, abbreviated, format | утра |
+| period of day, afternoon1, abbreviated, format | дня |
+| period of day, evening1, abbreviated, format | вечера |
+| period of day, night1, abbreviated, format | ночи |
+| period of day, midnight, narrow, format | полн. |
+| period of day, am, narrow, format | AM |
+| period of day, noon, narrow, format | полд. |
+| period of day, pm, narrow, format | PM |
+| period of day, morning1, narrow, format | утра |
+| period of day, afternoon1, narrow, format | дня |
+| period of day, evening1, narrow, format | веч. |
+| period of day, night1, narrow, format | ночи |
+| period of day, midnight, wide, format | полночь |
+| period of day, am, wide, format | AM |
+| period of day, noon, wide, format | полдень |
+| period of day, pm, wide, format | PM |
+| period of day, morning1, wide, format | утра |
+| period of day, afternoon1, wide, format | дня |
+| period of day, evening1, wide, format | вечера |
+| period of day, night1, wide, format | ночи |
+| period of day, midnight, abbreviated, stand-alone | полн. |
+| period of day, am, abbreviated, stand-alone | AM |
+| period of day, noon, abbreviated, stand-alone | полд. |
+| period of day, pm, abbreviated, stand-alone | PM |
+| period of day, morning1, abbreviated, stand-alone | утро |
+| period of day, afternoon1, abbreviated, stand-alone | день |
+| period of day, evening1, abbreviated, stand-alone | веч. |
+| period of day, night1, abbreviated, stand-alone | ночь |
+| period of day, midnight, narrow, stand-alone | полн. |
+| period of day, am, narrow, stand-alone | AM |
+| period of day, noon, narrow, stand-alone | полд. |
+| period of day, pm, narrow, stand-alone | PM |
+| period of day, morning1, narrow, stand-alone | утро |
+| period of day, afternoon1, narrow, stand-alone | день |
+| period of day, evening1, narrow, stand-alone | веч. |
+| period of day, night1, narrow, stand-alone | ночь |
+| period of day, midnight, wide, stand-alone | полночь |
+| period of day, am, wide, stand-alone | AM |
+| period of day, noon, wide, stand-alone | полдень |
+| period of day, pm, wide, stand-alone | PM |
+| period of day, morning1, wide, stand-alone | утро |
+| period of day, afternoon1, wide, stand-alone | день |
+| period of day, evening1, wide, stand-alone | вечер |
+| period of day, night1, wide, stand-alone | ночь |
 | era | до Рождества Христова |
 | era | до нашей эры |
 | era | от Рождества Христова |
@@ -284,18 +287,30 @@ at end before numbers
 | era | н. э. |
 | era | до н.э. |
 | era | н.э. |
-| date format | `EEEE, d MMMM y 'г'.` |
-| date format | `d MMMM y 'г'.` |
-| date format | `d MMM y 'г'.` |
-| date format | `dd.MM.y` |
-| time format | `H:mm:ss zzzz` |
-| time format | `H:mm:ss z` |
-| time format | `H:mm:ss` |
-| time format | `H:mm` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
+| date format | ↴ |
+| standard, full | `EEEE, d MMMM y 'г'.` |
+| date format | ↴ |
+| standard, long | `d MMMM y 'г'.` |
+| date format | ↴ |
+| standard, medium | `d MMM y 'г'.` |
+| date format | ↴ |
+| standard, short | `dd.MM.y` |
+| time format | ↴ |
+| standard, full | `H:mm:ss zzzz` |
+| time format | ↴ |
+| standard, long | `H:mm:ss z` |
+| time format | ↴ |
+| standard, medium | `H:mm:ss` |
+| time format | ↴ |
+| standard, short | `H:mm` |
+| datetime format | ↴ |
+| standard, full | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, long | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, medium | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, short | `{1}, {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h:mm B` |
 | date format `Bhms` | `h:mm:ss B` |
@@ -381,14 +396,22 @@ at end before numbers
 
 | ID-stuff | values |
 | -------- | ------ |
-| date format | `EEEE, d MMMM y 'г'. G` |
-| date format | `d MMMM y 'г'. G` |
-| date format | `d MMM y 'г'. G` |
-| date format | `dd.MM.y G` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
+| date format | ↴ |
+| standard, full | `EEEE, d MMMM y 'г'. G` |
+| date format | ↴ |
+| standard, long | `d MMMM y 'г'. G` |
+| date format | ↴ |
+| standard, medium | `d MMM y 'г'. G` |
+| date format | ↴ |
+| standard, short | `dd.MM.y G` |
+| datetime format | ↴ |
+| standard, full | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, long | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, medium | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, short | `{1}, {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h:mm B` |
 | date format `Bhms` | `h:mm:ss B` |
@@ -458,7 +481,9 @@ at end before numbers
 
 ### Important names in language
 
+
 Language:
+
 | `ru` | русский |
 
 Country or territory:
@@ -467,20 +492,27 @@ Country or territory:
 
 Currency:
 
-|  | российский рубль |
-| one | российский рубль |
-| few | российских рубля |
-| many | российских рублей |
-| other | российского рубля |
-|  symbol | ₽ |
-| narrow symbol | ₽ |
+| , RUB | российский рубль |
+| one, RUB | российский рубль |
+| few, RUB | российских рубля |
+| many, RUB | российских рублей |
+| other, RUB | российского рубля |
+| , RUB symbol | ₽ |
+| narrow, RUB symbol | ₽ |
 
 ### Datetime patterns
 
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
+
+(1 needed)
+
+| datetime format | ↴ |
+| standard, full | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, long | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, medium | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, short | `{1}, {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h:mm B` |
 | date format `Bhms` | `h:mm:ss B` |
@@ -550,7 +582,11 @@ Currency:
 
 ### Number formats
 
+
+#### Symbols
+
 | Character name | Translated version |
+| -------------- | ------------------ |
 | Decimal separator | , |
 | "Thousands" separator |   |
 | Numbers separator | ; |
@@ -564,11 +600,39 @@ Currency:
 | Not a number | не число |
 | Time separator (Hours:Minutes) | : |
 
-### Territories and cities in language area
+### Territories, cities  and timezone ID's in language area
 
-The place names to translate must be in the lists here:
+
+Country or territory:
+
+| `RU` | Россия |
+| `FI` | Финляндия |
+| `RU` | Россия |
+| `HU` | Венгрия |
+| `EE` | Эстония |
+
+Timezone ID:
+
+| Europe/Helsinki | Хельсинки |
+| Europe/Moscow | Москва |
+| Asia/Tomsk | Томск |
+| Europe_Eastern | ↴ |
+|  generic | Восточная Европа |
+|  standard | Восточная Европа, стандартное время |
+|  daylight savings | Восточная Европа, летнее время |
+| Moscow | ↴ |
+|  generic | Москва |
+|  standard | Москва, стандартное время |
+|  daylight savings | Москва, летнее время |
+| Yekaterinburg | ↴ |
+|  generic | Екатеринбург |
+|  standard | Екатеринбург, стандартное время |
+|  daylight savings | Екатеринбург, летнее время |
 
 ### Timezone patterns
+
+
+(how timezones get displayed in calendars and clocks apps)
 
 | Hours from UTC | +HH:mm;-HH:mm |
 | GMT | GMT{0} |
@@ -580,7 +644,9 @@ The place names to translate must be in the lists here:
 
 ### Locale pattern
 
+
 (how software should display languages)
+
 
 #### Locale display patterns
 
@@ -591,6 +657,7 @@ The place names to translate must be in the lists here:
 | label: locale | `{0}: {1}` |
 
 ### some important words to translate
+
 
 #### Keys (system names)
 
@@ -617,23 +684,32 @@ The place names to translate must be in the lists here:
 
 ### Some time intervals
 
-???
 
 ## More (all) CLDR data for $language
 
+
 While not strictly needed is all used by software and stuff:
+
+
 identity:
+
 ```
 $Revision: 13904 $ru
 ```
+
 #### Locale display patterns
+
 | Things | Patterns |
 | ------ | -------- |
 | language, country | `{0} ({1})` |
 | locale, another locale | `{0}, {1}` |
 | label: locale | `{0}: {1}` |
+
 ### Language names
+
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `aa` | афарский |
@@ -1172,8 +1248,12 @@ $Revision: 13904 $ru
 | `zun` | зуньи |
 | `zxx` | нет языкового материала |
 | `zza` | заза |
+
 ### Script names
+
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `Afak` | афака |
@@ -1340,8 +1420,12 @@ $Revision: 13904 $ru
 | `Zxxx` | нет письменности |
 | `Zyyy` | общепринятая |
 | `Zzzz` | неизвестная письменность |
+
 ### Territory names
+
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `001` | весь мир |
@@ -1647,8 +1731,12 @@ $Revision: 13904 $ru
 | `ZM` | Замбия |
 | `ZW` | Зимбабве |
 | `ZZ` | неизвестный регион |
+
 ### Locale variant names
+
+
 (Written in middle of sentence, selection list etc.)
+
 | ISO code | Name |
 | -------- | ---- |
 | `1901` | Традиционная немецкая орфография |
@@ -1684,7 +1772,9 @@ $Revision: 13904 $ru
 | `UCRCOR` | Объединенная пересмотренная орфография |
 | `VALENCIA` | Валенсийский |
 | `WADEGILE` | Система Уэйда – Джайлза |
+
 #### Keys (system names)
+
 | key | Name |
 | -------- | ---- |
 | `calendar` | календарь |
@@ -1705,7 +1795,9 @@ $Revision: 13904 $ru
 | `timezone` | Часовой пояс |
 | `va` | Вариант региональных настроек |
 | `x` | Частное |
+
 ### Types (of systems)
+
 | key, System   | Name |
 | -------- | ---- |
 | `buddhistcalendar` | буддийский календарь |
@@ -1843,103 +1935,145 @@ $Revision: 13904 $ru
 | `metric` | Метрическая |
 | `UK` | Английская |
 | `US` | Англо-американская |
+
 ### Code patterns
-Язык: {0}Письменность: {0}Регион: {0}
+
+| Label | Formatting |
+| ----- | ---------- |
+| `language` | Язык: {0} |
+| `script` | Письменность: {0} |
+| `territory` | Регион: {0} |
+
 ### Context transforms
-```
-titlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstwordtitlecase-firstword
-```
+
+| Context | Transformation |
+| ------- | -------------- |
+| `stand-alone::currencyName` | `titlecase-firstword` |
+| `uiListOrMenu::currencyName` | `titlecase-firstword` |
+| `stand-alone::day-format-except-narrow` | `titlecase-firstword` |
+| `uiListOrMenu::day-format-except-narrow` | `titlecase-firstword` |
+| `stand-alone::day-standalone-except-narrow` | `titlecase-firstword` |
+| `uiListOrMenu::day-standalone-except-narrow` | `titlecase-firstword` |
+| `stand-alone::era-abbr` | `titlecase-firstword` |
+| `uiListOrMenu::era-abbr` | `titlecase-firstword` |
+| `stand-alone::era-name` | `titlecase-firstword` |
+| `uiListOrMenu::era-name` | `titlecase-firstword` |
+| `stand-alone::keyValue` | `titlecase-firstword` |
+| `uiListOrMenu::keyValue` | `titlecase-firstword` |
+| `stand-alone::languages` | `titlecase-firstword` |
+| `uiListOrMenu::languages` | `titlecase-firstword` |
+| `stand-alone::month-format-except-narrow` | `titlecase-firstword` |
+| `uiListOrMenu::month-format-except-narrow` | `titlecase-firstword` |
+| `stand-alone::month-standalone-except-narrow` | `titlecase-firstword` |
+| `uiListOrMenu::month-standalone-except-narrow` | `titlecase-firstword` |
+| `stand-alone::relative` | `titlecase-firstword` |
+| `uiListOrMenu::relative` | `titlecase-firstword` |
+| `stand-alone::script` | `titlecase-firstword` |
+| `uiListOrMenu::script` | `titlecase-firstword` |
+
 ### Character processing for computer systems
+
+| Character set | Pattern |
+| ------------- | ------- |
 | main characters | `[а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я]` |
 | auxiliary characters | `[{а\u0301} {е\u0301} {и\u0301} {о\u0301} {у\u0301} {ы\u0301} {э\u0301} {ю\u0301} {я\u0301}]` |
 | index characters | `[А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ы Э Ю Я]` |
 | numbers characters | `[  \- , % ‰ + 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – — , ; \: ! ? . … ' ‘ ‚ " “ „ « » ( ) \[ \] \{ \} § @ * / \& #]` |
-final ellipsis: `{0}…`
-initial ellipsis: `…{0}`
-medial ellipsis: `{0}…{1}`
-word-final ellipsis: `{0} …`
-word-initial ellipsis: `… {0}`
-word-medial ellipsis: `{0} … {1}`
-More information characters: `?`
-Lenient parsing stuff: - is treated same as `[\--/]`
-: is treated same as `[\:∶]`
-Lenient parsing stuff: . is treated same as `[.․。︒﹒．｡]`
-$ is treated same as `[\$﹩＄$]`
-£ is treated same as `[£₤]`
-₹ is treated same as `[₨₹{Rp}{Rs}]`
-Lenient parsing stuff: - is treated same as `[\-‒⁻₋−➖﹣－]`
-, is treated same as `[,،٫、︐︑﹐﹑，､]`
-+ is treated same as `[+⁺₊➕﬩﹢＋]`
-Lenient parsing stuff: , is treated same as `[,٫︐﹐，]`
-. is treated same as `[.․﹒．｡]`
-Delimiters:
-Quotation start character: «
-Quotation end character: »
-Secondary yquotation start character: „
-Secondary quotation end character: “
+| final ellipsis | `{0}…` |
+| initial ellipsis | `…{0}` |
+| medial ellipsis | `{0}…{1}` |
+| word-final ellipsis | `{0} …` |
+| word-initial ellipsis | `… {0}` |
+| word-medial ellipsis | `{0} … {1}` |
+| More information | `?` |
+| Lenient parse, date, `-` equivalents | `[\--/]` |
+| Lenient parse, date, `:` equivalents | `[\:∶]` |
+| Lenient parse, general, `.` equivalents | `[.․。︒﹒．｡]` |
+| Lenient parse, general, `$` equivalents | `[\$﹩＄$]` |
+| Lenient parse, general, `£` equivalents | `[£₤]` |
+| Lenient parse, general, `₹` equivalents | `[₨₹{Rp}{Rs}]` |
+| Lenient parse, number, `-` equivalents | `[\-‒⁻₋−➖﹣－]` |
+| Lenient parse, number, `,` equivalents | `[,،٫、︐︑﹐﹑，､]` |
+| Lenient parse, number, `+` equivalents | `[+⁺₊➕﬩﹢＋]` |
+| Lenient parse, number, `,` equivalents | `[,٫︐﹐，]` |
+| Lenient parse, number, `.` equivalents | `[.․﹒．｡]` |
+| Quotation start character | « |
+| Quotation end character | » |
+| Secondary yquotation start character | „ |
+| Secondary quotation end character | “ |
+
 ## Calendar data
+
+
 #### buddhist calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | era | буддийская эра |
 | era | BE |
 | era | бэ |
+
 #### chinese calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| date format | `EEEE, d MMMM U` |
-| date format | `d MMMM U` |
-| date format | `dd.MM U` |
-| date format | `dd.MM.y` |
+| month, 1, abbreviated, format | 1 |
+| month, 2, abbreviated, format | 2 |
+| month, 3, abbreviated, format | 3 |
+| month, 4, abbreviated, format | 4 |
+| month, 5, abbreviated, format | 5 |
+| month, 6, abbreviated, format | 6 |
+| month, 7, abbreviated, format | 7 |
+| month, 8, abbreviated, format | 8 |
+| month, 9, abbreviated, format | 9 |
+| month, 10, abbreviated, format | 10 |
+| month, 11, abbreviated, format | 11 |
+| month, 12, abbreviated, format | 12 |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 1, abbreviated, stand-alone | 1 |
+| month, 2, abbreviated, stand-alone | 2 |
+| month, 3, abbreviated, stand-alone | 3 |
+| month, 4, abbreviated, stand-alone | 4 |
+| month, 5, abbreviated, stand-alone | 5 |
+| month, 6, abbreviated, stand-alone | 6 |
+| month, 7, abbreviated, stand-alone | 7 |
+| month, 8, abbreviated, stand-alone | 8 |
+| month, 9, abbreviated, stand-alone | 9 |
+| month, 10, abbreviated, stand-alone | 10 |
+| month, 11, abbreviated, stand-alone | 11 |
+| month, 12, abbreviated, stand-alone | 12 |
+| month, 1, wide, stand-alone | 1 |
+| month, 2, wide, stand-alone | 2 |
+| month, 3, wide, stand-alone | 3 |
+| month, 4, wide, stand-alone | 4 |
+| month, 5, wide, stand-alone | 5 |
+| month, 6, wide, stand-alone | 6 |
+| month, 7, wide, stand-alone | 7 |
+| month, 8, wide, stand-alone | 8 |
+| month, 9, wide, stand-alone | 9 |
+| month, 10, wide, stand-alone | 10 |
+| month, 11, wide, stand-alone | 11 |
+| month, 12, wide, stand-alone | 12 |
+| date format | ↴ |
+| standard, full | `EEEE, d MMMM U` |
+| date format | ↴ |
+| standard, long | `d MMMM U` |
+| date format | ↴ |
+| standard, medium | `dd.MM U` |
+| date format | ↴ |
+| standard, short | `dd.MM.y` |
 | date format `d` | `d` |
 | date format `E` | `ccc` |
 | date format `Ed` | `E, d` |
@@ -1971,191 +2105,205 @@ Secondary quotation end character: “
 | date format `yyyyMMMM` | `LLLL U` |
 | date format `yyyyQQQ` | `QQQ U` |
 | date format `yyyyQQQQ` | `QQQQ U` |
+
 #### coptic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | тот |
-| month 2 | бабэ |
-| month 3 | хатур |
-| month 4 | кихак |
-| month 5 | тубэ |
-| month 6 | амшир |
-| month 7 | барамхат |
-| month 8 | бармуда |
-| month 9 | башнас |
-| month 10 | бауна |
-| month 11 | абиб |
-| month 12 | мисра |
-| month 13 | наси |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 13 | 13 |
-| month 1 | тот |
-| month 2 | бабэ |
-| month 3 | хатур |
-| month 4 | кихак |
-| month 5 | тубэ |
-| month 6 | амшир |
-| month 7 | барамхат |
-| month 8 | бармуда |
-| month 9 | башнас |
-| month 10 | бауна |
-| month 11 | абиб |
-| month 12 | мисра |
-| month 13 | наси |
-| month 1 | тот |
-| month 2 | бабэ |
-| month 3 | хатур |
-| month 4 | кихак |
-| month 5 | тубэ |
-| month 6 | амшир |
-| month 7 | барамхат |
-| month 8 | бармуда |
-| month 9 | башнас |
-| month 10 | бауна |
-| month 11 | абиб |
-| month 12 | мисра |
-| month 13 | наси |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 13 | 13 |
-| month 1 | тот |
-| month 2 | бабэ |
-| month 3 | хатур |
-| month 4 | кихак |
-| month 5 | тубэ |
-| month 6 | амшир |
-| month 7 | барамхат |
-| month 8 | бармуда |
-| month 9 | башнас |
-| month 10 | бауна |
-| month 11 | абиб |
-| month 12 | мисра |
-| month 13 | наси |
+| month, 1, abbreviated, format | тот |
+| month, 2, abbreviated, format | бабэ |
+| month, 3, abbreviated, format | хатур |
+| month, 4, abbreviated, format | кихак |
+| month, 5, abbreviated, format | тубэ |
+| month, 6, abbreviated, format | амшир |
+| month, 7, abbreviated, format | барамхат |
+| month, 8, abbreviated, format | бармуда |
+| month, 9, abbreviated, format | башнас |
+| month, 10, abbreviated, format | бауна |
+| month, 11, abbreviated, format | абиб |
+| month, 12, abbreviated, format | мисра |
+| month, 13, abbreviated, format | наси |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 13, narrow, format | 13 |
+| month, 1, wide, format | тот |
+| month, 2, wide, format | бабэ |
+| month, 3, wide, format | хатур |
+| month, 4, wide, format | кихак |
+| month, 5, wide, format | тубэ |
+| month, 6, wide, format | амшир |
+| month, 7, wide, format | барамхат |
+| month, 8, wide, format | бармуда |
+| month, 9, wide, format | башнас |
+| month, 10, wide, format | бауна |
+| month, 11, wide, format | абиб |
+| month, 12, wide, format | мисра |
+| month, 13, wide, format | наси |
+| month, 1, abbreviated, stand-alone | тот |
+| month, 2, abbreviated, stand-alone | бабэ |
+| month, 3, abbreviated, stand-alone | хатур |
+| month, 4, abbreviated, stand-alone | кихак |
+| month, 5, abbreviated, stand-alone | тубэ |
+| month, 6, abbreviated, stand-alone | амшир |
+| month, 7, abbreviated, stand-alone | барамхат |
+| month, 8, abbreviated, stand-alone | бармуда |
+| month, 9, abbreviated, stand-alone | башнас |
+| month, 10, abbreviated, stand-alone | бауна |
+| month, 11, abbreviated, stand-alone | абиб |
+| month, 12, abbreviated, stand-alone | мисра |
+| month, 13, abbreviated, stand-alone | наси |
+| month, 1, narrow, stand-alone | 1 |
+| month, 2, narrow, stand-alone | 2 |
+| month, 3, narrow, stand-alone | 3 |
+| month, 4, narrow, stand-alone | 4 |
+| month, 5, narrow, stand-alone | 5 |
+| month, 6, narrow, stand-alone | 6 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 8, narrow, stand-alone | 8 |
+| month, 9, narrow, stand-alone | 9 |
+| month, 10, narrow, stand-alone | 10 |
+| month, 11, narrow, stand-alone | 11 |
+| month, 12, narrow, stand-alone | 12 |
+| month, 13, narrow, stand-alone | 13 |
+| month, 1, wide, stand-alone | тот |
+| month, 2, wide, stand-alone | бабэ |
+| month, 3, wide, stand-alone | хатур |
+| month, 4, wide, stand-alone | кихак |
+| month, 5, wide, stand-alone | тубэ |
+| month, 6, wide, stand-alone | амшир |
+| month, 7, wide, stand-alone | барамхат |
+| month, 8, wide, stand-alone | бармуда |
+| month, 9, wide, stand-alone | башнас |
+| month, 10, wide, stand-alone | бауна |
+| month, 11, wide, stand-alone | абиб |
+| month, 12, wide, stand-alone | мисра |
+| month, 13, wide, stand-alone | наси |
 | era | до Диоклетиана |
 | era | от Диоклетиана |
 | era | до Диокл. |
 | era | от Диокл. |
 | era | до Диокл. |
 | era | от Диокл. |
+
 #### ethiopic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | мескерем |
-| month 2 | текемт |
-| month 3 | хедар |
-| month 4 | тахсас |
-| month 5 | тер |
-| month 6 | якатит |
-| month 7 | магабит |
-| month 8 | миазия |
-| month 9 | генбот |
-| month 10 | сэнэ |
-| month 11 | хамлэ |
-| month 12 | нахасэ |
-| month 13 | эпагомен |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 13 | 13 |
-| month 1 | мескерем |
-| month 2 | текемт |
-| month 3 | хедар |
-| month 4 | тахсас |
-| month 5 | тер |
-| month 6 | якатит |
-| month 7 | магабит |
-| month 8 | миазия |
-| month 9 | генбот |
-| month 10 | сэнэ |
-| month 11 | хамлэ |
-| month 12 | нахасэ |
-| month 13 | эпагомен |
-| month 1 | мескерем |
-| month 2 | текемт |
-| month 3 | хедар |
-| month 4 | тахсас |
-| month 5 | тер |
-| month 6 | якатит |
-| month 7 | магабит |
-| month 8 | миазия |
-| month 9 | генбот |
-| month 10 | сэнэ |
-| month 11 | хамлэ |
-| month 12 | нахасэ |
-| month 13 | эпагомен |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 13 | 13 |
-| month 1 | мескерем |
-| month 2 | текемт |
-| month 3 | хедар |
-| month 4 | тахсас |
-| month 5 | тер |
-| month 6 | якатит |
-| month 7 | магабит |
-| month 8 | миазия |
-| month 9 | генбот |
-| month 10 | сэнэ |
-| month 11 | хамлэ |
-| month 12 | нахасэ |
-| month 13 | эпагомен |
+| month, 1, abbreviated, format | мескерем |
+| month, 2, abbreviated, format | текемт |
+| month, 3, abbreviated, format | хедар |
+| month, 4, abbreviated, format | тахсас |
+| month, 5, abbreviated, format | тер |
+| month, 6, abbreviated, format | якатит |
+| month, 7, abbreviated, format | магабит |
+| month, 8, abbreviated, format | миазия |
+| month, 9, abbreviated, format | генбот |
+| month, 10, abbreviated, format | сэнэ |
+| month, 11, abbreviated, format | хамлэ |
+| month, 12, abbreviated, format | нахасэ |
+| month, 13, abbreviated, format | эпагомен |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 13, narrow, format | 13 |
+| month, 1, wide, format | мескерем |
+| month, 2, wide, format | текемт |
+| month, 3, wide, format | хедар |
+| month, 4, wide, format | тахсас |
+| month, 5, wide, format | тер |
+| month, 6, wide, format | якатит |
+| month, 7, wide, format | магабит |
+| month, 8, wide, format | миазия |
+| month, 9, wide, format | генбот |
+| month, 10, wide, format | сэнэ |
+| month, 11, wide, format | хамлэ |
+| month, 12, wide, format | нахасэ |
+| month, 13, wide, format | эпагомен |
+| month, 1, abbreviated, stand-alone | мескерем |
+| month, 2, abbreviated, stand-alone | текемт |
+| month, 3, abbreviated, stand-alone | хедар |
+| month, 4, abbreviated, stand-alone | тахсас |
+| month, 5, abbreviated, stand-alone | тер |
+| month, 6, abbreviated, stand-alone | якатит |
+| month, 7, abbreviated, stand-alone | магабит |
+| month, 8, abbreviated, stand-alone | миазия |
+| month, 9, abbreviated, stand-alone | генбот |
+| month, 10, abbreviated, stand-alone | сэнэ |
+| month, 11, abbreviated, stand-alone | хамлэ |
+| month, 12, abbreviated, stand-alone | нахасэ |
+| month, 13, abbreviated, stand-alone | эпагомен |
+| month, 1, narrow, stand-alone | 1 |
+| month, 2, narrow, stand-alone | 2 |
+| month, 3, narrow, stand-alone | 3 |
+| month, 4, narrow, stand-alone | 4 |
+| month, 5, narrow, stand-alone | 5 |
+| month, 6, narrow, stand-alone | 6 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 8, narrow, stand-alone | 8 |
+| month, 9, narrow, stand-alone | 9 |
+| month, 10, narrow, stand-alone | 10 |
+| month, 11, narrow, stand-alone | 11 |
+| month, 12, narrow, stand-alone | 12 |
+| month, 13, narrow, stand-alone | 13 |
+| month, 1, wide, stand-alone | мескерем |
+| month, 2, wide, stand-alone | текемт |
+| month, 3, wide, stand-alone | хедар |
+| month, 4, wide, stand-alone | тахсас |
+| month, 5, wide, stand-alone | тер |
+| month, 6, wide, stand-alone | якатит |
+| month, 7, wide, stand-alone | магабит |
+| month, 8, wide, stand-alone | миазия |
+| month, 9, wide, stand-alone | генбот |
+| month, 10, wide, stand-alone | сэнэ |
+| month, 11, wide, stand-alone | хамлэ |
+| month, 12, wide, stand-alone | нахасэ |
+| month, 13, wide, stand-alone | эпагомен |
 | era | до воплощения Христа |
 | era | от воплощения Христа |
 | era | до Христа |
 | era | от Христа |
 | era | до Христа |
 | era | от Христа |
+
 #### generic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| date format | `EEEE, d MMMM y 'г'. G` |
-| date format | `d MMMM y 'г'. G` |
-| date format | `d MMM y 'г'. G` |
-| date format | `dd.MM.y G` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
+| date format | ↴ |
+| standard, full | `EEEE, d MMMM y 'г'. G` |
+| date format | ↴ |
+| standard, long | `d MMMM y 'г'. G` |
+| date format | ↴ |
+| standard, medium | `d MMM y 'г'. G` |
+| date format | ↴ |
+| standard, short | `dd.MM.y G` |
+| datetime format | ↴ |
+| standard, full | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, long | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, medium | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, short | `{1}, {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h:mm B` |
 | date format `Bhms` | `h:mm:ss B` |
@@ -2222,209 +2370,211 @@ Secondary quotation end character: “
 | interval format `yMMMd` | `d–d MMM y 'г'. Gd MMM – d MMM y 'г'. Gd MMM y 'г'. – d MMM y 'г'. G` |
 | interval format `yMMMEd` | `ccc, d MMM – ccc, d MMM y 'г'. Gccc, d MMM – ccc, d MMM y 'г'. Gccc, d MMM y 'г'. – ccc, d MMM y 'г'. G` |
 | interval format `yMMMM` | `LLLL – LLLL y 'г'. GLLLL y 'г'. – LLLL y 'г'. G` |
+
 #### gregorian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | янв. |
-| month 2 | февр. |
-| month 3 | мар. |
-| month 4 | апр. |
-| month 5 | мая |
-| month 6 | июн. |
-| month 7 | июл. |
-| month 8 | авг. |
-| month 9 | сент. |
-| month 10 | окт. |
-| month 11 | нояб. |
-| month 12 | дек. |
-| month 1 | Я |
-| month 2 | Ф |
-| month 3 | М |
-| month 4 | А |
-| month 5 | М |
-| month 6 | И |
-| month 7 | И |
-| month 8 | А |
-| month 9 | С |
-| month 10 | О |
-| month 11 | Н |
-| month 12 | Д |
-| month 1 | января |
-| month 2 | февраля |
-| month 3 | марта |
-| month 4 | апреля |
-| month 5 | мая |
-| month 6 | июня |
-| month 7 | июля |
-| month 8 | августа |
-| month 9 | сентября |
-| month 10 | октября |
-| month 11 | ноября |
-| month 12 | декабря |
-| month 1 | янв. |
-| month 2 | февр. |
-| month 3 | март |
-| month 4 | апр. |
-| month 5 | май |
-| month 6 | июнь |
-| month 7 | июль |
-| month 8 | авг. |
-| month 9 | сент. |
-| month 10 | окт. |
-| month 11 | нояб. |
-| month 12 | дек. |
-| month 1 | Я |
-| month 2 | Ф |
-| month 3 | М |
-| month 4 | А |
-| month 5 | М |
-| month 6 | И |
-| month 7 | И |
-| month 8 | А |
-| month 9 | С |
-| month 10 | О |
-| month 11 | Н |
-| month 12 | Д |
-| month 1 | январь |
-| month 2 | февраль |
-| month 3 | март |
-| month 4 | апрель |
-| month 5 | май |
-| month 6 | июнь |
-| month 7 | июль |
-| month 8 | август |
-| month 9 | сентябрь |
-| month 10 | октябрь |
-| month 11 | ноябрь |
-| month 12 | декабрь |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | воскресенье |
-| (week)day mon | понедельник |
-| (week)day tue | вторник |
-| (week)day wed | среда |
-| (week)day thu | четверг |
-| (week)day fri | пятница |
-| (week)day sat | суббота |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | В |
-| (week)day mon | П |
-| (week)day tue | В |
-| (week)day wed | С |
-| (week)day thu | Ч |
-| (week)day fri | П |
-| (week)day sat | С |
-| (week)day sun | вс |
-| (week)day mon | пн |
-| (week)day tue | вт |
-| (week)day wed | ср |
-| (week)day thu | чт |
-| (week)day fri | пт |
-| (week)day sat | сб |
-| (week)day sun | воскресенье |
-| (week)day mon | понедельник |
-| (week)day tue | вторник |
-| (week)day wed | среда |
-| (week)day thu | четверг |
-| (week)day fri | пятница |
-| (week)day sat | суббота |
-| quarter 1 | 1-й кв. |
-| quarter 2 | 2-й кв. |
-| quarter 3 | 3-й кв. |
-| quarter 4 | 4-й кв. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1-й квартал |
-| quarter 2 | 2-й квартал |
-| quarter 3 | 3-й квартал |
-| quarter 4 | 4-й квартал |
-| quarter 1 | 1-й кв. |
-| quarter 2 | 2-й кв. |
-| quarter 3 | 3-й кв. |
-| quarter 4 | 4-й кв. |
-| quarter 1 | 1 |
-| quarter 2 | 2 |
-| quarter 3 | 3 |
-| quarter 4 | 4 |
-| quarter 1 | 1-й квартал |
-| quarter 2 | 2-й квартал |
-| quarter 3 | 3-й квартал |
-| quarter 4 | 4-й квартал |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утра |
-| period of day afternoon1 | дня |
-| period of day evening1 | вечера |
-| period of day night1 | ночи |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утра |
-| period of day afternoon1 | дня |
-| period of day evening1 | веч. |
-| period of day night1 | ночи |
-| period of day midnight | полночь |
-| period of day am | AM |
-| period of day noon | полдень |
-| period of day pm | PM |
-| period of day morning1 | утра |
-| period of day afternoon1 | дня |
-| period of day evening1 | вечера |
-| period of day night1 | ночи |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утро |
-| period of day afternoon1 | день |
-| period of day evening1 | веч. |
-| period of day night1 | ночь |
-| period of day midnight | полн. |
-| period of day am | AM |
-| period of day noon | полд. |
-| period of day pm | PM |
-| period of day morning1 | утро |
-| period of day afternoon1 | день |
-| period of day evening1 | веч. |
-| period of day night1 | ночь |
-| period of day midnight | полночь |
-| period of day am | AM |
-| period of day noon | полдень |
-| period of day pm | PM |
-| period of day morning1 | утро |
-| period of day afternoon1 | день |
-| period of day evening1 | вечер |
-| period of day night1 | ночь |
+| month, 1, abbreviated, format | янв. |
+| month, 2, abbreviated, format | февр. |
+| month, 3, abbreviated, format | мар. |
+| month, 4, abbreviated, format | апр. |
+| month, 5, abbreviated, format | мая |
+| month, 6, abbreviated, format | июн. |
+| month, 7, abbreviated, format | июл. |
+| month, 8, abbreviated, format | авг. |
+| month, 9, abbreviated, format | сент. |
+| month, 10, abbreviated, format | окт. |
+| month, 11, abbreviated, format | нояб. |
+| month, 12, abbreviated, format | дек. |
+| month, 1, narrow, format | Я |
+| month, 2, narrow, format | Ф |
+| month, 3, narrow, format | М |
+| month, 4, narrow, format | А |
+| month, 5, narrow, format | М |
+| month, 6, narrow, format | И |
+| month, 7, narrow, format | И |
+| month, 8, narrow, format | А |
+| month, 9, narrow, format | С |
+| month, 10, narrow, format | О |
+| month, 11, narrow, format | Н |
+| month, 12, narrow, format | Д |
+| month, 1, wide, format | января |
+| month, 2, wide, format | февраля |
+| month, 3, wide, format | марта |
+| month, 4, wide, format | апреля |
+| month, 5, wide, format | мая |
+| month, 6, wide, format | июня |
+| month, 7, wide, format | июля |
+| month, 8, wide, format | августа |
+| month, 9, wide, format | сентября |
+| month, 10, wide, format | октября |
+| month, 11, wide, format | ноября |
+| month, 12, wide, format | декабря |
+| month, 1, abbreviated, stand-alone | янв. |
+| month, 2, abbreviated, stand-alone | февр. |
+| month, 3, abbreviated, stand-alone | март |
+| month, 4, abbreviated, stand-alone | апр. |
+| month, 5, abbreviated, stand-alone | май |
+| month, 6, abbreviated, stand-alone | июнь |
+| month, 7, abbreviated, stand-alone | июль |
+| month, 8, abbreviated, stand-alone | авг. |
+| month, 9, abbreviated, stand-alone | сент. |
+| month, 10, abbreviated, stand-alone | окт. |
+| month, 11, abbreviated, stand-alone | нояб. |
+| month, 12, abbreviated, stand-alone | дек. |
+| month, 1, narrow, stand-alone | Я |
+| month, 2, narrow, stand-alone | Ф |
+| month, 3, narrow, stand-alone | М |
+| month, 4, narrow, stand-alone | А |
+| month, 5, narrow, stand-alone | М |
+| month, 6, narrow, stand-alone | И |
+| month, 7, narrow, stand-alone | И |
+| month, 8, narrow, stand-alone | А |
+| month, 9, narrow, stand-alone | С |
+| month, 10, narrow, stand-alone | О |
+| month, 11, narrow, stand-alone | Н |
+| month, 12, narrow, stand-alone | Д |
+| month, 1, wide, stand-alone | январь |
+| month, 2, wide, stand-alone | февраль |
+| month, 3, wide, stand-alone | март |
+| month, 4, wide, stand-alone | апрель |
+| month, 5, wide, stand-alone | май |
+| month, 6, wide, stand-alone | июнь |
+| month, 7, wide, stand-alone | июль |
+| month, 8, wide, stand-alone | август |
+| month, 9, wide, stand-alone | сентябрь |
+| month, 10, wide, stand-alone | октябрь |
+| month, 11, wide, stand-alone | ноябрь |
+| month, 12, wide, stand-alone | декабрь |
+| (week)day, sun, abbreviated, format | вс |
+| (week)day, mon, abbreviated, format | пн |
+| (week)day, tue, abbreviated, format | вт |
+| (week)day, wed, abbreviated, format | ср |
+| (week)day, thu, abbreviated, format | чт |
+| (week)day, fri, abbreviated, format | пт |
+| (week)day, sat, abbreviated, format | сб |
+| (week)day, sun, narrow, format | вс |
+| (week)day, mon, narrow, format | пн |
+| (week)day, tue, narrow, format | вт |
+| (week)day, wed, narrow, format | ср |
+| (week)day, thu, narrow, format | чт |
+| (week)day, fri, narrow, format | пт |
+| (week)day, sat, narrow, format | сб |
+| (week)day, sun, short, format | вс |
+| (week)day, mon, short, format | пн |
+| (week)day, tue, short, format | вт |
+| (week)day, wed, short, format | ср |
+| (week)day, thu, short, format | чт |
+| (week)day, fri, short, format | пт |
+| (week)day, sat, short, format | сб |
+| (week)day, sun, wide, format | воскресенье |
+| (week)day, mon, wide, format | понедельник |
+| (week)day, tue, wide, format | вторник |
+| (week)day, wed, wide, format | среда |
+| (week)day, thu, wide, format | четверг |
+| (week)day, fri, wide, format | пятница |
+| (week)day, sat, wide, format | суббота |
+| (week)day, sun, abbreviated, stand-alone | вс |
+| (week)day, mon, abbreviated, stand-alone | пн |
+| (week)day, tue, abbreviated, stand-alone | вт |
+| (week)day, wed, abbreviated, stand-alone | ср |
+| (week)day, thu, abbreviated, stand-alone | чт |
+| (week)day, fri, abbreviated, stand-alone | пт |
+| (week)day, sat, abbreviated, stand-alone | сб |
+| (week)day, sun, narrow, stand-alone | В |
+| (week)day, mon, narrow, stand-alone | П |
+| (week)day, tue, narrow, stand-alone | В |
+| (week)day, wed, narrow, stand-alone | С |
+| (week)day, thu, narrow, stand-alone | Ч |
+| (week)day, fri, narrow, stand-alone | П |
+| (week)day, sat, narrow, stand-alone | С |
+| (week)day, sun, short, stand-alone | вс |
+| (week)day, mon, short, stand-alone | пн |
+| (week)day, tue, short, stand-alone | вт |
+| (week)day, wed, short, stand-alone | ср |
+| (week)day, thu, short, stand-alone | чт |
+| (week)day, fri, short, stand-alone | пт |
+| (week)day, sat, short, stand-alone | сб |
+| (week)day, sun, wide, stand-alone | воскресенье |
+| (week)day, mon, wide, stand-alone | понедельник |
+| (week)day, tue, wide, stand-alone | вторник |
+| (week)day, wed, wide, stand-alone | среда |
+| (week)day, thu, wide, stand-alone | четверг |
+| (week)day, fri, wide, stand-alone | пятница |
+| (week)day, sat, wide, stand-alone | суббота |
+| quarter, 1, abbreviated, format | 1-й кв. |
+| quarter, 2, abbreviated, format | 2-й кв. |
+| quarter, 3, abbreviated, format | 3-й кв. |
+| quarter, 4, abbreviated, format | 4-й кв. |
+| quarter, 1, narrow, format | 1 |
+| quarter, 2, narrow, format | 2 |
+| quarter, 3, narrow, format | 3 |
+| quarter, 4, narrow, format | 4 |
+| quarter, 1, wide, format | 1-й квартал |
+| quarter, 2, wide, format | 2-й квартал |
+| quarter, 3, wide, format | 3-й квартал |
+| quarter, 4, wide, format | 4-й квартал |
+| quarter, 1, abbreviated, stand-alone | 1-й кв. |
+| quarter, 2, abbreviated, stand-alone | 2-й кв. |
+| quarter, 3, abbreviated, stand-alone | 3-й кв. |
+| quarter, 4, abbreviated, stand-alone | 4-й кв. |
+| quarter, 1, narrow, stand-alone | 1 |
+| quarter, 2, narrow, stand-alone | 2 |
+| quarter, 3, narrow, stand-alone | 3 |
+| quarter, 4, narrow, stand-alone | 4 |
+| quarter, 1, wide, stand-alone | 1-й квартал |
+| quarter, 2, wide, stand-alone | 2-й квартал |
+| quarter, 3, wide, stand-alone | 3-й квартал |
+| quarter, 4, wide, stand-alone | 4-й квартал |
+| period of day, midnight, abbreviated, format | полн. |
+| period of day, am, abbreviated, format | AM |
+| period of day, noon, abbreviated, format | полд. |
+| period of day, pm, abbreviated, format | PM |
+| period of day, morning1, abbreviated, format | утра |
+| period of day, afternoon1, abbreviated, format | дня |
+| period of day, evening1, abbreviated, format | вечера |
+| period of day, night1, abbreviated, format | ночи |
+| period of day, midnight, narrow, format | полн. |
+| period of day, am, narrow, format | AM |
+| period of day, noon, narrow, format | полд. |
+| period of day, pm, narrow, format | PM |
+| period of day, morning1, narrow, format | утра |
+| period of day, afternoon1, narrow, format | дня |
+| period of day, evening1, narrow, format | веч. |
+| period of day, night1, narrow, format | ночи |
+| period of day, midnight, wide, format | полночь |
+| period of day, am, wide, format | AM |
+| period of day, noon, wide, format | полдень |
+| period of day, pm, wide, format | PM |
+| period of day, morning1, wide, format | утра |
+| period of day, afternoon1, wide, format | дня |
+| period of day, evening1, wide, format | вечера |
+| period of day, night1, wide, format | ночи |
+| period of day, midnight, abbreviated, stand-alone | полн. |
+| period of day, am, abbreviated, stand-alone | AM |
+| period of day, noon, abbreviated, stand-alone | полд. |
+| period of day, pm, abbreviated, stand-alone | PM |
+| period of day, morning1, abbreviated, stand-alone | утро |
+| period of day, afternoon1, abbreviated, stand-alone | день |
+| period of day, evening1, abbreviated, stand-alone | веч. |
+| period of day, night1, abbreviated, stand-alone | ночь |
+| period of day, midnight, narrow, stand-alone | полн. |
+| period of day, am, narrow, stand-alone | AM |
+| period of day, noon, narrow, stand-alone | полд. |
+| period of day, pm, narrow, stand-alone | PM |
+| period of day, morning1, narrow, stand-alone | утро |
+| period of day, afternoon1, narrow, stand-alone | день |
+| period of day, evening1, narrow, stand-alone | веч. |
+| period of day, night1, narrow, stand-alone | ночь |
+| period of day, midnight, wide, stand-alone | полночь |
+| period of day, am, wide, stand-alone | AM |
+| period of day, noon, wide, stand-alone | полдень |
+| period of day, pm, wide, stand-alone | PM |
+| period of day, morning1, wide, stand-alone | утро |
+| period of day, afternoon1, wide, stand-alone | день |
+| period of day, evening1, wide, stand-alone | вечер |
+| period of day, night1, wide, stand-alone | ночь |
 | era | до Рождества Христова |
 | era | до нашей эры |
 | era | от Рождества Христова |
@@ -2433,18 +2583,30 @@ Secondary quotation end character: “
 | era | н. э. |
 | era | до н.э. |
 | era | н.э. |
-| date format | `EEEE, d MMMM y 'г'.` |
-| date format | `d MMMM y 'г'.` |
-| date format | `d MMM y 'г'.` |
-| date format | `dd.MM.y` |
-| time format | `H:mm:ss zzzz` |
-| time format | `H:mm:ss z` |
-| time format | `H:mm:ss` |
-| time format | `H:mm` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
-| datetime format | `{1}, {0}` |
+| date format | ↴ |
+| standard, full | `EEEE, d MMMM y 'г'.` |
+| date format | ↴ |
+| standard, long | `d MMMM y 'г'.` |
+| date format | ↴ |
+| standard, medium | `d MMM y 'г'.` |
+| date format | ↴ |
+| standard, short | `dd.MM.y` |
+| time format | ↴ |
+| standard, full | `H:mm:ss zzzz` |
+| time format | ↴ |
+| standard, long | `H:mm:ss z` |
+| time format | ↴ |
+| standard, medium | `H:mm:ss` |
+| time format | ↴ |
+| standard, short | `H:mm` |
+| datetime format | ↴ |
+| standard, full | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, long | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, medium | `{1}, {0}` |
+| datetime format | ↴ |
+| standard, short | `{1}, {0}` |
 | date format `Bh` | `h B` |
 | date format `Bhm` | `h:mm B` |
 | date format `Bhms` | `h:mm:ss B` |
@@ -2525,253 +2687,261 @@ Secondary quotation end character: “
 | interval format `yMMMd` | `d–d MMM y 'г'.d MMM – d MMM y 'г'.d MMM y 'г'. – d MMM y 'г'.` |
 | interval format `yMMMEd` | `ccc, d – ccc, d MMM y 'г'.ccc, d MMM – ccc, d MMM y 'г'.ccc, d MMM y 'г'. – ccc, d MMM y 'г'.` |
 | interval format `yMMMM` | `LLLL – LLLL y 'г'.LLLL y 'г'. – LLLL y 'г'.` |
+
 #### hebrew calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | тишрей |
-| month 2 | хешван |
-| month 3 | кислев |
-| month 4 | тевет |
-| month 5 | шеват |
-| month 6 | адар I |
-| month 7 | адар |
-| month 7 | адар II |
-| month 8 | нисан |
-| month 9 | ияр |
-| month 10 | сиван |
-| month 11 | таммуз |
-| month 12 | ав |
-| month 13 | элул |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 13 | 13 |
-| month 1 | тишрей |
-| month 2 | хешван |
-| month 3 | кислев |
-| month 4 | тевет |
-| month 5 | шеват |
-| month 6 | адар I |
-| month 7 | адар |
-| month 7 | адар II |
-| month 8 | нисан |
-| month 9 | ияр |
-| month 10 | сиван |
-| month 11 | таммуз |
-| month 12 | ав |
-| month 13 | элул |
-| month 1 | тишрей |
-| month 2 | хешван |
-| month 3 | кислев |
-| month 4 | тевет |
-| month 5 | шеват |
-| month 6 | адар I |
-| month 7 | адар |
-| month 7 | адар II |
-| month 8 | нисан |
-| month 9 | ияр |
-| month 10 | сиван |
-| month 11 | таммуз |
-| month 12 | ав |
-| month 13 | элул |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 13 | 13 |
-| month 1 | тишрей |
-| month 2 | хешван |
-| month 3 | кислев |
-| month 4 | тевет |
-| month 5 | шеват |
-| month 6 | адар I |
-| month 7 | адар |
-| month 7 | адар II |
-| month 8 | нисан |
-| month 9 | ияр |
-| month 10 | сиван |
-| month 11 | таммуз |
-| month 12 | ав |
-| month 13 | элул |
+| month, 1, abbreviated, format | тишрей |
+| month, 2, abbreviated, format | хешван |
+| month, 3, abbreviated, format | кислев |
+| month, 4, abbreviated, format | тевет |
+| month, 5, abbreviated, format | шеват |
+| month, 6, abbreviated, format | адар I |
+| month, 7, abbreviated, format | адар |
+| month, 7, abbreviated, format | адар II |
+| month, 8, abbreviated, format | нисан |
+| month, 9, abbreviated, format | ияр |
+| month, 10, abbreviated, format | сиван |
+| month, 11, abbreviated, format | таммуз |
+| month, 12, abbreviated, format | ав |
+| month, 13, abbreviated, format | элул |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 13, narrow, format | 13 |
+| month, 1, wide, format | тишрей |
+| month, 2, wide, format | хешван |
+| month, 3, wide, format | кислев |
+| month, 4, wide, format | тевет |
+| month, 5, wide, format | шеват |
+| month, 6, wide, format | адар I |
+| month, 7, wide, format | адар |
+| month, 7, wide, format | адар II |
+| month, 8, wide, format | нисан |
+| month, 9, wide, format | ияр |
+| month, 10, wide, format | сиван |
+| month, 11, wide, format | таммуз |
+| month, 12, wide, format | ав |
+| month, 13, wide, format | элул |
+| month, 1, abbreviated, stand-alone | тишрей |
+| month, 2, abbreviated, stand-alone | хешван |
+| month, 3, abbreviated, stand-alone | кислев |
+| month, 4, abbreviated, stand-alone | тевет |
+| month, 5, abbreviated, stand-alone | шеват |
+| month, 6, abbreviated, stand-alone | адар I |
+| month, 7, abbreviated, stand-alone | адар |
+| month, 7, abbreviated, stand-alone | адар II |
+| month, 8, abbreviated, stand-alone | нисан |
+| month, 9, abbreviated, stand-alone | ияр |
+| month, 10, abbreviated, stand-alone | сиван |
+| month, 11, abbreviated, stand-alone | таммуз |
+| month, 12, abbreviated, stand-alone | ав |
+| month, 13, abbreviated, stand-alone | элул |
+| month, 1, narrow, stand-alone | 1 |
+| month, 2, narrow, stand-alone | 2 |
+| month, 3, narrow, stand-alone | 3 |
+| month, 4, narrow, stand-alone | 4 |
+| month, 5, narrow, stand-alone | 5 |
+| month, 6, narrow, stand-alone | 6 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 8, narrow, stand-alone | 8 |
+| month, 9, narrow, stand-alone | 9 |
+| month, 10, narrow, stand-alone | 10 |
+| month, 11, narrow, stand-alone | 11 |
+| month, 12, narrow, stand-alone | 12 |
+| month, 13, narrow, stand-alone | 13 |
+| month, 1, wide, stand-alone | тишрей |
+| month, 2, wide, stand-alone | хешван |
+| month, 3, wide, stand-alone | кислев |
+| month, 4, wide, stand-alone | тевет |
+| month, 5, wide, stand-alone | шеват |
+| month, 6, wide, stand-alone | адар I |
+| month, 7, wide, stand-alone | адар |
+| month, 7, wide, stand-alone | адар II |
+| month, 8, wide, stand-alone | нисан |
+| month, 9, wide, stand-alone | ияр |
+| month, 10, wide, stand-alone | сиван |
+| month, 11, wide, stand-alone | таммуз |
+| month, 12, wide, stand-alone | ав |
+| month, 13, wide, stand-alone | элул |
 | era | от сотворения мира |
 | era | AM |
 | era | AM |
+
 #### indian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | чайтра |
-| month 2 | ваисакха |
-| month 3 | джанштха |
-| month 4 | асадха |
-| month 5 | сравана |
-| month 6 | бхадра |
-| month 7 | азвина |
-| month 8 | картика |
-| month 9 | аграхайана |
-| month 10 | пауза |
-| month 11 | магха |
-| month 12 | пхалгуна |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | чайтра |
-| month 2 | ваисакха |
-| month 3 | джанштха |
-| month 4 | асадха |
-| month 5 | сравана |
-| month 6 | бхадра |
-| month 7 | азвина |
-| month 8 | картика |
-| month 9 | аграхайана |
-| month 10 | пауза |
-| month 11 | магха |
-| month 12 | пхалгуна |
-| month 1 | чайтра |
-| month 2 | ваисакха |
-| month 3 | джанштха |
-| month 4 | асадха |
-| month 5 | сравана |
-| month 6 | бхадра |
-| month 7 | азвина |
-| month 8 | картика |
-| month 9 | аграхайана |
-| month 10 | пауза |
-| month 11 | магха |
-| month 12 | пхалгуна |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | чайтра |
-| month 2 | ваисакха |
-| month 3 | джанштха |
-| month 4 | асадха |
-| month 5 | сравана |
-| month 6 | бхадра |
-| month 7 | азвина |
-| month 8 | картика |
-| month 9 | аграхайана |
-| month 10 | пауза |
-| month 11 | магха |
-| month 12 | пхалгуна |
+| month, 1, abbreviated, format | чайтра |
+| month, 2, abbreviated, format | ваисакха |
+| month, 3, abbreviated, format | джанштха |
+| month, 4, abbreviated, format | асадха |
+| month, 5, abbreviated, format | сравана |
+| month, 6, abbreviated, format | бхадра |
+| month, 7, abbreviated, format | азвина |
+| month, 8, abbreviated, format | картика |
+| month, 9, abbreviated, format | аграхайана |
+| month, 10, abbreviated, format | пауза |
+| month, 11, abbreviated, format | магха |
+| month, 12, abbreviated, format | пхалгуна |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 1, wide, format | чайтра |
+| month, 2, wide, format | ваисакха |
+| month, 3, wide, format | джанштха |
+| month, 4, wide, format | асадха |
+| month, 5, wide, format | сравана |
+| month, 6, wide, format | бхадра |
+| month, 7, wide, format | азвина |
+| month, 8, wide, format | картика |
+| month, 9, wide, format | аграхайана |
+| month, 10, wide, format | пауза |
+| month, 11, wide, format | магха |
+| month, 12, wide, format | пхалгуна |
+| month, 1, abbreviated, stand-alone | чайтра |
+| month, 2, abbreviated, stand-alone | ваисакха |
+| month, 3, abbreviated, stand-alone | джанштха |
+| month, 4, abbreviated, stand-alone | асадха |
+| month, 5, abbreviated, stand-alone | сравана |
+| month, 6, abbreviated, stand-alone | бхадра |
+| month, 7, abbreviated, stand-alone | азвина |
+| month, 8, abbreviated, stand-alone | картика |
+| month, 9, abbreviated, stand-alone | аграхайана |
+| month, 10, abbreviated, stand-alone | пауза |
+| month, 11, abbreviated, stand-alone | магха |
+| month, 12, abbreviated, stand-alone | пхалгуна |
+| month, 1, narrow, stand-alone | 1 |
+| month, 2, narrow, stand-alone | 2 |
+| month, 3, narrow, stand-alone | 3 |
+| month, 4, narrow, stand-alone | 4 |
+| month, 5, narrow, stand-alone | 5 |
+| month, 6, narrow, stand-alone | 6 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 8, narrow, stand-alone | 8 |
+| month, 9, narrow, stand-alone | 9 |
+| month, 10, narrow, stand-alone | 10 |
+| month, 11, narrow, stand-alone | 11 |
+| month, 12, narrow, stand-alone | 12 |
+| month, 1, wide, stand-alone | чайтра |
+| month, 2, wide, stand-alone | ваисакха |
+| month, 3, wide, stand-alone | джанштха |
+| month, 4, wide, stand-alone | асадха |
+| month, 5, wide, stand-alone | сравана |
+| month, 6, wide, stand-alone | бхадра |
+| month, 7, wide, stand-alone | азвина |
+| month, 8, wide, stand-alone | картика |
+| month, 9, wide, stand-alone | аграхайана |
+| month, 10, wide, stand-alone | пауза |
+| month, 11, wide, stand-alone | магха |
+| month, 12, wide, stand-alone | пхалгуна |
 | era | Сака |
 | era | Сака |
 | era | Сака |
+
 #### islamic calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | мух. |
-| month 2 | саф. |
-| month 3 | раб. I |
-| month 4 | раб. II |
-| month 5 | джум. I |
-| month 6 | джум. II |
-| month 7 | радж. |
-| month 8 | шааб. |
-| month 9 | рам. |
-| month 10 | шав. |
-| month 11 | зуль-к. |
-| month 12 | зуль-х. |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | мухаррам |
-| month 2 | сафар |
-| month 3 | раби-уль-авваль |
-| month 4 | раби-уль-ахир |
-| month 5 | джумад-уль-авваль |
-| month 6 | джумад-уль-ахир |
-| month 7 | раджаб |
-| month 8 | шаабан |
-| month 9 | рамадан |
-| month 10 | шавваль |
-| month 11 | зуль-каада |
-| month 12 | зуль-хиджжа |
-| month 1 | мух. |
-| month 2 | саф. |
-| month 3 | раб. I |
-| month 4 | раб. II |
-| month 5 | джум. I |
-| month 6 | джум. II |
-| month 7 | радж. |
-| month 8 | шааб. |
-| month 9 | рам. |
-| month 10 | шав. |
-| month 11 | зуль-к. |
-| month 12 | зуль-х. |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | мухаррам |
-| month 2 | сафар |
-| month 3 | раби-уль-авваль |
-| month 4 | раби-уль-ахир |
-| month 5 | джумад-уль-авваль |
-| month 6 | джумад-уль-ахир |
-| month 7 | раджаб |
-| month 8 | шаабан |
-| month 9 | рамадан |
-| month 10 | шавваль |
-| month 11 | зуль-каада |
-| month 12 | зуль-хиджжа |
+| month, 1, abbreviated, format | мух. |
+| month, 2, abbreviated, format | саф. |
+| month, 3, abbreviated, format | раб. I |
+| month, 4, abbreviated, format | раб. II |
+| month, 5, abbreviated, format | джум. I |
+| month, 6, abbreviated, format | джум. II |
+| month, 7, abbreviated, format | радж. |
+| month, 8, abbreviated, format | шааб. |
+| month, 9, abbreviated, format | рам. |
+| month, 10, abbreviated, format | шав. |
+| month, 11, abbreviated, format | зуль-к. |
+| month, 12, abbreviated, format | зуль-х. |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 1, wide, format | мухаррам |
+| month, 2, wide, format | сафар |
+| month, 3, wide, format | раби-уль-авваль |
+| month, 4, wide, format | раби-уль-ахир |
+| month, 5, wide, format | джумад-уль-авваль |
+| month, 6, wide, format | джумад-уль-ахир |
+| month, 7, wide, format | раджаб |
+| month, 8, wide, format | шаабан |
+| month, 9, wide, format | рамадан |
+| month, 10, wide, format | шавваль |
+| month, 11, wide, format | зуль-каада |
+| month, 12, wide, format | зуль-хиджжа |
+| month, 1, abbreviated, stand-alone | мух. |
+| month, 2, abbreviated, stand-alone | саф. |
+| month, 3, abbreviated, stand-alone | раб. I |
+| month, 4, abbreviated, stand-alone | раб. II |
+| month, 5, abbreviated, stand-alone | джум. I |
+| month, 6, abbreviated, stand-alone | джум. II |
+| month, 7, abbreviated, stand-alone | радж. |
+| month, 8, abbreviated, stand-alone | шааб. |
+| month, 9, abbreviated, stand-alone | рам. |
+| month, 10, abbreviated, stand-alone | шав. |
+| month, 11, abbreviated, stand-alone | зуль-к. |
+| month, 12, abbreviated, stand-alone | зуль-х. |
+| month, 1, narrow, stand-alone | 1 |
+| month, 2, narrow, stand-alone | 2 |
+| month, 3, narrow, stand-alone | 3 |
+| month, 4, narrow, stand-alone | 4 |
+| month, 5, narrow, stand-alone | 5 |
+| month, 6, narrow, stand-alone | 6 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 8, narrow, stand-alone | 8 |
+| month, 9, narrow, stand-alone | 9 |
+| month, 10, narrow, stand-alone | 10 |
+| month, 11, narrow, stand-alone | 11 |
+| month, 12, narrow, stand-alone | 12 |
+| month, 1, wide, stand-alone | мухаррам |
+| month, 2, wide, stand-alone | сафар |
+| month, 3, wide, stand-alone | раби-уль-авваль |
+| month, 4, wide, stand-alone | раби-уль-ахир |
+| month, 5, wide, stand-alone | джумад-уль-авваль |
+| month, 6, wide, stand-alone | джумад-уль-ахир |
+| month, 7, wide, stand-alone | раджаб |
+| month, 8, wide, stand-alone | шаабан |
+| month, 9, wide, stand-alone | рамадан |
+| month, 10, wide, stand-alone | шавваль |
+| month, 11, wide, stand-alone | зуль-каада |
+| month, 12, wide, stand-alone | зуль-хиджжа |
 | era | после хиджры |
 | era | AH |
 | era | AH |
+
 #### japanese calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | era | Эпоха Тайка (645–650) |
@@ -3010,85 +3180,89 @@ Secondary quotation end character: “
 | era | Эпоха Тайсьо |
 | era | Сьова |
 | era | Эпоха Хэйсэй |
+
 #### persian calendar
+
 | ID-stuff | values |
 | -------- | ------ |
-| month 1 | фарвардин |
-| month 2 | ордибехешт |
-| month 3 | хордад |
-| month 4 | тир |
-| month 5 | мордад |
-| month 6 | шахривер |
-| month 7 | мехр |
-| month 8 | абан |
-| month 9 | азер |
-| month 10 | дей |
-| month 11 | бахман |
-| month 12 | эсфанд |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | фарвардин |
-| month 2 | ордибехешт |
-| month 3 | хордад |
-| month 4 | тир |
-| month 5 | мордад |
-| month 6 | шахривер |
-| month 7 | мехр |
-| month 8 | абан |
-| month 9 | азер |
-| month 10 | дей |
-| month 11 | бахман |
-| month 12 | эсфанд |
-| month 1 | фарвардин |
-| month 2 | ордибехешт |
-| month 3 | хордад |
-| month 4 | тир |
-| month 5 | мордад |
-| month 6 | шахривер |
-| month 7 | мехр |
-| month 8 | абан |
-| month 9 | азер |
-| month 10 | дей |
-| month 11 | бахман |
-| month 12 | эсфанд |
-| month 1 | 1 |
-| month 2 | 2 |
-| month 3 | 3 |
-| month 4 | 4 |
-| month 5 | 5 |
-| month 6 | 6 |
-| month 7 | 7 |
-| month 8 | 8 |
-| month 9 | 9 |
-| month 10 | 10 |
-| month 11 | 11 |
-| month 12 | 12 |
-| month 1 | фарвардин |
-| month 2 | ордибехешт |
-| month 3 | хордад |
-| month 4 | тир |
-| month 5 | мордад |
-| month 6 | шахривер |
-| month 7 | мехр |
-| month 8 | абан |
-| month 9 | азер |
-| month 10 | дей |
-| month 11 | бахман |
-| month 12 | эсфанд |
+| month, 1, abbreviated, format | фарвардин |
+| month, 2, abbreviated, format | ордибехешт |
+| month, 3, abbreviated, format | хордад |
+| month, 4, abbreviated, format | тир |
+| month, 5, abbreviated, format | мордад |
+| month, 6, abbreviated, format | шахривер |
+| month, 7, abbreviated, format | мехр |
+| month, 8, abbreviated, format | абан |
+| month, 9, abbreviated, format | азер |
+| month, 10, abbreviated, format | дей |
+| month, 11, abbreviated, format | бахман |
+| month, 12, abbreviated, format | эсфанд |
+| month, 1, narrow, format | 1 |
+| month, 2, narrow, format | 2 |
+| month, 3, narrow, format | 3 |
+| month, 4, narrow, format | 4 |
+| month, 5, narrow, format | 5 |
+| month, 6, narrow, format | 6 |
+| month, 7, narrow, format | 7 |
+| month, 8, narrow, format | 8 |
+| month, 9, narrow, format | 9 |
+| month, 10, narrow, format | 10 |
+| month, 11, narrow, format | 11 |
+| month, 12, narrow, format | 12 |
+| month, 1, wide, format | фарвардин |
+| month, 2, wide, format | ордибехешт |
+| month, 3, wide, format | хордад |
+| month, 4, wide, format | тир |
+| month, 5, wide, format | мордад |
+| month, 6, wide, format | шахривер |
+| month, 7, wide, format | мехр |
+| month, 8, wide, format | абан |
+| month, 9, wide, format | азер |
+| month, 10, wide, format | дей |
+| month, 11, wide, format | бахман |
+| month, 12, wide, format | эсфанд |
+| month, 1, abbreviated, stand-alone | фарвардин |
+| month, 2, abbreviated, stand-alone | ордибехешт |
+| month, 3, abbreviated, stand-alone | хордад |
+| month, 4, abbreviated, stand-alone | тир |
+| month, 5, abbreviated, stand-alone | мордад |
+| month, 6, abbreviated, stand-alone | шахривер |
+| month, 7, abbreviated, stand-alone | мехр |
+| month, 8, abbreviated, stand-alone | абан |
+| month, 9, abbreviated, stand-alone | азер |
+| month, 10, abbreviated, stand-alone | дей |
+| month, 11, abbreviated, stand-alone | бахман |
+| month, 12, abbreviated, stand-alone | эсфанд |
+| month, 1, narrow, stand-alone | 1 |
+| month, 2, narrow, stand-alone | 2 |
+| month, 3, narrow, stand-alone | 3 |
+| month, 4, narrow, stand-alone | 4 |
+| month, 5, narrow, stand-alone | 5 |
+| month, 6, narrow, stand-alone | 6 |
+| month, 7, narrow, stand-alone | 7 |
+| month, 8, narrow, stand-alone | 8 |
+| month, 9, narrow, stand-alone | 9 |
+| month, 10, narrow, stand-alone | 10 |
+| month, 11, narrow, stand-alone | 11 |
+| month, 12, narrow, stand-alone | 12 |
+| month, 1, wide, stand-alone | фарвардин |
+| month, 2, wide, stand-alone | ордибехешт |
+| month, 3, wide, stand-alone | хордад |
+| month, 4, wide, stand-alone | тир |
+| month, 5, wide, stand-alone | мордад |
+| month, 6, wide, stand-alone | шахривер |
+| month, 7, wide, stand-alone | мехр |
+| month, 8, wide, stand-alone | абан |
+| month, 9, wide, stand-alone | азер |
+| month, 10, wide, stand-alone | дей |
+| month, 11, wide, stand-alone | бахман |
+| month, 12, wide, stand-alone | эсфанд |
 | era | персидский год |
 | era | перс. год |
 | era | перс. год |
+
 #### roc calendar
+
 | ID-stuff | values |
 | -------- | ------ |
 | era | до основания Китайской республики |
@@ -3097,79 +3271,537 @@ Secondary quotation end character: “
 | era | Minguo |
 | era | до респ. |
 | era | Миньго |
+
 ### some more time stuff
-|  | эра |
-|  | эра |
-|  | эра |
-|  | год |
-в прошлом годув этом годув следующем годучерез {0} годчерез {0} годачерез {0} летчерез {0} года{0} год назад{0} года назад{0} лет назад{0} года назад
-|  | г. |
-в прошлом г.в этом г.в след. г.через {0} г.через {0} г.через {0} л.через {0} г.{0} г. назад{0} г. назад{0} л. назад{0} г. назад
-|  | г. |
-в пр. г.в эт. г.в сл. г.+{0} г.+{0} г.+{0} л.+{0} г.-{0} г.-{0} г.-{0} л.-{0} г.
-|  | квартал |
-в прошлом кварталев текущем кварталев следующем кварталечерез {0} кварталчерез {0} кварталачерез {0} кварталовчерез {0} квартала{0} квартал назад{0} квартала назад{0} кварталов назад{0} квартала назад
-|  | кв. |
-последний кв.текущий кв.следующий кв.через {0} кв.через {0} кв.через {0} кв.через {0} кв.{0} кв. назад{0} кв. назад{0} кв. назад{0} кв. назад
-|  | кв. |
-посл. кв.тек. кв.след. кв.+{0} кв.+{0} кв.+{0} кв.+{0} кв.-{0} кв.-{0} кв.-{0} кв.-{0} кв.
-|  | месяц |
-в прошлом месяцев этом месяцев следующем месяцечерез {0} месяцчерез {0} месяцачерез {0} месяцевчерез {0} месяца{0} месяц назад{0} месяца назад{0} месяцев назад{0} месяца назад
-|  | мес. |
-в прошлом мес.в этом мес.в следующем мес.через {0} мес.через {0} мес.через {0} мес.через {0} мес.{0} мес. назад{0} мес. назад{0} мес. назад{0} мес. назад
-|  | мес. |
-в пр. мес.в эт. мес.в след. мес.+{0} мес.+{0} мес.+{0} мес.+{0} мес.-{0} мес.-{0} мес.-{0} мес.-{0} мес.
-|  | неделя |
-на прошлой неделена этой неделена следующей неделечерез {0} неделючерез {0} неделичерез {0} недельчерез {0} недели{0} неделю назад{0} недели назад{0} недель назад{0} недели назадна неделе {0}
-|  | нед. |
-на прошлой нед.на этой нед.на следующей нед.через {0} нед.через {0} нед.через {0} нед.через {0} нед.{0} нед. назад{0} нед. назад{0} нед. назад{0} нед. назадна нед. {0}
-|  | нед. |
-на пр. нед.на эт. нед.на след. неделе+{0} нед.+{0} нед.+{0} нед.+{0} нед.-{0} нед.-{0} нед.-{0} нед.-{0} нед.на нед. {0}
-|  | неделя месяца |
-|  | нед. месяца |
-|  | нед. мес. |
-|  | день |
-позавчеравчерасегоднязавтрапослезавтрачерез {0} деньчерез {0} днячерез {0} днейчерез {0} дня{0} день назад{0} дня назад{0} дней назад{0} дня назад
-|  | дн. |
-позавчерапослезавтрачерез {0} дн.через {0} дн.через {0} дн.через {0} дн.{0} дн. назад{0} дн. назад{0} дн. назад{0} дн. назад
-|  | дн. |
-позавчерапослезавтра+{0} дн.+{0} дн.+{0} дн.+{0} дн.-{0} дн.-{0} дн.-{0} дн.-{0} дн.
-|  | день года |
-|  | дн. года |
-|  | дн. года |
-|  | день недели |
-|  | дн. недели |
-|  | дн. нед. |
-|  | день недели в месяце |
-|  | дн. нед. в месяце |
-|  | дн. нед. в мес. |
-в прошлое воскресеньев это воскресеньев следующее воскресеньечерез {0} воскресеньечерез {0} воскресеньячерез {0} воскресенийчерез {0} воскресенья{0} воскресенье назад{0} воскресенья назад{0} воскресений назад{0} воскресенья назадв прош. вс.в это вс.в след. вс.через {0} вс.через {0} вс.через {0} вс.через {0} вс.{0} вс. назад{0} вс. назад{0} вс. назад{0} вс. назадв прош. вс.в это вс.в след. вс.+{0} вс.+{0} вс.+{0} вс.+{0} вс.-{0} вс.-{0} вс.-{0} вс.-{0} вс.в прошлый понедельникв этот понедельникв следующий понедельникчерез {0} понедельникчерез {0} понедельникачерез {0} понедельниковчерез {0} понедельника{0} понедельник назад{0} понедельника назад{0} понедельников назад{0} понедельника назадв прош. пн.в этот пн.в след. пн.через {0} пн.через {0} пн.через {0} пн.через {0} пн.{0} пн. назад{0} пн. назад{0} пн. назад{0} пн. назадв прош. пн.в этот пн.в след. пн.+{0} пн.+{0} пн.+{0} пн.+{0} пн.-{0} пн.-{0} пн.-{0} пн.-{0} пн.в прошлый вторникв этот вторникв следующий вторникчерез {0} вторникчерез {0} вторникачерез {0} вторниковчерез {0} вторника{0} вторник назад{0} вторника назад{0} вторников назад{0} вторника назадв прош. вт.в этот вт.в след. вт.через {0} вт.через {0} вт.через {0} вт.через {0} вт.{0} вт. назад{0} вт. назад{0} вт. назад{0} вт. назадв прош. вт.в этот вт.в след. вт.+{0} вт.+{0} вт.+{0} вт.+{0} вт.-{0} вт.-{0} вт.-{0} вт.-{0} вт.в прошлую средув эту средув следующую средучерез {0} средучерез {0} средычерез {0} средчерез {0} среды{0} среду назад{0} среды назад{0} сред назад{0} среды назадв прош. ср.в эту ср.в след. ср.через {0} ср.через {0} ср.через {0} ср.через {0} ср.{0} ср. назад{0} ср. назад{0} ср. назад{0} ср. назадв прош. ср.в эту ср.в след. ср.+{0} ср.+{0} ср.+{0} ср.+{0} ср.-{0} ср.-{0} ср.-{0} ср.-{0} ср.в прошлый четвергв этот четвергв следующий четвергчерез {0} четвергчерез {0} четвергачерез {0} четверговчерез {0} четверга{0} четверг назад{0} четверга назад{0} четвергов назад{0} четверга назадв прош. чт.в этот чт.в след. чт.через {0} чт.через {0} чт.через {0} чт.через {0} чт.{0} чт. назад{0} чт. назад{0} чт. назад{0} чт. назадв прош. чт.в этот чт.в след. чт.+{0} чт.+{0} чт.+{0} чт.+{0} чт.-{0} чт.-{0} чт.-{0} чт.-{0} чт.в прошлую пятницув эту пятницув следующую пятницучерез {0} пятницучерез {0} пятницычерез {0} пятницчерез {0} пятницы{0} пятницу назад{0} пятницы назад{0} пятниц назад{0} пятницы назадв прош. пт.в эту пт.в след. пт.через {0} пт.через {0} пт.через {0} пт.через {0} пт.{0} пт. назад{0} пт. назад{0} пт. назад{0} пт. назадв прош. пт.в эту пт.в след. пт.+{0} пт.+{0} пт.+{0} пт.+{0} пт.-{0} пт.-{0} пт.-{0} пт.-{0} пт.в прошлую субботув эту субботув следующую субботучерез {0} субботучерез {0} субботычерез {0} субботчерез {0} субботы{0} субботу назад{0} субботы назад{0} суббот назад{0} субботы назадв прош. сб.в эту сб.в след. сб.через {0} сб.через {0} сб.через {0} сб.через {0} сб.{0} сб. назад{0} сб. назад{0} сб. назад{0} сб. назадв прош. сб.в эту сб.в след. сб.+{0} сб.+{0} сб.+{0} сб.+{0} сб.-{0} сб.-{0} сб.-{0} сб.-{0} сб.
-|  | AM/PM |
-|  | AM/PM |
-|  | AM/PM |
-|  | час |
-в этот часчерез {0} часчерез {0} часачерез {0} часовчерез {0} часа{0} час назад{0} часа назад{0} часов назад{0} часа назад
-|  | ч |
-в этот часчерез {0} ч.через {0} ч.через {0} ч.через {0} ч.{0} ч. назад{0} ч. назад{0} ч. назад{0} ч. назад
-|  | ч |
-в этот час+{0} ч.+{0} ч.+{0} ч.+{0} ч.-{0} ч.-{0} ч.-{0} ч.-{0} ч.
-|  | минута |
-в эту минутучерез {0} минутучерез {0} минутычерез {0} минутчерез {0} минуты{0} минуту назад{0} минуты назад{0} минут назад{0} минуты назад
-|  | мин. |
-через {0} мин.через {0} мин.через {0} мин.через {0} мин.{0} мин. назад{0} мин. назад{0} мин. назад{0} мин. назад
-|  | мин |
-+{0} мин.+{0} мин.+{0} мин.+{0} мин.-{0} мин.-{0} мин.-{0} мин.-{0} мин.
-|  | секунда |
-сейчасчерез {0} секундучерез {0} секундычерез {0} секундчерез {0} секунды{0} секунду назад{0} секунды назад{0} секунд назад{0} секунды назад
-|  | сек. |
-через {0} сек.через {0} сек.через {0} сек.через {0} сек.{0} сек. назад{0} сек. назад{0} сек. назад{0} сек. назад
-|  | с |
-+{0} с+{0} с+{0} с+{0} с-{0} с-{0} с-{0} с-{0} с
-|  | часовой пояс |
-|  | час. пояс |
-|  | час. пояс |
+
+| Stuff | Translation |
+| ----- | ----------- |
+| , era | эра |
+| , era-short | эра |
+| , era-narrow | эра |
+| , year | год |
+| -1year | в прошлом году |
+| 0year | в этом году |
+| 1year | в следующем году |
+| oneyearfuture | через {0} год |
+| fewyearfuture | через {0} года |
+| manyyearfuture | через {0} лет |
+| otheryearfuture | через {0} года |
+| oneyearpast | {0} год назад |
+| fewyearpast | {0} года назад |
+| manyyearpast | {0} лет назад |
+| otheryearpast | {0} года назад |
+| , year-short | г. |
+| -1year-short | в прошлом г. |
+| 0year-short | в этом г. |
+| 1year-short | в след. г. |
+| oneyear-shortfuture | через {0} г. |
+| fewyear-shortfuture | через {0} г. |
+| manyyear-shortfuture | через {0} л. |
+| otheryear-shortfuture | через {0} г. |
+| oneyear-shortpast | {0} г. назад |
+| fewyear-shortpast | {0} г. назад |
+| manyyear-shortpast | {0} л. назад |
+| otheryear-shortpast | {0} г. назад |
+| , year-narrow | г. |
+| -1year-narrow | в пр. г. |
+| 0year-narrow | в эт. г. |
+| 1year-narrow | в сл. г. |
+| oneyear-narrowfuture | +{0} г. |
+| fewyear-narrowfuture | +{0} г. |
+| manyyear-narrowfuture | +{0} л. |
+| otheryear-narrowfuture | +{0} г. |
+| oneyear-narrowpast | -{0} г. |
+| fewyear-narrowpast | -{0} г. |
+| manyyear-narrowpast | -{0} л. |
+| otheryear-narrowpast | -{0} г. |
+| , quarter | квартал |
+| -1quarter | в прошлом квартале |
+| 0quarter | в текущем квартале |
+| 1quarter | в следующем квартале |
+| onequarterfuture | через {0} квартал |
+| fewquarterfuture | через {0} квартала |
+| manyquarterfuture | через {0} кварталов |
+| otherquarterfuture | через {0} квартала |
+| onequarterpast | {0} квартал назад |
+| fewquarterpast | {0} квартала назад |
+| manyquarterpast | {0} кварталов назад |
+| otherquarterpast | {0} квартала назад |
+| , quarter-short | кв. |
+| -1quarter-short | последний кв. |
+| 0quarter-short | текущий кв. |
+| 1quarter-short | следующий кв. |
+| onequarter-shortfuture | через {0} кв. |
+| fewquarter-shortfuture | через {0} кв. |
+| manyquarter-shortfuture | через {0} кв. |
+| otherquarter-shortfuture | через {0} кв. |
+| onequarter-shortpast | {0} кв. назад |
+| fewquarter-shortpast | {0} кв. назад |
+| manyquarter-shortpast | {0} кв. назад |
+| otherquarter-shortpast | {0} кв. назад |
+| , quarter-narrow | кв. |
+| -1quarter-narrow | посл. кв. |
+| 0quarter-narrow | тек. кв. |
+| 1quarter-narrow | след. кв. |
+| onequarter-narrowfuture | +{0} кв. |
+| fewquarter-narrowfuture | +{0} кв. |
+| manyquarter-narrowfuture | +{0} кв. |
+| otherquarter-narrowfuture | +{0} кв. |
+| onequarter-narrowpast | -{0} кв. |
+| fewquarter-narrowpast | -{0} кв. |
+| manyquarter-narrowpast | -{0} кв. |
+| otherquarter-narrowpast | -{0} кв. |
+| , month | месяц |
+| -1month | в прошлом месяце |
+| 0month | в этом месяце |
+| 1month | в следующем месяце |
+| onemonthfuture | через {0} месяц |
+| fewmonthfuture | через {0} месяца |
+| manymonthfuture | через {0} месяцев |
+| othermonthfuture | через {0} месяца |
+| onemonthpast | {0} месяц назад |
+| fewmonthpast | {0} месяца назад |
+| manymonthpast | {0} месяцев назад |
+| othermonthpast | {0} месяца назад |
+| , month-short | мес. |
+| -1month-short | в прошлом мес. |
+| 0month-short | в этом мес. |
+| 1month-short | в следующем мес. |
+| onemonth-shortfuture | через {0} мес. |
+| fewmonth-shortfuture | через {0} мес. |
+| manymonth-shortfuture | через {0} мес. |
+| othermonth-shortfuture | через {0} мес. |
+| onemonth-shortpast | {0} мес. назад |
+| fewmonth-shortpast | {0} мес. назад |
+| manymonth-shortpast | {0} мес. назад |
+| othermonth-shortpast | {0} мес. назад |
+| , month-narrow | мес. |
+| -1month-narrow | в пр. мес. |
+| 0month-narrow | в эт. мес. |
+| 1month-narrow | в след. мес. |
+| onemonth-narrowfuture | +{0} мес. |
+| fewmonth-narrowfuture | +{0} мес. |
+| manymonth-narrowfuture | +{0} мес. |
+| othermonth-narrowfuture | +{0} мес. |
+| onemonth-narrowpast | -{0} мес. |
+| fewmonth-narrowpast | -{0} мес. |
+| manymonth-narrowpast | -{0} мес. |
+| othermonth-narrowpast | -{0} мес. |
+| , week | неделя |
+| -1week | на прошлой неделе |
+| 0week | на этой неделе |
+| 1week | на следующей неделе |
+| oneweekfuture | через {0} неделю |
+| fewweekfuture | через {0} недели |
+| manyweekfuture | через {0} недель |
+| otherweekfuture | через {0} недели |
+| oneweekpast | {0} неделю назад |
+| fewweekpast | {0} недели назад |
+| manyweekpast | {0} недель назад |
+| otherweekpast | {0} недели назад |
+| week, relative period | на неделе {0} |
+| , week-short | нед. |
+| -1week-short | на прошлой нед. |
+| 0week-short | на этой нед. |
+| 1week-short | на следующей нед. |
+| oneweek-shortfuture | через {0} нед. |
+| fewweek-shortfuture | через {0} нед. |
+| manyweek-shortfuture | через {0} нед. |
+| otherweek-shortfuture | через {0} нед. |
+| oneweek-shortpast | {0} нед. назад |
+| fewweek-shortpast | {0} нед. назад |
+| manyweek-shortpast | {0} нед. назад |
+| otherweek-shortpast | {0} нед. назад |
+| week-short, relative period | на нед. {0} |
+| , week-narrow | нед. |
+| -1week-narrow | на пр. нед. |
+| 0week-narrow | на эт. нед. |
+| 1week-narrow | на след. неделе |
+| oneweek-narrowfuture | +{0} нед. |
+| fewweek-narrowfuture | +{0} нед. |
+| manyweek-narrowfuture | +{0} нед. |
+| otherweek-narrowfuture | +{0} нед. |
+| oneweek-narrowpast | -{0} нед. |
+| fewweek-narrowpast | -{0} нед. |
+| manyweek-narrowpast | -{0} нед. |
+| otherweek-narrowpast | -{0} нед. |
+| week-narrow, relative period | на нед. {0} |
+| , weekOfMonth | неделя месяца |
+| , weekOfMonth-short | нед. месяца |
+| , weekOfMonth-narrow | нед. мес. |
+| , day | день |
+| -2day | позавчера |
+| -1day | вчера |
+| 0day | сегодня |
+| 1day | завтра |
+| 2day | послезавтра |
+| onedayfuture | через {0} день |
+| fewdayfuture | через {0} дня |
+| manydayfuture | через {0} дней |
+| otherdayfuture | через {0} дня |
+| onedaypast | {0} день назад |
+| fewdaypast | {0} дня назад |
+| manydaypast | {0} дней назад |
+| otherdaypast | {0} дня назад |
+| , day-short | дн. |
+| -2day-short | позавчера |
+| 2day-short | послезавтра |
+| oneday-shortfuture | через {0} дн. |
+| fewday-shortfuture | через {0} дн. |
+| manyday-shortfuture | через {0} дн. |
+| otherday-shortfuture | через {0} дн. |
+| oneday-shortpast | {0} дн. назад |
+| fewday-shortpast | {0} дн. назад |
+| manyday-shortpast | {0} дн. назад |
+| otherday-shortpast | {0} дн. назад |
+| , day-narrow | дн. |
+| -2day-narrow | позавчера |
+| 2day-narrow | послезавтра |
+| oneday-narrowfuture | +{0} дн. |
+| fewday-narrowfuture | +{0} дн. |
+| manyday-narrowfuture | +{0} дн. |
+| otherday-narrowfuture | +{0} дн. |
+| oneday-narrowpast | -{0} дн. |
+| fewday-narrowpast | -{0} дн. |
+| manyday-narrowpast | -{0} дн. |
+| otherday-narrowpast | -{0} дн. |
+| , dayOfYear | день года |
+| , dayOfYear-short | дн. года |
+| , dayOfYear-narrow | дн. года |
+| , weekday | день недели |
+| , weekday-short | дн. недели |
+| , weekday-narrow | дн. нед. |
+| , weekdayOfMonth | день недели в месяце |
+| , weekdayOfMonth-short | дн. нед. в месяце |
+| , weekdayOfMonth-narrow | дн. нед. в мес. |
+| -1sun | в прошлое воскресенье |
+| 0sun | в это воскресенье |
+| 1sun | в следующее воскресенье |
+| onesunfuture | через {0} воскресенье |
+| fewsunfuture | через {0} воскресенья |
+| manysunfuture | через {0} воскресений |
+| othersunfuture | через {0} воскресенья |
+| onesunpast | {0} воскресенье назад |
+| fewsunpast | {0} воскресенья назад |
+| manysunpast | {0} воскресений назад |
+| othersunpast | {0} воскресенья назад |
+| -1sun-short | в прош. вс. |
+| 0sun-short | в это вс. |
+| 1sun-short | в след. вс. |
+| onesun-shortfuture | через {0} вс. |
+| fewsun-shortfuture | через {0} вс. |
+| manysun-shortfuture | через {0} вс. |
+| othersun-shortfuture | через {0} вс. |
+| onesun-shortpast | {0} вс. назад |
+| fewsun-shortpast | {0} вс. назад |
+| manysun-shortpast | {0} вс. назад |
+| othersun-shortpast | {0} вс. назад |
+| -1sun-narrow | в прош. вс. |
+| 0sun-narrow | в это вс. |
+| 1sun-narrow | в след. вс. |
+| onesun-narrowfuture | +{0} вс. |
+| fewsun-narrowfuture | +{0} вс. |
+| manysun-narrowfuture | +{0} вс. |
+| othersun-narrowfuture | +{0} вс. |
+| onesun-narrowpast | -{0} вс. |
+| fewsun-narrowpast | -{0} вс. |
+| manysun-narrowpast | -{0} вс. |
+| othersun-narrowpast | -{0} вс. |
+| -1mon | в прошлый понедельник |
+| 0mon | в этот понедельник |
+| 1mon | в следующий понедельник |
+| onemonfuture | через {0} понедельник |
+| fewmonfuture | через {0} понедельника |
+| manymonfuture | через {0} понедельников |
+| othermonfuture | через {0} понедельника |
+| onemonpast | {0} понедельник назад |
+| fewmonpast | {0} понедельника назад |
+| manymonpast | {0} понедельников назад |
+| othermonpast | {0} понедельника назад |
+| -1mon-short | в прош. пн. |
+| 0mon-short | в этот пн. |
+| 1mon-short | в след. пн. |
+| onemon-shortfuture | через {0} пн. |
+| fewmon-shortfuture | через {0} пн. |
+| manymon-shortfuture | через {0} пн. |
+| othermon-shortfuture | через {0} пн. |
+| onemon-shortpast | {0} пн. назад |
+| fewmon-shortpast | {0} пн. назад |
+| manymon-shortpast | {0} пн. назад |
+| othermon-shortpast | {0} пн. назад |
+| -1mon-narrow | в прош. пн. |
+| 0mon-narrow | в этот пн. |
+| 1mon-narrow | в след. пн. |
+| onemon-narrowfuture | +{0} пн. |
+| fewmon-narrowfuture | +{0} пн. |
+| manymon-narrowfuture | +{0} пн. |
+| othermon-narrowfuture | +{0} пн. |
+| onemon-narrowpast | -{0} пн. |
+| fewmon-narrowpast | -{0} пн. |
+| manymon-narrowpast | -{0} пн. |
+| othermon-narrowpast | -{0} пн. |
+| -1tue | в прошлый вторник |
+| 0tue | в этот вторник |
+| 1tue | в следующий вторник |
+| onetuefuture | через {0} вторник |
+| fewtuefuture | через {0} вторника |
+| manytuefuture | через {0} вторников |
+| othertuefuture | через {0} вторника |
+| onetuepast | {0} вторник назад |
+| fewtuepast | {0} вторника назад |
+| manytuepast | {0} вторников назад |
+| othertuepast | {0} вторника назад |
+| -1tue-short | в прош. вт. |
+| 0tue-short | в этот вт. |
+| 1tue-short | в след. вт. |
+| onetue-shortfuture | через {0} вт. |
+| fewtue-shortfuture | через {0} вт. |
+| manytue-shortfuture | через {0} вт. |
+| othertue-shortfuture | через {0} вт. |
+| onetue-shortpast | {0} вт. назад |
+| fewtue-shortpast | {0} вт. назад |
+| manytue-shortpast | {0} вт. назад |
+| othertue-shortpast | {0} вт. назад |
+| -1tue-narrow | в прош. вт. |
+| 0tue-narrow | в этот вт. |
+| 1tue-narrow | в след. вт. |
+| onetue-narrowfuture | +{0} вт. |
+| fewtue-narrowfuture | +{0} вт. |
+| manytue-narrowfuture | +{0} вт. |
+| othertue-narrowfuture | +{0} вт. |
+| onetue-narrowpast | -{0} вт. |
+| fewtue-narrowpast | -{0} вт. |
+| manytue-narrowpast | -{0} вт. |
+| othertue-narrowpast | -{0} вт. |
+| -1wed | в прошлую среду |
+| 0wed | в эту среду |
+| 1wed | в следующую среду |
+| onewedfuture | через {0} среду |
+| fewwedfuture | через {0} среды |
+| manywedfuture | через {0} сред |
+| otherwedfuture | через {0} среды |
+| onewedpast | {0} среду назад |
+| fewwedpast | {0} среды назад |
+| manywedpast | {0} сред назад |
+| otherwedpast | {0} среды назад |
+| -1wed-short | в прош. ср. |
+| 0wed-short | в эту ср. |
+| 1wed-short | в след. ср. |
+| onewed-shortfuture | через {0} ср. |
+| fewwed-shortfuture | через {0} ср. |
+| manywed-shortfuture | через {0} ср. |
+| otherwed-shortfuture | через {0} ср. |
+| onewed-shortpast | {0} ср. назад |
+| fewwed-shortpast | {0} ср. назад |
+| manywed-shortpast | {0} ср. назад |
+| otherwed-shortpast | {0} ср. назад |
+| -1wed-narrow | в прош. ср. |
+| 0wed-narrow | в эту ср. |
+| 1wed-narrow | в след. ср. |
+| onewed-narrowfuture | +{0} ср. |
+| fewwed-narrowfuture | +{0} ср. |
+| manywed-narrowfuture | +{0} ср. |
+| otherwed-narrowfuture | +{0} ср. |
+| onewed-narrowpast | -{0} ср. |
+| fewwed-narrowpast | -{0} ср. |
+| manywed-narrowpast | -{0} ср. |
+| otherwed-narrowpast | -{0} ср. |
+| -1thu | в прошлый четверг |
+| 0thu | в этот четверг |
+| 1thu | в следующий четверг |
+| onethufuture | через {0} четверг |
+| fewthufuture | через {0} четверга |
+| manythufuture | через {0} четвергов |
+| otherthufuture | через {0} четверга |
+| onethupast | {0} четверг назад |
+| fewthupast | {0} четверга назад |
+| manythupast | {0} четвергов назад |
+| otherthupast | {0} четверга назад |
+| -1thu-short | в прош. чт. |
+| 0thu-short | в этот чт. |
+| 1thu-short | в след. чт. |
+| onethu-shortfuture | через {0} чт. |
+| fewthu-shortfuture | через {0} чт. |
+| manythu-shortfuture | через {0} чт. |
+| otherthu-shortfuture | через {0} чт. |
+| onethu-shortpast | {0} чт. назад |
+| fewthu-shortpast | {0} чт. назад |
+| manythu-shortpast | {0} чт. назад |
+| otherthu-shortpast | {0} чт. назад |
+| -1thu-narrow | в прош. чт. |
+| 0thu-narrow | в этот чт. |
+| 1thu-narrow | в след. чт. |
+| onethu-narrowfuture | +{0} чт. |
+| fewthu-narrowfuture | +{0} чт. |
+| manythu-narrowfuture | +{0} чт. |
+| otherthu-narrowfuture | +{0} чт. |
+| onethu-narrowpast | -{0} чт. |
+| fewthu-narrowpast | -{0} чт. |
+| manythu-narrowpast | -{0} чт. |
+| otherthu-narrowpast | -{0} чт. |
+| -1fri | в прошлую пятницу |
+| 0fri | в эту пятницу |
+| 1fri | в следующую пятницу |
+| onefrifuture | через {0} пятницу |
+| fewfrifuture | через {0} пятницы |
+| manyfrifuture | через {0} пятниц |
+| otherfrifuture | через {0} пятницы |
+| onefripast | {0} пятницу назад |
+| fewfripast | {0} пятницы назад |
+| manyfripast | {0} пятниц назад |
+| otherfripast | {0} пятницы назад |
+| -1fri-short | в прош. пт. |
+| 0fri-short | в эту пт. |
+| 1fri-short | в след. пт. |
+| onefri-shortfuture | через {0} пт. |
+| fewfri-shortfuture | через {0} пт. |
+| manyfri-shortfuture | через {0} пт. |
+| otherfri-shortfuture | через {0} пт. |
+| onefri-shortpast | {0} пт. назад |
+| fewfri-shortpast | {0} пт. назад |
+| manyfri-shortpast | {0} пт. назад |
+| otherfri-shortpast | {0} пт. назад |
+| -1fri-narrow | в прош. пт. |
+| 0fri-narrow | в эту пт. |
+| 1fri-narrow | в след. пт. |
+| onefri-narrowfuture | +{0} пт. |
+| fewfri-narrowfuture | +{0} пт. |
+| manyfri-narrowfuture | +{0} пт. |
+| otherfri-narrowfuture | +{0} пт. |
+| onefri-narrowpast | -{0} пт. |
+| fewfri-narrowpast | -{0} пт. |
+| manyfri-narrowpast | -{0} пт. |
+| otherfri-narrowpast | -{0} пт. |
+| -1sat | в прошлую субботу |
+| 0sat | в эту субботу |
+| 1sat | в следующую субботу |
+| onesatfuture | через {0} субботу |
+| fewsatfuture | через {0} субботы |
+| manysatfuture | через {0} суббот |
+| othersatfuture | через {0} субботы |
+| onesatpast | {0} субботу назад |
+| fewsatpast | {0} субботы назад |
+| manysatpast | {0} суббот назад |
+| othersatpast | {0} субботы назад |
+| -1sat-short | в прош. сб. |
+| 0sat-short | в эту сб. |
+| 1sat-short | в след. сб. |
+| onesat-shortfuture | через {0} сб. |
+| fewsat-shortfuture | через {0} сб. |
+| manysat-shortfuture | через {0} сб. |
+| othersat-shortfuture | через {0} сб. |
+| onesat-shortpast | {0} сб. назад |
+| fewsat-shortpast | {0} сб. назад |
+| manysat-shortpast | {0} сб. назад |
+| othersat-shortpast | {0} сб. назад |
+| -1sat-narrow | в прош. сб. |
+| 0sat-narrow | в эту сб. |
+| 1sat-narrow | в след. сб. |
+| onesat-narrowfuture | +{0} сб. |
+| fewsat-narrowfuture | +{0} сб. |
+| manysat-narrowfuture | +{0} сб. |
+| othersat-narrowfuture | +{0} сб. |
+| onesat-narrowpast | -{0} сб. |
+| fewsat-narrowpast | -{0} сб. |
+| manysat-narrowpast | -{0} сб. |
+| othersat-narrowpast | -{0} сб. |
+| , dayperiod-short | AM/PM |
+| , dayperiod | AM/PM |
+| , dayperiod-narrow | AM/PM |
+| , hour | час |
+| 0hour | в этот час |
+| onehourfuture | через {0} час |
+| fewhourfuture | через {0} часа |
+| manyhourfuture | через {0} часов |
+| otherhourfuture | через {0} часа |
+| onehourpast | {0} час назад |
+| fewhourpast | {0} часа назад |
+| manyhourpast | {0} часов назад |
+| otherhourpast | {0} часа назад |
+| , hour-short | ч |
+| 0hour-short | в этот час |
+| onehour-shortfuture | через {0} ч. |
+| fewhour-shortfuture | через {0} ч. |
+| manyhour-shortfuture | через {0} ч. |
+| otherhour-shortfuture | через {0} ч. |
+| onehour-shortpast | {0} ч. назад |
+| fewhour-shortpast | {0} ч. назад |
+| manyhour-shortpast | {0} ч. назад |
+| otherhour-shortpast | {0} ч. назад |
+| , hour-narrow | ч |
+| 0hour-narrow | в этот час |
+| onehour-narrowfuture | +{0} ч. |
+| fewhour-narrowfuture | +{0} ч. |
+| manyhour-narrowfuture | +{0} ч. |
+| otherhour-narrowfuture | +{0} ч. |
+| onehour-narrowpast | -{0} ч. |
+| fewhour-narrowpast | -{0} ч. |
+| manyhour-narrowpast | -{0} ч. |
+| otherhour-narrowpast | -{0} ч. |
+| , minute | минута |
+| 0minute | в эту минуту |
+| oneminutefuture | через {0} минуту |
+| fewminutefuture | через {0} минуты |
+| manyminutefuture | через {0} минут |
+| otherminutefuture | через {0} минуты |
+| oneminutepast | {0} минуту назад |
+| fewminutepast | {0} минуты назад |
+| manyminutepast | {0} минут назад |
+| otherminutepast | {0} минуты назад |
+| , minute-short | мин. |
+| oneminute-shortfuture | через {0} мин. |
+| fewminute-shortfuture | через {0} мин. |
+| manyminute-shortfuture | через {0} мин. |
+| otherminute-shortfuture | через {0} мин. |
+| oneminute-shortpast | {0} мин. назад |
+| fewminute-shortpast | {0} мин. назад |
+| manyminute-shortpast | {0} мин. назад |
+| otherminute-shortpast | {0} мин. назад |
+| , minute-narrow | мин |
+| oneminute-narrowfuture | +{0} мин. |
+| fewminute-narrowfuture | +{0} мин. |
+| manyminute-narrowfuture | +{0} мин. |
+| otherminute-narrowfuture | +{0} мин. |
+| oneminute-narrowpast | -{0} мин. |
+| fewminute-narrowpast | -{0} мин. |
+| manyminute-narrowpast | -{0} мин. |
+| otherminute-narrowpast | -{0} мин. |
+| , second | секунда |
+| 0second | сейчас |
+| onesecondfuture | через {0} секунду |
+| fewsecondfuture | через {0} секунды |
+| manysecondfuture | через {0} секунд |
+| othersecondfuture | через {0} секунды |
+| onesecondpast | {0} секунду назад |
+| fewsecondpast | {0} секунды назад |
+| manysecondpast | {0} секунд назад |
+| othersecondpast | {0} секунды назад |
+| , second-short | сек. |
+| onesecond-shortfuture | через {0} сек. |
+| fewsecond-shortfuture | через {0} сек. |
+| manysecond-shortfuture | через {0} сек. |
+| othersecond-shortfuture | через {0} сек. |
+| onesecond-shortpast | {0} сек. назад |
+| fewsecond-shortpast | {0} сек. назад |
+| manysecond-shortpast | {0} сек. назад |
+| othersecond-shortpast | {0} сек. назад |
+| , second-narrow | с |
+| onesecond-narrowfuture | +{0} с |
+| fewsecond-narrowfuture | +{0} с |
+| manysecond-narrowfuture | +{0} с |
+| othersecond-narrowfuture | +{0} с |
+| onesecond-narrowpast | -{0} с |
+| fewsecond-narrowpast | -{0} с |
+| manysecond-narrowpast | -{0} с |
+| othersecond-narrowpast | -{0} с |
+| , zone | часовой пояс |
+| , zone-short | час. пояс |
+| , zone-narrow | час. пояс |
+
 #### time zones
+
 | Format name | Format |
+| ----------- | ------ |
 | Hours from UTC | +HH:mm;-HH:mm |
 | GMT | GMT{0} |
 | Time at Greenwich | GMT |
@@ -3181,7 +3813,9 @@ Secondary quotation end character: “
 | ---- | ---- |
 | America/Santa_Isabel | Санта-Изабел |
 | Pacific/Honolulu | Гонолулу |
-| Etc/UTC | Всемирное координированное время |
+| Etc/UTC | 
+|  standard | Всемирное координированное время |
+|
 | Etc/Unknown | Неизвестный город |
 | Europe/Andorra | Андорра |
 | Asia/Dubai | Дубай |
@@ -3343,7 +3977,9 @@ Secondary quotation end character: “
 | Atlantic/Faeroe | Фарерские о-ва |
 | Europe/Paris | Париж |
 | Africa/Libreville | Либревиль |
-| Europe/London | Великобритания, летнее времяЛондон |
+| Europe/London | 
+|  daylight savings | Великобритания, летнее время |
+Лондон |
 | America/Grenada | Гренада |
 | Asia/Tbilisi | Тбилиси |
 | America/Cayenne | Кайенна |
@@ -3373,7 +4009,9 @@ Secondary quotation end character: “
 | Asia/Pontianak | Понтианак |
 | Asia/Makassar | Макасар |
 | Asia/Jayapura | Джаяпура |
-| Europe/Dublin | Ирландия, стандартное времяДублин |
+| Europe/Dublin | 
+|  daylight savings | Ирландия, стандартное время |
+Дублин |
 | Asia/Jerusalem | Иерусалим |
 | Europe/Isle_of_Man | о-в Мэн |
 | Asia/Calcutta | Калькутта |
@@ -3607,167 +4245,505 @@ Secondary quotation end character: “
 | Africa/Johannesburg | Йоханнесбург |
 | Africa/Lusaka | Лусака |
 | Africa/Harare | Хараре |
-| Acre | Акри времяАкри стандартное времяАкри летнее время |
-| Afghanistan | Афганистан |
-| Africa_Central | Центральная Африка |
-| Africa_Eastern | Восточная Африка |
-| Africa_Southern | Южная Африка |
-| Africa_Western | Западная АфрикаЗападная Африка, стандартное времяЗападная Африка, летнее время |
-| Alaska | АляскаАляска, стандартное времяАляска, летнее время |
-| Almaty | Алма-Ата времяАлма-Ата стандартное времяАлма-Ата летнее время |
-| Amazon | АмазонкаАмазонка, стандартное времяАмазонка, летнее время |
-| America_Central | Центральная АмерикаЦентральная Америка, стандартное времяЦентральная Америка, летнее время |
-| America_Eastern | Восточная АмерикаВосточная Америка, стандартное времяВосточная Америка, летнее время |
-| America_Mountain | Горное время (Северная Америка)Стандартное горное время (Северная Америка)Летнее горное время (Северная Америка) |
-| America_Pacific | Тихоокеанское времяТихоокеанское стандартное времяТихоокеанское летнее время |
-| Anadyr | Время по АнадырюАнадырь стандартное времяАнадырь летнее время |
-| Apia | АпиаАпиа, стандартное времяАпиа, летнее время |
-| Aqtau | Актау времяАктау, стандартное времяАктау летнее время |
-| Aqtobe | Актобе времяАктобе стандартное времяАктобе летнее время |
-| Arabian | Саудовская АравияСаудовская Аравия, стандартное времяСаудовская Аравия, летнее время |
-| Argentina | АргентинаАргентина, стандартное времяАргентина, летнее время |
-| Argentina_Western | Западная АргентинаЗападная Аргентина, стандартное времяЗападная Аргентина, летнее время |
-| Armenia | АрменияАрмения, стандартное времяАрмения, летнее время |
-| Atlantic | Атлантическое времяАтлантическое стандартное времяАтлантическое летнее время |
-| Australia_Central | Центральная АвстралияЦентральная Австралия, стандартное времяЦентральная Австралия, летнее время |
-| Australia_CentralWestern | Центральная Австралия, западное времяЦентральная Австралия, западное стандартное времяЦентральная Австралия, западное летнее время |
-| Australia_Eastern | Восточная АвстралияВосточная Австралия, стандартное времяВосточная Австралия, летнее время |
-| Australia_Western | Западная АвстралияЗападная Австралия, стандартное времяЗападная Австралия, летнее время |
-| Azerbaijan | АзербайджанАзербайджан, стандартное времяАзербайджан, летнее время |
-| Azores | Азорские о-ваАзорские о-ва, стандартное времяАзорские о-ва, летнее время |
-| Bangladesh | БангладешБангладеш, стандартное времяБангладеш, летнее время |
-| Bhutan | Бутан |
-| Bolivia | Боливия |
-| Brasilia | БразилияБразилия, стандартное времяБразилия, летнее время |
-| Brunei | Бруней-Даруссалам |
-| Cape_Verde | Кабо-ВердеКабо-Верде, стандартное времяКабо-Верде, летнее время |
-| Casey | Кейси |
-| Chamorro | Чаморро |
-| Chatham | ЧатемЧатем, стандартное времяЧатем, летнее время |
-| Chile | ЧилиЧили, стандартное времяЧили, летнее время |
-| China | КитайКитай, стандартное времяКитай, летнее время |
-| Choibalsan | ЧойбалсанЧойбалсан, стандартное времяЧойбалсан, летнее время |
-| Christmas | о-в Рождества |
-| Cocos | Кокосовые о-ва |
-| Colombia | КолумбияКолумбия, стандартное времяКолумбия, летнее время |
-| Cook | Острова КукаОстрова Кука, стандартное времяОстрова Кука, полулетнее время |
-| Cuba | КубаКуба, стандартное времяКуба, летнее время |
-| Davis | Дейвис |
-| DumontDUrville | Дюмон-д’Юрвиль |
-| East_Timor | Восточный Тимор |
-| Easter | О-в ПасхиО-в Пасхи, стандартное времяО-в Пасхи, летнее время |
-| Ecuador | Эквадор |
-| Europe_Central | Центральная ЕвропаЦентральная Европа, стандартное времяЦентральная Европа, летнее время |
-| Europe_Eastern | Восточная ЕвропаВосточная Европа, стандартное времяВосточная Европа, летнее время |
-| Europe_Further_Eastern | Минское время |
-| Europe_Western | Западная ЕвропаЗападная Европа, стандартное времяЗападная Европа, летнее время |
-| Falkland | Фолклендские о-ваФолклендские о-ва, стандартное времяФолклендские о-ва, летнее время |
-| Fiji | ФиджиФиджи, стандартное времяФиджи, летнее время |
-| French_Guiana | Французская Гвиана |
-| French_Southern | Французские Южные и Антарктические территории |
-| Galapagos | Галапагосские о-ва |
-| Gambier | Гамбье |
-| Georgia | ГрузияГрузия, стандартное времяГрузия, летнее время |
-| Gilbert_Islands | о-ва Гилберта |
-| GMT | Среднее время по Гринвичу |
-| Greenland_Eastern | Восточная ГренландияВосточная Гренландия, стандарное времяВосточная Гренландия, летнее время |
-| Greenland_Western | Западная ГренландияЗападная Гренландия, стандартное времяЗападная Гренландия, летнее время |
-| Guam | Гуам |
-| Gulf | Персидский залив |
-| Guyana | Гайана |
-| Hawaii_Aleutian | Гавайско-алеутское времяГавайско-алеутское стандартное времяГавайско-алеутское летнее время |
-| Hong_Kong | ГонконгГонконг, стандартное времяГонконг, летнее время |
-| Hovd | ХовдХовд, стандартное времяХовд, летнее время |
-| India | Индия |
-| Indian_Ocean | Индийский океан |
-| Indochina | Индокитай |
-| Indonesia_Central | Центральная Индонезия |
-| Indonesia_Eastern | Восточная Индонезия |
-| Indonesia_Western | Западная Индонезия |
-| Iran | ИранИран, стандартное времяИран, летнее время |
-| Irkutsk | ИркутскИркутск, стандартное времяИркутск, летнее время |
-| Israel | ИзраильИзраиль, стандартное времяИзраиль, летнее время |
-| Japan | ЯпонияЯпония, стандартное времяЯпония, летнее время |
-| Kamchatka | Петропавловск-КамчатскийПетропавловск-Камчатский, стандартное времяПетропавловск-Камчатский, летнее время |
-| Kazakhstan_Eastern | Восточный Казахстан |
-| Kazakhstan_Western | Западный Казахстан |
-| Korea | КореяКорея, стандартное времяКорея, летнее время |
-| Kosrae | Косрае |
-| Krasnoyarsk | КрасноярскКрасноярск, стандартное времяКрасноярск, летнее время |
-| Kyrgystan | Киргизия |
-| Lanka | Шри-Ланка |
-| Line_Islands | о-ва Лайн |
-| Lord_Howe | Лорд-ХауЛорд-Хау, стандартное времяЛорд-Хау, летнее время |
-| Macau | МакаоМакао, стандартное времяМакао, летнее время |
-| Macquarie | Маккуори |
-| Magadan | МагаданМагадан, стандартное времяМагадан, летнее время |
-| Malaysia | Малайзия |
-| Maldives | Мальдивы |
-| Marquesas | Маркизские о-ва |
-| Marshall_Islands | Маршалловы Острова |
-| Mauritius | МаврикийМаврикий, стандартное времяМаврикий, летнее время |
-| Mawson | Моусон |
-| Mexico_Northwest | Северо-западное мексиканское времяСеверо-западное мексиканское стандартное времяСеверо-западное мексиканское летнее время |
-| Mexico_Pacific | Тихоокеанское мексиканское времяТихоокеанское мексиканское стандартное времяТихоокеанское мексиканское летнее время |
-| Mongolia | Улан-БаторУлан-Батор, стандартное времяУлан-Батор, летнее время |
-| Moscow | МоскваМосква, стандартное времяМосква, летнее время |
-| Myanmar | Мьянма |
-| Nauru | Науру |
-| Nepal | Непал |
-| New_Caledonia | Новая КаледонияНовая Каледония, стандартное времяНовая Каледония, летнее время |
-| New_Zealand | Новая ЗеландияНовая Зеландия, стандартное времяНовая Зеландия, летнее время |
-| Newfoundland | НьюфаундлендНьюфаундленд, стандартное времяНьюфаундленд, летнее время |
-| Niue | Ниуэ |
-| Norfolk | Норфолк |
-| Noronha | Фернанду-ди-НороньяФернанду-ди-Норонья, стандартное времяФернанду-ди-Норонья, летнее время |
-| North_Mariana | Северные Марианские о-ва |
-| Novosibirsk | НовосибирскНовосибирск, стандартное времяНовосибирск, летнее время |
-| Omsk | ОмскОмск, стандартное времяОмск, летнее время |
-| Pakistan | ПакистанПакистан, стандартное времяПакистан, летнее время |
-| Palau | Палау |
-| Papua_New_Guinea | Папуа – Новая Гвинея |
-| Paraguay | ПарагвайПарагвай, стандартное времяПарагвай, летнее время |
-| Peru | ПеруПеру, стандартное времяПеру, летнее время |
-| Philippines | ФилиппиныФилиппины, стандартное времяФилиппины, летнее время |
-| Phoenix_Islands | о-ва Феникс |
-| Pierre_Miquelon | Сен-Пьер и МикелонСен-Пьер и Микелон, стандартное времяСен-Пьер и Микелон, летнее время |
-| Pitcairn | Питкэрн |
-| Ponape | Понпеи |
-| Pyongyang | Пхеньян |
-| Qyzylorda | Кызылорда*Кызылорда, стандартное время*Кызылорда, летнее время* |
-| Reunion | Реюньон |
-| Rothera | Ротера |
-| Sakhalin | СахалинСахалин, стандартное времяСахалин, летнее время |
-| Samara | Время в СамареСамарское стандартное времяСамарское летнее время |
-| Samoa | СамоаСамоа, стандартное времяСамоа, летнее время |
-| Seychelles | Сейшельские острова |
-| Singapore | Сингапур |
-| Solomon | Соломоновы острова |
-| South_Georgia | Южная Георгия |
-| Suriname | Суринам |
-| Syowa | Сёва |
-| Tahiti | Таити |
-| Taipei | ТайваньТайвань, стандартное времяТайвань, летнее время |
-| Tajikistan | Таджикистан |
-| Tokelau | Токелау |
-| Tonga | ТонгаТонга, стандартное времяТонга, летнее время |
-| Truk | Трук |
-| Turkmenistan | ТуркменияТуркмения, стандартное времяТуркмения, летнее время |
-| Tuvalu | Тувалу |
-| Uruguay | УругвайУругвай, стандартное времяУругвай, летнее время |
-| Uzbekistan | УзбекистанУзбекистан, стандартное времяУзбекистан, летнее время |
-| Vanuatu | ВануатуВануату, стандартное времяВануату, летнее время |
-| Venezuela | Венесуэла |
-| Vladivostok | ВладивостокВладивосток, стандартное времяВладивосток, летнее время |
-| Volgograd | ВолгоградВолгоград, стандартное времяВолгоград, летнее время |
-| Vostok | Восток |
-| Wake | Уэйк |
-| Wallis | Уоллис и Футуна |
-| Yakutsk | ЯкутскЯкутск, стандартное времяЯкутск, летнее время |
-| Yekaterinburg | ЕкатеринбургЕкатеринбург, стандартное времяЕкатеринбург, летнее время |
+| Acre | ↴ |
+|  generic | Акри время |
+|  standard | Акри стандартное время |
+|  daylight savings | Акри летнее время |
+| Afghanistan | ↴ |
+|  standard | Афганистан |
+| Africa_Central | ↴ |
+|  standard | Центральная Африка |
+| Africa_Eastern | ↴ |
+|  standard | Восточная Африка |
+| Africa_Southern | ↴ |
+|  standard | Южная Африка |
+| Africa_Western | ↴ |
+|  generic | Западная Африка |
+|  standard | Западная Африка, стандартное время |
+|  daylight savings | Западная Африка, летнее время |
+| Alaska | ↴ |
+|  generic | Аляска |
+|  standard | Аляска, стандартное время |
+|  daylight savings | Аляска, летнее время |
+| Almaty | ↴ |
+|  generic | Алма-Ата время |
+|  standard | Алма-Ата стандартное время |
+|  daylight savings | Алма-Ата летнее время |
+| Amazon | ↴ |
+|  generic | Амазонка |
+|  standard | Амазонка, стандартное время |
+|  daylight savings | Амазонка, летнее время |
+| America_Central | ↴ |
+|  generic | Центральная Америка |
+|  standard | Центральная Америка, стандартное время |
+|  daylight savings | Центральная Америка, летнее время |
+| America_Eastern | ↴ |
+|  generic | Восточная Америка |
+|  standard | Восточная Америка, стандартное время |
+|  daylight savings | Восточная Америка, летнее время |
+| America_Mountain | ↴ |
+|  generic | Горное время (Северная Америка) |
+|  standard | Стандартное горное время (Северная Америка) |
+|  daylight savings | Летнее горное время (Северная Америка) |
+| America_Pacific | ↴ |
+|  generic | Тихоокеанское время |
+|  standard | Тихоокеанское стандартное время |
+|  daylight savings | Тихоокеанское летнее время |
+| Anadyr | ↴ |
+|  generic | Время по Анадырю |
+|  standard | Анадырь стандартное время |
+|  daylight savings | Анадырь летнее время |
+| Apia | ↴ |
+|  generic | Апиа |
+|  standard | Апиа, стандартное время |
+|  daylight savings | Апиа, летнее время |
+| Aqtau | ↴ |
+|  generic | Актау время |
+|  standard | Актау, стандартное время |
+|  daylight savings | Актау летнее время |
+| Aqtobe | ↴ |
+|  generic | Актобе время |
+|  standard | Актобе стандартное время |
+|  daylight savings | Актобе летнее время |
+| Arabian | ↴ |
+|  generic | Саудовская Аравия |
+|  standard | Саудовская Аравия, стандартное время |
+|  daylight savings | Саудовская Аравия, летнее время |
+| Argentina | ↴ |
+|  generic | Аргентина |
+|  standard | Аргентина, стандартное время |
+|  daylight savings | Аргентина, летнее время |
+| Argentina_Western | ↴ |
+|  generic | Западная Аргентина |
+|  standard | Западная Аргентина, стандартное время |
+|  daylight savings | Западная Аргентина, летнее время |
+| Armenia | ↴ |
+|  generic | Армения |
+|  standard | Армения, стандартное время |
+|  daylight savings | Армения, летнее время |
+| Atlantic | ↴ |
+|  generic | Атлантическое время |
+|  standard | Атлантическое стандартное время |
+|  daylight savings | Атлантическое летнее время |
+| Australia_Central | ↴ |
+|  generic | Центральная Австралия |
+|  standard | Центральная Австралия, стандартное время |
+|  daylight savings | Центральная Австралия, летнее время |
+| Australia_CentralWestern | ↴ |
+|  generic | Центральная Австралия, западное время |
+|  standard | Центральная Австралия, западное стандартное время |
+|  daylight savings | Центральная Австралия, западное летнее время |
+| Australia_Eastern | ↴ |
+|  generic | Восточная Австралия |
+|  standard | Восточная Австралия, стандартное время |
+|  daylight savings | Восточная Австралия, летнее время |
+| Australia_Western | ↴ |
+|  generic | Западная Австралия |
+|  standard | Западная Австралия, стандартное время |
+|  daylight savings | Западная Австралия, летнее время |
+| Azerbaijan | ↴ |
+|  generic | Азербайджан |
+|  standard | Азербайджан, стандартное время |
+|  daylight savings | Азербайджан, летнее время |
+| Azores | ↴ |
+|  generic | Азорские о-ва |
+|  standard | Азорские о-ва, стандартное время |
+|  daylight savings | Азорские о-ва, летнее время |
+| Bangladesh | ↴ |
+|  generic | Бангладеш |
+|  standard | Бангладеш, стандартное время |
+|  daylight savings | Бангладеш, летнее время |
+| Bhutan | ↴ |
+|  standard | Бутан |
+| Bolivia | ↴ |
+|  standard | Боливия |
+| Brasilia | ↴ |
+|  generic | Бразилия |
+|  standard | Бразилия, стандартное время |
+|  daylight savings | Бразилия, летнее время |
+| Brunei | ↴ |
+|  standard | Бруней-Даруссалам |
+| Cape_Verde | ↴ |
+|  generic | Кабо-Верде |
+|  standard | Кабо-Верде, стандартное время |
+|  daylight savings | Кабо-Верде, летнее время |
+| Casey | ↴ |
+|  standard | Кейси |
+| Chamorro | ↴ |
+|  standard | Чаморро |
+| Chatham | ↴ |
+|  generic | Чатем |
+|  standard | Чатем, стандартное время |
+|  daylight savings | Чатем, летнее время |
+| Chile | ↴ |
+|  generic | Чили |
+|  standard | Чили, стандартное время |
+|  daylight savings | Чили, летнее время |
+| China | ↴ |
+|  generic | Китай |
+|  standard | Китай, стандартное время |
+|  daylight savings | Китай, летнее время |
+| Choibalsan | ↴ |
+|  generic | Чойбалсан |
+|  standard | Чойбалсан, стандартное время |
+|  daylight savings | Чойбалсан, летнее время |
+| Christmas | ↴ |
+|  standard | о-в Рождества |
+| Cocos | ↴ |
+|  standard | Кокосовые о-ва |
+| Colombia | ↴ |
+|  generic | Колумбия |
+|  standard | Колумбия, стандартное время |
+|  daylight savings | Колумбия, летнее время |
+| Cook | ↴ |
+|  generic | Острова Кука |
+|  standard | Острова Кука, стандартное время |
+|  daylight savings | Острова Кука, полулетнее время |
+| Cuba | ↴ |
+|  generic | Куба |
+|  standard | Куба, стандартное время |
+|  daylight savings | Куба, летнее время |
+| Davis | ↴ |
+|  standard | Дейвис |
+| DumontDUrville | ↴ |
+|  standard | Дюмон-д’Юрвиль |
+| East_Timor | ↴ |
+|  standard | Восточный Тимор |
+| Easter | ↴ |
+|  generic | О-в Пасхи |
+|  standard | О-в Пасхи, стандартное время |
+|  daylight savings | О-в Пасхи, летнее время |
+| Ecuador | ↴ |
+|  standard | Эквадор |
+| Europe_Central | ↴ |
+|  generic | Центральная Европа |
+|  standard | Центральная Европа, стандартное время |
+|  daylight savings | Центральная Европа, летнее время |
+| Europe_Eastern | ↴ |
+|  generic | Восточная Европа |
+|  standard | Восточная Европа, стандартное время |
+|  daylight savings | Восточная Европа, летнее время |
+| Europe_Further_Eastern | ↴ |
+|  standard | Минское время |
+| Europe_Western | ↴ |
+|  generic | Западная Европа |
+|  standard | Западная Европа, стандартное время |
+|  daylight savings | Западная Европа, летнее время |
+| Falkland | ↴ |
+|  generic | Фолклендские о-ва |
+|  standard | Фолклендские о-ва, стандартное время |
+|  daylight savings | Фолклендские о-ва, летнее время |
+| Fiji | ↴ |
+|  generic | Фиджи |
+|  standard | Фиджи, стандартное время |
+|  daylight savings | Фиджи, летнее время |
+| French_Guiana | ↴ |
+|  standard | Французская Гвиана |
+| French_Southern | ↴ |
+|  standard | Французские Южные и Антарктические территории |
+| Galapagos | ↴ |
+|  standard | Галапагосские о-ва |
+| Gambier | ↴ |
+|  standard | Гамбье |
+| Georgia | ↴ |
+|  generic | Грузия |
+|  standard | Грузия, стандартное время |
+|  daylight savings | Грузия, летнее время |
+| Gilbert_Islands | ↴ |
+|  standard | о-ва Гилберта |
+| GMT | ↴ |
+|  standard | Среднее время по Гринвичу |
+| Greenland_Eastern | ↴ |
+|  generic | Восточная Гренландия |
+|  standard | Восточная Гренландия, стандарное время |
+|  daylight savings | Восточная Гренландия, летнее время |
+| Greenland_Western | ↴ |
+|  generic | Западная Гренландия |
+|  standard | Западная Гренландия, стандартное время |
+|  daylight savings | Западная Гренландия, летнее время |
+| Guam | ↴ |
+|  standard | Гуам |
+| Gulf | ↴ |
+|  standard | Персидский залив |
+| Guyana | ↴ |
+|  standard | Гайана |
+| Hawaii_Aleutian | ↴ |
+|  generic | Гавайско-алеутское время |
+|  standard | Гавайско-алеутское стандартное время |
+|  daylight savings | Гавайско-алеутское летнее время |
+| Hong_Kong | ↴ |
+|  generic | Гонконг |
+|  standard | Гонконг, стандартное время |
+|  daylight savings | Гонконг, летнее время |
+| Hovd | ↴ |
+|  generic | Ховд |
+|  standard | Ховд, стандартное время |
+|  daylight savings | Ховд, летнее время |
+| India | ↴ |
+|  standard | Индия |
+| Indian_Ocean | ↴ |
+|  standard | Индийский океан |
+| Indochina | ↴ |
+|  standard | Индокитай |
+| Indonesia_Central | ↴ |
+|  standard | Центральная Индонезия |
+| Indonesia_Eastern | ↴ |
+|  standard | Восточная Индонезия |
+| Indonesia_Western | ↴ |
+|  standard | Западная Индонезия |
+| Iran | ↴ |
+|  generic | Иран |
+|  standard | Иран, стандартное время |
+|  daylight savings | Иран, летнее время |
+| Irkutsk | ↴ |
+|  generic | Иркутск |
+|  standard | Иркутск, стандартное время |
+|  daylight savings | Иркутск, летнее время |
+| Israel | ↴ |
+|  generic | Израиль |
+|  standard | Израиль, стандартное время |
+|  daylight savings | Израиль, летнее время |
+| Japan | ↴ |
+|  generic | Япония |
+|  standard | Япония, стандартное время |
+|  daylight savings | Япония, летнее время |
+| Kamchatka | ↴ |
+|  generic | Петропавловск-Камчатский |
+|  standard | Петропавловск-Камчатский, стандартное время |
+|  daylight savings | Петропавловск-Камчатский, летнее время |
+| Kazakhstan_Eastern | ↴ |
+|  standard | Восточный Казахстан |
+| Kazakhstan_Western | ↴ |
+|  standard | Западный Казахстан |
+| Korea | ↴ |
+|  generic | Корея |
+|  standard | Корея, стандартное время |
+|  daylight savings | Корея, летнее время |
+| Kosrae | ↴ |
+|  standard | Косрае |
+| Krasnoyarsk | ↴ |
+|  generic | Красноярск |
+|  standard | Красноярск, стандартное время |
+|  daylight savings | Красноярск, летнее время |
+| Kyrgystan | ↴ |
+|  standard | Киргизия |
+| Lanka | ↴ |
+|  standard | Шри-Ланка |
+| Line_Islands | ↴ |
+|  standard | о-ва Лайн |
+| Lord_Howe | ↴ |
+|  generic | Лорд-Хау |
+|  standard | Лорд-Хау, стандартное время |
+|  daylight savings | Лорд-Хау, летнее время |
+| Macau | ↴ |
+|  generic | Макао |
+|  standard | Макао, стандартное время |
+|  daylight savings | Макао, летнее время |
+| Macquarie | ↴ |
+|  standard | Маккуори |
+| Magadan | ↴ |
+|  generic | Магадан |
+|  standard | Магадан, стандартное время |
+|  daylight savings | Магадан, летнее время |
+| Malaysia | ↴ |
+|  standard | Малайзия |
+| Maldives | ↴ |
+|  standard | Мальдивы |
+| Marquesas | ↴ |
+|  standard | Маркизские о-ва |
+| Marshall_Islands | ↴ |
+|  standard | Маршалловы Острова |
+| Mauritius | ↴ |
+|  generic | Маврикий |
+|  standard | Маврикий, стандартное время |
+|  daylight savings | Маврикий, летнее время |
+| Mawson | ↴ |
+|  standard | Моусон |
+| Mexico_Northwest | ↴ |
+|  generic | Северо-западное мексиканское время |
+|  standard | Северо-западное мексиканское стандартное время |
+|  daylight savings | Северо-западное мексиканское летнее время |
+| Mexico_Pacific | ↴ |
+|  generic | Тихоокеанское мексиканское время |
+|  standard | Тихоокеанское мексиканское стандартное время |
+|  daylight savings | Тихоокеанское мексиканское летнее время |
+| Mongolia | ↴ |
+|  generic | Улан-Батор |
+|  standard | Улан-Батор, стандартное время |
+|  daylight savings | Улан-Батор, летнее время |
+| Moscow | ↴ |
+|  generic | Москва |
+|  standard | Москва, стандартное время |
+|  daylight savings | Москва, летнее время |
+| Myanmar | ↴ |
+|  standard | Мьянма |
+| Nauru | ↴ |
+|  standard | Науру |
+| Nepal | ↴ |
+|  standard | Непал |
+| New_Caledonia | ↴ |
+|  generic | Новая Каледония |
+|  standard | Новая Каледония, стандартное время |
+|  daylight savings | Новая Каледония, летнее время |
+| New_Zealand | ↴ |
+|  generic | Новая Зеландия |
+|  standard | Новая Зеландия, стандартное время |
+|  daylight savings | Новая Зеландия, летнее время |
+| Newfoundland | ↴ |
+|  generic | Ньюфаундленд |
+|  standard | Ньюфаундленд, стандартное время |
+|  daylight savings | Ньюфаундленд, летнее время |
+| Niue | ↴ |
+|  standard | Ниуэ |
+| Norfolk | ↴ |
+|  standard | Норфолк |
+| Noronha | ↴ |
+|  generic | Фернанду-ди-Норонья |
+|  standard | Фернанду-ди-Норонья, стандартное время |
+|  daylight savings | Фернанду-ди-Норонья, летнее время |
+| North_Mariana | ↴ |
+|  standard | Северные Марианские о-ва |
+| Novosibirsk | ↴ |
+|  generic | Новосибирск |
+|  standard | Новосибирск, стандартное время |
+|  daylight savings | Новосибирск, летнее время |
+| Omsk | ↴ |
+|  generic | Омск |
+|  standard | Омск, стандартное время |
+|  daylight savings | Омск, летнее время |
+| Pakistan | ↴ |
+|  generic | Пакистан |
+|  standard | Пакистан, стандартное время |
+|  daylight savings | Пакистан, летнее время |
+| Palau | ↴ |
+|  standard | Палау |
+| Papua_New_Guinea | ↴ |
+|  standard | Папуа – Новая Гвинея |
+| Paraguay | ↴ |
+|  generic | Парагвай |
+|  standard | Парагвай, стандартное время |
+|  daylight savings | Парагвай, летнее время |
+| Peru | ↴ |
+|  generic | Перу |
+|  standard | Перу, стандартное время |
+|  daylight savings | Перу, летнее время |
+| Philippines | ↴ |
+|  generic | Филиппины |
+|  standard | Филиппины, стандартное время |
+|  daylight savings | Филиппины, летнее время |
+| Phoenix_Islands | ↴ |
+|  standard | о-ва Феникс |
+| Pierre_Miquelon | ↴ |
+|  generic | Сен-Пьер и Микелон |
+|  standard | Сен-Пьер и Микелон, стандартное время |
+|  daylight savings | Сен-Пьер и Микелон, летнее время |
+| Pitcairn | ↴ |
+|  standard | Питкэрн |
+| Ponape | ↴ |
+|  standard | Понпеи |
+| Pyongyang | ↴ |
+|  standard | Пхеньян |
+| Qyzylorda | ↴ |
+|  generic | Кызылорда* |
+|  standard | Кызылорда, стандартное время* |
+|  daylight savings | Кызылорда, летнее время* |
+| Reunion | ↴ |
+|  standard | Реюньон |
+| Rothera | ↴ |
+|  standard | Ротера |
+| Sakhalin | ↴ |
+|  generic | Сахалин |
+|  standard | Сахалин, стандартное время |
+|  daylight savings | Сахалин, летнее время |
+| Samara | ↴ |
+|  generic | Время в Самаре |
+|  standard | Самарское стандартное время |
+|  daylight savings | Самарское летнее время |
+| Samoa | ↴ |
+|  generic | Самоа |
+|  standard | Самоа, стандартное время |
+|  daylight savings | Самоа, летнее время |
+| Seychelles | ↴ |
+|  standard | Сейшельские острова |
+| Singapore | ↴ |
+|  standard | Сингапур |
+| Solomon | ↴ |
+|  standard | Соломоновы острова |
+| South_Georgia | ↴ |
+|  standard | Южная Георгия |
+| Suriname | ↴ |
+|  standard | Суринам |
+| Syowa | ↴ |
+|  standard | Сёва |
+| Tahiti | ↴ |
+|  standard | Таити |
+| Taipei | ↴ |
+|  generic | Тайвань |
+|  standard | Тайвань, стандартное время |
+|  daylight savings | Тайвань, летнее время |
+| Tajikistan | ↴ |
+|  standard | Таджикистан |
+| Tokelau | ↴ |
+|  standard | Токелау |
+| Tonga | ↴ |
+|  generic | Тонга |
+|  standard | Тонга, стандартное время |
+|  daylight savings | Тонга, летнее время |
+| Truk | ↴ |
+|  standard | Трук |
+| Turkmenistan | ↴ |
+|  generic | Туркмения |
+|  standard | Туркмения, стандартное время |
+|  daylight savings | Туркмения, летнее время |
+| Tuvalu | ↴ |
+|  standard | Тувалу |
+| Uruguay | ↴ |
+|  generic | Уругвай |
+|  standard | Уругвай, стандартное время |
+|  daylight savings | Уругвай, летнее время |
+| Uzbekistan | ↴ |
+|  generic | Узбекистан |
+|  standard | Узбекистан, стандартное время |
+|  daylight savings | Узбекистан, летнее время |
+| Vanuatu | ↴ |
+|  generic | Вануату |
+|  standard | Вануату, стандартное время |
+|  daylight savings | Вануату, летнее время |
+| Venezuela | ↴ |
+|  standard | Венесуэла |
+| Vladivostok | ↴ |
+|  generic | Владивосток |
+|  standard | Владивосток, стандартное время |
+|  daylight savings | Владивосток, летнее время |
+| Volgograd | ↴ |
+|  generic | Волгоград |
+|  standard | Волгоград, стандартное время |
+|  daylight savings | Волгоград, летнее время |
+| Vostok | ↴ |
+|  standard | Восток |
+| Wake | ↴ |
+|  standard | Уэйк |
+| Wallis | ↴ |
+|  standard | Уоллис и Футуна |
+| Yakutsk | ↴ |
+|  generic | Якутск |
+|  standard | Якутск, стандартное время |
+|  daylight savings | Якутск, летнее время |
+| Yekaterinburg | ↴ |
+|  generic | Екатеринбург |
+|  standard | Екатеринбург, стандартное время |
+|  daylight savings | Екатеринбург, летнее время |
+
 ## Numbers stuff
-latnlatn1
+
+Using `latn` numbering by default.
+Using `latn` numbering also.
+`1` minimum grouping digits.
+
+#### Symbols
+
 | Character name | Translated version |
+| -------------- | ------------------ |
 | Decimal separator | , |
 | "Thousands" separator |   |
 | Numbers separator | ; |
@@ -3780,3366 +4756,3550 @@ latnlatn1
 | Infinity | ∞ |
 | Not a number | не число |
 | Time separator (Hours:Minutes) | : |
-#,##0.###0 тысяча0 тысячи0 тысяч0 тысячи00 тысяча00 тысячи00 тысяч00 тысячи000 тысяча000 тысячи000 тысяч000 тысячи0 миллион0 миллиона0 миллионов0 миллиона00 миллион00 миллиона00 миллионов00 миллиона000 миллион000 миллиона000 миллионов000 миллиона0 миллиард0 миллиарда0 миллиардов0 миллиарда00 миллиард00 миллиарда00 миллиардов00 миллиарда000 миллиард000 миллиарда000 миллиардов000 миллиарда0 триллион0 триллиона0 триллионов0 триллиона00 триллион00 триллиона00 триллионов00 триллиона000 триллион000 триллиона000 триллионов000 триллиона0 тыс'.'0 тыс'.'0 тыс'.'0 тыс'.'00 тыс'.'00 тыс'.'00 тыс'.'00 тыс'.'000 тыс'.'000 тыс'.'000 тыс'.'000 тыс'.'0 млн0 млн0 млн0 млн00 млн00 млн00 млн00 млн000 млн000 млн000 млн000 млн0 млрд0 млрд0 млрд0 млрд00 млрд00 млрд00 млрд00 млрд000 млрд000 млрд000 млрд000 млрд0 трлн0 трлн0 трлн0 трлн00 трлн00 трлн00 трлн00 трлн000 трлн000 трлн000 трлн000 трлн#E0#,##0 %#,##0.00 ¤#,##0.00 ¤0 тыс'.' ¤0 тыс'.' ¤0 тыс'.' ¤0 тыс'.' ¤00 тыс'.' ¤00 тыс'.' ¤00 тыс'.' ¤00 тыс'.' ¤000 тыс'.' ¤000 тыс'.' ¤000 тыс'.' ¤000 тыс'.' ¤0 млн ¤0 млн ¤0 млн ¤0 млн ¤00 млн ¤00 млн ¤00 млн ¤00 млн ¤000 млн ¤000 млн ¤000 млн ¤000 млн ¤0 млрд ¤0 млрд ¤0 млрд ¤0 млрд ¤00 млрд ¤00 млрд ¤00 млрд ¤00 млрд ¤000 млрд ¤000 млрд ¤000 млрд ¤000 млрд ¤0 трлн ¤0 трлн ¤0 трлн ¤0 трлн ¤00 трлн ¤00 трлн ¤00 трлн ¤00 трлн ¤000 трлн ¤000 трлн ¤000 трлн ¤000 трлн ¤
-| one | {0} {1} |
-| few | {0} {1} |
-| many | {0} {1} |
-| other | {0} {1} |
+
+#### Decimal formatting
+
+| Format name | Pattern |
+| ----------- | ------- |
+| standard,  | `#,##0.###` |
+| one1000, long | `0 тысяча` |
+| few1000, long | `0 тысячи` |
+| many1000, long | `0 тысяч` |
+| other1000, long | `0 тысячи` |
+| one10000, long | `00 тысяча` |
+| few10000, long | `00 тысячи` |
+| many10000, long | `00 тысяч` |
+| other10000, long | `00 тысячи` |
+| one100000, long | `000 тысяча` |
+| few100000, long | `000 тысячи` |
+| many100000, long | `000 тысяч` |
+| other100000, long | `000 тысячи` |
+| one1000000, long | `0 миллион` |
+| few1000000, long | `0 миллиона` |
+| many1000000, long | `0 миллионов` |
+| other1000000, long | `0 миллиона` |
+| one10000000, long | `00 миллион` |
+| few10000000, long | `00 миллиона` |
+| many10000000, long | `00 миллионов` |
+| other10000000, long | `00 миллиона` |
+| one100000000, long | `000 миллион` |
+| few100000000, long | `000 миллиона` |
+| many100000000, long | `000 миллионов` |
+| other100000000, long | `000 миллиона` |
+| one1000000000, long | `0 миллиард` |
+| few1000000000, long | `0 миллиарда` |
+| many1000000000, long | `0 миллиардов` |
+| other1000000000, long | `0 миллиарда` |
+| one10000000000, long | `00 миллиард` |
+| few10000000000, long | `00 миллиарда` |
+| many10000000000, long | `00 миллиардов` |
+| other10000000000, long | `00 миллиарда` |
+| one100000000000, long | `000 миллиард` |
+| few100000000000, long | `000 миллиарда` |
+| many100000000000, long | `000 миллиардов` |
+| other100000000000, long | `000 миллиарда` |
+| one1000000000000, long | `0 триллион` |
+| few1000000000000, long | `0 триллиона` |
+| many1000000000000, long | `0 триллионов` |
+| other1000000000000, long | `0 триллиона` |
+| one10000000000000, long | `00 триллион` |
+| few10000000000000, long | `00 триллиона` |
+| many10000000000000, long | `00 триллионов` |
+| other10000000000000, long | `00 триллиона` |
+| one100000000000000, long | `000 триллион` |
+| few100000000000000, long | `000 триллиона` |
+| many100000000000000, long | `000 триллионов` |
+| other100000000000000, long | `000 триллиона` |
+| one1000, short | `0 тыс'.'` |
+| few1000, short | `0 тыс'.'` |
+| many1000, short | `0 тыс'.'` |
+| other1000, short | `0 тыс'.'` |
+| one10000, short | `00 тыс'.'` |
+| few10000, short | `00 тыс'.'` |
+| many10000, short | `00 тыс'.'` |
+| other10000, short | `00 тыс'.'` |
+| one100000, short | `000 тыс'.'` |
+| few100000, short | `000 тыс'.'` |
+| many100000, short | `000 тыс'.'` |
+| other100000, short | `000 тыс'.'` |
+| one1000000, short | `0 млн` |
+| few1000000, short | `0 млн` |
+| many1000000, short | `0 млн` |
+| other1000000, short | `0 млн` |
+| one10000000, short | `00 млн` |
+| few10000000, short | `00 млн` |
+| many10000000, short | `00 млн` |
+| other10000000, short | `00 млн` |
+| one100000000, short | `000 млн` |
+| few100000000, short | `000 млн` |
+| many100000000, short | `000 млн` |
+| other100000000, short | `000 млн` |
+| one1000000000, short | `0 млрд` |
+| few1000000000, short | `0 млрд` |
+| many1000000000, short | `0 млрд` |
+| other1000000000, short | `0 млрд` |
+| one10000000000, short | `00 млрд` |
+| few10000000000, short | `00 млрд` |
+| many10000000000, short | `00 млрд` |
+| other10000000000, short | `00 млрд` |
+| one100000000000, short | `000 млрд` |
+| few100000000000, short | `000 млрд` |
+| many100000000000, short | `000 млрд` |
+| other100000000000, short | `000 млрд` |
+| one1000000000000, short | `0 трлн` |
+| few1000000000000, short | `0 трлн` |
+| many1000000000000, short | `0 трлн` |
+| other1000000000000, short | `0 трлн` |
+| one10000000000000, short | `00 трлн` |
+| few10000000000000, short | `00 трлн` |
+| many10000000000000, short | `00 трлн` |
+| other10000000000000, short | `00 трлн` |
+| one100000000000000, short | `000 трлн` |
+| few100000000000000, short | `000 трлн` |
+| many100000000000000, short | `000 трлн` |
+| other100000000000000, short | `000 трлн` |
+| standard,  | `#E0` |
+| standard,  | `#,##0 %` |
+| standard,  | `#,##0.00 ¤` |
+| standard,  | `#,##0.00 ¤` |
+| one1000, short | `0 тыс'.' ¤` |
+| few1000, short | `0 тыс'.' ¤` |
+| many1000, short | `0 тыс'.' ¤` |
+| other1000, short | `0 тыс'.' ¤` |
+| one10000, short | `00 тыс'.' ¤` |
+| few10000, short | `00 тыс'.' ¤` |
+| many10000, short | `00 тыс'.' ¤` |
+| other10000, short | `00 тыс'.' ¤` |
+| one100000, short | `000 тыс'.' ¤` |
+| few100000, short | `000 тыс'.' ¤` |
+| many100000, short | `000 тыс'.' ¤` |
+| other100000, short | `000 тыс'.' ¤` |
+| one1000000, short | `0 млн ¤` |
+| few1000000, short | `0 млн ¤` |
+| many1000000, short | `0 млн ¤` |
+| other1000000, short | `0 млн ¤` |
+| one10000000, short | `00 млн ¤` |
+| few10000000, short | `00 млн ¤` |
+| many10000000, short | `00 млн ¤` |
+| other10000000, short | `00 млн ¤` |
+| one100000000, short | `000 млн ¤` |
+| few100000000, short | `000 млн ¤` |
+| many100000000, short | `000 млн ¤` |
+| other100000000, short | `000 млн ¤` |
+| one1000000000, short | `0 млрд ¤` |
+| few1000000000, short | `0 млрд ¤` |
+| many1000000000, short | `0 млрд ¤` |
+| other1000000000, short | `0 млрд ¤` |
+| one10000000000, short | `00 млрд ¤` |
+| few10000000000, short | `00 млрд ¤` |
+| many10000000000, short | `00 млрд ¤` |
+| other10000000000, short | `00 млрд ¤` |
+| one100000000000, short | `000 млрд ¤` |
+| few100000000000, short | `000 млрд ¤` |
+| many100000000000, short | `000 млрд ¤` |
+| other100000000000, short | `000 млрд ¤` |
+| one1000000000000, short | `0 трлн ¤` |
+| few1000000000000, short | `0 трлн ¤` |
+| many1000000000000, short | `0 трлн ¤` |
+| other1000000000000, short | `0 трлн ¤` |
+| one10000000000000, short | `00 трлн ¤` |
+| few10000000000000, short | `00 трлн ¤` |
+| many10000000000000, short | `00 трлн ¤` |
+| other10000000000000, short | `00 трлн ¤` |
+| one100000000000000, short | `000 трлн ¤` |
+| few100000000000000, short | `000 трлн ¤` |
+| many100000000000000, short | `000 трлн ¤` |
+| other100000000000000, short | `000 трлн ¤` |
+| one,  | {0} {1} |
+| few,  | {0} {1} |
+| many,  | {0} {1} |
+| other,  | {0} {1} |
+
 ## Currency names
+
 | Code | Name |
 | ---- | ---- |
-|  | Андоррская песета |
-| one | андоррская песета |
-| few | андоррские песеты |
-| many | андоррских песет |
-| other | андоррских песет |
-|  | дирхам ОАЭ |
-| one | дирхам ОАЭ |
-| few | дирхама ОАЭ |
-| many | дирхамов ОАЭ |
-| other | дирхама ОАЭ |
-|  symbol | AED |
-|  | Афгани (1927–2002) |
-|  | афгани |
-| one | афгани |
-| few | афгани |
-| many | афгани |
-| other | афгани |
-|  symbol | AFN |
-|  | албанский лек |
-| one | албанский лек |
-| few | албанских лека |
-| many | албанских леков |
-| other | албанского лека |
-|  symbol | ALL |
-|  | армянский драм |
-| one | армянский драм |
-| few | армянских драма |
-| many | армянских драмов |
-| other | армянского драма |
-|  symbol | AMD |
-|  | нидерландский антильский гульден |
-| one | нидерландский антильский гульден |
-| few | нидерландских антильских гульдена |
-| many | нидерландских антильских гульденов |
-| other | нидерландского антильского гульдена |
-|  symbol | ANG |
-|  | ангольская кванза |
-| one | ангольская кванза |
-| few | ангольские кванзы |
-| many | ангольских кванз |
-| other | ангольской кванзы |
-|  symbol | AOA |
-| narrow symbol | Kz |
-|  | Ангольская кванза (1977–1990) |
-| one | ангольских кванз (1977–1991) |
-| few | ангольские кванзы (1977–1991) |
-| many | ангольских кванз (1977–1991) |
-| other | ангольских кванз (1977–1991) |
-|  | Ангольская новая кванза (1990–2000) |
-|  | Ангольская кванза реюстадо (1995–1999) |
-| one | ангольских кванз реюстадо (1995–1999) |
-| few | ангольские кванзы реюстадо (1995–1999) |
-| many | ангольских кванз реюстадо (1995–1999) |
-| other | ангольских кванз реюстадо (1995–1999) |
-|  | Аргентинский аустрал |
-|  | Аргентинское песо (1983–1985) |
-|  | аргентинское песо |
-| one | аргентинское песо |
-| few | аргентинских песо |
-| many | аргентинских песо |
-| other | аргентинского песо |
-|  symbol | ARS |
-| narrow symbol | $ |
-|  | Австрийский шиллинг |
-|  | австралийский доллар |
-| one | австралийский доллар |
-| few | австралийских доллара |
-| many | австралийских долларов |
-| other | австралийского доллара |
-|  symbol | A$ |
-| narrow symbol | $ |
-|  | арубанский флорин |
-| one | арубанский флорин |
-| few | арубанских флорина |
-| many | арубанских флоринов |
-| other | арубанского флорина |
-|  symbol | AWG |
-|  | Старый азербайджанский манат |
-|  | азербайджанский манат |
-| one | азербайджанский манат |
-| few | азербайджанских маната |
-| many | азербайджанских манатов |
-| other | азербайджанского маната |
-|  symbol | AZN |
-|  | Динар Боснии и Герцеговины |
-|  | конвертируемая марка Боснии и Герцеговины |
-| one | конвертируемая марка Боснии и Герцеговины |
-| few | конвертируемые марки Боснии и Герцеговины |
-| many | конвертируемых марок Боснии и Герцеговины |
-| other | конвертируемой марки Боснии и Герцеговины |
-|  symbol | BAM |
-| narrow symbol | KM |
-|  | барбадосский доллар |
-| one | барбадосский доллар |
-| few | барбадосских доллара |
-| many | барбадосских долларов |
-| other | барбадосского доллара |
-|  symbol | BBD |
-| narrow symbol | $ |
-|  | бангладешская така |
-| one | бангладешская така |
-| few | бангладешские таки |
-| many | бангладешских так |
-| other | бангладешской таки |
-|  symbol | BDT |
-| narrow symbol | ৳ |
-|  | Бельгийский франк (конвертируемый) |
-|  | Бельгийский франк |
-|  | Бельгийский франк (финансовый) |
-|  | Лев |
-|  | болгарский лев |
-| one | болгарский лев |
-| few | болгарских лева |
-| many | болгарских левов |
-| other | болгарского лева |
-|  symbol | BGN |
-|  | бахрейнский динар |
-| one | бахрейнский динар |
-| few | бахрейнских динара |
-| many | бахрейнских динаров |
-| other | бахрейнского динара |
-|  symbol | BHD |
-|  | бурундийский франк |
-| one | бурундийский франк |
-| few | бурундийских франка |
-| many | бурундийских франков |
-| other | бурундийского франка |
-|  symbol | BIF |
-|  | бермудский доллар |
-| one | бермудский доллар |
-| few | бермудских доллара |
-| many | бермудских долларов |
-| other | бермудского доллара |
-|  symbol | BMD |
-| narrow symbol | $ |
-|  | брунейский доллар |
-| one | брунейский доллар |
-| few | брунейских доллара |
-| many | брунейских долларов |
-| other | брунейского доллара |
-|  symbol | BND |
-| narrow symbol | $ |
-|  | боливийский боливиано |
-| one | боливийский боливиано |
-| few | боливийских боливиано |
-| many | боливийских боливиано |
-| other | боливийского боливиано |
-|  symbol | BOB |
-| narrow symbol | Bs |
-|  | Боливийское песо |
-|  | Боливийский мвдол |
-|  | Бразильский новый крузейро (1967–1986) |
-|  | Бразильское крузадо |
-|  | Бразильский крузейро (1990–1993) |
-|  | бразильский реал |
-| one | бразильский реал |
-| few | бразильских реала |
-| many | бразильских реалов |
-| other | бразильского реала |
-|  symbol | R$ |
-| narrow symbol | R$ |
-|  | Бразильское новое крузадо |
-|  | Бразильский крузейро |
-|  | багамский доллар |
-| one | багамский доллар |
-| few | багамских доллара |
-| many | багамских долларов |
-| other | багамского доллара |
-|  symbol | BSD |
-| narrow symbol | $ |
-|  | бутанский нгултрум |
-| one | бутанский нгултрум |
-| few | бутанских нгултрума |
-| many | бутанских нгултрумов |
-| other | бутанского нгултрума |
-|  symbol | BTN |
-|  | Джа |
-|  | ботсванская пула |
-| one | ботсванская пула |
-| few | ботсванские пулы |
-| many | ботсванских пул |
-| other | ботсванской пулы |
-|  symbol | BWP |
-| narrow symbol | P |
-|  | Белорусский рубль (1994–1999) |
-|  | белорусский рубль |
-| one | белорусский рубль |
-| few | белорусских рубля |
-| many | белорусских рублей |
-| other | белорусского рубля |
-|  symbol | BYN |
-| narrow symbol | р. |
-|  | Белорусский рубль (2000–2016) |
-| one | белорусский рубль (2000–2016) |
-| few | белорусских рубля (2000–2016) |
-| many | белорусских рублей (2000–2016) |
-| other | белорусского рубля (2000–2016) |
-|  symbol | BYR |
-|  | белизский доллар |
-| one | белизский доллар |
-| few | белизских доллара |
-| many | белизских долларов |
-| other | белизского доллара |
-|  symbol | BZD |
-| narrow symbol | $ |
-|  | канадский доллар |
-| one | канадский доллар |
-| few | канадских доллара |
-| many | канадских долларов |
-| other | канадского доллара |
-|  symbol | CA$ |
-| narrow symbol | $ |
-|  | конголезский франк |
-| one | конголезский франк |
-| few | конголезских франка |
-| many | конголезских франков |
-| other | конголезского франка |
-|  symbol | CDF |
-|  | WIR евро |
-|  | швейцарский франк |
-| one | швейцарский франк |
-| few | швейцарских франка |
-| many | швейцарских франков |
-| other | швейцарского франка |
-|  symbol | CHF |
-|  | WIR франк |
-|  | Условная расчетная единица Чили |
-|  | чилийское песо |
-| one | чилийское песо |
-| few | чилийских песо |
-| many | чилийских песо |
-| other | чилийского песо |
-|  symbol | CLP |
-| narrow symbol | $ |
-|  | китайский офшорный юань |
-| one | китайский офшорный юань |
-| few | китайских офшорных юаня |
-| many | китайских офшорных юаней |
-| other | китайского офшорного юаня |
-|  symbol | CNH |
-|  | китайский юань |
-| one | китайский юань |
-| few | китайских юаня |
-| many | китайских юаней |
-| other | китайского юаня |
-|  symbol | CN¥ |
-| narrow symbol | ¥ |
-|  | колумбийское песо |
-| one | колумбийское песо |
-| few | колумбийских песо |
-| many | колумбийских песо |
-| other | колумбийского песо |
-|  symbol | COP |
-| narrow symbol | $ |
-|  | Единица реальной стоимости Колумбии |
-|  | костариканский колон |
-| one | костариканский колон |
-| few | костариканских колона |
-| many | костариканских колонов |
-| other | костариканского колона |
-|  symbol | CRC |
-| narrow symbol | ₡ |
-|  | Старый Сербский динар |
-|  | Чехословацкая твердая крона |
-|  | кубинское конвертируемое песо |
-| one | кубинское конвертируемое песо |
-| few | кубинских конвертируемых песо |
-| many | кубинских конвертируемых песо |
-| other | кубинского конвертируемого песо |
-|  symbol | CUC |
-| narrow symbol | $ |
-|  | кубинское песо |
-| one | кубинское песо |
-| few | кубинских песо |
-| many | кубинских песо |
-| other | кубинского песо |
-|  symbol | CUP |
-| narrow symbol | $ |
-|  | эскудо Кабо-Верде |
-| one | эскудо Кабо-Верде |
-| few | эскудо Кабо-Верде |
-| many | эскудо Кабо-Верде |
-| other | эскудо Кабо-Верде |
-|  symbol | CVE |
-|  | Кипрский фунт |
-|  | чешская крона |
-| one | чешская крона |
-| few | чешские кроны |
-| many | чешских крон |
-| other | чешской кроны |
-|  symbol | CZK |
-| narrow symbol | Kč |
-|  | Восточногерманская марка |
-|  | Немецкая марка |
-|  | франк Джибути |
-| one | франк Джибути |
-| few | франка Джибути |
-| many | франков Джибути |
-| other | франка Джибути |
-|  symbol | DJF |
-|  | датская крона |
-| one | датская крона |
-| few | датские кроны |
-| many | датских крон |
-| other | датской кроны |
-|  symbol | DKK |
-| narrow symbol | kr |
-|  | доминиканское песо |
-| one | доминиканское песо |
-| few | доминиканских песо |
-| many | доминиканских песо |
-| other | доминиканского песо |
-|  symbol | DOP |
-| narrow symbol | $ |
-|  | алжирский динар |
-| one | алжирский динар |
-| few | алжирских динара |
-| many | алжирских динаров |
-| other | алжирского динара |
-|  symbol | DZD |
-|  | Эквадорский сукре |
-|  | Постоянная единица стоимости Эквадора |
-|  | Эстонская крона |
-|  | египетский фунт |
-| one | египетский фунт |
-| few | египетских фунта |
-| many | египетских фунтов |
-| other | египетского фунта |
-|  symbol | EGP |
-| narrow symbol | E£ |
-|  | эритрейская накфа |
-| one | эритрейская накфа |
-| few | эритрейские накфы |
-| many | эритрейских накф |
-| other | эритрейской накфы |
-|  symbol | ERN |
-|  | Испанская песета (А) |
-|  | Испанская песета (конвертируемая) |
-|  | Испанская песета |
-|  | эфиопский быр |
-| one | эфиопский быр |
-| few | эфиопских быра |
-| many | эфиопских быров |
-| other | эфиопского быра |
-|  symbol | ETB |
-|  | евро |
-| one | евро |
-| few | евро |
-| many | евро |
-| other | евро |
-|  symbol | € |
-| narrow symbol | € |
-|  | Финская марка |
-|  | доллар Фиджи |
-| one | доллар Фиджи |
-| few | доллара Фиджи |
-| many | долларов Фиджи |
-| other | доллара Фиджи |
-|  symbol | FJD |
-| narrow symbol | $ |
-|  | фунт Фолклендских островов |
-| one | фунт Фолклендских островов |
-| few | фунта Фолклендских островов |
-| many | фунтов Фолклендских островов |
-| other | фунта Фолклендских островов |
-|  symbol | FKP |
-| narrow symbol | £ |
-|  | Французский франк |
-|  | британский фунт стерлингов |
-| one | британский фунт стерлингов |
-| few | британских фунта стерлингов |
-| many | британских фунтов стерлингов |
-| other | британского фунта стерлингов |
-|  symbol | £ |
-| narrow symbol | £ |
-|  | Грузинский купон |
-|  | грузинский лари |
-| one | грузинский лари |
-| few | грузинских лари |
-| many | грузинских лари |
-| other | грузинского лари |
-|  symbol | GEL |
-| narrow symbol | ლ |
-| variant symbol | ₾ |
-|  | Ганский седи (1979–2007) |
-|  | ганский седи |
-| one | ганский седи |
-| few | ганских седи |
-| many | ганских седи |
-| other | ганского седи |
-|  symbol | GHS |
-|  | гибралтарский фунт |
-| one | гибралтарский фунт |
-| few | гибралтарских фунта |
-| many | гибралтарских фунтов |
-| other | гибралтарского фунта |
-|  symbol | GIP |
-| narrow symbol | £ |
-|  | гамбийский даласи |
-| one | гамбийский даласи |
-| few | гамбийских даласи |
-| many | гамбийских даласи |
-| other | гамбийского даласи |
-|  symbol | GMD |
-|  | гвинейский франк |
-| one | гвинейский франк |
-| few | гвинейских франка |
-| many | гвинейских франков |
-| other | гвинейского франка |
-|  symbol | GNF |
-| narrow symbol | FG |
-|  | Гвинейская сили |
-|  | Эквеле экваториальной Гвинеи |
-|  | Греческая драхма |
-|  | гватемальский кетсаль |
-| one | гватемальский кетсаль |
-| few | гватемальских кетсаля |
-| many | гватемальских кетсалей |
-| other | гватемальского кетсаля |
-|  symbol | GTQ |
-| narrow symbol | Q |
-|  | Эскудо Португальской Гвинеи |
-|  | Песо Гвинеи-Бисау |
-|  | гайанский доллар |
-| one | гайанский доллар |
-| few | гайанских доллара |
-| many | гайанских долларов |
-| other | гайанского доллара |
-|  symbol | GYD |
-| narrow symbol | $ |
-|  | гонконгский доллар |
-| one | гонконгский доллар |
-| few | гонконгских доллара |
-| many | гонконгских долларов |
-| other | гонконгского доллара |
-|  symbol | HK$ |
-| narrow symbol | $ |
-|  | гондурасская лемпира |
-| one | гондурасская лемпира |
-| few | гондурасские лемпиры |
-| many | гондурасских лемпир |
-| other | гондурасской лемпиры |
-|  symbol | HNL |
-| narrow symbol | L |
-|  | Хорватский динар |
-|  | хорватская куна |
-| one | хорватская куна |
-| few | хорватские куны |
-| many | хорватских кун |
-| other | хорватской куны |
-|  symbol | HRK |
-| narrow symbol | kn |
-|  | гаитянский гурд |
-| one | гаитянский гурд |
-| few | гаитянских гурда |
-| many | гаитянских гурдов |
-| other | гаитянского гурда |
-|  symbol | HTG |
-|  | венгерский форинт |
-| one | венгерский форинт |
-| few | венгерских форинта |
-| many | венгерских форинтов |
-| other | венгерского форинта |
-|  symbol | HUF |
-| narrow symbol | Ft |
-|  | индонезийская рупия |
-| one | индонезийская рупия |
-| few | индонезийские рупии |
-| many | индонезийских рупий |
-| other | индонезийской рупии |
-|  symbol | IDR |
-| narrow symbol | Rp |
-|  | Ирландский фунт |
-|  | Израильский фунт |
-|  | новый израильский шекель |
-| one | новый израильский шекель |
-| few | новых израильских шекеля |
-| many | новых израильских шекелей |
-| other | нового израильского шекеля |
-|  symbol | ₪ |
-| narrow symbol | ₪ |
-|  | индийская рупия |
-| one | индийская рупия |
-| few | индийские рупии |
-| many | индийских рупий |
-| other | индийской рупии |
-|  symbol | ₹ |
-| narrow symbol | ₹ |
-|  | иракский динар |
-| one | иракский динар |
-| few | иракских динара |
-| many | иракских динаров |
-| other | иракского динара |
-|  symbol | IQD |
-|  | иранский риал |
-| one | иранский риал |
-| few | иранских риала |
-| many | иранских риалов |
-| other | иранского риала |
-|  symbol | IRR |
-|  | исландская крона |
-| one | исландская крона |
-| few | исландские кроны |
-| many | исландских крон |
-| other | исландской кроны |
-|  symbol | ISK |
-| narrow symbol | kr |
-|  | Итальянская лира |
-|  | ямайский доллар |
-| one | ямайский доллар |
-| few | ямайских доллара |
-| many | ямайских долларов |
-| other | ямайского доллара |
-|  symbol | JMD |
-| narrow symbol | $ |
-|  | иорданский динар |
-| one | иорданский динар |
-| few | иорданских динара |
-| many | иорданских динаров |
-| other | иорданского динара |
-|  symbol | JOD |
-|  | японская иена |
-| one | японская иена |
-| few | японские иены |
-| many | японских иен |
-| other | японской иены |
-|  symbol | ¥ |
-| narrow symbol | ¥ |
-|  | кенийский шиллинг |
-| one | кенийский шиллинг |
-| few | кенийских шиллинга |
-| many | кенийских шиллингов |
-| other | кенийского шиллинга |
-|  symbol | KES |
-|  | киргизский сом |
-| one | киргизский сом |
-| few | киргизских сома |
-| many | киргизских сомов |
-| other | киргизского сома |
-|  symbol | KGS |
-|  | камбоджийский риель |
-| one | камбоджийский риель |
-| few | камбоджийских риеля |
-| many | камбоджийских риелей |
-| other | камбоджийского риеля |
-|  symbol | KHR |
-| narrow symbol | ៛ |
-|  | франк Коморских островов |
-| one | франк Коморских островов |
-| few | франка Коморских островов |
-| many | франков Коморских островов |
-| other | франка Коморских островов |
-|  symbol | KMF |
-| narrow symbol | CF |
-|  | северокорейская вона |
-| one | северокорейская вона |
-| few | северокорейские воны |
-| many | северокорейских вон |
-| other | северокорейской воны |
-|  symbol | KPW |
-| narrow symbol | ₩ |
-|  | южнокорейская вона |
-| one | южнокорейская вона |
-| few | южнокорейские воны |
-| many | южнокорейских вон |
-| other | южнокорейской воны |
-|  symbol | ₩ |
-| narrow symbol | ₩ |
-|  | кувейтский динар |
-| one | кувейтский динар |
-| few | кувейтских динара |
-| many | кувейтских динаров |
-| other | кувейтского динара |
-|  symbol | KWD |
-|  | доллар Каймановых островов |
-| one | доллар Каймановых островов |
-| few | доллара Каймановых островов |
-| many | долларов Каймановых островов |
-| other | доллара Каймановых островов |
-|  symbol | KYD |
-| narrow symbol | $ |
-|  | казахский тенге |
-| one | казахский тенге |
-| few | казахских тенге |
-| many | казахских тенге |
-| other | казахского тенге |
-|  symbol | KZT |
-| narrow symbol | ₸ |
-|  | лаосский кип |
-| one | лаосский кип |
-| few | лаосских кипа |
-| many | лаосских кипов |
-| other | лаосского кипа |
-|  symbol | LAK |
-| narrow symbol | ₭ |
-|  | ливанский фунт |
-| one | ливанский фунт |
-| few | ливанских фунта |
-| many | ливанских фунтов |
-| other | ливанского фунта |
-|  symbol | LBP |
-| narrow symbol | L£ |
-|  | шри-ланкийская рупия |
-| one | шри-ланкийская рупия |
-| few | шри-ланкийские рупии |
-| many | шри-ланкийских рупий |
-| other | шри-ланкийской рупии |
-|  symbol | LKR |
-| narrow symbol | Rs |
-|  | либерийский доллар |
-| one | либерийский доллар |
-| few | либерийских доллара |
-| many | либерийских долларов |
-| other | либерийского доллара |
-|  symbol | LRD |
-| narrow symbol | $ |
-|  | Лоти |
-|  | Литовский лит |
-| one | литовский лит |
-| few | литовских лита |
-| many | литовских литов |
-| other | литовского лита |
-|  symbol | LTL |
-|  | Литовский талон |
-|  | Конвертируемый франк Люксембурга |
-|  | Люксембургский франк |
-|  | Финансовый франк Люксембурга |
-|  | Латвийский лат |
-| one | латвийский лат |
-| few | латвийских лата |
-| many | латвийских латов |
-| other | латвийского лата |
-|  symbol | LVL |
-|  | Латвийский рубль |
-|  | ливийский динар |
-| one | ливийский динар |
-| few | ливийских динара |
-| many | ливийских динаров |
-| other | ливийского динара |
-|  symbol | LYD |
-|  | марокканский дирхам |
-| one | марокканский дирхам |
-| few | марокканских дирхама |
-| many | марокканских дирхамов |
-| other | марокканского дирхама |
-|  symbol | MAD |
-|  | Марокканский франк |
-|  | молдавский лей |
-| one | молдавский лей |
-| few | молдавских лея |
-| many | молдавских леев |
-| other | молдавского лея |
-|  symbol | MDL |
-|  | малагасийский ариари |
-| one | малагасийский ариари |
-| few | малагасийских ариари |
-| many | малагасийских ариари |
-| other | малагасийского ариари |
-|  symbol | MGA |
-| narrow symbol | Ar |
-|  | Малагасийский франк |
-|  | македонский денар |
-| one | македонский денар |
-| few | македонских денара |
-| many | македонских денаров |
-| other | македонского денара |
-|  symbol | MKD |
-|  | Малийский франк |
-|  | мьянманский кьят |
-| one | мьянманский кьят |
-| few | мьянманских кьята |
-| many | мьянманских кьятов |
-| other | мьянманского кьята |
-|  symbol | MMK |
-| narrow symbol | K |
-|  | монгольский тугрик |
-| one | монгольский тугрик |
-| few | монгольских тугрика |
-| many | монгольских тугриков |
-| other | монгольского тугрика |
-|  symbol | MNT |
-| narrow symbol | ₮ |
-|  | патака Макао |
-| one | патака Макао |
-| few | патаки Макао |
-| many | патак Макао |
-| other | патаки Макао |
-|  symbol | MOP |
-|  | мавританская угия |
-| one | мавританская угия |
-| few | мавританские угии |
-| many | мавританских угий |
-| other | мавританской угии |
-|  symbol | MRO |
-|  | Мальтийская лира |
-|  | Мальтийский фунт |
-|  | маврикийская рупия |
-| one | маврикийская рупия |
-| few | маврикийские рупии |
-| many | маврикийских рупий |
-| other | маврикийской рупии |
-|  symbol | MUR |
-| narrow symbol | Rs |
-|  | мальдивская руфия |
-| one | мальдивская руфия |
-| few | мальдивские руфии |
-| many | мальдивских руфий |
-| other | мальдивской руфии |
-|  symbol | MVR |
-|  | малавийская квача |
-| one | малавийская квача |
-| few | малавийские квачи |
-| many | малавийских квач |
-| other | малавийской квачи |
-|  symbol | MWK |
-|  | мексиканское песо |
-| one | мексиканское песо |
-| few | мексиканских песо |
-| many | мексиканских песо |
-| other | мексиканского песо |
-|  symbol | MX$ |
-| narrow symbol | $ |
-|  | Мексиканское серебряное песо (1861–1992) |
-|  | Мексиканская пересчетная единица (UDI) |
-|  | малайзийский ринггит |
-| one | малайзийский ринггит |
-| few | малайзийских ринггита |
-| many | малайзийских ринггитов |
-| other | малайзийского ринггита |
-|  symbol | MYR |
-| narrow symbol | RM |
-|  | Мозамбикское эскудо |
-|  | Старый мозамбикский метикал |
-|  | мозамбикский метикал |
-| one | мозамбикский метикал |
-| few | мозамбикских метикала |
-| many | мозамбикских метикалов |
-| other | мозамбикского метикала |
-|  symbol | MZN |
-|  | доллар Намибии |
-| one | доллар Намибии |
-| few | доллара Намибии |
-| many | долларов Намибии |
-| other | доллара Намибии |
-|  symbol | NAD |
-| narrow symbol | $ |
-|  | нигерийская найра |
-| one | нигерийская найра |
-| few | нигерийские найры |
-| many | нигерийских найр |
-| other | нигерийской найры |
-|  symbol | NGN |
-| narrow symbol | ₦ |
-|  | Никарагуанская кордоба (1988–1991) |
-|  | никарагуанская кордоба |
-| one | никарагуанская кордоба |
-| few | никарагуанские кордобы |
-| many | никарагуанских кордоб |
-| other | никарагуанской кордобы |
-|  symbol | NIO |
-| narrow symbol | C$ |
-|  | Нидерландский гульден |
-|  | норвежская крона |
-| one | норвежская крона |
-| few | норвежские кроны |
-| many | норвежских крон |
-| other | норвежской кроны |
-|  symbol | NOK |
-| narrow symbol | kr |
-|  | непальская рупия |
-| one | непальская рупия |
-| few | непальские рупии |
-| many | непальских рупий |
-| other | непальской рупии |
-|  symbol | NPR |
-| narrow symbol | Rs |
-|  | новозеландский доллар |
-| one | новозеландский доллар |
-| few | новозеландских доллара |
-| many | новозеландских долларов |
-| other | новозеландского доллара |
-|  symbol | NZ$ |
-| narrow symbol | $ |
-|  | оманский риал |
-| one | оманский риал |
-| few | оманских риала |
-| many | оманских риалов |
-| other | оманского риала |
-|  symbol | OMR |
-|  | панамский бальбоа |
-| one | панамский бальбоа |
-| few | панамских бальбоа |
-| many | панамских бальбоа |
-| other | панамского бальбоа |
-|  symbol | PAB |
-|  | Перуанское инти |
-|  | перуанский соль |
-| one | перуанский соль |
-| few | перуанских соля |
-| many | перуанских солей |
-| other | перуанского соля |
-|  symbol | PEN |
-|  | Перуанский соль (1863–1965) |
-| one | перуанский соль (1863–1965) |
-| few | перуанских соля (1863–1965) |
-| many | перуанских солей (1863–1965) |
-| other | перуанского соля (1863–1965) |
-|  symbol | PES |
-|  | кина Папуа – Новой Гвинеи |
-| one | кина Папуа – Новой Гвинеи |
-| few | кины Папуа – Новой Гвинеи |
-| many | кин Папуа – Новой Гвинеи |
-| other | кины Папуа – Новой Гвинеи |
-|  symbol | PGK |
-|  | филиппинское песо |
-| one | филиппинское песо |
-| few | филиппинских песо |
-| many | филиппинских песо |
-| other | филиппинского песо |
-|  symbol | PHP |
-| narrow symbol | ₱ |
-|  | пакистанская рупия |
-| one | пакистанская рупия |
-| few | пакистанские рупии |
-| many | пакистанских рупий |
-| other | пакистанской рупии |
-|  symbol | PKR |
-| narrow symbol | Rs |
-|  | польский злотый |
-| one | польский злотый |
-| few | польских злотых |
-| many | польских злотых |
-| other | польского злотого |
-|  symbol | PLN |
-| narrow symbol | zł |
-|  | Злотый |
-|  | Португальское эскудо |
-|  | парагвайский гуарани |
-| one | парагвайский гуарани |
-| few | парагвайских гуарани |
-| many | парагвайских гуарани |
-| other | парагвайского гуарани |
-|  symbol | PYG |
-| narrow symbol | ₲ |
-|  | катарский риал |
-| one | катарский риал |
-| few | катарских риала |
-| many | катарских риалов |
-| other | катарского риала |
-|  symbol | QAR |
-|  | Родезийский доллар |
-|  | Старый Румынский лей |
-|  | румынский лей |
-| one | румынский лей |
-| few | румынских лея |
-| many | румынских леев |
-| other | румынского лея |
-|  symbol | RON |
-| narrow symbol | L |
-|  | сербский динар |
-| one | сербский динар |
-| few | сербских динара |
-| many | сербских динаров |
-| other | сербского динара |
-|  symbol | RSD |
-|  | российский рубль |
-| one | российский рубль |
-| few | российских рубля |
-| many | российских рублей |
-| other | российского рубля |
-|  symbol | ₽ |
-| narrow symbol | ₽ |
-|  | Российский рубль (1991–1998) |
-|  symbol | р. |
-|  | франк Руанды |
-| one | франк Руанды |
-| few | франка Руанды |
-| many | франков Руанды |
-| other | франка Руанды |
-|  symbol | RWF |
-| narrow symbol | RF |
-|  | саудовский риял |
-| one | саудовский риял |
-| few | саудовских рияла |
-| many | саудовских риялов |
-| other | саудовского рияла |
-|  symbol | SAR |
-|  | доллар Соломоновых островов |
-| one | доллар Соломоновых островов |
-| few | доллара Соломоновых островов |
-| many | долларов Соломоновых островов |
-| other | доллара Соломоновых островов |
-|  symbol | SBD |
-| narrow symbol | $ |
-|  | сейшельская рупия |
-| one | сейшельская рупия |
-| few | сейшельские рупии |
-| many | сейшельских рупий |
-| other | сейшельской рупии |
-|  symbol | SCR |
-|  | Суданский динар |
-|  | суданский фунт |
-| one | суданский фунт |
-| few | суданских фунта |
-| many | суданских фунтов |
-| other | суданского фунта |
-|  symbol | SDG |
-|  | Старый суданский фунт |
-|  | шведская крона |
-| one | шведская крона |
-| few | шведские кроны |
-| many | шведских крон |
-| other | шведской кроны |
-|  symbol | SEK |
-| narrow symbol | kr |
-|  | сингапурский доллар |
-| one | сингапурский доллар |
-| few | сингапурских доллара |
-| many | сингапурских долларов |
-| other | сингапурского доллара |
-|  symbol | SGD |
-| narrow symbol | $ |
-|  | фунт острова Святой Елены |
-| one | фунт острова Святой Елены |
-| few | фунта острова Святой Елены |
-| many | фунтов острова Святой Елены |
-| other | фунта острова Святой Елены |
-|  symbol | SHP |
-| narrow symbol | £ |
-|  | Словенский толар |
-|  | Словацкая крона |
-|  | леоне |
-| one | леоне |
-| few | леоне |
-| many | леоне |
-| other | леоне |
-|  symbol | SLL |
-|  | сомалийский шиллинг |
-| one | сомалийский шиллинг |
-| few | сомалийских шиллинга |
-| many | сомалийских шиллингов |
-| other | сомалийского шиллинга |
-|  symbol | SOS |
-|  | суринамский доллар |
-| one | суринамский доллар |
-| few | суринамских доллара |
-| many | суринамских долларов |
-| other | суринамского доллара |
-|  symbol | SRD |
-| narrow symbol | $ |
-|  | Суринамский гульден |
-|  | южносуданский фунт |
-| one | южносуданский фунт |
-| few | южносуданских фунта |
-| many | южносуданских фунтов |
-| other | южносуданского фунта |
-|  symbol | SSP |
-| narrow symbol | £ |
-|  | добра Сан-Томе и Принсипи (1977–2017) |
-| one | добра Сан-Томе и Принсипи (1977–2017) |
-| few | добры Сан-Томе и Принсипи (1977–2017) |
-| many | добр Сан-Томе и Принсипи (1977–2017) |
-| other | добры Сан-Томе и Принсипи (1977–2017) |
-|  symbol | STD |
-|  | добра Сан-Томе и Принсипи |
-| one | добра Сан-Томе и Принсипи |
-| few | добры Сан-Томе и Принсипи |
-| many | добр Сан-Томе и Принсипи |
-| other | добры Сан-Томе и Принсипи |
-|  symbol | STN |
-| narrow symbol | Db |
-|  | Рубль СССР |
-|  | Сальвадорский колон |
-|  | сирийский фунт |
-| one | сирийский фунт |
-| few | сирийских фунта |
-| many | сирийских фунтов |
-| other | сирийского фунта |
-|  symbol | SYP |
-| narrow symbol | £ |
-|  | свазилендский лилангени |
-| one | свазилендский лилангени |
-| few | свазилендских лилангени |
-| many | свазилендских лилангени |
-| other | свазилендского лилангени |
-|  symbol | SZL |
-|  | таиландский бат |
-| one | таиландский бат |
-| few | таиландских бата |
-| many | таиландских батов |
-| other | таиландского бата |
-|  symbol | ฿ |
-| narrow symbol | ฿ |
-|  | Таджикский рубль |
-|  | таджикский сомони |
-| one | таджикский сомони |
-| few | таджикских сомони |
-| many | таджикских сомони |
-| other | таджикского сомони |
-|  symbol | TJS |
-|  | Туркменский манат |
-|  | новый туркменский манат |
-| one | новый туркменский манат |
-| few | новых туркменских маната |
-| many | новых туркменских манатов |
-| other | нового туркменского маната |
-|  symbol | ТМТ |
-|  | тунисский динар |
-| one | тунисский динар |
-| few | тунисских динара |
-| many | тунисских динаров |
-| other | тунисского динара |
-|  symbol | TND |
-|  | тонганская паанга |
-| one | тонганская паанга |
-| few | тонганские паанги |
-| many | тонганских паанг |
-| other | тонганской паанги |
-|  symbol | TOP |
-| narrow symbol | T$ |
-|  | Тиморское эскудо |
-|  | Турецкая лира (1922–2005) |
-| one | турецкая лира (1922–2005) |
-| few | турецкие лиры (1922–2005) |
-| many | турецких лир (1922–2005) |
-| other | турецкой лиры (1922–2005) |
-|  | турецкая лира |
-| one | турецкая лира |
-| few | турецкие лиры |
-| many | турецких лир |
-| other | турецкой лиры |
-|  symbol | TRY |
-| narrow symbol | ₺ |
-| variant symbol | TL |
-|  | доллар Тринидада и Тобаго |
-| one | доллар Тринидада и Тобаго |
-| few | доллара Тринидада и Тобаго |
-| many | долларов Тринидада и Тобаго |
-| other | доллара Тринидада и Тобаго |
-|  symbol | TTD |
-| narrow symbol | $ |
-|  | новый тайваньский доллар |
-| one | новый тайваньский доллар |
-| few | новых тайваньских доллара |
-| many | новых тайваньских долларов |
-| other | нового тайваньского доллара |
-|  symbol | NT$ |
-| narrow symbol | NT$ |
-|  | танзанийский шиллинг |
-| one | танзанийский шиллинг |
-| few | танзанийских шиллинга |
-| many | танзанийских шиллингов |
-| other | танзанийского шиллинга |
-|  symbol | TZS |
-|  | украинская гривна |
-| one | украинская гривна |
-| few | украинские гривны |
-| many | украинских гривен |
-| other | украинской гривны |
-|  symbol | ₴ |
-| narrow symbol | ₴ |
-| variant symbol | грн. |
-|  | Карбованец (украинский) |
-|  | Старый угандийский шиллинг |
-|  | угандийский шиллинг |
-| one | угандийский шиллинг |
-| few | угандийских шиллинга |
-| many | угандийских шиллингов |
-| other | угандийского шиллинга |
-|  symbol | UGX |
-|  | доллар США |
-| one | доллар США |
-| few | доллара США |
-| many | долларов США |
-| other | доллара США |
-|  symbol | $ |
-| narrow symbol | $ |
-|  | Доллар США следующего дня |
-|  | Доллар США текущего дня |
-|  | Уругвайский песо (индекс инфляции) |
-|  | Уругвайское старое песо (1975–1993) |
-|  | уругвайское песо |
-| one | уругвайское песо |
-| few | уругвайских песо |
-| many | уругвайских песо |
-| other | уругвайского песо |
-|  symbol | UYU |
-| narrow symbol | $ |
-|  | узбекский сум |
-| one | узбекский сум |
-| few | узбекских сума |
-| many | узбекских сумов |
-| other | узбекского сума |
-|  symbol | UZS |
-|  | Венесуэльский боливар (1871–2008) |
-|  | венесуэльский боливар |
-| one | венесуэльский боливар |
-| few | венесуэльских боливара |
-| many | венесуэльских боливаров |
-| other | венесуэльского боливара |
-|  symbol | VEF |
-| narrow symbol | Bs |
-|  | вьетнамский донг |
-| one | вьетнамский донг |
-| few | вьетнамских донга |
-| many | вьетнамских донгов |
-| other | вьетнамского донга |
-|  symbol | ₫ |
-| narrow symbol | ₫ |
-|  | вату Вануату |
-| one | вату Вануату |
-| few | вату Вануату |
-| many | вату Вануату |
-| other | вату Вануату |
-|  symbol | VUV |
-|  | самоанская тала |
-| one | самоанская тала |
-| few | самоанские талы |
-| many | самоанских тал |
-| other | самоанской талы |
-|  symbol | WST |
-|  | франк КФА BEAC |
-| one | франк КФА ВЕАС |
-| few | франка КФА ВЕАС |
-| many | франков КФА ВЕАС |
-| other | франка КФА ВЕАС |
-|  symbol | FCFA |
-|  | Серебро |
-|  | Золото |
-|  | Европейская составная единица |
-|  | Европейская денежная единица |
-|  | расчетная единица европейского валютного соглашения (XBC) |
-|  | расчетная единица европейского валютного соглашения (XBD) |
-|  | восточно-карибский доллар |
-| one | восточно-карибский доллар |
-| few | восточно-карибских доллара |
-| many | восточно-карибских долларов |
-| other | восточно-карибского доллара |
-|  symbol | EC$ |
-| narrow symbol | $ |
-|  | СДР (специальные права заимствования) |
-|  | ЭКЮ (единица европейской валюты) |
-|  | Французский золотой франк |
-|  | Французский UIC-франк |
-|  | франк КФА ВСЕАО |
-| one | франк КФА ВСЕАО |
-| few | франка КФА ВСЕАО |
-| many | франков КФА ВСЕАО |
-| other | франка КФА ВСЕАО |
-|  symbol | CFA |
-|  | Палладий |
-|  | французский тихоокеанский франк |
-| one | французский тихоокеанский франк |
-| few | французских тихоокеанских франка |
-| many | французских тихоокеанских франков |
-| other | французского тихоокеанского франка |
-|  symbol | CFPF |
-|  | Платина |
-|  | единица RINET-фондов |
-|  | тестовый валютный код |
-|  | неизвестная валюта |
-| one | единица неизвестной валюты |
-| few | единицы неизвестной валюты |
-| many | единиц неизвестной валюты |
-| other | единицы неизвестной валюты |
-|  symbol | XXXX |
-|  | Йеменский динар |
-|  | йеменский риал |
-| one | йеменский риал |
-| few | йеменских риала |
-| many | йеменских риалов |
-| other | йеменского риала |
-|  symbol | YER |
-|  | Югославский твердый динар |
-|  | Югославский новый динар |
-|  | Югославский динар |
-|  | Южноафриканский рэнд (финансовый) |
-|  | южноафриканский рэнд |
-| one | южноафриканский рэнд |
-| few | южноафриканских рэнда |
-| many | южноафриканских рэндов |
-| other | южноафриканского рэнда |
-|  symbol | ZAR |
-| narrow symbol | R |
-|  | Квача (замбийская) (1968–2012) |
-| one | замбийская квача (1968–2012) |
-| few | замбийские квачи (1968–2012) |
-| many | замбийских квач (1968–2012) |
-| other | замбийской квачи (1968–2012) |
-|  | замбийская квача |
-| one | замбийская квача |
-| few | замбийские квачи |
-| many | замбийских квач |
-| other | замбийской квачи |
-|  symbol | ZMW |
-| narrow symbol | ZK |
-|  | Новый заир |
-|  | Заир |
-|  | Доллар Зимбабве |
-|  | Доллар Зимбабве (2009) |
+| , ADP | Андоррская песета |
+| one, ADP | андоррская песета |
+| few, ADP | андоррские песеты |
+| many, ADP | андоррских песет |
+| other, ADP | андоррских песет |
+| , AED | дирхам ОАЭ |
+| one, AED | дирхам ОАЭ |
+| few, AED | дирхама ОАЭ |
+| many, AED | дирхамов ОАЭ |
+| other, AED | дирхама ОАЭ |
+| , AED symbol | AED |
+| , AFA | Афгани (1927–2002) |
+| , AFN | афгани |
+| one, AFN | афгани |
+| few, AFN | афгани |
+| many, AFN | афгани |
+| other, AFN | афгани |
+| , AFN symbol | AFN |
+| , ALL | албанский лек |
+| one, ALL | албанский лек |
+| few, ALL | албанских лека |
+| many, ALL | албанских леков |
+| other, ALL | албанского лека |
+| , ALL symbol | ALL |
+| , AMD | армянский драм |
+| one, AMD | армянский драм |
+| few, AMD | армянских драма |
+| many, AMD | армянских драмов |
+| other, AMD | армянского драма |
+| , AMD symbol | AMD |
+| , ANG | нидерландский антильский гульден |
+| one, ANG | нидерландский антильский гульден |
+| few, ANG | нидерландских антильских гульдена |
+| many, ANG | нидерландских антильских гульденов |
+| other, ANG | нидерландского антильского гульдена |
+| , ANG symbol | ANG |
+| , AOA | ангольская кванза |
+| one, AOA | ангольская кванза |
+| few, AOA | ангольские кванзы |
+| many, AOA | ангольских кванз |
+| other, AOA | ангольской кванзы |
+| , AOA symbol | AOA |
+| narrow, AOA symbol | Kz |
+| , AOK | Ангольская кванза (1977–1990) |
+| one, AOK | ангольских кванз (1977–1991) |
+| few, AOK | ангольские кванзы (1977–1991) |
+| many, AOK | ангольских кванз (1977–1991) |
+| other, AOK | ангольских кванз (1977–1991) |
+| , AON | Ангольская новая кванза (1990–2000) |
+| , AOR | Ангольская кванза реюстадо (1995–1999) |
+| one, AOR | ангольских кванз реюстадо (1995–1999) |
+| few, AOR | ангольские кванзы реюстадо (1995–1999) |
+| many, AOR | ангольских кванз реюстадо (1995–1999) |
+| other, AOR | ангольских кванз реюстадо (1995–1999) |
+| , ARA | Аргентинский аустрал |
+| , ARP | Аргентинское песо (1983–1985) |
+| , ARS | аргентинское песо |
+| one, ARS | аргентинское песо |
+| few, ARS | аргентинских песо |
+| many, ARS | аргентинских песо |
+| other, ARS | аргентинского песо |
+| , ARS symbol | ARS |
+| narrow, ARS symbol | $ |
+| , ATS | Австрийский шиллинг |
+| , AUD | австралийский доллар |
+| one, AUD | австралийский доллар |
+| few, AUD | австралийских доллара |
+| many, AUD | австралийских долларов |
+| other, AUD | австралийского доллара |
+| , AUD symbol | A$ |
+| narrow, AUD symbol | $ |
+| , AWG | арубанский флорин |
+| one, AWG | арубанский флорин |
+| few, AWG | арубанских флорина |
+| many, AWG | арубанских флоринов |
+| other, AWG | арубанского флорина |
+| , AWG symbol | AWG |
+| , AZM | Старый азербайджанский манат |
+| , AZN | азербайджанский манат |
+| one, AZN | азербайджанский манат |
+| few, AZN | азербайджанских маната |
+| many, AZN | азербайджанских манатов |
+| other, AZN | азербайджанского маната |
+| , AZN symbol | AZN |
+| , BAD | Динар Боснии и Герцеговины |
+| , BAM | конвертируемая марка Боснии и Герцеговины |
+| one, BAM | конвертируемая марка Боснии и Герцеговины |
+| few, BAM | конвертируемые марки Боснии и Герцеговины |
+| many, BAM | конвертируемых марок Боснии и Герцеговины |
+| other, BAM | конвертируемой марки Боснии и Герцеговины |
+| , BAM symbol | BAM |
+| narrow, BAM symbol | KM |
+| , BBD | барбадосский доллар |
+| one, BBD | барбадосский доллар |
+| few, BBD | барбадосских доллара |
+| many, BBD | барбадосских долларов |
+| other, BBD | барбадосского доллара |
+| , BBD symbol | BBD |
+| narrow, BBD symbol | $ |
+| , BDT | бангладешская така |
+| one, BDT | бангладешская така |
+| few, BDT | бангладешские таки |
+| many, BDT | бангладешских так |
+| other, BDT | бангладешской таки |
+| , BDT symbol | BDT |
+| narrow, BDT symbol | ৳ |
+| , BEC | Бельгийский франк (конвертируемый) |
+| , BEF | Бельгийский франк |
+| , BEL | Бельгийский франк (финансовый) |
+| , BGL | Лев |
+| , BGN | болгарский лев |
+| one, BGN | болгарский лев |
+| few, BGN | болгарских лева |
+| many, BGN | болгарских левов |
+| other, BGN | болгарского лева |
+| , BGN symbol | BGN |
+| , BHD | бахрейнский динар |
+| one, BHD | бахрейнский динар |
+| few, BHD | бахрейнских динара |
+| many, BHD | бахрейнских динаров |
+| other, BHD | бахрейнского динара |
+| , BHD symbol | BHD |
+| , BIF | бурундийский франк |
+| one, BIF | бурундийский франк |
+| few, BIF | бурундийских франка |
+| many, BIF | бурундийских франков |
+| other, BIF | бурундийского франка |
+| , BIF symbol | BIF |
+| , BMD | бермудский доллар |
+| one, BMD | бермудский доллар |
+| few, BMD | бермудских доллара |
+| many, BMD | бермудских долларов |
+| other, BMD | бермудского доллара |
+| , BMD symbol | BMD |
+| narrow, BMD symbol | $ |
+| , BND | брунейский доллар |
+| one, BND | брунейский доллар |
+| few, BND | брунейских доллара |
+| many, BND | брунейских долларов |
+| other, BND | брунейского доллара |
+| , BND symbol | BND |
+| narrow, BND symbol | $ |
+| , BOB | боливийский боливиано |
+| one, BOB | боливийский боливиано |
+| few, BOB | боливийских боливиано |
+| many, BOB | боливийских боливиано |
+| other, BOB | боливийского боливиано |
+| , BOB symbol | BOB |
+| narrow, BOB symbol | Bs |
+| , BOP | Боливийское песо |
+| , BOV | Боливийский мвдол |
+| , BRB | Бразильский новый крузейро (1967–1986) |
+| , BRC | Бразильское крузадо |
+| , BRE | Бразильский крузейро (1990–1993) |
+| , BRL | бразильский реал |
+| one, BRL | бразильский реал |
+| few, BRL | бразильских реала |
+| many, BRL | бразильских реалов |
+| other, BRL | бразильского реала |
+| , BRL symbol | R$ |
+| narrow, BRL symbol | R$ |
+| , BRN | Бразильское новое крузадо |
+| , BRR | Бразильский крузейро |
+| , BSD | багамский доллар |
+| one, BSD | багамский доллар |
+| few, BSD | багамских доллара |
+| many, BSD | багамских долларов |
+| other, BSD | багамского доллара |
+| , BSD symbol | BSD |
+| narrow, BSD symbol | $ |
+| , BTN | бутанский нгултрум |
+| one, BTN | бутанский нгултрум |
+| few, BTN | бутанских нгултрума |
+| many, BTN | бутанских нгултрумов |
+| other, BTN | бутанского нгултрума |
+| , BTN symbol | BTN |
+| , BUK | Джа |
+| , BWP | ботсванская пула |
+| one, BWP | ботсванская пула |
+| few, BWP | ботсванские пулы |
+| many, BWP | ботсванских пул |
+| other, BWP | ботсванской пулы |
+| , BWP symbol | BWP |
+| narrow, BWP symbol | P |
+| , BYB | Белорусский рубль (1994–1999) |
+| , BYN | белорусский рубль |
+| one, BYN | белорусский рубль |
+| few, BYN | белорусских рубля |
+| many, BYN | белорусских рублей |
+| other, BYN | белорусского рубля |
+| , BYN symbol | BYN |
+| narrow, BYN symbol | р. |
+| , BYR | Белорусский рубль (2000–2016) |
+| one, BYR | белорусский рубль (2000–2016) |
+| few, BYR | белорусских рубля (2000–2016) |
+| many, BYR | белорусских рублей (2000–2016) |
+| other, BYR | белорусского рубля (2000–2016) |
+| , BYR symbol | BYR |
+| , BZD | белизский доллар |
+| one, BZD | белизский доллар |
+| few, BZD | белизских доллара |
+| many, BZD | белизских долларов |
+| other, BZD | белизского доллара |
+| , BZD symbol | BZD |
+| narrow, BZD symbol | $ |
+| , CAD | канадский доллар |
+| one, CAD | канадский доллар |
+| few, CAD | канадских доллара |
+| many, CAD | канадских долларов |
+| other, CAD | канадского доллара |
+| , CAD symbol | CA$ |
+| narrow, CAD symbol | $ |
+| , CDF | конголезский франк |
+| one, CDF | конголезский франк |
+| few, CDF | конголезских франка |
+| many, CDF | конголезских франков |
+| other, CDF | конголезского франка |
+| , CDF symbol | CDF |
+| , CHE | WIR евро |
+| , CHF | швейцарский франк |
+| one, CHF | швейцарский франк |
+| few, CHF | швейцарских франка |
+| many, CHF | швейцарских франков |
+| other, CHF | швейцарского франка |
+| , CHF symbol | CHF |
+| , CHW | WIR франк |
+| , CLF | Условная расчетная единица Чили |
+| , CLP | чилийское песо |
+| one, CLP | чилийское песо |
+| few, CLP | чилийских песо |
+| many, CLP | чилийских песо |
+| other, CLP | чилийского песо |
+| , CLP symbol | CLP |
+| narrow, CLP symbol | $ |
+| , CNH | китайский офшорный юань |
+| one, CNH | китайский офшорный юань |
+| few, CNH | китайских офшорных юаня |
+| many, CNH | китайских офшорных юаней |
+| other, CNH | китайского офшорного юаня |
+| , CNH symbol | CNH |
+| , CNY | китайский юань |
+| one, CNY | китайский юань |
+| few, CNY | китайских юаня |
+| many, CNY | китайских юаней |
+| other, CNY | китайского юаня |
+| , CNY symbol | CN¥ |
+| narrow, CNY symbol | ¥ |
+| , COP | колумбийское песо |
+| one, COP | колумбийское песо |
+| few, COP | колумбийских песо |
+| many, COP | колумбийских песо |
+| other, COP | колумбийского песо |
+| , COP symbol | COP |
+| narrow, COP symbol | $ |
+| , COU | Единица реальной стоимости Колумбии |
+| , CRC | костариканский колон |
+| one, CRC | костариканский колон |
+| few, CRC | костариканских колона |
+| many, CRC | костариканских колонов |
+| other, CRC | костариканского колона |
+| , CRC symbol | CRC |
+| narrow, CRC symbol | ₡ |
+| , CSD | Старый Сербский динар |
+| , CSK | Чехословацкая твердая крона |
+| , CUC | кубинское конвертируемое песо |
+| one, CUC | кубинское конвертируемое песо |
+| few, CUC | кубинских конвертируемых песо |
+| many, CUC | кубинских конвертируемых песо |
+| other, CUC | кубинского конвертируемого песо |
+| , CUC symbol | CUC |
+| narrow, CUC symbol | $ |
+| , CUP | кубинское песо |
+| one, CUP | кубинское песо |
+| few, CUP | кубинских песо |
+| many, CUP | кубинских песо |
+| other, CUP | кубинского песо |
+| , CUP symbol | CUP |
+| narrow, CUP symbol | $ |
+| , CVE | эскудо Кабо-Верде |
+| one, CVE | эскудо Кабо-Верде |
+| few, CVE | эскудо Кабо-Верде |
+| many, CVE | эскудо Кабо-Верде |
+| other, CVE | эскудо Кабо-Верде |
+| , CVE symbol | CVE |
+| , CYP | Кипрский фунт |
+| , CZK | чешская крона |
+| one, CZK | чешская крона |
+| few, CZK | чешские кроны |
+| many, CZK | чешских крон |
+| other, CZK | чешской кроны |
+| , CZK symbol | CZK |
+| narrow, CZK symbol | Kč |
+| , DDM | Восточногерманская марка |
+| , DEM | Немецкая марка |
+| , DJF | франк Джибути |
+| one, DJF | франк Джибути |
+| few, DJF | франка Джибути |
+| many, DJF | франков Джибути |
+| other, DJF | франка Джибути |
+| , DJF symbol | DJF |
+| , DKK | датская крона |
+| one, DKK | датская крона |
+| few, DKK | датские кроны |
+| many, DKK | датских крон |
+| other, DKK | датской кроны |
+| , DKK symbol | DKK |
+| narrow, DKK symbol | kr |
+| , DOP | доминиканское песо |
+| one, DOP | доминиканское песо |
+| few, DOP | доминиканских песо |
+| many, DOP | доминиканских песо |
+| other, DOP | доминиканского песо |
+| , DOP symbol | DOP |
+| narrow, DOP symbol | $ |
+| , DZD | алжирский динар |
+| one, DZD | алжирский динар |
+| few, DZD | алжирских динара |
+| many, DZD | алжирских динаров |
+| other, DZD | алжирского динара |
+| , DZD symbol | DZD |
+| , ECS | Эквадорский сукре |
+| , ECV | Постоянная единица стоимости Эквадора |
+| , EEK | Эстонская крона |
+| , EGP | египетский фунт |
+| one, EGP | египетский фунт |
+| few, EGP | египетских фунта |
+| many, EGP | египетских фунтов |
+| other, EGP | египетского фунта |
+| , EGP symbol | EGP |
+| narrow, EGP symbol | E£ |
+| , ERN | эритрейская накфа |
+| one, ERN | эритрейская накфа |
+| few, ERN | эритрейские накфы |
+| many, ERN | эритрейских накф |
+| other, ERN | эритрейской накфы |
+| , ERN symbol | ERN |
+| , ESA | Испанская песета (А) |
+| , ESB | Испанская песета (конвертируемая) |
+| , ESP | Испанская песета |
+| , ETB | эфиопский быр |
+| one, ETB | эфиопский быр |
+| few, ETB | эфиопских быра |
+| many, ETB | эфиопских быров |
+| other, ETB | эфиопского быра |
+| , ETB symbol | ETB |
+| , EUR | евро |
+| one, EUR | евро |
+| few, EUR | евро |
+| many, EUR | евро |
+| other, EUR | евро |
+| , EUR symbol | € |
+| narrow, EUR symbol | € |
+| , FIM | Финская марка |
+| , FJD | доллар Фиджи |
+| one, FJD | доллар Фиджи |
+| few, FJD | доллара Фиджи |
+| many, FJD | долларов Фиджи |
+| other, FJD | доллара Фиджи |
+| , FJD symbol | FJD |
+| narrow, FJD symbol | $ |
+| , FKP | фунт Фолклендских островов |
+| one, FKP | фунт Фолклендских островов |
+| few, FKP | фунта Фолклендских островов |
+| many, FKP | фунтов Фолклендских островов |
+| other, FKP | фунта Фолклендских островов |
+| , FKP symbol | FKP |
+| narrow, FKP symbol | £ |
+| , FRF | Французский франк |
+| , GBP | британский фунт стерлингов |
+| one, GBP | британский фунт стерлингов |
+| few, GBP | британских фунта стерлингов |
+| many, GBP | британских фунтов стерлингов |
+| other, GBP | британского фунта стерлингов |
+| , GBP symbol | £ |
+| narrow, GBP symbol | £ |
+| , GEK | Грузинский купон |
+| , GEL | грузинский лари |
+| one, GEL | грузинский лари |
+| few, GEL | грузинских лари |
+| many, GEL | грузинских лари |
+| other, GEL | грузинского лари |
+| , GEL symbol | GEL |
+| narrow, GEL symbol | ლ |
+| variant, GEL symbol | ₾ |
+| , GHC | Ганский седи (1979–2007) |
+| , GHS | ганский седи |
+| one, GHS | ганский седи |
+| few, GHS | ганских седи |
+| many, GHS | ганских седи |
+| other, GHS | ганского седи |
+| , GHS symbol | GHS |
+| , GIP | гибралтарский фунт |
+| one, GIP | гибралтарский фунт |
+| few, GIP | гибралтарских фунта |
+| many, GIP | гибралтарских фунтов |
+| other, GIP | гибралтарского фунта |
+| , GIP symbol | GIP |
+| narrow, GIP symbol | £ |
+| , GMD | гамбийский даласи |
+| one, GMD | гамбийский даласи |
+| few, GMD | гамбийских даласи |
+| many, GMD | гамбийских даласи |
+| other, GMD | гамбийского даласи |
+| , GMD symbol | GMD |
+| , GNF | гвинейский франк |
+| one, GNF | гвинейский франк |
+| few, GNF | гвинейских франка |
+| many, GNF | гвинейских франков |
+| other, GNF | гвинейского франка |
+| , GNF symbol | GNF |
+| narrow, GNF symbol | FG |
+| , GNS | Гвинейская сили |
+| , GQE | Эквеле экваториальной Гвинеи |
+| , GRD | Греческая драхма |
+| , GTQ | гватемальский кетсаль |
+| one, GTQ | гватемальский кетсаль |
+| few, GTQ | гватемальских кетсаля |
+| many, GTQ | гватемальских кетсалей |
+| other, GTQ | гватемальского кетсаля |
+| , GTQ symbol | GTQ |
+| narrow, GTQ symbol | Q |
+| , GWE | Эскудо Португальской Гвинеи |
+| , GWP | Песо Гвинеи-Бисау |
+| , GYD | гайанский доллар |
+| one, GYD | гайанский доллар |
+| few, GYD | гайанских доллара |
+| many, GYD | гайанских долларов |
+| other, GYD | гайанского доллара |
+| , GYD symbol | GYD |
+| narrow, GYD symbol | $ |
+| , HKD | гонконгский доллар |
+| one, HKD | гонконгский доллар |
+| few, HKD | гонконгских доллара |
+| many, HKD | гонконгских долларов |
+| other, HKD | гонконгского доллара |
+| , HKD symbol | HK$ |
+| narrow, HKD symbol | $ |
+| , HNL | гондурасская лемпира |
+| one, HNL | гондурасская лемпира |
+| few, HNL | гондурасские лемпиры |
+| many, HNL | гондурасских лемпир |
+| other, HNL | гондурасской лемпиры |
+| , HNL symbol | HNL |
+| narrow, HNL symbol | L |
+| , HRD | Хорватский динар |
+| , HRK | хорватская куна |
+| one, HRK | хорватская куна |
+| few, HRK | хорватские куны |
+| many, HRK | хорватских кун |
+| other, HRK | хорватской куны |
+| , HRK symbol | HRK |
+| narrow, HRK symbol | kn |
+| , HTG | гаитянский гурд |
+| one, HTG | гаитянский гурд |
+| few, HTG | гаитянских гурда |
+| many, HTG | гаитянских гурдов |
+| other, HTG | гаитянского гурда |
+| , HTG symbol | HTG |
+| , HUF | венгерский форинт |
+| one, HUF | венгерский форинт |
+| few, HUF | венгерских форинта |
+| many, HUF | венгерских форинтов |
+| other, HUF | венгерского форинта |
+| , HUF symbol | HUF |
+| narrow, HUF symbol | Ft |
+| , IDR | индонезийская рупия |
+| one, IDR | индонезийская рупия |
+| few, IDR | индонезийские рупии |
+| many, IDR | индонезийских рупий |
+| other, IDR | индонезийской рупии |
+| , IDR symbol | IDR |
+| narrow, IDR symbol | Rp |
+| , IEP | Ирландский фунт |
+| , ILP | Израильский фунт |
+| , ILS | новый израильский шекель |
+| one, ILS | новый израильский шекель |
+| few, ILS | новых израильских шекеля |
+| many, ILS | новых израильских шекелей |
+| other, ILS | нового израильского шекеля |
+| , ILS symbol | ₪ |
+| narrow, ILS symbol | ₪ |
+| , INR | индийская рупия |
+| one, INR | индийская рупия |
+| few, INR | индийские рупии |
+| many, INR | индийских рупий |
+| other, INR | индийской рупии |
+| , INR symbol | ₹ |
+| narrow, INR symbol | ₹ |
+| , IQD | иракский динар |
+| one, IQD | иракский динар |
+| few, IQD | иракских динара |
+| many, IQD | иракских динаров |
+| other, IQD | иракского динара |
+| , IQD symbol | IQD |
+| , IRR | иранский риал |
+| one, IRR | иранский риал |
+| few, IRR | иранских риала |
+| many, IRR | иранских риалов |
+| other, IRR | иранского риала |
+| , IRR symbol | IRR |
+| , ISK | исландская крона |
+| one, ISK | исландская крона |
+| few, ISK | исландские кроны |
+| many, ISK | исландских крон |
+| other, ISK | исландской кроны |
+| , ISK symbol | ISK |
+| narrow, ISK symbol | kr |
+| , ITL | Итальянская лира |
+| , JMD | ямайский доллар |
+| one, JMD | ямайский доллар |
+| few, JMD | ямайских доллара |
+| many, JMD | ямайских долларов |
+| other, JMD | ямайского доллара |
+| , JMD symbol | JMD |
+| narrow, JMD symbol | $ |
+| , JOD | иорданский динар |
+| one, JOD | иорданский динар |
+| few, JOD | иорданских динара |
+| many, JOD | иорданских динаров |
+| other, JOD | иорданского динара |
+| , JOD symbol | JOD |
+| , JPY | японская иена |
+| one, JPY | японская иена |
+| few, JPY | японские иены |
+| many, JPY | японских иен |
+| other, JPY | японской иены |
+| , JPY symbol | ¥ |
+| narrow, JPY symbol | ¥ |
+| , KES | кенийский шиллинг |
+| one, KES | кенийский шиллинг |
+| few, KES | кенийских шиллинга |
+| many, KES | кенийских шиллингов |
+| other, KES | кенийского шиллинга |
+| , KES symbol | KES |
+| , KGS | киргизский сом |
+| one, KGS | киргизский сом |
+| few, KGS | киргизских сома |
+| many, KGS | киргизских сомов |
+| other, KGS | киргизского сома |
+| , KGS symbol | KGS |
+| , KHR | камбоджийский риель |
+| one, KHR | камбоджийский риель |
+| few, KHR | камбоджийских риеля |
+| many, KHR | камбоджийских риелей |
+| other, KHR | камбоджийского риеля |
+| , KHR symbol | KHR |
+| narrow, KHR symbol | ៛ |
+| , KMF | франк Коморских островов |
+| one, KMF | франк Коморских островов |
+| few, KMF | франка Коморских островов |
+| many, KMF | франков Коморских островов |
+| other, KMF | франка Коморских островов |
+| , KMF symbol | KMF |
+| narrow, KMF symbol | CF |
+| , KPW | северокорейская вона |
+| one, KPW | северокорейская вона |
+| few, KPW | северокорейские воны |
+| many, KPW | северокорейских вон |
+| other, KPW | северокорейской воны |
+| , KPW symbol | KPW |
+| narrow, KPW symbol | ₩ |
+| , KRW | южнокорейская вона |
+| one, KRW | южнокорейская вона |
+| few, KRW | южнокорейские воны |
+| many, KRW | южнокорейских вон |
+| other, KRW | южнокорейской воны |
+| , KRW symbol | ₩ |
+| narrow, KRW symbol | ₩ |
+| , KWD | кувейтский динар |
+| one, KWD | кувейтский динар |
+| few, KWD | кувейтских динара |
+| many, KWD | кувейтских динаров |
+| other, KWD | кувейтского динара |
+| , KWD symbol | KWD |
+| , KYD | доллар Каймановых островов |
+| one, KYD | доллар Каймановых островов |
+| few, KYD | доллара Каймановых островов |
+| many, KYD | долларов Каймановых островов |
+| other, KYD | доллара Каймановых островов |
+| , KYD symbol | KYD |
+| narrow, KYD symbol | $ |
+| , KZT | казахский тенге |
+| one, KZT | казахский тенге |
+| few, KZT | казахских тенге |
+| many, KZT | казахских тенге |
+| other, KZT | казахского тенге |
+| , KZT symbol | KZT |
+| narrow, KZT symbol | ₸ |
+| , LAK | лаосский кип |
+| one, LAK | лаосский кип |
+| few, LAK | лаосских кипа |
+| many, LAK | лаосских кипов |
+| other, LAK | лаосского кипа |
+| , LAK symbol | LAK |
+| narrow, LAK symbol | ₭ |
+| , LBP | ливанский фунт |
+| one, LBP | ливанский фунт |
+| few, LBP | ливанских фунта |
+| many, LBP | ливанских фунтов |
+| other, LBP | ливанского фунта |
+| , LBP symbol | LBP |
+| narrow, LBP symbol | L£ |
+| , LKR | шри-ланкийская рупия |
+| one, LKR | шри-ланкийская рупия |
+| few, LKR | шри-ланкийские рупии |
+| many, LKR | шри-ланкийских рупий |
+| other, LKR | шри-ланкийской рупии |
+| , LKR symbol | LKR |
+| narrow, LKR symbol | Rs |
+| , LRD | либерийский доллар |
+| one, LRD | либерийский доллар |
+| few, LRD | либерийских доллара |
+| many, LRD | либерийских долларов |
+| other, LRD | либерийского доллара |
+| , LRD symbol | LRD |
+| narrow, LRD symbol | $ |
+| , LSL | Лоти |
+| , LTL | Литовский лит |
+| one, LTL | литовский лит |
+| few, LTL | литовских лита |
+| many, LTL | литовских литов |
+| other, LTL | литовского лита |
+| , LTL symbol | LTL |
+| , LTT | Литовский талон |
+| , LUC | Конвертируемый франк Люксембурга |
+| , LUF | Люксембургский франк |
+| , LUL | Финансовый франк Люксембурга |
+| , LVL | Латвийский лат |
+| one, LVL | латвийский лат |
+| few, LVL | латвийских лата |
+| many, LVL | латвийских латов |
+| other, LVL | латвийского лата |
+| , LVL symbol | LVL |
+| , LVR | Латвийский рубль |
+| , LYD | ливийский динар |
+| one, LYD | ливийский динар |
+| few, LYD | ливийских динара |
+| many, LYD | ливийских динаров |
+| other, LYD | ливийского динара |
+| , LYD symbol | LYD |
+| , MAD | марокканский дирхам |
+| one, MAD | марокканский дирхам |
+| few, MAD | марокканских дирхама |
+| many, MAD | марокканских дирхамов |
+| other, MAD | марокканского дирхама |
+| , MAD symbol | MAD |
+| , MAF | Марокканский франк |
+| , MDL | молдавский лей |
+| one, MDL | молдавский лей |
+| few, MDL | молдавских лея |
+| many, MDL | молдавских леев |
+| other, MDL | молдавского лея |
+| , MDL symbol | MDL |
+| , MGA | малагасийский ариари |
+| one, MGA | малагасийский ариари |
+| few, MGA | малагасийских ариари |
+| many, MGA | малагасийских ариари |
+| other, MGA | малагасийского ариари |
+| , MGA symbol | MGA |
+| narrow, MGA symbol | Ar |
+| , MGF | Малагасийский франк |
+| , MKD | македонский денар |
+| one, MKD | македонский денар |
+| few, MKD | македонских денара |
+| many, MKD | македонских денаров |
+| other, MKD | македонского денара |
+| , MKD symbol | MKD |
+| , MLF | Малийский франк |
+| , MMK | мьянманский кьят |
+| one, MMK | мьянманский кьят |
+| few, MMK | мьянманских кьята |
+| many, MMK | мьянманских кьятов |
+| other, MMK | мьянманского кьята |
+| , MMK symbol | MMK |
+| narrow, MMK symbol | K |
+| , MNT | монгольский тугрик |
+| one, MNT | монгольский тугрик |
+| few, MNT | монгольских тугрика |
+| many, MNT | монгольских тугриков |
+| other, MNT | монгольского тугрика |
+| , MNT symbol | MNT |
+| narrow, MNT symbol | ₮ |
+| , MOP | патака Макао |
+| one, MOP | патака Макао |
+| few, MOP | патаки Макао |
+| many, MOP | патак Макао |
+| other, MOP | патаки Макао |
+| , MOP symbol | MOP |
+| , MRO | мавританская угия |
+| one, MRO | мавританская угия |
+| few, MRO | мавританские угии |
+| many, MRO | мавританских угий |
+| other, MRO | мавританской угии |
+| , MRO symbol | MRO |
+| , MTL | Мальтийская лира |
+| , MTP | Мальтийский фунт |
+| , MUR | маврикийская рупия |
+| one, MUR | маврикийская рупия |
+| few, MUR | маврикийские рупии |
+| many, MUR | маврикийских рупий |
+| other, MUR | маврикийской рупии |
+| , MUR symbol | MUR |
+| narrow, MUR symbol | Rs |
+| , MVR | мальдивская руфия |
+| one, MVR | мальдивская руфия |
+| few, MVR | мальдивские руфии |
+| many, MVR | мальдивских руфий |
+| other, MVR | мальдивской руфии |
+| , MVR symbol | MVR |
+| , MWK | малавийская квача |
+| one, MWK | малавийская квача |
+| few, MWK | малавийские квачи |
+| many, MWK | малавийских квач |
+| other, MWK | малавийской квачи |
+| , MWK symbol | MWK |
+| , MXN | мексиканское песо |
+| one, MXN | мексиканское песо |
+| few, MXN | мексиканских песо |
+| many, MXN | мексиканских песо |
+| other, MXN | мексиканского песо |
+| , MXN symbol | MX$ |
+| narrow, MXN symbol | $ |
+| , MXP | Мексиканское серебряное песо (1861–1992) |
+| , MXV | Мексиканская пересчетная единица (UDI) |
+| , MYR | малайзийский ринггит |
+| one, MYR | малайзийский ринггит |
+| few, MYR | малайзийских ринггита |
+| many, MYR | малайзийских ринггитов |
+| other, MYR | малайзийского ринггита |
+| , MYR symbol | MYR |
+| narrow, MYR symbol | RM |
+| , MZE | Мозамбикское эскудо |
+| , MZM | Старый мозамбикский метикал |
+| , MZN | мозамбикский метикал |
+| one, MZN | мозамбикский метикал |
+| few, MZN | мозамбикских метикала |
+| many, MZN | мозамбикских метикалов |
+| other, MZN | мозамбикского метикала |
+| , MZN symbol | MZN |
+| , NAD | доллар Намибии |
+| one, NAD | доллар Намибии |
+| few, NAD | доллара Намибии |
+| many, NAD | долларов Намибии |
+| other, NAD | доллара Намибии |
+| , NAD symbol | NAD |
+| narrow, NAD symbol | $ |
+| , NGN | нигерийская найра |
+| one, NGN | нигерийская найра |
+| few, NGN | нигерийские найры |
+| many, NGN | нигерийских найр |
+| other, NGN | нигерийской найры |
+| , NGN symbol | NGN |
+| narrow, NGN symbol | ₦ |
+| , NIC | Никарагуанская кордоба (1988–1991) |
+| , NIO | никарагуанская кордоба |
+| one, NIO | никарагуанская кордоба |
+| few, NIO | никарагуанские кордобы |
+| many, NIO | никарагуанских кордоб |
+| other, NIO | никарагуанской кордобы |
+| , NIO symbol | NIO |
+| narrow, NIO symbol | C$ |
+| , NLG | Нидерландский гульден |
+| , NOK | норвежская крона |
+| one, NOK | норвежская крона |
+| few, NOK | норвежские кроны |
+| many, NOK | норвежских крон |
+| other, NOK | норвежской кроны |
+| , NOK symbol | NOK |
+| narrow, NOK symbol | kr |
+| , NPR | непальская рупия |
+| one, NPR | непальская рупия |
+| few, NPR | непальские рупии |
+| many, NPR | непальских рупий |
+| other, NPR | непальской рупии |
+| , NPR symbol | NPR |
+| narrow, NPR symbol | Rs |
+| , NZD | новозеландский доллар |
+| one, NZD | новозеландский доллар |
+| few, NZD | новозеландских доллара |
+| many, NZD | новозеландских долларов |
+| other, NZD | новозеландского доллара |
+| , NZD symbol | NZ$ |
+| narrow, NZD symbol | $ |
+| , OMR | оманский риал |
+| one, OMR | оманский риал |
+| few, OMR | оманских риала |
+| many, OMR | оманских риалов |
+| other, OMR | оманского риала |
+| , OMR symbol | OMR |
+| , PAB | панамский бальбоа |
+| one, PAB | панамский бальбоа |
+| few, PAB | панамских бальбоа |
+| many, PAB | панамских бальбоа |
+| other, PAB | панамского бальбоа |
+| , PAB symbol | PAB |
+| , PEI | Перуанское инти |
+| , PEN | перуанский соль |
+| one, PEN | перуанский соль |
+| few, PEN | перуанских соля |
+| many, PEN | перуанских солей |
+| other, PEN | перуанского соля |
+| , PEN symbol | PEN |
+| , PES | Перуанский соль (1863–1965) |
+| one, PES | перуанский соль (1863–1965) |
+| few, PES | перуанских соля (1863–1965) |
+| many, PES | перуанских солей (1863–1965) |
+| other, PES | перуанского соля (1863–1965) |
+| , PES symbol | PES |
+| , PGK | кина Папуа – Новой Гвинеи |
+| one, PGK | кина Папуа – Новой Гвинеи |
+| few, PGK | кины Папуа – Новой Гвинеи |
+| many, PGK | кин Папуа – Новой Гвинеи |
+| other, PGK | кины Папуа – Новой Гвинеи |
+| , PGK symbol | PGK |
+| , PHP | филиппинское песо |
+| one, PHP | филиппинское песо |
+| few, PHP | филиппинских песо |
+| many, PHP | филиппинских песо |
+| other, PHP | филиппинского песо |
+| , PHP symbol | PHP |
+| narrow, PHP symbol | ₱ |
+| , PKR | пакистанская рупия |
+| one, PKR | пакистанская рупия |
+| few, PKR | пакистанские рупии |
+| many, PKR | пакистанских рупий |
+| other, PKR | пакистанской рупии |
+| , PKR symbol | PKR |
+| narrow, PKR symbol | Rs |
+| , PLN | польский злотый |
+| one, PLN | польский злотый |
+| few, PLN | польских злотых |
+| many, PLN | польских злотых |
+| other, PLN | польского злотого |
+| , PLN symbol | PLN |
+| narrow, PLN symbol | zł |
+| , PLZ | Злотый |
+| , PTE | Португальское эскудо |
+| , PYG | парагвайский гуарани |
+| one, PYG | парагвайский гуарани |
+| few, PYG | парагвайских гуарани |
+| many, PYG | парагвайских гуарани |
+| other, PYG | парагвайского гуарани |
+| , PYG symbol | PYG |
+| narrow, PYG symbol | ₲ |
+| , QAR | катарский риал |
+| one, QAR | катарский риал |
+| few, QAR | катарских риала |
+| many, QAR | катарских риалов |
+| other, QAR | катарского риала |
+| , QAR symbol | QAR |
+| , RHD | Родезийский доллар |
+| , ROL | Старый Румынский лей |
+| , RON | румынский лей |
+| one, RON | румынский лей |
+| few, RON | румынских лея |
+| many, RON | румынских леев |
+| other, RON | румынского лея |
+| , RON symbol | RON |
+| narrow, RON symbol | L |
+| , RSD | сербский динар |
+| one, RSD | сербский динар |
+| few, RSD | сербских динара |
+| many, RSD | сербских динаров |
+| other, RSD | сербского динара |
+| , RSD symbol | RSD |
+| , RUB | российский рубль |
+| one, RUB | российский рубль |
+| few, RUB | российских рубля |
+| many, RUB | российских рублей |
+| other, RUB | российского рубля |
+| , RUB symbol | ₽ |
+| narrow, RUB symbol | ₽ |
+| , RUR | Российский рубль (1991–1998) |
+| , RUR symbol | р. |
+| , RWF | франк Руанды |
+| one, RWF | франк Руанды |
+| few, RWF | франка Руанды |
+| many, RWF | франков Руанды |
+| other, RWF | франка Руанды |
+| , RWF symbol | RWF |
+| narrow, RWF symbol | RF |
+| , SAR | саудовский риял |
+| one, SAR | саудовский риял |
+| few, SAR | саудовских рияла |
+| many, SAR | саудовских риялов |
+| other, SAR | саудовского рияла |
+| , SAR symbol | SAR |
+| , SBD | доллар Соломоновых островов |
+| one, SBD | доллар Соломоновых островов |
+| few, SBD | доллара Соломоновых островов |
+| many, SBD | долларов Соломоновых островов |
+| other, SBD | доллара Соломоновых островов |
+| , SBD symbol | SBD |
+| narrow, SBD symbol | $ |
+| , SCR | сейшельская рупия |
+| one, SCR | сейшельская рупия |
+| few, SCR | сейшельские рупии |
+| many, SCR | сейшельских рупий |
+| other, SCR | сейшельской рупии |
+| , SCR symbol | SCR |
+| , SDD | Суданский динар |
+| , SDG | суданский фунт |
+| one, SDG | суданский фунт |
+| few, SDG | суданских фунта |
+| many, SDG | суданских фунтов |
+| other, SDG | суданского фунта |
+| , SDG symbol | SDG |
+| , SDP | Старый суданский фунт |
+| , SEK | шведская крона |
+| one, SEK | шведская крона |
+| few, SEK | шведские кроны |
+| many, SEK | шведских крон |
+| other, SEK | шведской кроны |
+| , SEK symbol | SEK |
+| narrow, SEK symbol | kr |
+| , SGD | сингапурский доллар |
+| one, SGD | сингапурский доллар |
+| few, SGD | сингапурских доллара |
+| many, SGD | сингапурских долларов |
+| other, SGD | сингапурского доллара |
+| , SGD symbol | SGD |
+| narrow, SGD symbol | $ |
+| , SHP | фунт острова Святой Елены |
+| one, SHP | фунт острова Святой Елены |
+| few, SHP | фунта острова Святой Елены |
+| many, SHP | фунтов острова Святой Елены |
+| other, SHP | фунта острова Святой Елены |
+| , SHP symbol | SHP |
+| narrow, SHP symbol | £ |
+| , SIT | Словенский толар |
+| , SKK | Словацкая крона |
+| , SLL | леоне |
+| one, SLL | леоне |
+| few, SLL | леоне |
+| many, SLL | леоне |
+| other, SLL | леоне |
+| , SLL symbol | SLL |
+| , SOS | сомалийский шиллинг |
+| one, SOS | сомалийский шиллинг |
+| few, SOS | сомалийских шиллинга |
+| many, SOS | сомалийских шиллингов |
+| other, SOS | сомалийского шиллинга |
+| , SOS symbol | SOS |
+| , SRD | суринамский доллар |
+| one, SRD | суринамский доллар |
+| few, SRD | суринамских доллара |
+| many, SRD | суринамских долларов |
+| other, SRD | суринамского доллара |
+| , SRD symbol | SRD |
+| narrow, SRD symbol | $ |
+| , SRG | Суринамский гульден |
+| , SSP | южносуданский фунт |
+| one, SSP | южносуданский фунт |
+| few, SSP | южносуданских фунта |
+| many, SSP | южносуданских фунтов |
+| other, SSP | южносуданского фунта |
+| , SSP symbol | SSP |
+| narrow, SSP symbol | £ |
+| , STD | добра Сан-Томе и Принсипи (1977–2017) |
+| one, STD | добра Сан-Томе и Принсипи (1977–2017) |
+| few, STD | добры Сан-Томе и Принсипи (1977–2017) |
+| many, STD | добр Сан-Томе и Принсипи (1977–2017) |
+| other, STD | добры Сан-Томе и Принсипи (1977–2017) |
+| , STD symbol | STD |
+| , STN | добра Сан-Томе и Принсипи |
+| one, STN | добра Сан-Томе и Принсипи |
+| few, STN | добры Сан-Томе и Принсипи |
+| many, STN | добр Сан-Томе и Принсипи |
+| other, STN | добры Сан-Томе и Принсипи |
+| , STN symbol | STN |
+| narrow, STN symbol | Db |
+| , SUR | Рубль СССР |
+| , SVC | Сальвадорский колон |
+| , SYP | сирийский фунт |
+| one, SYP | сирийский фунт |
+| few, SYP | сирийских фунта |
+| many, SYP | сирийских фунтов |
+| other, SYP | сирийского фунта |
+| , SYP symbol | SYP |
+| narrow, SYP symbol | £ |
+| , SZL | свазилендский лилангени |
+| one, SZL | свазилендский лилангени |
+| few, SZL | свазилендских лилангени |
+| many, SZL | свазилендских лилангени |
+| other, SZL | свазилендского лилангени |
+| , SZL symbol | SZL |
+| , THB | таиландский бат |
+| one, THB | таиландский бат |
+| few, THB | таиландских бата |
+| many, THB | таиландских батов |
+| other, THB | таиландского бата |
+| , THB symbol | ฿ |
+| narrow, THB symbol | ฿ |
+| , TJR | Таджикский рубль |
+| , TJS | таджикский сомони |
+| one, TJS | таджикский сомони |
+| few, TJS | таджикских сомони |
+| many, TJS | таджикских сомони |
+| other, TJS | таджикского сомони |
+| , TJS symbol | TJS |
+| , TMM | Туркменский манат |
+| , TMT | новый туркменский манат |
+| one, TMT | новый туркменский манат |
+| few, TMT | новых туркменских маната |
+| many, TMT | новых туркменских манатов |
+| other, TMT | нового туркменского маната |
+| , TMT symbol | ТМТ |
+| , TND | тунисский динар |
+| one, TND | тунисский динар |
+| few, TND | тунисских динара |
+| many, TND | тунисских динаров |
+| other, TND | тунисского динара |
+| , TND symbol | TND |
+| , TOP | тонганская паанга |
+| one, TOP | тонганская паанга |
+| few, TOP | тонганские паанги |
+| many, TOP | тонганских паанг |
+| other, TOP | тонганской паанги |
+| , TOP symbol | TOP |
+| narrow, TOP symbol | T$ |
+| , TPE | Тиморское эскудо |
+| , TRL | Турецкая лира (1922–2005) |
+| one, TRL | турецкая лира (1922–2005) |
+| few, TRL | турецкие лиры (1922–2005) |
+| many, TRL | турецких лир (1922–2005) |
+| other, TRL | турецкой лиры (1922–2005) |
+| , TRY | турецкая лира |
+| one, TRY | турецкая лира |
+| few, TRY | турецкие лиры |
+| many, TRY | турецких лир |
+| other, TRY | турецкой лиры |
+| , TRY symbol | TRY |
+| narrow, TRY symbol | ₺ |
+| variant, TRY symbol | TL |
+| , TTD | доллар Тринидада и Тобаго |
+| one, TTD | доллар Тринидада и Тобаго |
+| few, TTD | доллара Тринидада и Тобаго |
+| many, TTD | долларов Тринидада и Тобаго |
+| other, TTD | доллара Тринидада и Тобаго |
+| , TTD symbol | TTD |
+| narrow, TTD symbol | $ |
+| , TWD | новый тайваньский доллар |
+| one, TWD | новый тайваньский доллар |
+| few, TWD | новых тайваньских доллара |
+| many, TWD | новых тайваньских долларов |
+| other, TWD | нового тайваньского доллара |
+| , TWD symbol | NT$ |
+| narrow, TWD symbol | NT$ |
+| , TZS | танзанийский шиллинг |
+| one, TZS | танзанийский шиллинг |
+| few, TZS | танзанийских шиллинга |
+| many, TZS | танзанийских шиллингов |
+| other, TZS | танзанийского шиллинга |
+| , TZS symbol | TZS |
+| , UAH | украинская гривна |
+| one, UAH | украинская гривна |
+| few, UAH | украинские гривны |
+| many, UAH | украинских гривен |
+| other, UAH | украинской гривны |
+| , UAH symbol | ₴ |
+| narrow, UAH symbol | ₴ |
+| variant, UAH symbol | грн. |
+| , UAK | Карбованец (украинский) |
+| , UGS | Старый угандийский шиллинг |
+| , UGX | угандийский шиллинг |
+| one, UGX | угандийский шиллинг |
+| few, UGX | угандийских шиллинга |
+| many, UGX | угандийских шиллингов |
+| other, UGX | угандийского шиллинга |
+| , UGX symbol | UGX |
+| , USD | доллар США |
+| one, USD | доллар США |
+| few, USD | доллара США |
+| many, USD | долларов США |
+| other, USD | доллара США |
+| , USD symbol | $ |
+| narrow, USD symbol | $ |
+| , USN | Доллар США следующего дня |
+| , USS | Доллар США текущего дня |
+| , UYI | Уругвайский песо (индекс инфляции) |
+| , UYP | Уругвайское старое песо (1975–1993) |
+| , UYU | уругвайское песо |
+| one, UYU | уругвайское песо |
+| few, UYU | уругвайских песо |
+| many, UYU | уругвайских песо |
+| other, UYU | уругвайского песо |
+| , UYU symbol | UYU |
+| narrow, UYU symbol | $ |
+| , UZS | узбекский сум |
+| one, UZS | узбекский сум |
+| few, UZS | узбекских сума |
+| many, UZS | узбекских сумов |
+| other, UZS | узбекского сума |
+| , UZS symbol | UZS |
+| , VEB | Венесуэльский боливар (1871–2008) |
+| , VEF | венесуэльский боливар |
+| one, VEF | венесуэльский боливар |
+| few, VEF | венесуэльских боливара |
+| many, VEF | венесуэльских боливаров |
+| other, VEF | венесуэльского боливара |
+| , VEF symbol | VEF |
+| narrow, VEF symbol | Bs |
+| , VND | вьетнамский донг |
+| one, VND | вьетнамский донг |
+| few, VND | вьетнамских донга |
+| many, VND | вьетнамских донгов |
+| other, VND | вьетнамского донга |
+| , VND symbol | ₫ |
+| narrow, VND symbol | ₫ |
+| , VUV | вату Вануату |
+| one, VUV | вату Вануату |
+| few, VUV | вату Вануату |
+| many, VUV | вату Вануату |
+| other, VUV | вату Вануату |
+| , VUV symbol | VUV |
+| , WST | самоанская тала |
+| one, WST | самоанская тала |
+| few, WST | самоанские талы |
+| many, WST | самоанских тал |
+| other, WST | самоанской талы |
+| , WST symbol | WST |
+| , XAF | франк КФА BEAC |
+| one, XAF | франк КФА ВЕАС |
+| few, XAF | франка КФА ВЕАС |
+| many, XAF | франков КФА ВЕАС |
+| other, XAF | франка КФА ВЕАС |
+| , XAF symbol | FCFA |
+| , XAG | Серебро |
+| , XAU | Золото |
+| , XBA | Европейская составная единица |
+| , XBB | Европейская денежная единица |
+| , XBC | расчетная единица европейского валютного соглашения (XBC) |
+| , XBD | расчетная единица европейского валютного соглашения (XBD) |
+| , XCD | восточно-карибский доллар |
+| one, XCD | восточно-карибский доллар |
+| few, XCD | восточно-карибских доллара |
+| many, XCD | восточно-карибских долларов |
+| other, XCD | восточно-карибского доллара |
+| , XCD symbol | EC$ |
+| narrow, XCD symbol | $ |
+| , XDR | СДР (специальные права заимствования) |
+| , XEU | ЭКЮ (единица европейской валюты) |
+| , XFO | Французский золотой франк |
+| , XFU | Французский UIC-франк |
+| , XOF | франк КФА ВСЕАО |
+| one, XOF | франк КФА ВСЕАО |
+| few, XOF | франка КФА ВСЕАО |
+| many, XOF | франков КФА ВСЕАО |
+| other, XOF | франка КФА ВСЕАО |
+| , XOF symbol | CFA |
+| , XPD | Палладий |
+| , XPF | французский тихоокеанский франк |
+| one, XPF | французский тихоокеанский франк |
+| few, XPF | французских тихоокеанских франка |
+| many, XPF | французских тихоокеанских франков |
+| other, XPF | французского тихоокеанского франка |
+| , XPF symbol | CFPF |
+| , XPT | Платина |
+| , XRE | единица RINET-фондов |
+| , XTS | тестовый валютный код |
+| , XXX | неизвестная валюта |
+| one, XXX | единица неизвестной валюты |
+| few, XXX | единицы неизвестной валюты |
+| many, XXX | единиц неизвестной валюты |
+| other, XXX | единицы неизвестной валюты |
+| , XXX symbol | XXXX |
+| , YDD | Йеменский динар |
+| , YER | йеменский риал |
+| one, YER | йеменский риал |
+| few, YER | йеменских риала |
+| many, YER | йеменских риалов |
+| other, YER | йеменского риала |
+| , YER symbol | YER |
+| , YUD | Югославский твердый динар |
+| , YUM | Югославский новый динар |
+| , YUN | Югославский динар |
+| , ZAL | Южноафриканский рэнд (финансовый) |
+| , ZAR | южноафриканский рэнд |
+| one, ZAR | южноафриканский рэнд |
+| few, ZAR | южноафриканских рэнда |
+| many, ZAR | южноафриканских рэндов |
+| other, ZAR | южноафриканского рэнда |
+| , ZAR symbol | ZAR |
+| narrow, ZAR symbol | R |
+| , ZMK | Квача (замбийская) (1968–2012) |
+| one, ZMK | замбийская квача (1968–2012) |
+| few, ZMK | замбийские квачи (1968–2012) |
+| many, ZMK | замбийских квач (1968–2012) |
+| other, ZMK | замбийской квачи (1968–2012) |
+| , ZMW | замбийская квача |
+| one, ZMW | замбийская квача |
+| few, ZMW | замбийские квачи |
+| many, ZMW | замбийских квач |
+| other, ZMW | замбийской квачи |
+| , ZMW symbol | ZMW |
+| narrow, ZMW symbol | ZK |
+| , ZRN | Новый заир |
+| , ZRZ | Заир |
+| , ZWD | Доллар Зимбабве |
+| , ZWL | Доллар Зимбабве (2009) |
+
 Other stuff:
-⩾{0}{0}–{1}
+
+| atLeast,  | `⩾{0}` |
+| range,  | `{0}–{1}` |
+
 Examples:
-| one example | из {0} книги за {0} день |
-| few example | из {0} книг за {0} дня |
-| many example | из {0} книг за {0} дней |
-| other example | из {0} книги за {0} дня |
-Сверните направо на {0}-м перекрестке.
+
+| plural one example | из {0} книги за {0} день |
+| plural few example | из {0} книг за {0} дня |
+| plural many example | из {0} книг за {0} дней |
+| plural other example | из {0} книги за {0} дня |
+| ordinal  example | Сверните направо на {0}-м перекрестке. |
+
 ## Units
+
 | Code | Name |
 | ---- | ---- |
 | Compound pattern  | {0}/{1} |
-| acceleration-g-force | ... |
-|  | ускорение свободного падения |
-| one | {0} g |
-| few | {0} g |
-| many | {0} g |
-| other | {0} g |
-| acceleration-meter-per-second-squared | ... |
-|  | метры в секунду в квадрате |
-| one | {0} метр в секунду в квадрате |
-| few | {0} метра в секунду в квадрате |
-| many | {0} метров в секунду в квадрате |
-| other | {0} метра в секунду в квадрате |
-| angle-revolution | ... |
-|  | оборот |
-| one | {0} оборот |
-| few | {0} оборота |
-| many | {0} оборотов |
-| other | {0} оборота |
-| angle-radian | ... |
-|  | радианы |
-| one | {0} радиан |
-| few | {0} радиана |
-| many | {0} радиан |
-| other | {0} радиана |
-| angle-degree | ... |
-|  | градусы |
-| one | {0} градус |
-| few | {0} градуса |
-| many | {0} градусов |
-| other | {0} градуса |
-| angle-arc-minute | ... |
-|  | минуты |
-| one | {0} минута |
-| few | {0} минуты |
-| many | {0} минут |
-| other | {0} минуты |
-| angle-arc-second | ... |
-|  | секунды |
-| one | {0} секунда |
-| few | {0} секунды |
-| many | {0} секунд |
-| other | {0} секунды |
-| area-square-kilometer | ... |
-|  | квадратные километры |
-| one | {0} квадратный километр |
-| few | {0} квадратных километра |
-| many | {0} квадратных километров |
-| other | {0} квадратного километра |
-{0} на квадратный километр
-| area-hectare | ... |
-|  | гектары |
-| one | {0} гектар |
-| few | {0} гектара |
-| many | {0} гектаров |
-| other | {0} гектара |
-| area-square-meter | ... |
-|  | квадратные метры |
-| one | {0} квадратный метр |
-| few | {0} квадратных метра |
-| many | {0} квадратных метров |
-| other | {0} квадратного метра |
-{0} на квадратный метр
-| area-square-centimeter | ... |
-|  | квадратные сантиметры |
-| one | {0} квадратный сантиметр |
-| few | {0} квадратных сантиметра |
-| many | {0} квадратных сантиметров |
-| other | {0} квадратного сантиметра |
-{0} на квадратный сантиметр
-| area-square-mile | ... |
-|  | квадратные мили |
-| one | {0} квадратная миля |
-| few | {0} квадратные мили |
-| many | {0} квадратных миль |
-| other | {0} квадратной мили |
-{0} на квадратную милю
-| area-acre | ... |
-|  | акры |
-| one | {0} акр |
-| few | {0} акра |
-| many | {0} акров |
-| other | {0} акра |
-| area-square-yard | ... |
-|  | квадратные ярды |
-| one | {0} квадратный ярд |
-| few | {0} квадратных ярда |
-| many | {0} квадратных ярдов |
-| other | {0} квадратного ярда |
-| area-square-foot | ... |
-|  | квадратные футы |
-| one | {0} квадратный фут |
-| few | {0} квадратных фута |
-| many | {0} квадратных футов |
-| other | {0} квадратного фута |
-| area-square-inch | ... |
-|  | квадратные дюймы |
-| one | {0} квадратный дюйм |
-| few | {0} квадратных дюйма |
-| many | {0} квадратных дюймов |
-| other | {0} квадратного дюйма |
-{0} на квадратный дюйм
-| concentr-karat | ... |
-|  | караты |
-| one | {0} карат |
-| few | {0} карата |
-| many | {0} карат |
-| other | {0} карата |
-| concentr-milligram-per-deciliter | ... |
-|  | миллиграммы на децилитр |
-| one | {0} миллиграмм на децилитр |
-| few | {0} миллиграмма на децилитр |
-| many | {0} миллиграммов на децилитр |
-| other | {0} миллиграмма на децилитр |
-| concentr-millimole-per-liter | ... |
-|  | миллимоли на литр |
-| one | {0} миллимоль на литр |
-| few | {0} миллимоля на литр |
-| many | {0} миллимолей на литр |
-| other | {0} миллимоля на литр |
-| concentr-part-per-million | ... |
-|  | миллионные доли |
-| one | {0} миллионная доля |
-| few | {0} миллионные доли |
-| many | {0} миллионных долей |
-| other | {0} миллионной доли |
-| consumption-liter-per-kilometer | ... |
-|  | литры на километр |
-| one | {0} литр на километр |
-| few | {0} литра на километр |
-| many | {0} литров на километр |
-| other | {0} литра на километр |
-| consumption-liter-per-100kilometers | ... |
-|  | литры на 100 километров |
-| one | {0} литр на 100 километров |
-| few | {0} литра на 100 километров |
-| many | {0} литров на 100 километров |
-| other | {0} литра на 100 километров |
-| consumption-mile-per-gallon | ... |
-|  | мили на галлон |
-| one | {0} миля на галлон |
-| few | {0} мили на галлон |
-| many | {0} миль на галлон |
-| other | {0} мили на галлон |
-| consumption-mile-per-gallon-imperial | ... |
-|  | мили на имп. галлон |
-| one | {0} миля на имп. галлон |
-| few | {0} мили на имп. галлон |
-| many | {0} миль на имп. галлон |
-| other | {0} мили на имп. галлон |
-| digital-terabyte | ... |
-|  | терабайты |
-| one | {0} терабайт |
-| few | {0} терабайта |
-| many | {0} терабайт |
-| other | {0} терабайта |
-| digital-terabit | ... |
-|  | терабиты |
-| one | {0} терабит |
-| few | {0} терабита |
-| many | {0} терабит |
-| other | {0} терабита |
-| digital-gigabyte | ... |
-|  | гигабайты |
-| one | {0} гигабайт |
-| few | {0} гигабайта |
-| many | {0} гигабайт |
-| other | {0} гигабайта |
-| digital-gigabit | ... |
-|  | гигабиты |
-| one | {0} гигабит |
-| few | {0} гигабита |
-| many | {0} гигабит |
-| other | {0} гигабита |
-| digital-megabyte | ... |
-|  | мегабайты |
-| one | {0} мегабайт |
-| few | {0} мегабайта |
-| many | {0} мегабайт |
-| other | {0} мегабайта |
-| digital-megabit | ... |
-|  | мегабиты |
-| one | {0} мегабит |
-| few | {0} мегабита |
-| many | {0} мегабит |
-| other | {0} мегабита |
-| digital-kilobyte | ... |
-|  | килобайты |
-| one | {0} килобайт |
-| few | {0} килобайта |
-| many | {0} килобайт |
-| other | {0} килобайта |
-| digital-kilobit | ... |
-|  | килобиты |
-| one | {0} килобит |
-| few | {0} килобита |
-| many | {0} килобит |
-| other | {0} килобита |
-| digital-byte | ... |
-|  | байты |
-| one | {0} байт |
-| few | {0} байта |
-| many | {0} байт |
-| other | {0} байта |
-| digital-bit | ... |
-|  | биты |
-| one | {0} бит |
-| few | {0} бита |
-| many | {0} бит |
-| other | {0} бита |
-| duration-century | ... |
-|  | века |
-| one | {0} век |
-| few | {0} века |
-| many | {0} веков |
-| other | {0} века |
-| duration-year | ... |
-|  | годы |
-| one | {0} год |
-| few | {0} года |
-| many | {0} лет |
-| other | {0} года |
-{0} в год
-| duration-month | ... |
-|  | месяцы |
-| one | {0} месяц |
-| few | {0} месяца |
-| many | {0} месяцев |
-| other | {0} месяца |
-{0} в месяц
-| duration-week | ... |
-|  | недели |
-| one | {0} неделя |
-| few | {0} недели |
-| many | {0} недель |
-| other | {0} недели |
-{0} в неделю
-| duration-day | ... |
-|  | дни |
-| one | {0} день |
-| few | {0} дня |
-| many | {0} дней |
-| other | {0} дня |
-{0} в день
-| duration-hour | ... |
-|  | часы |
-| one | {0} час |
-| few | {0} часа |
-| many | {0} часов |
-| other | {0} часа |
-{0} в час
-| duration-minute | ... |
-|  | минуты |
-| one | {0} минута |
-| few | {0} минуты |
-| many | {0} минут |
-| other | {0} минуты |
-{0} в минуту
-| duration-second | ... |
-|  | секунды |
-| one | {0} секунда |
-| few | {0} секунды |
-| many | {0} секунд |
-| other | {0} секунды |
-{0} в секунду
-| duration-millisecond | ... |
-|  | миллисекунды |
-| one | {0} миллисекунда |
-| few | {0} миллисекунды |
-| many | {0} миллисекунд |
-| other | {0} миллисекунды |
-| duration-microsecond | ... |
-|  | микросекунды |
-| one | {0} микросекунда |
-| few | {0} микросекунды |
-| many | {0} микросекунд |
-| other | {0} микросекунды |
-| duration-nanosecond | ... |
-|  | наносекунды |
-| one | {0} наносекунда |
-| few | {0} наносекунды |
-| many | {0} наносекунд |
-| other | {0} наносекунды |
-| electric-ampere | ... |
-|  | амперы |
-| one | {0} ампер |
-| few | {0} ампера |
-| many | {0} ампер |
-| other | {0} ампера |
-| electric-milliampere | ... |
-|  | миллиамперы |
-| one | {0} миллиампер |
-| few | {0} миллиампера |
-| many | {0} миллиампер |
-| other | {0} миллиампера |
-| electric-ohm | ... |
-|  | омы |
-| one | {0} ом |
-| few | {0} ома |
-| many | {0} ом |
-| other | {0} ома |
-| electric-volt | ... |
-|  | вольты |
-| one | {0} вольт |
-| few | {0} вольта |
-| many | {0} вольт |
-| other | {0} вольта |
-| energy-kilocalorie | ... |
-|  | килокалории |
-| one | {0} килокалория |
-| few | {0} килокалории |
-| many | {0} килокалорий |
-| other | {0} килокалории |
-| energy-calorie | ... |
-|  | калории |
-| one | {0} калория |
-| few | {0} калории |
-| many | {0} калорий |
-| other | {0} калории |
-| energy-foodcalorie | ... |
-|  | калории |
-| one | {0} калория |
-| few | {0} калории |
-| many | {0} калорий |
-| other | {0} калории |
-| energy-kilojoule | ... |
-|  | килоджоули |
-| one | {0} килоджоуль |
-| few | {0} килоджоуля |
-| many | {0} килоджоулей |
-| other | {0} килоджоуля |
-| energy-joule | ... |
-|  | джоули |
-| one | {0} джоуль |
-| few | {0} джоуля |
-| many | {0} джоулей |
-| other | {0} джоуля |
-| energy-kilowatt-hour | ... |
-|  | киловатт-часы |
-| one | {0} киловатт-час |
-| few | {0} киловатт-часа |
-| many | {0} киловатт-часов |
-| other | {0} киловатт-часа |
-| frequency-gigahertz | ... |
-|  | гигагерцы |
-| one | {0} гигагерц |
-| few | {0} гигагерца |
-| many | {0} гигагерц |
-| other | {0} гигагерца |
-| frequency-megahertz | ... |
-|  | мегагерцы |
-| one | {0} мегагерц |
-| few | {0} мегагерца |
-| many | {0} мегагерц |
-| other | {0} мегагерца |
-| frequency-kilohertz | ... |
-|  | килогерцы |
-| one | {0} килогерц |
-| few | {0} килогерца |
-| many | {0} килогерц |
-| other | {0} килогерца |
-| frequency-hertz | ... |
-|  | герцы |
-| one | {0} герц |
-| few | {0} герца |
-| many | {0} герц |
-| other | {0} герца |
-| length-kilometer | ... |
-|  | километры |
-| one | {0} километр |
-| few | {0} километра |
-| many | {0} километров |
-| other | {0} километра |
-{0} на километр
-| length-meter | ... |
-|  | метры |
-| one | {0} метр |
-| few | {0} метра |
-| many | {0} метров |
-| other | {0} метра |
-{0} на метр
-| length-decimeter | ... |
-|  | дециметры |
-| one | {0} дециметр |
-| few | {0} дециметра |
-| many | {0} дециметров |
-| other | {0} дециметра |
-| length-centimeter | ... |
-|  | сантиметры |
-| one | {0} сантиметр |
-| few | {0} сантиметра |
-| many | {0} сантиметров |
-| other | {0} сантиметра |
-{0} на сантиметр
-| length-millimeter | ... |
-|  | миллиметры |
-| one | {0} миллиметр |
-| few | {0} миллиметра |
-| many | {0} миллиметров |
-| other | {0} миллиметра |
-| length-micrometer | ... |
-|  | микрометры |
-| one | {0} микрометр |
-| few | {0} микрометра |
-| many | {0} микрометров |
-| other | {0} микрометра |
-| length-nanometer | ... |
-|  | нанометры |
-| one | {0} нанометр |
-| few | {0} нанометра |
-| many | {0} нанометров |
-| other | {0} нанометра |
-| length-picometer | ... |
-|  | пикометры |
-| one | {0} пикометр |
-| few | {0} пикометра |
-| many | {0} пикометров |
-| other | {0} пикометра |
-| length-mile | ... |
-|  | мили |
-| one | {0} миля |
-| few | {0} мили |
-| many | {0} миль |
-| other | {0} мили |
-| length-yard | ... |
-|  | ярды |
-| one | {0} ярд |
-| few | {0} ярда |
-| many | {0} ярдов |
-| other | {0} ярда |
-| length-foot | ... |
-|  | футы |
-| one | {0} фут |
-| few | {0} фута |
-| many | {0} футов |
-| other | {0} фута |
-{0} на фут
-| length-inch | ... |
-|  | дюймы |
-| one | {0} дюйм |
-| few | {0} дюйма |
-| many | {0} дюймов |
-| other | {0} дюйма |
-{0} на дюйм
-| length-parsec | ... |
-|  | парсеки |
-| one | {0} парсек |
-| few | {0} парсека |
-| many | {0} парсеков |
-| other | {0} парсека |
-| length-light-year | ... |
-|  | световые годы |
-| one | {0} световой год |
-| few | {0} световых года |
-| many | {0} световых лет |
-| other | {0} светового года |
-| length-astronomical-unit | ... |
-|  | астрономические единицы |
-| one | {0} астрономическая единица |
-| few | {0} астрономические единицы |
-| many | {0} астрономических единиц |
-| other | {0} астрономической единицы |
-| length-furlong | ... |
-|  | фурлонги |
-| one | {0} фурлонг |
-| few | {0} фурлонга |
-| many | {0} фурлонгов |
-| other | {0} фурлонга |
-| length-fathom | ... |
-|  | морские сажени |
-| one | {0} морская сажень |
-| few | {0} морских сажени |
-| many | {0} морских саженей |
-| other | {0} морской сажени |
-| length-nautical-mile | ... |
-|  | морские мили |
-| one | {0} морская миля |
-| few | {0} морские мили |
-| many | {0} морских миль |
-| other | {0} морской мили |
-| length-mile-scandinavian | ... |
-|  | скандинавские мили |
-| one | {0} скандинавская миля |
-| few | {0} скандинавские мили |
-| many | {0} скандинавских миль |
-| other | {0} скандинавской мили |
-| length-point | ... |
-|  | пункты |
-| one | {0} пункт |
-| few | {0} пункта |
-| many | {0} пунктов |
-| other | {0} пункта |
-| light-lux | ... |
-|  | люксы |
-| one | {0} люкс |
-| few | {0} люкса |
-| many | {0} люкс |
-| other | {0} люкса |
-| mass-metric-ton | ... |
-|  | тонны |
-| one | {0} тонна |
-| few | {0} тонны |
-| many | {0} тонн |
-| other | {0} тонны |
-| mass-kilogram | ... |
-|  | килограммы |
-| one | {0} килограмм |
-| few | {0} килограмма |
-| many | {0} килограмм |
-| other | {0} килограмма |
-{0} на килограмм
-| mass-gram | ... |
-|  | граммы |
-| one | {0} грамм |
-| few | {0} грамма |
-| many | {0} грамм |
-| other | {0} грамма |
-{0} на грамм
-| mass-milligram | ... |
-|  | миллиграммы |
-| one | {0} миллиграмм |
-| few | {0} миллиграмма |
-| many | {0} миллиграммов |
-| other | {0} миллиграмма |
-| mass-microgram | ... |
-|  | микрограммы |
-| one | {0} микрограмм |
-| few | {0} микрограмма |
-| many | {0} микрограммов |
-| other | {0} микрограмма |
-| mass-ton | ... |
-|  | американские тонны |
-| one | {0} американская тонна |
-| few | {0} американские тонны |
-| many | {0} американских тонн |
-| other | {0} американской тонны |
-| mass-stone | ... |
-|  | стоуны |
-| one | {0} стоун |
-| few | {0} стоуна |
-| many | {0} стоунов |
-| other | {0} стоуна |
-| mass-pound | ... |
-|  | фунты |
-| one | {0} фунт |
-| few | {0} фунта |
-| many | {0} фунтов |
-| other | {0} фунта |
-{0} на фунт
-| mass-ounce | ... |
-|  | унции |
-| one | {0} унция |
-| few | {0} унции |
-| many | {0} унций |
-| other | {0} унции |
-{0} на унцию
-| mass-ounce-troy | ... |
-|  | тройские унции |
-| one | {0} тройская унция |
-| few | {0} тройские унции |
-| many | {0} тройских унций |
-| other | {0} тройской унции |
-| mass-carat | ... |
-|  | караты |
-| one | {0} карат |
-| few | {0} карата |
-| many | {0} карат |
-| other | {0} карата |
-| power-gigawatt | ... |
-|  | гигаватты |
-| one | {0} гигаватт |
-| few | {0} гигаватта |
-| many | {0} гигаватт |
-| other | {0} гигаватта |
-| power-megawatt | ... |
-|  | мегаватты |
-| one | {0} мегаватт |
-| few | {0} мегаватта |
-| many | {0} мегаватт |
-| other | {0} мегаватта |
-| power-kilowatt | ... |
-|  | киловатты |
-| one | {0} киловатт |
-| few | {0} киловатта |
-| many | {0} киловатт |
-| other | {0} киловатта |
-| power-watt | ... |
-|  | ватты |
-| one | {0} ватт |
-| few | {0} ватта |
-| many | {0} ватт |
-| other | {0} ватта |
-| power-milliwatt | ... |
-|  | милливатты |
-| one | {0} милливатт |
-| few | {0} милливатта |
-| many | {0} милливатт |
-| other | {0} милливатта |
-| power-horsepower | ... |
-|  | лошадиные силы |
-| one | {0} лошадиная сила |
-| few | {0} лошадиные силы |
-| many | {0} лошадиных сил |
-| other | {0} лошадиной силы |
-| pressure-hectopascal | ... |
-|  | гектопаскали |
-| one | {0} гектопаскаль |
-| few | {0} гектопаскаля |
-| many | {0} гектопаскалей |
-| other | {0} гектопаскаля |
-| pressure-millimeter-of-mercury | ... |
-|  | миллиметры ртутного столба |
-| one | {0} миллиметр ртутного столба |
-| few | {0} миллиметра ртутного столба |
-| many | {0} миллиметров ртутного столба |
-| other | {0} миллиметра ртутного столба |
-| pressure-pound-per-square-inch | ... |
-|  | фунты на квадратный дюйм |
-| one | {0} фунт на квадратный дюйм |
-| few | {0} фунта на квадратный дюйм |
-| many | {0} фунтов на квадратный дюйм |
-| other | {0} фунта на квадратный дюйм |
-| pressure-inch-hg | ... |
-|  | дюймы ртутного столба |
-| one | {0} дюйм ртутного столба |
-| few | {0} дюйма ртутного столба |
-| many | {0} дюймов ртутного столба |
-| other | {0} дюйма ртутного столба |
-| pressure-millibar | ... |
-|  | миллибары |
-| one | {0} миллибар |
-| few | {0} миллибара |
-| many | {0} миллибар |
-| other | {0} миллибара |
-| speed-kilometer-per-hour | ... |
-|  | километры в час |
-| one | {0} километр в час |
-| few | {0} километра в час |
-| many | {0} километров в час |
-| other | {0} километра в час |
-| speed-meter-per-second | ... |
-|  | метры в секунду |
-| one | {0} метр в секунду |
-| few | {0} метра в секундыу |
-| many | {0} метров в секунду |
-| other | {0} метра в секунду |
-| speed-mile-per-hour | ... |
-|  | мили в час |
-| one | {0} миля в час |
-| few | {0} мили в час |
-| many | {0} миль в час |
-| other | {0} мили в час |
-| speed-knot | ... |
-|  | узел |
-| one | {0} узел |
-| few | {0} узла |
-| many | {0} узлов |
-| other | {0} узла |
-| temperature-generic | ... |
-|  | ° |
-| one | {0}° |
-| few | {0}° |
-| many | {0}° |
-| other | {0}° |
-| temperature-celsius | ... |
-|  | градусы Цельсия |
-| one | {0} градус Цельсия |
-| few | {0} градуса Цельсия |
-| many | {0} градусов Цельсия |
-| other | {0} градуса Цельсия |
-| temperature-fahrenheit | ... |
-|  | градусы по Фаренгейту |
-| one | {0} градус по Фаренгейту |
-| few | {0} градуса по Фаренгейту |
-| many | {0} градусов по Фаренгейту |
-| other | {0} градуса по Фаренгейту |
-| temperature-kelvin | ... |
-|  | градусы по Кельвину |
-| one | {0} градус по Кельвину |
-| few | {0} градуса по Кельвину |
-| many | {0} градусов по Кельвину |
-| other | {0} градуса по Кельвину |
-| volume-cubic-kilometer | ... |
-|  | кубические километры |
-| one | {0} кубический километр |
-| few | {0} кубических километра |
-| many | {0} кубических километров |
-| other | {0} кубического километра |
-| volume-cubic-meter | ... |
-|  | кубические метры |
-| one | {0} кубический метр |
-| few | {0} кубических метра |
-| many | {0} кубических метров |
-| other | {0} кубического метра |
-{0} на кубический метр
-| volume-cubic-centimeter | ... |
-|  | кубические сантиметры |
-| one | {0} кубический сантиметр |
-| few | {0} кубических сантиметра |
-| many | {0} кубических сантиметров |
-| other | {0} кубического сантиметра |
-{0} на кубический сантиметр
-| volume-cubic-mile | ... |
-|  | кубические мили |
-| one | {0} кубическая миля |
-| few | {0} кубические мили |
-| many | {0} кубических миль |
-| other | {0} кубической мили |
-| volume-cubic-yard | ... |
-|  | кубические ярды |
-| one | {0} кубический ярд |
-| few | {0} кубических ярда |
-| many | {0} кубических ярдов |
-| other | {0} кубического ярда |
-| volume-cubic-foot | ... |
-|  | кубические футы |
-| one | {0} кубический фут |
-| few | {0} кубических фута |
-| many | {0} кубических футов |
-| other | {0} кубического фута |
-| volume-cubic-inch | ... |
-|  | кубические дюймы |
-| one | {0} кубический дюйм |
-| few | {0} кубических дюйма |
-| many | {0} кубических дюймов |
-| other | {0} кубического дюйма |
-| volume-megaliter | ... |
-|  | мегалитры |
-| one | {0} мегалитр |
-| few | {0} мегалитра |
-| many | {0} мегалитров |
-| other | {0} мегалитра |
-| volume-hectoliter | ... |
-|  | гектолитры |
-| one | {0} гектолитр |
-| few | {0} гектолитра |
-| many | {0} гектолитров |
-| other | {0} гектолитра |
-| volume-liter | ... |
-|  | литры |
-| one | {0} литр |
-| few | {0} литра |
-| many | {0} литров |
-| other | {0} литра |
-{0} на литр
-| volume-deciliter | ... |
-|  | децилитры |
-| one | {0} децилитр |
-| few | {0} децилитра |
-| many | {0} децилитров |
-| other | {0} децилитра |
-| volume-centiliter | ... |
-|  | сантилитры |
-| one | {0} сантилитр |
-| few | {0} сантилитра |
-| many | {0} сантилитров |
-| other | {0} сантилитра |
-| volume-milliliter | ... |
-|  | миллилитры |
-| one | {0} миллилитр |
-| few | {0} миллилитра |
-| many | {0} миллилитров |
-| other | {0} миллилитра |
-| volume-pint-metric | ... |
-|  | метрические пинты |
-| one | {0} метрическая пинта |
-| few | {0} метрические пинты |
-| many | {0} метрических пинт |
-| other | {0} метрической пинты |
-| volume-cup-metric | ... |
-|  | метрические чашки |
-| one | {0} метрическая чашка |
-| few | {0} метрические чашки |
-| many | {0} метрических чашек |
-| other | {0} метрической чашки |
-| volume-acre-foot | ... |
-|  | акрофуты |
-| one | {0} акрофут |
-| few | {0} акрофута |
-| many | {0} акрофутов |
-| other | {0} акрофута |
-| volume-gallon | ... |
-|  | галлоны |
-| one | {0} галлон |
-| few | {0} галлона |
-| many | {0} галлонов |
-| other | {0} галлона |
-{0} на галлон
-| volume-gallon-imperial | ... |
-|  | имп. галлоны |
-| one | {0} имп. галлон |
-| few | {0} имп. галлона |
-| many | {0} имп. галлонов |
-| other | {0} имп. галлона |
-{0} на имп. галлон
-| volume-quart | ... |
-|  | кварты |
-| one | {0} кварта |
-| few | {0} кварты |
-| many | {0} кварт |
-| other | {0} кварты |
-| volume-pint | ... |
-|  | пинты |
-| one | {0} пинта |
-| few | {0} пинты |
-| many | {0} пинт |
-| other | {0} пинты |
-| volume-cup | ... |
-|  | чашки |
-| one | {0} чашка |
-| few | {0} чашки |
-| many | {0} чашек |
-| other | {0} чашки |
-| volume-fluid-ounce | ... |
-|  | жидкие унции |
-| one | {0} жидкая унция |
-| few | {0} жидкие унции |
-| many | {0} жидких унций |
-| other | {0} жидкой унции |
-| volume-tablespoon | ... |
-|  | столовые ложки |
-| one | {0} столовая ложка |
-| few | {0} столовые ложки |
-| many | {0} столовых ложек |
-| other | {0} столовой ложки |
-| volume-teaspoon | ... |
-|  | чайные ложки |
-| one | {0} чайная ложка |
-| few | {0} чайные ложки |
-| many | {0} чайных ложек |
-| other | {0} чайной ложки |
-{0} восточной долготы{0} северной широты{0} южной широты{0} западной долготы
+| acceleration-g-force | ↴ |
+| , acceleration-g-force | ускорение свободного падения |
+| one, acceleration-g-force | {0} g |
+| few, acceleration-g-force | {0} g |
+| many, acceleration-g-force | {0} g |
+| other, acceleration-g-force | {0} g |
+| acceleration-meter-per-second-squared | ↴ |
+| , acceleration-meter-per-second-squared | метры в секунду в квадрате |
+| one, acceleration-meter-per-second-squared | {0} метр в секунду в квадрате |
+| few, acceleration-meter-per-second-squared | {0} метра в секунду в квадрате |
+| many, acceleration-meter-per-second-squared | {0} метров в секунду в квадрате |
+| other, acceleration-meter-per-second-squared | {0} метра в секунду в квадрате |
+| angle-revolution | ↴ |
+| , angle-revolution | оборот |
+| one, angle-revolution | {0} оборот |
+| few, angle-revolution | {0} оборота |
+| many, angle-revolution | {0} оборотов |
+| other, angle-revolution | {0} оборота |
+| angle-radian | ↴ |
+| , angle-radian | радианы |
+| one, angle-radian | {0} радиан |
+| few, angle-radian | {0} радиана |
+| many, angle-radian | {0} радиан |
+| other, angle-radian | {0} радиана |
+| angle-degree | ↴ |
+| , angle-degree | градусы |
+| one, angle-degree | {0} градус |
+| few, angle-degree | {0} градуса |
+| many, angle-degree | {0} градусов |
+| other, angle-degree | {0} градуса |
+| angle-arc-minute | ↴ |
+| , angle-arc-minute | минуты |
+| one, angle-arc-minute | {0} минута |
+| few, angle-arc-minute | {0} минуты |
+| many, angle-arc-minute | {0} минут |
+| other, angle-arc-minute | {0} минуты |
+| angle-arc-second | ↴ |
+| , angle-arc-second | секунды |
+| one, angle-arc-second | {0} секунда |
+| few, angle-arc-second | {0} секунды |
+| many, angle-arc-second | {0} секунд |
+| other, angle-arc-second | {0} секунды |
+| area-square-kilometer | ↴ |
+| , area-square-kilometer | квадратные километры |
+| one, area-square-kilometer | {0} квадратный километр |
+| few, area-square-kilometer | {0} квадратных километра |
+| many, area-square-kilometer | {0} квадратных километров |
+| other, area-square-kilometer | {0} квадратного километра |
+| per units of area-square-kilometer | {0} на квадратный километр |
+| area-hectare | ↴ |
+| , area-hectare | гектары |
+| one, area-hectare | {0} гектар |
+| few, area-hectare | {0} гектара |
+| many, area-hectare | {0} гектаров |
+| other, area-hectare | {0} гектара |
+| area-square-meter | ↴ |
+| , area-square-meter | квадратные метры |
+| one, area-square-meter | {0} квадратный метр |
+| few, area-square-meter | {0} квадратных метра |
+| many, area-square-meter | {0} квадратных метров |
+| other, area-square-meter | {0} квадратного метра |
+| per units of area-square-meter | {0} на квадратный метр |
+| area-square-centimeter | ↴ |
+| , area-square-centimeter | квадратные сантиметры |
+| one, area-square-centimeter | {0} квадратный сантиметр |
+| few, area-square-centimeter | {0} квадратных сантиметра |
+| many, area-square-centimeter | {0} квадратных сантиметров |
+| other, area-square-centimeter | {0} квадратного сантиметра |
+| per units of area-square-centimeter | {0} на квадратный сантиметр |
+| area-square-mile | ↴ |
+| , area-square-mile | квадратные мили |
+| one, area-square-mile | {0} квадратная миля |
+| few, area-square-mile | {0} квадратные мили |
+| many, area-square-mile | {0} квадратных миль |
+| other, area-square-mile | {0} квадратной мили |
+| per units of area-square-mile | {0} на квадратную милю |
+| area-acre | ↴ |
+| , area-acre | акры |
+| one, area-acre | {0} акр |
+| few, area-acre | {0} акра |
+| many, area-acre | {0} акров |
+| other, area-acre | {0} акра |
+| area-square-yard | ↴ |
+| , area-square-yard | квадратные ярды |
+| one, area-square-yard | {0} квадратный ярд |
+| few, area-square-yard | {0} квадратных ярда |
+| many, area-square-yard | {0} квадратных ярдов |
+| other, area-square-yard | {0} квадратного ярда |
+| area-square-foot | ↴ |
+| , area-square-foot | квадратные футы |
+| one, area-square-foot | {0} квадратный фут |
+| few, area-square-foot | {0} квадратных фута |
+| many, area-square-foot | {0} квадратных футов |
+| other, area-square-foot | {0} квадратного фута |
+| area-square-inch | ↴ |
+| , area-square-inch | квадратные дюймы |
+| one, area-square-inch | {0} квадратный дюйм |
+| few, area-square-inch | {0} квадратных дюйма |
+| many, area-square-inch | {0} квадратных дюймов |
+| other, area-square-inch | {0} квадратного дюйма |
+| per units of area-square-inch | {0} на квадратный дюйм |
+| concentr-karat | ↴ |
+| , concentr-karat | караты |
+| one, concentr-karat | {0} карат |
+| few, concentr-karat | {0} карата |
+| many, concentr-karat | {0} карат |
+| other, concentr-karat | {0} карата |
+| concentr-milligram-per-deciliter | ↴ |
+| , concentr-milligram-per-deciliter | миллиграммы на децилитр |
+| one, concentr-milligram-per-deciliter | {0} миллиграмм на децилитр |
+| few, concentr-milligram-per-deciliter | {0} миллиграмма на децилитр |
+| many, concentr-milligram-per-deciliter | {0} миллиграммов на децилитр |
+| other, concentr-milligram-per-deciliter | {0} миллиграмма на децилитр |
+| concentr-millimole-per-liter | ↴ |
+| , concentr-millimole-per-liter | миллимоли на литр |
+| one, concentr-millimole-per-liter | {0} миллимоль на литр |
+| few, concentr-millimole-per-liter | {0} миллимоля на литр |
+| many, concentr-millimole-per-liter | {0} миллимолей на литр |
+| other, concentr-millimole-per-liter | {0} миллимоля на литр |
+| concentr-part-per-million | ↴ |
+| , concentr-part-per-million | миллионные доли |
+| one, concentr-part-per-million | {0} миллионная доля |
+| few, concentr-part-per-million | {0} миллионные доли |
+| many, concentr-part-per-million | {0} миллионных долей |
+| other, concentr-part-per-million | {0} миллионной доли |
+| consumption-liter-per-kilometer | ↴ |
+| , consumption-liter-per-kilometer | литры на километр |
+| one, consumption-liter-per-kilometer | {0} литр на километр |
+| few, consumption-liter-per-kilometer | {0} литра на километр |
+| many, consumption-liter-per-kilometer | {0} литров на километр |
+| other, consumption-liter-per-kilometer | {0} литра на километр |
+| consumption-liter-per-100kilometers | ↴ |
+| , consumption-liter-per-100kilometers | литры на 100 километров |
+| one, consumption-liter-per-100kilometers | {0} литр на 100 километров |
+| few, consumption-liter-per-100kilometers | {0} литра на 100 километров |
+| many, consumption-liter-per-100kilometers | {0} литров на 100 километров |
+| other, consumption-liter-per-100kilometers | {0} литра на 100 километров |
+| consumption-mile-per-gallon | ↴ |
+| , consumption-mile-per-gallon | мили на галлон |
+| one, consumption-mile-per-gallon | {0} миля на галлон |
+| few, consumption-mile-per-gallon | {0} мили на галлон |
+| many, consumption-mile-per-gallon | {0} миль на галлон |
+| other, consumption-mile-per-gallon | {0} мили на галлон |
+| consumption-mile-per-gallon-imperial | ↴ |
+| , consumption-mile-per-gallon-imperial | мили на имп. галлон |
+| one, consumption-mile-per-gallon-imperial | {0} миля на имп. галлон |
+| few, consumption-mile-per-gallon-imperial | {0} мили на имп. галлон |
+| many, consumption-mile-per-gallon-imperial | {0} миль на имп. галлон |
+| other, consumption-mile-per-gallon-imperial | {0} мили на имп. галлон |
+| digital-terabyte | ↴ |
+| , digital-terabyte | терабайты |
+| one, digital-terabyte | {0} терабайт |
+| few, digital-terabyte | {0} терабайта |
+| many, digital-terabyte | {0} терабайт |
+| other, digital-terabyte | {0} терабайта |
+| digital-terabit | ↴ |
+| , digital-terabit | терабиты |
+| one, digital-terabit | {0} терабит |
+| few, digital-terabit | {0} терабита |
+| many, digital-terabit | {0} терабит |
+| other, digital-terabit | {0} терабита |
+| digital-gigabyte | ↴ |
+| , digital-gigabyte | гигабайты |
+| one, digital-gigabyte | {0} гигабайт |
+| few, digital-gigabyte | {0} гигабайта |
+| many, digital-gigabyte | {0} гигабайт |
+| other, digital-gigabyte | {0} гигабайта |
+| digital-gigabit | ↴ |
+| , digital-gigabit | гигабиты |
+| one, digital-gigabit | {0} гигабит |
+| few, digital-gigabit | {0} гигабита |
+| many, digital-gigabit | {0} гигабит |
+| other, digital-gigabit | {0} гигабита |
+| digital-megabyte | ↴ |
+| , digital-megabyte | мегабайты |
+| one, digital-megabyte | {0} мегабайт |
+| few, digital-megabyte | {0} мегабайта |
+| many, digital-megabyte | {0} мегабайт |
+| other, digital-megabyte | {0} мегабайта |
+| digital-megabit | ↴ |
+| , digital-megabit | мегабиты |
+| one, digital-megabit | {0} мегабит |
+| few, digital-megabit | {0} мегабита |
+| many, digital-megabit | {0} мегабит |
+| other, digital-megabit | {0} мегабита |
+| digital-kilobyte | ↴ |
+| , digital-kilobyte | килобайты |
+| one, digital-kilobyte | {0} килобайт |
+| few, digital-kilobyte | {0} килобайта |
+| many, digital-kilobyte | {0} килобайт |
+| other, digital-kilobyte | {0} килобайта |
+| digital-kilobit | ↴ |
+| , digital-kilobit | килобиты |
+| one, digital-kilobit | {0} килобит |
+| few, digital-kilobit | {0} килобита |
+| many, digital-kilobit | {0} килобит |
+| other, digital-kilobit | {0} килобита |
+| digital-byte | ↴ |
+| , digital-byte | байты |
+| one, digital-byte | {0} байт |
+| few, digital-byte | {0} байта |
+| many, digital-byte | {0} байт |
+| other, digital-byte | {0} байта |
+| digital-bit | ↴ |
+| , digital-bit | биты |
+| one, digital-bit | {0} бит |
+| few, digital-bit | {0} бита |
+| many, digital-bit | {0} бит |
+| other, digital-bit | {0} бита |
+| duration-century | ↴ |
+| , duration-century | века |
+| one, duration-century | {0} век |
+| few, duration-century | {0} века |
+| many, duration-century | {0} веков |
+| other, duration-century | {0} века |
+| duration-year | ↴ |
+| , duration-year | годы |
+| one, duration-year | {0} год |
+| few, duration-year | {0} года |
+| many, duration-year | {0} лет |
+| other, duration-year | {0} года |
+| per units of duration-year | {0} в год |
+| duration-month | ↴ |
+| , duration-month | месяцы |
+| one, duration-month | {0} месяц |
+| few, duration-month | {0} месяца |
+| many, duration-month | {0} месяцев |
+| other, duration-month | {0} месяца |
+| per units of duration-month | {0} в месяц |
+| duration-week | ↴ |
+| , duration-week | недели |
+| one, duration-week | {0} неделя |
+| few, duration-week | {0} недели |
+| many, duration-week | {0} недель |
+| other, duration-week | {0} недели |
+| per units of duration-week | {0} в неделю |
+| duration-day | ↴ |
+| , duration-day | дни |
+| one, duration-day | {0} день |
+| few, duration-day | {0} дня |
+| many, duration-day | {0} дней |
+| other, duration-day | {0} дня |
+| per units of duration-day | {0} в день |
+| duration-hour | ↴ |
+| , duration-hour | часы |
+| one, duration-hour | {0} час |
+| few, duration-hour | {0} часа |
+| many, duration-hour | {0} часов |
+| other, duration-hour | {0} часа |
+| per units of duration-hour | {0} в час |
+| duration-minute | ↴ |
+| , duration-minute | минуты |
+| one, duration-minute | {0} минута |
+| few, duration-minute | {0} минуты |
+| many, duration-minute | {0} минут |
+| other, duration-minute | {0} минуты |
+| per units of duration-minute | {0} в минуту |
+| duration-second | ↴ |
+| , duration-second | секунды |
+| one, duration-second | {0} секунда |
+| few, duration-second | {0} секунды |
+| many, duration-second | {0} секунд |
+| other, duration-second | {0} секунды |
+| per units of duration-second | {0} в секунду |
+| duration-millisecond | ↴ |
+| , duration-millisecond | миллисекунды |
+| one, duration-millisecond | {0} миллисекунда |
+| few, duration-millisecond | {0} миллисекунды |
+| many, duration-millisecond | {0} миллисекунд |
+| other, duration-millisecond | {0} миллисекунды |
+| duration-microsecond | ↴ |
+| , duration-microsecond | микросекунды |
+| one, duration-microsecond | {0} микросекунда |
+| few, duration-microsecond | {0} микросекунды |
+| many, duration-microsecond | {0} микросекунд |
+| other, duration-microsecond | {0} микросекунды |
+| duration-nanosecond | ↴ |
+| , duration-nanosecond | наносекунды |
+| one, duration-nanosecond | {0} наносекунда |
+| few, duration-nanosecond | {0} наносекунды |
+| many, duration-nanosecond | {0} наносекунд |
+| other, duration-nanosecond | {0} наносекунды |
+| electric-ampere | ↴ |
+| , electric-ampere | амперы |
+| one, electric-ampere | {0} ампер |
+| few, electric-ampere | {0} ампера |
+| many, electric-ampere | {0} ампер |
+| other, electric-ampere | {0} ампера |
+| electric-milliampere | ↴ |
+| , electric-milliampere | миллиамперы |
+| one, electric-milliampere | {0} миллиампер |
+| few, electric-milliampere | {0} миллиампера |
+| many, electric-milliampere | {0} миллиампер |
+| other, electric-milliampere | {0} миллиампера |
+| electric-ohm | ↴ |
+| , electric-ohm | омы |
+| one, electric-ohm | {0} ом |
+| few, electric-ohm | {0} ома |
+| many, electric-ohm | {0} ом |
+| other, electric-ohm | {0} ома |
+| electric-volt | ↴ |
+| , electric-volt | вольты |
+| one, electric-volt | {0} вольт |
+| few, electric-volt | {0} вольта |
+| many, electric-volt | {0} вольт |
+| other, electric-volt | {0} вольта |
+| energy-kilocalorie | ↴ |
+| , energy-kilocalorie | килокалории |
+| one, energy-kilocalorie | {0} килокалория |
+| few, energy-kilocalorie | {0} килокалории |
+| many, energy-kilocalorie | {0} килокалорий |
+| other, energy-kilocalorie | {0} килокалории |
+| energy-calorie | ↴ |
+| , energy-calorie | калории |
+| one, energy-calorie | {0} калория |
+| few, energy-calorie | {0} калории |
+| many, energy-calorie | {0} калорий |
+| other, energy-calorie | {0} калории |
+| energy-foodcalorie | ↴ |
+| , energy-foodcalorie | калории |
+| one, energy-foodcalorie | {0} калория |
+| few, energy-foodcalorie | {0} калории |
+| many, energy-foodcalorie | {0} калорий |
+| other, energy-foodcalorie | {0} калории |
+| energy-kilojoule | ↴ |
+| , energy-kilojoule | килоджоули |
+| one, energy-kilojoule | {0} килоджоуль |
+| few, energy-kilojoule | {0} килоджоуля |
+| many, energy-kilojoule | {0} килоджоулей |
+| other, energy-kilojoule | {0} килоджоуля |
+| energy-joule | ↴ |
+| , energy-joule | джоули |
+| one, energy-joule | {0} джоуль |
+| few, energy-joule | {0} джоуля |
+| many, energy-joule | {0} джоулей |
+| other, energy-joule | {0} джоуля |
+| energy-kilowatt-hour | ↴ |
+| , energy-kilowatt-hour | киловатт-часы |
+| one, energy-kilowatt-hour | {0} киловатт-час |
+| few, energy-kilowatt-hour | {0} киловатт-часа |
+| many, energy-kilowatt-hour | {0} киловатт-часов |
+| other, energy-kilowatt-hour | {0} киловатт-часа |
+| frequency-gigahertz | ↴ |
+| , frequency-gigahertz | гигагерцы |
+| one, frequency-gigahertz | {0} гигагерц |
+| few, frequency-gigahertz | {0} гигагерца |
+| many, frequency-gigahertz | {0} гигагерц |
+| other, frequency-gigahertz | {0} гигагерца |
+| frequency-megahertz | ↴ |
+| , frequency-megahertz | мегагерцы |
+| one, frequency-megahertz | {0} мегагерц |
+| few, frequency-megahertz | {0} мегагерца |
+| many, frequency-megahertz | {0} мегагерц |
+| other, frequency-megahertz | {0} мегагерца |
+| frequency-kilohertz | ↴ |
+| , frequency-kilohertz | килогерцы |
+| one, frequency-kilohertz | {0} килогерц |
+| few, frequency-kilohertz | {0} килогерца |
+| many, frequency-kilohertz | {0} килогерц |
+| other, frequency-kilohertz | {0} килогерца |
+| frequency-hertz | ↴ |
+| , frequency-hertz | герцы |
+| one, frequency-hertz | {0} герц |
+| few, frequency-hertz | {0} герца |
+| many, frequency-hertz | {0} герц |
+| other, frequency-hertz | {0} герца |
+| length-kilometer | ↴ |
+| , length-kilometer | километры |
+| one, length-kilometer | {0} километр |
+| few, length-kilometer | {0} километра |
+| many, length-kilometer | {0} километров |
+| other, length-kilometer | {0} километра |
+| per units of length-kilometer | {0} на километр |
+| length-meter | ↴ |
+| , length-meter | метры |
+| one, length-meter | {0} метр |
+| few, length-meter | {0} метра |
+| many, length-meter | {0} метров |
+| other, length-meter | {0} метра |
+| per units of length-meter | {0} на метр |
+| length-decimeter | ↴ |
+| , length-decimeter | дециметры |
+| one, length-decimeter | {0} дециметр |
+| few, length-decimeter | {0} дециметра |
+| many, length-decimeter | {0} дециметров |
+| other, length-decimeter | {0} дециметра |
+| length-centimeter | ↴ |
+| , length-centimeter | сантиметры |
+| one, length-centimeter | {0} сантиметр |
+| few, length-centimeter | {0} сантиметра |
+| many, length-centimeter | {0} сантиметров |
+| other, length-centimeter | {0} сантиметра |
+| per units of length-centimeter | {0} на сантиметр |
+| length-millimeter | ↴ |
+| , length-millimeter | миллиметры |
+| one, length-millimeter | {0} миллиметр |
+| few, length-millimeter | {0} миллиметра |
+| many, length-millimeter | {0} миллиметров |
+| other, length-millimeter | {0} миллиметра |
+| length-micrometer | ↴ |
+| , length-micrometer | микрометры |
+| one, length-micrometer | {0} микрометр |
+| few, length-micrometer | {0} микрометра |
+| many, length-micrometer | {0} микрометров |
+| other, length-micrometer | {0} микрометра |
+| length-nanometer | ↴ |
+| , length-nanometer | нанометры |
+| one, length-nanometer | {0} нанометр |
+| few, length-nanometer | {0} нанометра |
+| many, length-nanometer | {0} нанометров |
+| other, length-nanometer | {0} нанометра |
+| length-picometer | ↴ |
+| , length-picometer | пикометры |
+| one, length-picometer | {0} пикометр |
+| few, length-picometer | {0} пикометра |
+| many, length-picometer | {0} пикометров |
+| other, length-picometer | {0} пикометра |
+| length-mile | ↴ |
+| , length-mile | мили |
+| one, length-mile | {0} миля |
+| few, length-mile | {0} мили |
+| many, length-mile | {0} миль |
+| other, length-mile | {0} мили |
+| length-yard | ↴ |
+| , length-yard | ярды |
+| one, length-yard | {0} ярд |
+| few, length-yard | {0} ярда |
+| many, length-yard | {0} ярдов |
+| other, length-yard | {0} ярда |
+| length-foot | ↴ |
+| , length-foot | футы |
+| one, length-foot | {0} фут |
+| few, length-foot | {0} фута |
+| many, length-foot | {0} футов |
+| other, length-foot | {0} фута |
+| per units of length-foot | {0} на фут |
+| length-inch | ↴ |
+| , length-inch | дюймы |
+| one, length-inch | {0} дюйм |
+| few, length-inch | {0} дюйма |
+| many, length-inch | {0} дюймов |
+| other, length-inch | {0} дюйма |
+| per units of length-inch | {0} на дюйм |
+| length-parsec | ↴ |
+| , length-parsec | парсеки |
+| one, length-parsec | {0} парсек |
+| few, length-parsec | {0} парсека |
+| many, length-parsec | {0} парсеков |
+| other, length-parsec | {0} парсека |
+| length-light-year | ↴ |
+| , length-light-year | световые годы |
+| one, length-light-year | {0} световой год |
+| few, length-light-year | {0} световых года |
+| many, length-light-year | {0} световых лет |
+| other, length-light-year | {0} светового года |
+| length-astronomical-unit | ↴ |
+| , length-astronomical-unit | астрономические единицы |
+| one, length-astronomical-unit | {0} астрономическая единица |
+| few, length-astronomical-unit | {0} астрономические единицы |
+| many, length-astronomical-unit | {0} астрономических единиц |
+| other, length-astronomical-unit | {0} астрономической единицы |
+| length-furlong | ↴ |
+| , length-furlong | фурлонги |
+| one, length-furlong | {0} фурлонг |
+| few, length-furlong | {0} фурлонга |
+| many, length-furlong | {0} фурлонгов |
+| other, length-furlong | {0} фурлонга |
+| length-fathom | ↴ |
+| , length-fathom | морские сажени |
+| one, length-fathom | {0} морская сажень |
+| few, length-fathom | {0} морских сажени |
+| many, length-fathom | {0} морских саженей |
+| other, length-fathom | {0} морской сажени |
+| length-nautical-mile | ↴ |
+| , length-nautical-mile | морские мили |
+| one, length-nautical-mile | {0} морская миля |
+| few, length-nautical-mile | {0} морские мили |
+| many, length-nautical-mile | {0} морских миль |
+| other, length-nautical-mile | {0} морской мили |
+| length-mile-scandinavian | ↴ |
+| , length-mile-scandinavian | скандинавские мили |
+| one, length-mile-scandinavian | {0} скандинавская миля |
+| few, length-mile-scandinavian | {0} скандинавские мили |
+| many, length-mile-scandinavian | {0} скандинавских миль |
+| other, length-mile-scandinavian | {0} скандинавской мили |
+| length-point | ↴ |
+| , length-point | пункты |
+| one, length-point | {0} пункт |
+| few, length-point | {0} пункта |
+| many, length-point | {0} пунктов |
+| other, length-point | {0} пункта |
+| light-lux | ↴ |
+| , light-lux | люксы |
+| one, light-lux | {0} люкс |
+| few, light-lux | {0} люкса |
+| many, light-lux | {0} люкс |
+| other, light-lux | {0} люкса |
+| mass-metric-ton | ↴ |
+| , mass-metric-ton | тонны |
+| one, mass-metric-ton | {0} тонна |
+| few, mass-metric-ton | {0} тонны |
+| many, mass-metric-ton | {0} тонн |
+| other, mass-metric-ton | {0} тонны |
+| mass-kilogram | ↴ |
+| , mass-kilogram | килограммы |
+| one, mass-kilogram | {0} килограмм |
+| few, mass-kilogram | {0} килограмма |
+| many, mass-kilogram | {0} килограмм |
+| other, mass-kilogram | {0} килограмма |
+| per units of mass-kilogram | {0} на килограмм |
+| mass-gram | ↴ |
+| , mass-gram | граммы |
+| one, mass-gram | {0} грамм |
+| few, mass-gram | {0} грамма |
+| many, mass-gram | {0} грамм |
+| other, mass-gram | {0} грамма |
+| per units of mass-gram | {0} на грамм |
+| mass-milligram | ↴ |
+| , mass-milligram | миллиграммы |
+| one, mass-milligram | {0} миллиграмм |
+| few, mass-milligram | {0} миллиграмма |
+| many, mass-milligram | {0} миллиграммов |
+| other, mass-milligram | {0} миллиграмма |
+| mass-microgram | ↴ |
+| , mass-microgram | микрограммы |
+| one, mass-microgram | {0} микрограмм |
+| few, mass-microgram | {0} микрограмма |
+| many, mass-microgram | {0} микрограммов |
+| other, mass-microgram | {0} микрограмма |
+| mass-ton | ↴ |
+| , mass-ton | американские тонны |
+| one, mass-ton | {0} американская тонна |
+| few, mass-ton | {0} американские тонны |
+| many, mass-ton | {0} американских тонн |
+| other, mass-ton | {0} американской тонны |
+| mass-stone | ↴ |
+| , mass-stone | стоуны |
+| one, mass-stone | {0} стоун |
+| few, mass-stone | {0} стоуна |
+| many, mass-stone | {0} стоунов |
+| other, mass-stone | {0} стоуна |
+| mass-pound | ↴ |
+| , mass-pound | фунты |
+| one, mass-pound | {0} фунт |
+| few, mass-pound | {0} фунта |
+| many, mass-pound | {0} фунтов |
+| other, mass-pound | {0} фунта |
+| per units of mass-pound | {0} на фунт |
+| mass-ounce | ↴ |
+| , mass-ounce | унции |
+| one, mass-ounce | {0} унция |
+| few, mass-ounce | {0} унции |
+| many, mass-ounce | {0} унций |
+| other, mass-ounce | {0} унции |
+| per units of mass-ounce | {0} на унцию |
+| mass-ounce-troy | ↴ |
+| , mass-ounce-troy | тройские унции |
+| one, mass-ounce-troy | {0} тройская унция |
+| few, mass-ounce-troy | {0} тройские унции |
+| many, mass-ounce-troy | {0} тройских унций |
+| other, mass-ounce-troy | {0} тройской унции |
+| mass-carat | ↴ |
+| , mass-carat | караты |
+| one, mass-carat | {0} карат |
+| few, mass-carat | {0} карата |
+| many, mass-carat | {0} карат |
+| other, mass-carat | {0} карата |
+| power-gigawatt | ↴ |
+| , power-gigawatt | гигаватты |
+| one, power-gigawatt | {0} гигаватт |
+| few, power-gigawatt | {0} гигаватта |
+| many, power-gigawatt | {0} гигаватт |
+| other, power-gigawatt | {0} гигаватта |
+| power-megawatt | ↴ |
+| , power-megawatt | мегаватты |
+| one, power-megawatt | {0} мегаватт |
+| few, power-megawatt | {0} мегаватта |
+| many, power-megawatt | {0} мегаватт |
+| other, power-megawatt | {0} мегаватта |
+| power-kilowatt | ↴ |
+| , power-kilowatt | киловатты |
+| one, power-kilowatt | {0} киловатт |
+| few, power-kilowatt | {0} киловатта |
+| many, power-kilowatt | {0} киловатт |
+| other, power-kilowatt | {0} киловатта |
+| power-watt | ↴ |
+| , power-watt | ватты |
+| one, power-watt | {0} ватт |
+| few, power-watt | {0} ватта |
+| many, power-watt | {0} ватт |
+| other, power-watt | {0} ватта |
+| power-milliwatt | ↴ |
+| , power-milliwatt | милливатты |
+| one, power-milliwatt | {0} милливатт |
+| few, power-milliwatt | {0} милливатта |
+| many, power-milliwatt | {0} милливатт |
+| other, power-milliwatt | {0} милливатта |
+| power-horsepower | ↴ |
+| , power-horsepower | лошадиные силы |
+| one, power-horsepower | {0} лошадиная сила |
+| few, power-horsepower | {0} лошадиные силы |
+| many, power-horsepower | {0} лошадиных сил |
+| other, power-horsepower | {0} лошадиной силы |
+| pressure-hectopascal | ↴ |
+| , pressure-hectopascal | гектопаскали |
+| one, pressure-hectopascal | {0} гектопаскаль |
+| few, pressure-hectopascal | {0} гектопаскаля |
+| many, pressure-hectopascal | {0} гектопаскалей |
+| other, pressure-hectopascal | {0} гектопаскаля |
+| pressure-millimeter-of-mercury | ↴ |
+| , pressure-millimeter-of-mercury | миллиметры ртутного столба |
+| one, pressure-millimeter-of-mercury | {0} миллиметр ртутного столба |
+| few, pressure-millimeter-of-mercury | {0} миллиметра ртутного столба |
+| many, pressure-millimeter-of-mercury | {0} миллиметров ртутного столба |
+| other, pressure-millimeter-of-mercury | {0} миллиметра ртутного столба |
+| pressure-pound-per-square-inch | ↴ |
+| , pressure-pound-per-square-inch | фунты на квадратный дюйм |
+| one, pressure-pound-per-square-inch | {0} фунт на квадратный дюйм |
+| few, pressure-pound-per-square-inch | {0} фунта на квадратный дюйм |
+| many, pressure-pound-per-square-inch | {0} фунтов на квадратный дюйм |
+| other, pressure-pound-per-square-inch | {0} фунта на квадратный дюйм |
+| pressure-inch-hg | ↴ |
+| , pressure-inch-hg | дюймы ртутного столба |
+| one, pressure-inch-hg | {0} дюйм ртутного столба |
+| few, pressure-inch-hg | {0} дюйма ртутного столба |
+| many, pressure-inch-hg | {0} дюймов ртутного столба |
+| other, pressure-inch-hg | {0} дюйма ртутного столба |
+| pressure-millibar | ↴ |
+| , pressure-millibar | миллибары |
+| one, pressure-millibar | {0} миллибар |
+| few, pressure-millibar | {0} миллибара |
+| many, pressure-millibar | {0} миллибар |
+| other, pressure-millibar | {0} миллибара |
+| speed-kilometer-per-hour | ↴ |
+| , speed-kilometer-per-hour | километры в час |
+| one, speed-kilometer-per-hour | {0} километр в час |
+| few, speed-kilometer-per-hour | {0} километра в час |
+| many, speed-kilometer-per-hour | {0} километров в час |
+| other, speed-kilometer-per-hour | {0} километра в час |
+| speed-meter-per-second | ↴ |
+| , speed-meter-per-second | метры в секунду |
+| one, speed-meter-per-second | {0} метр в секунду |
+| few, speed-meter-per-second | {0} метра в секундыу |
+| many, speed-meter-per-second | {0} метров в секунду |
+| other, speed-meter-per-second | {0} метра в секунду |
+| speed-mile-per-hour | ↴ |
+| , speed-mile-per-hour | мили в час |
+| one, speed-mile-per-hour | {0} миля в час |
+| few, speed-mile-per-hour | {0} мили в час |
+| many, speed-mile-per-hour | {0} миль в час |
+| other, speed-mile-per-hour | {0} мили в час |
+| speed-knot | ↴ |
+| , speed-knot | узел |
+| one, speed-knot | {0} узел |
+| few, speed-knot | {0} узла |
+| many, speed-knot | {0} узлов |
+| other, speed-knot | {0} узла |
+| temperature-generic | ↴ |
+| , temperature-generic | ° |
+| one, temperature-generic | {0}° |
+| few, temperature-generic | {0}° |
+| many, temperature-generic | {0}° |
+| other, temperature-generic | {0}° |
+| temperature-celsius | ↴ |
+| , temperature-celsius | градусы Цельсия |
+| one, temperature-celsius | {0} градус Цельсия |
+| few, temperature-celsius | {0} градуса Цельсия |
+| many, temperature-celsius | {0} градусов Цельсия |
+| other, temperature-celsius | {0} градуса Цельсия |
+| temperature-fahrenheit | ↴ |
+| , temperature-fahrenheit | градусы по Фаренгейту |
+| one, temperature-fahrenheit | {0} градус по Фаренгейту |
+| few, temperature-fahrenheit | {0} градуса по Фаренгейту |
+| many, temperature-fahrenheit | {0} градусов по Фаренгейту |
+| other, temperature-fahrenheit | {0} градуса по Фаренгейту |
+| temperature-kelvin | ↴ |
+| , temperature-kelvin | градусы по Кельвину |
+| one, temperature-kelvin | {0} градус по Кельвину |
+| few, temperature-kelvin | {0} градуса по Кельвину |
+| many, temperature-kelvin | {0} градусов по Кельвину |
+| other, temperature-kelvin | {0} градуса по Кельвину |
+| volume-cubic-kilometer | ↴ |
+| , volume-cubic-kilometer | кубические километры |
+| one, volume-cubic-kilometer | {0} кубический километр |
+| few, volume-cubic-kilometer | {0} кубических километра |
+| many, volume-cubic-kilometer | {0} кубических километров |
+| other, volume-cubic-kilometer | {0} кубического километра |
+| volume-cubic-meter | ↴ |
+| , volume-cubic-meter | кубические метры |
+| one, volume-cubic-meter | {0} кубический метр |
+| few, volume-cubic-meter | {0} кубических метра |
+| many, volume-cubic-meter | {0} кубических метров |
+| other, volume-cubic-meter | {0} кубического метра |
+| per units of volume-cubic-meter | {0} на кубический метр |
+| volume-cubic-centimeter | ↴ |
+| , volume-cubic-centimeter | кубические сантиметры |
+| one, volume-cubic-centimeter | {0} кубический сантиметр |
+| few, volume-cubic-centimeter | {0} кубических сантиметра |
+| many, volume-cubic-centimeter | {0} кубических сантиметров |
+| other, volume-cubic-centimeter | {0} кубического сантиметра |
+| per units of volume-cubic-centimeter | {0} на кубический сантиметр |
+| volume-cubic-mile | ↴ |
+| , volume-cubic-mile | кубические мили |
+| one, volume-cubic-mile | {0} кубическая миля |
+| few, volume-cubic-mile | {0} кубические мили |
+| many, volume-cubic-mile | {0} кубических миль |
+| other, volume-cubic-mile | {0} кубической мили |
+| volume-cubic-yard | ↴ |
+| , volume-cubic-yard | кубические ярды |
+| one, volume-cubic-yard | {0} кубический ярд |
+| few, volume-cubic-yard | {0} кубических ярда |
+| many, volume-cubic-yard | {0} кубических ярдов |
+| other, volume-cubic-yard | {0} кубического ярда |
+| volume-cubic-foot | ↴ |
+| , volume-cubic-foot | кубические футы |
+| one, volume-cubic-foot | {0} кубический фут |
+| few, volume-cubic-foot | {0} кубических фута |
+| many, volume-cubic-foot | {0} кубических футов |
+| other, volume-cubic-foot | {0} кубического фута |
+| volume-cubic-inch | ↴ |
+| , volume-cubic-inch | кубические дюймы |
+| one, volume-cubic-inch | {0} кубический дюйм |
+| few, volume-cubic-inch | {0} кубических дюйма |
+| many, volume-cubic-inch | {0} кубических дюймов |
+| other, volume-cubic-inch | {0} кубического дюйма |
+| volume-megaliter | ↴ |
+| , volume-megaliter | мегалитры |
+| one, volume-megaliter | {0} мегалитр |
+| few, volume-megaliter | {0} мегалитра |
+| many, volume-megaliter | {0} мегалитров |
+| other, volume-megaliter | {0} мегалитра |
+| volume-hectoliter | ↴ |
+| , volume-hectoliter | гектолитры |
+| one, volume-hectoliter | {0} гектолитр |
+| few, volume-hectoliter | {0} гектолитра |
+| many, volume-hectoliter | {0} гектолитров |
+| other, volume-hectoliter | {0} гектолитра |
+| volume-liter | ↴ |
+| , volume-liter | литры |
+| one, volume-liter | {0} литр |
+| few, volume-liter | {0} литра |
+| many, volume-liter | {0} литров |
+| other, volume-liter | {0} литра |
+| per units of volume-liter | {0} на литр |
+| volume-deciliter | ↴ |
+| , volume-deciliter | децилитры |
+| one, volume-deciliter | {0} децилитр |
+| few, volume-deciliter | {0} децилитра |
+| many, volume-deciliter | {0} децилитров |
+| other, volume-deciliter | {0} децилитра |
+| volume-centiliter | ↴ |
+| , volume-centiliter | сантилитры |
+| one, volume-centiliter | {0} сантилитр |
+| few, volume-centiliter | {0} сантилитра |
+| many, volume-centiliter | {0} сантилитров |
+| other, volume-centiliter | {0} сантилитра |
+| volume-milliliter | ↴ |
+| , volume-milliliter | миллилитры |
+| one, volume-milliliter | {0} миллилитр |
+| few, volume-milliliter | {0} миллилитра |
+| many, volume-milliliter | {0} миллилитров |
+| other, volume-milliliter | {0} миллилитра |
+| volume-pint-metric | ↴ |
+| , volume-pint-metric | метрические пинты |
+| one, volume-pint-metric | {0} метрическая пинта |
+| few, volume-pint-metric | {0} метрические пинты |
+| many, volume-pint-metric | {0} метрических пинт |
+| other, volume-pint-metric | {0} метрической пинты |
+| volume-cup-metric | ↴ |
+| , volume-cup-metric | метрические чашки |
+| one, volume-cup-metric | {0} метрическая чашка |
+| few, volume-cup-metric | {0} метрические чашки |
+| many, volume-cup-metric | {0} метрических чашек |
+| other, volume-cup-metric | {0} метрической чашки |
+| volume-acre-foot | ↴ |
+| , volume-acre-foot | акрофуты |
+| one, volume-acre-foot | {0} акрофут |
+| few, volume-acre-foot | {0} акрофута |
+| many, volume-acre-foot | {0} акрофутов |
+| other, volume-acre-foot | {0} акрофута |
+| volume-gallon | ↴ |
+| , volume-gallon | галлоны |
+| one, volume-gallon | {0} галлон |
+| few, volume-gallon | {0} галлона |
+| many, volume-gallon | {0} галлонов |
+| other, volume-gallon | {0} галлона |
+| per units of volume-gallon | {0} на галлон |
+| volume-gallon-imperial | ↴ |
+| , volume-gallon-imperial | имп. галлоны |
+| one, volume-gallon-imperial | {0} имп. галлон |
+| few, volume-gallon-imperial | {0} имп. галлона |
+| many, volume-gallon-imperial | {0} имп. галлонов |
+| other, volume-gallon-imperial | {0} имп. галлона |
+| per units of volume-gallon-imperial | {0} на имп. галлон |
+| volume-quart | ↴ |
+| , volume-quart | кварты |
+| one, volume-quart | {0} кварта |
+| few, volume-quart | {0} кварты |
+| many, volume-quart | {0} кварт |
+| other, volume-quart | {0} кварты |
+| volume-pint | ↴ |
+| , volume-pint | пинты |
+| one, volume-pint | {0} пинта |
+| few, volume-pint | {0} пинты |
+| many, volume-pint | {0} пинт |
+| other, volume-pint | {0} пинты |
+| volume-cup | ↴ |
+| , volume-cup | чашки |
+| one, volume-cup | {0} чашка |
+| few, volume-cup | {0} чашки |
+| many, volume-cup | {0} чашек |
+| other, volume-cup | {0} чашки |
+| volume-fluid-ounce | ↴ |
+| , volume-fluid-ounce | жидкие унции |
+| one, volume-fluid-ounce | {0} жидкая унция |
+| few, volume-fluid-ounce | {0} жидкие унции |
+| many, volume-fluid-ounce | {0} жидких унций |
+| other, volume-fluid-ounce | {0} жидкой унции |
+| volume-tablespoon | ↴ |
+| , volume-tablespoon | столовые ложки |
+| one, volume-tablespoon | {0} столовая ложка |
+| few, volume-tablespoon | {0} столовые ложки |
+| many, volume-tablespoon | {0} столовых ложек |
+| other, volume-tablespoon | {0} столовой ложки |
+| volume-teaspoon | ↴ |
+| , volume-teaspoon | чайные ложки |
+| one, volume-teaspoon | {0} чайная ложка |
+| few, volume-teaspoon | {0} чайные ложки |
+| many, volume-teaspoon | {0} чайных ложек |
+| other, volume-teaspoon | {0} чайной ложки |
+| coordinates, east | {0} восточной долготы |
+| coordinates, north | {0} северной широты |
+| coordinates, south | {0} южной широты |
+| coordinates, west | {0} западной долготы |
 | Compound pattern  | {0}/{1} |
-| acceleration-g-force | ... |
-|  | g |
-| one | {0} g |
-| few | {0} g |
-| many | {0} g |
-| other | {0} g |
-| acceleration-meter-per-second-squared | ... |
-|  | м/с² |
-| one | {0} м/с² |
-| few | {0} м/с² |
-| many | {0} м/с² |
-| other | {0} м/с² |
-| angle-revolution | ... |
-|  | об. |
-| one | {0} об. |
-| few | {0} об. |
-| many | {0} об. |
-| other | {0} об. |
-| angle-radian | ... |
-|  | рад |
-| one | {0} рад |
-| few | {0} рад |
-| many | {0} рад |
-| other | {0} рад |
-| angle-degree | ... |
-|  | ° |
-| one | {0}° |
-| few | {0}° |
-| many | {0}° |
-| other | {0}° |
-| angle-arc-minute | ... |
-|  | ′ |
-| one | {0}′ |
-| few | {0}′ |
-| many | {0}′ |
-| other | {0}′ |
-| angle-arc-second | ... |
-|  | ″ |
-| one | {0}″ |
-| few | {0}″ |
-| many | {0}″ |
-| other | {0}″ |
-| area-square-kilometer | ... |
-|  | км² |
-| one | {0} км² |
-| few | {0} км² |
-| many | {0} км² |
-| other | {0} км² |
-{0}/км²
-| area-hectare | ... |
-|  | га |
-| one | {0} га |
-| few | {0} га |
-| many | {0} га |
-| other | {0} га |
-| area-square-meter | ... |
-|  | м² |
-| one | {0} м² |
-| few | {0} м² |
-| many | {0} м² |
-| other | {0} м² |
-{0}/м²
-| area-square-centimeter | ... |
-|  | см² |
-| one | {0} см² |
-| few | {0} см² |
-| many | {0} см² |
-| other | {0} см² |
-{0}/см²
-| area-square-mile | ... |
-|  | миля² |
-| one | {0} миля² |
-| few | {0} миля² |
-| many | {0} миля² |
-| other | {0} миля² |
-{0}/миля²
-| area-acre | ... |
-|  | акр. |
-| one | {0} акр |
-| few | {0} акр. |
-| many | {0} акр. |
-| other | {0} акр. |
-| area-square-yard | ... |
-|  | ярд² |
-| one | {0} ярд² |
-| few | {0} ярд² |
-| many | {0} ярд² |
-| other | {0} ярд² |
-| area-square-foot | ... |
-|  | фут² |
-| one | {0} фут² |
-| few | {0} фут² |
-| many | {0} фут² |
-| other | {0} фут² |
-| area-square-inch | ... |
-|  | дюйм² |
-| one | {0} дюйм² |
-| few | {0} дюйм² |
-| many | {0} дюйм² |
-| other | {0} дюйм² |
-{0}/дюйм²
-| concentr-karat | ... |
-|  | кар |
-| one | {0} кар |
-| few | {0} кар |
-| many | {0} кар |
-| other | {0} кар |
-| concentr-milligram-per-deciliter | ... |
-|  | мг/дл |
-| one | {0} мг/дл |
-| few | {0} мг/дл |
-| many | {0} мг/дл |
-| other | {0} мг/дл |
-| concentr-millimole-per-liter | ... |
-|  | ммоль/л |
-| one | {0} ммоль/л |
-| few | {0} ммоль/л |
-| many | {0} ммоль/л |
-| other | {0} ммоль/л |
-| concentr-part-per-million | ... |
-|  | ppm |
-| one | {0} ppm |
-| few | {0} ppm |
-| many | {0} ppm |
-| other | {0} ppm |
-| consumption-liter-per-kilometer | ... |
-|  | л/км |
-| one | {0} л/км |
-| few | {0} л/км |
-| many | {0} л/км |
-| other | {0} л/км |
-| consumption-liter-per-100kilometers | ... |
-|  | л/100 км |
-| one | {0} л/100 км |
-| few | {0} л/100 км |
-| many | {0} л/100 км |
-| other | {0} л/100 км |
-| consumption-mile-per-gallon | ... |
-|  | миль/гал |
-| one | {0} миля/галл. |
-| few | {0} мили/галл. |
-| many | {0} миль/галл. |
-| other | {0} мили/галл. |
-| consumption-mile-per-gallon-imperial | ... |
-|  | мили/имп. гал |
-| one | {0} миля/имп. гал |
-| few | {0} мили/имп. гал |
-| many | {0} миль/имп. гал |
-| other | {0} мили/имп. галл. |
-| digital-terabyte | ... |
-|  | ТБ |
-| one | {0} ТБ |
-| few | {0} ТБ |
-| many | {0} ТБ |
-| other | {0} ТБ |
-| digital-terabit | ... |
-|  | Тбит |
-| one | {0} Тбит |
-| few | {0} Тбит |
-| many | {0} Тбит |
-| other | {0} Тбит |
-| digital-gigabyte | ... |
-|  | ГБ |
-| one | {0} ГБ |
-| few | {0} ГБ |
-| many | {0} ГБ |
-| other | {0} ГБ |
-| digital-gigabit | ... |
-|  | Гбит |
-| one | {0} Гбит |
-| few | {0} Гбит |
-| many | {0} Гбит |
-| other | {0} Гбит |
-| digital-megabyte | ... |
-|  | МБ |
-| one | {0} МБ |
-| few | {0} МБ |
-| many | {0} МБ |
-| other | {0} МБ |
-| digital-megabit | ... |
-|  | Мбит |
-| one | {0} Мбит |
-| few | {0} Мбит |
-| many | {0} Мбит |
-| other | {0} Мбит |
-| digital-kilobyte | ... |
-|  | кБ |
-| one | {0} кБ |
-| few | {0} кБ |
-| many | {0} кБ |
-| other | {0} кБ |
-| digital-kilobit | ... |
-|  | кбит |
-| one | {0} кбит |
-| few | {0} кбит |
-| many | {0} кбит |
-| other | {0} кбит |
-| digital-byte | ... |
-|  | Б |
-| one | {0} Б |
-| few | {0} Б |
-| many | {0} Б |
-| other | {0} Б |
-| digital-bit | ... |
-|  | бит |
-| one | {0} бит |
-| few | {0} бита |
-| many | {0} бит |
-| other | {0} бита |
-| duration-century | ... |
-|  | в. |
-| one | {0} в. |
-| few | {0} в. |
-| many | {0} в. |
-| other | {0} в. |
-| duration-year | ... |
-|  | г. |
-| one | {0} г. |
-| few | {0} г. |
-| many | {0} л. |
-| other | {0} г. |
-{0}/г
-| duration-month | ... |
-|  | мес. |
-| one | {0} мес. |
-| few | {0} мес. |
-| many | {0} мес. |
-| other | {0} мес. |
-{0}/мес
-| duration-week | ... |
-|  | нед. |
-| one | {0} нед. |
-| few | {0} нед. |
-| many | {0} нед. |
-| other | {0} нед. |
-{0}/нед
-| duration-day | ... |
-|  | дн. |
-| one | {0} дн. |
-| few | {0} дн. |
-| many | {0} дн. |
-| other | {0} дн. |
-{0}/д
-| duration-hour | ... |
-|  | ч |
-| one | {0} ч. |
-| few | {0} ч. |
-| many | {0} ч. |
-| other | {0} ч. |
-{0}/ч
-| duration-minute | ... |
-|  | мин |
-| one | {0} мин. |
-| few | {0} мин. |
-| many | {0} мин. |
-| other | {0} мин. |
-{0}/мин
-| duration-second | ... |
-|  | с |
-| one | {0} с. |
-| few | {0} с. |
-| many | {0} с. |
-| other | {0} с. |
-{0}/c
-| duration-millisecond | ... |
-|  | мс |
-| one | {0} мс |
-| few | {0} мс |
-| many | {0} мс |
-| other | {0} мс |
-| duration-microsecond | ... |
-|  | мкс |
-| one | {0} мкс |
-| few | {0} мкс |
-| many | {0} мкс |
-| other | {0} мкс |
-| duration-nanosecond | ... |
-|  | нс |
-| one | {0} нс |
-| few | {0} нс |
-| many | {0} нс |
-| other | {0} нс |
-| electric-ampere | ... |
-|  | А |
-| one | {0} А |
-| few | {0} А |
-| many | {0} А |
-| other | {0} А |
-| electric-milliampere | ... |
-|  | мА |
-| one | {0} мА |
-| few | {0} мА |
-| many | {0} мА |
-| other | {0} мА |
-| electric-ohm | ... |
-|  | Ом |
-| one | {0} Ом |
-| few | {0} Ом |
-| many | {0} Ом |
-| other | {0} Ом |
-| electric-volt | ... |
-|  | В |
-| one | {0} В |
-| few | {0} В |
-| many | {0} В |
-| other | {0} В |
-| energy-kilocalorie | ... |
-|  | ккал |
-| one | {0} ккал |
-| few | {0} ккал |
-| many | {0} ккал |
-| other | {0} ккал |
-| energy-calorie | ... |
-|  | кал |
-| one | {0} кал |
-| few | {0} кал |
-| many | {0} кал |
-| other | {0} кал |
-| energy-foodcalorie | ... |
-|  | кал |
-| one | {0} кал |
-| few | {0} кал |
-| many | {0} кал |
-| other | {0} кал |
-| energy-kilojoule | ... |
-|  | кДж |
-| one | {0} кДж |
-| few | {0} кДж |
-| many | {0} кДж |
-| other | {0} кДж |
-| energy-joule | ... |
-|  | Дж |
-| one | {0} Дж |
-| few | {0} Дж |
-| many | {0} Дж |
-| other | {0} Дж |
-| energy-kilowatt-hour | ... |
-|  | кВт⋅ч |
-| one | {0} кВт⋅ч |
-| few | {0} кВт⋅ч |
-| many | {0} кВт⋅ч |
-| other | {0} кВт⋅ч |
-| frequency-gigahertz | ... |
-|  | ГГц |
-| one | {0} ГГц |
-| few | {0} ГГц |
-| many | {0} ГГц |
-| other | {0} ГГц |
-| frequency-megahertz | ... |
-|  | МГц |
-| one | {0} МГц |
-| few | {0} МГц |
-| many | {0} МГц |
-| other | {0} МГц |
-| frequency-kilohertz | ... |
-|  | кГц |
-| one | {0} кГц |
-| few | {0} кГц |
-| many | {0} кГц |
-| other | {0} кГц |
-| frequency-hertz | ... |
-|  | Гц |
-| one | {0} Гц |
-| few | {0} Гц |
-| many | {0} Гц |
-| other | {0} Гц |
-| length-kilometer | ... |
-|  | км |
-| one | {0} км |
-| few | {0} км |
-| many | {0} км |
-| other | {0} км |
-{0}/км
-| length-meter | ... |
-|  | м |
-| one | {0} м |
-| few | {0} м |
-| many | {0} м |
-| other | {0} м |
-{0}/м
-| length-decimeter | ... |
-|  | дм |
-| one | {0} дм |
-| few | {0} дм |
-| many | {0} дм |
-| other | {0} дм |
-| length-centimeter | ... |
-|  | см |
-| one | {0} см |
-| few | {0} см |
-| many | {0} см |
-| other | {0} см |
-{0}/см
-| length-millimeter | ... |
-|  | мм |
-| one | {0} мм |
-| few | {0} мм |
-| many | {0} мм |
-| other | {0} мм |
-| length-micrometer | ... |
-|  | мкм |
-| one | {0} мкм |
-| few | {0} мкм |
-| many | {0} мкм |
-| other | {0} мкм |
-| length-nanometer | ... |
-|  | нм |
-| one | {0} нм |
-| few | {0} нм |
-| many | {0} нм |
-| other | {0} нм |
-| length-picometer | ... |
-|  | пм |
-| one | {0} пм |
-| few | {0} пм |
-| many | {0} пм |
-| other | {0} пм |
-| length-mile | ... |
-|  | мили |
-| one | {0} миля |
-| few | {0} мили |
-| many | {0} миль |
-| other | {0} мили |
-| length-yard | ... |
-|  | ярд. |
-| one | {0} ярд |
-| few | {0} ярд. |
-| many | {0} ярд. |
-| other | {0} ярд. |
-| length-foot | ... |
-|  | фт |
-| one | {0} фт |
-| few | {0} фт |
-| many | {0} фт |
-| other | {0} фт |
-{0}/фт
-| length-inch | ... |
-|  | дюйм. |
-| one | {0} дюйм |
-| few | {0} дюйм. |
-| many | {0} дюйм. |
-| other | {0} дюйм. |
-{0}/дюйм
-| length-parsec | ... |
-|  | пк |
-| one | {0} пк |
-| few | {0} пк |
-| many | {0} пк |
-| other | {0} пк |
-| length-light-year | ... |
-|  | св. г. |
-| one | {0} св. г. |
-| few | {0} св. г. |
-| many | {0} св. л. |
-| other | {0} св. г. |
-| length-astronomical-unit | ... |
-|  | а. е. |
-| one | {0} а. е. |
-| few | {0} а. е. |
-| many | {0} а. е. |
-| other | {0} а. е. |
-| length-furlong | ... |
-|  | фурлонги |
-| one | {0} фурл. |
-| few | {0} фурл. |
-| many | {0} фурл. |
-| other | {0} фурл. |
-| length-fathom | ... |
-|  | мор. сажени |
-| one | {0} мор. сажень |
-| few | {0} мор. сажени |
-| many | {0} мор. саженей |
-| other | {0} мор. сажени |
-| length-nautical-mile | ... |
-|  | мор. мили |
-| one | {0} мор. миля |
-| few | {0} мор. мили |
-| many | {0} мор. миль |
-| other | {0} мор. мили |
-| length-mile-scandinavian | ... |
-|  | ск. мил. |
-| one | {0} ск. мил. |
-| few | {0} ск. мил. |
-| many | {0} ск. мил. |
-| other | {0} ск. мил. |
-| length-point | ... |
-|  | пкт |
-| one | {0} пкт |
-| few | {0} пкт |
-| many | {0} пкт |
-| other | {0} пкт |
-| light-lux | ... |
-|  | лк |
-| one | {0} лк |
-| few | {0} лк |
-| many | {0} лк |
-| other | {0} лк |
-| mass-metric-ton | ... |
-|  | т |
-| one | {0} т |
-| few | {0} т |
-| many | {0} т |
-| other | {0} т |
-| mass-kilogram | ... |
-|  | кг |
-| one | {0} кг |
-| few | {0} кг |
-| many | {0} кг |
-| other | {0} кг |
-{0}/кг
-| mass-gram | ... |
-|  | г |
-| one | {0} г |
-| few | {0} г |
-| many | {0} г |
-| other | {0} г |
-{0}/г
-| mass-milligram | ... |
-|  | мг |
-| one | {0} мг |
-| few | {0} мг |
-| many | {0} мг |
-| other | {0} мг |
-| mass-microgram | ... |
-|  | мкг |
-| one | {0} мкг |
-| few | {0} мкг |
-| many | {0} мкг |
-| other | {0} мкг |
-| mass-ton | ... |
-|  | амер. т |
-| one | {0} амер. т |
-| few | {0} амер. т |
-| many | {0} амер. т |
-| other | {0} амер. т |
-| mass-stone | ... |
-|  | стоуны |
-| one | {0} стоун |
-| few | {0} стоуна |
-| many | {0} стоунов |
-| other | {0} стоуна |
-| mass-pound | ... |
-|  | фунт. |
-| one | {0} фунт. |
-| few | {0} фунт. |
-| many | {0} фунт. |
-| other | {0} фунт. |
-{0}/фунт
-| mass-ounce | ... |
-|  | унц. |
-| one | {0} унц. |
-| few | {0} унц. |
-| many | {0} унц. |
-| other | {0} унц. |
-{0}/унц
-| mass-ounce-troy | ... |
-|  | тр. унц. |
-| one | {0} тр. унц. |
-| few | {0} тр. унц. |
-| many | {0} тр. унц. |
-| other | {0} тр. унц. |
-| mass-carat | ... |
-|  | кар |
-| one | {0} кар |
-| few | {0} кар |
-| many | {0} кар |
-| other | {0} кар |
-| power-gigawatt | ... |
-|  | ГВт |
-| one | {0} ГВт |
-| few | {0} ГВт |
-| many | {0} ГВт |
-| other | {0} ГВт |
-| power-megawatt | ... |
-|  | МВт |
-| one | {0} МВт |
-| few | {0} МВт |
-| many | {0} МВт |
-| other | {0} МВт |
-| power-kilowatt | ... |
-|  | кВт |
-| one | {0} кВт |
-| few | {0} кВт |
-| many | {0} кВт |
-| other | {0} кВт |
-| power-watt | ... |
-|  | Вт |
-| one | {0} Вт |
-| few | {0} Вт |
-| many | {0} Вт |
-| other | {0} Вт |
-| power-milliwatt | ... |
-|  | мВт |
-| one | {0} мВт |
-| few | {0} мВт |
-| many | {0} мВт |
-| other | {0} мВт |
-| power-horsepower | ... |
-|  | л.с. |
-| one | {0} л.с. |
-| few | {0} л.с. |
-| many | {0} л.с. |
-| other | {0} л.с. |
-| pressure-hectopascal | ... |
-|  | гПа |
-| one | {0} гПа |
-| few | {0} гПа |
-| many | {0} гПа |
-| other | {0} гПа |
-| pressure-millimeter-of-mercury | ... |
-|  | мм рт. ст. |
-| one | {0} мм рт. ст. |
-| few | {0} мм рт. ст. |
-| many | {0} мм рт. ст. |
-| other | {0} мм рт. ст. |
-| pressure-pound-per-square-inch | ... |
-|  | ф. на дюйм² |
-| one | {0} ф./дюйм² |
-| few | {0} ф./дюйм² |
-| many | {0} ф./дюйм² |
-| other | {0} ф./дюйм² |
-| pressure-inch-hg | ... |
-|  | д. рт. ст. |
-| one | {0} д. рт. ст. |
-| few | {0} д. рт. ст. |
-| many | {0} д. рт. ст. |
-| other | {0} д. рт. ст. |
-| pressure-millibar | ... |
-|  | мбар |
-| one | {0} мбар |
-| few | {0} мбар |
-| many | {0} мбар |
-| other | {0} мбар |
-| speed-kilometer-per-hour | ... |
-|  | км/ч |
-| one | {0} км/ч |
-| few | {0} км/ч |
-| many | {0} км/ч |
-| other | {0} км/ч |
-| speed-meter-per-second | ... |
-|  | м/с |
-| one | {0} м/с |
-| few | {0} м/с |
-| many | {0} м/с |
-| other | {0} м/с |
-| speed-mile-per-hour | ... |
-|  | мили/час |
-| one | {0} миля/час |
-| few | {0} мили/час |
-| many | {0} миль/час |
-| other | {0} мили/час |
-| speed-knot | ... |
-|  | уз |
-| one | {0} уз |
-| few | {0} уз |
-| many | {0} уз |
-| other | {0} уз |
-| temperature-generic | ... |
-|  | ° |
-| one | {0}° |
-| few | {0}° |
-| many | {0}° |
-| other | {0}° |
-| temperature-celsius | ... |
-|  | °C |
-| one | {0} °C |
-| few | {0} °C |
-| many | {0} °C |
-| other | {0} °C |
-| temperature-fahrenheit | ... |
-|  | °F |
-| one | {0}°F |
-| few | {0}°F |
-| many | {0}°F |
-| other | {0}°F |
-| temperature-kelvin | ... |
-|  | K |
-| one | {0} K |
-| few | {0} K |
-| many | {0} K |
-| other | {0} K |
-| volume-cubic-kilometer | ... |
-|  | км³ |
-| one | {0} км³ |
-| few | {0} км³ |
-| many | {0} км³ |
-| other | {0} км³ |
-| volume-cubic-meter | ... |
-|  | м³ |
-| one | {0} м³ |
-| few | {0} м³ |
-| many | {0} м³ |
-| other | {0} м³ |
-{0}/м³
-| volume-cubic-centimeter | ... |
-|  | см³ |
-| one | {0} см³ |
-| few | {0} см³ |
-| many | {0} см³ |
-| other | {0} см³ |
-{0}/см³
-| volume-cubic-mile | ... |
-|  | миля³ |
-| one | {0} миля³ |
-| few | {0} мили³ |
-| many | {0} миль³ |
-| other | {0} мили³ |
-| volume-cubic-yard | ... |
-|  | ярд³ |
-| one | {0} ярд³ |
-| few | {0} ярд³ |
-| many | {0} ярд³ |
-| other | {0} ярд³ |
-| volume-cubic-foot | ... |
-|  | фут³ |
-| one | {0} фут³ |
-| few | {0} фут³ |
-| many | {0} фут³ |
-| other | {0} фут³ |
-| volume-cubic-inch | ... |
-|  | дюйм³ |
-| one | {0} дюйм³ |
-| few | {0} дюйм³ |
-| many | {0} дюйм³ |
-| other | {0} дюйм³ |
-| volume-megaliter | ... |
-|  | Мл |
-| one | {0} Мл |
-| few | {0} Мл |
-| many | {0} Мл |
-| other | {0} Мл |
-| volume-hectoliter | ... |
-|  | гл |
-| one | {0} гл |
-| few | {0} гл |
-| many | {0} гл |
-| other | {0} гл |
-| volume-liter | ... |
-|  | л |
-| one | {0} л |
-| few | {0} л |
-| many | {0} л |
-| other | {0} л |
-{0}/л
-| volume-deciliter | ... |
-|  | дл |
-| one | {0} дл |
-| few | {0} дл |
-| many | {0} дл |
-| other | {0} дл |
-| volume-centiliter | ... |
-|  | сл |
-| one | {0} сл |
-| few | {0} сл |
-| many | {0} сл |
-| other | {0} сл |
-| volume-milliliter | ... |
-|  | мл |
-| one | {0} мл |
-| few | {0} мл |
-| many | {0} мл |
-| other | {0} мл |
-| volume-pint-metric | ... |
-|  | мпт |
-| one | {0} мпт |
-| few | {0} мпт |
-| many | {0} мпт |
-| other | {0} мпт |
-| volume-cup-metric | ... |
-|  | м. чаш. |
-| one | {0} м. чаш. |
-| few | {0} м. чаш. |
-| many | {0} м. чаш. |
-| other | {0} м. чаш. |
-| volume-acre-foot | ... |
-|  | акрофут. |
-| one | {0} акрофут |
-| few | {0} акрофут. |
-| many | {0} акрофут. |
-| other | {0} акрофут. |
-| volume-gallon | ... |
-|  | гал. |
-| one | {0} гал. |
-| few | {0} гал. |
-| many | {0} гал. |
-| other | {0} гал. |
-{0}/гал
-| volume-gallon-imperial | ... |
-|  | имп. гал. |
-| one | {0} имп. гал. |
-| few | {0} имп. гал. |
-| many | {0} имп. гал. |
-| other | {0} имп. гал. |
-{0}/имп. гал
-| volume-quart | ... |
-|  | кварт. |
-| one | {0} кварт. |
-| few | {0} кварт. |
-| many | {0} кварт. |
-| other | {0} кварт. |
-| volume-pint | ... |
-|  | пинт. |
-| one | {0} пинт. |
-| few | {0} пинт. |
-| many | {0} пинт. |
-| other | {0} пинт. |
-| volume-cup | ... |
-|  | чаш. |
-| one | {0} чаш. |
-| few | {0} чаш. |
-| many | {0} чаш. |
-| other | {0} чаш. |
-| volume-fluid-ounce | ... |
-|  | жидк. унц. |
-| one | {0} жидк. унц. |
-| few | {0} жидк. унц. |
-| many | {0} жидк. унц. |
-| other | {0} жидк. унц. |
-| volume-tablespoon | ... |
-|  | ст. л. |
-| one | {0} ст. л. |
-| few | {0} ст. л. |
-| many | {0} ст. л. |
-| other | {0} ст. л. |
-| volume-teaspoon | ... |
-|  | ч. л. |
-| one | {0} ч. л. |
-| few | {0} ч. л. |
-| many | {0} ч. л. |
-| other | {0} ч. л. |
-{0} в. д.{0} с. ш.{0} ю. ш.{0} з. д.
+| acceleration-g-force | ↴ |
+| , acceleration-g-force | g |
+| one, acceleration-g-force | {0} g |
+| few, acceleration-g-force | {0} g |
+| many, acceleration-g-force | {0} g |
+| other, acceleration-g-force | {0} g |
+| acceleration-meter-per-second-squared | ↴ |
+| , acceleration-meter-per-second-squared | м/с² |
+| one, acceleration-meter-per-second-squared | {0} м/с² |
+| few, acceleration-meter-per-second-squared | {0} м/с² |
+| many, acceleration-meter-per-second-squared | {0} м/с² |
+| other, acceleration-meter-per-second-squared | {0} м/с² |
+| angle-revolution | ↴ |
+| , angle-revolution | об. |
+| one, angle-revolution | {0} об. |
+| few, angle-revolution | {0} об. |
+| many, angle-revolution | {0} об. |
+| other, angle-revolution | {0} об. |
+| angle-radian | ↴ |
+| , angle-radian | рад |
+| one, angle-radian | {0} рад |
+| few, angle-radian | {0} рад |
+| many, angle-radian | {0} рад |
+| other, angle-radian | {0} рад |
+| angle-degree | ↴ |
+| , angle-degree | ° |
+| one, angle-degree | {0}° |
+| few, angle-degree | {0}° |
+| many, angle-degree | {0}° |
+| other, angle-degree | {0}° |
+| angle-arc-minute | ↴ |
+| , angle-arc-minute | ′ |
+| one, angle-arc-minute | {0}′ |
+| few, angle-arc-minute | {0}′ |
+| many, angle-arc-minute | {0}′ |
+| other, angle-arc-minute | {0}′ |
+| angle-arc-second | ↴ |
+| , angle-arc-second | ″ |
+| one, angle-arc-second | {0}″ |
+| few, angle-arc-second | {0}″ |
+| many, angle-arc-second | {0}″ |
+| other, angle-arc-second | {0}″ |
+| area-square-kilometer | ↴ |
+| , area-square-kilometer | км² |
+| one, area-square-kilometer | {0} км² |
+| few, area-square-kilometer | {0} км² |
+| many, area-square-kilometer | {0} км² |
+| other, area-square-kilometer | {0} км² |
+| per units of area-square-kilometer | {0}/км² |
+| area-hectare | ↴ |
+| , area-hectare | га |
+| one, area-hectare | {0} га |
+| few, area-hectare | {0} га |
+| many, area-hectare | {0} га |
+| other, area-hectare | {0} га |
+| area-square-meter | ↴ |
+| , area-square-meter | м² |
+| one, area-square-meter | {0} м² |
+| few, area-square-meter | {0} м² |
+| many, area-square-meter | {0} м² |
+| other, area-square-meter | {0} м² |
+| per units of area-square-meter | {0}/м² |
+| area-square-centimeter | ↴ |
+| , area-square-centimeter | см² |
+| one, area-square-centimeter | {0} см² |
+| few, area-square-centimeter | {0} см² |
+| many, area-square-centimeter | {0} см² |
+| other, area-square-centimeter | {0} см² |
+| per units of area-square-centimeter | {0}/см² |
+| area-square-mile | ↴ |
+| , area-square-mile | миля² |
+| one, area-square-mile | {0} миля² |
+| few, area-square-mile | {0} миля² |
+| many, area-square-mile | {0} миля² |
+| other, area-square-mile | {0} миля² |
+| per units of area-square-mile | {0}/миля² |
+| area-acre | ↴ |
+| , area-acre | акр. |
+| one, area-acre | {0} акр |
+| few, area-acre | {0} акр. |
+| many, area-acre | {0} акр. |
+| other, area-acre | {0} акр. |
+| area-square-yard | ↴ |
+| , area-square-yard | ярд² |
+| one, area-square-yard | {0} ярд² |
+| few, area-square-yard | {0} ярд² |
+| many, area-square-yard | {0} ярд² |
+| other, area-square-yard | {0} ярд² |
+| area-square-foot | ↴ |
+| , area-square-foot | фут² |
+| one, area-square-foot | {0} фут² |
+| few, area-square-foot | {0} фут² |
+| many, area-square-foot | {0} фут² |
+| other, area-square-foot | {0} фут² |
+| area-square-inch | ↴ |
+| , area-square-inch | дюйм² |
+| one, area-square-inch | {0} дюйм² |
+| few, area-square-inch | {0} дюйм² |
+| many, area-square-inch | {0} дюйм² |
+| other, area-square-inch | {0} дюйм² |
+| per units of area-square-inch | {0}/дюйм² |
+| concentr-karat | ↴ |
+| , concentr-karat | кар |
+| one, concentr-karat | {0} кар |
+| few, concentr-karat | {0} кар |
+| many, concentr-karat | {0} кар |
+| other, concentr-karat | {0} кар |
+| concentr-milligram-per-deciliter | ↴ |
+| , concentr-milligram-per-deciliter | мг/дл |
+| one, concentr-milligram-per-deciliter | {0} мг/дл |
+| few, concentr-milligram-per-deciliter | {0} мг/дл |
+| many, concentr-milligram-per-deciliter | {0} мг/дл |
+| other, concentr-milligram-per-deciliter | {0} мг/дл |
+| concentr-millimole-per-liter | ↴ |
+| , concentr-millimole-per-liter | ммоль/л |
+| one, concentr-millimole-per-liter | {0} ммоль/л |
+| few, concentr-millimole-per-liter | {0} ммоль/л |
+| many, concentr-millimole-per-liter | {0} ммоль/л |
+| other, concentr-millimole-per-liter | {0} ммоль/л |
+| concentr-part-per-million | ↴ |
+| , concentr-part-per-million | ppm |
+| one, concentr-part-per-million | {0} ppm |
+| few, concentr-part-per-million | {0} ppm |
+| many, concentr-part-per-million | {0} ppm |
+| other, concentr-part-per-million | {0} ppm |
+| consumption-liter-per-kilometer | ↴ |
+| , consumption-liter-per-kilometer | л/км |
+| one, consumption-liter-per-kilometer | {0} л/км |
+| few, consumption-liter-per-kilometer | {0} л/км |
+| many, consumption-liter-per-kilometer | {0} л/км |
+| other, consumption-liter-per-kilometer | {0} л/км |
+| consumption-liter-per-100kilometers | ↴ |
+| , consumption-liter-per-100kilometers | л/100 км |
+| one, consumption-liter-per-100kilometers | {0} л/100 км |
+| few, consumption-liter-per-100kilometers | {0} л/100 км |
+| many, consumption-liter-per-100kilometers | {0} л/100 км |
+| other, consumption-liter-per-100kilometers | {0} л/100 км |
+| consumption-mile-per-gallon | ↴ |
+| , consumption-mile-per-gallon | миль/гал |
+| one, consumption-mile-per-gallon | {0} миля/галл. |
+| few, consumption-mile-per-gallon | {0} мили/галл. |
+| many, consumption-mile-per-gallon | {0} миль/галл. |
+| other, consumption-mile-per-gallon | {0} мили/галл. |
+| consumption-mile-per-gallon-imperial | ↴ |
+| , consumption-mile-per-gallon-imperial | мили/имп. гал |
+| one, consumption-mile-per-gallon-imperial | {0} миля/имп. гал |
+| few, consumption-mile-per-gallon-imperial | {0} мили/имп. гал |
+| many, consumption-mile-per-gallon-imperial | {0} миль/имп. гал |
+| other, consumption-mile-per-gallon-imperial | {0} мили/имп. галл. |
+| digital-terabyte | ↴ |
+| , digital-terabyte | ТБ |
+| one, digital-terabyte | {0} ТБ |
+| few, digital-terabyte | {0} ТБ |
+| many, digital-terabyte | {0} ТБ |
+| other, digital-terabyte | {0} ТБ |
+| digital-terabit | ↴ |
+| , digital-terabit | Тбит |
+| one, digital-terabit | {0} Тбит |
+| few, digital-terabit | {0} Тбит |
+| many, digital-terabit | {0} Тбит |
+| other, digital-terabit | {0} Тбит |
+| digital-gigabyte | ↴ |
+| , digital-gigabyte | ГБ |
+| one, digital-gigabyte | {0} ГБ |
+| few, digital-gigabyte | {0} ГБ |
+| many, digital-gigabyte | {0} ГБ |
+| other, digital-gigabyte | {0} ГБ |
+| digital-gigabit | ↴ |
+| , digital-gigabit | Гбит |
+| one, digital-gigabit | {0} Гбит |
+| few, digital-gigabit | {0} Гбит |
+| many, digital-gigabit | {0} Гбит |
+| other, digital-gigabit | {0} Гбит |
+| digital-megabyte | ↴ |
+| , digital-megabyte | МБ |
+| one, digital-megabyte | {0} МБ |
+| few, digital-megabyte | {0} МБ |
+| many, digital-megabyte | {0} МБ |
+| other, digital-megabyte | {0} МБ |
+| digital-megabit | ↴ |
+| , digital-megabit | Мбит |
+| one, digital-megabit | {0} Мбит |
+| few, digital-megabit | {0} Мбит |
+| many, digital-megabit | {0} Мбит |
+| other, digital-megabit | {0} Мбит |
+| digital-kilobyte | ↴ |
+| , digital-kilobyte | кБ |
+| one, digital-kilobyte | {0} кБ |
+| few, digital-kilobyte | {0} кБ |
+| many, digital-kilobyte | {0} кБ |
+| other, digital-kilobyte | {0} кБ |
+| digital-kilobit | ↴ |
+| , digital-kilobit | кбит |
+| one, digital-kilobit | {0} кбит |
+| few, digital-kilobit | {0} кбит |
+| many, digital-kilobit | {0} кбит |
+| other, digital-kilobit | {0} кбит |
+| digital-byte | ↴ |
+| , digital-byte | Б |
+| one, digital-byte | {0} Б |
+| few, digital-byte | {0} Б |
+| many, digital-byte | {0} Б |
+| other, digital-byte | {0} Б |
+| digital-bit | ↴ |
+| , digital-bit | бит |
+| one, digital-bit | {0} бит |
+| few, digital-bit | {0} бита |
+| many, digital-bit | {0} бит |
+| other, digital-bit | {0} бита |
+| duration-century | ↴ |
+| , duration-century | в. |
+| one, duration-century | {0} в. |
+| few, duration-century | {0} в. |
+| many, duration-century | {0} в. |
+| other, duration-century | {0} в. |
+| duration-year | ↴ |
+| , duration-year | г. |
+| one, duration-year | {0} г. |
+| few, duration-year | {0} г. |
+| many, duration-year | {0} л. |
+| other, duration-year | {0} г. |
+| per units of duration-year | {0}/г |
+| duration-month | ↴ |
+| , duration-month | мес. |
+| one, duration-month | {0} мес. |
+| few, duration-month | {0} мес. |
+| many, duration-month | {0} мес. |
+| other, duration-month | {0} мес. |
+| per units of duration-month | {0}/мес |
+| duration-week | ↴ |
+| , duration-week | нед. |
+| one, duration-week | {0} нед. |
+| few, duration-week | {0} нед. |
+| many, duration-week | {0} нед. |
+| other, duration-week | {0} нед. |
+| per units of duration-week | {0}/нед |
+| duration-day | ↴ |
+| , duration-day | дн. |
+| one, duration-day | {0} дн. |
+| few, duration-day | {0} дн. |
+| many, duration-day | {0} дн. |
+| other, duration-day | {0} дн. |
+| per units of duration-day | {0}/д |
+| duration-hour | ↴ |
+| , duration-hour | ч |
+| one, duration-hour | {0} ч. |
+| few, duration-hour | {0} ч. |
+| many, duration-hour | {0} ч. |
+| other, duration-hour | {0} ч. |
+| per units of duration-hour | {0}/ч |
+| duration-minute | ↴ |
+| , duration-minute | мин |
+| one, duration-minute | {0} мин. |
+| few, duration-minute | {0} мин. |
+| many, duration-minute | {0} мин. |
+| other, duration-minute | {0} мин. |
+| per units of duration-minute | {0}/мин |
+| duration-second | ↴ |
+| , duration-second | с |
+| one, duration-second | {0} с. |
+| few, duration-second | {0} с. |
+| many, duration-second | {0} с. |
+| other, duration-second | {0} с. |
+| per units of duration-second | {0}/c |
+| duration-millisecond | ↴ |
+| , duration-millisecond | мс |
+| one, duration-millisecond | {0} мс |
+| few, duration-millisecond | {0} мс |
+| many, duration-millisecond | {0} мс |
+| other, duration-millisecond | {0} мс |
+| duration-microsecond | ↴ |
+| , duration-microsecond | мкс |
+| one, duration-microsecond | {0} мкс |
+| few, duration-microsecond | {0} мкс |
+| many, duration-microsecond | {0} мкс |
+| other, duration-microsecond | {0} мкс |
+| duration-nanosecond | ↴ |
+| , duration-nanosecond | нс |
+| one, duration-nanosecond | {0} нс |
+| few, duration-nanosecond | {0} нс |
+| many, duration-nanosecond | {0} нс |
+| other, duration-nanosecond | {0} нс |
+| electric-ampere | ↴ |
+| , electric-ampere | А |
+| one, electric-ampere | {0} А |
+| few, electric-ampere | {0} А |
+| many, electric-ampere | {0} А |
+| other, electric-ampere | {0} А |
+| electric-milliampere | ↴ |
+| , electric-milliampere | мА |
+| one, electric-milliampere | {0} мА |
+| few, electric-milliampere | {0} мА |
+| many, electric-milliampere | {0} мА |
+| other, electric-milliampere | {0} мА |
+| electric-ohm | ↴ |
+| , electric-ohm | Ом |
+| one, electric-ohm | {0} Ом |
+| few, electric-ohm | {0} Ом |
+| many, electric-ohm | {0} Ом |
+| other, electric-ohm | {0} Ом |
+| electric-volt | ↴ |
+| , electric-volt | В |
+| one, electric-volt | {0} В |
+| few, electric-volt | {0} В |
+| many, electric-volt | {0} В |
+| other, electric-volt | {0} В |
+| energy-kilocalorie | ↴ |
+| , energy-kilocalorie | ккал |
+| one, energy-kilocalorie | {0} ккал |
+| few, energy-kilocalorie | {0} ккал |
+| many, energy-kilocalorie | {0} ккал |
+| other, energy-kilocalorie | {0} ккал |
+| energy-calorie | ↴ |
+| , energy-calorie | кал |
+| one, energy-calorie | {0} кал |
+| few, energy-calorie | {0} кал |
+| many, energy-calorie | {0} кал |
+| other, energy-calorie | {0} кал |
+| energy-foodcalorie | ↴ |
+| , energy-foodcalorie | кал |
+| one, energy-foodcalorie | {0} кал |
+| few, energy-foodcalorie | {0} кал |
+| many, energy-foodcalorie | {0} кал |
+| other, energy-foodcalorie | {0} кал |
+| energy-kilojoule | ↴ |
+| , energy-kilojoule | кДж |
+| one, energy-kilojoule | {0} кДж |
+| few, energy-kilojoule | {0} кДж |
+| many, energy-kilojoule | {0} кДж |
+| other, energy-kilojoule | {0} кДж |
+| energy-joule | ↴ |
+| , energy-joule | Дж |
+| one, energy-joule | {0} Дж |
+| few, energy-joule | {0} Дж |
+| many, energy-joule | {0} Дж |
+| other, energy-joule | {0} Дж |
+| energy-kilowatt-hour | ↴ |
+| , energy-kilowatt-hour | кВт⋅ч |
+| one, energy-kilowatt-hour | {0} кВт⋅ч |
+| few, energy-kilowatt-hour | {0} кВт⋅ч |
+| many, energy-kilowatt-hour | {0} кВт⋅ч |
+| other, energy-kilowatt-hour | {0} кВт⋅ч |
+| frequency-gigahertz | ↴ |
+| , frequency-gigahertz | ГГц |
+| one, frequency-gigahertz | {0} ГГц |
+| few, frequency-gigahertz | {0} ГГц |
+| many, frequency-gigahertz | {0} ГГц |
+| other, frequency-gigahertz | {0} ГГц |
+| frequency-megahertz | ↴ |
+| , frequency-megahertz | МГц |
+| one, frequency-megahertz | {0} МГц |
+| few, frequency-megahertz | {0} МГц |
+| many, frequency-megahertz | {0} МГц |
+| other, frequency-megahertz | {0} МГц |
+| frequency-kilohertz | ↴ |
+| , frequency-kilohertz | кГц |
+| one, frequency-kilohertz | {0} кГц |
+| few, frequency-kilohertz | {0} кГц |
+| many, frequency-kilohertz | {0} кГц |
+| other, frequency-kilohertz | {0} кГц |
+| frequency-hertz | ↴ |
+| , frequency-hertz | Гц |
+| one, frequency-hertz | {0} Гц |
+| few, frequency-hertz | {0} Гц |
+| many, frequency-hertz | {0} Гц |
+| other, frequency-hertz | {0} Гц |
+| length-kilometer | ↴ |
+| , length-kilometer | км |
+| one, length-kilometer | {0} км |
+| few, length-kilometer | {0} км |
+| many, length-kilometer | {0} км |
+| other, length-kilometer | {0} км |
+| per units of length-kilometer | {0}/км |
+| length-meter | ↴ |
+| , length-meter | м |
+| one, length-meter | {0} м |
+| few, length-meter | {0} м |
+| many, length-meter | {0} м |
+| other, length-meter | {0} м |
+| per units of length-meter | {0}/м |
+| length-decimeter | ↴ |
+| , length-decimeter | дм |
+| one, length-decimeter | {0} дм |
+| few, length-decimeter | {0} дм |
+| many, length-decimeter | {0} дм |
+| other, length-decimeter | {0} дм |
+| length-centimeter | ↴ |
+| , length-centimeter | см |
+| one, length-centimeter | {0} см |
+| few, length-centimeter | {0} см |
+| many, length-centimeter | {0} см |
+| other, length-centimeter | {0} см |
+| per units of length-centimeter | {0}/см |
+| length-millimeter | ↴ |
+| , length-millimeter | мм |
+| one, length-millimeter | {0} мм |
+| few, length-millimeter | {0} мм |
+| many, length-millimeter | {0} мм |
+| other, length-millimeter | {0} мм |
+| length-micrometer | ↴ |
+| , length-micrometer | мкм |
+| one, length-micrometer | {0} мкм |
+| few, length-micrometer | {0} мкм |
+| many, length-micrometer | {0} мкм |
+| other, length-micrometer | {0} мкм |
+| length-nanometer | ↴ |
+| , length-nanometer | нм |
+| one, length-nanometer | {0} нм |
+| few, length-nanometer | {0} нм |
+| many, length-nanometer | {0} нм |
+| other, length-nanometer | {0} нм |
+| length-picometer | ↴ |
+| , length-picometer | пм |
+| one, length-picometer | {0} пм |
+| few, length-picometer | {0} пм |
+| many, length-picometer | {0} пм |
+| other, length-picometer | {0} пм |
+| length-mile | ↴ |
+| , length-mile | мили |
+| one, length-mile | {0} миля |
+| few, length-mile | {0} мили |
+| many, length-mile | {0} миль |
+| other, length-mile | {0} мили |
+| length-yard | ↴ |
+| , length-yard | ярд. |
+| one, length-yard | {0} ярд |
+| few, length-yard | {0} ярд. |
+| many, length-yard | {0} ярд. |
+| other, length-yard | {0} ярд. |
+| length-foot | ↴ |
+| , length-foot | фт |
+| one, length-foot | {0} фт |
+| few, length-foot | {0} фт |
+| many, length-foot | {0} фт |
+| other, length-foot | {0} фт |
+| per units of length-foot | {0}/фт |
+| length-inch | ↴ |
+| , length-inch | дюйм. |
+| one, length-inch | {0} дюйм |
+| few, length-inch | {0} дюйм. |
+| many, length-inch | {0} дюйм. |
+| other, length-inch | {0} дюйм. |
+| per units of length-inch | {0}/дюйм |
+| length-parsec | ↴ |
+| , length-parsec | пк |
+| one, length-parsec | {0} пк |
+| few, length-parsec | {0} пк |
+| many, length-parsec | {0} пк |
+| other, length-parsec | {0} пк |
+| length-light-year | ↴ |
+| , length-light-year | св. г. |
+| one, length-light-year | {0} св. г. |
+| few, length-light-year | {0} св. г. |
+| many, length-light-year | {0} св. л. |
+| other, length-light-year | {0} св. г. |
+| length-astronomical-unit | ↴ |
+| , length-astronomical-unit | а. е. |
+| one, length-astronomical-unit | {0} а. е. |
+| few, length-astronomical-unit | {0} а. е. |
+| many, length-astronomical-unit | {0} а. е. |
+| other, length-astronomical-unit | {0} а. е. |
+| length-furlong | ↴ |
+| , length-furlong | фурлонги |
+| one, length-furlong | {0} фурл. |
+| few, length-furlong | {0} фурл. |
+| many, length-furlong | {0} фурл. |
+| other, length-furlong | {0} фурл. |
+| length-fathom | ↴ |
+| , length-fathom | мор. сажени |
+| one, length-fathom | {0} мор. сажень |
+| few, length-fathom | {0} мор. сажени |
+| many, length-fathom | {0} мор. саженей |
+| other, length-fathom | {0} мор. сажени |
+| length-nautical-mile | ↴ |
+| , length-nautical-mile | мор. мили |
+| one, length-nautical-mile | {0} мор. миля |
+| few, length-nautical-mile | {0} мор. мили |
+| many, length-nautical-mile | {0} мор. миль |
+| other, length-nautical-mile | {0} мор. мили |
+| length-mile-scandinavian | ↴ |
+| , length-mile-scandinavian | ск. мил. |
+| one, length-mile-scandinavian | {0} ск. мил. |
+| few, length-mile-scandinavian | {0} ск. мил. |
+| many, length-mile-scandinavian | {0} ск. мил. |
+| other, length-mile-scandinavian | {0} ск. мил. |
+| length-point | ↴ |
+| , length-point | пкт |
+| one, length-point | {0} пкт |
+| few, length-point | {0} пкт |
+| many, length-point | {0} пкт |
+| other, length-point | {0} пкт |
+| light-lux | ↴ |
+| , light-lux | лк |
+| one, light-lux | {0} лк |
+| few, light-lux | {0} лк |
+| many, light-lux | {0} лк |
+| other, light-lux | {0} лк |
+| mass-metric-ton | ↴ |
+| , mass-metric-ton | т |
+| one, mass-metric-ton | {0} т |
+| few, mass-metric-ton | {0} т |
+| many, mass-metric-ton | {0} т |
+| other, mass-metric-ton | {0} т |
+| mass-kilogram | ↴ |
+| , mass-kilogram | кг |
+| one, mass-kilogram | {0} кг |
+| few, mass-kilogram | {0} кг |
+| many, mass-kilogram | {0} кг |
+| other, mass-kilogram | {0} кг |
+| per units of mass-kilogram | {0}/кг |
+| mass-gram | ↴ |
+| , mass-gram | г |
+| one, mass-gram | {0} г |
+| few, mass-gram | {0} г |
+| many, mass-gram | {0} г |
+| other, mass-gram | {0} г |
+| per units of mass-gram | {0}/г |
+| mass-milligram | ↴ |
+| , mass-milligram | мг |
+| one, mass-milligram | {0} мг |
+| few, mass-milligram | {0} мг |
+| many, mass-milligram | {0} мг |
+| other, mass-milligram | {0} мг |
+| mass-microgram | ↴ |
+| , mass-microgram | мкг |
+| one, mass-microgram | {0} мкг |
+| few, mass-microgram | {0} мкг |
+| many, mass-microgram | {0} мкг |
+| other, mass-microgram | {0} мкг |
+| mass-ton | ↴ |
+| , mass-ton | амер. т |
+| one, mass-ton | {0} амер. т |
+| few, mass-ton | {0} амер. т |
+| many, mass-ton | {0} амер. т |
+| other, mass-ton | {0} амер. т |
+| mass-stone | ↴ |
+| , mass-stone | стоуны |
+| one, mass-stone | {0} стоун |
+| few, mass-stone | {0} стоуна |
+| many, mass-stone | {0} стоунов |
+| other, mass-stone | {0} стоуна |
+| mass-pound | ↴ |
+| , mass-pound | фунт. |
+| one, mass-pound | {0} фунт. |
+| few, mass-pound | {0} фунт. |
+| many, mass-pound | {0} фунт. |
+| other, mass-pound | {0} фунт. |
+| per units of mass-pound | {0}/фунт |
+| mass-ounce | ↴ |
+| , mass-ounce | унц. |
+| one, mass-ounce | {0} унц. |
+| few, mass-ounce | {0} унц. |
+| many, mass-ounce | {0} унц. |
+| other, mass-ounce | {0} унц. |
+| per units of mass-ounce | {0}/унц |
+| mass-ounce-troy | ↴ |
+| , mass-ounce-troy | тр. унц. |
+| one, mass-ounce-troy | {0} тр. унц. |
+| few, mass-ounce-troy | {0} тр. унц. |
+| many, mass-ounce-troy | {0} тр. унц. |
+| other, mass-ounce-troy | {0} тр. унц. |
+| mass-carat | ↴ |
+| , mass-carat | кар |
+| one, mass-carat | {0} кар |
+| few, mass-carat | {0} кар |
+| many, mass-carat | {0} кар |
+| other, mass-carat | {0} кар |
+| power-gigawatt | ↴ |
+| , power-gigawatt | ГВт |
+| one, power-gigawatt | {0} ГВт |
+| few, power-gigawatt | {0} ГВт |
+| many, power-gigawatt | {0} ГВт |
+| other, power-gigawatt | {0} ГВт |
+| power-megawatt | ↴ |
+| , power-megawatt | МВт |
+| one, power-megawatt | {0} МВт |
+| few, power-megawatt | {0} МВт |
+| many, power-megawatt | {0} МВт |
+| other, power-megawatt | {0} МВт |
+| power-kilowatt | ↴ |
+| , power-kilowatt | кВт |
+| one, power-kilowatt | {0} кВт |
+| few, power-kilowatt | {0} кВт |
+| many, power-kilowatt | {0} кВт |
+| other, power-kilowatt | {0} кВт |
+| power-watt | ↴ |
+| , power-watt | Вт |
+| one, power-watt | {0} Вт |
+| few, power-watt | {0} Вт |
+| many, power-watt | {0} Вт |
+| other, power-watt | {0} Вт |
+| power-milliwatt | ↴ |
+| , power-milliwatt | мВт |
+| one, power-milliwatt | {0} мВт |
+| few, power-milliwatt | {0} мВт |
+| many, power-milliwatt | {0} мВт |
+| other, power-milliwatt | {0} мВт |
+| power-horsepower | ↴ |
+| , power-horsepower | л.с. |
+| one, power-horsepower | {0} л.с. |
+| few, power-horsepower | {0} л.с. |
+| many, power-horsepower | {0} л.с. |
+| other, power-horsepower | {0} л.с. |
+| pressure-hectopascal | ↴ |
+| , pressure-hectopascal | гПа |
+| one, pressure-hectopascal | {0} гПа |
+| few, pressure-hectopascal | {0} гПа |
+| many, pressure-hectopascal | {0} гПа |
+| other, pressure-hectopascal | {0} гПа |
+| pressure-millimeter-of-mercury | ↴ |
+| , pressure-millimeter-of-mercury | мм рт. ст. |
+| one, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| few, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| many, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| other, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| pressure-pound-per-square-inch | ↴ |
+| , pressure-pound-per-square-inch | ф. на дюйм² |
+| one, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| few, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| many, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| other, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| pressure-inch-hg | ↴ |
+| , pressure-inch-hg | д. рт. ст. |
+| one, pressure-inch-hg | {0} д. рт. ст. |
+| few, pressure-inch-hg | {0} д. рт. ст. |
+| many, pressure-inch-hg | {0} д. рт. ст. |
+| other, pressure-inch-hg | {0} д. рт. ст. |
+| pressure-millibar | ↴ |
+| , pressure-millibar | мбар |
+| one, pressure-millibar | {0} мбар |
+| few, pressure-millibar | {0} мбар |
+| many, pressure-millibar | {0} мбар |
+| other, pressure-millibar | {0} мбар |
+| speed-kilometer-per-hour | ↴ |
+| , speed-kilometer-per-hour | км/ч |
+| one, speed-kilometer-per-hour | {0} км/ч |
+| few, speed-kilometer-per-hour | {0} км/ч |
+| many, speed-kilometer-per-hour | {0} км/ч |
+| other, speed-kilometer-per-hour | {0} км/ч |
+| speed-meter-per-second | ↴ |
+| , speed-meter-per-second | м/с |
+| one, speed-meter-per-second | {0} м/с |
+| few, speed-meter-per-second | {0} м/с |
+| many, speed-meter-per-second | {0} м/с |
+| other, speed-meter-per-second | {0} м/с |
+| speed-mile-per-hour | ↴ |
+| , speed-mile-per-hour | мили/час |
+| one, speed-mile-per-hour | {0} миля/час |
+| few, speed-mile-per-hour | {0} мили/час |
+| many, speed-mile-per-hour | {0} миль/час |
+| other, speed-mile-per-hour | {0} мили/час |
+| speed-knot | ↴ |
+| , speed-knot | уз |
+| one, speed-knot | {0} уз |
+| few, speed-knot | {0} уз |
+| many, speed-knot | {0} уз |
+| other, speed-knot | {0} уз |
+| temperature-generic | ↴ |
+| , temperature-generic | ° |
+| one, temperature-generic | {0}° |
+| few, temperature-generic | {0}° |
+| many, temperature-generic | {0}° |
+| other, temperature-generic | {0}° |
+| temperature-celsius | ↴ |
+| , temperature-celsius | °C |
+| one, temperature-celsius | {0} °C |
+| few, temperature-celsius | {0} °C |
+| many, temperature-celsius | {0} °C |
+| other, temperature-celsius | {0} °C |
+| temperature-fahrenheit | ↴ |
+| , temperature-fahrenheit | °F |
+| one, temperature-fahrenheit | {0}°F |
+| few, temperature-fahrenheit | {0}°F |
+| many, temperature-fahrenheit | {0}°F |
+| other, temperature-fahrenheit | {0}°F |
+| temperature-kelvin | ↴ |
+| , temperature-kelvin | K |
+| one, temperature-kelvin | {0} K |
+| few, temperature-kelvin | {0} K |
+| many, temperature-kelvin | {0} K |
+| other, temperature-kelvin | {0} K |
+| volume-cubic-kilometer | ↴ |
+| , volume-cubic-kilometer | км³ |
+| one, volume-cubic-kilometer | {0} км³ |
+| few, volume-cubic-kilometer | {0} км³ |
+| many, volume-cubic-kilometer | {0} км³ |
+| other, volume-cubic-kilometer | {0} км³ |
+| volume-cubic-meter | ↴ |
+| , volume-cubic-meter | м³ |
+| one, volume-cubic-meter | {0} м³ |
+| few, volume-cubic-meter | {0} м³ |
+| many, volume-cubic-meter | {0} м³ |
+| other, volume-cubic-meter | {0} м³ |
+| per units of volume-cubic-meter | {0}/м³ |
+| volume-cubic-centimeter | ↴ |
+| , volume-cubic-centimeter | см³ |
+| one, volume-cubic-centimeter | {0} см³ |
+| few, volume-cubic-centimeter | {0} см³ |
+| many, volume-cubic-centimeter | {0} см³ |
+| other, volume-cubic-centimeter | {0} см³ |
+| per units of volume-cubic-centimeter | {0}/см³ |
+| volume-cubic-mile | ↴ |
+| , volume-cubic-mile | миля³ |
+| one, volume-cubic-mile | {0} миля³ |
+| few, volume-cubic-mile | {0} мили³ |
+| many, volume-cubic-mile | {0} миль³ |
+| other, volume-cubic-mile | {0} мили³ |
+| volume-cubic-yard | ↴ |
+| , volume-cubic-yard | ярд³ |
+| one, volume-cubic-yard | {0} ярд³ |
+| few, volume-cubic-yard | {0} ярд³ |
+| many, volume-cubic-yard | {0} ярд³ |
+| other, volume-cubic-yard | {0} ярд³ |
+| volume-cubic-foot | ↴ |
+| , volume-cubic-foot | фут³ |
+| one, volume-cubic-foot | {0} фут³ |
+| few, volume-cubic-foot | {0} фут³ |
+| many, volume-cubic-foot | {0} фут³ |
+| other, volume-cubic-foot | {0} фут³ |
+| volume-cubic-inch | ↴ |
+| , volume-cubic-inch | дюйм³ |
+| one, volume-cubic-inch | {0} дюйм³ |
+| few, volume-cubic-inch | {0} дюйм³ |
+| many, volume-cubic-inch | {0} дюйм³ |
+| other, volume-cubic-inch | {0} дюйм³ |
+| volume-megaliter | ↴ |
+| , volume-megaliter | Мл |
+| one, volume-megaliter | {0} Мл |
+| few, volume-megaliter | {0} Мл |
+| many, volume-megaliter | {0} Мл |
+| other, volume-megaliter | {0} Мл |
+| volume-hectoliter | ↴ |
+| , volume-hectoliter | гл |
+| one, volume-hectoliter | {0} гл |
+| few, volume-hectoliter | {0} гл |
+| many, volume-hectoliter | {0} гл |
+| other, volume-hectoliter | {0} гл |
+| volume-liter | ↴ |
+| , volume-liter | л |
+| one, volume-liter | {0} л |
+| few, volume-liter | {0} л |
+| many, volume-liter | {0} л |
+| other, volume-liter | {0} л |
+| per units of volume-liter | {0}/л |
+| volume-deciliter | ↴ |
+| , volume-deciliter | дл |
+| one, volume-deciliter | {0} дл |
+| few, volume-deciliter | {0} дл |
+| many, volume-deciliter | {0} дл |
+| other, volume-deciliter | {0} дл |
+| volume-centiliter | ↴ |
+| , volume-centiliter | сл |
+| one, volume-centiliter | {0} сл |
+| few, volume-centiliter | {0} сл |
+| many, volume-centiliter | {0} сл |
+| other, volume-centiliter | {0} сл |
+| volume-milliliter | ↴ |
+| , volume-milliliter | мл |
+| one, volume-milliliter | {0} мл |
+| few, volume-milliliter | {0} мл |
+| many, volume-milliliter | {0} мл |
+| other, volume-milliliter | {0} мл |
+| volume-pint-metric | ↴ |
+| , volume-pint-metric | мпт |
+| one, volume-pint-metric | {0} мпт |
+| few, volume-pint-metric | {0} мпт |
+| many, volume-pint-metric | {0} мпт |
+| other, volume-pint-metric | {0} мпт |
+| volume-cup-metric | ↴ |
+| , volume-cup-metric | м. чаш. |
+| one, volume-cup-metric | {0} м. чаш. |
+| few, volume-cup-metric | {0} м. чаш. |
+| many, volume-cup-metric | {0} м. чаш. |
+| other, volume-cup-metric | {0} м. чаш. |
+| volume-acre-foot | ↴ |
+| , volume-acre-foot | акрофут. |
+| one, volume-acre-foot | {0} акрофут |
+| few, volume-acre-foot | {0} акрофут. |
+| many, volume-acre-foot | {0} акрофут. |
+| other, volume-acre-foot | {0} акрофут. |
+| volume-gallon | ↴ |
+| , volume-gallon | гал. |
+| one, volume-gallon | {0} гал. |
+| few, volume-gallon | {0} гал. |
+| many, volume-gallon | {0} гал. |
+| other, volume-gallon | {0} гал. |
+| per units of volume-gallon | {0}/гал |
+| volume-gallon-imperial | ↴ |
+| , volume-gallon-imperial | имп. гал. |
+| one, volume-gallon-imperial | {0} имп. гал. |
+| few, volume-gallon-imperial | {0} имп. гал. |
+| many, volume-gallon-imperial | {0} имп. гал. |
+| other, volume-gallon-imperial | {0} имп. гал. |
+| per units of volume-gallon-imperial | {0}/имп. гал |
+| volume-quart | ↴ |
+| , volume-quart | кварт. |
+| one, volume-quart | {0} кварт. |
+| few, volume-quart | {0} кварт. |
+| many, volume-quart | {0} кварт. |
+| other, volume-quart | {0} кварт. |
+| volume-pint | ↴ |
+| , volume-pint | пинт. |
+| one, volume-pint | {0} пинт. |
+| few, volume-pint | {0} пинт. |
+| many, volume-pint | {0} пинт. |
+| other, volume-pint | {0} пинт. |
+| volume-cup | ↴ |
+| , volume-cup | чаш. |
+| one, volume-cup | {0} чаш. |
+| few, volume-cup | {0} чаш. |
+| many, volume-cup | {0} чаш. |
+| other, volume-cup | {0} чаш. |
+| volume-fluid-ounce | ↴ |
+| , volume-fluid-ounce | жидк. унц. |
+| one, volume-fluid-ounce | {0} жидк. унц. |
+| few, volume-fluid-ounce | {0} жидк. унц. |
+| many, volume-fluid-ounce | {0} жидк. унц. |
+| other, volume-fluid-ounce | {0} жидк. унц. |
+| volume-tablespoon | ↴ |
+| , volume-tablespoon | ст. л. |
+| one, volume-tablespoon | {0} ст. л. |
+| few, volume-tablespoon | {0} ст. л. |
+| many, volume-tablespoon | {0} ст. л. |
+| other, volume-tablespoon | {0} ст. л. |
+| volume-teaspoon | ↴ |
+| , volume-teaspoon | ч. л. |
+| one, volume-teaspoon | {0} ч. л. |
+| few, volume-teaspoon | {0} ч. л. |
+| many, volume-teaspoon | {0} ч. л. |
+| other, volume-teaspoon | {0} ч. л. |
+| coordinates, east | {0} в. д. |
+| coordinates, north | {0} с. ш. |
+| coordinates, south | {0} ю. ш. |
+| coordinates, west | {0} з. д. |
 | Compound pattern  | {0}/{1} |
-| acceleration-g-force | ... |
-|  | g |
-| one | {0} G |
-| few | {0} G |
-| many | {0} G |
-| other | {0} G |
-| acceleration-meter-per-second-squared | ... |
-|  | м/с² |
-| one | {0} м/с² |
-| few | {0} м/с² |
-| many | {0} м/с² |
-| other | {0} м/с² |
-| angle-degree | ... |
-| one | {0}° |
-| few | {0}° |
-| many | {0}° |
-| other | {0}° |
-| angle-arc-minute | ... |
-| one | {0}′ |
-| few | {0}′ |
-| many | {0}′ |
-| other | {0}′ |
-| angle-arc-second | ... |
-| one | {0}″ |
-| few | {0}″ |
-| many | {0}″ |
-| other | {0}″ |
-| area-square-kilometer | ... |
-| one | {0} км² |
-| few | {0} км² |
-| many | {0} км² |
-| other | {0} км² |
-| area-hectare | ... |
-| one | {0} га |
-| few | {0} га |
-| many | {0} га |
-| other | {0} га |
-| area-square-meter | ... |
-| one | {0} м² |
-| few | {0} м² |
-| many | {0} м² |
-| other | {0} м² |
-| area-square-mile | ... |
-| one | {0} кв. миля |
-| few | {0} кв. мили |
-| many | {0} кв. миль |
-| other | {0} кв. мили |
-| area-acre | ... |
-| one | {0} акр |
-| few | {0} акра |
-| many | {0} акров |
-| other | {0} акра |
-| area-square-foot | ... |
-| one | {0} кв. фут |
-| few | {0} кв. фута |
-| many | {0} кв. футов |
-| other | {0} кв. фута |
-| consumption-liter-per-100kilometers | ... |
-|  | л/100 км |
-| one | {0} л/100 км |
-| few | {0} л/100 км |
-| many | {0} л/100 км |
-| other | {0} л/100 км |
-| duration-century | ... |
-|  | в. |
-| one | {0} в. |
-| few | {0} в. |
-| many | {0} в. |
-| other | {0} в. |
-| duration-year | ... |
-|  | г. |
-| one | {0} г. |
-| few | {0} г. |
-| many | {0} л. |
-| other | {0} г. |
-{0}/г.
-| duration-month | ... |
-|  | м. |
-| one | {0} м. |
-| few | {0} м. |
-| many | {0} м. |
-| other | {0} м. |
-{0}/м.
-| duration-week | ... |
-|  | н. |
-| one | {0} н. |
-| few | {0} н. |
-| many | {0} н. |
-| other | {0} н. |
-{0}/н.
-| duration-day | ... |
-|  | д. |
-| one | {0} д. |
-| few | {0} д. |
-| many | {0} д. |
-| other | {0} д. |
-{0}/д.
-| duration-hour | ... |
-|  | ч |
-| one | {0} ч |
-| few | {0} ч |
-| many | {0} ч |
-| other | {0} ч |
-{0}/ч.
-| duration-minute | ... |
-|  | мин |
-| one | {0} мин |
-| few | {0} мин |
-| many | {0} мин |
-| other | {0} мин |
-{0}/мин.
-| duration-second | ... |
-|  | c |
-| one | {0} с |
-| few | {0} с |
-| many | {0} с |
-| other | {0} с |
-{0}/c
-| duration-millisecond | ... |
-|  | мс |
-| one | {0} мс |
-| few | {0} мс |
-| many | {0} мс |
-| other | {0} мс |
-| duration-microsecond | ... |
-|  | мкс |
-| one | {0} мкс |
-| few | {0} мкс |
-| many | {0} мкс |
-| other | {0} мкс |
-| duration-nanosecond | ... |
-|  | нс |
-| one | {0} нс |
-| few | {0} нс |
-| many | {0} нс |
-| other | {0} нс |
-| length-kilometer | ... |
-|  | км |
-| one | {0} км |
-| few | {0} км |
-| many | {0} км |
-| other | {0} км |
-{0}/км
-| length-meter | ... |
-|  | м |
-| one | {0} м |
-| few | {0} м |
-| many | {0} м |
-| other | {0} м |
-{0}/м
-| length-decimeter | ... |
-|  | дм |
-| one | {0} дм |
-| few | {0} дм |
-| many | {0} дм |
-| other | {0} дм |
-| length-centimeter | ... |
-|  | см |
-| one | {0} см |
-| few | {0} см |
-| many | {0} см |
-| other | {0} см |
-{0}/см
-| length-millimeter | ... |
-|  | мм |
-| one | {0} мм |
-| few | {0} мм |
-| many | {0} мм |
-| other | {0} мм |
-| length-micrometer | ... |
-|  | мкм |
-| one | {0} мкм |
-| few | {0} мкм |
-| many | {0} мкм |
-| other | {0} мкм |
-| length-nanometer | ... |
-|  | нм |
-| one | {0} нм |
-| few | {0} нм |
-| many | {0} нм |
-| other | {0} нм |
-| length-picometer | ... |
-|  | пм |
-| one | {0} pm |
-| few | {0} pm |
-| many | {0} pm |
-| other | {0} pm |
-| length-mile | ... |
-|  | мл. |
-| one | {0} миля |
-| few | {0} миль |
-| many | {0} миль |
-| other | {0} мили |
-| length-yard | ... |
-|  | ярд. |
-| one | {0} ярд |
-| few | {0} ярда |
-| many | {0} ярдов |
-| other | {0} ярда |
-| length-foot | ... |
-|  | фт |
-| one | {0} фт |
-| few | {0} фт |
-| many | {0} фт |
-| other | {0} фт |
-{0}/фт
-| length-inch | ... |
-|  | дюйм. |
-| one | {0} дюйм |
-| few | {0} дюйма |
-| many | {0} дюймов |
-| other | {0} дюйма |
-{0}/дюйм.
-| length-parsec | ... |
-|  | пк |
-| one | {0} пк |
-| few | {0} пк |
-| many | {0} пк |
-| other | {0} пк |
-| length-light-year | ... |
-|  | св. годы |
-| one | {0} св. г. |
-| few | {0} св. г. |
-| many | {0} св. л. |
-| other | {0} св. г. |
-| length-astronomical-unit | ... |
-|  | а. е. |
-| one | {0} а. е. |
-| few | {0} а. е. |
-| many | {0} а. е. |
-| other | {0} а. е. |
-| length-furlong | ... |
-|  | фрл |
-| one | {0} фрл |
-| few | {0} фрл |
-| many | {0} фрл |
-| other | {0} фрл |
-| length-fathom | ... |
-|  | м. саж. |
-| one | {0} м. саж. |
-| few | {0} м. саж. |
-| many | {0} м. саж. |
-| other | {0} м. саж. |
-| length-nautical-mile | ... |
-|  | мор. мили |
-| one | {0} м. мл. |
-| few | {0} м. мл. |
-| many | {0} м. мл. |
-| other | {0} м. мл. |
-| length-mile-scandinavian | ... |
-|  | ск. мл. |
-| one | {0} ск. мл. |
-| few | {0} ск. мл. |
-| many | {0} ск. мл. |
-| other | {0} ск. мл. |
-| length-point | ... |
-|  | пкт |
-| one | {0} пкт |
-| few | {0} пкт |
-| many | {0} пкт |
-| other | {0} пкт |
-| mass-metric-ton | ... |
-|  | т |
-| one | {0} т |
-| few | {0} т |
-| many | {0} т |
-| other | {0} т |
-| mass-kilogram | ... |
-|  | кг |
-| one | {0} кг |
-| few | {0} кг |
-| many | {0} кг |
-| other | {0} кг |
-{0}/кг
-| mass-gram | ... |
-|  | г |
-| one | {0} г |
-| few | {0} г |
-| many | {0} г |
-| other | {0} г |
-{0}/г
-| mass-milligram | ... |
-|  | мг |
-| one | {0} мг |
-| few | {0} мг |
-| many | {0} мг |
-| other | {0} мг |
-| mass-microgram | ... |
-|  | мкг |
-| one | {0} мкг |
-| few | {0} мкг |
-| many | {0} мкг |
-| other | {0} мкг |
-| mass-ton | ... |
-|  | ам. т |
-| one | {0} ам. т |
-| few | {0} ам. т |
-| many | {0} ам. т |
-| other | {0} ам. т |
-| mass-stone | ... |
-|  | стн |
-| one | {0} стн |
-| few | {0} стн |
-| many | {0} стн |
-| other | {0} стн |
-| mass-pound | ... |
-|  | фнт |
-| one | {0} lb |
-| few | {0} lb |
-| many | {0} lb |
-| other | {0} lb |
-{0}/фнт
-| mass-ounce | ... |
-|  | унц. |
-| one | {0} oz |
-| few | {0} oz |
-| many | {0} oz |
-| other | {0} oz |
-{0}/унц.
-| mass-ounce-troy | ... |
-|  | тр. унц. |
-| one | {0} тр. унц. |
-| few | {0} тр. унц. |
-| many | {0} тр. унц. |
-| other | {0} тр. унц. |
-| mass-carat | ... |
-|  | кар |
-| one | {0} кар |
-| few | {0} кар |
-| many | {0} кар |
-| other | {0} кар |
-| power-kilowatt | ... |
-| one | {0} кВт |
-| few | {0} кВт |
-| many | {0} кВт |
-| other | {0} кВт |
-| power-watt | ... |
-| one | {0} Вт |
-| few | {0} Вт |
-| many | {0} Вт |
-| other | {0} Вт |
-| power-horsepower | ... |
-| one | {0} л.с. |
-| few | {0} л.с. |
-| many | {0} л.с. |
-| other | {0} л.с. |
-| pressure-hectopascal | ... |
-|  | гПа |
-| one | {0} гПа |
-| few | {0} гПа |
-| many | {0} гПа |
-| other | {0} гПа |
-| pressure-millimeter-of-mercury | ... |
-|  | мм рт. ст. |
-| one | {0} мм рт. ст. |
-| few | {0} мм рт. ст. |
-| many | {0} мм рт. ст. |
-| other | {0} мм рт. ст. |
-| pressure-pound-per-square-inch | ... |
-|  | ф. на дюйм² |
-| one | {0} ф./дюйм² |
-| few | {0} ф./дюйм² |
-| many | {0} ф./дюйм² |
-| other | {0} ф./дюйм² |
-| pressure-inch-hg | ... |
-|  | д. рт. ст. |
-| one | {0} inHg |
-| few | {0} inHg |
-| many | {0} inHg |
-| other | {0} inHg |
-| pressure-millibar | ... |
-|  | мбар |
-| one | {0} мбар |
-| few | {0} мбар |
-| many | {0} мбар |
-| other | {0} мбар |
-| speed-kilometer-per-hour | ... |
-|  | км/ч |
-| one | {0} км/ч |
-| few | {0} км/ч |
-| many | {0} км/ч |
-| other | {0} км/ч |
-| speed-meter-per-second | ... |
-|  | м/с |
-| one | {0} м/с |
-| few | {0} м/с |
-| many | {0} м/с |
-| other | {0} м/с |
-| speed-mile-per-hour | ... |
-|  | мили/час |
-| one | {0} миль/ч |
-| few | {0} миль/ч |
-| many | {0} миль/ч |
-| other | {0} миль/ч |
-| speed-knot | ... |
-|  | уз |
-| one | {0} уз |
-| few | {0} уз |
-| many | {0} уз |
-| other | {0} уз |
-| temperature-generic | ... |
-|  | ° |
-| one | {0}° |
-| few | {0}° |
-| many | {0}° |
-| other | {0}° |
-| temperature-celsius | ... |
-|  | °C |
-| one | {0} °C |
-| few | {0} °C |
-| many | {0} °C |
-| other | {0} °C |
-| temperature-fahrenheit | ... |
-|  | °F |
-| one | {0}°F |
-| few | {0}°F |
-| many | {0}°F |
-| other | {0}°F |
-| temperature-kelvin | ... |
-|  | K |
-| one | {0} K |
-| few | {0} K |
-| many | {0} K |
-| other | {0} K |
-| volume-cubic-kilometer | ... |
-| one | {0} км³ |
-| few | {0} км³ |
-| many | {0} км³ |
-| other | {0} км³ |
-| volume-cubic-mile | ... |
-| one | {0} куб. миля |
-| few | {0} куб. мили |
-| many | {0} куб. мили |
-| other | {0} куб. мили |
-| volume-liter | ... |
-|  | л |
-| one | {0} л |
-| few | {0} л |
-| many | {0} л |
-| other | {0} л |
-{0} в. д.{0} с. ш.{0} ю. ш.{0} з. д.h:mmh:mm:ssm:ss
+| acceleration-g-force | ↴ |
+| , acceleration-g-force | g |
+| one, acceleration-g-force | {0} G |
+| few, acceleration-g-force | {0} G |
+| many, acceleration-g-force | {0} G |
+| other, acceleration-g-force | {0} G |
+| acceleration-meter-per-second-squared | ↴ |
+| , acceleration-meter-per-second-squared | м/с² |
+| one, acceleration-meter-per-second-squared | {0} м/с² |
+| few, acceleration-meter-per-second-squared | {0} м/с² |
+| many, acceleration-meter-per-second-squared | {0} м/с² |
+| other, acceleration-meter-per-second-squared | {0} м/с² |
+| angle-degree | ↴ |
+| one, angle-degree | {0}° |
+| few, angle-degree | {0}° |
+| many, angle-degree | {0}° |
+| other, angle-degree | {0}° |
+| angle-arc-minute | ↴ |
+| one, angle-arc-minute | {0}′ |
+| few, angle-arc-minute | {0}′ |
+| many, angle-arc-minute | {0}′ |
+| other, angle-arc-minute | {0}′ |
+| angle-arc-second | ↴ |
+| one, angle-arc-second | {0}″ |
+| few, angle-arc-second | {0}″ |
+| many, angle-arc-second | {0}″ |
+| other, angle-arc-second | {0}″ |
+| area-square-kilometer | ↴ |
+| one, area-square-kilometer | {0} км² |
+| few, area-square-kilometer | {0} км² |
+| many, area-square-kilometer | {0} км² |
+| other, area-square-kilometer | {0} км² |
+| area-hectare | ↴ |
+| one, area-hectare | {0} га |
+| few, area-hectare | {0} га |
+| many, area-hectare | {0} га |
+| other, area-hectare | {0} га |
+| area-square-meter | ↴ |
+| one, area-square-meter | {0} м² |
+| few, area-square-meter | {0} м² |
+| many, area-square-meter | {0} м² |
+| other, area-square-meter | {0} м² |
+| area-square-mile | ↴ |
+| one, area-square-mile | {0} кв. миля |
+| few, area-square-mile | {0} кв. мили |
+| many, area-square-mile | {0} кв. миль |
+| other, area-square-mile | {0} кв. мили |
+| area-acre | ↴ |
+| one, area-acre | {0} акр |
+| few, area-acre | {0} акра |
+| many, area-acre | {0} акров |
+| other, area-acre | {0} акра |
+| area-square-foot | ↴ |
+| one, area-square-foot | {0} кв. фут |
+| few, area-square-foot | {0} кв. фута |
+| many, area-square-foot | {0} кв. футов |
+| other, area-square-foot | {0} кв. фута |
+| consumption-liter-per-100kilometers | ↴ |
+| , consumption-liter-per-100kilometers | л/100 км |
+| one, consumption-liter-per-100kilometers | {0} л/100 км |
+| few, consumption-liter-per-100kilometers | {0} л/100 км |
+| many, consumption-liter-per-100kilometers | {0} л/100 км |
+| other, consumption-liter-per-100kilometers | {0} л/100 км |
+| duration-century | ↴ |
+| , duration-century | в. |
+| one, duration-century | {0} в. |
+| few, duration-century | {0} в. |
+| many, duration-century | {0} в. |
+| other, duration-century | {0} в. |
+| duration-year | ↴ |
+| , duration-year | г. |
+| one, duration-year | {0} г. |
+| few, duration-year | {0} г. |
+| many, duration-year | {0} л. |
+| other, duration-year | {0} г. |
+| per units of duration-year | {0}/г. |
+| duration-month | ↴ |
+| , duration-month | м. |
+| one, duration-month | {0} м. |
+| few, duration-month | {0} м. |
+| many, duration-month | {0} м. |
+| other, duration-month | {0} м. |
+| per units of duration-month | {0}/м. |
+| duration-week | ↴ |
+| , duration-week | н. |
+| one, duration-week | {0} н. |
+| few, duration-week | {0} н. |
+| many, duration-week | {0} н. |
+| other, duration-week | {0} н. |
+| per units of duration-week | {0}/н. |
+| duration-day | ↴ |
+| , duration-day | д. |
+| one, duration-day | {0} д. |
+| few, duration-day | {0} д. |
+| many, duration-day | {0} д. |
+| other, duration-day | {0} д. |
+| per units of duration-day | {0}/д. |
+| duration-hour | ↴ |
+| , duration-hour | ч |
+| one, duration-hour | {0} ч |
+| few, duration-hour | {0} ч |
+| many, duration-hour | {0} ч |
+| other, duration-hour | {0} ч |
+| per units of duration-hour | {0}/ч. |
+| duration-minute | ↴ |
+| , duration-minute | мин |
+| one, duration-minute | {0} мин |
+| few, duration-minute | {0} мин |
+| many, duration-minute | {0} мин |
+| other, duration-minute | {0} мин |
+| per units of duration-minute | {0}/мин. |
+| duration-second | ↴ |
+| , duration-second | c |
+| one, duration-second | {0} с |
+| few, duration-second | {0} с |
+| many, duration-second | {0} с |
+| other, duration-second | {0} с |
+| per units of duration-second | {0}/c |
+| duration-millisecond | ↴ |
+| , duration-millisecond | мс |
+| one, duration-millisecond | {0} мс |
+| few, duration-millisecond | {0} мс |
+| many, duration-millisecond | {0} мс |
+| other, duration-millisecond | {0} мс |
+| duration-microsecond | ↴ |
+| , duration-microsecond | мкс |
+| one, duration-microsecond | {0} мкс |
+| few, duration-microsecond | {0} мкс |
+| many, duration-microsecond | {0} мкс |
+| other, duration-microsecond | {0} мкс |
+| duration-nanosecond | ↴ |
+| , duration-nanosecond | нс |
+| one, duration-nanosecond | {0} нс |
+| few, duration-nanosecond | {0} нс |
+| many, duration-nanosecond | {0} нс |
+| other, duration-nanosecond | {0} нс |
+| length-kilometer | ↴ |
+| , length-kilometer | км |
+| one, length-kilometer | {0} км |
+| few, length-kilometer | {0} км |
+| many, length-kilometer | {0} км |
+| other, length-kilometer | {0} км |
+| per units of length-kilometer | {0}/км |
+| length-meter | ↴ |
+| , length-meter | м |
+| one, length-meter | {0} м |
+| few, length-meter | {0} м |
+| many, length-meter | {0} м |
+| other, length-meter | {0} м |
+| per units of length-meter | {0}/м |
+| length-decimeter | ↴ |
+| , length-decimeter | дм |
+| one, length-decimeter | {0} дм |
+| few, length-decimeter | {0} дм |
+| many, length-decimeter | {0} дм |
+| other, length-decimeter | {0} дм |
+| length-centimeter | ↴ |
+| , length-centimeter | см |
+| one, length-centimeter | {0} см |
+| few, length-centimeter | {0} см |
+| many, length-centimeter | {0} см |
+| other, length-centimeter | {0} см |
+| per units of length-centimeter | {0}/см |
+| length-millimeter | ↴ |
+| , length-millimeter | мм |
+| one, length-millimeter | {0} мм |
+| few, length-millimeter | {0} мм |
+| many, length-millimeter | {0} мм |
+| other, length-millimeter | {0} мм |
+| length-micrometer | ↴ |
+| , length-micrometer | мкм |
+| one, length-micrometer | {0} мкм |
+| few, length-micrometer | {0} мкм |
+| many, length-micrometer | {0} мкм |
+| other, length-micrometer | {0} мкм |
+| length-nanometer | ↴ |
+| , length-nanometer | нм |
+| one, length-nanometer | {0} нм |
+| few, length-nanometer | {0} нм |
+| many, length-nanometer | {0} нм |
+| other, length-nanometer | {0} нм |
+| length-picometer | ↴ |
+| , length-picometer | пм |
+| one, length-picometer | {0} pm |
+| few, length-picometer | {0} pm |
+| many, length-picometer | {0} pm |
+| other, length-picometer | {0} pm |
+| length-mile | ↴ |
+| , length-mile | мл. |
+| one, length-mile | {0} миля |
+| few, length-mile | {0} миль |
+| many, length-mile | {0} миль |
+| other, length-mile | {0} мили |
+| length-yard | ↴ |
+| , length-yard | ярд. |
+| one, length-yard | {0} ярд |
+| few, length-yard | {0} ярда |
+| many, length-yard | {0} ярдов |
+| other, length-yard | {0} ярда |
+| length-foot | ↴ |
+| , length-foot | фт |
+| one, length-foot | {0} фт |
+| few, length-foot | {0} фт |
+| many, length-foot | {0} фт |
+| other, length-foot | {0} фт |
+| per units of length-foot | {0}/фт |
+| length-inch | ↴ |
+| , length-inch | дюйм. |
+| one, length-inch | {0} дюйм |
+| few, length-inch | {0} дюйма |
+| many, length-inch | {0} дюймов |
+| other, length-inch | {0} дюйма |
+| per units of length-inch | {0}/дюйм. |
+| length-parsec | ↴ |
+| , length-parsec | пк |
+| one, length-parsec | {0} пк |
+| few, length-parsec | {0} пк |
+| many, length-parsec | {0} пк |
+| other, length-parsec | {0} пк |
+| length-light-year | ↴ |
+| , length-light-year | св. годы |
+| one, length-light-year | {0} св. г. |
+| few, length-light-year | {0} св. г. |
+| many, length-light-year | {0} св. л. |
+| other, length-light-year | {0} св. г. |
+| length-astronomical-unit | ↴ |
+| , length-astronomical-unit | а. е. |
+| one, length-astronomical-unit | {0} а. е. |
+| few, length-astronomical-unit | {0} а. е. |
+| many, length-astronomical-unit | {0} а. е. |
+| other, length-astronomical-unit | {0} а. е. |
+| length-furlong | ↴ |
+| , length-furlong | фрл |
+| one, length-furlong | {0} фрл |
+| few, length-furlong | {0} фрл |
+| many, length-furlong | {0} фрл |
+| other, length-furlong | {0} фрл |
+| length-fathom | ↴ |
+| , length-fathom | м. саж. |
+| one, length-fathom | {0} м. саж. |
+| few, length-fathom | {0} м. саж. |
+| many, length-fathom | {0} м. саж. |
+| other, length-fathom | {0} м. саж. |
+| length-nautical-mile | ↴ |
+| , length-nautical-mile | мор. мили |
+| one, length-nautical-mile | {0} м. мл. |
+| few, length-nautical-mile | {0} м. мл. |
+| many, length-nautical-mile | {0} м. мл. |
+| other, length-nautical-mile | {0} м. мл. |
+| length-mile-scandinavian | ↴ |
+| , length-mile-scandinavian | ск. мл. |
+| one, length-mile-scandinavian | {0} ск. мл. |
+| few, length-mile-scandinavian | {0} ск. мл. |
+| many, length-mile-scandinavian | {0} ск. мл. |
+| other, length-mile-scandinavian | {0} ск. мл. |
+| length-point | ↴ |
+| , length-point | пкт |
+| one, length-point | {0} пкт |
+| few, length-point | {0} пкт |
+| many, length-point | {0} пкт |
+| other, length-point | {0} пкт |
+| mass-metric-ton | ↴ |
+| , mass-metric-ton | т |
+| one, mass-metric-ton | {0} т |
+| few, mass-metric-ton | {0} т |
+| many, mass-metric-ton | {0} т |
+| other, mass-metric-ton | {0} т |
+| mass-kilogram | ↴ |
+| , mass-kilogram | кг |
+| one, mass-kilogram | {0} кг |
+| few, mass-kilogram | {0} кг |
+| many, mass-kilogram | {0} кг |
+| other, mass-kilogram | {0} кг |
+| per units of mass-kilogram | {0}/кг |
+| mass-gram | ↴ |
+| , mass-gram | г |
+| one, mass-gram | {0} г |
+| few, mass-gram | {0} г |
+| many, mass-gram | {0} г |
+| other, mass-gram | {0} г |
+| per units of mass-gram | {0}/г |
+| mass-milligram | ↴ |
+| , mass-milligram | мг |
+| one, mass-milligram | {0} мг |
+| few, mass-milligram | {0} мг |
+| many, mass-milligram | {0} мг |
+| other, mass-milligram | {0} мг |
+| mass-microgram | ↴ |
+| , mass-microgram | мкг |
+| one, mass-microgram | {0} мкг |
+| few, mass-microgram | {0} мкг |
+| many, mass-microgram | {0} мкг |
+| other, mass-microgram | {0} мкг |
+| mass-ton | ↴ |
+| , mass-ton | ам. т |
+| one, mass-ton | {0} ам. т |
+| few, mass-ton | {0} ам. т |
+| many, mass-ton | {0} ам. т |
+| other, mass-ton | {0} ам. т |
+| mass-stone | ↴ |
+| , mass-stone | стн |
+| one, mass-stone | {0} стн |
+| few, mass-stone | {0} стн |
+| many, mass-stone | {0} стн |
+| other, mass-stone | {0} стн |
+| mass-pound | ↴ |
+| , mass-pound | фнт |
+| one, mass-pound | {0} lb |
+| few, mass-pound | {0} lb |
+| many, mass-pound | {0} lb |
+| other, mass-pound | {0} lb |
+| per units of mass-pound | {0}/фнт |
+| mass-ounce | ↴ |
+| , mass-ounce | унц. |
+| one, mass-ounce | {0} oz |
+| few, mass-ounce | {0} oz |
+| many, mass-ounce | {0} oz |
+| other, mass-ounce | {0} oz |
+| per units of mass-ounce | {0}/унц. |
+| mass-ounce-troy | ↴ |
+| , mass-ounce-troy | тр. унц. |
+| one, mass-ounce-troy | {0} тр. унц. |
+| few, mass-ounce-troy | {0} тр. унц. |
+| many, mass-ounce-troy | {0} тр. унц. |
+| other, mass-ounce-troy | {0} тр. унц. |
+| mass-carat | ↴ |
+| , mass-carat | кар |
+| one, mass-carat | {0} кар |
+| few, mass-carat | {0} кар |
+| many, mass-carat | {0} кар |
+| other, mass-carat | {0} кар |
+| power-kilowatt | ↴ |
+| one, power-kilowatt | {0} кВт |
+| few, power-kilowatt | {0} кВт |
+| many, power-kilowatt | {0} кВт |
+| other, power-kilowatt | {0} кВт |
+| power-watt | ↴ |
+| one, power-watt | {0} Вт |
+| few, power-watt | {0} Вт |
+| many, power-watt | {0} Вт |
+| other, power-watt | {0} Вт |
+| power-horsepower | ↴ |
+| one, power-horsepower | {0} л.с. |
+| few, power-horsepower | {0} л.с. |
+| many, power-horsepower | {0} л.с. |
+| other, power-horsepower | {0} л.с. |
+| pressure-hectopascal | ↴ |
+| , pressure-hectopascal | гПа |
+| one, pressure-hectopascal | {0} гПа |
+| few, pressure-hectopascal | {0} гПа |
+| many, pressure-hectopascal | {0} гПа |
+| other, pressure-hectopascal | {0} гПа |
+| pressure-millimeter-of-mercury | ↴ |
+| , pressure-millimeter-of-mercury | мм рт. ст. |
+| one, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| few, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| many, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| other, pressure-millimeter-of-mercury | {0} мм рт. ст. |
+| pressure-pound-per-square-inch | ↴ |
+| , pressure-pound-per-square-inch | ф. на дюйм² |
+| one, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| few, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| many, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| other, pressure-pound-per-square-inch | {0} ф./дюйм² |
+| pressure-inch-hg | ↴ |
+| , pressure-inch-hg | д. рт. ст. |
+| one, pressure-inch-hg | {0} inHg |
+| few, pressure-inch-hg | {0} inHg |
+| many, pressure-inch-hg | {0} inHg |
+| other, pressure-inch-hg | {0} inHg |
+| pressure-millibar | ↴ |
+| , pressure-millibar | мбар |
+| one, pressure-millibar | {0} мбар |
+| few, pressure-millibar | {0} мбар |
+| many, pressure-millibar | {0} мбар |
+| other, pressure-millibar | {0} мбар |
+| speed-kilometer-per-hour | ↴ |
+| , speed-kilometer-per-hour | км/ч |
+| one, speed-kilometer-per-hour | {0} км/ч |
+| few, speed-kilometer-per-hour | {0} км/ч |
+| many, speed-kilometer-per-hour | {0} км/ч |
+| other, speed-kilometer-per-hour | {0} км/ч |
+| speed-meter-per-second | ↴ |
+| , speed-meter-per-second | м/с |
+| one, speed-meter-per-second | {0} м/с |
+| few, speed-meter-per-second | {0} м/с |
+| many, speed-meter-per-second | {0} м/с |
+| other, speed-meter-per-second | {0} м/с |
+| speed-mile-per-hour | ↴ |
+| , speed-mile-per-hour | мили/час |
+| one, speed-mile-per-hour | {0} миль/ч |
+| few, speed-mile-per-hour | {0} миль/ч |
+| many, speed-mile-per-hour | {0} миль/ч |
+| other, speed-mile-per-hour | {0} миль/ч |
+| speed-knot | ↴ |
+| , speed-knot | уз |
+| one, speed-knot | {0} уз |
+| few, speed-knot | {0} уз |
+| many, speed-knot | {0} уз |
+| other, speed-knot | {0} уз |
+| temperature-generic | ↴ |
+| , temperature-generic | ° |
+| one, temperature-generic | {0}° |
+| few, temperature-generic | {0}° |
+| many, temperature-generic | {0}° |
+| other, temperature-generic | {0}° |
+| temperature-celsius | ↴ |
+| , temperature-celsius | °C |
+| one, temperature-celsius | {0} °C |
+| few, temperature-celsius | {0} °C |
+| many, temperature-celsius | {0} °C |
+| other, temperature-celsius | {0} °C |
+| temperature-fahrenheit | ↴ |
+| , temperature-fahrenheit | °F |
+| one, temperature-fahrenheit | {0}°F |
+| few, temperature-fahrenheit | {0}°F |
+| many, temperature-fahrenheit | {0}°F |
+| other, temperature-fahrenheit | {0}°F |
+| temperature-kelvin | ↴ |
+| , temperature-kelvin | K |
+| one, temperature-kelvin | {0} K |
+| few, temperature-kelvin | {0} K |
+| many, temperature-kelvin | {0} K |
+| other, temperature-kelvin | {0} K |
+| volume-cubic-kilometer | ↴ |
+| one, volume-cubic-kilometer | {0} км³ |
+| few, volume-cubic-kilometer | {0} км³ |
+| many, volume-cubic-kilometer | {0} км³ |
+| other, volume-cubic-kilometer | {0} км³ |
+| volume-cubic-mile | ↴ |
+| one, volume-cubic-mile | {0} куб. миля |
+| few, volume-cubic-mile | {0} куб. мили |
+| many, volume-cubic-mile | {0} куб. мили |
+| other, volume-cubic-mile | {0} куб. мили |
+| volume-liter | ↴ |
+| , volume-liter | л |
+| one, volume-liter | {0} л |
+| few, volume-liter | {0} л |
+| many, volume-liter | {0} л |
+| other, volume-liter | {0} л |
+| coordinates, east | {0} в. д. |
+| coordinates, north | {0} с. ш. |
+| coordinates, south | {0} ю. ш. |
+| coordinates, west | {0} з. д. |
+| , hm | h:mm |
+| , hms | h:mm:ss |
+| , ms | m:ss |
+
 ## Lists
+
 | List type | Patterns |
-|  | ... |
+| --------- | -------- |
+|  | ↴ |
 | start | {0}, {1} |
 | middle | {0}, {1} |
 | end | {0} и {1} |
 | 2 | {0} и {1} |
-| or | ... |
+| or | ↴ |
 | start | {0}, {1} |
 | middle | {0}, {1} |
 | end | {0} или {1} |
 | 2 | {0} или {1} |
-| standard-short | ... |
+| standard-short | ↴ |
 | start | {0}, {1} |
 | middle | {0}, {1} |
 | end | {0} и {1} |
 | 2 | {0} и {1} |
-| unit | ... |
+| unit | ↴ |
 | start | {0} {1} |
 | middle | {0} {1} |
 | end | {0} {1} |
 | 2 | {0} {1} |
-| unit-narrow | ... |
+| unit-narrow | ↴ |
 | start | {0} {1} |
 | middle | {0} {1} |
 | end | {0} {1} |
 | 2 | {0} {1} |
-| unit-short | ... |
+| unit-short | ↴ |
 | start | {0} {1} |
 | middle | {0} {1} |
 | end | {0} {1} |
 | 2 | {0} {1} |
+
 ## POSIX
-да:днет:н
+
+| Messages | Values |
+| -------- | ------ |
+| `yes` / affirmative | `да:д` |
+| `no` / negative | `нет:н` |
+
 ## Character sets
+
 | Set | Name |
 | --- | ---- |
 | all | {0} — все |
@@ -7241,8 +8401,11 @@ Examples:
 | weather | погода |
 | western_asian_scripts | письменности Западной Азии |
 | whitespace | пробелы |
+
 ## Font stuff
+
 | Font feature | Name |
+| ------------ | ---- |
 | "axis" ital | курсив |
 | "axis" opsz | оптический размер |
 | "axis" slnt | наклон |
