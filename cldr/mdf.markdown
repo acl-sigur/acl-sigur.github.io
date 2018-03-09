@@ -80,13 +80,13 @@ Just like Russian, with "е" followed by "ё"
 | month 10 | кельмазаков |
 | month 11 | эйндамков |
 | month 12 | кучкаков |
-| (week)day sun | |
-| (week)day mon | |
-| (week)day tue | |
-| (week)day wed | |
-| (week)day thu | |
-| (week)day fri | |
-| (week)day sat | |
+| (week)day sun | недляши |
+| (week)day mon | базарши |
+| (week)day tue | шавши |
+| (week)day wed | вержи |
+| (week)day thu | шуваланя |
+| (week)day fri | пяденця |
+| (week)day sat | ёткши |
 | quarter 1 |  |
 | quarter 2 |  |
 | quarter 3 |  |
