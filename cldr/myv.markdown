@@ -78,7 +78,7 @@ Just like Russian, with "е" followed by "ё"
 | -------- | ------ |
 | month, 1, abbreviated, format | якшамк. |
 | month, 2, abbreviated, format | даволк. |
-| month, 3, abbreviated, format | эйзюрков|
+| month, 3, abbreviated, format | эйзюрк.|
 | month, 4, abbreviated, format | чадык. |
 | month, 5, abbreviated, format | панжик. |
 | month, 6, abbreviated, format | аштемк. |
@@ -242,7 +242,7 @@ Just like Russian, with "е" followed by "ё"
 
 Language:
 
-| `myv` | эрзя |
+| `myv` | эрзянь кель |
 
 Country or territory:
 
