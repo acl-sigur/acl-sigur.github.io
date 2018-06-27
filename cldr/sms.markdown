@@ -19,11 +19,10 @@ title: "CLDR Skolt Sami"
 | Orientation | left-to-right |
 | ... |  top-to-bottom |
 | Plural rules | ... |
-| one example | {0} peiʹvv  (inflect the word for day sg.)|
+| one example | {0} peiʹvv |
 | other example | {0} peeiʹv |
 | Country Data and Default Content | sms_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
-| Skolt Sami sms Finland {OR} FI 610
 | Romanization | Skolt Saami is already written in latin script |
 
 ### Casing
