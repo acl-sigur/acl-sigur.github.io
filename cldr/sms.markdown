@@ -23,7 +23,7 @@ title: "CLDR Skolt Sami"
 | other example | {0} peeiʹv |
 | Country Data and Default Content | sms_FI |
 | (Verify:) | https://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html |
-Skolt Sami sms Finland {OR} FI 610
+| Skolt Sami sms Finland {OR} FI 610
 | Romanization | Skolt Saami is already written in latin script |
 
 ### Casing
