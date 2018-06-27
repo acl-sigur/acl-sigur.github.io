@@ -1,11 +1,9 @@
 ---
 layout: default
-title: "CLDR Skolt Saami"
+title: "CLDR Skolt Sami"
 ---
 
-## CLDR core data for Skolt Saami
-
-Fill-in:
+## CLDR core data for Skolt Sami
 
 **Needed for requesting new locale**:
 
