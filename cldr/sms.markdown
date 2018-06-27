@@ -2,11 +2,9 @@
 layout: default
 title: "CLDR Skolt Sami"
 ---
-
 ## CLDR core data for Skolt Sami
 
 **Needed for requesting new locale**:
-
 
 | Stuff | Values |
 | --- | --- |
