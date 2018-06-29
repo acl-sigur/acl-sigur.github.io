@@ -14,7 +14,7 @@ Check / fill-in.
 | --- | --- |
 | Exemplar sets | ... |
 | main characters | `[а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я]` |
-| auxiliary characters | `[ԁ ԃ ј ԉ ԋ ԅ ԇ ԍ ԏ ҵ ӓ ә]` |
+| auxiliary characters | `[ԁ ԃ ј ԉ ԋ ԅ ԇ ԍ ԏ ҵ ä ə]` |
 | index characters | `[А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я]` |
 | numbers characters | `[  , % ‰ + − 0 1 2 3 4 5 6 7 8 9]` |
 | punctuation characters | `[\- ‐ – , ; \: ! ? . … ’ ” » ( ) \[ \] § @ * / \\ \& #]` |
@@ -76,31 +76,18 @@ you know are in common use.**
 
 | ID-stuff | values |
 | -------- | ------ |
-# These are for month day ordering
-| month, 1, wide, format | тӧвшӧр тӧлысь |
-| month, 2, wide, format | урасьӧм тӧлысь |
-| month, 3, wide, format | рака тӧлысь |
-| month, 4, wide, format | косму тӧлысь |
-| month, 5, wide, format | ода-кора тӧлысь |
-| month, 6, wide, format | лӧдза-номъя тӧлысь |
-| month, 7, wide, format | сора тӧлысь |
-| month, 8, wide, format | моз тӧлысь |
-| month, 9, wide, format | кӧч тӧлысь |
-| month, 10, wide, format | йирым тӧлысь |
-| month, 11, wide, format | вӧльгым тӧлысь |
-| month, 12, wide, format | ӧшым тӧлысь |
-| month, 1, abbreviated, stand-alone | твт |
-| month, 2, abbreviated, stand-alone | урт |
-| month, 3, abbreviated, stand-alone | ркт|
-| month, 4, abbreviated, stand-alone | кст |
-| month, 5, abbreviated, stand-alone | одт |
-| month, 6, abbreviated, stand-alone | лнт |
-| month, 7, abbreviated, stand-alone | срт |
-| month, 8, abbreviated, stand-alone | мзт |
-| month, 9, abbreviated, stand-alone | кчт |
-| month, 10, abbreviated, stand-alone | йрт |
-| month, 11, abbreviated, stand-alone | влт |
-| month, 12, abbreviated, stand-alone | ӧшт |
+| month, 1, wide, format | |
+| month, 2, wide, format | |
+| month, 3, wide, format | |
+| month, 4, wide, format | |
+| month, 5, wide, format | |
+| month, 6, wide, format | |
+| month, 7, wide, format | |
+| month, 8, wide, format | |
+| month, 9, wide, format | |
+| month, 10, wide, format | |
+| month, 11, wide, format | |
+| month, 12, wide, format | |
 | (week)day, sun, wide, format | |
 | (week)day, mon, wide, format | |
 | (week)day, tue, wide, format | |
