@@ -1005,3 +1005,314 @@ $Revision:
 #| `zza` | zaza |
 
 
+### Territory names
+
+
+(Written in middle of sentence, selection list etc.)
+
+| ISO code | Name |
+| -------- | ---- |
+| `001` | Skaađsuâl |
+| `002` | Afrikk |
+| `003` | Tâʹvv-Aʹmmrikk |
+| `005` | Saujj-Aʹmmrikk |
+| `009` | Oseania |
+| `011` | Viõstâr-Afrikk |
+| `013` | Kõskk-Aʹmmrikk |
+| `014` | Nuõrti-Afrikk |
+| `015` | Tâʹvv-Afrikk |
+| `017` | Kõskk-Afrikk |
+| `018` | saujj Afrikk |
+| `019` | Aʹmmrikk |
+| `021` | tâʹvv Aʹmmrikk |
+| `029` | Karibia |
+| `030` | Nuõrti-Aasia |
+| `034` | Saujj-Aasia |
+| `035` | Ooʹbbdneǩ-Aasia |
+| `039` | Saujj-Europ |
+| `053` | Australaasia |
+| `054` | Melanesia |
+| `057` | Mikronesia |
+| `061` | Polynesia |
+| `142` | Aasia |
+| `143` | Kõskk-Aasia |
+| `145` | Viõstâr-Aasia |
+| `150` | Europ |
+| `151` | Nuõrti-Europ |
+| `154` | Tâʹvv-Europ |
+| `155` | Viõstâr-Europ |
+| `202` | Saharan saujjpeälʼlaž Afrikk |
+| `419` | Latinalaž Aʹmmrikk |
+| `AC` | Ascensio-suâl |
+| `AD` | Andorra |
+| `AE` | Arabiemiirivuuʹd |
+| `AF` | Afganistaan |
+| `AG` | Antigua da Barbudasuõllu |
+| `AI` | Anguillasuõllu |
+| `AL` | Albania |
+| `AM` | Armenia |
+| `AO` | Angola |
+| `AQ` | Antarktis |
+| `AR` | Argentiina |
+| `AS` | Ameriikk Samoasuâl |
+| `AT` | Nuõrtiväʹldd |
+| `AU` | Australia |
+| `AW` | Aruba |
+| `AX` | Ålandd |
+| `AZ` | Azerbaidžanjânnam |
+| `BA` | Bosnia da Hertsegovinajânnam |
+| `BB` | Barbados |
+| `BD` | Bangladesh |
+| `BE` | Belgia |
+| `BF` | Burkina Fasojânnam |
+| `BG` | Bulgaria |
+| `BH` | Bahrainjânnam |
+| `BI` | Burundijânnam |
+| `BJ` | Beninjânnam |
+| `BL` | Saint-Barthélemysuâl |
+| `BM` | Bermuda |
+| `BN` | Bruneijânnam |
+| `BO` | Bolivia |
+| `BQ` | Karibia Vueʹlljânnam |
+| `BR` | Brasilia |
+| `BS` | Bahamasuõllu |
+| `BT` | Bhutanjânnam |
+| `BV` | Bouvetsuâl |
+| `BW` | Botswanajânnam |
+| `BY` | Belarus |
+| `BZ` | Belizejânnam |
+| `CA` | Kanada |
+| `CC` | Kookossuõllu (Keelingsuõllu) |
+| `CD` | Kongo demokraattlaž tääʹssväʹldd |
+| `CD` | Kongo-Kinshasa |
+| `CF` | Kõskk-Afrikk tääʹssväʹldd |
+| `CG` | Kongo tääʹssväʹldd |
+| `CG` | Kongo-Brazzavill |
+| `CH` | Sveiccjânnam |
+| `CI` | Elefaant-täʹhttredd |
+| `CK` | Cooksuõllu |
+#| `CL` | Chile |
+| `CM` | Kamerunjânnam |
+| `CN` | Ǩiina |
+| `CO` | Kolumbia |
+| `CP` | Clippertonsuõllu |
+#| `CR` | Costa Rica |
+| `CU` | Kuubajânnam |
+| `CV` | Kap Verdesuõllu |
+| `CW` | Curacaosuâl |
+| `CX` | Rosttovsuâl |
+| `CY` | Kypros |
+| `CZ` | Čekk |
+| `CZ` | Čekk tääʹssväʹldd |
+| `DE` | Saksslajânnam |
+| `DG` | Diego Garciasuâl |
+| `DJ` | Djiboutt |
+| `DK` | Danskk |
+| `DM` | Dominica |
+| `DO` | Dominikaallaž tääʹssväʹldd |
+| `DZ` | Algeria |
+| `EA` | Ceuta da Melill |
+| `EC` | Ecuador |
+| `EE` | Viro |
+| `EG` | Egyptjânnam |
+| `EH` | Viõstâr-Sahara |
+| `ER` | Eritrea |
+| `ES` | Espanja |
+| `ET` | Etiopia |
+| `EU` | Euroop Union |
+| `EZ` | euʹrrvuʹvdd |
+| `FI` | Lääʹddjânnam |
+| `FJ` | Fijisuõllu |
+| `FK` | Falklandsuõllu |
+#| `FK` | Falklandsuõllu (Malvinassuõllu) |
+| `FM` | Mikronesia lettvaldia |
+| `FO` | Färsuõllu |
+| `FR` | Franskkjânnam |
+| `GA` | Gabon |
+| `GB` | Jõnn-Britannia |
+| `GB` | Britannia |
+| `GD` | Grenada |
+| `GE` | Georgia |
+| `GF` | Franskkjânnam Guayana |
+| `GG` | Guernseysuâl |
+| `GH` | Ghana |
+| `GI` | Gibraltar |
+| `GL` | Ruânnjânnam |
+| `GM` | Gambia |
+| `GN` | Guineajânnam |
+| `GP` | Guadeloupesuõllu |
+| `GQ` | Peiʹvvtaʹssjeei Guinea |
+| `GR` | Greikk |
+| `GS` | Saujj-Georgia da Sââuʹj Vuõjjleiʹbbsuõllu |
+| `GT` | Guatemala |
+| `GU` | Guamsuâl |
+| `GW` | Guinea-Bissaujânnam |
+| `GY` | Guyana |
+#| `HK` | Hongkong – Kiinan e.h.a. |
+#| `HK` | Hongkong |
+| `HM` | Heard da McDonaldsuõllu |
+| `HN` | Honduras |
+| `HR` | Kroatia |
+| `HT` | Haitisuâl |
+| `HU` | Uŋŋar |
+| `IC` | Kanariasuõllu |
+| `ID` | Indonesia |
+| `IE` | Irlantt |
+| `IL` | Israel |
+| `IM` | Mansuâl |
+| `IN` | India |
+| `IO` | Britanlaž India väʹlddmiâr vuʹvdd |
+| `IQ` | Irak |
+| `IR` | Iranjânnam |
+| `IS` | Islantt |
+| `IT` | Italia |
+| `JE` | Jerseysuâl |
+| `JM` | Jamaikka |
+| `JO` | Jordania |
+| `JP` | Japan |
+| `KE` | Kenia |
+| `KG` | Kirgisia |
+| `KH` | Kambodža |
+| `KI` | Kiribatt |
+| `KM` | Komoorr |
+| `KN` | Saint Kitts ja Nevissuõllu |
+| `KP` | Tâʹvv-Korea |
+| `KR` | Saujj-Korea |
+| `KW` | Kuwait |
+| `KY` | Caymansuõllu |
+| `KZ` | Kazakstaan |
+| `LA` | Laosjânnam |
+| `LB` | Libanonjânnam |
+| `LC` | Saint Luciasuâl |
+| `LI` | Liechtensteinjânnam |
+| `LK` | Sri Lanka |
+| `LR` | Liberia |
+| `LS` | Lesothojânnam |
+| `LT` | Liettua |
+| `LU` | Luxemburg |
+| `LV` | Latviajânnam |
+| `LY` | Libya |
+| `MA` | Marokkojânnam |
+| `MC` | Monacojânnam |
+| `MD` | Moldova |
+| `ME` | Montenegrojânnam |
+| `MF` | Saint-Martiin |
+| `MG` | Madagaskaar |
+| `MH` | Marshallsuõllu |
+| `MK` | Makedonia |
+| `MK` | EJT Makedonia |
+| `ML` | Malijânnam |
+| `MM` | Myanmar (Burma) |
+| `MN` | Mongolia |
+| `MO` | Macao – Ǩiina e.h.a. |
+| `MO` | Macaojânnam |
+| `MP` | Tâʹvv-Mariaan |
+| `MQ` | Martiniikk |
+| `MR` | Mauritania |
+| `MS` | Montserratsuâl |
+| `MT` | Malta |
+| `MU` | Mauritiussuâl |
+| `MV` | Malediiv |
+| `MW` | Malaw |
+| `MX` | Meksikk |
+| `MY` | Malesia |
+| `MZ` | Mosambikk |
+| `NA` | Namibia |
+| `NC` | Ođđ-Kaledonia |
+| `NE` | Nigeeʹr |
+| `NF` | Norfolksuâl |
+| `NG` | Nigeria |
+| `NI` | Nicaragua |
+| `NL` | Vueʹlljânnam |
+| `NO` | Tarr |
+| `NP` | Nepaal |
+| `NR` | Nauru |
+| `NU` | Niuesuâl |
+| `NZ` | Ođđ-Seelantt |
+| `OM` | Omaan |
+| `PA` | Panama |
+| `PE` | Perujânnam |
+| `PF` | Fraansk Polynesia |
+| `PG` | Papua-Ođđ-Guinea |
+| `PH` | Filippiin |
+| `PK` | Pakistaan |
+| `PL` | Puola |
+| `PM` | Saint-Pierre da Miquelonsuõllu |
+| `PN` | Pitcairnjânnam |
+| `PR` | Puerto Rico suâl |
+| `PS` | Palestiinalažvuuʹd |
+| `PS` | Palestiina |
+| `PT` | Portugal |
+| `PW` | Palausuâl |
+| `PY` | Paragua |
+| `QA` | Qatar |
+| `QO` | tuâǥǥmiârr |
+| `RE` | Réunionsuâl |
+| `RO` | Romania |
+| `RS` | Serbia |
+| `RU` | Ruõššjânnam |
+| `RW` | Ruanda |
+| `SA` | Saudi-Arabia |
+| `SB` | Salomosuõllu |
+| `SC` | Seycheellsuõllu |
+| `SD` | Sudaan |
+| `SE` | Ruõcc |
+| `SG` | Singapor |
+| `SH` | Saint Helena suâl |
+| `SI` | Slovenia |
+| `SJ` | Svaalbaard da Jan Mayen suõllu |
+| `SK` | Slovakia |
+| `SL` | Sierra Leoon |
+| `SM` | San Mariin |
+| `SN` | Senegal |
+| `SO` | Somalia |
+| `SR` | Surinaam |
+| `SS` | Saujj-Sudaan |
+| `ST` | São Tomé da Príncipesuâl |
+| `SV` | El Salvadorjânnam |
+| `SX` | Sint Maarten |
+| `SY` | Syyria |
+| `SZ` | Swazijânnam |
+| `TA` | Tristan da Cunha |
+| `TC` | Turks- da Caicossuõllu |
+| `TD` | Čad |
+| `TF` | Fraansk saauj vuuʹd |
+| `TG` | Togojânnam |
+| `TH` | Thaijânnam |
+| `TJ` | Taǯikistaan |
+| `TK` | Tokelausuâl |
+| `TL` | Nuõrti-Timor |
+| `TL` | Timor-Lestesuâl |
+| `TM` | Turkmenistaan |
+| `TN` | Tunisia |
+| `TO` | Tongsuâl |
+| `TR` | Turcia |
+| `TT` | Trinidad da Tobagosuâl |
+| `TV` | Tuvalusuâl |
+| `TW` | Taiwan |
+| `TZ` | Tansania |
+| `UA` | Ukraina |
+| `UG` | Uganda |
+| `UM` | Õhttõsvaldia pååđsuõllu |
+| `UN` | Õhttõõvvâm meerkååʹdd |
+#| `UN` | YK |
+| `US` | Õhttõsvaldia |
+#| `US` | USA |
+| `UY` | Uruguayjânnam |
+| `UZ` | Uzbekistaan |
+| `VA` | Vatikaan |
+| `VC` | Saint Vincent da Grenadiinsuõllu |
+| `VE` | Venezuela |
+| `VG` | Britanlaž Poorecsuõllu |
+| `VI` | Õhttõsvaldia Poorecsuõllu |
+| `VN` | Vietnam |
+| `VU` | Vanuatusuõllu |
+| `WF` | Wallis da Futunasuõllu |
+| `WS` | Samoasuâl |
+| `XK` | Kosovojânnam |
+| `YE` | Jemenn |
+| `YT` | Mayottesuâl |
+| `ZA` | Saujj-Afrikk |
+| `ZM` | Zambia |
+| `ZW` | Zimbabwejânnam |
+| `ZZ` | jaakkâs vuʹvdd |
