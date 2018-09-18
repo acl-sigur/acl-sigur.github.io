@@ -14,7 +14,7 @@ Wikipedia](https://en.wikipedia.org/wiki/Uralic_languages). This translation
 is partially maintained by [ACL SIGUR](http://acl-sigur.github.io), the ACL
 special interest group for Uralic languages (but really just by me,
 [flammie](http://flammie.github.io). The 
-[current translation machine](http://30197.s.t4vps.eu/apy/) is hosted
+[current translation machine](http://39476.s.time4vps.cloud/) is hosted
 on time4vps small node, so the usage is capped to 500 megabytes of network
 traffic per month and some very little CPU time per month. If you use more
 it will be blocked.
