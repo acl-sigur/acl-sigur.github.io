@@ -1117,14 +1117,14 @@ $Revision:
 | `EG` | Egyptjânnam |
 | `EH` | Viõstâr-Sahara |
 | `ER` | Eritrea |
-#| `ES` | Espanja |
+| `ES` | Espanja |
 | `ET` | Etiopia |
 | `EU` | Euroop Union |
 | `EZ` | euʹrrvuʹvdd |
 | `FI` | Lääʹddjânnam |
 | `FJ` | Fijisuõllu |
 | `FK` | Falklandsuõllu |
-#| `FK` | Falklandinsaaret (Malvinassaaret) |
+#| `FK` | Falklandsuõllu (Malvinassuõllu) |
 | `FM` | Mikronesia lettvaldia |
 | `FO` | Färsuõllu |
 | `FR` | Franskkjânnam |
@@ -1169,7 +1169,7 @@ $Revision:
 | `JE` | Jerseysuâl |
 | `JM` | Jamaikka |
 | `JO` | Jordania |
-#| `JP` | Japani |
+| `JP` | Japan |
 | `KE` | Kenia |
 | `KG` | Kirgisia |
 | `KH` | Kambodža |
@@ -1241,7 +1241,7 @@ $Revision:
 | `PN` | Pitcairnjânnam |
 | `PR` | Puerto Rico suâl |
 | `PS` | Palestiinalažvuuʹd |
-#| `PS` | Palestiina |
+| `PS` | Palestiina |
 | `PT` | Portugal |
 | `PW` | Palausuâl |
 | `PY` | Paragua |
