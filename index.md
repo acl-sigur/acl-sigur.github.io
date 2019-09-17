@@ -21,12 +21,14 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 ### Forthcoming events
 
-* Fifth international workshop on computational linguistics for the Uralic
-  languages, Tarto, Estonia
+* [Sixth international workshop on computational linguistics for the Uralic
+  languages](https://iwclul.univie.ac.at/), Wien, Austria
 * ...
 
 ### Past events
 
+* Fifth international workshop on computational linguistics for the Uralic
+  languages, Tarto, Estonia
 * [Fourth international workshop on computational linguistics for the Uralic
   languages](http://blogs.helsinki.fi/language-technology/iwclul-2018/),
   Helsinki, Finland. On 8th–9th January 2018
