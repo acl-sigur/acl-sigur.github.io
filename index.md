@@ -77,11 +77,9 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 filled the registration form will receive an invitation, if you are missing one,
 contact us. **NB**, when you get added to google group you may need to accept the invitation depending on your Google settings!
 
-### IRC
+### Chatroom
 
-We run an internet relay chat (IRC) channel on [#acl-sigur on
-irc.freenode.net](irc:Freenode/#acl-sigur) ([also available on Freenode
-webchat](http://webchat.freenode.net/)).
+We host a chatroom on Matrix: [#acl-sigur:matrix.org](https://matrix.to/#/#acl-sigur:matrix.org)
 
 ## Resources
 
