@@ -65,7 +65,7 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 
 * **President**:  *Tommi A. Pirinen*, Hamburg Universität, Germany
 * **Vice president**: *Veronika Vincze*, Szegedi Tudományegyetem, Hungary
-* **Secretary**: *Francis M. Tyers*, UiT Norgga árktalaš universitehta, Norway
+* **Secretary**: *Timofey Arhangelsky*, UiT Norgga árktalaš universitehta, Norway
 * **Events**: *Michael Rießler*, Albert-Ludwigs-Universität Freiburg, Germany
 * **Community liaison**: *Trond Trosterud*, UiT Norgga árktalaš universitehta, Norway
 
