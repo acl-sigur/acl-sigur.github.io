@@ -63,10 +63,10 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 
 ## Board
 
-* **President**:  *Tommi A. Pirinen*, Hamburg Universität, Germany
+* **President**:  *Tommi A. Pirinen*, UiT–Norgga árktalaš universitehta, Norway
 * **Vice president**: *Veronika Vincze*, Szegedi Tudományegyetem, Hungary
-* **Secretary**: *Timofey Arhangelsky*, UiT Norgga árktalaš universitehta, Norway
-* **Events**: *Michael Rießler*, Albert-Ludwigs-Universität Freiburg, Germany
+* **Secretary**: *Timofey Arhangelsky*, Universität Hamburg, Germany
+* **Events**: *Michael Rießler*, University of East Finland, Finland
 * **Community liaison**: *Trond Trosterud*, UiT Norgga árktalaš universitehta, Norway
 
 ## Contact
@@ -75,7 +75,7 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 
 [Mailing list](mailing-list.html) is ran via google groups, everyone who has
 filled the registration form will receive an invitation, if you are missing one,
-contact us.
+contact us. **NB**, when you get added to google group you may need to accept the invitation depending on your Google settings!
 
 ### IRC
 
