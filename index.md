@@ -13,20 +13,17 @@ title: "ACL Special Interest Group for Uralic Languages"
 
 ![Map of Uralic languages](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Linguistic_map_of_the_Uralic_languages_%28en%29.png/640px-Linguistic_map_of_the_Uralic_languages_%28en%29.png)
 
-By **User:Nug**.  *derived from a german version created by ***User:Chumwa**
+By **User:Nug**.  *derived from a german version created by ***User:Chumwa***
 [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)],
 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map_of_the_Uralic_languages_%28en%29.png)
-
+ 
 ## Events
 
-### Forthcoming events
 
+* [Seventh international workshop on computational linguistics for the Uralic
+  languages](https://conference.krags.ru/en), Syktyvkar, Russia
 * [Sixth international workshop on computational linguistics for the Uralic
   languages](https://iwclul.univie.ac.at/), Wien, Austria
-* ...
-
-### Past events
-
 * Fifth international workshop on computational linguistics for the Uralic
   languages, Tarto, Estonia
 * [Fourth international workshop on computational linguistics for the Uralic
