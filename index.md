@@ -31,14 +31,22 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
   Helsinki, Finland. On 8th–9th January 2018
 * [Third international workshop on computational linguistics for the Uralic
    languages](iwclul2017.html), St. Petersburg, Russia
-    * [IWCLUL 2017 proceedings in ACL anthology](http://aclanthology.info/sigs/sigur#W17-06)
 * [Second international workshop on computational linguistics
    for the Uralic languages
    (IWCLUL2016)](http://rgai.inf.u-szeged.hu/iwclul2016), Szeged, Hungary
-    * [IWCLUL 2016 proceedings in Szeged repository](http://rgai.inf.u-szeged.hu/project/iwclul/proceedings.pdf)
 * [First international workshop on computational linguistics for the Uralic
    languages (IWCLUL2015)](http://gtweb.uit.no/iwclul2015/), Romssa, Norway
-    * [IWCLUL 2015 proceedings in Tromsø university library](http://septentrio.uit.no/index.php/SCS/issue/view/291)
+
+### Publications
+
+The conference proceedings for IWCLUL from 2017 onwards can be found at [ACL SIGUR publications](https://aclanthology.org/sigs/sigur/).
+
+* [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2020.iwclul-1/)
+* [Proceedings of the fifth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W19-03/)
+* [Proceedings of the fourth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W18-02/)
+* [Proceedings of the third international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W17-06/)
+* [Proceedings of the second international workshop on computational linguistics of Uralic languages](http://rgai.inf.u-szeged.hu/iwclul2016/proceedings.pdf)
+* [Proceedings of the first international workshop on computational linguistics of Uralic languages](http://septentrio.uit.no/index.php/SCS/issue/view/291)
 
 ## Constitution
 
