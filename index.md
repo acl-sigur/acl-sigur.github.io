@@ -19,6 +19,7 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
  
 ## Events
 
+Workshops and meetings:
 
 * [Seventh international workshop on computational linguistics for the Uralic
   languages](https://conference.krags.ru/en), Syktyvkar, Russia
@@ -63,11 +64,16 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 
 ## Board
 
+
 * **President**:  *Tommi A. Pirinen*, UiT–Norgga árktalaš universitehta, Norway
 * **Vice president**: *Veronika Vincze*, Szegedi Tudományegyetem, Hungary
 * **Secretary**: *Timofey Arhangelsky*, Universität Hamburg, Germany
 * **Events**: *Michael Rießler*, University of East Finland, Finland
 * **Community liaison**: *Trond Trosterud*, UiT Norgga árktalaš universitehta, Norway
+
+Election of new ACL SIGUR board (every ~2 years):
+
+* [2022: online](https://groups.google.com/g/acl-sigur/c/7gnaNWP2NVQ/m/eKHy0f0FAgAJ)
 
 ## Contact
 
@@ -83,4 +89,4 @@ We host a chatroom on Matrix: [#acl-sigur:matrix.org](https://matrix.to/#/#acl-s
 
 ## Resources
 
-List of resources is collected on an separte [resource matrix](matrix.html).
+List of resources is collected on an separate [resource matrix](matrix.html).
