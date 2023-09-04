@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ACL Special Interest Group for Uralic Languages"
+title: "ACL SIGUR: Association of Computational Linguistics' Special Interest Group for Uralic Languages"
 ---
 
 # The ACL Special Interest Group on Uralic Languages
@@ -21,6 +21,8 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 Workshops and meetings:
 
+* [Eighth international workshop on computational linguistics for the Uralic
+  languages](https://rootroo.com/en/joint-nlp4dh-iwclul-2023/), Syktyvkar, Russia
 * [Seventh international workshop on computational linguistics for the Uralic
   languages](https://conference.krags.ru/en), Syktyvkar, Russia
 * [Sixth international workshop on computational linguistics for the Uralic
@@ -42,6 +44,7 @@ Workshops and meetings:
 
 The conference proceedings for IWCLUL from 2017 onwards can be found at [ACL SIGUR publications](https://aclanthology.org/sigs/sigur/).
 
+* [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2021.iwclul-1/)
 * [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2020.iwclul-1/)
 * [Proceedings of the fifth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W19-03/)
 * [Proceedings of the fourth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W18-02/)
@@ -73,7 +76,7 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 
 Election of new ACL SIGUR board (every ~2 years):
 
-* [2022: online](https://groups.google.com/g/acl-sigur/c/7gnaNWP2NVQ/m/eKHy0f0FAgAJ)
+* tba
 
 ## Contact
 
