@@ -21,8 +21,7 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 Workshops and meetings:
 
-* [Eighth international workshop on computational linguistics for the Uralic
-  languages](https://rootroo.com/en/joint-nlp4dh-iwclul-2023/), Syktyvkar, Russia
+* [The Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://rootroo.com/en/joint-nlp4dh-iwclul-2023/), Tokyo, Japan
 * [Seventh international workshop on computational linguistics for the Uralic
   languages](https://conference.krags.ru/en), Syktyvkar, Russia
 * [Sixth international workshop on computational linguistics for the Uralic
@@ -44,7 +43,7 @@ Workshops and meetings:
 
 The conference proceedings for IWCLUL from 2017 onwards can be found at [ACL SIGUR publications](https://aclanthology.org/sigs/sigur/).
 
-* [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2021.iwclul-1/)
+* [Proceedings of the seventh international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2021.iwclul-1/)
 * [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2020.iwclul-1/)
 * [Proceedings of the fifth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W19-03/)
 * [Proceedings of the fourth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W18-02/)
@@ -68,11 +67,14 @@ You can sign up for membership of the SIG by filling out [a google form](https:/
 ## Board
 
 
-* **President**:  *Tommi A. Pirinen*, UiT–Norgga árktalaš universitehta, Norway
-* **Vice president**: *Veronika Vincze*, Szegedi Tudományegyetem, Hungary
-* **Secretary**: *Timofey Arhangelsky*, Universität Hamburg, Germany
-* **Events**: *Michael Rießler*, University of East Finland, Finland
-* **Community liaison**: *Trond Trosterud*, UiT Norgga árktalaš universitehta, Norway
+* **President**:  *Mika Hämäläinen*, Metropolia University of Applied Sciences, Finland
+* **Vice president**: *Flammie A. Pirinen*, UiT–Norgga árktalaš universitehta, Norway
+* *Niko Partanen*, University of Helsinki, Finland
+* *Jack Rueter*, University of Helsinki, Finland
+* *Emily Öhman*, Waseda University, Japan
+* *Yuri Bizzoni*, Aarhus University, Denmark
+* *Robert Nordström*, Waseda University, Japan
+
 
 Election of new ACL SIGUR board (every ~2 years):
 
