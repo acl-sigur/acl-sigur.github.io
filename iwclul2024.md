@@ -32,11 +32,10 @@ Accepted papers (short and long) will be published in the proceedings that will 
 
 You may also contribute to the event by submitting a lightning talk. Lightning talks are submitted as 750-word abstracts. Lightning talks are suited for discussing ideas or presenting work in progress. The abstracts will be published in a lightning proceedings. 
 
-<!---
 
-Lightning talks must be submitted using this Google Form.
+Lightning talks must be submitted using [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeER9rpSQIY0ouMvtleNtLXGdyog3fJ3r7yvoGPZalPuM4MkQ/viewform?usp=sf_link).
 
--->
+
 
 ## Remote attendance
 
