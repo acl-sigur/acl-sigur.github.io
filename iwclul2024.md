@@ -8,6 +8,10 @@ title: IWCLUL 2024
 
 The 9th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2024) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place in November 28-29, 2024 in Helsinki, Finland at [Metropolia University of Applied Sciences](https://www.metropolia.fi/fi). 
 
+<div style="text-align: center;">
+  <button name="button" disabled>Submit a paper (system not open yet)</button> <button name="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeER9rpSQIY0ouMvtleNtLXGdyog3fJ3r7yvoGPZalPuM4MkQ/viewform?usp=sf_link';">Submit a lightning talk</button>
+</div>
+
 The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak), Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest), Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian, Ingrian (Izhorian), Votic, Livonian and Ludic). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
 
 - Multilingual approaches in NLP presenting work on at least one Uralic language

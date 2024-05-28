@@ -21,6 +21,10 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 Workshops and meetings:
 
+**[IWCLUL 2024](iwclul2024.html)**
+
+Past events
+
 * [The Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://rootroo.com/en/joint-nlp4dh-iwclul-2023/), Tokyo, Japan
 * [Seventh international workshop on computational linguistics for the Uralic
   languages](https://conference.krags.ru/en), Syktyvkar, Russia
