@@ -45,7 +45,7 @@ Lightning talks must be submitted using [this Google Form](https://docs.google.c
 
 We aim for an inclusive event and we understand that some people have difficulties to travel. If you have a valid reason why you cannot attend the event in person (visa issues, health issues etc.) you may present your paper remotely.
 
-Important dates:
+## Important dates:
 
     Paper submission (full and short): October 20, 2024
     Notification of acceptance: November 3, 2024
