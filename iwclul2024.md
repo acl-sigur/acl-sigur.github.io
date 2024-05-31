@@ -72,4 +72,17 @@ Flammie Pirinen, UiT The Arctic University of Norway
 
 ## Program committee
 
-TBA
+- Fejes László - Hungarian Research Centre for Linguistics
+- Heiki-Jaan Kaalep - University of Tartu
+- Gunta Kļava - University of Latvia
+- Oleg Belyaev - Lomonosov Moscow State University
+- Trond Trosterud - The Arctic University of Norway
+- Linda Wiechetek - The Arctic University of Norway
+- Khalid Alnajjar - F-Secure Oyj
+- Niko Partanen - University of Helsinki
+- Jack Rueter - University of Helsinki
+- Miikka Silfverberg - University of British Columbia
+- Janne Kauttonen - Haaga-Helia University of Applied Sciences
+- Michael Rießler - University of Eastern Finland
+- Aleksei Dorkin - University of Tartu
+
