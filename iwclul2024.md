@@ -85,4 +85,6 @@ Flammie Pirinen, UiT The Arctic University of Norway
 - Janne Kauttonen - Haaga-Helia University of Applied Sciences
 - Michael Rießler - University of Eastern Finland
 - Aleksei Dorkin - University of Tartu
+- Jeremy Bradley - University of Vienna
+- Irina Khomchenkova - Lomonosov Moscow State University
 
