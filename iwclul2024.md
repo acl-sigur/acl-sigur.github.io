@@ -87,4 +87,4 @@ Flammie Pirinen, UiT The Arctic University of Norway
 - Aleksei Dorkin - University of Tartu
 - Jeremy Bradley - University of Vienna
 - Irina Khomchenkova - Lomonosov Moscow State University
-
+- David Dale - Meta
