@@ -66,9 +66,11 @@ Arabia is known for art and design. [Read more about the neighborhood on Helsink
 
 ## Organizers
 
-Mika Hämäläinen, Metropolia University of Applied Sciences
+- Mika Hämäläinen, Metropolia University of Applied Sciences
 
-Flammie Pirinen, UiT The Arctic University of Norway
+- Flammie Pirinen, UiT The Arctic University of Norway
+
+**In case of questions, you can send an email to mika.hamalainen@metropolia.fi**
 
 ## Program committee
 
