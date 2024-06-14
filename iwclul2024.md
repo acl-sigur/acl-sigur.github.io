@@ -70,6 +70,8 @@ Arabia is known for art and design. [Read more about the neighborhood on Helsink
 
 - Flammie Pirinen, UiT The Arctic University of Norway
 
+- Mario Crespo Avila (Student volunteer), Complutense University of Madrid
+
 **In case of questions, you can send an email to mika.hamalainen@metropolia.fi**
 
 ## Program committee
