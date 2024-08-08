@@ -93,3 +93,4 @@ Arabia is known for art and design. [Read more about the neighborhood on Helsink
 - Irina Khomchenkova - Lomonosov Moscow State University
 - David Dale - Meta
 - Timofey Arkhangelskiy - University of Hamburg
+- Viktor Martinović - University of Vienna
