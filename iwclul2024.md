@@ -47,7 +47,7 @@ We aim for an inclusive event and we understand that some people have difficulti
 
 ## Important dates:
 
-    Paper submission (full and short): October 20, 2024
+    Paper submission (full and short): October 25, 2024 (extended)
     Notification of acceptance: November 3, 2024
     Camera ready deadline: November 10, 2024
     Registration deadline: November 10, 2024
