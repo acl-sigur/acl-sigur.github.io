@@ -15,6 +15,8 @@ The 9th International Workshop on Computational Linguistics for Uralic Languages
 The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak), Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest), Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian, Ingrian (Izhorian), Votic, Livonian and Ludic). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
 
 - Multilingual approaches in NLP presenting work on at least one Uralic language
+- LLMs and their use in the context of (endangered) Uralic languages
+- Position papers
 - Parsers, analysers and processing pipelines of Uralic languages
 - Lexical databases, electronic dictionaries
 - Finished end-user applications aimed at Uralic languages, such as spelling or grammar checkers, machine translation or speech processing
