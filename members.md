@@ -27,7 +27,7 @@ List of ACL SIGUR members that have approved publication of their membership det
 | Hammarström, Harald | MPI Nijmegen |  |  |  |
 | Grimes, Stephen |  |  | NLP, computational phonology | Hungarian | [homepage](https://sgrimes.github.io/) |
 | Ivaska, Ilmari | University of Washington |  | second language acquisition, learner corpora, construction grammar, data-drivenness, usage-based model | Finnish |  |
-| Rießler, Michael | Albert-Ludwigs-Universität Freiburg |  | language documentation, language technology, spoken language corpora | Permic languages, Saamic languages, Samoyedic languages | [homepage](http://saami.uni-freiburg.de/)  |
+| Rießler, Michael | University of Eastern Finland |  | language documentation, language technology, spoken language corpora | Permic languages, Saamic languages, Samoyedic languages | [homepage]([http://saami.uni-freiburg.de/](https://uefconnect.uef.fi/henkilo/michael.riesler/))  |
 | Kaalep Heiki-Jaan | University of Tartu |  | morphology, corpus linguistics | Estonian, Finnish | [homepage](https://www.etis.ee/Portal/Persons/Display/938d86ca-ed2b-4538-925f-86645f725189?tabId=CV_ENG) |
 | Jeremy Bradley | Ludwig-Maximilians-Universität München |  |  | Mari, Estonian, Finnish, Udmurt | [homepage](http://www.mari-language.com/)  |
 | Koczka, Péter | Research Institute for Linguistics of theHungarian Academy of Sciences |  |  | Hungarian, Udmurt, Finnish |  |
