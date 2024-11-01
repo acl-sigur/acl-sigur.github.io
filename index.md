@@ -25,7 +25,7 @@ Workshops and meetings:
 
 Past events
 
-* [The Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://rootroo.com/en/joint-nlp4dh-iwclul-2023/), Tokyo, Japan
+* [The Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://www.nlp4dh.com/past-events/nlp4dh-iwclul-2023), Tokyo, Japan
 * [Seventh international workshop on computational linguistics for the Uralic
   languages](https://conference.krags.ru/en), Syktyvkar, Russia
 * [Sixth international workshop on computational linguistics for the Uralic
@@ -47,6 +47,7 @@ Past events
 
 The conference proceedings for IWCLUL from 2017 onwards can be found at [ACL SIGUR publications](https://aclanthology.org/sigs/sigur/).
 
+* [Proceedings of the Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://aclanthology.org/volumes/2023.nlp4dh-1/)
 * [Proceedings of the seventh international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2021.iwclul-1/)
 * [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2020.iwclul-1/)
 * [Proceedings of the fifth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/W19-03/)
@@ -91,10 +92,6 @@ Election of new ACL SIGUR board (every ~2 years):
 [Mailing list](mailing-list.html) is ran via google groups, everyone who has
 filled the registration form will receive an invitation, if you are missing one,
 contact us. **NB**, when you get added to google group you may need to accept the invitation depending on your Google settings!
-
-### Chatroom
-
-We host a chatroom on Matrix: [#acl-sigur:matrix.org](https://matrix.to/#/#acl-sigur:matrix.org)
 
 ## Resources
 
