@@ -13,7 +13,7 @@ List of ACL SIGUR members that have approved publication of their membership det
 | Name | Affiliation | Country | Research interests | Languages |  More... |
 | --- | --- | --- | --- | --- | --- |
 | Tyers, Francis M. | UiT Norgga árktalaš universitehta | Norway | machine translation, morphological analysis, dependency grammar, treebanks, constraint grammar | Finnish, Sámi languages, Udmurt, Estonian, Nenets | [Francis' homepage](http://xixona.dlsi.ua.es/~fran/) |
-| Pirinen, Tommi A | Universität Hamburg | Germany | Morphology, MT, software engineering, complexity, finite states, universals | Finnish, Karelian, ...  | [Tommi’s hompage](http://www.computing.dcu.ie/~tpirinen/) |
+| Pirinen, Flammie A | Universität Hamburg | Germany | Morphology, MT, software engineering, complexity, finite states, universals | Finnish, Karelian, ...  | [Flammie’s hompage](https://flammie.github.io/) |
 | Unhammer, Kevin&nbsp;Brubeck | N/A | N/A | MT, proofing tools, morphology, infrastructure, … | sme,sma,smj,smn,fin,…  | [Kevin’s homepage](https://unhammer.org/k) |
 | Trosterud, Trond | UiT | Norway | Morphology, morphophonology  | Saami, Finnish, Mari, Komi  |
 | Schön, Zsófia | LMU Munich, Institute for Finno-Ugric Studies | – | Language Documentation, Lexicography, Dialectology | Khanty |
