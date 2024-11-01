@@ -102,7 +102,7 @@ Android-based.
 1. [Omorfi][fin-morph-1] (see also: apertium-fin, giella-fin)
 2. [Voikko][fin-morph-2] (also: suomi-malaga, vfst morphology)
 3. [GF Finnish][fin-morph-3]
-4. [Morfessor Finnish][fin-morph-4] (Finnish models available?)
+4. [UralicNLP][fin-morph-4] (uses Omorfi)
 
 ### Finnish Treebanks
 
@@ -151,7 +151,7 @@ This is resource-type index:
 * [Voikko][fin-morph-2] (also: suomi-malaga, vfst morphology)
 * [hunmorph][hun-morph-1]
 * [GF][gf] (Available: Finnish, Hungarian...)
-* [Morfessor][morfessor] (Available models/data: Finnish, North Saami...)
+* [UralicNLP][fin-morph-4] (Available models/data: Finnish, North Saami...)
 
 ## Treebanks
 
@@ -165,6 +165,8 @@ Larger collections:
    dependency syntax conventions for Finnish, Estonian and Hungarian plus other
    world languages (includes [Uralic
    guidelines](http://universaldependencies.org/uralic)
+* [Akusanat](https://www.akusanat.com/Main_Page) an online dictionary
+* [UralicNLP resources](https://www.uralicnlp.com/) different resources for Uralic languages
 * [OPUS open source parallel corpora](http://opus.lingfil.uu.se/) corpora for
    most of the world’s languages
 * [Giellatekno](http://giellatekno.uit.no/) repository of uralic analysers and
@@ -197,7 +199,7 @@ Larger collections:
 [fin-morph-1]: https://github.com/flammie/omorfi
 [fin-morph-2]: http://voikko.sf.net/
 [fin-morph-3]: http://www.grammaticalframework.org/lib/src/finnish/
-[fin-morph-4]: https://github.com/aalto-speech/morfessor
+[fin-morph-4]: https://github.com/mikahama/uralicNLP
 [fin-treebank-1]: http://universaldependencies.org/fi/overview/introduction.html
 [fin-treebank-2]: http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/
 [fin-eng-1]: https://github.com/flammie/apertium-fin-eng
@@ -207,7 +209,6 @@ Larger collections:
 [fin-est-1]: http://divvun.no/doc/lang/est/EstonianDocumentation.html
 [hun-morph-1]: http://mokk.bme.hu/resources/hunmorph/
 [gf]: http://grammaticalframework.org
-[morfessor]: https://github.com/aalto-speech/morfessor
 [sme-keyboard-1]: http://divvun.no/doc/keyboards/kbdlangdocs/sme/doc/index.html
 [sme-keyboard-2]: http://divvun.no/doc/keyboards/kbdlangdocs/sme/doc/index.html
 [vot-morph-1]: https://github.com/keeleleek/GF-Votic
