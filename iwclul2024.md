@@ -39,20 +39,19 @@ Accepted papers (short and long) will be published in the proceedings that will 
 You may also contribute to the event by submitting a lightning talk. Lightning talks are submitted as 750-word abstracts. Lightning talks are suited for discussing ideas or presenting work in progress. The abstracts will be published in a lightning proceedings. 
 
 
-Lightning talks must be submitted using [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeER9rpSQIY0ouMvtleNtLXGdyog3fJ3r7yvoGPZalPuM4MkQ/viewform?usp=sf_link).
-
-
-
 ## Remote attendance
 
 We aim for an inclusive event and we understand that some people have difficulties to travel. If you have a valid reason why you cannot attend the event in person (visa issues, health issues etc.) you may present your paper remotely.
+
+## How to attend?
+
+No advance registration is needed. Interested people can just walk in on workshop days.
 
 ## Important dates:
 
     Paper submission (full and short): October 25, 2024 (extended)
     Notification of acceptance: November 3, 2024
     Camera ready deadline: November 10, 2024
-    Registration deadline: November 10, 2024
     Workshop: November 28-29, 2024
 
 All times are Anywhere on Earth (AoE).
