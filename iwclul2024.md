@@ -38,6 +38,46 @@ Accepted papers (short and long) will be published in the proceedings that will 
 
 You may also contribute to the event by submitting a lightning talk. Lightning talks are submitted as 750-word abstracts. Lightning talks are suited for discussing ideas or presenting work in progress. The abstracts will be published in a lightning proceedings. 
 
+## Schedule
+
+### Thursday 28.11.
+
+| **10:00-10:10** | **Workshop opening**                                                                                                                           |                                                                                                       |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **10:10-11:00** | **Lightning talks**                                                                                                                            |                                                                                                       |
+| **11:00-12:00** | **Oral session 1**                                                                                                                             |                                                                                                       |
+|   11:00-11:20     |   Aspect Based Sentiment Analysis of Finnish Neighborhoods: Insights from Suomi24                                                                |   Laleh Davoodi, Anssi Öörni, Ville Harkke                                                            |
+|   11:20-11:40     |   Political Stance Detection in Estonian News Media                                                                                              |   Lauri Lüüsi, Uku Kangur, Roshni Chakraborty, Rajesh Sharma                                          |
+|   11:40-12:00     |   Scaling Sustainable Development Goal Predictions across Languages: From English to Finnish                                                     |   Melany Macias, Leo Huovinen, Lev Kharlashkin, Mika Hämäläinen                                       |
+| **12:00-13:00** | **Lunch**                                                                                                                                      |                                                                                                       |
+| **13:00-14:20** | **Oral session 2**                                                                                                                             |                                                                                                       |
+|   13:00-13:20     |   Multilingual Approaches to Sentiment Analysis of Texts in Linguistically Diverse Languages: A Case Study of Finnish, Hungarian, and Bulgarian  |   MIKHAIL KRASITSKII, Olga Kolesnikova, Grigori Sidorov,Liliana Chanona Hernandez, Alexander Gelbukh  |
+|   13:20-13:40     |   Towards standardized inflected lexicons for the Finnic languages                                                                               |   Jules Bouton                                                                                        |
+|   13:40-14:00     |   DAG: Dictionary-Augmented Generation for Disambiguation of Sentences in Endangered Uralic Languages using ChatGPT                              |   Mika Hämäläinen                                                                                     |
+|   14:00-14:20     |   Kola Saami Christian Text Corpus                                                                                                               |   Michael Rießler                                                                                     |
+| **14:20-14:40** | **Coffee break**                                                                                                                               |                                                                                                       |
+| **14:40-16:00** | **Oral session 3**                                                                                                                             |                                                                                                       |
+|   14:40-15:00     |   Towards the speech recognition for Livonian                                                                                                    |   Valts Ernštreits                                                                                    |
+|   15:00-15:20     |   Using large language models to transliterate endangered Uralic languages                                                                       |   Niko Tapio Partanen                                                                                 |
+|   15:20-15:40     |   Specialized Monolingual BPE Tokenizers for Uralic Languages Representation in Large Language Models                                            |   Iaroslav Chelombitko, Aleksey Komissarov                                                            |
+|   15:40-16:00     |   Leveraging Transformer-Based Models for Predicting Inflection Classes of Words in an Endangered Sami Language                                  |   Khalid Alnajjar, Jack Rueter, Mika Hämäläinen                                                       |
+
+### Friday 29.11
+
+| **10:00-11:00** | **Keynote**                                                                                                                                                                              |                                                 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| **11:00-12:00** | **Oral session 4**                                                                                                                                                                       |                                                 |
+|   11:00-11:20   |   Compressing Noun Phrases to Discover Mental Constructions in Corpora -- A Case Study for Auxiliaries in Hungarian                                                                      |   Balázs Indig, Tímea Borbála Bajzát            |
+|   11:20-11:40   |   Challenges and Opportunities in Revitalizing Uralic Languages in the Age of Technology                                                                                                 |   Alexander Nazarenko                           |
+|   11:40-12:00   |   Applying the transformer architecture on the task of headline selection for Finnish news texts                                                                                         |   Maria Adamova, Maria Khokhlova                |
+| **12:00-13:00** | **Lunch**                                                                                                                                                                                |                                                 |
+| **13:00-14:20** | **Oral session 5**                                                                                                                                                                       |                                                 |
+|   13:00-13:20   |   Keeping Up Appearances—or how to get all Uralic languages included into bleeding edge research and software: generate, convert, and LLM your way into multilingual datasets and more!  |   Flammie A Pirinen                             |
+|   13:20-13:40   |   Prune or Retrain: Optimizing the Vocabulary of Multilingual Models for Estonian                                                                                                        |   Aleksei Dorkin, Taido Purason, Kairit Sirts   |
+|   13:40-14:00   |   Universal-WER: Enhancing WER with Segmentation and Weighted Substitution for Varied Linguistic Contexts                                                                                |   Samy Ouzerrout                                |
+|   14:00-14:20   |   On Erzya and Moksha Corpora and Analyzer Development, ERME-PSLA 1950s                                                                                                                  |   Jack Rueter, Olga V. Erina, Nadezhda Kabaeva  |
+| **14:20-14:40** | **Coffee break**                                                                                                                                                                         |                                                 |
+| **14:40-15:40** | **SIGUR business meeting**                                                                                                                                                               |                                                 |
 
 ## Remote attendance
 
