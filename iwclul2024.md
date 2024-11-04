@@ -64,7 +64,7 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
 
 ### Friday 29.11
 
-| **10:00-11:00** | **Keynote**                                                                                                                                                                              |                                                 |
+| **10:00-11:00** | **Keynote**                                                                                                                                                                              |            Jack Rueter                                     |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | **11:00-12:00** | **Oral session 4**                                                                                                                                                                       |                                                 |
 |   11:00-11:20   |   Compressing Noun Phrases to Discover Mental Constructions in Corpora -- A Case Study for Auxiliaries in Hungarian                                                                      |   Balázs Indig, Tímea Borbála Bajzát            |
