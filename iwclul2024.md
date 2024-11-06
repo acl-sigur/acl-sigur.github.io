@@ -110,8 +110,10 @@ Arabia is known for art and design. [Read more about the neighborhood on Helsink
 - Mika Hämäläinen, Metropolia University of Applied Sciences
 
 - Flammie Pirinen, UiT The Arctic University of Norway
+  
+- Melany Macias, Metropolia University of Applied Sciences
 
-- Mario Crespo Avila (Student volunteer), Complutense University of Madrid
+- Mario Crespo Avila, Complutense University of Madrid
 
 **In case of questions, you can send an email to mika.hamalainen@metropolia.fi**
 
