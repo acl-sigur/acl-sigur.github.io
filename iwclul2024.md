@@ -12,6 +12,14 @@ The 9th International Workshop on Computational Linguistics for Uralic Languages
   <button name="button" onclick="location.href='https://metropolia.zoom.us/j/66867351155?pwd=wleJUqahfC6RBff6Zg91gTuaV5bRIP.1'" >Zoom link</button> <span style="padding-left: 32px;"></span> 
 </div>
 
+<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
+  <button name="button" onclick="location.href='https://acl-sigur.github.io/proceedings_iwclul_2024.pdf'" >Proceedings (draft)</button> <span style="padding-left: 32px;"></span> 
+</div>
+
+<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
+  <button name="button" onclick="location.href='https://zenodo.org/records/14212595'" >Lightning Proceedings</button> <span style="padding-left: 32px;"></span> 
+</div>
+
 The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak), Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest), Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian, Ingrian (Izhorian), Votic, Livonian and Ludic). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
 
 - Multilingual approaches in NLP presenting work on at least one Uralic language
