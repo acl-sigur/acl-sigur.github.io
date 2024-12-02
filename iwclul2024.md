@@ -9,11 +9,7 @@ title: IWCLUL 2024
 The 9th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2024) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place in November 28-29, 2024 in Helsinki, Finland at [Metropolia University of Applied Sciences](https://www.metropolia.fi/fi). 
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://metropolia.zoom.us/j/66867351155?pwd=wleJUqahfC6RBff6Zg91gTuaV5bRIP.1'" >Zoom link</button> <span style="padding-left: 32px;"></span> 
-</div>
-
-<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://acl-sigur.github.io/proceedings_iwclul_2024.pdf'" >Proceedings (draft)</button> <span style="padding-left: 32px;"></span> 
+  <button name="button" onclick="location.href='https://aclanthology.org/volumes/2024.iwclul-1/'" >Proceedings</button> <span style="padding-left: 32px;"></span> 
 </div>
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
