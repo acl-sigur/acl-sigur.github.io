@@ -16,11 +16,11 @@ such as [meta-share](http://meta-share.eu).
 and fixes to current ones to [our ticket tracking system on
 github](https://github.com/acl-sigur/acl-sigur.github.io/issues).
 
-# By Language
+## By Language
 
-## Finnish
+### Finnish
 
-### Finnish keyboard
+#### Finnish keyboard
 
 1. [Kotoistus][fin-keyboard-1] keyboard layout, for national (SFS 5966)
    and international standards
@@ -28,19 +28,19 @@ github](https://github.com/acl-sigur/acl-sigur.github.io/issues).
 Comes with all common OSes and systems: Microsoft’s, Linux, Apple’s and
 Android-based.
 
-### Finnish Morphology
+#### Finnish Morphology
 
 1. [Omorfi][fin-morph-1] (see also: apertium-fin, giella-fin)
 2. [Voikko][fin-morph-2] (also: suomi-malaga, vfst morphology)
 3. [GF Finnish][fin-morph-3]
 4. [UralicNLP][fin-morph-4] (uses Omorfi)
 
-### Finnish Treebanks
+#### Finnish Treebanks
 
 1. [Universal Depedencies Finnish][fin-treebank-1] (see also: Turku dependency treebank)
 2. [Universal Dependencies Finnish FTB][fin-treebank-2] (see also: FinnTreeBanks)
 
-### Finnish Machine Translation
+#### Finnish Machine Translation
 
 1. [Apertium Finnish-English][fin-eng-1] (high coverage, low quality)
     * [Apertium Finnish-German][fin-deu-1]
@@ -48,9 +48,9 @@ Android-based.
     * [Apertium Finnish-Estonian][fin-est-1]
 2. [GF Finnish to any][fin-any-1]
 
-## North Saami
+### North Saami
 
-### North Saami keyboards
+#### North Saami keyboards
 
 1. [Official layout][sme-keyboard-1] keyboard layout, for national and international standards
 
@@ -58,15 +58,15 @@ Comes with all common OSes and systems: Microsoft’s, Linux, Apple’s and Andr
 
 2. [Divvun’s North Saami keyboard][sme-keyboard-2]
 
-## Hungarian
+### Hungarian
 
-### Hungarian morphologies
+#### Hungarian morphologies
 
 1. [hunmorph][hun-morph-1]
 
-# By Resource
+## By Resource
 
-## Morphology
+### Morphology
 
 * [Omorfi][fin-morph-1] (see also: apertium-fin, giella-fin)
 * [Voikko][fin-morph-2] (also: suomi-malaga, vfst morphology)
@@ -75,7 +75,7 @@ Comes with all common OSes and systems: Microsoft’s, Linux, Apple’s and Andr
 * [UralicNLP][fin-morph-4] (Available models/data: Finnish, North Saami...)
 
 
-# Larger collections:
+## Larger collections:
 
 * [Universal dependencies](http://universaldependencies.org), treebanks,
    dependency syntax conventions for Finnish, Estonian and Hungarian plus other
