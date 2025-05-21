@@ -21,10 +21,11 @@ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALinguistic_map
 
 Workshops and meetings:
 
-**[IWCLUL 2024](iwclul2024.html)**
+**[IWCLUL 2025](iwclul2025.html)**
 
 Past events
 
+* [9th International Workshop on Computational Linguistics for Uralic Languages](iwclul2024.html), Helsinki, Finland
 * [The Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://www.nlp4dh.com/past-events/nlp4dh-iwclul-2023), Tokyo, Japan
 * [Seventh international workshop on computational linguistics for the Uralic
   languages](https://conference.krags.ru/en), Syktyvkar, Russia
@@ -47,6 +48,7 @@ Past events
 
 The conference proceedings for IWCLUL from 2017 onwards can be found at [ACL SIGUR publications](https://aclanthology.org/sigs/sigur/).
 
+* [Proceedings of the 9th International Workshop on Computational Linguistics for Uralic Languages](https://aclanthology.org/volumes/2024.iwclul-1/)
 * [Proceedings of the Joint 3rd International Conference on Natural Language Processing for Digital Humanities & 8th International Workshop on Computational Linguistics for Uralic Languages](https://aclanthology.org/volumes/2023.nlp4dh-1/)
 * [Proceedings of the seventh international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2021.iwclul-1/)
 * [Proceedings of the sixth international workshop on computational linguistics of Uralic languages](https://aclanthology.org/volumes/2020.iwclul-1/)
@@ -62,11 +64,7 @@ The conference proceedings for IWCLUL from 2017 onwards can be found at [ACL SIG
 
 ## Membership
 
-You can sign up for membership of the SIG by filling out [a google form](https://docs.google.com/forms/d/19jasNykCI5449BFNtm5jJ94CFlfQYXNEt4uaFuOkADw/viewform)
-(no google account required).
-
-[Membership registry](members.html)
-
+You can sign up for membership of the SIG by [joining our Google group](https://groups.google.com/g/acl-sigur).
 
 
 ## Board
@@ -89,7 +87,7 @@ Election of new ACL SIGUR board (every ~2 years):
 
 ### Mailing list
 
-[Mailing list](mailing-list.html) is ran via google groups, everyone who has
+[Mailing list](https://groups.google.com/g/acl-sigur) is ran via google groups, everyone who has
 filled the registration form will receive an invitation, if you are missing one,
 contact us. **NB**, when you get added to google group you may need to accept the invitation depending on your Google settings!
 
