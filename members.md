@@ -5,10 +5,15 @@ title: ACL SIGUR membership registry
 
 # ACL SIGUR members
 
-List of ACL SIGUR members that have approved publication of their membership details. To join, fill in [ACL SIGUR membership form](https://docs.google.com/forms/d/19jasNykCI5449BFNtm5jJ94CFlfQYXNEt4uaFuOkADw/viewform) in google forms (no Google account required).
+
+## Membership
+
+You can sign up for membership of the SIG by [joining our Google group](https://groups.google.com/g/acl-sigur).
 
 
 ## Members (in order of registration)
+
+List of ACL SIGUR members that have approved publication of their membership details. If you want your details to be listed here, contact the current SIGUR president.
 
 | Name | Affiliation | Country | Research interests | Languages |  More... |
 | --- | --- | --- | --- | --- | --- |
@@ -62,9 +67,3 @@ List of ACL SIGUR members that have approved publication of their membership det
 | Wilbur, Joshua | Tartu Ülikool | Estonia | Saami languages, FST, language documentation, syntax, morphology, phonology, language contact | (Pite) Saami, Estonian | [homepage](http://jwilbur.de) |
 | Krizhanovsky Andrew | Karelian Research Centre of RAS | Russia | Open corpus of Veps and Karelian languages, lexicography, corpus linguistics | Veps, Karelian, Olonets (Livvi), Ludian (Ludic Karelian) | [homepage](http://mathem.krc.karelia.ru/member.php?id=804&plang=e) |
 
-<!--
-Use these to add new members to list from the google form sheet:
-
-| Name | Affiliation | Country | Research interests | Languages |  More... |
-|  |  |  |  |  | [homepage title](http://url) |
--->
