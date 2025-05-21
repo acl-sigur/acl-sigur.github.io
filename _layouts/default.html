@@ -14,22 +14,14 @@
     </head>
     <body>
 
-        <div class="container">
-            <div class="row">
-                <div id="header" class="col-sm-12">
-                    {% include header.html %}
-                </div>
-            </div>
+        {% include navigation.html %}
 
-            <div class="row">
-                    <div id="navigation" class="col-sm-2">
-                        {% include navigation.html %}
-                    </div>
+        <div class="container">
+
 
                     <div id="content" class="col-sm-10">
                         {{ content }}
                     </div>
-            </div>
 
 
             <div class="row">
