@@ -1,8 +1,6 @@
-body {
-    font-family: FreeSans, "Luxi Sans", "DejaVu Sans", sans-serif;
-    margin-top: 3em;
-    font-weight: 400;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+
+.container {
+    margin-top: 20px;
 }
 
 pre, code {
@@ -36,17 +34,6 @@ tr:nth-child(even) {
     color: black;
 }
 
-/* uneven headings should be bold */
-h1, h3, h5 {
-    font-weight: bold;
-    font-family: "Liberation Serif", FreeSerif, "Luxi Serif", "DejaVu Serif", serif;
-}
-
-/* even headings should be italic */
-h2, h4, h6 {
-    font-style: italic;
-    font-family: "Liberation Serif", FreeSerif, "Luxi Serif", "DejaVu Serif", serif;
-}
 
 #header {
     border-bottom: 1px solid #eee;
