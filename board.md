@@ -55,4 +55,6 @@ Aarhus University, Denmark
 
 Waseda University, Japan
 
+## Former Presidents
 
+* Flammie Pirinen 2016-2023
