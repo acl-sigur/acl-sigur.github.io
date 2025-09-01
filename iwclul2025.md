@@ -92,4 +92,26 @@ University of Eastern Finland, Joensuu, Finland
 
 ## Program committee
 
-TBA
+- Fejes László, Hungarian Research Centre for Linguistics
+- Gunta Kļava, University of Latvia
+- Sourav Das, Indian Institute of Information Technology Kalyani
+- Balázs Indig, Eötvös Lorand University
+- Laleh Davoodi, Abo Akademi University
+- Flammie A Pirinen, Norgga árktalaš universitehta
+- Trond Trosterud, University of Tromsø
+- Csilla Horváth, University of Szeged
+- Iaroslav Chelombitko, Neapolis University Paphos
+- Aleksei Dorkin, University of Tartu
+- Sebastian Oliver Eck, University of Oxford
+- Khalid Alnajjar, F-Secure Oyj
+- Jules Bouton, Université Paris Cité
+- Valts Ernštreits, University of Latvia
+- Michael Rießler, University of Eastern Finland
+- Timofey Arkhangelskiy, Universität Hamburg
+- Samy Ouzerrout,  Université d'Orléans
+- Jyoti Kunal shah, Automatic Data Processing
+- Youngsook Song, Lablup
+- David Dale, FAIR at Meta
+- Abhi Desai, New England College
+
+
