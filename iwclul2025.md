@@ -88,7 +88,7 @@ University of Eastern Finland, Joensuu, Finland
 - Flammie Pirinen, UiT The Arctic University of Norway
   
 
-**In case of questions, you can send an email to lev.kharlashkin@metropolia.fi or eiaki.morooka@metropolia.fi**
+**In case of questions, you can send an email to lev.kharlashkin@metropolia.fi or aki.morooka@metropolia.fi**
 
 ## Program committee
 
