@@ -51,7 +51,7 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
  
 ### 10.12
 
-Karelian resources workshop
+Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00. 
 
 ### 11.-12.12
 
@@ -70,6 +70,10 @@ We aim for an inclusive event and we understand that some people have difficulti
     Workshop: December 10-12, 2025
 
 All times are Anywhere on Earth (AoE).
+
+## Keynote
+
+Joshua Wilbur (University of Tartu), title t.b.a
 
 ## Venue
 
