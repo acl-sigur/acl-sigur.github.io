@@ -64,7 +64,7 @@ We aim for an inclusive event and we understand that some people have difficulti
 
 ## Important dates:
 
-    Paper submission (full and short): October 19, 2025
+    Paper submission (full and short): October 26, 2025 (extended)
     Notification of acceptance: November 9, 2025
     Camera ready deadline: November 23, 2025
     Workshop: December 10-12, 2025
