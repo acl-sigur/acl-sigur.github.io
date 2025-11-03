@@ -16,9 +16,6 @@ The 10th International Workshop on Computational Linguistics for Uralic Language
   <button name="button" onclick="location.href='https://openreview.net/group?id=IWCLUL/2025/Workshop'" >Submit a paper</button>
 </div>
 
-<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdAHO3owk8fgFb4d4nK7fcqpBMgcpUhB7EyvzIxGlDFetH7kg/viewform?usp=header'" >Submit a lightning talk</button>
-</div>
 
 
 The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak), Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest), Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian, Ingrian (Izhorian), Votic, Livonian and Ludic). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
