@@ -43,45 +43,7 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
 
 ### Wednesday 10.12
 
-Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00. 
-
-### Thursday 11.12.
-
-| **10:00-10:10** | **Workshop opening**                                                                                                                           |                                                                                                       |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **10:10-11:00** | **Lightning talks**                                                                                                                            |                                                                                                       |
-| **11:00-12:00** | **Oral session 1**                                                                                                                             |                                                                                                       |
-|   11:00-11:20     |   From NLG Evaluation to Modern Student Assessment in the Era of ChatGPT: The Great Misalignment Problem and Pedagogical Multi-Factor Assessment (P-MFA)                                                                |   Mika Hämäläinen, Kimmo Leiviskä                                                           |
-|   11:20-11:40     |   Benchmarking Finnish Lemmatizers across Historical and Contemporary Texts                                                                  |   Emily Öhman, Leo Huovinen, Mika Hämäläinen                                         |
-|   11:40-12:00     |   The world’s first South Sámi TTS – a revitalisation effort of an endangered language by reviving a legacy voice                            |   Katri Hiovain-Asikainen, Thomas Brevik Kjærstad, Maja Lisa Kappfjell, Sjur Nørstebø Moshagen                                       |
-| **12:00-13:00** | **Lunch**                                                                                                                                      |                                                                                                       |
-| **13:00-14:20** | **Oral session 2**                                                                                                                             |                                                                                                       |
-|   13:00-13:20     |   Can advances in NLP lead to worse results for Uralic languages and how can we fight back? Experiences from the world of automatic spell-checking and correction for Finnish  |   Flammie A Pirinen  |
-|   13:20-13:40     |   A Hybrid Multilingual Approach to Sentiment Analysis for Uralic and Low-Resource Languages: Combining Extractive and Abstractive Techniques                                                                               |   MIKHAIL KRASITSKII, Grigori Sidorov, Olga Kolesnikova, Al                                                                                        |
-|   13:40-14:00     |   Language technology resources for the minority Finnic languages                              |   Flammie A Pirinen, Trond Trosterud, Jack Rueter                                                                                     |
-|   14:00-14:20     |   Kildin Saami-Russian-(English) Parallel Corpus Building  |   Evan Hansen                            |
-| **14:20-14:40** | **Coffee break**                                                                                                                               |                                                                                                       |
-| **14:40-16:00** | **Oral session 3**                                                                                                                             |                                                                                                       |
-|   14:40-15:00     |   SampoNLP: A Self-Referential Toolkit for Morphological Analysis of Subword Tokenizers                                                                                                    |   Iaroslav Chelombitko, Ekaterina Chelombitko, Aleksey Komissarov                                                                                    |
-|   15:00-15:20     |   Timur and the Mansi spellchecker                                                                       |   Csilla Horváth                                                                                 |
-|   15:20-15:40     |   ORACLE: Time-Dependent Recursive Summary Graphs for Foresight on News Data Using LLMs                                            |  Lev Kharlashkin, Eiaki V. Morooka, Yehor Tereshchenko, Mika Hämäläinen                                                            |
-|   15:40-16:00     |  Creating a multi-layer Treebank for Tundra Nenets                                  |   Nikolett Mus, Bruno Guillaume, Sylvain Kahane, Daniel Zeman                                                      |
-
-### Friday 12.12
-
-| **10:00-11:00** | **Keynote**                                                                                                                                                                              |            Jack Rueter                                     |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| **11:00-12:00** | **Oral session 4**                                                                                                                                                                       |                                                 |
-|   11:00-11:20   |   Benchmarking Large Language Models for Lemmatization and Translation of Finnic Runosongs                                                                      |   Lidia Pivovarova, Kati Kallio, Antti Kanner, Jakob Lindström, Eetu Mäkelä, Liina Saarlo, Kaarel Veskis, Mari Väina            |
-|   11:20-11:40   |   	Fine-Tuning Whisper for Kildin Sami                                                                                                 |   Enzo Gamboni                           |
-|   11:40-12:00   |   Digitization Work at the Finno-Ugrian Society: Livonian Case Study                                                                                         |   Niko Tapio Partanen, Jack Rueter, Valts Ernštreits                |
-| **12:00-13:00** | **Lunch**                                                                                                                                                                                |                                                 |
-| **13:00-14:20** | **Oral session 5**                                                                                                                                                                       |                                                 |
-|   13:00-13:20   |   Siberian Ingrian Finnish: FST and IGTs                                                                                                               |   Ivan Ubaleht                                                                                     |
-|   13:20-13:40   |   Case--Number Dissociation in Finnish Noun Embeddings: fastText vs. BERT Layer Effects                                                                                                        |   Alexandre Nikolaev, Yu-Ying Chuang, R. Harald Baayen   |
-|   13:40-14:00   |   Evaluating OpenAI GPT Models for Translation of Low-Resource Uralic Languages: A Comparison of Reasoning and Non-Reasoning Architectures                                                                                |   Yehor Tereshchenko, Mika Hämäläinen, Svitlana Myroniuk                                |
-| **14:00-14:20** | **Coffee break**                                                                                                                                                                         |                                                 |
-| **14:20-15:20** | **SIGUR business meeting**            
+Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00.   
 
 ## Remote attendance
 
