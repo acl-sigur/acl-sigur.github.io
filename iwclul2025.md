@@ -41,9 +41,50 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
 
 ## Schedule
 
-### Wednesday 10.12
+### Wednesday 10.12 Location: AG109 (Agora/Philosophical Faculty)
 
-Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00.   
+Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00.
+
+### Thursday 11.12. Location: AT100 (Agora/Theology)
+
+
+| 09:15-09:30 | Workshop opening                                                                                                                           |                                                                                                       |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| 09:30-10:30 | Keynote           |  Josh Wilbur
+| 10:30-11:20 | Lightning talks                                  |                                                                                                       |
+| 11:20-11:40 | Coffee break                            |
+| 11:40-12:40 | Oral session 1      |                                                                                                       |
+|   11:40-12:00     |   From NLG Evaluation to Modern Student Assessment in the Era of ChatGPT: The Great Misalignment Problem and Pedagogical Multi-Factor Assessment (P-MFA)  |   Mika Hämäläinen, Kimmo Leiviskä                                                           |
+|   12:00-12:20     |   Benchmarking Finnish Lemmatizers across Historical and Contemporary Texts   |   Emily Öhman, Leo Huovinen, Mika Hämäläinen                                         |
+|   12:20-12:40     |   The world’s first South Sámi TTS – a revitalisation effort of an endangered language by reviving a legacy voice |   Katri Hiovain-Asikainen, Thomas Brevik Kjærstad, Maja Lisa Kappfjell, Sjur Nørstebø Moshagen                                       |
+| 12:40-13:40 | Lunch            |
+| 13:40-15:00 | Oral session 2   |
+|   13:40-14:00     |   Can advances in NLP lead to worse results for Uralic languages and how can we fight back? Experiences from the world of automatic spell-checking and correction for Finnish |   Flammie A Pirinen  |
+|   14:00-14:20     |   A Hybrid Multilingual Approach to Sentiment Analysis for Uralic and Low-Resource Languages: Combining Extractive and Abstractive Techniques  |   MIKHAIL KRASITSKII, Grigori Sidorov, Olga Kolesnikova, Al                                                                                        |
+|   14:20-14:40     |   Language technology resources for the minority Finnic languages  |   Flammie A Pirinen, Trond Trosterud, Jack Rueter   |
+|   14:40-15:00     |   Kildin Saami-Russian-(English) Parallel Corpus Building  |   Evan Hansen                            |
+| 15:00-15:20 | Coffee break                            |
+| 15:20-16:40 | Oral session 3         |                                                                                                       |
+|   15:20-15:40     |   SampoNLP: A Self-Referential Toolkit for Morphological Analysis of Subword Tokenizers  |   Iaroslav Chelombitko, Ekaterina Chelombitko, Aleksey Komissarov    |
+|   15:40-16:00     |   Timur and the Mansi spellchecker     |   Csilla Horváth                                                                                 |
+|   16:00-16:20     |   ORACLE: Time-Dependent Recursive Summary Graphs for Foresight on News Data Using LLMs     |  Lev Kharlashkin, Eiaki V. Morooka, Yehor Tereshchenko, Mika Hämäläinen                                                            |
+|   16:20-16:40     |  Creating a multi-layer Treebank for Tundra Nenets                                  |   Nikolett Mus, Bruno Guillaume, Sylvain Kahane, Daniel Zeman                                                      |
+
+### Friday 12.12 Location: AG109 (Agora/Philosophical Faculty)
+
+| 10:00 | Day 3                                                                                                                        |                                                                                                       |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| 10:00-11:00 | Oral session 4               |                                                 |
+|   10:00-10:20   |   Benchmarking Large Language Models for Lemmatization and Translation of Finnic Runosongs |   Lidia Pivovarova, Kati Kallio, Antti Kanner, Jakob Lindström, Eetu Mäkelä, Liina Saarlo, Kaarel Veskis, Mari Väina            |
+|   10:20-10:40   |   Fine-Tuning Whisper for Kildin Sami  |   Enzo Gamboni                    |
+|   10:40-11:00   |   Digitization Work at the Finno-Ugrian Society: Livonian Case Study   |   Niko Tapio Partanen, Jack Rueter, Valts Ernštreits                |
+| 11:00-12:00 | Lunch                        |                                                 |
+| 12:00-13:00 | Oral session 5               |                                                 |
+|   12:00-12:20   |   Siberian Ingrian Finnish: FST and IGTs                 |   Ivan Ubaleht                                                                                     |
+|   12:20-12:40   |   Case--Number Dissociation in Finnish Noun Embeddings: fastText vs. BERT Layer Effects    |   Alexandre Nikolaev, Yu-Ying Chuang, R. Harald Baayen   |
+|   12:40-13:00   |   Evaluating OpenAI GPT Models for Translation of Low-Resource Uralic Languages: A Comparison of Reasoning and Non-Reasoning Architectures |   Yehor Tereshchenko, Mika Hämäläinen, Svitlana Myroniuk                                |
+| 13:00-13:20 | Coffee break                                                                                                           |                                                 |
+| 13:20-14:20 | SIGUR business meeting |
 
 ## Remote attendance
 
@@ -61,11 +102,18 @@ All times are Anywhere on Earth (AoE).
 
 ## Keynote
 
-Joshua Wilbur (University of Tartu), title t.b.a
+Joshua Wilbur (University of Tartu), title "Pite Saami and the Digital Turn"
 
 ## Venue
 
 University of Eastern Finland, Joensuu, Finland
+Agora-Building (Yliopistokatu 4)
+
+10.12 - AG109 (Agora/Philosophical Faculty)
+
+11.12 - AT100 (Agora/Theology)
+
+12.12 - AG109 (Agora/Philosophical Faculty)
 
 ## Organizers
 
