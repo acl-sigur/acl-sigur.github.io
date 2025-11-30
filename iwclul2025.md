@@ -43,8 +43,10 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
 
 ### Wednesday 10.12 Location: AG109 (Agora/Philosophical Faculty)
 
-| 14:00-18:00 | Karelian Workshop                                 |     .                                                                                                  |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+
+| 14:00-18:00 | Karelian Workshop  |     .  |
+|-------------|--------------------|--------|
+
 
 Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00.
 
