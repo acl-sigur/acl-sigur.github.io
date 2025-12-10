@@ -8,9 +8,13 @@ title: IWCLUL 2025
 
 The 10th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2025) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place in December 10-12, 2025 in Joensuu, Finland at [University of Eastern Finland](https://www.uef.fi/en/joensuu-campus). 
 
-<!--<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://aclanthology.org/volumes/2024.iwclul-1/'" >Proceedings</button> <span style="padding-left: 32px;"></span> 
-</div>-->
+<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
+  <button name="button" onclick="location.href='https://metropolia.zoom.us/j/61587571860'" >IWCLUL Zoom</button> <span style="padding-left: 32px;"></span> 
+</div>
+
+<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
+  <button name="button" onclick="location.href='https://zenodo.org/records/17751061'" >Lightning Proceedings</button> <span style="padding-left: 32px;"></span> 
+</div>
 
 
 The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak), Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest), Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian, Ingrian (Izhorian), Votic, Livonian and Ludic). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
