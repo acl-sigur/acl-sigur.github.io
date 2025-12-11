@@ -58,7 +58,7 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
 
 Resources and Tools for Computational Work on Karelian and Other Small Uralic Languages 14:00-18:00.
 
-### Thursday 11.12. Location: AT100 (Agora/Theology)
+### Thursday 11.12. Location: AG109 (Agora/Philosophical Faculty)
 
 
 | 09:15-09:30 | Workshop opening                                                                                                                           |                                                                                                       |
