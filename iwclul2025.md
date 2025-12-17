@@ -8,9 +8,6 @@ title: IWCLUL 2025
 
 The 10th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2025) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place in December 10-12, 2025 in Joensuu, Finland at [University of Eastern Finland](https://www.uef.fi/en/joensuu-campus). 
 
-<div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://metropolia.zoom.us/j/61587571860'" >IWCLUL Zoom</button> <span style="padding-left: 32px;"></span> 
-</div>
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
   <button name="button" onclick="location.href='https://zenodo.org/records/17751061'" >Lightning Proceedings</button> <span style="padding-left: 32px;"></span> 
