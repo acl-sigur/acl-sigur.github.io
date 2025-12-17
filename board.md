@@ -9,52 +9,62 @@ Election of new ACL SIGUR board (every 2 years) at IWCLUL
 
 ## President
 
-![Mika Hämäläinen](img/mika.jpeg)
-
-**Mika Hämäläinen** 
-
-Metropolia University of Applied Sciences, Finland
-
-## Vice-President
-
-![Flammie Pirinen](img/flammie.jpg)
-
-**Flammie A. Pirinen**
-
-UiT–Norgga árktalaš universitehta, Norway
-
-## Members
-
-![Niko Partanen](img/niko.jpg)
-
-**Niko Partanen**
-
-University of Helsinki, Finland
-
 ![Jack Rueter](img/jack.jpg)
 
 **Jack Rueter**
 
 University of Helsinki, Finland
 
-![Emily Öhman](img/emily.jpeg)
+## Vice-President
 
-**Emily Öhman**
+![Mika Hämäläinen](img/mika.jpeg)
 
-Waseda University, Japan
+**Mika Hämäläinen** 
 
-![Yuri Bizzoni](img/yuri.jpg)
+Metropolia University of Applied Sciences, Finland
 
-**Yuri Bizzoni**
+## Members
 
-Aarhus University, Denmark
+<!--- ![Janine Siewert](img/janine.jpg) -->
 
-![Robert Nordström](img/robert.jpg)
+**Janine Siewert**
 
-**Robert Nordström**
+University of Helsinki, Finland
 
-Waseda University, Japan
+![Trond Trosterud](img/trond.jpg)
+
+**Trond Trosterud**
+
+UiT The Arctic University of Norway, Norway
+
+![Joshua Wilbur](img/joshua.jpg)
+
+**Joshua Wilbur**
+
+University of Tartu, Estonia
+
+![Iaroslav Chelombitko](img/iaroslav.jpg)
+
+**Iaroslav Chelombitko**
+
+Neapolis University Pafos, Cyprus
+
+![Nikolett Mus](img/nikolett.jpg)
+
+**Nikolett Mus**
+
+Hungarian Research Centre for Linguistics, Hungary
 
 ## Former Presidents
 
-* Flammie Pirinen 2016-2023
+### 2023-2025
+
+![Mika Hämäläinen](img/mika.jpeg)
+
+**Mika Hämäläinen** 
+
+### 2016-2023
+
+**Flammie Pirinen**
+
+![Flammie Pirinen](img/flammie.jpg)
