@@ -14,7 +14,7 @@ The 10th International Workshop on Computational Linguistics for Uralic Language
 </div>
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='/iwclul_2025_proceedings.pdf'" >Proceedings</button> <span style="padding-left: 32px;"></span> 
+  <button name="button" onclick="location.href='https://aclanthology.org/volumes/2025.iwclul-1/'" >Proceedings</button> <span style="padding-left: 32px;"></span> 
 </div>
 
 
