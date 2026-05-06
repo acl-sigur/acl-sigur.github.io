@@ -6,7 +6,7 @@ title: IWCLUL 2026
 # The 11th International Workshop on Computational Linguistics for Uralic Languages IWCLUL 2026
 
 
-The 11th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2026) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place in December 10-11, 2026 in Munich, Germany at [University of Eastern Finland](https://www.uef.fi/en/joensuu-campus). 
+The 11th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2026) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place December 10-11, 2026 with a workshop on December 9, 2026 in Munich, Germany at [Ludwig Maximilian University of Munich](https://www.lmu.de/en/joensuu-campus). 
 
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
@@ -18,7 +18,7 @@ The 11th International Workshop on Computational Linguistics for Uralic Language
 </div>
 
 
-The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Finnish, Hungarian, Estonian, Võro, the Sámi languages, Komi (Zyrian, Permyak), Mordvin (Erzya, Moksha), Mari (Hill, Meadow), Udmurt, Nenets (Tundra, Forest), Enets, Nganasan, Selkup, Mansi, Khanty, Veps, Karelian (Olonets), Karelian, Ingrian (Izhorian), Votic, Livonian and Ludic). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
+The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Samoyedic (Nenets, Enets, Nganasan, Selkup), Ugric (Hungarian, Khanty, Mansi), Permic (Zyrian-Komi, Permyak-Komi, Udmurt), Balto-Finnic (Estonian, Finnish, Ingrian (Izhorian), Karelian (Livvi/Olonets, Viena, Southern), Livonian and Ludic, Veps, Votic, Võro), the Sámi languages, Mordvin (Erzya, Moksha) and Mari (Hill; East & Meadow). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
 
 - Multilingual approaches in NLP presenting work on at least one Uralic language
 - LLMs and their use in the context of (endangered) Uralic languages
@@ -32,6 +32,7 @@ The purpose of IWCLUL is to bring together researchers working on computational 
 - Any work that aims at combining efforts and reducing duplication of work
 - How to elicit activity from the language community, agitation campaigns, games with a purpose
 
+<!--
 ## Paper submission
 
 We solicit original and unpublished work related to NLP approaches for Uralic languages. Short papers can be up to 4 pages in length and long papers up to 8 pages. Both submission formats can have an unlimited number of pages for references. All submissions must follow the [ACL stylesheet](https://github.com/acl-org/acl-style-files) ([Overleaf template](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj)).
@@ -176,3 +177,4 @@ Agora-Building (Yliopistokatu 4)
 - David Dale, FAIR at Meta
 - Abhi Desai, New England College
 
+-->
