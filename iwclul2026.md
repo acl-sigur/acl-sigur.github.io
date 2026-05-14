@@ -71,7 +71,9 @@ Munich, Germany at [Ludwig Maximilian University of Munich](https://www.lmu.de/)
 - Jack Rueter, University of Helsinki
 - Mika Hämäläinen, Metropolia University of Applied Sciences
 - Flammie Pirinen, UiT The Arctic University of Norway
-
+- Ilia Egorov, Ludwig Maximilian University of Munich
+- Ksenia Shagal, Ludwig Maximilian University of Munich
+- Janine Siewert, University of Augsburg
   
 
 **In case of questions, you can send an email to jack.rueter@helsinki.fi**
