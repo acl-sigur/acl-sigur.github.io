@@ -6,7 +6,7 @@ title: IWCLUL 2026
 # The 11th International Workshop on Computational Linguistics for Uralic Languages IWCLUL 2026
 
 
-The 11th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2026) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place December 9-11, 2026 in Munich, Germany at [Ludwig Maximilian University of Munich](https://www.lmu.de/). 
+The 11th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2026) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place December 9-11, 2026 in Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de/). 
 
 <!--
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
@@ -64,15 +64,17 @@ All times are Anywhere on Earth (AoE).
 
 ## Venue
 
-Munich, Germany at [Ludwig Maximilian University of Munich](https://www.lmu.de/)
+Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de/)
 
 ## Organizers
 
 - Jack Rueter, University of Helsinki
+- Jeremy Bradley, Ludwig-Maximilians-Universität München
 - Mika Hämäläinen, Metropolia University of Applied Sciences
 - Flammie Pirinen, UiT The Arctic University of Norway
-- Ilia Egorov, Ludwig Maximilian University of Munich
-- Ksenia Shagal, Ludwig Maximilian University of Munich
+- Ilia Egorov, Ludwig-Maximilians-Universität München
+- Niko Partanen, University of Helsinki
+- Ksenia Shagal, Ludwig-Maximilians-Universität München
 - Janine Siewert, University of Augsburg
   
 
