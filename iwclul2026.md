@@ -8,10 +8,10 @@ title: IWCLUL 2026
 
 The 11th International Workshop on Computational Linguistics for Uralic Languages (IWCLUL 2026) will be organized as a self-standing event. The proceedings of the event will be published in [the ACL anthology](https://aclanthology.org). The conference will take place December 9-11, 2026 in Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de/). 
 
-<!--
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://zenodo.org/records/17751061'" >Lightning Proceedings</button> <span style="padding-left: 32px;"></span> 
+  <button name="button" onclick="location.href='https://openreview.net/group?id=IWCLUL/2026/Workshop#tab-recent-activity'" >Submit paper</button> <span style="padding-left: 32px;"></span> 
 </div>
+<!--
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
   <button name="button" onclick="location.href='https://aclanthology.org/volumes/2025.iwclul-1/'" >Proceedings</button> <span style="padding-left: 32px;"></span> 
