@@ -11,13 +11,13 @@ The 11th International Workshop on Computational Linguistics for Uralic Language
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
   <button name="button" onclick="location.href='https://openreview.net/group?id=IWCLUL/2026/Workshop#tab-recent-activity'" >Submit paper</button> <span style="padding-left: 32px;"></span> 
 </div>
-<!--
+
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='https://aclanthology.org/volumes/2025.iwclul-1/'" >Proceedings</button> <span style="padding-left: 32px;"></span> 
+  <button name="button" onclick="location.href='[https://aclanthology.org/volumes/2025.iwclul-1/](https://docs.google.com/forms/d/e/1FAIpQLScbxE70BQv74UexboA7N1y6wJD9-RUbBGBgOwkvIpjb0GTcqQ/viewform?usp=publish-editor)'" >Submit lightning paper</button> <span style="padding-left: 32px;"></span> 
 </div>
 
--->
+
 The purpose of IWCLUL is to bring together researchers working on computational approaches to [Uralic languages](https://en.wikipedia.org/wiki/Uralic_languages) (e.g. Samoyedic (Nenets, Enets, Nganasan, Selkup), Ugric (Hungarian, Khanty, Mansi), Permic (Zyrian-Komi, Permyak-Komi, Udmurt), Balto-Finnic (Estonian, Finnish, Ingrian (Izhorian), Karelian (Livvi/Olonets, Viena, Southern), Livonian and Ludic, Veps, Votic, Võro), the Sámi languages, Mordvin (Erzya, Moksha) and Mari (Hill; East & Meadow). All Uralic languages exhibit rich morphological structure, which makes processing them challenging for state-of-the-art computational linguistic approaches, the majority also suffer from a lack of resources and many are endangered. Appropriate topics include (but are not limited to):
 
 - Multilingual approaches in NLP presenting work on at least one Uralic language
