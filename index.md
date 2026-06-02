@@ -9,7 +9,7 @@ The **Association for Computational Linguistics Special Interest Group on Uralic
 
 ## IWCLUL
 
-**[IWCLUL 2025](iwclul2025.html)**
+**[IWCLUL 2026](iwclul2026.html)**
 
 The **International Workshop on Computational Linguistics for Uralic Languages (IWCLUL)** is an annual gathering that brings together researchers working on NLP, linguistics and language technology for Uralic languages. Since its inception in 2015, IWCLUL has served as a key venue for presenting advances in low-resource Uralic language processing, promoting resource creation and fostering collaboration across academia and language communities.
 
