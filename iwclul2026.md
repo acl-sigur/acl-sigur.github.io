@@ -14,7 +14,7 @@ The 11th International Workshop on Computational Linguistics for Uralic Language
 
 
 <div style="margin-left: 50px; margin-bottom: 32px; margin-top: 32px;">
-  <button name="button" onclick="location.href='[https://aclanthology.org/volumes/2025.iwclul-1/](https://docs.google.com/forms/d/e/1FAIpQLScbxE70BQv74UexboA7N1y6wJD9-RUbBGBgOwkvIpjb0GTcqQ/viewform?usp=publish-editor)'" >Submit lightning paper</button> <span style="padding-left: 32px;"></span> 
+  <button name="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScbxE70BQv74UexboA7N1y6wJD9-RUbBGBgOwkvIpjb0GTcqQ/viewform?usp=publish-editor'" >Submit lightning paper</button> <span style="padding-left: 32px;"></span> 
 </div>
 
 
