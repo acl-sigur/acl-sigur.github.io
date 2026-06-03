@@ -76,6 +76,7 @@ Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de
 - Niko Partanen, University of Helsinki
 - Ksenia Shagal, Ludwig-Maximilians-Universität München
 - Janine Siewert, University of Augsburg
+- Joshua Wilbur, University of Tartu
   
 
 **In case of questions, you can send an email to jack.rueter@helsinki.fi**
