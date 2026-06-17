@@ -70,7 +70,8 @@ Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de
 
 - Jack Rueter, University of Helsinki
 - Jeremy Bradley, Ludwig-Maximilians-Universität München
-- Mika Hämäläinen, Metropolia University of Applied Sciences
+- Mika Hämäläinen, Metropolia University of Applied Sciences, Helsinki
+- Nikolett Mus, ELTE Research Centre for Linguistics, Budapest
 - Flammie Pirinen, UiT The Arctic University of Norway
 - Ilia Egorov, Ludwig-Maximilians-Universität München
 - Niko Partanen, University of Helsinki
