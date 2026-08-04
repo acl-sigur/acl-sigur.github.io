@@ -70,11 +70,12 @@ Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de
 
 - Jack Rueter, University of Helsinki
 - Jeremy Bradley, Ludwig-Maximilians-Universität München
-- Mika Hämäläinen, Metropolia University of Applied Sciences, Helsinki
-- Nikolett Mus, ELTE Research Centre for Linguistics, Budapest
-- Flammie Pirinen, UiT The Arctic University of Norway
 - Ilia Egorov, Ludwig-Maximilians-Universität München
+- Mika Hämäläinen, Metropolia University of Applied Sciences, Helsinki
+- István Kozmács, Faculty of Central European Studies of Constantine the Philosopher University, Nitra
+- Nikolett Mus, ELTE Research Centre for Linguistics, Budapest
 - Niko Partanen, University of Helsinki
+- Flammie Pirinen, UiT The Arctic University of Norway
 - Ksenia Shagal, Ludwig-Maximilians-Universität München
 - Janine Siewert, University of Augsburg
 - Joshua Wilbur, University of Tartu
