@@ -84,17 +84,11 @@ Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de
 **In case of questions, you can send an email to jack.rueter@helsinki.fi**
 
 ## Program committee
-- Jules Bouton
-- Ilia Egorov
-- Valts Ernstreits
-- László Fejes
-- Enzo Gamboni
-- Csilla Horváth
-- Antti Kanner
-- Nikolett Mus
-- Flammie Pirinen
-- Lidia Pivovarova
-- Jack Rueter
-- Ksenia Shagal
-- Joshua Wilbur
+- Jules Bouton, Université Paris Citée
+- Valts Ernstreits, University of Latvia, Livonian Institute 
+- László Fejes, ELTE Research Centre for Linguistics 
+- Enzo Gamboni, Lakehead University
+- Csilla Horváth, University of Helsinki
+- Antti Kanner, University of Helsinki
+- Lidia Pivovarova, University of Helsinki
 
