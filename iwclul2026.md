@@ -84,5 +84,17 @@ Munich, Germany at [Ludwig-Maximilians-Universität München](https://www.lmu.de
 **In case of questions, you can send an email to jack.rueter@helsinki.fi**
 
 ## Program committee
+- Jules Bouton
+- Ilia Egorov
+- Valts Ernstreits
+- László Fejes
+- Enzo Gamboni
+- Csilla Horváth
+- Antti Kanner
+- Nikolett Mus
+- Flammie Pirinen
+- Lidia Pivovarova
+- Jack Rueter
+- Ksenia Shagal
+- Joshua Wilbur
 
-TBA
