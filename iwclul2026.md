@@ -55,7 +55,7 @@ We aim for an inclusive event and we understand that some people have difficulti
 
 ## Important dates:
 
-    Paper submission (full and short): October 11, 2026
+    Paper submission (full and short): October 18, 2026
     Notification of acceptance: November 2, 2026
     Camera ready deadline: November 15, 2026
     Workshop: December 9-11, 2026
