@@ -49,7 +49,70 @@ You may also contribute to the event by submitting a lightning talk. Lightning t
 
 ## Schedule
 
- TBA                                                                                                        |                  
+# IWCLUL 2026 Programme
+
+**The 11th International Workshop on Computational Linguistics for Uralic Languages**  
+Munich, Germany, 9–11 December 2026
+
+## Wednesday, 9 December 2026 — Projects in Munich
+
+| Time | |
+|---|---|
+| 13:00–13:10 | *Welcome* |
+| 13:10–16:40 | *Munich projects* |
+
+## Thursday, 10 December 2026
+
+| Time | |
+|---|---|
+| 09:00–09:10 | *Opening words* |
+| **09:10–09:35** | **Lightning talks** |
+| 09:10–09:15 | Taking Endangered Languages to LLM Era with UralicNLP Agentic Skills |
+| 09:15–09:20 | Weinbergers Lautmaschinen for Hungarian: Rules as Didactic Tools |
+| 09:20–09:25 | Automatic exercise generation for speakers and learners of Uralic languages |
+| 09:25–09:30 | LangJack v1.0: Bringing Finite-State Uralic Language Tools into the Browser |
+| 09:30–09:35 | Digitizing Old Literary Southern Saami |
+| 09:35–10:35 | *Plenary talk by Jeremy Bradley* |
+| 10:35–11:05 | *Coffee break* |
+| **11:05–12:45** | **Session 1: Infrastructure, documentation and corpora** |
+| 11:05–11:25 | UralicMCP within infrastructure of the Language Bank of Finland<br>*Niko Partanen, Erik Axelson, Mika Hämäläinen, Jack Rueter* |
+| 11:25–11:45 | Valery Chernetsov’s materials in a new diachronic corpus of Northern Mansi<br>*Daria Zhornik, Timofey Arkhangelskiy, Lorenz Staudacher* |
+| 11:45–12:05 | The order of subject, object, and verb in Hill Mari: A corpus-based study<br>*Irina Khomchenkova, Daria Belova* |
+| 12:05–12:25 | Creating a South Sámi Treebank and a rule-based dependency tool: How can we identify copula drop, conjunction drop and subject infinitives?<br>*Linda Wiechetek, Flammie A Pirinen* |
+| 12:25–12:45 | On Erzya and Moksha Corpora and Analyzer Development: ERME-PLSA 1956–2001 with Geolinguistic Provenance<br>*Jack Rueter, Olga Erina, Nadezhda Kabaeva* |
+| 12:45–13:45 | *Lunch break* |
+| **13:45–15:05** | **Session 2: Speech recognition and synthesis** |
+| 13:45–14:05 | Automatic Speech Recognition for Tundra Nenets: an exploratory study with limited transcribed data<br>*Nikolett Mus, Morgane Bona Pellissier, Aleksandra Miletić* |
+| 14:05–14:25 | Hungarian Speech Recognition From Machine-Transcribed Vojvodina Broadcasts: What Helped, What Did Not, and Why<br>*Anirudh Anil, Andela Acic* |
+| 14:25–14:45 | Training and Comparative Evaluation of Speech Generation Models for the Mansi Language<br>*Maria Satina, Odilzhon Negmatuloev, Mikhail Rusanov, Danil Shidlovskij, Vladislav Shulgin, Galina Kondina* |
+| 14:45–15:05 | Pocket-hu: A Small Voice-Cloning Text-to-Speech Model for Hungarian Trained on Machine-Transcribed Broadcast Speech<br>*Anirudh Anil, Andela Acic* |
+| 15:05–15:35 | *Coffee break* |
+| 15:35–17:35 | *Visit to the University Library* |
+
+## Friday, 11 December 2026
+
+| Time | |
+|---|---|
+| **09:00–10:20** | **Session 3: Text processing and dialect data** |
+| 09:00–09:20 | Rule-based methods for pre-processing text for Uralic text-to-speech<br>*Flammie A Pirinen* |
+| 09:20–09:40 | Hybrid Grapheme-to-Phoneme Model for Low-Resource Finnic Languages<br>*Sidharth Bildikar, Ezra Dubnicoff, David Yu, Abdelrahim Qaddoumi* |
+| 09:40–10:00 | Exploring Documentary Collections through Metadata: Examples from Kildin Sámi<br>*Sven Esser* |
+| 10:00–10:20 | What Stylometry can tell us about Sprachproben?<br>*Ilya Egorov* |
+| 10:20–10:50 | *Coffee break* |
+| **10:50–12:10** | **Session 4: Language models and rule-based tools** |
+| 10:50–11:10 | Do Rule-Based Tools Help LLMs Translate Endangered Uralic Languages in the Prompt or over MCP?<br>*Iaroslav Chelombitko, Mika Hämäläinen* |
+| 11:10–11:30 | Grounding Encoders and Word Embeddings in FSTs and Dictionaries for Uralic Languages<br>*Khalid Alnajjar, Jack Rueter, Mika Hämäläinen, Niko Partanen* |
+| 11:30–11:50 | Open-Source FUTO Keyboard Layouts and Predictive Text for a Few Endangered Languages<br>*Mika Hämäläinen, Jack Rueter, Khalid Alnajjar* |
+| 11:50–12:10 | Evidence-State Extraction in Finnish and English: Controlled and Exploratory Tests of Drone-Style Reports<br>*Yehor Tereshchenko, Mika Hämäläinen* |
+| 12:10–13:10 | *Lunch break* |
+| **13:10–14:50** | **Session 5: Hungarian and Finnish corpora and semantics** |
+| 13:10–13:30 | The Corpus of Hungarian Lyrical Poetry: A Manually Annotated Multi-Layer Resource<br>*Péter Horváth, Róbert Kopcsák, Noémi Prótár, Kata Heller, Emese K. Molnár, Gábor Simon, Márton Mészáros, Szilárd Tátrai* |
+| 13:30–13:50 | ELTE Novel Corpus: An Extensive Machine- and Human Annotated Corpus of Hungarian Novels<br>*Tímea Borbála Bajzát, Péter Horváth, Péter Kundráth, Bence Vétek, Emma Takács, Zsófia Fellegi, Balázs Indig, Bence Vida, Gábor Palkó* |
+| 13:50–14:10 | How I Met Hungarian Derivative Suffixes: Applying Mosaic Method for Describing Constructions at the Interface of Morphology and Syntax<br>*Balázs Indig, Tímea Borbála Bajzát* |
+| 14:10–14:30 | Separating Contextual Sensitivity from Lexical Preference in Large Language Models through Finnish Epistemic Particles<br>*Sercan Karakaş* |
+| 14:30–14:50 | Beyond dictionary forms: Inflection and semantic centrality in Finnish bird networks<br>*Alexandre Nikolaev* |
+| 14:50–15:00 | *Closing words* |
+                                                                                                        |                  
 
 ## Remote attendance
 
