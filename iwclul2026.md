@@ -80,9 +80,7 @@ Munich, Germany, 9–11 December 2026
 | 11:45–12:05 | The order of subject, object, and verb in Hill Mari: A corpus-based study<br>*Irina Khomchenkova, Daria Belova* |
 | 12:05–12:25 | Creating a South Sámi Treebank and a rule-based dependency tool: How can we identify copula drop, conjunction drop and subject infinitives?<br>*Linda Wiechetek, Flammie A Pirinen* |
 | 12:25–12:45 | On Erzya and Moksha Corpora and Analyzer Development: ERME-PLSA 1956–2001 with Geolinguistic Provenance<br>*Jack Rueter, Olga Erina, Nadezhda Kabaeva* |
-| 12:45–13:05 | The Specialized Information Service for Russian, East and
-Southeast European Studies: Infrastructure and Services for Finno-Ugric
-Studies<br>*Jakob Reuster* |
+| 12:45–13:05 | The Specialized Information Service for Russian, East and Southeast European Studies: Infrastructure and Services for Finno-Ugric Studies<br>*Jakob Reuster* |
 | 13:05–14:35 | *Lunch break* |
 | **14:35–15:55** | **Session 2: Speech recognition and synthesis** |
 | 14:35–14:55 | Automatic Speech Recognition for Tundra Nenets: an exploratory study with limited transcribed data<br>*Nikolett Mus, Morgane Bona Pellissier, Aleksandra Miletić* |
