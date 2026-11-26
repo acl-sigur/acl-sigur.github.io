@@ -80,14 +80,17 @@ Munich, Germany, 9–11 December 2026
 | 11:45–12:05 | The order of subject, object, and verb in Hill Mari: A corpus-based study<br>*Irina Khomchenkova, Daria Belova* |
 | 12:05–12:25 | Creating a South Sámi Treebank and a rule-based dependency tool: How can we identify copula drop, conjunction drop and subject infinitives?<br>*Linda Wiechetek, Flammie A Pirinen* |
 | 12:25–12:45 | On Erzya and Moksha Corpora and Analyzer Development: ERME-PLSA 1956–2001 with Geolinguistic Provenance<br>*Jack Rueter, Olga Erina, Nadezhda Kabaeva* |
-| 12:45–13:45 | *Lunch break* |
-| **13:45–15:05** | **Session 2: Speech recognition and synthesis** |
-| 13:45–14:05 | Automatic Speech Recognition for Tundra Nenets: an exploratory study with limited transcribed data<br>*Nikolett Mus, Morgane Bona Pellissier, Aleksandra Miletić* |
-| 14:05–14:25 | Hungarian Speech Recognition From Machine-Transcribed Vojvodina Broadcasts: What Helped, What Did Not, and Why<br>*Anirudh Anil, Andela Acic* |
-| 14:25–14:45 | Training and Comparative Evaluation of Speech Generation Models for the Mansi Language<br>*Maria Satina, Odilzhon Negmatuloev, Mikhail Rusanov, Danil Shidlovskij, Vladislav Shulgin, Galina Kondina* |
-| 14:45–15:05 | Pocket-hu: A Small Voice-Cloning Text-to-Speech Model for Hungarian Trained on Machine-Transcribed Broadcast Speech<br>*Anirudh Anil, Andela Acic* |
-| 15:05–15:35 | *Coffee break* |
-| 15:35–17:35 | *Visit to the University Library* |
+| 12:45–13:05 | The Specialized Information Service for Russian, East and
+Southeast European Studies: Infrastructure and Services for Finno-Ugric
+Studies<br>*Jakob Reuster* |
+| 13:05–14:35 | *Lunch break* |
+| **14:35–15:55** | **Session 2: Speech recognition and synthesis** |
+| 14:35–14:55 | Automatic Speech Recognition for Tundra Nenets: an exploratory study with limited transcribed data<br>*Nikolett Mus, Morgane Bona Pellissier, Aleksandra Miletić* |
+| 14:55–15:15 | Hungarian Speech Recognition From Machine-Transcribed Vojvodina Broadcasts: What Helped, What Did Not, and Why<br>*Anirudh Anil, Andela Acic* |
+| 15:15–15:35 | Training and Comparative Evaluation of Speech Generation Models for the Mansi Language<br>*Maria Satina, Odilzhon Negmatuloev, Mikhail Rusanov, Danil Shidlovskij, Vladislav Shulgin, Galina Kondina* |
+| 15:35–15:55 | Pocket-hu: A Small Voice-Cloning Text-to-Speech Model for Hungarian Trained on Machine-Transcribed Broadcast Speech<br>*Anirudh Anil, Andela Acic* |
+| 15:55–16:25 | *Coffee break* |
+| 16:25–18:25 | *Visit to the Bavarian State Library* |
 
 ## Friday, 11 December 2026
 
