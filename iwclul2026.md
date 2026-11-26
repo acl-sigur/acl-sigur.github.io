@@ -58,8 +58,8 @@ Munich, Germany, 9–11 December 2026
 
 | Time | |
 |---|---|
-| 13:00–13:10 | *Welcome* |
-| 13:10–16:40 | *Munich projects* |
+| 16:00–16:10 | *Welcome* |
+| 16:10–19:00 | *Munich projects* |
 
 ## Thursday, 10 December 2026
 
@@ -104,14 +104,14 @@ Munich, Germany, 9–11 December 2026
 | 11:10–11:30 | Grounding Encoders and Word Embeddings in FSTs and Dictionaries for Uralic Languages<br>*Khalid Alnajjar, Jack Rueter, Mika Hämäläinen, Niko Partanen* |
 | 11:30–11:50 | Open-Source FUTO Keyboard Layouts and Predictive Text for a Few Endangered Languages<br>*Mika Hämäläinen, Jack Rueter, Khalid Alnajjar* |
 | 11:50–12:10 | Evidence-State Extraction in Finnish and English: Controlled and Exploratory Tests of Drone-Style Reports<br>*Yehor Tereshchenko, Mika Hämäläinen* |
-| 12:10–13:10 | *Lunch break* |
-| **13:10–14:50** | **Session 5: Hungarian and Finnish corpora and semantics** |
-| 13:10–13:30 | The Corpus of Hungarian Lyrical Poetry: A Manually Annotated Multi-Layer Resource<br>*Péter Horváth, Róbert Kopcsák, Noémi Prótár, Kata Heller, Emese K. Molnár, Gábor Simon, Márton Mészáros, Szilárd Tátrai* |
-| 13:30–13:50 | ELTE Novel Corpus: An Extensive Machine- and Human Annotated Corpus of Hungarian Novels<br>*Tímea Borbála Bajzát, Péter Horváth, Péter Kundráth, Bence Vétek, Emma Takács, Zsófia Fellegi, Balázs Indig, Bence Vida, Gábor Palkó* |
-| 13:50–14:10 | How I Met Hungarian Derivative Suffixes: Applying Mosaic Method for Describing Constructions at the Interface of Morphology and Syntax<br>*Balázs Indig, Tímea Borbála Bajzát* |
-| 14:10–14:30 | Separating Contextual Sensitivity from Lexical Preference in Large Language Models through Finnish Epistemic Particles<br>*Sercan Karakaş* |
-| 14:30–14:50 | Beyond dictionary forms: Inflection and semantic centrality in Finnish bird networks<br>*Alexandre Nikolaev* |
-| 14:50–15:00 | *Closing words* |
+| 12:10–13:40 | *Lunch break* |
+| **13:40–15:20** | **Session 5: Hungarian and Finnish corpora and semantics** |
+| 13:40–14:00 | The Corpus of Hungarian Lyrical Poetry: A Manually Annotated Multi-Layer Resource<br>*Péter Horváth, Róbert Kopcsák, Noémi Prótár, Kata Heller, Emese K. Molnár, Gábor Simon, Márton Mészáros, Szilárd Tátrai* |
+| 14:00–14:20 | ELTE Novel Corpus: An Extensive Machine- and Human Annotated Corpus of Hungarian Novels<br>*Tímea Borbála Bajzát, Péter Horváth, Péter Kundráth, Bence Vétek, Emma Takács, Zsófia Fellegi, Balázs Indig, Bence Vida, Gábor Palkó* |
+| 14:20–14:30 | How I Met Hungarian Derivative Suffixes: Applying Mosaic Method for Describing Constructions at the Interface of Morphology and Syntax<br>*Balázs Indig, Tímea Borbála Bajzát* |
+| 14:30–14:50 | Separating Contextual Sensitivity from Lexical Preference in Large Language Models through Finnish Epistemic Particles<br>*Sercan Karakaş* |
+| 14:50–15:10 | Beyond dictionary forms: Inflection and semantic centrality in Finnish bird networks<br>*Alexandre Nikolaev* |
+| 15:10–15:30 | *Closing words* |
                                                                                                         |                  
 
 ## Remote attendance
